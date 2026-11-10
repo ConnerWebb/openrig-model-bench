@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-11-10T13:27:59.766251-06:00",
+  "campaign_active": true,
+  "campaign_pid_before": 2771366,
+  "campaign_pid_after": 2771366,
+  "test_process_unchanged": true,
+  "production_files_services_and_game_project_match_baseline": true,
+  "frozen_suite_verified": true,
+  "repository_checks_passed": 7,
+  "standalone_grader_positive_control_passed_cases": 23,
+  "standalone_grader_negative_control_rejected": true,
+  "accepted_cpp_binary_workspace_hash_verified_in_uploaded_archive": true,
+  "last_successful_backup": {
+    "at_utc": "2026-11-10T19:23:34.056881+00:00",
+    "export_errors": [],
+    "finished_case_records": 56,
+    "finished_transport_streams": 2925,
+    "head": "1037e0b299e24696e10620655ecb7e0d6a9d07f0",
+    "success": true
+  },
+  "scope": "Repository/backup setup only; no benchmark service restart, inference request, controller edit, firmware/driver change, or model installation."
+}
