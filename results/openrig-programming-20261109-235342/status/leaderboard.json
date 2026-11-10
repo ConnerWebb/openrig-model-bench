@@ -328,5 +328,23 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'q35'}",
+    "agents": 1,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 1201.3483810424805,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "solo-q35-py-csv-s42-h4",
+        "reason": "Bounded stage/job deadline exceeded: developer",
+        "resource_limited": false
+      }
+    ]
   }
 ]
