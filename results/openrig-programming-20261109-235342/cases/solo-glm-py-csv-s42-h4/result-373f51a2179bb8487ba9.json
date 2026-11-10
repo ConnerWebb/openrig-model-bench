@@ -1,0 +1,36 @@
+{
+  "id": "solo-glm-py-csv-s42-h4",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "developer": "glm"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h4",
+  "started": 1794349117.7904532,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-09a41c28c68a",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794349118.8025982
+    },
+    {
+      "attempt": 2,
+      "started": 1794350055.2059603
+    },
+    {
+      "attempt": 3,
+      "started": 1794350697.5821922
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "finished": 1794351189.8327608,
+  "seconds": 2072.04230761528,
+  "resource_limited": false
+}
