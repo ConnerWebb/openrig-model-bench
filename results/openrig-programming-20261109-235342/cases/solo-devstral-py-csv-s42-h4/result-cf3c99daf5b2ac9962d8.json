@@ -1,0 +1,36 @@
+{
+  "id": "solo-devstral-py-csv-s42-h4",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "developer": "devstral"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h4",
+  "started": 1794338502.9633458,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-d3809288c577",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794338503.9597502
+    },
+    {
+      "attempt": 2,
+      "started": 1794339406.402911
+    },
+    {
+      "attempt": 3,
+      "started": 1794340308.954676
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "finished": 1794341211.5095532,
+  "seconds": 2708.5462074279785,
+  "resource_limited": false
+}
