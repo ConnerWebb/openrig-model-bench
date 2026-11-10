@@ -346,5 +346,23 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'q35'}",
+    "agents": 1,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 1201.174958705902,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "solo-q35-cpp-buffer-s42-h4",
+        "reason": "Bounded stage/job deadline exceeded: developer",
+        "resource_limited": false
+      }
+    ]
   }
 ]
