@@ -54,5 +54,19 @@
     "seed": 42,
     "context": 32768,
     "replay": false
+  },
+  "campaign-nemo-s42-c32768": {
+    "source": "nemotron-3-nano:30b",
+    "key": "nemo",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
+  },
+  "campaign-q122-s42-c32768": {
+    "source": "qwen3.5:122b",
+    "key": "q122",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
   }
 }

@@ -587,6 +587,21 @@
     "stored_result_sha256": "cf3c99daf5b2ac9962d807fc065e9d1b4df77ecb3be0516fa0eaabec3ee66d97"
   },
   {
+    "artifact": "artifacts/cases/solo-glm-cpp-buffer-s42-h4-832dcee06092ea500177.tar.gz",
+    "complete": false,
+    "directory": "solo-glm-cpp-buffer-s42-h4",
+    "id": "solo-glm-cpp-buffer-s42-h4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "glm"
+    },
+    "phase": "solo",
+    "revision": "h4",
+    "source_result_sha256": "832dcee06092ea500177ff0171a5ae220d7d75ceb0e29b196a4ce5014875c829",
+    "stored_result_sha256": "832dcee06092ea500177ff0171a5ae220d7d75ceb0e29b196a4ce5014875c829"
+  },
+  {
     "artifact": "artifacts/cases/solo-glm-py-csv-s42-h4-373f51a2179bb8487ba9.tar.gz",
     "complete": false,
     "directory": "solo-glm-py-csv-s42-h4",
@@ -600,6 +615,36 @@
     "revision": "h4",
     "source_result_sha256": "373f51a2179bb8487ba93dbc3fc82c344c42ab5f864fa7e897ec541a9d929aed",
     "stored_result_sha256": "373f51a2179bb8487ba93dbc3fc82c344c42ab5f864fa7e897ec541a9d929aed"
+  },
+  {
+    "artifact": "artifacts/cases/solo-nemo-cpp-buffer-s42-h4-eac448322e60dc948922.tar.gz",
+    "complete": false,
+    "directory": "solo-nemo-cpp-buffer-s42-h4",
+    "id": "solo-nemo-cpp-buffer-s42-h4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "nemo"
+    },
+    "phase": "solo",
+    "revision": "h4",
+    "source_result_sha256": "eac448322e60dc94892201bd12596e967641f101eca6d903d7439c09e87723c3",
+    "stored_result_sha256": "eac448322e60dc94892201bd12596e967641f101eca6d903d7439c09e87723c3"
+  },
+  {
+    "artifact": "artifacts/cases/solo-nemo-py-csv-s42-h4-4f97901ae79798695ef2.tar.gz",
+    "complete": false,
+    "directory": "solo-nemo-py-csv-s42-h4",
+    "id": "solo-nemo-py-csv-s42-h4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "nemo"
+    },
+    "phase": "solo",
+    "revision": "h4",
+    "source_result_sha256": "4f97901ae79798695ef218572b48956a32812dd67c8112168d95b37e68fc7296",
+    "stored_result_sha256": "4f97901ae79798695ef218572b48956a32812dd67c8112168d95b37e68fc7296"
   },
   {
     "artifact": "artifacts/cases/solo-next-cpp-binary-s42-dd2c57ea215bc7976163.tar.gz",

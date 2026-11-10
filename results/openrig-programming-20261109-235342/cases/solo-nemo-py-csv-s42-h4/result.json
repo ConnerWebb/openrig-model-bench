@@ -1,0 +1,36 @@
+{
+  "id": "solo-nemo-py-csv-s42-h4",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "developer": "nemo"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h4",
+  "started": 1794352393.2189512,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-d9e2ce48cb5e",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794352395.4159875
+    },
+    {
+      "attempt": 2,
+      "started": 1794352547.7006235
+    },
+    {
+      "attempt": 3,
+      "started": 1794352611.8589764
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "finished": 1794352680.0249665,
+  "seconds": 286.806015253067,
+  "resource_limited": false
+}

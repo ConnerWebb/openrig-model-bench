@@ -1,29 +1,32 @@
 OPENRIG PYTHON / C++ CAMPAIGN — LIVE CHECKPOINT
 
 /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342
-State: {'phase': 'solo', 'at': 1794351190.1362865, 'pid': 2771366, 'harness_revision': 'h4', 'dispatch_plan': 'paired-language-screen-then-full-suite', 'current': 'solo-glm-cpp-buffer-s42-h4'}
+State: {'phase': 'solo', 'at': 1794352754.4742527, 'pid': 2771366, 'harness_revision': 'h4', 'dispatch_plan': 'paired-language-screen-then-full-suite', 'current': 'solo-q122-py-csv-s42-h4'}
 Active harness revision: h4
 Historical pre-repair results remain intact in runs/ and progress/; they are not mixed into this revision's rankings. All previous completed cells are rerun, including earlier passes.
 
 Independent task acceptance is the success criterion. Python and C++ are scored separately. Aliases are not additional models. Qualification and probes are not included in solo/team rankings.
 
 PHASE solo
-python: 4/11 accepted
+python: 4/12 accepted
   {'developer': 'q27q8'}, 1 agents: 1/1; sum job seconds 407.1; accepted/hour 8.842
   {'developer': 'next'}, 1 agents: 3/4; sum job seconds 6738.2; accepted/hour 1.603
+  {'developer': 'nemo'}, 1 agents: 0/1; sum job seconds 286.8; accepted/hour 0.000
   {'developer': 'q27q4'}, 1 agents: 0/1; sum job seconds 697.6; accepted/hour 0.000
   {'developer': 'q9'}, 1 agents: 0/1; sum job seconds 1201.3; accepted/hour 0.000
   {'developer': 'q35'}, 1 agents: 0/1; sum job seconds 1201.3; accepted/hour 0.000
   {'developer': 'coder30'}, 1 agents: 0/1; sum job seconds 1204.8; accepted/hour 0.000
   {'developer': 'glm'}, 1 agents: 0/1; sum job seconds 2072.0; accepted/hour 0.000
   {'developer': 'devstral'}, 1 agents: 0/1; sum job seconds 2708.5; accepted/hour 0.000
-cpp: 5/10 accepted
+cpp: 5/12 accepted
   {'developer': 'q9'}, 1 agents: 1/1; sum job seconds 368.7; accepted/hour 9.764
   {'developer': 'q27q8'}, 1 agents: 1/1; sum job seconds 619.0; accepted/hour 5.816
   {'developer': 'next'}, 1 agents: 3/4; sum job seconds 2014.6; accepted/hour 5.361
+  {'developer': 'nemo'}, 1 agents: 0/1; sum job seconds 73.3; accepted/hour 0.000
   {'developer': 'q27q4'}, 1 agents: 0/1; sum job seconds 387.4; accepted/hour 0.000
   {'developer': 'coder30'}, 1 agents: 0/1; sum job seconds 1201.2; accepted/hour 0.000
   {'developer': 'q35'}, 1 agents: 0/1; sum job seconds 1201.2; accepted/hour 0.000
+  {'developer': 'glm'}, 1 agents: 0/1; sum job seconds 1201.2; accepted/hour 0.000
   {'developer': 'devstral'}, 1 agents: 0/1; sum job seconds 1816.9; accepted/hour 0.000
 PHASE teams
 python: 0/0 accepted
