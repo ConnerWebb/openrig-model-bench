@@ -4,7 +4,9 @@ Each campaign lives under `results/<campaign-id>/`. `SNAPSHOT.json` states when 
 
 `cases/<directory>/result.json` preserves the recorded result. The directory name is retained because an archived interrupted directory may share its internal case ID with a later attempt. `CASE-INDEX.json` lists them all without merging failures and interruptions into later scores.
 
-`artifacts/cases/*.tar.gz` contains completed case workspaces, required source, saved tests, test receipts, native queue evidence and available agent session histories. Workspace binaries are retained when present, but external compiler caches, credentials and agent auth/settings are omitted. Each bundle contains `EXPORT-MANIFEST.json` with source/stored hashes and any omissions or credential redactions. Do not assume that a sanitized/incomplete export reproduces an original artifact hash: inspect that ledger.
+`artifacts/cases/*.tar.gz` contains completed case workspaces, required source, saved tests, test receipts, native queue evidence and available agent session histories. Use each case index record's `artifact` field: current archive names include a result-content hash so a reused case directory cannot replace an earlier interrupted attempt. Older directory-only archive names remain as historical snapshots. Immutable `result-<hash>.json` files preserve each recorded result alongside its latest convenience copy.
+
+Workspace binaries are retained when present, but external compiler caches, credentials and agent auth/settings are omitted. Each bundle contains `EXPORT-MANIFEST.json` with source/stored hashes and any omissions or credential redactions. Do not assume that a sanitized/incomplete export reproduces an original artifact hash: inspect that ledger.
 
 `artifacts/transport/*.tar.gz` groups finished model HTTP streams by UUID. These preserve request bodies, raw response streams and timing records. `artifacts/evidence/` preserves qualifications, baseline replay, repair comparisons, operator snapshots and later parallel phases.
 

@@ -25,10 +25,14 @@ class SnapshotSafety(unittest.TestCase):
    for label,ok,interrupted in [('pass',True,False),('failure',False,False),('interrupted',False,True)]:
     case=source/'runs'/label;project=case/'seats/dev/project';project.mkdir(parents=True);(project/'solution.py').write_text('print("saved")\n');(project/'program').write_bytes(b'\x7fELF\x00saved');agent=case/'transcripts/dev/agent';agent.mkdir(parents=True);(agent/'auth.json').write_text('{"secret":"must-not-upload"}');(project/'escape').symlink_to('/etc/passwd');(case/'result.json').write_text(json.dumps({'id':label,'phase':'solo','language':'python','complete':ok,'interrupted':interrupted,'finished':time.time()-120}))
    (source/'runs/active').mkdir();summary=snapshot(source,repo);self.assertEqual(summary['completed_case_records'],3);self.assertEqual(summary['in_progress_not_scored'],['active']);self.assertEqual(json.loads((source/'campaign-status.json').read_text()),status)
-   bundle=repo/'results/source/artifacts/cases/pass.tar.gz'
+   record=next(r for r in json.loads((repo/'results/source/CASE-INDEX.json').read_text()) if r['directory']=='pass');bundle=repo/'results/source'/record['artifact']
    with tarfile.open(bundle) as archive:
     names=archive.getnames();self.assertTrue(any(n.endswith('/program') for n in names));self.assertFalse(any('auth.json' in n or n.endswith('/escape') for n in names));self.assertEqual(archive.extractfile('seats/dev/project/program').read(),b'\x7fELF\x00saved')
    old=hashlib.sha256(bundle.read_bytes()).hexdigest();snapshot(source,repo);self.assertEqual(hashlib.sha256(bundle.read_bytes()).hexdigest(),old)
+   # The campaign can rename an interrupted attempt and reuse its canonical
+   # directory. A new result must never point at the earlier artifact bundle.
+   case=source/'runs/pass';result=json.loads((case/'result.json').read_text());result['attempts']=2;(case/'result.json').write_text(json.dumps(result));(case/'seats/dev/project/solution.py').write_text('print("new attempt")\n');snapshot(source,repo);new=next(r for r in json.loads((repo/'results/source/CASE-INDEX.json').read_text()) if r['directory']=='pass');self.assertNotEqual(record['artifact'],new['artifact']);self.assertTrue(bundle.exists())
+   with tarfile.open(repo/'results/source'/new['artifact']) as archive:self.assertIn(b'new attempt',archive.extractfile('seats/dev/project/solution.py').read())
    with (source/'events.jsonl').open('a') as f:f.write('{"next":2}\n')
    snapshot(source,repo);index=json.loads((repo/'results/source/telemetry/events.jsonl/INDEX.json').read_text());self.assertEqual(index['offset'],(source/'events.jsonl').stat().st_size);self.assertEqual(len(index['chunks']),2)
    q=source/'qualification-growing';q.mkdir();(q/'first.json').write_text('{}');snapshot(source,repo);before=set((repo/'results/source/artifacts/evidence').glob('qualification-growing-*.tar.gz'));(q/'second.json').write_text('{"passed":true}');snapshot(source,repo);after=set((repo/'results/source/artifacts/evidence').glob('qualification-growing-*.tar.gz'));self.assertEqual(len(before),1);self.assertEqual(len(after),2)

@@ -77,8 +77,9 @@ def snapshot(source,repository):
    if not result.exists():partial.append(case.name);continue
    raw=stable_bytes(result);r=json.loads(raw)
    if r.get('finished',cutoff)>cutoff-30 or r.get('id') in active:partial.append(case.name);continue
-   data,n=scrub(raw);atomic(destination/'cases'/case.name/'result.json',data)
-   bundle(tree(case),destination/'artifacts/cases'/(case.name+'.tar.gz'));records.append({'directory':case.name,'id':r.get('id'),'phase':r.get('phase'),'revision':r.get('harness_revision','historical'),'language':r.get('language'),'models':r.get('models'),'complete':r.get('complete'),'interrupted':r.get('interrupted',False),'source_result_sha256':digest(raw),'stored_result_sha256':digest(data)})
+   data,n=scrub(raw);identity=digest(raw);atomic(destination/'cases'/case.name/'result.json',data);atomic(destination/'cases'/case.name/('result-'+identity[:20]+'.json'),data)
+   artifact=pathlib.Path('artifacts/cases')/(case.name+'-'+identity[:20]+'.tar.gz')
+   bundle(tree(case),destination/artifact);records.append({'directory':case.name,'id':r.get('id'),'phase':r.get('phase'),'revision':r.get('harness_revision','historical'),'language':r.get('language'),'models':r.get('models'),'complete':r.get('complete'),'interrupted':r.get('interrupted',False),'source_result_sha256':identity,'stored_result_sha256':digest(data),'artifact':str(artifact)})
   except (OSError,ValueError) as e:errors.append({'scope':'case','id':case.name,'error':str(e)})
  # Only finished HTTP streams have a metrics record. Every UUID is archived once.
  done=set(state.get('transport_ids',[]));pending=[]
