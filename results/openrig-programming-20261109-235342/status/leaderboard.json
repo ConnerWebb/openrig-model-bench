@@ -310,5 +310,23 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'devstral'}",
+    "agents": 1,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 1816.9016478061676,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "solo-devstral-cpp-buffer-s42-h4",
+        "reason": "Six unchanged repetitions of the same command and output; no progress",
+        "resource_limited": false
+      }
+    ]
   }
 ]
