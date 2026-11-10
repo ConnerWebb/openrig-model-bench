@@ -12,6 +12,7 @@ This repository backs up the experiment. It is **not the live campaign directory
 - [Individual result records](results/openrig-programming-20261109-235342/cases)
 - [Source, test evidence and agent histories](results/openrig-programming-20261109-235342/artifacts/cases)
 - [Exact model requests, streamed responses and timings](results/openrig-programming-20261109-235342/artifacts/transport)
+- [Searchable per-request timing index](results/openrig-programming-20261109-235342/STREAM-INDEX.json)
 - [Memory and event timelines](results/openrig-programming-20261109-235342/telemetry)
 - [Baseline, qualification, repair and comparison evidence](results/openrig-programming-20261109-235342/artifacts/evidence)
 

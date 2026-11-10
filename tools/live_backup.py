@@ -5,15 +5,19 @@ from tools.snapshot import snapshot,write_json
 def git(repository,*args):
  return subprocess.run(['git','-C',str(repository),'-c','pack.threads=1','-c','pack.windowMemory=32m','-c','core.compression=1',*args],capture_output=True,text=True,timeout=300)
 def run_once(repository,source,push=True):
+ if git(repository,'branch','--show-current').stdout.strip()!='main':raise RuntimeError('Backup waits while the checkout is on a branch other than main')
+ if git(repository,'rev-parse','--verify','MERGE_HEAD').returncode==0:raise RuntimeError('Backup waits for the current Git merge to finish')
  summary=snapshot(source,repository);r=git(repository,'add','--','results')
  if r.returncode:raise RuntimeError(r.stderr[-2000:])
  if git(repository,'diff','--cached','--quiet','--','results').returncode:
-  r=git(repository,'commit','-m','Preserve campaign progress '+summary['as_of_utc'])
+  r=git(repository,'commit','--only','-m','Preserve campaign progress '+summary['as_of_utc'],'--','results')
   if r.returncode:raise RuntimeError(r.stderr[-2000:])
+ head=git(repository,'rev-parse','HEAD').stdout.strip()
  if push:
-  r=git(repository,'push','origin','HEAD:main')
+  if git(repository,'branch','--show-current').stdout.strip()!='main':raise RuntimeError('Checkout changed branches during export; local commit retained')
+  r=git(repository,'push','origin',head+':refs/heads/main')
   if r.returncode:raise RuntimeError('GitHub push failed; local commits retained for retry: '+r.stderr[-1500:])
- result={'success':True,'at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'head':git(repository,'rev-parse','HEAD').stdout.strip(),'finished_case_records':summary['completed_case_records'],'finished_transport_streams':summary['finished_transport_streams'],'export_errors':summary['export_errors']};write_json(repository/'.local-backup/status.json',result);print(json.dumps(result),flush=True)
+ result={'success':True,'at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'head':head,'finished_case_records':summary['completed_case_records'],'finished_transport_streams':summary['finished_transport_streams'],'export_errors':summary['export_errors']};write_json(repository/'.local-backup/status.json',result);print(json.dumps(result),flush=True)
  if summary['export_errors']:raise RuntimeError('Partial export; see SNAPSHOT.json and retained local originals')
  return result
 def main():

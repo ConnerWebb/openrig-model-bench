@@ -94,6 +94,11 @@ def snapshot(source,repository):
   for d in batch:files.extend(tree(d,d.name))
   bundle(files,destination/'artifacts/transport'/('batch-'+identity+'.tar.gz'));done.update(d.name for d in batch)
  state['transport_ids']=sorted(done)
+ metrics=[]
+ for id in sorted(done):
+  try:row=json.loads(stable_bytes(source/'transport'/id/'metrics.json'));data,n=scrub(json.dumps(row).encode());metrics.append(json.loads(data))
+  except (OSError,ValueError):continue
+ write_json(destination/'STREAM-INDEX.json',{'streams':metrics,'raw_bundles':'artifacts/transport/','note':'Each UUID identifies request.json, response.jsonl and metrics.json within one immutable bundle.'})
  for name in ['events.jsonl','memory-timeline.jsonl']:append_log(source/name,destination/'telemetry'/name,state,name)
  for p in source.iterdir():
   if p.is_file() and (p.name in ROOT_FILES or p.name.endswith('-sha256.json')):

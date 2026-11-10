@@ -1,0 +1,22 @@
+[Unit]
+Description=Independent model benchmark GitHub backup
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+WorkingDirectory=/PATH/TO/openrig-model-bench
+ExecStart=/usr/bin/python3 tools/live_backup.py --repo /PATH/TO/openrig-model-bench --source /PATH/TO/CAMPAIGN --interval 900 --unit NAME.service
+Restart=on-failure
+RestartSec=60
+Nice=19
+CPUQuota=20%
+MemoryMax=512M
+MemorySwapMax=0
+IOWeight=10
+IOSchedulingClass=idle
+TasksMax=64
+TimeoutStopSec=60
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target

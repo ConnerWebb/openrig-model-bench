@@ -12,7 +12,7 @@ Credential files are excluded. Common credential token/private-key patterns are 
 
 Source directory, repository path and authentication remain in local service configuration, not in a committed credential file. Git uses the already signed-in GitHub account. Backup status is written to the ignored `.local-backup/status.json`. A failed network push retains local commits for retry. Export errors are recorded in the uploaded snapshot rather than hidden.
 
-The service performs a final export after campaign completion and disables its own future startup. It remains independent of the benchmark service, so a backup failure does not interrupt tests.
+The service performs a final export after campaign completion and disables its own future startup. It remains independent of the benchmark service, so a backup failure does not interrupt tests. It pauses Git writes on feature branches or during a merge, and commits only generated results, leaving unrelated staged changes alone. A locked desktop keyring or expired GitHub login can delay uploads; local commits remain until authentication is available again.
 
 For a different campaign, explicitly configure a new sidecar pointing to its output directory. The tool refuses overlapping repository/source trees. Run a one-time export with:
 
