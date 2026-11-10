@@ -1,0 +1,500 @@
+{
+  "as_of": "2026-11-10T17:34:32.774415-06:00",
+  "harness_revision": "h4",
+  "models": [
+    {
+      "model": "next",
+      "label": "Coder-Next 80B",
+      "observations": "Python queue seed43 failed code/tests and exhausted repairs. C++ queue authored test hung; timeout recorded after one attempt. Different, broader task subset.",
+      "python": {
+        "passed": 3,
+        "finished": 4,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-next-py-queue-s42-h4",
+            "task": "py-queue",
+            "seed": 42,
+            "passed": true,
+            "minutes": 42.482995716730755,
+            "attempts": 3,
+            "failure": null,
+            "resource_limited": false
+          },
+          {
+            "id": "solo-next-py-refactor-s42-h4",
+            "task": "py-refactor",
+            "seed": 42,
+            "passed": true,
+            "minutes": 1.904678726196289,
+            "attempts": 1,
+            "failure": null,
+            "resource_limited": false
+          },
+          {
+            "id": "solo-next-py-archive-s42-h4",
+            "task": "py-archive",
+            "seed": 42,
+            "passed": true,
+            "minutes": 22.7739888270696,
+            "attempts": 2,
+            "failure": null,
+            "resource_limited": false
+          },
+          {
+            "id": "solo-next-py-queue-s43-h4",
+            "task": "py-queue",
+            "seed": 43,
+            "passed": false,
+            "minutes": 45.1412596821785,
+            "attempts": 3,
+            "failure": "Repair budget exhausted",
+            "resource_limited": false
+          }
+        ]
+      },
+      "cpp": {
+        "passed": 3,
+        "finished": 4,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-next-cpp-queue-s42-h4",
+            "task": "cpp-queue",
+            "seed": 42,
+            "passed": false,
+            "minutes": 16.48558646440506,
+            "attempts": 1,
+            "failure": "Fifteen-minute agent-turn deadline reached",
+            "resource_limited": false
+          },
+          {
+            "id": "solo-next-cpp-csv-s42-h4",
+            "task": "cpp-csv",
+            "seed": 42,
+            "passed": true,
+            "minutes": 13.393931297461192,
+            "attempts": 1,
+            "failure": null,
+            "resource_limited": false
+          },
+          {
+            "id": "solo-next-cpp-stats-s42-h4",
+            "task": "cpp-stats",
+            "seed": 42,
+            "passed": true,
+            "minutes": 1.6961564660072326,
+            "attempts": 1,
+            "failure": null,
+            "resource_limited": false
+          },
+          {
+            "id": "solo-next-cpp-binary-s42-h4",
+            "task": "cpp-binary",
+            "seed": 42,
+            "passed": true,
+            "minutes": 2.001810828844706,
+            "attempts": 1,
+            "failure": null,
+            "resource_limited": false
+          }
+        ]
+      }
+    },
+    {
+      "model": "coder30",
+      "label": "Qwen3-Coder 30B",
+      "observations": "Unparsed/malformed tool-call text and no completed validation; both timed out. Not a pure coding-correctness verdict.",
+      "python": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-coder30-py-csv-s42-h4",
+            "task": "py-csv",
+            "seed": 42,
+            "passed": false,
+            "minutes": 20.07918481429418,
+            "attempts": 1,
+            "failure": "Bounded stage/job deadline exceeded: developer",
+            "resource_limited": false
+          }
+        ]
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-coder30-cpp-buffer-s42-h4",
+            "task": "cpp-buffer",
+            "seed": 42,
+            "passed": false,
+            "minutes": 20.019354943434397,
+            "attempts": 1,
+            "failure": "Bounded stage/job deadline exceeded: developer",
+            "resource_limited": false
+          }
+        ]
+      }
+    },
+    {
+      "model": "devstral",
+      "label": "Devstral Small 2",
+      "observations": "Python own-test newline/escaping errors despite passing fixed public checks at one snapshot; C++ no-progress command repetition.",
+      "python": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-devstral-py-csv-s42-h4",
+            "task": "py-csv",
+            "seed": 42,
+            "passed": false,
+            "minutes": 45.142436790466306,
+            "attempts": 3,
+            "failure": "Repair budget exhausted",
+            "resource_limited": false
+          }
+        ]
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-devstral-cpp-buffer-s42-h4",
+            "task": "cpp-buffer",
+            "seed": 42,
+            "passed": false,
+            "minutes": 30.281694130102792,
+            "attempts": 3,
+            "failure": "Six unchanged repetitions of the same command and output; no progress",
+            "resource_limited": false
+          }
+        ]
+      }
+    },
+    {
+      "model": "q35",
+      "label": "Qwen3.5 35B",
+      "observations": "Timeouts. Python public and authored checks passed at a snapshot, but no final closure/private acceptance. C++ own-test parser failed.",
+      "python": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-q35-py-csv-s42-h4",
+            "task": "py-csv",
+            "seed": 42,
+            "passed": false,
+            "minutes": 20.022473017374676,
+            "attempts": 1,
+            "failure": "Bounded stage/job deadline exceeded: developer",
+            "resource_limited": false
+          }
+        ]
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-q35-cpp-buffer-s42-h4",
+            "task": "cpp-buffer",
+            "seed": 42,
+            "passed": false,
+            "minutes": 20.019582645098367,
+            "attempts": 1,
+            "failure": "Bounded stage/job deadline exceeded: developer",
+            "resource_limited": false
+          }
+        ]
+      }
+    },
+    {
+      "model": "q9",
+      "label": "Qwen3.5 9B",
+      "observations": "Python authored CSV fixtures failed; C++ passed.",
+      "python": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-q9-py-csv-s42-h4",
+            "task": "py-csv",
+            "seed": 42,
+            "passed": false,
+            "minutes": 20.021994642416637,
+            "attempts": 1,
+            "failure": "Bounded stage/job deadline exceeded: developer",
+            "resource_limited": false
+          }
+        ]
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0,
+        "cases": [
+          {
+            "id": "solo-q9-cpp-buffer-s42-h4",
+            "task": "cpp-buffer",
+            "seed": 42,
+            "passed": true,
+            "minutes": 6.1451525847117106,
+            "attempts": 1,
+            "failure": null,
+            "resource_limited": false
+          }
+        ]
+      }
+    },
+    {
+      "model": "q27q4",
+      "label": "Local Qwen 27B Q4",
+      "observations": "Python fixed checks passed but zero authored unittest cases discovered; no-progress loops. C++ also stalled without verified completion.",
+      "python": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-q27q4-py-csv-s42-h4",
+            "task": "py-csv",
+            "seed": 42,
+            "passed": false,
+            "minutes": 11.626895427703857,
+            "attempts": 3,
+            "failure": "Repair budget exhausted",
+            "resource_limited": false
+          }
+        ]
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-q27q4-cpp-buffer-s42-h4",
+            "task": "cpp-buffer",
+            "seed": 42,
+            "passed": false,
+            "minutes": 6.457256154219309,
+            "attempts": 3,
+            "failure": "Repair budget exhausted",
+            "resource_limited": false
+          }
+        ]
+      }
+    },
+    {
+      "model": "q27q8",
+      "label": "Local Qwen 27B Q8",
+      "observations": "Both common screen tasks passed; C++ needed two attempts.",
+      "python": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0,
+        "cases": [
+          {
+            "id": "solo-q27q8-py-csv-s42-h4",
+            "task": "py-csv",
+            "seed": 42,
+            "passed": true,
+            "minutes": 6.7854332288106285,
+            "attempts": 1,
+            "failure": null,
+            "resource_limited": false
+          }
+        ]
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0,
+        "cases": [
+          {
+            "id": "solo-q27q8-cpp-buffer-s42-h4",
+            "task": "cpp-buffer",
+            "seed": 42,
+            "passed": true,
+            "minutes": 10.316436115900675,
+            "attempts": 2,
+            "failure": null,
+            "resource_limited": false
+          }
+        ]
+      }
+    },
+    {
+      "model": "glm",
+      "label": "GLM-4.7-Flash",
+      "observations": "HTTP500 errors occurred in addition to Python parsing/test failures and C++ compilation/own-test failures.",
+      "python": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-glm-py-csv-s42-h4",
+            "task": "py-csv",
+            "seed": 42,
+            "passed": false,
+            "minutes": 34.53403846025467,
+            "attempts": 3,
+            "failure": "Repair budget exhausted",
+            "resource_limited": false
+          }
+        ]
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-glm-cpp-buffer-s42-h4",
+            "task": "cpp-buffer",
+            "seed": 42,
+            "passed": false,
+            "minutes": 20.020635664463043,
+            "attempts": 1,
+            "failure": "Bounded stage/job deadline exceeded: developer",
+            "resource_limited": false
+          }
+        ]
+      }
+    },
+    {
+      "model": "nemo",
+      "label": "Nemotron-3-Nano 30B",
+      "observations": "Repeated commands without verified completion; no-progress guards ended attempts.",
+      "python": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-nemo-py-csv-s42-h4",
+            "task": "py-csv",
+            "seed": 42,
+            "passed": false,
+            "minutes": 4.780100254217784,
+            "attempts": 3,
+            "failure": "Repair budget exhausted",
+            "resource_limited": false
+          }
+        ]
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1,
+        "cases": [
+          {
+            "id": "solo-nemo-cpp-buffer-s42-h4",
+            "task": "cpp-buffer",
+            "seed": 42,
+            "passed": false,
+            "minutes": 1.222224275271098,
+            "attempts": 3,
+            "failure": "Repair budget exhausted",
+            "resource_limited": false
+          }
+        ]
+      }
+    },
+    {
+      "model": "q122",
+      "label": "Qwen3.5 122B",
+      "observations": "Both common screen tasks passed on their first attempt.",
+      "python": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0,
+        "cases": [
+          {
+            "id": "solo-q122-py-csv-s42-h4",
+            "task": "py-csv",
+            "seed": 42,
+            "passed": true,
+            "minutes": 6.958127224445343,
+            "attempts": 1,
+            "failure": null,
+            "resource_limited": false
+          }
+        ]
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0,
+        "cases": [
+          {
+            "id": "solo-q122-cpp-buffer-s42-h4",
+            "task": "cpp-buffer",
+            "seed": 42,
+            "passed": true,
+            "minutes": 2.8753225644429525,
+            "attempts": 1,
+            "failure": null,
+            "resource_limited": false
+          }
+        ]
+      }
+    },
+    {
+      "model": "gpt120",
+      "label": "GPT-OSS 120B",
+      "observations": "Still being evaluated.",
+      "python": {
+        "passed": 0,
+        "finished": 0,
+        "failed": 0,
+        "cases": []
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 0,
+        "failed": 0,
+        "cases": []
+      }
+    },
+    {
+      "model": "gpt20",
+      "label": "GPT-OSS 20B",
+      "observations": "Queued.",
+      "python": {
+        "passed": 0,
+        "finished": 0,
+        "failed": 0,
+        "cases": []
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 0,
+        "failed": 0,
+        "cases": []
+      }
+    }
+  ],
+  "current": {
+    "phase": "solo",
+    "at": 1794353345.5843601,
+    "pid": 2771366,
+    "harness_revision": "h4",
+    "dispatch_plan": "paired-language-screen-then-full-suite",
+    "current": "solo-gpt120-py-csv-s42-h4"
+  },
+  "scope_note": "Other models: one Python CSV and one C++ buffer task, seed42. Coder-Next: four completed trials per language from a broader task set, not directly comparable. Failures are complete workflow failures, not necessarily faulty implementation code. Single-task results do not establish model rankings. Earlier runner revisions, qualification and interrupted cases are excluded.",
+  "unqualified": "Gemma3 12B lacks tool support; tiny Qwen0.6B is a protocol control, not a full-suite model."
+}
