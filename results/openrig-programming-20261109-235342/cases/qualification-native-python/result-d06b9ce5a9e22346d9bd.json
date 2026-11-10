@@ -1,0 +1,22 @@
+{
+  "id": "qualification-native-python",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 3,
+  "phase": "qualification",
+  "started": 1794291972.0290947,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-7a5305dcaf76",
+  "failure": "{\"error\":\"Source is YAML but not a valid rig spec: pods[0].label: required non-empty string\"}\n",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/work/openrig-campaign/orchestrator.py\", line 149, in run\n    self.compose();self.launch();root=self.seats['developer']['root'];plan=''\n                   ~~~~~~~~~~~^^\n  File \"/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/work/openrig-campaign/orchestrator.py\", line 97, in launch\n    spec={'version':'0.2','name':self.rig,'summary':'Disposable guarded programming benchmark','pods':[{'id':'team','members':members,'edges':[]}],'edges':[]};atomic(self.dir/'rig.yaml',spec);self.launch_info=native('up',self.dir/'rig.yaml','--yes','--json',timeout=180);atomic(self.dir/'launch.json',self.launch_info)\n                                                                                                                                                                                                                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/work/openrig-campaign/common.py\", line 21, in native\n    if r.returncode:raise RuntimeError((r.stderr+r.stdout)[-4000:])\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: {\"error\":\"Source is YAML but not a valid rig spec: pods[0].label: required non-empty string\"}\n\n",
+  "finished": 1794291974.5325136,
+  "seconds": 2.5034189224243164
+}

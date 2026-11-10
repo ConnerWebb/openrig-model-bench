@@ -1,0 +1,28 @@
+{
+  "id": "solo-next-cpp-lru-s42-h4",
+  "task": "cpp-lru",
+  "language": "cpp",
+  "models": {
+    "developer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h4",
+  "started": 1794335878.1934333,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-de8a7b220527",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794335879.0671055
+    }
+  ],
+  "attempts": 1,
+  "interrupted": true,
+  "failure": "Experimental runner interrupted; preserve and retry, exclude from model scores",
+  "finished": 1794336076.5968606,
+  "seconds": 198.40342736244202
+}

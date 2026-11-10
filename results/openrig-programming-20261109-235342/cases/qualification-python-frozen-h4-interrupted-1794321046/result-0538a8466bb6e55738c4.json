@@ -1,0 +1,24 @@
+{
+  "id": "qualification-python-frozen-h4",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 3,
+  "phase": "qualification",
+  "harness_revision": "h4",
+  "started": 1794320877.0509412,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-eea99ee7d2b4",
+  "stage_attempts": [],
+  "interrupted": true,
+  "failure": "Experimental runner interrupted; preserve and retry, exclude from model scores",
+  "finished": 1794320908.9243212,
+  "seconds": 31.873379945755005
+}

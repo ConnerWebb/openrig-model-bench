@@ -1,7 +1,7 @@
 OPENRIG PYTHON / C++ CAMPAIGN — LIVE CHECKPOINT
 
 /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342
-State: {'phase': 'solo', 'at': 1794337301.0849295, 'pid': 2771366, 'harness_revision': 'h4', 'dispatch_plan': 'paired-language-screen-then-full-suite', 'current': 'solo-coder30-cpp-buffer-s42-h4'}
+State: {'phase': 'solo', 'at': 1794338502.9613154, 'pid': 2771366, 'harness_revision': 'h4', 'dispatch_plan': 'paired-language-screen-then-full-suite', 'current': 'solo-devstral-py-csv-s42-h4'}
 Active harness revision: h4
 Historical pre-repair results remain intact in runs/ and progress/; they are not mixed into this revision's rankings. All previous completed cells are rerun, including earlier passes.
 
@@ -11,8 +11,9 @@ PHASE solo
 python: 3/5 accepted
   {'developer': 'next'}, 1 agents: 3/4; sum job seconds 6738.2; accepted/hour 1.603
   {'developer': 'coder30'}, 1 agents: 0/1; sum job seconds 1204.8; accepted/hour 0.000
-cpp: 3/4 accepted
+cpp: 3/5 accepted
   {'developer': 'next'}, 1 agents: 3/4; sum job seconds 2014.6; accepted/hour 5.361
+  {'developer': 'coder30'}, 1 agents: 0/1; sum job seconds 1201.2; accepted/hour 0.000
 PHASE teams
 python: 0/0 accepted
 cpp: 0/0 accepted

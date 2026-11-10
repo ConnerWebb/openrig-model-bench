@@ -1,0 +1,35 @@
+{
+  "id": "solo-next-py-archive-s42-h4",
+  "task": "py-archive",
+  "language": "python",
+  "models": {
+    "developer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h4",
+  "started": 1794325843.1123462,
+  "complete": true,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-0605a74f59c6",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794325843.957404
+    },
+    {
+      "attempt": 2,
+      "started": 1794326746.3138707
+    }
+  ],
+  "attempts": 2,
+  "completed_hash": "d6e7caddbb98e8d21845741a7cca5111a8aae0b7476826fddb3b821bb3054c86",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-py-archive-s42-h4/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794327209.5516758,
+  "seconds": 1366.439329624176,
+  "resource_limited": false
+}
