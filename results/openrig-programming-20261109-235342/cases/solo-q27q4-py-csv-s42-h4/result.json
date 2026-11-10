@@ -1,0 +1,36 @@
+{
+  "id": "solo-q27q4-py-csv-s42-h4",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "developer": "q27q4"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h4",
+  "started": 1794347004.4874609,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-63a3f76e0340",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794347005.4922752
+    },
+    {
+      "attempt": 2,
+      "started": 1794347533.7735872
+    },
+    {
+      "attempt": 3,
+      "started": 1794347615.9389858
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "finished": 1794347702.1011865,
+  "seconds": 697.6137256622314,
+  "resource_limited": false
+}

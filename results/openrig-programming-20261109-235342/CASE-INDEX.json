@@ -932,6 +932,51 @@
     "stored_result_sha256": "56fbfb5268d517beefdecef5bdb608d484bbf929b1712f80b1e4389c303e42f6"
   },
   {
+    "artifact": "artifacts/cases/solo-q27q4-cpp-buffer-s42-h4-17b8baa0b8251170f84e.tar.gz",
+    "complete": false,
+    "directory": "solo-q27q4-cpp-buffer-s42-h4",
+    "id": "solo-q27q4-cpp-buffer-s42-h4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "q27q4"
+    },
+    "phase": "solo",
+    "revision": "h4",
+    "source_result_sha256": "17b8baa0b8251170f84ebdeda766b6728ce90ee73a478ae1004806c33091a828",
+    "stored_result_sha256": "17b8baa0b8251170f84ebdeda766b6728ce90ee73a478ae1004806c33091a828"
+  },
+  {
+    "artifact": "artifacts/cases/solo-q27q4-py-csv-s42-h4-ba5baa49a46d7bbbe34d.tar.gz",
+    "complete": false,
+    "directory": "solo-q27q4-py-csv-s42-h4",
+    "id": "solo-q27q4-py-csv-s42-h4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "q27q4"
+    },
+    "phase": "solo",
+    "revision": "h4",
+    "source_result_sha256": "ba5baa49a46d7bbbe34d44287a448da136a90fce2d0c7af858a4a6d76b4abe7d",
+    "stored_result_sha256": "ba5baa49a46d7bbbe34d44287a448da136a90fce2d0c7af858a4a6d76b4abe7d"
+  },
+  {
+    "artifact": "artifacts/cases/solo-q27q8-py-csv-s42-h4-e57a55653af2020783ef.tar.gz",
+    "complete": true,
+    "directory": "solo-q27q8-py-csv-s42-h4",
+    "id": "solo-q27q8-py-csv-s42-h4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "q27q8"
+    },
+    "phase": "solo",
+    "revision": "h4",
+    "source_result_sha256": "e57a55653af2020783ef5e820d15eee316291c891b67034ab16d11aecc59d685",
+    "stored_result_sha256": "e57a55653af2020783ef5e820d15eee316291c891b67034ab16d11aecc59d685"
+  },
+  {
     "artifact": "artifacts/cases/solo-q35-cpp-buffer-s42-h4-38ddbfd40891b4cac002.tar.gz",
     "complete": false,
     "directory": "solo-q35-cpp-buffer-s42-h4",

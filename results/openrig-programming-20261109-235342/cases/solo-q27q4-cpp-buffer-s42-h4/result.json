@@ -1,0 +1,36 @@
+{
+  "id": "solo-q27q4-cpp-buffer-s42-h4",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "q27q4"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h4",
+  "started": 1794347702.4139183,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-e5df5a944b9d",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794347703.3065305
+    },
+    {
+      "attempt": 2,
+      "started": 1794347879.4993792
+    },
+    {
+      "attempt": 3,
+      "started": 1794347983.6753528
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "finished": 1794348089.8492875,
+  "seconds": 387.43536925315857,
+  "resource_limited": false
+}
