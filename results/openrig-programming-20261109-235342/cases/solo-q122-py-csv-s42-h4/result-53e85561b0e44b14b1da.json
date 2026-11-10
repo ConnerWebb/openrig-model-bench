@@ -1,0 +1,31 @@
+{
+  "id": "solo-q122-py-csv-s42-h4",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "developer": "q122"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h4",
+  "started": 1794352754.476785,
+  "complete": true,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-7d178f2c877f",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794352755.489259
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "65fb3c46b7958ec7343d4cd7e4dcddb3425fff5341efdc936a8fe8d439a61b76",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-q122-py-csv-s42-h4/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794353171.9644184,
+  "seconds": 417.4876334667206,
+  "resource_limited": false
+}
