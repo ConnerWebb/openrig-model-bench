@@ -1,0 +1,20 @@
+{
+  "cpu": "AMD RYZEN AI MAX+ 395 w/ Radeon 8060S",
+  "logical_cpus": 32,
+  "memory_bytes_visible": 134299127808,
+  "architecture": "x86_64",
+  "kernel": "6.19.10-300.fc44.x86_64",
+  "os": {
+    "ID": "fedora",
+    "VERSION_ID": "44",
+    "PRETTY_NAME": "Fedora Linux 44 (Workstation Edition)"
+  },
+  "gpu": [
+    {
+      "vendor_id": "0x1002",
+      "device_id": "0x1586",
+      "driver": "amdgpu"
+    }
+  ],
+  "note": "Hardware/OS metadata only; no hostnames, LAN addresses, serial numbers, credentials, or production environment dump."
+}
