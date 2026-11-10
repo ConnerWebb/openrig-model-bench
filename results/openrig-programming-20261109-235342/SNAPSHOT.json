@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-10T23:35:26.448186+00:00",
+  "as_of_utc": "2026-11-10T23:50:30.054846+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 72,
+  "completed_case_records": 74,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -93,20 +93,28 @@
       "revision": "h4"
     },
     {
+      "count": 7,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": true,
+      "phase": "solo",
+      "revision": "h4"
+    },
+    {
+      "count": 6,
+      "interrupted": false,
+      "language": "python",
+      "passed": true,
+      "phase": "solo",
+      "revision": "h4"
+    },
+    {
       "count": 3,
       "interrupted": false,
       "language": "cpp",
       "passed": true,
       "phase": "solo",
       "revision": "historical"
-    },
-    {
-      "count": 6,
-      "interrupted": false,
-      "language": "cpp",
-      "passed": true,
-      "phase": "solo",
-      "revision": "h4"
     },
     {
       "count": 3,
@@ -131,14 +139,6 @@
       "passed": false,
       "phase": "solo",
       "revision": "historical"
-    },
-    {
-      "count": 5,
-      "interrupted": false,
-      "language": "python",
-      "passed": true,
-      "phase": "solo",
-      "revision": "h4"
     },
     {
       "count": 4,
@@ -165,13 +165,13 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 3485,
+  "finished_transport_streams": 3519,
   "in_progress_not_scored": [
-    "solo-gpt120-py-csv-s42-h4"
+    "solo-gpt20-py-csv-s42-h4"
   ],
   "status": {
-    "at": 1794353345.5843601,
-    "current": "solo-gpt120-py-csv-s42-h4",
+    "at": 1794354413.1456325,
+    "current": "solo-gpt20-py-csv-s42-h4",
     "dispatch_plan": "paired-language-screen-then-full-suite",
     "harness_revision": "h4",
     "phase": "solo",
