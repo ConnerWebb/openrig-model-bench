@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.tar.gz binary
+*.jsonl.gz binary
+benchmarks/suites/** -text
+archive/harness/** -text
+configs/model-metadata/** -text

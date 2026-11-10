@@ -1,0 +1,55 @@
+OPENRIG CAMPAIGN AMENDMENT — SEPARATE PROGRAMMING TRACKS
+User direction: add general-purpose C++ and Python; score separately from game development. This amendment supersedes the earlier mixed six-task suite. Planning only: no tests launched or settings changed.
+
+TRACKS
+A General Python: standard programming, no Unity/game assumptions.
+B General C++: standard programming, no Unity/game assumptions.
+C General C#: library/application work, reported separately from Python, C++ and Unity.
+D Unity/game development: isolated engine projects, separate integration score.
+All eligible models receive Python and C++ qualification and the same task families within each track. A tool/language compatibility failure remains a recorded result. Do not omit an inconvenient candidate from the denominator without showing it as ineligible. Configured aliases are not independent candidates.
+
+PYTHON CORE SUITE — SIX FAMILIES
+1 Implement a streaming CSV/JSONL data-processing CLI: schema validation, exact money arithmetic, bounded-memory processing, useful errors and deterministic reports.
+2 Implement a bounded HTTP client against a local fixture server: pagination, transient-failure retries, timeout handling and malformed-response validation. No public services or credentials.
+3 Repair a SQLite-backed multi-worker queue: atomic claims, duplicate prevention, idempotent completion, bounded retries and recovery after a worker stops.
+4 Build safe archive/file-processing tools: deterministic indexing, streaming large files, path traversal and symlink handling, cancellation and atomic outputs; fixtures confined to disposable directories.
+5 Refactor a small existing package while preserving its public API and regression behavior; add a concrete extension and correct a planted regression.
+6 Implement a documented parser/algorithm library: malformed input, boundary cases and reference-oracle/property checks, with published input-size/resource limits.
+
+C++ CORE SUITE — SIX FAMILIES
+1 Implement a streaming log/CSV parser and aggregation CLI: quoted fields, malformed records, integer overflow and deterministic output.
+2 Implement a bounded thread-safe producer/consumer queue: documented blocking/closure semantics, correct shutdown and no lost or duplicated work.
+3 Repair a small library with ownership/lifetime bugs: RAII, invalidation, exception behavior, move semantics and public-interface compatibility.
+4 Implement a binary record reader/writer: explicit endian/format rules, truncated/corrupt input, length/overflow validation and round-trip correctness.
+5 Refactor a multi-file CMake project and add a feature without breaking callers: clean configuration/build, public headers, linking and regression tests.
+6 Implement an LRU cache or another fixed container/algorithm API: deterministic correctness, reference-oracle checks, resource ownership and published complexity/workload checks.
+
+C# AND UNITY
+Keep general C# tasks such as save-library repair, APIs and algorithms in the C# track. Unity-specific scene/component/lifecycle/animation integration belongs only to the Unity track. Scores and time denominators remain separate. All engine work stays outside the actual game project.
+
+TASK AND TOOLCHAIN CONTROLS
+Freeze toolchains, build modes, dependency snapshots, source fixtures, seeds, prompts, resource limits and task contracts before candidate runs. Report C++ language standard/compiler/flags and Python interpreter/platform. Start with C++20 and a pinned Python interpreter subject to local toolchain qualification; do not silently change these by model.
+C++: clean builds and fresh tests; ordinary tests plus separate ASan/UBSan and TSan runs where supported, since those sanitizer modes require different builds. Establish that sanitizer/runner failures are not test-harness faults. Sanitizer findings fail the safety checks for tasks where those checks apply; record unexecuted checks rather than inventing passes. Run release-mode performance tests separately from sanitizer builds.
+Python: clean environment, unit/integration/property/reference tests as appropriate, local HTTP fixtures, real separate-worker tests, and measured streaming/memory behavior. Avoid tests that simply repeat the submitted implementation. Fixed dependencies are shared equally and no agent may modify hidden acceptance checks.
+Both: private edge cases, seeded regressions, fresh workspaces, bounded repairs/timeouts and identical budgets within a task/track. Concurrency checks use controlled synchronization and watchdogs; stress repetition complements them, not a sleep-based promise of determinism.
+
+SCORING — EACH TRACK GETS ITS OWN LEADERBOARD
+Publish first-attempt and final independently validated pass rates, passes/attempts, accepted tasks/hour, latency, repair counts, tool failures, operator interventions, resource peaks and new swap activity. Preserve all failures. Reviewer false approval/rejection is scored separately from code generation.
+Suggested per-task diagnostic rubric, fixed before runs:
+60 correctness and required behavior;
+20 robustness/safety (including relevant lifetime, input-validation and concurrency checks);
+10 interface/build/reproducibility compatibility;
+10 maintainability against a defined review rubric, labelled as judgement rather than objective test fact.
+A mandatory contract or safety failure marks the task NOT ACCEPTED regardless of partial points. Maintainability points cannot turn broken code into a pass. Do not sum Python, C++, C# and Unity into one winner score. Report per-family as well as per-track results to expose uneven strengths. Treat missed deadlines as failures for throughput, with their elapsed time included.
+Performance is measured against published workloads/limits and reported separately; compare only matched task/toolchain/hardware conditions. Do not compare raw Python versus C++ execution speed as evidence that one model codes better.
+
+TEAMS AND PARALLELISM
+Use track-specific finalists and repeat the same 1/2/3/4/5/6-seat topologies within each language track. Python shared project example: a local data-ingestion/job-processing service. C++ shared project example: a local file-indexing/search tool with parser, storage/index, worker pool and CLI. Each project must have real independent modules and integration work. Separate worktrees and controlled merges; fixed external acceptance after integration.
+First benchmark one-track workloads to attribute results. Then run mixed-language jobs concurrently (e.g. one Python job and one C++ job) and report each track's success and throughput plus total machine utilization. Never hide a slowdown or failure in one track behind a combined total.
+
+SCOPE AND DURATION
+Six tasks x three seeds x thirteen main model variants is up to234 development attempts for Python and another234 for C++, before C#/Unity, team matrices, reviewer/planner probes and soak runs. Compatibility failures remain visible and may prevent later full runs. The tiny Qwen control is primarily a tool/plumbing qualification, not an automatic full-suite candidate.
+The previous3–5 day estimate applied to a smaller mixed suite and should not be reused as the full amended campaign estimate. Schedule Python/C++ first with independent checkpoints, then extend to remaining tracks and track-specific teams. Publish an ETA after the first representative runs in both languages. A week or longer is plausible; this is an estimate, not a guaranteed finish time. No unlimited exhaustive model-combination sweep.
+
+PRESERVATION
+All original campaign safeguards still apply: backups, disposable projects, separate experimental controllers/inference servers, memory admission limits, persisted checkpoints and raw evidence. No production service restart, default promotion, agent interruption or Unity game-project change without the user's approval.

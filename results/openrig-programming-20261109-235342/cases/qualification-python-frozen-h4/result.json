@@ -1,0 +1,33 @@
+{
+  "id": "qualification-python-frozen-h4",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 3,
+  "phase": "qualification",
+  "harness_revision": "h4",
+  "started": 1794321046.7009535,
+  "complete": true,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-4976724f085d",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794321078.0205681
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "ce9abad1bfdcbe04d668ee7cd864c62a2ecd00e7fd2c61390feb45be00a275cc",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-python-frozen-h4/seats/developer/project",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794321198.514946,
+  "seconds": 151.81399250030518,
+  "resource_limited": false
+}

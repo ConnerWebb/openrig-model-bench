@@ -1,0 +1,37 @@
+OPENRIG PYTHON / C++ CAMPAIGN — LIVE CHECKPOINT
+
+/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342
+State: {'phase': 'solo', 'at': 1794337301.0849295, 'pid': 2771366, 'harness_revision': 'h4', 'dispatch_plan': 'paired-language-screen-then-full-suite', 'current': 'solo-coder30-cpp-buffer-s42-h4'}
+Active harness revision: h4
+Historical pre-repair results remain intact in runs/ and progress/; they are not mixed into this revision's rankings. All previous completed cells are rerun, including earlier passes.
+
+Independent task acceptance is the success criterion. Python and C++ are scored separately. Aliases are not additional models. Qualification and probes are not included in solo/team rankings.
+
+PHASE solo
+python: 3/5 accepted
+  {'developer': 'next'}, 1 agents: 3/4; sum job seconds 6738.2; accepted/hour 1.603
+  {'developer': 'coder30'}, 1 agents: 0/1; sum job seconds 1204.8; accepted/hour 0.000
+cpp: 3/4 accepted
+  {'developer': 'next'}, 1 agents: 3/4; sum job seconds 2014.6; accepted/hour 5.361
+PHASE teams
+python: 0/0 accepted
+cpp: 0/0 accepted
+PHASE topology
+python: 0/0 accepted
+cpp: 0/0 accepted
+PHASE parallel-jobs
+python: 0/0 accepted
+cpp: 0/0 accepted
+PHASE soak
+python: 0/0 accepted
+cpp: 0/0 accepted
+
+Parallel job throughput uses batch wall time in parallel-jobs/*/result.json; summing overlapping job durations is NOT machine throughput. Direct inference results live in parallel-inference and must not be equated with guarded OpenRig teamwork.
+Failures and bounded timeouts remain recorded; resource failures are labelled. Reviewer probes report false approvals/rejections in role-probes, separate from developer correctness. Maintainability has no automatic numeric score masquerading as an objective test.
+The case manifests, native task rows, exact-source hashes, request streams, model settings, test output and transcripts remain preserved.
+Production services, selected fleet pointers and Gremlin Garden are not modified.
+This is a finite local study with repeated task families; held-out team cases use new input seeds and composition tasks, not a claim of broad unseen-domain capability.
+Python/C++ main campaign only; C#/Unity are not scheduled here.
+Snapshots: /home/cow/Documents/Codex/Backups/openrig-programming/20261109-235342
+
+Previous qualification failures are not candidate coding results. Native qualification-v2 failed due missing session-bus environment; it is an infrastructure trial. All corrected tests, ASan/UBSan and TSan probes are preserved.

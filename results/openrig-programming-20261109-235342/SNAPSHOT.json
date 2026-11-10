@@ -1,0 +1,180 @@
+{
+  "as_of_utc": "2026-11-10T19:11:51.281220+00:00",
+  "campaign": "openrig-programming-20261109-235342",
+  "completed_case_records": 55,
+  "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
+  "counts": [
+    {
+      "count": 5,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": true,
+      "phase": "qualification",
+      "revision": "historical"
+    },
+    {
+      "count": 3,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": true,
+      "phase": "qualification",
+      "revision": "h4"
+    },
+    {
+      "count": 3,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": false,
+      "phase": "qualification",
+      "revision": "h4"
+    },
+    {
+      "count": 1,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": false,
+      "phase": "qualification",
+      "revision": "historical"
+    },
+    {
+      "count": 4,
+      "interrupted": false,
+      "language": "python",
+      "passed": false,
+      "phase": "qualification",
+      "revision": "historical"
+    },
+    {
+      "count": 6,
+      "interrupted": false,
+      "language": "python",
+      "passed": true,
+      "phase": "qualification",
+      "revision": "historical"
+    },
+    {
+      "count": 6,
+      "interrupted": false,
+      "language": "python",
+      "passed": true,
+      "phase": "qualification",
+      "revision": "h4"
+    },
+    {
+      "count": 2,
+      "interrupted": true,
+      "language": "python",
+      "passed": false,
+      "phase": "qualification",
+      "revision": "historical"
+    },
+    {
+      "count": 1,
+      "interrupted": true,
+      "language": "python",
+      "passed": false,
+      "phase": "qualification",
+      "revision": "h4"
+    },
+    {
+      "count": 2,
+      "interrupted": false,
+      "language": "python",
+      "passed": false,
+      "phase": "solo",
+      "revision": "h4"
+    },
+    {
+      "count": 3,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": true,
+      "phase": "solo",
+      "revision": "historical"
+    },
+    {
+      "count": 3,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": true,
+      "phase": "solo",
+      "revision": "h4"
+    },
+    {
+      "count": 3,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": false,
+      "phase": "solo",
+      "revision": "historical"
+    },
+    {
+      "count": 1,
+      "interrupted": true,
+      "language": "cpp",
+      "passed": false,
+      "phase": "solo",
+      "revision": "h4"
+    },
+    {
+      "count": 1,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": false,
+      "phase": "solo",
+      "revision": "h4"
+    },
+    {
+      "count": 3,
+      "interrupted": false,
+      "language": "python",
+      "passed": false,
+      "phase": "solo",
+      "revision": "historical"
+    },
+    {
+      "count": 3,
+      "interrupted": false,
+      "language": "python",
+      "passed": true,
+      "phase": "solo",
+      "revision": "h4"
+    },
+    {
+      "count": 4,
+      "interrupted": false,
+      "language": "python",
+      "passed": true,
+      "phase": "solo",
+      "revision": "historical"
+    },
+    {
+      "count": 1,
+      "interrupted": true,
+      "language": "python",
+      "passed": false,
+      "phase": "solo",
+      "revision": "historical"
+    }
+  ],
+  "exclusions": [
+    "model weights",
+    "credentials and agent auth/settings",
+    "production configuration/state",
+    "native SQLite checkpoints",
+    "external compiler caches"
+  ],
+  "export_errors": [],
+  "finished_transport_streams": 2917,
+  "in_progress_not_scored": [
+    "solo-coder30-cpp-buffer-s42-h4"
+  ],
+  "status": {
+    "at": 1794337301.0849295,
+    "current": "solo-coder30-cpp-buffer-s42-h4",
+    "dispatch_plan": "paired-language-screen-then-full-suite",
+    "harness_revision": "h4",
+    "phase": "solo",
+    "pid": 2771366
+  }
+}

@@ -1,0 +1,37 @@
+PYTHON / C++ GUARDED OPENRIG CAMPAIGN
+
+This is a finite scheduled campaign, not just a one-off smoke test.
+The benchmark service runs independently of this chat and resumes from case checkpoints after a process restart. It is enabled only for its own campaign and disables its own automatic startup after completion.
+
+Progress: campaign-status.json and heartbeat.json
+Live results: RESULTS.txt and leaderboard.json
+Original baseline replay: baseline-replay/result.json
+Guarded new Python baseline: native-qualification-v3.json
+All scored artifacts: runs/*/result.json
+Native receipts, exact source, tests and histories: corresponding runs/ folders
+Measured request streams: transport/
+Parallel API batches: parallel-inference/
+Parallel guarded job batches: parallel-jobs/
+Completion: COMPLETED.json
+Unexpected infrastructure stop: ATTENTION.json (never silently counted as a model failure)
+
+All benchmark endpoints are loopback-only: inference11437, measured transport11438, independent OpenRig18979. The production endpoints/settings, selected fleet, existing histories and Unity game project stay untouched. No model is automatically promoted to production.
+Model weights use an independent copy-on-write store; configured aliases are private to this campaign. Backups are same-disk snapshots, not off-disk disaster recovery.
+
+Python and C++ results are separate. Main candidate list has13 variants plus a tiny-model protocol control. Tool-incompatible candidates remain explicitly recorded and cannot receive a valid guarded task score.
+The schedule includes individual coding attempts, planner/reviewer probes, three-seat combinations,1/2/3/4/5/6-agent teams, four/five/six distinct-model teams, controlled inference slots, distinct model residency, simultaneous complete jobs and a six-hour finalist soak. Larger contexts/parallel configurations remain subject to memory guards; unsafe/incompatible cells are recorded rather than forced.
+Topology qualification uses known-correct source to test workflow/merging and receipts; those are NOT coding-quality results. Scored integration cases include fresh and planted-bug starting trees. Team held-out instances/compositions use new data seeds, not a claim of new unseen programming domains.
+
+Do not edit frozen-harness while this version is running. Versions, task contracts, private oracles and settings are hashed and preserved. The helper source contains reference solutions and must not be exposed to scored agents. Agents only see their isolated workspaces and role-scoped tools.
+
+Important: the campaign can continue with chat closed. It does not send unsolicited chat messages; live results are written here. There is no promise that individual models, task combinations or resource profiles will pass.
+
+Active harness revision: frozen-harness-v2. Original frozen-harness and manifest preserved. v2 changes only pre-scoring fixture clarity, per-language selection, experimental retry/resume, and exploratory topology eligibility.
+
+After completion, FINAL-COMPARISON.txt/json are generated automatically. They include separate language rankings, per-request first-token latency, memory peaks and actual parallel-batch throughput. Results are descriptive for these repeated fixtures, not a claim of broad independent statistical evidence.
+
+Active deployed harness: frozen-harness-v3. v2 deployment path failure is preserved and excluded from scoring; task/scoring definitions unchanged from v2. Worker target paths checked before restart.
+
+CURRENT ACTIVE REVISION: h4 (frozen-harness-v4). This supersedes earlier deployment notes. All original results remain under their original IDs; new case IDs end in -h4. The rolling and final rankings use only h4, so old tool semantics are not mixed with repaired ones. Previous pass/failure totals remain in repairs/h4/RESULTS-before-repair.txt. Affected failures are prioritized for fresh reruns after the Python/C++ guarded baselines; larger team checks are repeated next, then the full original schedule continues. No production defaults or services change.
+
+Dispatch update: frozen-harness-v4.2 keeps the h4 testing environment unchanged and prioritizes the existing seed42 Python CSV / C++ buffer cells for each compatible model, Coder30 first. All full-suite cases and three repetitions still follow. Prior completed cells are reused exactly once; old-version scores remain separate. Interrupted test-owned attempts are preserved with their label and retried.

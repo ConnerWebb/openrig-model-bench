@@ -1,0 +1,33 @@
+{
+  "id": "qualification-py-team-n2-h4",
+  "task": "py-team",
+  "language": "python",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 2,
+  "phase": "qualification",
+  "harness_revision": "h4",
+  "started": 1794329950.4884949,
+  "complete": true,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-f5b6f5d0dc47",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794329951.895971
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "16ec907c6c2e308d8f985be4b7f337377076b1efcdaca80d0cb7bf2b1ce530fb",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-py-team-n2-h4/seats/developer/project",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794330005.4137237,
+  "seconds": 54.92522883415222,
+  "resource_limited": false
+}

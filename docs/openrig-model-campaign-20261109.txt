@@ -1,0 +1,69 @@
+OPENRIG CODING MODEL CAMPAIGN — PROPOSED PLAN
+Prepared 2026-11-09. Planning only; no benchmark launched or service settings changed.
+
+OBJECTIVE
+Compare each installed coding/agent model, then role assignments, team sizes and actual parallel inference. Primary outcome: independently accepted development tasks per wall-clock hour. Token speed is diagnostic, not the winner criterion. No model promotion or game-project changes are part of the benchmark.
+
+EVIDENCE AND CURRENT STATE
+Saved pilot: outputs/model-expansion-20261109-124753/Results.txt. Coder-Next-only and Qwen122/Coder-Next/GLM passed one CSV task twice; other mixed teams failed despite approvals. The larger team caused measured swap-out. These are small pilots, not general rankings.
+GLM's short three-request test increased aggregate throughput from about 62 to 124 tokens/s with three slots; this does not establish coding-task throughput or Coder-Next concurrency.
+Production Ollama currently has NUM_PARALLEL=1, MAX_LOADED_MODELS=1 and global context8192. Prior experiments explicitly requested32768. Approximately125GiB RAM is visible; existing swap occupancy is not evidence of current swapping. Current memory pressure was zero and no inference model was loaded at inspection. Selected coding rig uses lab-coder-next in all three seats; its native snapshot showed detached/recoverable seats with no assigned work. Recheck immediately before execution.
+
+CANDIDATES
+Thirteen installed model/quantization variants: Coder-Next80B Q4; Qwen3-Coder30B Q4; Devstral Small2 24B Q4; Qwen3.5 35B Q4; Qwen3.5 9B Q4; Qwen3.8 27B Q4 and Q8; GLM4.7Flash Q4; Nemotron3Nano30B Q4; Qwen3.5 122B Q4; GPT-OSS120B MXFP4; GPT-OSS20B MXFP4; Gemma3 12B Q4. Use actual installed tags/digests. Configured lab/framework/exp aliases are not additional independent models. Tiny Qwen0.6B receives the same tool/compatibility probe as a control; embeddings are retrieval models and are not coding agents. All generative candidates get compatibility tests first. Tool-incompatible models are recorded as ineligible for this OpenRig workflow, with their actual errors preserved, rather than silently dropped or given a different workflow.
+
+1. PRESERVE AND QUALIFY THE HARNESS
+Snapshot configs, launchers, pointers, model metadata, histories and consistent database backups. Inventory native assigned work; preserve existing rigs without restarting or interrupting them. Create fresh disposable projects and test-owned rig IDs.
+Reproduce the current Coder-Next guarded baseline before broad testing. Fix the task suite, hidden external acceptance, seeds, budgets, role prompts and completion criteria before seeing candidate results. Negative controls must demonstrate that wrong code, forged receipts, stale hashes, modified tests and incomplete handoffs fail.
+The installed guarded controller has fixed three-role assumptions. Other team sizes and parallel developers require a separately tested experimental controller with the same protections, not merely more seats in YAML. No production controller edits. Validate its queue/idle behavior, final receipts, merge handling and safe restart/checkpoint logic before scoring teams.
+
+2. INDIVIDUAL MODELS / ROLE SCREEN
+Every candidate receives six coding tasks with three fixed seeds (up to234 development attempts after qualification), through the actual guarded OpenRig tool/workflow path. One model does the development; fixed external checks judge it. Test small implementation, regression repair, malformed input/edge cases, cross-file refactor, concurrency/state and a frozen codebase change. Include Python and C# fixtures; engine-specific cases run in disposable Unity projects with fixed batch checks, never the game project.
+For every model, add short planner and reviewer probes against frozen briefs/patches. Include correct patches and known-bad patches to measure reviewer false approval/rejection. Score tool/schema compliance, useful planning, code correctness and review specificity separately; do not substitute subjective planner ratings for executable acceptance.
+Use identical source snapshots, visible task contracts, allowed tools, context limits and repair/timeout rules. No human reminders or discretionary model-specific repairs. Failures remain in totals. Separate model failures, context/resource failures and orchestration failures; reruns are labelled, not replacements.
+
+3. THREE-SEAT ROLE COMPARISON
+Use four task families held out from model selection, three seeds each. Initial eight arrangements (planner/developer/reviewer):
+A Coder-Next / Coder-Next / Coder-Next, control.
+B Qwen35B / Coder-Next / Devstral.
+C Qwen27B Q4 / Coder-Next / GLM, prior failing pilot retest.
+D Nemotron / Qwen27B Q4 / Devstral, prior failing pilot retest.
+E Qwen122B / Coder-Next / GLM, prior passing but swap-heavy pilot.
+F GPT-OSS120B / Coder-Next / Devstral.
+G Qwen9B / Qwen3-Coder30B / GLM, lighter team.
+H GPT-OSS20B / Qwen3-Coder30B / Devstral, another lighter team.
+That is96 guarded team jobs. Candidate screening can substitute an unusable model; preserve the original planned cell as failed/ineligible with a reason. Give other strong solo/role-screen performers explicit role-swap trials rather than assuming the largest planner or fastest token generator wins. Include role swaps for finalists to isolate role from model identity.
+First compare staged roles under a common scheduling profile. Record cold and warm load/cache costs separately. Large-model teams can be staged with unloading even when their models cannot reside together.
+
+4. PARALLEL INFERENCE / CO-RESIDENCY
+Keep team topology fixed while changing inference scheduling. Use separate temporary loopback-only inference servers or test-specific runtime profiles, with test models and pinned settings. Do not restart production Ollama or redirect existing agents. Verify effective runner slot count, context per slot, actual overlapping generation and GPU use; concurrent clients may otherwise just queue.
+Test1/2/3/4 slots for shortlisted small/medium models; qualify large models one slot first. Extend to6 slots only if measured memory and task throughput justify it. Pair short requests with realistic filled histories: 8K,16K and32K used context, matched workloads and output caps. Keep32K as the main coding profile and report smaller contexts separately.
+Distinguish: multiple requests sharing one model; two or more distinct resident models; and several complete guarded jobs running at once. Run each resource-qualified configuration at least three times.
+Start mixed residency with small combinations, such as Qwen9B+Coder30B+GLM, GLM+Devstral, and Coder-Next+Devstral. A51GB+81GB model pair leaves no practical room for system/KV overhead; do not force it into concurrent residency. Larger role teams can still switch models sequentially.
+Track queue time, prefill, TTFT, generation rate, p50/p95 latency, total wall time, load/eviction time, context use, GPU/system memory, new swap activity, thermal throttling, errors and retries. Never add overlapping UMA GPU and system memory counters.
+
+5. TEAM SIZES AND WORK DISTRIBUTION
+Compare two shortlisted model sets, three held-out task families, three seeds, across six topologies (108 jobs, plus labelled orchestration qualifications):
+1 developer, external acceptance.
+2 developer+reviewer, controller supplies task/plan.
+3 planner+developer+reviewer, standard control.
+4 planner+developer+test author+reviewer.
+5 planner+two developers+test author+reviewer.
+6 planner+two developers+test author+reviewer+integrator.
+Seat count is not unique-model count or simultaneous inference count. Reuse selected models where appropriate; do not load six different models just because there are six agents.
+Include both independent jobs (expected scaling) and one shared multi-file task (coordination cost). Developers work in separate checkouts with explicit scope and controlled merges; never unrestricted concurrent writes to one working tree. Test authors cannot edit hidden acceptance. Integration/conflict resolution must finish and pass fresh acceptance before success is counted. Compare each team against the same task's one- and three-seat controls.
+
+6. FINALISTS AND SOAK
+Select finalists using accepted tasks/hour, hidden-test success, false-approval rate and resource stability. A speed winner must not hide reduced correctness. Suggested practical target: >=20 percent higher accepted throughput without a measured correctness/review regression; report sample counts and uncertainty rather than treating this threshold as statistical proof.
+Run two or three finalists on longer tasks and a4–8 hour mixed-workload soak. Include varied history lengths, cancellation of test-owned work, failure recovery, resume after a controlled test-runner restart and queues with simultaneous jobs. Keep old histories/context out of fresh quality trials; distinguish warm inference weights from reused task information.
+
+FAIRNESS / CONTROL
+Pin weights/digests, templates, aliases and runtime versions. Common32K limits and bounded outputs for main tests. Freeze explicit supported sampling values before scoring; use the same seeds across candidates but do not assume seeds make different architectures identical. Models with unavoidable reasoning use one documented fixed policy; report thinking and visible output separately where available. A model's turn and repair budgets remain fixed across its conditions. Report capped/budget-exhausted runs. Counterbalance run order and repeat the baseline periodically to expose drift, cache or thermal effects. No downloads or art generation during measured GPU windows; do not interrupt unrelated work without permission.
+
+RESOURCE / RUNNER RULES
+Maintain at least16GiB MemAvailable initially; tighten concurrency based on observed KV/cache use rather than disk weights alone. On a sustained breach or sustained new swap-out/memory pressure, stop admitting benchmark work and gracefully drain or cancel only test-owned requests. Stop that resource configuration instead of repeatedly forcing an OOM. Existing swap occupancy alone is not a failure. Log thresholds and abort reason. No cache dropping, swap changes, driver/firmware changes, or production-process termination.
+Use a persistent local supervisor, per-case manifests, atomic checkpoints, bounded retries and per-stage timeouts. A case becomes complete only after fresh independent acceptance and matching hashes/native receipts. A crash resumes from the last verified case without counting duplicates. Preserve every failed attempt. Produce progress summaries and a rolling leaderboard; updates in chat require an active monitoring session, not an assumption that chat itself runs forever.
+
+OUTPUT / DURATION
+Rough initial scope:up to234 solo development attempts+96 three-seat jobs+108 topology jobs, plus inexpensive role probes, parallel batches and finalist soak. Some qualification/role-swap/long-context trials add runs. Calibrate durations using the first12 qualified attempts, then publish a revised ETA. Provision roughly3–5 days initially; large models, retries and six-seat tasks may require longer. Do not promise a finish time from short token benchmarks.
+Checkpoint after baseline, every model, each experimental matrix and soak. Final report: model/role ranking, team composition and topology ranking, validated tasks/hour, reliability, memory/latency tradeoffs, traces, input/output hashes, statistical limitations, all failures, recommended stable/fast/large/parallel profiles and a rollback guide. Keep production defaults unchanged until reviewed and approved.

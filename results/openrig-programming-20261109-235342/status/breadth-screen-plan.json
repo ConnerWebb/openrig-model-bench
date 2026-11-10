@@ -1,0 +1,23 @@
+{
+  "harness_revision": "h4",
+  "models": [
+    "coder30",
+    "devstral",
+    "q35",
+    "q9",
+    "q27q4",
+    "q27q8",
+    "glm",
+    "nemo",
+    "q122",
+    "gpt120",
+    "gpt20",
+    "next"
+  ],
+  "tasks": [
+    "py-csv",
+    "cpp-buffer"
+  ],
+  "seed": 42,
+  "note": "Dispatch order only. Same frozen tasks, sampling, budgets, context and acceptance. Full 12-task/three-seed suite follows. Two cells are insufficient for a general model ranking."
+}

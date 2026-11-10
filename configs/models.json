@@ -1,0 +1,548 @@
+[
+  {
+    "key": "next",
+    "installed_tag": "lab-coder-next",
+    "manifest_found": true,
+    "manifest_sha256": "6efa3acf603734f0ad090b23303d0461ab9d0521bf66faac19c8b2a662153071",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:c25842364da8491018d54350caf389664522d62ec9a7e38fc92cdf578c78c1b5",
+        "size": 192
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:30e51a7cb1cf1333b9e298b90b4c7790fe2572d8736b002482a0ac96328a2ffb",
+          "size": 51741599936,
+          "from": "qwen3-coder-next:latest"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:7339fa418c9ad3e8e12e74ad0fd26a9cc4be8703f9c110728a992b193be85cb2",
+          "size": 11355,
+          "from": "qwen3-coder-next:latest"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:abd5ad1430f9c46b360b84b6d344a080f7afcf9884b38d559e1c0bac533f3177",
+          "size": 58
+        }
+      ],
+      "runner": "ggml",
+      "format": "gguf"
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/lab-coder-next/latest"
+  },
+  {
+    "key": "coder30",
+    "installed_tag": "qwen3-coder:30b",
+    "manifest_found": true,
+    "manifest_sha256": "06c1097efce0431c2045fe7b2e5108366e43bee1b4603a7aded8f21689e90bca",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:24a94682582c6045f4950846fc7711479dcecb478b86759f0306a2ef8484d318",
+        "size": 539
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:1194192cf2a187eb02722edcc3f77b11d21f537048ce04b67ccf8ba78863006a",
+          "size": 18556688736
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:d18a5cc71b84bc4af394a31116bd3932b42241de70c77d2b76d69a314ec8aa12",
+          "size": 11338
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:69aa441ea44ff5e1e7b56cac4f471e71e8a5e2e3963c29684a9234d5d5e5f7aa",
+          "size": 148
+        }
+      ]
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/qwen3-coder/30b"
+  },
+  {
+    "key": "devstral",
+    "installed_tag": "devstral-small-2",
+    "manifest_found": true,
+    "manifest_sha256": "24277f07f62db8f9cb68e9dfc679ea1818a7fbac47a50eff0a701d3f645b63c8",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:cc6f162f94fe1e564f0c639e31fd4f16db2a89a99b0559b0348573d7884b24ec",
+        "size": 420
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:c580819bed79c92d01a42227bd6d8fd66b9ec60d5329f5eb73f812f156af7807",
+          "size": 15177370240
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.template",
+          "digest": "sha256:580f051b6624bd17f29bb37554ec19feb4ab18cda4f948739016b6a5f300b026",
+          "size": 3418
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:e0daf17ff83eace4813f9e8554b262f6cc33ad880ff8df41a156ff9ef5522ddb",
+          "size": 21
+        }
+      ]
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/devstral-small-2/latest"
+  },
+  {
+    "key": "q35",
+    "installed_tag": "lab-qwen35-35b",
+    "manifest_found": true,
+    "manifest_sha256": "d8a20d990dc263638473e344b622a13bf72451604c4a83b13c8e1cc28e41a63f",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:6d2a5ac892aa03a9a4a0f40866af3bd2cf0e7c6e624a52e49509ad1903a65df4",
+        "size": 184
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.projector",
+          "digest": "sha256:79104874d7ab7b680e6e6abe48b03a040abc63cd73d0e778ea01759118d74f2e",
+          "size": 902822400,
+          "from": "qwen3.5:35b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:82cfd9a4c8343580c87b2557b3b5de744f171d4f077c61f0e519cf0a92a8500b",
+          "size": 21166758176,
+          "from": "qwen3.5:35b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.template",
+          "digest": "sha256:b507b9c2f6ca642bffcd06665ea7c91f235fd32daeefdf875a0f938db05fb315",
+          "size": 13,
+          "from": "qwen3.5:35b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:50cbab8a892c5f2993b8c7351a99182507472def3b1374558308605d99b86b32",
+          "size": 11343,
+          "from": "qwen3.5:35b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:7b8da8e20aaee66e1472b657bd73221bf6033892968303f85fa935d3bed33300",
+          "size": 81
+        }
+      ],
+      "runner": "llamacpp",
+      "format": "gguf"
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/lab-qwen35-35b/latest"
+  },
+  {
+    "key": "q9",
+    "installed_tag": "lab-qwen35-9b",
+    "manifest_found": true,
+    "manifest_sha256": "2872f35f2b99c438d19beb6cfaf7002a3150f04c0d850542ca52a554414c233f",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:08f9698c1116d2ba3d2c1751f6e98919823e13bb28ff5eb7451c7bc9b40907c5",
+        "size": 177
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.projector",
+          "digest": "sha256:f836f08f921193f4d6b6a6952dba0a6fb116759d26a757bcb395d570d73976ca",
+          "size": 921704832,
+          "from": "qwen3.5:9b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:02d45dc1cf451ba2475ac33b301c2dd8f985abe4c182ce04a1f2f5bf0260278d",
+          "size": 5629109120,
+          "from": "qwen3.5:9b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.template",
+          "digest": "sha256:b507b9c2f6ca642bffcd06665ea7c91f235fd32daeefdf875a0f938db05fb315",
+          "size": 13,
+          "from": "qwen3.5:9b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:50cbab8a892c5f2993b8c7351a99182507472def3b1374558308605d99b86b32",
+          "size": 11343,
+          "from": "qwen3.5:9b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:7b8da8e20aaee66e1472b657bd73221bf6033892968303f85fa935d3bed33300",
+          "size": 81
+        }
+      ],
+      "runner": "llamacpp",
+      "format": "gguf"
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/lab-qwen35-9b/latest"
+  },
+  {
+    "key": "q27q4",
+    "installed_tag": "qwen3.8:27b-q4_K_M",
+    "manifest_found": true,
+    "manifest_sha256": "25b843619e944cd0ae6069f94ff4e5e26a16e109ccbc0a66a0f05979ed70098e",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:492b2922d38e553cabc2d319345644ed482874fbf5e5c9e4495cbf8e17b0cf5f",
+        "size": 215
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.projector",
+          "digest": "sha256:ac3714bfdddeca31351f2752bf1a63f266f4df87c0b68c895e44945ca704448e",
+          "size": 931146016,
+          "from": "mmproj-qwen3.8-27b-bf16.gguf"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:f5f1dd8920d417aac2718b0bda3403da274301efdd6760b4f0f4b864ff2ad57d",
+          "size": 16810714464
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:4c6a8e842ef0d8504549facfb03f1273a8d0022991519bc1888522cc1a5517d1",
+          "size": 11345
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:448d29437397713495b408d51b4ccbc5ba95240a7583643efb2304921950b111",
+          "size": 92
+        }
+      ]
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/qwen3.8/27b-q4_K_M"
+  },
+  {
+    "key": "q27q8",
+    "installed_tag": "qwen3.8:27b-q8_0",
+    "manifest_found": true,
+    "manifest_sha256": "8f5fb6b71ea00052cbe8545738c55ce61112c4e571cb60ca4dad00b131766039",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:04800723a245540d7a7c033e07ec223d7ec894abffcc15537327cf8b0107b2a6",
+        "size": 213
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.projector",
+          "digest": "sha256:ac3714bfdddeca31351f2752bf1a63f266f4df87c0b68c895e44945ca704448e",
+          "size": 931146016,
+          "from": "mmproj-qwen3.8-27b-bf16.gguf"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:2bb22714289826d7b9e0ba376c3ce47d08bce39abe598745857c44d88c09bdbf",
+          "size": 29047084384
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:4c6a8e842ef0d8504549facfb03f1273a8d0022991519bc1888522cc1a5517d1",
+          "size": 11345
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:448d29437397713495b408d51b4ccbc5ba95240a7583643efb2304921950b111",
+          "size": 92
+        }
+      ]
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/qwen3.8/27b-q8_0"
+  },
+  {
+    "key": "glm",
+    "installed_tag": "glm-4.7-flash:q4_K_M",
+    "manifest_found": true,
+    "manifest_sha256": "4475827791a269b02c8ec49b1c3bc1abb5846bacf3fae015b75d33986322d8f6",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:89d1ec0bb8381384b592647db2b6dd223e6ddc59fa3991ba940afd867540a9b8",
+        "size": 486
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:9eba2761cf0b88b8bc11a065a7b5b47f1b13ce820e8e492cb1010b450f9ec950",
+          "size": 19019269280,
+          "from": "glm-4.7-flash:latest"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:b1bca6ec8117a09783df643e500e7331c5d6ea79fe4ba4d29d9a256c2f794a83",
+          "size": 1068,
+          "from": "glm-4.7-flash:latest"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:543c6a8262f92e6383f5ab7c13f8a55e8f4c2a00b5ecdf3822c6d5489ffd66b7",
+          "size": 63
+        }
+      ]
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/glm-4.7-flash/q4_K_M"
+  },
+  {
+    "key": "nemo",
+    "installed_tag": "nemotron-3-nano:30b",
+    "manifest_found": true,
+    "manifest_sha256": "373f79c3ce9483db1d9a2346e567040386e84cfe11aa133f8bb64a0dcbb3aec7",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.ollama.manifest.list.v2+json",
+      "manifests": [
+        {
+          "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+          "digest": "sha256:7487f38ecf2402d4080a074b98e9db8258f9701660625822b7b77747db64f0c9",
+          "runner": "llamacpp",
+          "format": "gguf"
+        },
+        {
+          "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+          "digest": "sha256:732f227e5977079d02b4ac66041f59865add3fdb02e46fb2bd61e60140484809",
+          "runner": "mlx",
+          "format": "safetensors"
+        }
+      ]
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/nemotron-3-nano/30b"
+  },
+  {
+    "key": "q122",
+    "installed_tag": "qwen3.5:122b",
+    "manifest_found": true,
+    "manifest_sha256": "8b9d11d807c57feb1e2ecb0d6cbf40334c37dcc3523bed5540af4f927f112a37",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:30faf24eb503ffe9ca087bb29f2d52665e193c572e0808a486d7d93d28d3979e",
+        "size": 483
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:93c83617a40560a61cda911ee327efdb5b5fbd39caa8b777a4ec565c0af1af3d",
+          "size": 81370024480
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:7339fa418c9ad3e8e12e74ad0fd26a9cc4be8703f9c110728a992b193be85cb2",
+          "size": 11355
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:f6417cb1e26962991f8e875a93f3cb0f92bc9b4955e004881251ccbf934a19d2",
+          "size": 42
+        }
+      ]
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/qwen3.5/122b"
+  },
+  {
+    "key": "gpt120",
+    "installed_tag": "gpt-oss:120b",
+    "manifest_found": true,
+    "manifest_sha256": "714d86958b6e870a9320e78126ac1ce3477727a1cd9bf7194b8ace0d84c62fd8",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:8357ba40fe8885a0ea9932f02c77867fbff15705950372ffdd34822c78ee834f",
+        "size": 140
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:a5b03e4c678e1671191c0115861445b61529f518e751ce38a2bb6030cca9b1d0",
+          "size": 65369800832,
+          "from": "dhiltgen/gpt-oss:120b-llamacpp"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.template",
+          "digest": "sha256:fa6710a93d78da62641e192361344be7a8c0a1c3737f139cf89f20ce1626b99c",
+          "size": 7240,
+          "from": "dhiltgen/gpt-oss:120b-llamacpp"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:f60356777647e927149cbd4c0ec1314a90caba9400ad205ddc4ce47ed001c2d6",
+          "size": 11353,
+          "from": "dhiltgen/gpt-oss:120b-llamacpp"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:d8ba2f9a17b3bbdeb5690efaa409b3fcb0b56296a777c7a69c78aa33bbddf182",
+          "size": 18,
+          "from": "dhiltgen/gpt-oss:120b-llamacpp"
+        }
+      ],
+      "runner": "llamacpp",
+      "format": "gguf"
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/gpt-oss/120b"
+  },
+  {
+    "key": "gpt20",
+    "installed_tag": "lab-gpt-oss-20b",
+    "manifest_found": true,
+    "manifest_sha256": "1a1598a63d162fab710db9243f19b8968d022179593a3233a833a04aa6e20f0c",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:e103573196b6deeff79ec124b4131b4fad700cee60b584a8f9d689ffed115038",
+        "size": 139
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:8ecb5d4ad6172c63f9cbf1a07a04e525985a8a11a6e516da02b674c4010de716",
+          "size": 13793422816,
+          "from": "gpt-oss:20b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.template",
+          "digest": "sha256:fa6710a93d78da62641e192361344be7a8c0a1c3737f139cf89f20ce1626b99c",
+          "size": 7240,
+          "from": "gpt-oss:20b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:f60356777647e927149cbd4c0ec1314a90caba9400ad205ddc4ce47ed001c2d6",
+          "size": 11353,
+          "from": "gpt-oss:20b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:57c429fc56ee2d6aecc0d15f0b7dcc7b699c3015a49a605ef2cbe6fc53dda6f6",
+          "size": 34
+        }
+      ],
+      "runner": "llamacpp",
+      "format": "gguf"
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/lab-gpt-oss-20b/latest"
+  },
+  {
+    "key": "gemma",
+    "installed_tag": "lab-gemma3-12b",
+    "manifest_found": true,
+    "manifest_sha256": "3a576a94213dcffc1ed6eb06db230171a87f36031af78aded1b024ad4f8a9ef7",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:fe25b92561cfd1b4fcc523d5f151f86c64254733bd4b8847b8252d15a0366262",
+        "size": 145
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+          "size": 7309830496,
+          "from": "gemma3:12b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.projector",
+          "digest": "sha256:4abe4caf8e680a2d508f929edbacb5b6985b988f9d89d05b196a809f62d8fa67",
+          "size": 854200224,
+          "from": "gemma3:12b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.template",
+          "digest": "sha256:e0a42594d802e5d31cdc786deb4823edb8adff66094d49de8fffe976d753e348",
+          "size": 358,
+          "from": "gemma3:12b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:dd084c7d92a3c1c14cc09ae77153b903fd2024b64a100a0cc8ec9316063d2dbc",
+          "size": 8432,
+          "from": "gemma3:12b"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:4739497b5791f48e1af57b94bcd5e646ae8bfcaf7fc7c87afa2bb51234ade870",
+          "size": 93
+        }
+      ],
+      "runner": "llamacpp",
+      "format": "gguf"
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/lab-gemma3-12b/latest"
+  },
+  {
+    "key": "tiny",
+    "installed_tag": "qwen3:0.6b",
+    "manifest_found": true,
+    "manifest_sha256": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:b0830f4ff6a0220cfd995455206353b0ed23c0aee865218b154b7a75087b4e55",
+        "size": 490
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:7f4030143c1c477224c5434f8272c662a8b042079a0a584f0a27a1684fe2e1fa",
+          "size": 522640096
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.template",
+          "digest": "sha256:ae370d884f108d16e7cc8fd5259ebc5773a0afa6e078b11f4ed7e39a27e0dfc4",
+          "size": 1723
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:d18a5cc71b84bc4af394a31116bd3932b42241de70c77d2b76d69a314ec8aa12",
+          "size": 11338
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:cff3f395ef3756ab63e58b0ad1b32bb6f802905cae1472e6a12034e4246fbbdb",
+          "size": 120
+        }
+      ]
+    },
+    "manifest_format": "manifests-v2/ollama.com/library/qwen3/0.6b"
+  }
+]

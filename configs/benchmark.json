@@ -1,0 +1,45 @@
+{
+  "suite": "h4",
+  "main_context": 32768,
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "top_k": 40,
+    "repeat_penalty": 1,
+    "presence_penalty": 0,
+    "frequency_penalty": 0
+  },
+  "max_output_tokens": 4096,
+  "trial_seeds": [
+    42,
+    43,
+    44
+  ],
+  "solo_families_per_language": 6,
+  "trials_per_model": 36,
+  "agent_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "reasoning": "GPT-OSS low; other models none",
+  "direct_api_diagnostic": {
+    "contexts": [
+      8192,
+      16384,
+      32768
+    ],
+    "output_limit": 2048,
+    "slots": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditional_slots": 6
+  },
+  "acceptance": "fixed public checks, nonempty authored tests, external private oracle; C++ ASan/UBSan plus TSan for threaded queue; review/finalizer receipts for guarded team topologies"
+}

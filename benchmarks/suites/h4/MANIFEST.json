@@ -1,0 +1,14 @@
+{
+  "suite": "h4",
+  "origin_harness": "frozen-harness-v4.2",
+  "files": {
+    "catalog.py": "6ac6c2431e92c249cb44134a0b53eb4779dc9638a0d24d657792a4510dda8ae7",
+    "cases.py": "7aa70d2cd32258c233cd07644ed1faa91a20f1e8b594950d8c076cb680e3d106",
+    "common.py": "0a232be5cfe1d61c5eaa0d78235476c03ceb423b9a11cdfb4dec65f23137dc44"
+  },
+  "case_seeds": {
+    "public": 71,
+    "private_formula": "trial seed + 1000 + variant"
+  },
+  "immutable": true
+}
