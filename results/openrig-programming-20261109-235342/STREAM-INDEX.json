@@ -26095,6 +26095,34 @@
       }
     },
     {
+      "at": 1794384509.4462774,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45443,
+        "applied": true,
+        "before_bytes": 51488,
+        "dropped_messages": 5,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 36.44177775501157,
+      "first_content_seconds": 36.44177775501157,
+      "first_delivered_seconds": 36.44178446699516,
+      "id": "3235371d0d9c4d858578da91b36e63eb",
+      "model": "campaign-devstral-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-devstral-cpp-buffer-s42-h5.4/developer",
+      "seconds": 36.52119676800794,
+      "usage": {
+        "completion_tokens": 6,
+        "prompt_tokens": 14508,
+        "prompt_tokens_details": {
+          "cached_tokens": 390
+        },
+        "total_tokens": 14514
+      }
+    },
+    {
       "at": 1794316831.5617862,
       "complete": true,
       "first_any_seconds": 1.0691481319954619,
@@ -32887,6 +32915,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 32864
+      }
+    },
+    {
+      "at": 1794384547.6991627,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47662,
+        "applied": true,
+        "before_bytes": 59343,
+        "dropped_messages": 11,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 36.85338707300252,
+      "first_content_seconds": 36.85338707300252,
+      "first_delivered_seconds": 36.85339914599899,
+      "id": "3f2be6678abb4a6980253215ef517f8b",
+      "model": "campaign-devstral-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-devstral-cpp-buffer-s42-h5.4/developer",
+      "seconds": 116.61915220902301,
+      "usage": {
+        "completion_tokens": 1011,
+        "prompt_tokens": 14848,
+        "prompt_tokens_details": {
+          "cached_tokens": 391
+        },
+        "total_tokens": 15859
       }
     },
     {
@@ -44026,6 +44082,28 @@
         },
         "total_tokens": 5497
       }
+    },
+    {
+      "at": 1794384664.4574234,
+      "complete": false,
+      "context_policy": {
+        "after_bytes": 46427,
+        "applied": true,
+        "before_bytes": 62734,
+        "dropped_messages": 15,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "error": "[Errno 32] Broken pipe",
+      "first_any_seconds": 35.45878948000609,
+      "first_content_seconds": 35.45878948000609,
+      "first_delivered_seconds": 35.45880178298103,
+      "id": "540edac269b94d72874476e0c2f6d609",
+      "model": "campaign-devstral-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-devstral-cpp-buffer-s42-h5.4/developer",
+      "seconds": 282.8117242559965,
+      "usage": null
     },
     {
       "at": 1794358025.6624105,
@@ -102432,6 +102510,34 @@
       }
     },
     {
+      "at": 1794384893.2124872,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46591,
+        "applied": true,
+        "before_bytes": 65039,
+        "dropped_messages": 17,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 89.96869133602013,
+      "first_content_seconds": 89.96869133602013,
+      "first_delivered_seconds": 89.9687145500211,
+      "id": "bef33fb744f340a4ae303d6e3435331b",
+      "model": "campaign-devstral-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-devstral-cpp-buffer-s42-h5.4/developer",
+      "seconds": 336.34495986101683,
+      "usage": {
+        "completion_tokens": 3106,
+        "prompt_tokens": 14192,
+        "prompt_tokens_details": {
+          "cached_tokens": 42
+        },
+        "total_tokens": 17298
+      }
+    },
+    {
       "at": 1794358409.469262,
       "complete": true,
       "context_policy": {
@@ -108222,6 +108328,34 @@
           "cached_tokens": 11559
         },
         "total_tokens": 13183
+      }
+    },
+    {
+      "at": 1794385229.6963928,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45578,
+        "applied": true,
+        "before_bytes": 73074,
+        "dropped_messages": 31,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 37.16049673498492,
+      "first_content_seconds": 37.16049673498492,
+      "first_delivered_seconds": 37.16050365800038,
+      "id": "c9c54605aae5426999084c3fccaf5dda",
+      "model": "campaign-devstral-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-devstral-cpp-buffer-s42-h5.4/developer",
+      "seconds": 37.23991139998543,
+      "usage": {
+        "completion_tokens": 6,
+        "prompt_tokens": 14732,
+        "prompt_tokens_details": {
+          "cached_tokens": 390
+        },
+        "total_tokens": 14738
       }
     },
     {
