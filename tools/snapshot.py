@@ -99,13 +99,13 @@ def snapshot(source,repository):
  for id in sorted(done):
   try:row=json.loads(stable_bytes(source/'transport'/id/'metrics.json'));data,n=scrub(json.dumps(row).encode());metrics.append(json.loads(data))
   except (OSError,ValueError):continue
- write_json(destination/'STREAM-INDEX.json',{'streams':metrics,'raw_bundles':'artifacts/transport/','note':'Each UUID identifies request.json, response.jsonl and metrics.json within one immutable bundle.'})
+ write_json(destination/'STREAM-INDEX.json',{'streams':metrics,'raw_bundles':'artifacts/transport/','note':'Each UUID identifies original request.json, raw response.jsonl and metrics.json within one immutable bundle. Revised transports also preserve upstream-request.json, delivered-response.jsonl and upstream-error.txt when applicable.'})
  for name in ['events.jsonl','memory-timeline.jsonl']:append_log(source/name,destination/'telemetry'/name,state,name)
  for p in source.iterdir():
   if p.is_file() and (p.name in ROOT_FILES or p.name.endswith('-sha256.json')):
    try:data,n=scrub(stable_bytes(p));atomic(destination/'status'/p.name,data)
    except (OSError,ValueError):continue
-  elif p.is_dir() and (p.name.startswith(('qualification','frozen-qualification','guard-qualification','harness-repair-checks','topology-qualification')) or p.name in ['baseline-replay','compatibility','repairs','progress','parallel-inference','parallel-jobs','role-probes','runtime-evidence','soak','topology-warnings','ineligible-cells']):
+  elif p.is_dir() and (p.name.startswith(('qualification','frozen-qualification','guard-qualification','harness-repair-checks','topology-qualification','compatibility-')) or p.name in ['baseline-replay','compatibility','repairs','progress','parallel-inference','parallel-jobs','role-probes','runtime-evidence','soak','topology-warnings','ineligible-cells']):
    # Qualification and diagnostic folders can grow while a run continues.
    # Content-addressed snapshots retain every version instead of freezing an
    # incomplete first export under a fixed archive name.

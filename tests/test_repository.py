@@ -50,4 +50,6 @@ class SnapshotSafety(unittest.TestCase):
    with (source/'events.jsonl').open('a') as f:f.write('{"next":2}\n')
    snapshot(source,repo);index=json.loads((repo/'results/source/telemetry/events.jsonl/INDEX.json').read_text());self.assertEqual(index['offset'],(source/'events.jsonl').stat().st_size);self.assertEqual(len(index['chunks']),2)
    q=source/'qualification-growing';q.mkdir();(q/'first.json').write_text('{}');snapshot(source,repo);before=set((repo/'results/source/artifacts/evidence').glob('qualification-growing-*.tar.gz'));(q/'second.json').write_text('{"passed":true}');snapshot(source,repo);after=set((repo/'results/source/artifacts/evidence').glob('qualification-growing-*.tar.gz'));self.assertEqual(len(before),1);self.assertEqual(len(after),2)
+   compat=source/'compatibility-h5.1/model';compat.mkdir(parents=True);(compat/'result.json').write_text('{"qualified":false,"reason":"preserve failure"}');snapshot(source,repo);bundles=list((repo/'results/source/artifacts/evidence').glob('compatibility-h5.1-*.tar.gz'));self.assertEqual(len(bundles),1)
+   with tarfile.open(bundles[0]) as archive:self.assertIn(b'preserve failure',archive.extractfile('model/result.json').read())
 if __name__=='__main__':unittest.main()
