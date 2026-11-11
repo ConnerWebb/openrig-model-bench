@@ -1,0 +1,33 @@
+OpenRig hourly check — 2026-11-11T08:53:27.730564-06:00
+Active immutable revision h5.4.
+Python: 19/22 accepted. C++: 13/21 accepted.
+Only finished h5.4 solo trials; qualifiers, probes, interruptions and older revisions excluded. Unequal model/task coverage; do not pool or rank these totals.
+
+new_python: Coder-Next expression seed43 and HTTP seed43 passed first attempt.
+cpp_binary: Seed43 failed after three attempts (45.10 min); unchanged extra newline after OGC1 violates specified format; fixed normal cases0-7 fail while own tests pass. ASan explicitly skipped after failed normal mode. Two bounded turn deadlines and final unverified closure are secondary workflow symptoms.
+cpp_lru: Seed43 failed after three attempts (8.56 min). Public normal/ASan and authored tests passed, independent acceptance rejected normal cases0,5,6. Earlier revision crashed free(): invalid pointer; final source lacks capacity0 early return and stores one item where zero required. Code/contract failure, no test weakening.
+cpp_queue: Seed43 failed after three attempts (20.03 min). Latest saved official run passed normal, ASan and TSan; authored tests failed. Final saved solution_test.cpp test_fifo pushes10 items into capacity5 before any pop/consumer, so it can block itself under the stated blocking contract. Deadline and repeated-command guard followed. Model test/workflow failure, no scheduler repair justified.
+cpp_buffer: Seed43 passed first attempt (1.25 min), including public normal/ASan and private acceptance.
+current: Seed43 C++ CSV pending, signed overflow returns wrapped value instead of required rejection in public cases11/12; own tests pass. ASan is explicitly not_run until normal correctness passes.
+infrastructure: No resource guard, monitor error, inference cgroup OOM or recurring compaction-budget fault observed. Two broken-pipe streams align with bounded turn cancellation. Existing h5.3 tool-call/sanitizer fixes and h5.4 compaction repair remain intact.
+action: Continue healthy bounded trial; no harness edits, inference restart, task-contract changes or production changes needed.
+
+Per-model Python/C++ accepted/finished:
+coder30: {"cpp": {"finished": 1, "passed": 0}, "python": {"finished": 1, "passed": 1}}
+devstral: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+glm: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 0}}
+gpt120: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+gpt20: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+nemo: {"cpp": {"finished": 1, "passed": 0}, "python": {"finished": 1, "passed": 0}}
+next: {"cpp": {"finished": 10, "passed": 5}, "python": {"finished": 11, "passed": 10}}
+q122: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+q27q4: {"cpp": {"finished": 1, "passed": 0}, "python": {"finished": 1, "passed": 1}}
+q27q8: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+q35: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+q9: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+
+Memory last hour: {"minimum_available": 52625199104, "peak_mem_info_gtt_used": 55694077952, "peak_mem_info_vram_used": 508342272, "peak_swap_used": 8555180032, "peak_system_used": 81673928704, "pswpin_pages_delta": 6069, "pswpout_pages_delta": 0, "samples": 3558}
+Error events: {'[Errno 32] Broken pipe': 2}; resource/monitor events: 0.
+Verified 32 frozen source files and 120 historical results. Production unchanged: True.
+Current task: solo-next-cpp-csv-s43-h5.4
+No operator patch to model answers, no interrupted trial scored as failure. Campaign and independent GitHub backup continue.

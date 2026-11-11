@@ -1,0 +1,406 @@
+{
+  "at": "2026-11-11T08:53:27.730564-06:00",
+  "revision": "h5.4",
+  "coding_scores": {
+    "python": {
+      "passed": 19,
+      "finished": 22
+    },
+    "cpp": {
+      "passed": 13,
+      "finished": 21
+    }
+  },
+  "per_model": {
+    "coder30": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1
+      }
+    },
+    "devstral": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "glm": {
+      "python": {
+        "passed": 0,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "gpt120": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "gpt20": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "nemo": {
+      "python": {
+        "passed": 0,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1
+      }
+    },
+    "next": {
+      "python": {
+        "passed": 10,
+        "finished": 11
+      },
+      "cpp": {
+        "passed": 5,
+        "finished": 10
+      }
+    },
+    "q122": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "q27q4": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1
+      }
+    },
+    "q27q8": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "q35": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "q9": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    }
+  },
+  "new_completed": [
+    {
+      "id": "solo-next-cpp-binary-s43-h5.4",
+      "task": "cpp-binary",
+      "language": "cpp",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 43,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794403199.8550649,
+      "complete": false,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-c521f2427d2d",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794403200.7768068,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794404103.1409125,
+          "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        },
+        {
+          "attempt": 3,
+          "started": 1794405051.5911794,
+          "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        }
+      ],
+      "attempts": 3,
+      "failure": "Repair budget exhausted",
+      "last_stage_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup.",
+      "finished": 1794405905.9766037,
+      "seconds": 2706.121538877487,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-cpp-lru-s43-h5.4",
+      "task": "cpp-lru",
+      "language": "cpp",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 43,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794405906.3628976,
+      "complete": false,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-b0867c0e6c69",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794405907.2845626,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794406098.6237867,
+          "incoming_feedback": "Independent acceptance found contract failures: {\"passed\": false, \"count\": 14, \"hash\": \"607c5ce7990253b8d00a43b0b1e2a78190c23508a1c087f72b79032ef862e561\", \"mode\": \"verification-suite\", \"checks\": {\"normal\": {\"passed\": false, \"count\": 14, \"hash\": \"607c5ce7990253b8d00a43b0b1e2a78190c23508a1c087f72b79032ef862e561\", \"mode\": \"normal\", \"compile\": null, \"failures\": [{\"case\": 0, \"exit\": 134, \"actual\": null, \"expected\": \"independent contract check failed\", \"stderr\": \"free(): invalid pointer\\n\"}, {\"case\": 5, \"exit\": 134, \"actual\": null, \"expected\": \"independent contract check failed\", \"stderr\": \"free(): invalid pointer\\n\"}, {\"case\": 6, \"exit\": 134, \"actual\": null, \"expected\": \"independent contract check failed\", \"stderr\": \"free(): invalid pointer\\n\"}]}}, \"failed_modes\": [\"normal\"], \"not_run\": {\"asan\": \"Earlier required mode failed\"}, \"source_changed\": false}"
+        },
+        {
+          "attempt": 3,
+          "started": 1794406231.7238078,
+          "incoming_feedback": "Independent acceptance found contract failures: {\"passed\": false, \"count\": 14, \"hash\": \"a1ad80dca119cdf75a9de8d85f070388591cf72755971973b20be8f839dd4599\", \"mode\": \"verification-suite\", \"checks\": {\"normal\": {\"passed\": false, \"count\": 14, \"hash\": \"a1ad80dca119cdf75a9de8d85f070388591cf72755971973b20be8f839dd4599\", \"mode\": \"normal\", \"compile\": null, \"failures\": [{\"case\": 0, \"exit\": 0, \"actual\": {\"value\": [null, null, null, null, false, [[6, \"x35\"]], null, false, false, [false, \"UNCHANGED\"], false, [[5, \"two words28\"]], [[5, \"two words28\"]], [[5, \"two words28\"]], [false, \"UNCHANGED\"], null, null, false, null, [[4, \"\\u65e5\\u672c69\"]], null, null, [true, \"two words57\"], null, null, false, [[6, \"two words83\"]], [false, \"UNCHANGED\"], null, [[2, \"two words89\"]], [false, \"UNCHANGED\"], null, [[9, \"two words48\"]], null, null, [[3, \"\\u65e5\\u672c18\"]], null, [[7, \"x71\"]], [false, \"UNCHANGED\"], [[7, \"x71\"]], [false, \"UNCHANGED\"], false, [false, \"UNCHANGED\"], null, null, null, [[1, \"two words48\"]], false, null, [[4, \"two words65\"]], [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, [[0, \"\\u65e5\\u672c38\"]], false, [[0, \"\\u65e5\\u672c38\"]], null, true, [], [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], [[6, \"\\u65e5\\u672c60\"]], null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, null, [[0, \"x47\"]], false, null, null, [[3, \"two words52\"]], [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, null, [[7, \"two words0\"]], false, null, [[3, \"x79\"]], null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], [[8, \"\\u65e5\\u672c62\"]], null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], false, null, null, [[0, \"two words5\"]], null, null, false, [false, \"UNCHANGED\"], null, null, null, [[8, \"x67\"]], [false, \"UNCHANGED\"], null, null, null, false, [false, \"UNCHANGED\"], false, false, null, null, null, false, null, false, [[5, \"x64\"]], [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], [[3, \"\\u65e5\\u672c77\"]], null, null, null, [[1, \"x77\"]], null, [false, \"UNCHANGED\"], null, false, null, null, null, false, [false, \"UNCHANGED\"], [[7, \"\\u65e5\\u672c34\"]], [[7, \"\\u65e5\\u672c34\"]], null, null, [true, \"x18\"], null, null, null, null, null, false], \"size\": 1}, \"expected\": \"independent contract check failed\", \"stderr\": \"\"}, {\"case\": 5, \"exit\": 0, \"actual\": {\"value\": [null, null, [[1, \"x61\"]], null, null, [[9, \"x27\"]], [false, \"UNCHANGED\"], false, null, [false, \"UNCHANGED\"], false, [false, \"UNCHANGED\"], null, [true, \"\\u65e5\\u672c96\"], false, [[9, \"\\u65e5\\u672c96\"]], [[9, \"\\u65e5\\u672c96\"]], false, [[9, \"\\u65e5\\u672c96\"]], [false, \"UNCHANGED\"], null, [[3, \"\\u65e5\\u672c54\"]], false, [[3, \"\\u65e5\\u672c54\"]], [false, \"UNCHANGED\"], null, false, null, null, [[9, \"\\u65e5\\u672c39\"]], null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], [[6, \"two words58\"]], [[6, \"two words58\"]], [false, \"UNCHANGED\"], null, null, [[7, \"\\u65e5\\u672c43\"]], [false, \"UNCHANGED\"], null, [[0, \"two words24\"]], [false, \"UNCHANGED\"], false, true, null, null, null, null, false, null, [[5, \"two words88\"]], [false, \"UNCHANGED\"], [[5, \"two words88\"]], null, [false, \"UNCHANGED\"], [[3, \"two words40\"]], null, [[9, \"\\u65e5\\u672c14\"]], false, null, null, [[2, \"two words28\"]], null, null, null, null, null, false, null, [false, \"UNCHANGED\"], true, null, [[8, \"x81\"]], null, null, [[4, \"two words3\"]], null, [[7, \"x43\"]], [[7, \"x43\"]], false, null, null, null, false, null, null, [[1, \"x25\"]], false, [false, \"UNCHANGED\"], [[1, \"x25\"]], [false, \"UNCHANGED\"], false, false, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], false, null, [[7, \"x41\"]], [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], [[7, \"x41\"]], null, [false, \"UNCHANGED\"], null, null, null, [false, \"UNCHANGED\"], null, false, true, false, false, null, false, null, null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, null, [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], null, null, [[2, \"\\u65e5\\u672c75\"]], [false, \"UNCHANGED\"], null, null, [[2, \"two words77\"]], false, false, false, [[2, \"two words77\"]], false, null, null, [[8, \"two words97\"]], null, false, [false, \"UNCHANGED\"], null, [[0, \"x7\"]], [[0, \"x7\"]], [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"]], \"size\": 1}, \"expected\": \"independent contract check failed\", \"stderr\": \"\"}, {\"case\": 6, \"exit\": 0, \"actual\": {\"value\": [[false, \"UNCHANGED\"], null, [[4, \"\\u65e5\\u672c72\"]], null, null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], [[3, \"x46\"]], [false, \"UNCHANGED\"], [[3, \"x46\"]], null, false, false, [false, \"UNCHANGED\"], null, [[6, \"x63\"]], null, null, [false, \"UNCHANGED\"], false, false, null, false, true, false, null, [[3, \"two words98\"]], false, null, [[7, \"x66\"]], [false, \"UNCHANGED\"], null, [true, \"\\u65e5\\u672c75\"], null, false, null, null, false, null, [false, \"UNCHANGED\"], null, [[0, \"two words57\"]], false, [[0, \"two words57\"]], null, null, null, [[8, \"two words24\"]], [[8, \"two words24\"]], null, false, null, false, false, null, false, false, null, [false, \"UNCHANGED\"], null, [[2, \"two words35\"]], [[2, \"two words35\"]], [[2, \"two words35\"]], [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, [[3, \"x98\"]], [[3, \"x98\"]], null, null, null, null, null, [[0, \"x69\"]], [[0, \"x69\"]], false, null, false, null, null, null, null, null, null, false, null, null, null, [[5, \"\\u65e5\\u672c28\"]], null, null, [false, \"UNCHANGED\"], [true, \"two words32\"], [[2, \"two words32\"]], null, null, null, null, null, null, false, [false, \"UNCHANGED\"], false, null, [[0, \"x88\"]], null, false, [false, \"UNCHANGED\"], null, null, null, false, [[5, \"two words91\"]], [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], true, [], null, null, [false, \"UNCHANGED\"], false, null, [[3, \"x84\"]], null, null, false, [false, \"UNCHANGED\"], [[4, \"two words37\"]], false, null, false, null, [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], null, null, false, [[4, \"\\u65e5\\u672c77\"]], [[4, \"\\u65e5\\u672c77\"]], null, false, null, null, null, null, [[8, \"two words24\"]]], \"size\": 1}, \"expected\": \"independent contract check failed\", \"stderr\": \"\"}]}}, \"failed_modes\": [\"normal\"], \"not_run\": {\"asan\": \"Earlier required mode failed\"}, \"source_changed\": false}"
+        }
+      ],
+      "attempts": 3,
+      "failure": "Repair budget exhausted",
+      "last_stage_feedback": "Independent acceptance found contract failures: {\"passed\": false, \"count\": 14, \"hash\": \"a1ad80dca119cdf75a9de8d85f070388591cf72755971973b20be8f839dd4599\", \"mode\": \"verification-suite\", \"checks\": {\"normal\": {\"passed\": false, \"count\": 14, \"hash\": \"a1ad80dca119cdf75a9de8d85f070388591cf72755971973b20be8f839dd4599\", \"mode\": \"normal\", \"compile\": null, \"failures\": [{\"case\": 0, \"exit\": 0, \"actual\": {\"value\": [null, null, null, null, false, [[6, \"x35\"]], null, false, false, [false, \"UNCHANGED\"], false, [[5, \"two words28\"]], [[5, \"two words28\"]], [[5, \"two words28\"]], [false, \"UNCHANGED\"], null, null, false, null, [[4, \"\\u65e5\\u672c69\"]], null, null, [true, \"two words57\"], null, null, false, [[6, \"two words83\"]], [false, \"UNCHANGED\"], null, [[2, \"two words89\"]], [false, \"UNCHANGED\"], null, [[9, \"two words48\"]], null, null, [[3, \"\\u65e5\\u672c18\"]], null, [[7, \"x71\"]], [false, \"UNCHANGED\"], [[7, \"x71\"]], [false, \"UNCHANGED\"], false, [false, \"UNCHANGED\"], null, null, null, [[1, \"two words48\"]], false, null, [[4, \"two words65\"]], [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, [[0, \"\\u65e5\\u672c38\"]], false, [[0, \"\\u65e5\\u672c38\"]], null, true, [], [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], [[6, \"\\u65e5\\u672c60\"]], null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, null, [[0, \"x47\"]], false, null, null, [[3, \"two words52\"]], [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, null, [[7, \"two words0\"]], false, null, [[3, \"x79\"]], null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], [[8, \"\\u65e5\\u672c62\"]], null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], false, null, null, [[0, \"two words5\"]], null, null, false, [false, \"UNCHANGED\"], null, null, null, [[8, \"x67\"]], [false, \"UNCHANGED\"], null, null, null, false, [false, \"UNCHANGED\"], false, false, null, null, null, false, null, false, [[5, \"x64\"]], [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], [[3, \"\\u65e5\\u672c77\"]], null, null, null, [[1, \"x77\"]], null, [false, \"UNCHANGED\"], null, false, null, null, null, false, [false, \"UNCHANGED\"], [[7, \"\\u65e5\\u672c34\"]], [[7, \"\\u65e5\\u672c34\"]], null, null, [true, \"x18\"], null, null, null, null, null, false], \"size\": 1}, \"expected\": \"independent contract check failed\", \"stderr\": \"\"}, {\"case\": 5, \"exit\": 0, \"actual\": {\"value\": [null, null, [[1, \"x61\"]], null, null, [[9, \"x27\"]], [false, \"UNCHANGED\"], false, null, [false, \"UNCHANGED\"], false, [false, \"UNCHANGED\"], null, [true, \"\\u65e5\\u672c96\"], false, [[9, \"\\u65e5\\u672c96\"]], [[9, \"\\u65e5\\u672c96\"]], false, [[9, \"\\u65e5\\u672c96\"]], [false, \"UNCHANGED\"], null, [[3, \"\\u65e5\\u672c54\"]], false, [[3, \"\\u65e5\\u672c54\"]], [false, \"UNCHANGED\"], null, false, null, null, [[9, \"\\u65e5\\u672c39\"]], null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], [[6, \"two words58\"]], [[6, \"two words58\"]], [false, \"UNCHANGED\"], null, null, [[7, \"\\u65e5\\u672c43\"]], [false, \"UNCHANGED\"], null, [[0, \"two words24\"]], [false, \"UNCHANGED\"], false, true, null, null, null, null, false, null, [[5, \"two words88\"]], [false, \"UNCHANGED\"], [[5, \"two words88\"]], null, [false, \"UNCHANGED\"], [[3, \"two words40\"]], null, [[9, \"\\u65e5\\u672c14\"]], false, null, null, [[2, \"two words28\"]], null, null, null, null, null, false, null, [false, \"UNCHANGED\"], true, null, [[8, \"x81\"]], null, null, [[4, \"two words3\"]], null, [[7, \"x43\"]], [[7, \"x43\"]], false, null, null, null, false, null, null, [[1, \"x25\"]], false, [false, \"UNCHANGED\"], [[1, \"x25\"]], [false, \"UNCHANGED\"], false, false, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], false, null, [[7, \"x41\"]], [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], [[7, \"x41\"]], null, [false, \"UNCHANGED\"], null, null, null, [false, \"UNCHANGED\"], null, false, true, false, false, null, false, null, null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, null, [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], null, null, [[2, \"\\u65e5\\u672c75\"]], [false, \"UNCHANGED\"], null, null, [[2, \"two words77\"]], false, false, false, [[2, \"two words77\"]], false, null, null, [[8, \"two words97\"]], null, false, [false, \"UNCHANGED\"], null, [[0, \"x7\"]], [[0, \"x7\"]], [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"]], \"size\": 1}, \"expected\": \"independent contract check failed\", \"stderr\": \"\"}, {\"case\": 6, \"exit\": 0, \"actual\": {\"value\": [[false, \"UNCHANGED\"], null, [[4, \"\\u65e5\\u672c72\"]], null, null, [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], [[3, \"x46\"]], [false, \"UNCHANGED\"], [[3, \"x46\"]], null, false, false, [false, \"UNCHANGED\"], null, [[6, \"x63\"]], null, null, [false, \"UNCHANGED\"], false, false, null, false, true, false, null, [[3, \"two words98\"]], false, null, [[7, \"x66\"]], [false, \"UNCHANGED\"], null, [true, \"\\u65e5\\u672c75\"], null, false, null, null, false, null, [false, \"UNCHANGED\"], null, [[0, \"two words57\"]], false, [[0, \"two words57\"]], null, null, null, [[8, \"two words24\"]], [[8, \"two words24\"]], null, false, null, false, false, null, false, false, null, [false, \"UNCHANGED\"], null, [[2, \"two words35\"]], [[2, \"two words35\"]], [[2, \"two words35\"]], [false, \"UNCHANGED\"], [false, \"UNCHANGED\"], null, [[3, \"x98\"]], [[3, \"x98\"]], null, null, null, null, null, [[0, \"x69\"]], [[0, \"x69\"]], false, null, false, null, null, null, null, null, null, false, null, null, null, [[5, \"\\u65e5\\u672c28\"]], null, null, [false, \"UNCHANGED\"], [true, \"two words32\"], [[2, \"two words32\"]], null, null, null, null, null, null, false, [false, \"UNCHANGED\"], false, null, [[0, \"x88\"]], null, false, [false, \"UNCHANGED\"], null, null, null, false, [[5, \"two words91\"]], [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], true, [], null, null, [false, \"UNCHANGED\"], false, null, [[3, \"x84\"]], null, null, false, [false, \"UNCHANGED\"], [[4, \"two words37\"]], false, null, false, null, [false, \"UNCHANGED\"], null, [false, \"UNCHANGED\"], null, null, false, [[4, \"\\u65e5\\u672c77\"]], [[4, \"\\u65e5\\u672c77\"]], null, false, null, null, null, null, [[8, \"two words24\"]]], \"size\": 1}, \"expected\": \"independent contract check failed\", \"stderr\": \"\"}]}}, \"failed_modes\": [\"normal\"], \"not_run\": {\"asan\": \"Earlier required mode failed\"}, \"source_changed\": false}",
+      "finished": 1794406420.2130804,
+      "seconds": 513.8501827716827,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-py-expression-s43-h5.4",
+      "task": "py-expression",
+      "language": "python",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 43,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794406420.5852857,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-d3aee8ad719f",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794406421.491786,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "4ff497406ffc38911aa2d375a98ceb88de18586ada2b1c0979e82add71cbae1c",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-py-expression-s43-h5.4/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794406621.4995518,
+      "seconds": 200.91426610946655,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-py-http-s43-h5.4",
+      "task": "py-http",
+      "language": "python",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 43,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794406621.8815079,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-cdcb196a68f9",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794406622.8068497,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "67f205d6cc0e281194af95a19971918046e18f74e438732cbd3bb8143db207df",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-py-http-s43-h5.4/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794406777.1125228,
+      "seconds": 155.23101496696472,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-cpp-queue-s43-h5.4",
+      "task": "cpp-queue",
+      "language": "cpp",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 43,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794406777.4719386,
+      "complete": false,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-0eb1d2f20c6e",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794406778.3580265,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794407752.7049344,
+          "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        },
+        {
+          "attempt": 3,
+          "started": 1794407844.8957138,
+          "incoming_feedback": "STAGE_FAILED: Six unchanged repetitions of the same command and output; no progress"
+        }
+      ],
+      "attempts": 3,
+      "failure": "Repair budget exhausted",
+      "last_stage_feedback": "STAGE_FAILED: Six unchanged repetitions of the same command and output; no progress",
+      "finished": 1794407979.0789518,
+      "seconds": 1201.6070132255554,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-cpp-buffer-s43-h5.4",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 43,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794407979.4505339,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-6d922506e70a",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794407980.37544,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "c1174cc925277392da3afb3a0d25904082a5fba6f4517b94b37bb0b7568d9db3",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-cpp-buffer-s43-h5.4/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794408054.375234,
+      "seconds": 74.92470002174377,
+      "resource_limited": false
+    }
+  ],
+  "current": {
+    "phase": "solo",
+    "at": 1794408054.7453508,
+    "pid": 3668881,
+    "harness_revision": "h5.4",
+    "dispatch_plan": "compaction-repair-rerun-then-full-campaign",
+    "current": "solo-next-cpp-csv-s43-h5.4"
+  },
+  "heartbeat_age_seconds": -0.9899916648864746,
+  "diagnosis": {
+    "new_python": "Coder-Next expression seed43 and HTTP seed43 passed first attempt.",
+    "cpp_binary": "Seed43 failed after three attempts (45.10 min); unchanged extra newline after OGC1 violates specified format; fixed normal cases0-7 fail while own tests pass. ASan explicitly skipped after failed normal mode. Two bounded turn deadlines and final unverified closure are secondary workflow symptoms.",
+    "cpp_lru": "Seed43 failed after three attempts (8.56 min). Public normal/ASan and authored tests passed, independent acceptance rejected normal cases0,5,6. Earlier revision crashed free(): invalid pointer; final source lacks capacity0 early return and stores one item where zero required. Code/contract failure, no test weakening.",
+    "cpp_queue": "Seed43 failed after three attempts (20.03 min). Latest saved official run passed normal, ASan and TSan; authored tests failed. Final saved solution_test.cpp test_fifo pushes10 items into capacity5 before any pop/consumer, so it can block itself under the stated blocking contract. Deadline and repeated-command guard followed. Model test/workflow failure, no scheduler repair justified.",
+    "cpp_buffer": "Seed43 passed first attempt (1.25 min), including public normal/ASan and private acceptance.",
+    "current": "Seed43 C++ CSV pending, signed overflow returns wrapped value instead of required rejection in public cases11/12; own tests pass. ASan is explicitly not_run until normal correctness passes.",
+    "infrastructure": "No resource guard, monitor error, inference cgroup OOM or recurring compaction-budget fault observed. Two broken-pipe streams align with bounded turn cancellation. Existing h5.3 tool-call/sanitizer fixes and h5.4 compaction repair remain intact.",
+    "action": "Continue healthy bounded trial; no harness edits, inference restart, task-contract changes or production changes needed."
+  },
+  "memory_last_hour_bytes": {
+    "samples": 3558,
+    "minimum_available": 52625199104,
+    "peak_system_used": 81673928704,
+    "peak_swap_used": 8555180032,
+    "peak_mem_info_vram_used": 508342272,
+    "peak_mem_info_gtt_used": 55694077952,
+    "pswpin_pages_delta": 6069,
+    "pswpout_pages_delta": 0
+  },
+  "error_events_since_previous_check": {
+    "[Errno 32] Broken pipe": 2
+  },
+  "guard_or_monitor_errors": [],
+  "completed_bounded_summaries": 0,
+  "source_files_verified": 32,
+  "historical_results_verified": 120,
+  "production_unchanged": true,
+  "scope": "Only finished h5.4 solo trials; qualifiers, probes, interruptions and older revisions excluded. Unequal model/task coverage; do not pool or rank these totals.",
+  "rollback": "repairs/h5.4/LOCAL-RESTORE.txt. No settings changed during this check.",
+  "campaign_unfinished": true
+}
