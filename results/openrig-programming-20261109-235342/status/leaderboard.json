@@ -316,5 +316,53 @@
     "case_wall_seconds_sum": 108.6640772819519,
     "accepted_tasks_per_hour": 33.12962379148575,
     "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'gpt20'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 444.2146351337433,
+    "accepted_tasks_per_hour": 8.104190441443063,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'gpt20'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 58.803521156311035,
+    "accepted_tasks_per_hour": 61.22082367194491,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-queue",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 337.6177616119385,
+    "accepted_tasks_per_hour": 10.66294611637725,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-queue",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 185.524010181427,
+    "accepted_tasks_per_hour": 19.404496466411548,
+    "failures": []
   }
 ]
