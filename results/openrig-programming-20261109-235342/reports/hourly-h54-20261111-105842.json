@@ -1,0 +1,336 @@
+{
+  "at": "2026-11-11T10:58:42.594486-06:00",
+  "revision": "h5.4",
+  "coding_scores": {
+    "python": {
+      "passed": 22,
+      "finished": 27
+    },
+    "cpp": {
+      "passed": 15,
+      "finished": 25
+    }
+  },
+  "per_model": {
+    "coder30": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1
+      }
+    },
+    "devstral": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "glm": {
+      "python": {
+        "passed": 0,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "gpt120": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "gpt20": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "nemo": {
+      "python": {
+        "passed": 0,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1
+      }
+    },
+    "next": {
+      "python": {
+        "passed": 13,
+        "finished": 16
+      },
+      "cpp": {
+        "passed": 7,
+        "finished": 14
+      }
+    },
+    "q122": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "q27q4": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1
+      }
+    },
+    "q27q8": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "q35": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "q9": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    }
+  },
+  "new_completed": [
+    {
+      "id": "solo-next-py-archive-s44-h5.4",
+      "task": "py-archive",
+      "language": "python",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 44,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794410683.893496,
+      "complete": false,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-a31a820e3d15",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794410684.800112,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794411088.982112,
+          "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+        },
+        {
+          "attempt": 3,
+          "started": 1794411991.3684752,
+          "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        }
+      ],
+      "attempts": 3,
+      "failure": "Repair budget exhausted",
+      "last_stage_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+      "finished": 1794412893.7884855,
+      "seconds": 2209.894989490509,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-cpp-binary-s44-h5.4",
+      "task": "cpp-binary",
+      "language": "cpp",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 44,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794412894.273405,
+      "complete": false,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-4add6e0e9830",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794412895.345127,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794413383.5750601,
+          "incoming_feedback": "Six unchanged repetitions of the same command and output; no progress"
+        },
+        {
+          "attempt": 3,
+          "started": 1794414286.118034,
+          "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        }
+      ],
+      "attempts": 3,
+      "failure": "Repair budget exhausted",
+      "last_stage_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+      "finished": 1794415188.5290508,
+      "seconds": 2294.255645751953,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-cpp-lru-s44-h5.4",
+      "task": "cpp-lru",
+      "language": "cpp",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 44,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794415188.9105692,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-30058476b401",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794415189.8374288,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "c6728b66f1131075879e360ed387d9288bc6faad98d44e3c84466f1c38e24eb5",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-cpp-lru-s44-h5.4/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794415352.4749115,
+      "seconds": 163.56434226036072,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-py-expression-s44-h5.4",
+      "task": "py-expression",
+      "language": "python",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 44,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794415352.850875,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-cdf9c977c08d",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794415353.7689338,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "c3efe116e5dda4a79ccd65c04d3da09e83faa4617aa5179ebd7baa5bd40ca5a3",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-py-expression-s44-h5.4/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794415989.9186237,
+      "seconds": 637.0677487850189,
+      "resource_limited": false
+    }
+  ],
+  "current": {
+    "phase": "solo",
+    "at": 1794415990.2806077,
+    "pid": 3668881,
+    "harness_revision": "h5.4",
+    "dispatch_plan": "compaction-repair-rerun-then-full-campaign",
+    "current": "solo-next-py-http-s44-h5.4"
+  },
+  "heartbeat_age_seconds": -0.24063324928283691,
+  "diagnosis": {
+    "new_passes": "Coder-Next seed44 C++ LRU passed first attempt in2.73min; Python expression passed first attempt in10.62min.",
+    "python_archive_failure": "Seed44 exhausted three attempts in36.83min. Latest public case9 raises ValueError for file/child conflict but leaves output behind, failing unchanged-output requirement;13 authored tests pass. Code/contract failure with unverified closure and turn deadlines; no operator intervention.",
+    "cpp_binary_failure": "Seed44 exhausted three attempts in38.24min. Latest official test receipt shows normal cases0-7 fail because extra newline after OGC1 shifts specified layout; authored tests passed. ASan explicitly skipped after normal failure. Later source edits were not officially reverified before two deadlines. Code plus workflow/unverified-final-source failure, not an inference OOM.",
+    "current_trial": "Python HTTP seed44 remains pending. Latest public case10 accepts missing next field while contract driver expects ValueError; own20 tests pass. Fresh tool activity and inference streaming continue. Do not interrupt or score pending work.",
+    "infrastructure": "Three broken-pipe streams since previous check are bounded cancellation artifacts. No resource guards, monitor errors, cgroup OOMs or recurrent compaction-budget failures observed. Native Qwen tool calls and mode-specific sanitizer feedback repairs remain deployed in unchanged h5.4 source.",
+    "action": "No reproducible harness defect found; no new revision, extra repair rerun, campaign restart, inference restart or production change justified. Keep finite campaign moving."
+  },
+  "memory_last_hour_bytes": {
+    "samples": 3557,
+    "minimum_available": 52343795712,
+    "peak_system_used": 81955332096,
+    "peak_swap_used": 8517423104,
+    "peak_mem_info_vram_used": 508317696,
+    "peak_mem_info_gtt_used": 55527489536,
+    "pswpin_pages_delta": 1008,
+    "pswpout_pages_delta": 0
+  },
+  "error_events_since_previous_check": {
+    "[Errno 32] Broken pipe": 3
+  },
+  "guard_or_monitor_errors": [],
+  "inference_cgroup_memory_events": {
+    "low": 0,
+    "high": 0,
+    "max": 0,
+    "oom": 0,
+    "oom_kill": 0,
+    "oom_group_kill": 0,
+    "sock_throttled": 0
+  },
+  "source_files_verified": 32,
+  "historical_results_verified": 120,
+  "production_unchanged": true,
+  "scope": "Finished h5.4 solo trials only. Incomplete/interrupted trials, qualifiers, probes and other revisions excluded; unequal task/model coverage means totals are not an equal-work ranking.",
+  "rollback": "repairs/h5.4/LOCAL-RESTORE.txt; no settings changed this check.",
+  "campaign_unfinished": true
+}
