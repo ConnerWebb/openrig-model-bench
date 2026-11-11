@@ -1,0 +1,31 @@
+h5.5: alternate Pi checkpoint envelope and optional thermal error isolation
+
+The h5.4 Qwen3-Coder30B C++ CSV trial encountered eight rejected tool-free
+summary requests using '# Conversation' plus a fixed '# Instructions' footer.
+Earlier XML '<conversation>' summary support did not recognize this exact
+second SDK envelope. Original requests and failed trial remain preserved.
+
+The new adapter recognizes only the tool-free two-message summarizer request
+with the known system prompt, exact conversation heading, fixed instructions
+boundary, required format headings and closing sentence. It budgets only the
+transcript, preserving system and the entire formatting footer byte for byte.
+Ordinary assignment and tool-enabled requests retain existing strict limits.
+Existing XML summary and Qwen native tool-call ordering rules are unchanged.
+
+The integrated monitor also isolates optional temperature errors and runs
+essential memory/OOM checks before thermal sampling. ELOOP from mt7925_phy0
+is recorded per sensor. The temporary independent monitor-m1 source and all
+its raw telemetry remain preserved. No driver/firmware changes are involved.
+
+Catalog, drivers, private acceptance, scopes, task weights,32K context,
+4096 output cap and fixed sampling are unchanged. New h5.5 results are a
+separate cohort; h5.4 results must not be pooled into h5.5 rankings. The full
+finite campaign restarts with fresh qualification/baselines, followed by the
+affected Qwen CSV cell and unchanged full matrix, teams and parallel phases.
+
+Candidate check evidence:140 regressions including the exact archived request,
+prior XML compatibility, native tool batches, sanitizer mode feedback, scope
+guards, immutable original oracles and injected thermal/low-memory recovery;
+the installed Pi batch integration also passes. Portable suite: --suite h5.5.
+Deployment, live replay, checkpoint and rollback evidence are preserved under
+the campaign's repairs/h5.5 directory and exported results artifacts.
