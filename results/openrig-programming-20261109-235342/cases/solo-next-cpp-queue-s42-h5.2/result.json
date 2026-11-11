@@ -1,0 +1,40 @@
+{
+  "id": "solo-next-cpp-queue-s42-h5.2",
+  "task": "cpp-queue",
+  "language": "cpp",
+  "models": {
+    "developer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.2",
+  "started": 1794370022.3151646,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-5fec26111920",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794370023.2083888,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794370873.4939346,
+      "incoming_feedback": "120 tool-call limit reached"
+    },
+    {
+      "attempt": 3,
+      "started": 1794371776.114671,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+  "finished": 1794372678.539788,
+  "seconds": 2656.224623441696,
+  "resource_limited": false
+}
