@@ -1,0 +1,32 @@
+{
+  "id": "solo-devstral-py-csv-s42-h5.2",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "developer": "devstral"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.2",
+  "started": 1794363368.841619,
+  "complete": true,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-f0f883441f9e",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794363369.747771,
+      "incoming_feedback": "None. "
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "5468afcecf42e360c1b98269462598e7517e475f7b9e5443c469abaab9b39f66",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-devstral-py-csv-s42-h5.2/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794364072.3096664,
+  "seconds": 703.4680473804474,
+  "resource_limited": false
+}
