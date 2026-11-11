@@ -51,6 +51,23 @@
     "stored_result_sha256": "5700daeee2ea29f6a259a31c3d2414eced6b39f9372faa2f132b5cfe797a633a"
   },
   {
+    "artifact": "artifacts/cases/qualification-cpp-frozen-h5.2-3e62af726534a8aa0851.tar.gz",
+    "complete": true,
+    "directory": "qualification-cpp-frozen-h5.2",
+    "id": "qualification-cpp-frozen-h5.2",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "next",
+      "lead": "next",
+      "reviewer": "next"
+    },
+    "phase": "qualification",
+    "revision": "h5.2",
+    "source_result_sha256": "3e62af726534a8aa0851079a8f0a4d0260a9edb905534c12145390344dcf6f22",
+    "stored_result_sha256": "3e62af726534a8aa0851079a8f0a4d0260a9edb905534c12145390344dcf6f22"
+  },
+  {
     "artifact": "artifacts/cases/qualification-cpp-team-n1-2971f04d95eac48a65b7.tar.gz",
     "complete": true,
     "directory": "qualification-cpp-team-n1",
@@ -578,6 +595,23 @@
     "stored_result_sha256": "1af4b44e197c1e7c61bcc41143f44e7cf115734e83337740421237ab675e51ed"
   },
   {
+    "artifact": "artifacts/cases/qualification-python-frozen-h5.2-96468fee5d09766ade9c.tar.gz",
+    "complete": true,
+    "directory": "qualification-python-frozen-h5.2",
+    "id": "qualification-python-frozen-h5.2",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "next",
+      "lead": "next",
+      "reviewer": "next"
+    },
+    "phase": "qualification",
+    "revision": "h5.2",
+    "source_result_sha256": "96468fee5d09766ade9c7e1032e07f3480cfdba9fc57d303e2dd1575867d8eb4",
+    "stored_result_sha256": "96468fee5d09766ade9c7e1032e07f3480cfdba9fc57d303e2dd1575867d8eb4"
+  },
+  {
     "artifact": "artifacts/cases/solo-coder30-cpp-buffer-s42-h4-9964a05c7dfee3d67949.tar.gz",
     "complete": false,
     "directory": "solo-coder30-cpp-buffer-s42-h4",
@@ -996,6 +1030,21 @@
     "revision": "h5.1",
     "source_result_sha256": "2d54b608b2bb04c6cef33967288276ebc2016a17c6e4f8b6e266d3802f3669ab",
     "stored_result_sha256": "2d54b608b2bb04c6cef33967288276ebc2016a17c6e4f8b6e266d3802f3669ab"
+  },
+  {
+    "artifact": "artifacts/cases/solo-next-py-csv-s42-h5.2-82e73ea787cd64a91c35.tar.gz",
+    "complete": true,
+    "directory": "solo-next-py-csv-s42-h5.2",
+    "id": "solo-next-py-csv-s42-h5.2",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.2",
+    "source_result_sha256": "82e73ea787cd64a91c35bdcaebba03bba52db06dd614f2f3e1abc315a1cf36b3",
+    "stored_result_sha256": "82e73ea787cd64a91c35bdcaebba03bba52db06dd614f2f3e1abc315a1cf36b3"
   },
   {
     "artifact": "artifacts/cases/solo-next-py-expression-s42-7585e453a095deacb3b4.tar.gz",

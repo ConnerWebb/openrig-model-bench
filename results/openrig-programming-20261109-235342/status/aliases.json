@@ -5,5 +5,96 @@
     "seed": 42,
     "context": 32768,
     "replay": false
+  },
+  "campaign-coder30-s42-c32768": {
+    "source": "qwen3-coder:30b",
+    "key": "coder30",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
+  },
+  "campaign-devstral-s42-c32768": {
+    "source": "devstral-small-2",
+    "key": "devstral",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
+  },
+  "campaign-q35-s42-c32768": {
+    "source": "lab-qwen35-35b",
+    "key": "q35",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
+  },
+  "campaign-q9-s42-c32768": {
+    "source": "lab-qwen35-9b",
+    "key": "q9",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
+  },
+  "campaign-q27q4-s42-c32768": {
+    "source": "qwen3.8:27b-q4_K_M",
+    "key": "q27q4",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
+  },
+  "campaign-q27q8-s42-c32768": {
+    "source": "qwen3.8:27b-q8_0",
+    "key": "q27q8",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
+  },
+  "campaign-glm-s42-c32768": {
+    "source": "glm-4.7-flash:q4_K_M",
+    "key": "glm",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
+  },
+  "campaign-nemo-s42-c32768": {
+    "source": "nemotron-3-nano:30b",
+    "key": "nemo",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
+  },
+  "campaign-q122-s42-c32768": {
+    "source": "qwen3.5:122b",
+    "key": "q122",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
+  },
+  "campaign-gpt120-s42-c32768": {
+    "source": "gpt-oss:120b",
+    "key": "gpt120",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
+  },
+  "campaign-gpt20-s42-c32768": {
+    "source": "lab-gpt-oss-20b",
+    "key": "gpt20",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
+  },
+  "campaign-gemma-s42-c32768": {
+    "source": "lab-gemma3-12b",
+    "key": "gemma",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
+  },
+  "campaign-tiny-s42-c32768": {
+    "source": "qwen3:0.6b",
+    "key": "tiny",
+    "seed": 42,
+    "context": 32768,
+    "replay": false
   }
 }

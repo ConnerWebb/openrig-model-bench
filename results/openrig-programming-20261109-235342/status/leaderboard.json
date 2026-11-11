@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "phase": "qualification",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 3,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 122.19648551940918,
+    "accepted_tasks_per_hour": 29.460749093542393,
+    "failures": []
+  },
+  {
+    "phase": "qualification",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 3,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 86.32682752609253,
+    "accepted_tasks_per_hour": 41.70198422862105,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 89.05856156349182,
+    "accepted_tasks_per_hour": 40.42284017167154,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 76.6651508808136,
+    "accepted_tasks_per_hour": 46.95745014050373,
+    "failures": []
+  }
+]

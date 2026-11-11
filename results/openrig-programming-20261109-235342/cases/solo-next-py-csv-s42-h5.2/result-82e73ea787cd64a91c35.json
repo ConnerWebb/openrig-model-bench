@@ -1,0 +1,32 @@
+{
+  "id": "solo-next-py-csv-s42-h5.2",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "developer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.2",
+  "started": 1794358228.1782794,
+  "complete": true,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-2226e4e68aa4",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794358229.086521,
+      "incoming_feedback": "None. "
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "5e565ed12b8f8c954bdbf03ee0e954ade88fa4bbfa37d656dc097b0a5402d43d",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-py-csv-s42-h5.2/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794358317.236841,
+  "seconds": 89.05856156349182,
+  "resource_limited": false
+}

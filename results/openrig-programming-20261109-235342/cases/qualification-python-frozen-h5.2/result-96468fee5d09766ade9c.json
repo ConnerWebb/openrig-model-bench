@@ -1,0 +1,34 @@
+{
+  "id": "qualification-python-frozen-h5.2",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 3,
+  "phase": "qualification",
+  "harness_revision": "h5.2",
+  "started": 1794357891.0902593,
+  "complete": true,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-0d512550bad7",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794357938.7759385,
+      "incoming_feedback": "None. \nADVISORY PLAN:\nReview TASK.txt and existing solution.py: solution.py already implements the aggregate(path) contract correctly using csv.reader with proper quoting, Decimal for exact arithmetic, regex validation for amount format, and sorted keys with .2f formatting.\nVerify solution.py against all 13 public-inputs cases: cases 0-3 valid with quoted fields/newlines; cases 4-12 invalid (wrong header, extra columns, empty category, NaN, unterminated quote, exponent, negative, fractional digits >2, >12 integer digits) \u2192 all must raise ValueError.\nRun existing test_submission.py with run_tests to confirm basic correctness; add no new tests since the harness covers all edge cases.\nUpdate README.md to reflect the implementation is complete and passes all public cases; keep it concise as required.\nFinish stage after run_tests passes and no further work is needed per the planner-only directive."
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "fc8026c4e4c462f814f0ff6f5c5a415909b43a5183cfd184da8e38e04359a9ab",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-python-frozen-h5.2/seats/developer/project",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794358013.2867448,
+  "seconds": 122.19648551940918,
+  "resource_limited": false
+}

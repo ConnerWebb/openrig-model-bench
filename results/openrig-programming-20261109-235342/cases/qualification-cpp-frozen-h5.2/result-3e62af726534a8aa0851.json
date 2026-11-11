@@ -1,0 +1,34 @@
+{
+  "id": "qualification-cpp-frozen-h5.2",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 3,
+  "phase": "qualification",
+  "harness_revision": "h5.2",
+  "started": 1794358013.656536,
+  "complete": true,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-448fbf9185dd",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794358035.9054909,
+      "incoming_feedback": "None. \nADVISORY PLAN:\nRead TASK.txt and confirm Buffer library contract: RAII, deep copy, noexcept move, bounds-checked operator[], resize with prefix preservation and zero-initialization.\nVerify solution.hpp meets all contract requirements (copy/move semantics, bounds checking, resize behavior, self-assignment/move safety).\nCompile PUBLIC_DRIVER.cpp with Clang22 C++20 and test against public-inputs to ensure correct output format and behavior.\nAdd comprehensive unit tests using unittest.TestCase/test_* methods covering edge cases: empty buffer, self-copy, self-move, moved-from reuse, bounds exceptions.\nUpdate README.md with usage notes and confirm run_tests passes before closing."
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "9e8a2783669e63f42df07dfea3bbf7ff085e31eeab8006319a995637d3cc90b6",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-cpp-frozen-h5.2/seats/developer/project",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794358099.9833636,
+  "seconds": 86.32682752609253,
+  "resource_limited": false
+}
