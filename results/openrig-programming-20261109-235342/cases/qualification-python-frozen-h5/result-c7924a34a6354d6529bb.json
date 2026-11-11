@@ -1,0 +1,36 @@
+{
+  "id": "qualification-python-frozen-h5",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 3,
+  "phase": "qualification",
+  "harness_revision": "h5",
+  "started": 1794356319.9597178,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-a01b0a09152a",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794356363.8581693,
+      "incoming_feedback": "None. \nADVISORY PLAN:\nRead TASK.txt and existing solution.py to understand the contract and current implementation.\nReview PUBLIC_DRIVER.py to understand the grading wire format and test harness.\nInspect all public-inputs CSV files to understand edge cases (quoted fields, embedded newlines, Unicode, malformed rows).\nVerify solution.py handles all edge cases per the contract: header validation, blank record skipping, whitespace stripping, amount regex, exact decimal accumulation, sorted keys, two-decimal formatting.\nRun the existing test_submission.py to confirm basic correctness.\nAdd comprehensive unit tests in test_submission.py covering all public-inputs cases (valid and invalid) using unittest.TestCase/test_* methods.\nEnsure solution.py passes all tests, then finish the planning stage by submitting the plan.\nDo not implement or delegate; this is a planning-only assignment."
+    },
+    {
+      "attempt": 2,
+      "started": 1794356712.0034418,
+      "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+    }
+  ],
+  "attempts": 2,
+  "interrupted": true,
+  "failure": "Experimental runner interrupted; preserve and retry, exclude from model scores",
+  "finished": 1794356782.365107,
+  "seconds": 462.40538930892944
+}

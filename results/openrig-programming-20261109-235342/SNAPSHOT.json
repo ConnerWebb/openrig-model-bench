@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-11T00:20:38.157870+00:00",
+  "as_of_utc": "2026-11-11T00:30:38.912079+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 76,
+  "completed_case_records": 77,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -75,6 +75,14 @@
       "passed": false,
       "phase": "qualification",
       "revision": "h4"
+    },
+    {
+      "count": 1,
+      "interrupted": true,
+      "language": "python",
+      "passed": false,
+      "phase": "qualification",
+      "revision": "h5"
     },
     {
       "count": 7,
@@ -165,16 +173,16 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 3549,
+  "finished_transport_streams": 3622,
   "in_progress_not_scored": [
-    "qualification-python-frozen-h5"
+    "qualification-python-frozen-h5.1"
   ],
   "status": {
-    "at": 1794356319.9579027,
-    "current": "qualification-python-frozen-h5",
+    "at": 1794356931.72038,
+    "current": "qualification-python-frozen-h5.1",
     "dispatch_plan": "paired-language-screen-then-full-suite",
-    "harness_revision": "h5",
+    "harness_revision": "h5.1",
     "phase": "qualification",
-    "pid": 3188995
+    "pid": 3205901
   }
 }
