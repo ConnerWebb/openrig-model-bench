@@ -673,5 +673,59 @@
     "case_wall_seconds_sum": 89.29626727104187,
     "accepted_tasks_per_hour": 40.31523500386509,
     "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-binary",
+    "models": "{'developer': 'coder30'}",
+    "agents": 1,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 637.5494029521942,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "solo-coder30-cpp-binary-s42-h5.4",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-refactor",
+    "models": "{'developer': 'coder30'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 134.4656364917755,
+    "accepted_tasks_per_hour": 26.77263941869781,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-lru",
+    "models": "{'developer': 'coder30'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 107.2197937965393,
+    "accepted_tasks_per_hour": 33.575889978219635,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-http",
+    "models": "{'developer': 'coder30'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 153.32371830940247,
+    "accepted_tasks_per_hour": 23.479733205630406,
+    "failures": []
   }
 ]

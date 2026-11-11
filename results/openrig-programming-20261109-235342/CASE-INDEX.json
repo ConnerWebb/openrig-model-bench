@@ -880,6 +880,21 @@
     "stored_result_sha256": "3f375e9ecf57cbe1683ca8e4a6218fd1fdb085bde1ca3dc13faba9b9354972c5"
   },
   {
+    "artifact": "artifacts/cases/solo-coder30-cpp-binary-s42-h5.4-0bee1e15d95d24956f78.tar.gz",
+    "complete": false,
+    "directory": "solo-coder30-cpp-binary-s42-h5.4",
+    "id": "solo-coder30-cpp-binary-s42-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "coder30"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "0bee1e15d95d24956f78e10d7a7a61beb15269ffecf3e018e22f35b5e49c61e1",
+    "stored_result_sha256": "0bee1e15d95d24956f78e10d7a7a61beb15269ffecf3e018e22f35b5e49c61e1"
+  },
+  {
     "artifact": "artifacts/cases/solo-coder30-cpp-buffer-s42-h4-9964a05c7dfee3d67949.tar.gz",
     "complete": false,
     "directory": "solo-coder30-cpp-buffer-s42-h4",
@@ -940,6 +955,21 @@
     "stored_result_sha256": "cf74c08d9f113d92924f96260bcdf8464b8d3a7ec1e6245da46982bf7d26265a"
   },
   {
+    "artifact": "artifacts/cases/solo-coder30-cpp-lru-s42-h5.4-73fe314126b30ce26410.tar.gz",
+    "complete": true,
+    "directory": "solo-coder30-cpp-lru-s42-h5.4",
+    "id": "solo-coder30-cpp-lru-s42-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "coder30"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "73fe314126b30ce26410ac605c22ac4327fe06b432a557c45117a4b874bdd9d2",
+    "stored_result_sha256": "73fe314126b30ce26410ac605c22ac4327fe06b432a557c45117a4b874bdd9d2"
+  },
+  {
     "artifact": "artifacts/cases/solo-coder30-py-csv-s42-h4-f4984a09f8ba143c463e.tar.gz",
     "complete": false,
     "directory": "solo-coder30-py-csv-s42-h4",
@@ -998,6 +1028,36 @@
     "revision": "h5.4",
     "source_result_sha256": "8fdc945714615ca40b7f150fddcf7769aa9a954affd646dc6be8cd07e08d8cf1",
     "stored_result_sha256": "8fdc945714615ca40b7f150fddcf7769aa9a954affd646dc6be8cd07e08d8cf1"
+  },
+  {
+    "artifact": "artifacts/cases/solo-coder30-py-http-s42-h5.4-c3eb4da69a8e8a6e54c6.tar.gz",
+    "complete": true,
+    "directory": "solo-coder30-py-http-s42-h5.4",
+    "id": "solo-coder30-py-http-s42-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "coder30"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "c3eb4da69a8e8a6e54c6e6422af4bc4f7f9c56273f04b922e09c7de0ffff5231",
+    "stored_result_sha256": "c3eb4da69a8e8a6e54c6e6422af4bc4f7f9c56273f04b922e09c7de0ffff5231"
+  },
+  {
+    "artifact": "artifacts/cases/solo-coder30-py-refactor-s42-h5.4-9ed2535d04f07289fe3c.tar.gz",
+    "complete": true,
+    "directory": "solo-coder30-py-refactor-s42-h5.4",
+    "id": "solo-coder30-py-refactor-s42-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "coder30"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "9ed2535d04f07289fe3c4f51b500f7d3f5d32db99b534a38ddd02d97268c23f9",
+    "stored_result_sha256": "9ed2535d04f07289fe3c4f51b500f7d3f5d32db99b534a38ddd02d97268c23f9"
   },
   {
     "artifact": "artifacts/cases/solo-devstral-cpp-buffer-s42-h4-c36cf91ed512c9b673ec.tar.gz",
