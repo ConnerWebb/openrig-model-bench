@@ -1,0 +1,15 @@
+OpenRig hourly check — 2026-11-11T16:04:06.969633-06:00
+Active revision h5.5; scores by revision: {"h5.4": {"cpp": {"failed": 16, "finished": 34, "passed": 18}, "python": {"failed": 6, "finished": 32, "passed": 26}}, "h5.5": {"cpp": {"failed": 1, "finished": 3, "passed": 2}, "python": {"failed": 0, "finished": 2, "passed": 2}}}
+
+new_results: Coder-Next C++ Buffer eventually passed on third attempt in32.73min, after fixing its own standalone test. Qwen30B Python CSV passed first attempt1.90min; C++ Buffer passed first attempt0.95min. All independently accepted.
+affected_rerun: Qwen30B C++ CSV exhausted three attempts45.14min. Latest normal public cases0-3,8,11,12 fail quoting/valid-input or overflow checks; authored programs also fail due required argv/stdin and invalid-argument exceptions. ASan is explicitly skipped after failed normal mode. Three incomplete streams align with bounded-turn cancellation. Zero pinned-context rejections; native tool operations work. No actual summary request occurred during this rerun, so the oversized-summary fix is proven by exact archived replay, not claimed exercised here.
+continuation: Targeted rerun phase is complete and the12-model shared Python/C++ screening pair has resumed. Current Nemotron3Nano Python CSV seed42 is pending, fixing amount/NaN/format validation. Latest saved own11 tests pass while fixed checks still fail; leave bounded model repair running.
+infrastructure: No new reproducible harness, transport or orchestration fault. Integrated monitor retains sensor errors without dropping essential samples. No resource guards, monitor errors or private inference OOMs. Existing Qwen tool and sanitizer-feedback repairs remain intact.
+preservation: No source, model answers, authored tests, task contracts, sampling, services or production settings altered this check. All34 frozen source and199 historical result hashes verified. Earlier revisions remain separate; qualifications/probes/incomplete/interrupted jobs excluded.
+action: Keep finite campaign moving; preserve this report and affected-rerun audit, sync through existing independent GitHub backup. No user intervention needed.
+
+Current: {"phase": "solo", "at": 1794434392.9697585, "pid": 637884, "harness_revision": "h5.5", "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign", "current": "solo-nemo-py-csv-s42-h5.5"}
+Memory: {"latest_age_seconds": 0.8797340393066406, "minimum_available_bytes": 52804939776, "observed_peak_gpu_gtt_used_bytes": 55710830592, "observed_peak_gpu_vram_used_bytes": 520204288, "observed_peak_system_used_bytes": 81494188032, "samples": 3599, "sensor_error_samples": 2823, "swap_in_pages_delta": 914, "swap_out_pages_delta": 0}
+Errors: {'[Errno 32] Broken pipe': 4}; resource/monitor events: 0; cgroup events: {'low': '0', 'high': '0', 'max': '0', 'oom': '0', 'oom_kill': '0', 'oom_group_kill': '0', 'sock_throttled': '0'}.
+Affected rerun evidence: /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/repairs/h5.5/affected-qwen-csv-rerun-complete.json
+Campaign, GitHub backup and hourly checks continue.
