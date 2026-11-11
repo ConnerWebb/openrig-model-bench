@@ -1,0 +1,39 @@
+{
+  "id": "solo-devstral-py-csv-s42-h5.5",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "developer": "devstral"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794436007.6886456,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-a663f2f98bce",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794436008.621409,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794436911.109584,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    }
+  ],
+  "attempts": 2,
+  "completed_hash": "017f7fe84854285fade958b06bfaf671c227a78458f7a398806f4286ea4e8f79",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-devstral-py-csv-s42-h5.5/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794437447.7450318,
+  "seconds": 1440.056386232376,
+  "resource_limited": false
+}

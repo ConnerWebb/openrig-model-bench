@@ -148,5 +148,17 @@
     "case_wall_seconds_sum": 56.68429946899414,
     "accepted_tasks_per_hour": 63.50964965120847,
     "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'devstral'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 1440.056386232376,
+    "accepted_tasks_per_hour": 2.4999021110685056,
+    "failures": []
   }
 ]

@@ -1,0 +1,24 @@
+OpenRig hourly check — 2026-11-11T17:01:16.999164-06:00
+Scores by revision: {"h5.4": {"cpp": {"failed": 16, "finished": 34, "passed": 18}, "python": {"failed": 6, "finished": 32, "passed": 26}}, "h5.5": {"cpp": {"failed": 2, "finished": 5, "passed": 3}, "python": {"failed": 1, "finished": 5, "passed": 4}}}
+Unequal task coverage, especially the extra Qwen30B C++ CSV repair cell; no general ranking or revision pooling. Original thermal sampling gaps are not imputed.
+
+new_passes: Qwen3.5-35B Python CSV passed first attempt4.60min; C++ Buffer passed first attempt0.94min. DevstralSmall2 Python CSV passed second attempt24.00min. Private acceptance, mandatory saved tests and workflow closure passed.
+nemo_python: Nemotron3Nano Python CSV failed after3 attempts19.53min. Latest fixed public checks reject valid quoted/newline inputs and fail NaN/amount validation (cases0-3,7,12), while own11 tests pass.120-tool-call guard exhausted; code/contract and workflow failure, not broken Python tools.
+nemo_cpp: C++ Buffer failed after3 attempts1.76min. Normal program aborts double-free, ASan explicitly not_run after earlier normal failure; no saved tests. Raw Pi tool errors show unknown function names rig/rig whoami --json, directory reads through file-read, then repeated write calls supplying oldText/newText but missing required content. Correctly rejected model calls; no schema coercion, tool-name rewriting or answer edits applied.
+current: DevstralSmall2 C++ Buffer seed42 pending; first assignment active with successful read/write/run calls and ongoing GPU generation. No fixed test receipt yet at inspection. Same12-model common pair screen continues, followed by full task/seed matrix, teams and parallel processing.
+infrastructure: One broken pipe since prior check aligns with bounded cancellation. No context-budget rejection, monitor error, resource guard or private inference cgroup OOM. Integrated sensor fault isolation continues retaining full resource samples. No new reproducible harness/transport/orchestration issue; no runtime restart or new revision justified.
+preservation: All34 frozen source hashes and199 pre-h5.5 result hashes verified. Historical h5.4 scores remain separate; qualifiers, probes, unfinished and interrupted work excluded. Task contracts, private acceptance, scopes, weights, sampling, source answers and tests unchanged. Production unchanged; Git backup healthy.
+action: Preserve/sync checkpoint report and keep the finite campaign running. No user intervention needed.
+
+h5.5 per-model accepted/finished:
+coder30: {"cpp": {"failed": 1, "finished": 2, "passed": 1}, "python": {"failed": 0, "finished": 1, "passed": 1}}
+devstral: {"cpp": {"failed": 0, "finished": 0, "passed": 0}, "python": {"failed": 0, "finished": 1, "passed": 1}}
+nemo: {"cpp": {"failed": 1, "finished": 1, "passed": 0}, "python": {"failed": 1, "finished": 1, "passed": 0}}
+next: {"cpp": {"failed": 0, "finished": 1, "passed": 1}, "python": {"failed": 0, "finished": 1, "passed": 1}}
+q35: {"cpp": {"failed": 0, "finished": 1, "passed": 1}, "python": {"failed": 0, "finished": 1, "passed": 1}}
+
+Current: {"phase": "solo", "at": 1794437448.1217794, "pid": 637884, "harness_revision": "h5.5", "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign", "current": "solo-devstral-cpp-buffer-s42-h5.5"}
+Memory: {"latest_age_seconds": 0.5453150272369385, "minimum_available_bytes": 80920838144, "observed_peak_gpu_gtt_used_bytes": 27489464320, "observed_peak_gpu_vram_used_bytes": 509136896, "observed_peak_system_used_bytes": 53378289664, "samples": 3367, "sensor_error_samples": 2687, "swap_in_pages_delta": 374, "swap_out_pages_delta": 0}
+Errors: {'[Errno 32] Broken pipe': 1}; resource/monitor events: 0; cgroup memory events: {'low': '0', 'high': '0', 'max': '0', 'oom': '0', 'oom_kill': '0', 'oom_group_kill': '0', 'sock_throttled': '0'}.
+No harness, model answer, test, service or production setting changed this check.
+Campaign and independent GitHub backup continue; hourly check remains active.
