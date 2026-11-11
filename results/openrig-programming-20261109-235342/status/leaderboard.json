@@ -532,5 +532,23 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "qualification",
+    "language": "cpp",
+    "task": "cpp-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 5,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 2300.8575673103333,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "qualification-cpp-team-n5-v2-h5.4",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   }
 ]
