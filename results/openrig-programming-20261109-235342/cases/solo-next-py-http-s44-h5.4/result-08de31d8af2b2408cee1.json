@@ -1,0 +1,34 @@
+{
+  "id": "solo-next-py-http-s44-h5.4",
+  "task": "py-http",
+  "language": "python",
+  "models": {
+    "developer": "next"
+  },
+  "seed": 44,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.4",
+  "started": 1794415990.2845397,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-9525f99e0b0a",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794415991.198769,
+      "incoming_feedback": "None. "
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "781126c06ab856778ecdaaf2c39f5b58d86bf46e049e696396ca60e1566b2d64",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-py-http-s44-h5.4/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794416587.6029646,
+  "seconds": 597.3184249401093,
+  "resource_limited": false
+}
