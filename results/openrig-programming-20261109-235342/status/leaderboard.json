@@ -256,5 +256,53 @@
     "case_wall_seconds_sum": 455.2399106025696,
     "accepted_tasks_per_hour": 7.907918256189202,
     "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'q27q8'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 357.06435775756836,
+    "accepted_tasks_per_hour": 10.082216053735188,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'q122'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 433.69550013542175,
+    "accepted_tasks_per_hour": 8.300754789652872,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'q122'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 154.61414432525635,
+    "accepted_tasks_per_hour": 23.28376886675262,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'gpt120'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 85.86118698120117,
+    "accepted_tasks_per_hour": 41.928141533708356,
+    "failures": []
   }
 ]
