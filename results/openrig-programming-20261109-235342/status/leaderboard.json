@@ -514,5 +514,23 @@
     "case_wall_seconds_sum": 102.99207878112793,
     "accepted_tasks_per_hour": 34.95414446047337,
     "failures": []
+  },
+  {
+    "phase": "qualification",
+    "language": "cpp",
+    "task": "cpp-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 4,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 959.6053204536438,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "qualification-cpp-team-n4-h5.4",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   }
 ]
