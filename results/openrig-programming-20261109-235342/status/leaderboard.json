@@ -550,5 +550,41 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "qualification",
+    "language": "cpp",
+    "task": "cpp-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 6,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 412.0022928714752,
+    "accepted_tasks_per_hour": 8.737815449786892,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-binary",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 241.93686270713806,
+    "accepted_tasks_per_hour": 14.879915196543491,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-lru",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 191.10449814796448,
+    "accepted_tasks_per_hour": 18.837861143449725,
+    "failures": []
   }
 ]

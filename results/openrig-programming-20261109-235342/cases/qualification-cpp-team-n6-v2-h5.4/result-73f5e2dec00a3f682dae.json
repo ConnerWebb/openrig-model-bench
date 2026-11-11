@@ -1,0 +1,36 @@
+{
+  "id": "qualification-cpp-team-n6-v2-h5.4",
+  "task": "cpp-team",
+  "language": "cpp",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 6,
+  "phase": "qualification",
+  "harness_revision": "h5.4",
+  "started": 1794399972.932775,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-71b017b62ef5",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794400007.7821167,
+      "incoming_feedback": "None. \nADVISORY PLAN:\nVerify existing header-only implementations in parser.hpp, cache.hpp, stats.hpp, and solution.hpp match the contract.\nCompile PUBLIC_DRIVER.cpp with Clang22/C++20 to confirm no compilation errors.\nRun run_tests to validate against public-inputs and ensure all tests pass.\nUpdate README.md to reflect the header-only analytics toolkit structure and usage.\nFinish the planning stage and await next_action from the controller."
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "28614a31ca20d90574f77b8b1c3c7e9ee68e91983ea88efdd68f062b92c99eee",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-cpp-team-n6-v2-h5.4/seats/integrator/project",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794400384.935068,
+  "seconds": 412.0022928714752,
+  "resource_limited": false
+}

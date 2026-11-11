@@ -355,6 +355,23 @@
     "stored_result_sha256": "3eb5f35062b986aee3ac3fa8e3d9f93937325fdd5ec446d369ad74250f6cc6f1"
   },
   {
+    "artifact": "artifacts/cases/qualification-cpp-team-n6-v2-h5.4-73f5e2dec00a3f682dae.tar.gz",
+    "complete": true,
+    "directory": "qualification-cpp-team-n6-v2-h5.4",
+    "id": "qualification-cpp-team-n6-v2-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "next",
+      "lead": "next",
+      "reviewer": "next"
+    },
+    "phase": "qualification",
+    "revision": "h5.4",
+    "source_result_sha256": "73f5e2dec00a3f682daea7c214aa57bf3652fc5dbb8c5d48eb906bd477d05e30",
+    "stored_result_sha256": "73f5e2dec00a3f682daea7c214aa57bf3652fc5dbb8c5d48eb906bd477d05e30"
+  },
+  {
     "artifact": "artifacts/cases/qualification-native-python-d06b9ce5a9e22346d9bd.tar.gz",
     "complete": false,
     "directory": "qualification-native-python",
@@ -1478,6 +1495,21 @@
     "stored_result_sha256": "b394306faa190dc77de5dec6c3cdfb0420baea78964270007494b1c66999325b"
   },
   {
+    "artifact": "artifacts/cases/solo-next-cpp-binary-s42-h5.4-257998b71370475293f2.tar.gz",
+    "complete": true,
+    "directory": "solo-next-cpp-binary-s42-h5.4",
+    "id": "solo-next-cpp-binary-s42-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "257998b71370475293f27cf3a9f16be12f833693b801d69c521fce63085e8f67",
+    "stored_result_sha256": "257998b71370475293f27cf3a9f16be12f833693b801d69c521fce63085e8f67"
+  },
+  {
     "artifact": "artifacts/cases/solo-next-cpp-buffer-s42-56377dc7f9b49f2ca2bd.tar.gz",
     "complete": true,
     "directory": "solo-next-cpp-buffer-s42",
@@ -1641,6 +1673,21 @@
     "revision": "h4",
     "source_result_sha256": "25c75ae6f8823eb447abd4610915b671e7d0ffc0f8dfe31ae9eb89bfcdf223bf",
     "stored_result_sha256": "25c75ae6f8823eb447abd4610915b671e7d0ffc0f8dfe31ae9eb89bfcdf223bf"
+  },
+  {
+    "artifact": "artifacts/cases/solo-next-cpp-lru-s42-h5.4-7bd0f2939a13d491998a.tar.gz",
+    "complete": true,
+    "directory": "solo-next-cpp-lru-s42-h5.4",
+    "id": "solo-next-cpp-lru-s42-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "7bd0f2939a13d491998abaa023ab74605828e4c90362093839976762d3aa59d6",
+    "stored_result_sha256": "7bd0f2939a13d491998abaa023ab74605828e4c90362093839976762d3aa59d6"
   },
   {
     "artifact": "artifacts/cases/solo-next-cpp-queue-s42-b63d04de2e6b31bb88f4.tar.gz",
