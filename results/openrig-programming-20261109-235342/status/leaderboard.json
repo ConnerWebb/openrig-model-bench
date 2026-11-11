@@ -232,5 +232,35 @@
     "case_wall_seconds_sum": 190.03661847114563,
     "accepted_tasks_per_hour": 18.943717421211687,
     "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'q9'}",
+    "agents": 1,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 1083.419840812683,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "solo-q9-cpp-buffer-s42-h5.2",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'q27q8'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 333.207537651062,
+    "accepted_tasks_per_hour": 10.804077318832904,
+    "failures": []
   }
 ]

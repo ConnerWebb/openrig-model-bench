@@ -1,0 +1,40 @@
+{
+  "id": "solo-q9-cpp-buffer-s42-h5.2",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "q9"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.2",
+  "started": 1794365956.7629876,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-74eb1cff4fb0",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794365957.6647336,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794366685.9406924,
+      "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+    },
+    {
+      "attempt": 3,
+      "started": 1794366816.0489411,
+      "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup.",
+  "finished": 1794367040.1828284,
+  "seconds": 1083.419840812683,
+  "resource_limited": false
+}
