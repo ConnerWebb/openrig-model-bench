@@ -763,5 +763,23 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-csv",
+    "models": "{'developer': 'coder30'}",
+    "agents": 1,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 1685.722510099411,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "solo-coder30-cpp-csv-s42-h5.4",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   }
 ]
