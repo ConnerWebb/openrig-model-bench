@@ -1,0 +1,375 @@
+{
+  "at": "2026-11-11T09:53:17.187229-06:00",
+  "revision": "h5.4",
+  "coding_scores": {
+    "python": {
+      "passed": 21,
+      "finished": 25
+    },
+    "cpp": {
+      "passed": 14,
+      "finished": 23
+    }
+  },
+  "per_model": {
+    "coder30": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1
+      }
+    },
+    "devstral": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "glm": {
+      "python": {
+        "passed": 0,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "gpt120": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "gpt20": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "nemo": {
+      "python": {
+        "passed": 0,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1
+      }
+    },
+    "next": {
+      "python": {
+        "passed": 12,
+        "finished": 14
+      },
+      "cpp": {
+        "passed": 6,
+        "finished": 12
+      }
+    },
+    "q122": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "q27q4": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1
+      }
+    },
+    "q27q8": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "q35": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "q9": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    }
+  },
+  "new_completed": [
+    {
+      "id": "solo-next-cpp-csv-s43-h5.4",
+      "task": "cpp-csv",
+      "language": "cpp",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 43,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794408054.7510262,
+      "complete": false,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-53cd2ece2292",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794408055.67155,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794408948.9161918,
+          "incoming_feedback": "Independent acceptance found contract failures: {\"passed\": false, \"count\": 23, \"hash\": \"77e17fdea3c2f9da0a3d94a1a9e27ecd1973b07acad4f164d6ab1b348d545553\", \"mode\": \"verification-suite\", \"checks\": {\"normal\": {\"passed\": false, \"count\": 23, \"hash\": \"77e17fdea3c2f9da0a3d94a1a9e27ecd1973b07acad4f164d6ab1b348d545553\", \"mode\": \"normal\", \"compile\": null, \"failures\": [{\"case\": 0, \"exit\": 0, \"actual\": {\"error\": \"ValueError\"}, \"expected\": \"independent contract check failed\", \"stderr\": \"\"}]}}, \"failed_modes\": [\"normal\"], \"not_run\": {\"asan\": \"Earlier required mode failed\"}, \"source_changed\": false}"
+        },
+        {
+          "attempt": 3,
+          "started": 1794409141.3924,
+          "incoming_feedback": "Independent acceptance found contract failures: {\"passed\": false, \"count\": 23, \"hash\": \"77e17fdea3c2f9da0a3d94a1a9e27ecd1973b07acad4f164d6ab1b348d545553\", \"mode\": \"verification-suite\", \"checks\": {\"normal\": {\"passed\": false, \"count\": 23, \"hash\": \"77e17fdea3c2f9da0a3d94a1a9e27ecd1973b07acad4f164d6ab1b348d545553\", \"mode\": \"normal\", \"compile\": null, \"failures\": [{\"case\": 0, \"exit\": 0, \"actual\": {\"error\": \"ValueError\"}, \"expected\": \"independent contract check failed\", \"stderr\": \"\"}]}}, \"failed_modes\": [\"normal\"], \"not_run\": {\"asan\": \"Earlier required mode failed\"}, \"source_changed\": false}"
+        }
+      ],
+      "attempts": 3,
+      "failure": "Repair budget exhausted",
+      "last_stage_feedback": "Independent acceptance found contract failures: {\"passed\": false, \"count\": 23, \"hash\": \"77e17fdea3c2f9da0a3d94a1a9e27ecd1973b07acad4f164d6ab1b348d545553\", \"mode\": \"verification-suite\", \"checks\": {\"normal\": {\"passed\": false, \"count\": 23, \"hash\": \"77e17fdea3c2f9da0a3d94a1a9e27ecd1973b07acad4f164d6ab1b348d545553\", \"mode\": \"normal\", \"compile\": null, \"failures\": [{\"case\": 0, \"exit\": 0, \"actual\": {\"error\": \"ValueError\"}, \"expected\": \"independent contract check failed\", \"stderr\": \"\"}]}}, \"failed_modes\": [\"normal\"], \"not_run\": {\"asan\": \"Earlier required mode failed\"}, \"source_changed\": false}",
+      "finished": 1794409252.0258574,
+      "seconds": 1197.2748312950134,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-py-csv-s43-h5.4",
+      "task": "py-csv",
+      "language": "python",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 43,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794409252.397523,
+      "complete": false,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-3388be05a9d2",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794409253.305005,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794409505.4443922,
+          "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+        },
+        {
+          "attempt": 3,
+          "started": 1794409643.775775,
+          "incoming_feedback": "Independent acceptance found contract failures: {\"passed\": false, \"count\": 23, \"hash\": \"b85ab9377ffab51e61a3f78bade169417cb596754b1a23b5faef1a12fe315b27\", \"mode\": \"verification-suite\", \"checks\": {\"normal\": {\"passed\": false, \"count\": 23, \"hash\": \"b85ab9377ffab51e61a3f78bade169417cb596754b1a23b5faef1a12fe315b27\", \"mode\": \"normal\", \"compile\": null, \"failures\": [{\"case\": 0, \"exit\": 0, \"actual\": {\"error\": \"ValueError\"}, \"expected\": \"independent contract check failed\", \"stderr\": \"\"}]}}, \"failed_modes\": [\"normal\"], \"not_run\": {}, \"source_changed\": false}"
+        }
+      ],
+      "attempts": 3,
+      "failure": "Repair budget exhausted",
+      "last_stage_feedback": "Independent acceptance found contract failures: {\"passed\": false, \"count\": 23, \"hash\": \"b85ab9377ffab51e61a3f78bade169417cb596754b1a23b5faef1a12fe315b27\", \"mode\": \"verification-suite\", \"checks\": {\"normal\": {\"passed\": false, \"count\": 23, \"hash\": \"b85ab9377ffab51e61a3f78bade169417cb596754b1a23b5faef1a12fe315b27\", \"mode\": \"normal\", \"compile\": null, \"failures\": [{\"case\": 0, \"exit\": 0, \"actual\": {\"error\": \"ValueError\"}, \"expected\": \"independent contract check failed\", \"stderr\": \"\"}]}}, \"failed_modes\": [\"normal\"], \"not_run\": {}, \"source_changed\": false}",
+      "finished": 1794409751.9922159,
+      "seconds": 499.59469294548035,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-cpp-stats-s43-h5.4",
+      "task": "cpp-stats",
+      "language": "cpp",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 43,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794409752.3722465,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-a8bed1e5d864",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794409753.3005362,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "685631e270dc67e3ed1d9677daaa3d9ff581714492776b070eb28c7b1cb2a641",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-cpp-stats-s43-h5.4/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794410056.563466,
+      "seconds": 304.19121956825256,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-py-refactor-s44-h5.4",
+      "task": "py-refactor",
+      "language": "python",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 44,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794410056.933717,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-acff804325eb",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794410057.9430747,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "dd6a8ecef56419f7f9a3fd841192132b9d808d02a1ae21a20b9ba8db6d93d14a",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-py-refactor-s44-h5.4/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794410127.2913826,
+      "seconds": 70.35766553878784,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-py-queue-s44-h5.4",
+      "task": "py-queue",
+      "language": "python",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 44,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794410127.6565652,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-12604be8721f",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794410128.5401652,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794410418.692602,
+          "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+        }
+      ],
+      "attempts": 2,
+      "completed_hash": "fd6b45807bce5c7140d5a273f469d84ec230273b3479b7fe7d741725b3ef232d",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-py-queue-s44-h5.4/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794410683.5093865,
+      "seconds": 555.8528213500977,
+      "resource_limited": false
+    }
+  ],
+  "current": {
+    "phase": "solo",
+    "at": 1794410683.8884833,
+    "pid": 3668881,
+    "harness_revision": "h5.4",
+    "dispatch_plan": "compaction-repair-rerun-then-full-campaign",
+    "current": "solo-next-py-archive-s44-h5.4"
+  },
+  "heartbeat_age_seconds": -0.15360641479492188,
+  "diagnosis": {
+    "new_passes": "Coder-Next C++ statistics seed43 passed first attempt; Python refactor seed44 passed first attempt; Python queue seed44 passed second attempt after initial unverified closure.",
+    "new_failures": "Python and C++ CSV seed43 each exhausted three attempts. Both eventually passed public checks and their authored tests, but independently rejected a valid header-only CSV. Saved source explicitly raises No data rows. C++ public normal/ASan passed; independent normal rejected and ASan was explicitly skipped after normal failure. Code/contract failures, not broken tools or lost sanitizer feedback.",
+    "active_trial": "Python archive seed44 remains pending, third assignment active. Latest public normal case9 rejects file/child-path conflict but leaves output behind, violating validate-before-output/no-output-on-failure contract. Own13 tests pass but fixed checks do not. Keep bounded trial running; exclude from scores.",
+    "workflow": "Some bounded turn deadlines/unverified closures remain model workflow outcomes. No manual reminders or operator patches were supplied.",
+    "infrastructure": "One broken-pipe stream since prior report aligns with bounded cancellation. No resource guard, monitor error, inference cgroup OOM, repeated compaction-budget failure or reproducible transport/tool fault found. Existing Qwen native-tool and mode-specific sanitizer feedback repairs remain deployed.",
+    "action": "No harness changes, reruns outside the finite plan or inference/private campaign restarts justified. Continue campaign automatically."
+  },
+  "memory_last_hour_bytes": {
+    "samples": 3557,
+    "minimum_available": 52681371648,
+    "peak_system_used": 81617756160,
+    "peak_swap_used": 8529858560,
+    "peak_mem_info_vram_used": 510459904,
+    "peak_mem_info_gtt_used": 55702466560,
+    "pswpin_pages_delta": 2515,
+    "pswpout_pages_delta": 0
+  },
+  "error_events_since_previous_check": {
+    "[Errno 32] Broken pipe": 1
+  },
+  "guard_or_monitor_errors": [],
+  "inference_cgroup_memory_events": {
+    "low": 0,
+    "high": 0,
+    "max": 0,
+    "oom": 0,
+    "oom_kill": 0,
+    "oom_group_kill": 0,
+    "sock_throttled": 0
+  },
+  "source_files_verified": 32,
+  "historical_results_verified": 120,
+  "production_unchanged": true,
+  "scope": "Finished h5.4 solo trials only; incomplete/interrupted trials, qualifiers, probes and other revisions excluded. Unequal model/task coverage; these totals are not an equal-work ranking.",
+  "rollback": "repairs/h5.4/LOCAL-RESTORE.txt; no settings changed during this check.",
+  "campaign_unfinished": true
+}

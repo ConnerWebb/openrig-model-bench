@@ -1,0 +1,31 @@
+OpenRig hourly check — 2026-11-11T09:53:17.187229-06:00
+Active immutable revision h5.4.
+Python 21/25 accepted; C++ 14/23 accepted.
+Finished h5.4 solo trials only; incomplete/interrupted trials, qualifiers, probes and other revisions excluded. Unequal model/task coverage; these totals are not an equal-work ranking.
+
+new_passes: Coder-Next C++ statistics seed43 passed first attempt; Python refactor seed44 passed first attempt; Python queue seed44 passed second attempt after initial unverified closure.
+new_failures: Python and C++ CSV seed43 each exhausted three attempts. Both eventually passed public checks and their authored tests, but independently rejected a valid header-only CSV. Saved source explicitly raises No data rows. C++ public normal/ASan passed; independent normal rejected and ASan was explicitly skipped after normal failure. Code/contract failures, not broken tools or lost sanitizer feedback.
+active_trial: Python archive seed44 remains pending, third assignment active. Latest public normal case9 rejects file/child-path conflict but leaves output behind, violating validate-before-output/no-output-on-failure contract. Own13 tests pass but fixed checks do not. Keep bounded trial running; exclude from scores.
+workflow: Some bounded turn deadlines/unverified closures remain model workflow outcomes. No manual reminders or operator patches were supplied.
+infrastructure: One broken-pipe stream since prior report aligns with bounded cancellation. No resource guard, monitor error, inference cgroup OOM, repeated compaction-budget failure or reproducible transport/tool fault found. Existing Qwen native-tool and mode-specific sanitizer feedback repairs remain deployed.
+action: No harness changes, reruns outside the finite plan or inference/private campaign restarts justified. Continue campaign automatically.
+
+Per-model Python/C++ accepted/finished:
+coder30: {"cpp": {"finished": 1, "passed": 0}, "python": {"finished": 1, "passed": 1}}
+devstral: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+glm: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 0}}
+gpt120: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+gpt20: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+nemo: {"cpp": {"finished": 1, "passed": 0}, "python": {"finished": 1, "passed": 0}}
+next: {"cpp": {"finished": 12, "passed": 6}, "python": {"finished": 14, "passed": 12}}
+q122: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+q27q4: {"cpp": {"finished": 1, "passed": 0}, "python": {"finished": 1, "passed": 1}}
+q27q8: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+q35: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+q9: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+
+Last-hour memory: {"minimum_available": 52681371648, "peak_mem_info_gtt_used": 55702466560, "peak_mem_info_vram_used": 510459904, "peak_swap_used": 8529858560, "peak_system_used": 81617756160, "pswpin_pages_delta": 2515, "pswpout_pages_delta": 0, "samples": 3557}
+Errors: {'[Errno 32] Broken pipe': 1}; guard/monitor errors: 0; cgroup: {'low': 0, 'high': 0, 'max': 0, 'oom': 0, 'oom_kill': 0, 'oom_group_kill': 0, 'sock_throttled': 0}.
+Verified 32 frozen source files and 120 historical result hashes. Production unchanged: True.
+Current task: solo-next-py-archive-s44-h5.4
+Independent GitHub backup and hourly check continue; campaign unfinished.
