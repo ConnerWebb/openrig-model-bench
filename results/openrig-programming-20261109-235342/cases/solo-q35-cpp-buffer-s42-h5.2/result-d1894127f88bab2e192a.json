@@ -1,0 +1,40 @@
+{
+  "id": "solo-q35-cpp-buffer-s42-h5.2",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "q35"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.2",
+  "started": 1794363189.5305924,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-3a9c3381dd7b",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794363190.4285676,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794363270.1589088,
+      "incoming_feedback": "Independent acceptance found contract failures: {\"passed\": false, \"count\": 14, \"hash\": \"20cd3bfbcb165ea2c843213718bd0986675254a47dc128eb3cb522b522a84cb2\", \"mode\": \"normal\", \"compile\": null, \"failures\": []}"
+    },
+    {
+      "attempt": 3,
+      "started": 1794363315.2372587,
+      "incoming_feedback": "Independent acceptance found contract failures: {\"passed\": false, \"count\": 14, \"hash\": \"20cd3bfbcb165ea2c843213718bd0986675254a47dc128eb3cb522b522a84cb2\", \"mode\": \"normal\", \"compile\": null, \"failures\": []}"
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "Independent acceptance found contract failures: {\"passed\": false, \"count\": 14, \"hash\": \"20cd3bfbcb165ea2c843213718bd0986675254a47dc128eb3cb522b522a84cb2\", \"mode\": \"normal\", \"compile\": null, \"failures\": []}",
+  "finished": 1794363367.8558364,
+  "seconds": 178.32524394989014,
+  "resource_limited": false
+}
