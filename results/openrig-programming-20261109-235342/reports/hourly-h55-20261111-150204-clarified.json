@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-11T15:02:04.684637-06:00",
+  "active_revision": "h5.5",
+  "scores_by_revision": {
+    "h5.4": {
+      "python": {
+        "passed": 26,
+        "finished": 32,
+        "failed": 6
+      },
+      "cpp": {
+        "passed": 18,
+        "finished": 34,
+        "failed": 16
+      }
+    },
+    "h5.5": {
+      "python": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 0,
+        "failed": 0
+      }
+    }
+  },
+  "current": {
+    "phase": "solo",
+    "at": 1794429543.3533137,
+    "pid": 637884,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign",
+    "current": "solo-next-cpp-buffer-s42-h5.5"
+  },
+  "current_assignment": "qitem-1794430446-afc70742ded24693",
+  "current_test_receipt": {},
+  "last_public_receipt": "runs/solo-next-cpp-buffer-s42-h5.5/seats/developer/control/public-1794429639453406348.json",
+  "last_public_modes": {
+    "normal": true,
+    "asan": true
+  },
+  "last_authored_tests_passed": false,
+  "diagnosis": {
+    "scores": "No additional finished solo trials since prior report. h5.5 Python1/1; C++0 finished. Historical h5.4 Python26/32 and C++18/34 remain separate, including one transport-confounded C++ CSV trial.",
+    "current_cpp_control": "Coder-Next C++ Buffer seed42 remains pending, second assignment at inspection after first15min deadline. Latest recorded fixed normal and ASan checks passed for that earlier artifact, authored test failed with std::bad_alloc. Current assignment has no fresh passing test receipt. Saved test_buffer.cpp copies the input-driven public driver: uninitialized int n,grow are read with std::cin while authored tests run standalone without stdin. This is an authored-test/input and workflow issue, not proof of system OOM. Do not patch its tests or claim current edited source is verified.",
+    "transport_and_sanitizers": "Native read/run/edit calls and streamed requests continue. One broken pipe aligns with first bounded-turn cancellation. No pinned-context rejection or lost sanitizer feedback since h5.5 deployment. Completed compaction calls are archived; no partial tool call repaired or checks weakened.",
+    "monitor": "Integrated h5.5 monitor continues through per-sensor Wi-Fi errors. No whole-monitor errors, resource guard, inference cgroup OOM, or resource interruption observed. Old monitor-m1 remains disabled with source/unit/telemetry preserved.",
+    "continuation": "Keep the bounded current control running without manual reminders; affected Qwen30B C++ CSV rerun is next in priority-plan, followed by common breadth screen/full matrix/teams/parallel. No new harness revision or service restart justified.",
+    "preservation": "Verified34 frozen source hashes and199 pre-h5.5 result hashes; production unchanged. Prior cleanup supplement and all checkpoint/rollback evidence retained. Independent GitHub backup healthy."
+  },
+  "observed_memory_since_last_check": {
+    "samples": 1139,
+    "latest_age_seconds": 0.6760354042053223,
+    "sensor_error_samples": 992,
+    "maximum_sample_gap_seconds": 1.0811612606048584,
+    "minimum_available_bytes": 53664481280,
+    "observed_peak_system_used_bytes": 80634646528,
+    "observed_peak_gpu_gtt_used_bytes": 55721775104,
+    "observed_peak_gpu_vram_used_bytes": 525647872,
+    "swap_in_pages_delta": 307,
+    "swap_out_pages_delta": 0
+  },
+  "error_counts": {
+    "[Errno 32] Broken pipe": 1
+  },
+  "resource_or_monitor_events": [],
+  "inference_cgroup_memory_events": {
+    "low": "0",
+    "high": "0",
+    "max": "0",
+    "oom": "0",
+    "oom_kill": "0",
+    "oom_group_kill": "0",
+    "sock_throttled": "0"
+  },
+  "heartbeat_age_seconds": 0.6901013851165771,
+  "production_unchanged": true,
+  "source_files_verified": 34,
+  "historical_results_verified": 199,
+  "campaign_unfinished": true,
+  "scope": "Qualification/probes/unfinished/interrupted trials excluded. No revision pooling. Old thermal sampling gaps are not imputed.",
+  "rollback": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/repairs/h5.5/LOCAL-RESTORE.txt",
+  "completed_bounded_summary_requests": 0,
+  "counter_scope_note": "Counts only completed summary requests whose inputs exceeded the byte budget and were clipped; small tool-free summary requests are not counted by this field."
+}
