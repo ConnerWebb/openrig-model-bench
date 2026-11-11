@@ -413,10 +413,10 @@
     "task": "py-refactor",
     "models": "{'developer': 'next'}",
     "agents": 1,
-    "passed": 1,
-    "attempted": 1,
-    "case_wall_seconds_sum": 217.12013626098633,
-    "accepted_tasks_per_hour": 16.58068229872824,
+    "passed": 2,
+    "attempted": 2,
+    "case_wall_seconds_sum": 318.0945043563843,
+    "accepted_tasks_per_hour": 22.634782749762064,
     "failures": []
   },
   {
@@ -585,6 +585,30 @@
     "attempted": 1,
     "case_wall_seconds_sum": 191.10449814796448,
     "accepted_tasks_per_hour": 18.837861143449725,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-expression",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 1541.6696813106537,
+    "accepted_tasks_per_hour": 2.3351305689163273,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-http",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 259.2356879711151,
+    "accepted_tasks_per_hour": 13.886976859455878,
     "failures": []
   }
 ]
