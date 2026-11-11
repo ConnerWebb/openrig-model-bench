@@ -1,0 +1,42 @@
+{
+  "id": "solo-nemo-cpp-buffer-s42-h5.5",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "nemo"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794435565.0410752,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-fc2ff25e6894",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794435565.9635866,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794435570.1119514,
+      "incoming_feedback": "STAGE_FAILED: Three consecutive invalid tool operations"
+    },
+    {
+      "attempt": 3,
+      "started": 1794435626.2799911,
+      "incoming_feedback": "STAGE_FAILED: Three consecutive invalid tool operations"
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "STAGE_FAILED: Three consecutive invalid tool operations",
+  "finished": 1794435670.4410033,
+  "seconds": 105.39992809295654,
+  "resource_limited": false
+}
