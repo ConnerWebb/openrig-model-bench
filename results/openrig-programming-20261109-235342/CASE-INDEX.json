@@ -785,6 +785,21 @@
     "stored_result_sha256": "9aff11d6d4702528545d6387ef56e174376400c013dd61f1e7caebbb7cc17814"
   },
   {
+    "artifact": "artifacts/cases/solo-coder30-py-csv-s42-h5.4-8fdc945714615ca40b7f.tar.gz",
+    "complete": true,
+    "directory": "solo-coder30-py-csv-s42-h5.4",
+    "id": "solo-coder30-py-csv-s42-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "coder30"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "8fdc945714615ca40b7f150fddcf7769aa9a954affd646dc6be8cd07e08d8cf1",
+    "stored_result_sha256": "8fdc945714615ca40b7f150fddcf7769aa9a954affd646dc6be8cd07e08d8cf1"
+  },
+  {
     "artifact": "artifacts/cases/solo-devstral-cpp-buffer-s42-h4-c36cf91ed512c9b673ec.tar.gz",
     "complete": false,
     "directory": "solo-devstral-cpp-buffer-s42-h4",
@@ -1220,6 +1235,21 @@
     "stored_result_sha256": "264ac7134a4de9d7fd098b1f406d89c68482381c5941fdd80b838d8c4a0fda90"
   },
   {
+    "artifact": "artifacts/cases/solo-next-cpp-buffer-s42-h5.4-437e3c5301d7fb1100cf.tar.gz",
+    "complete": true,
+    "directory": "solo-next-cpp-buffer-s42-h5.4",
+    "id": "solo-next-cpp-buffer-s42-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "437e3c5301d7fb1100cf34c8118546a113fc9a5af014fa994bfb248da722402c",
+    "stored_result_sha256": "437e3c5301d7fb1100cf34c8118546a113fc9a5af014fa994bfb248da722402c"
+  },
+  {
     "artifact": "artifacts/cases/solo-next-cpp-csv-s42-dbecac42911bf88b7c26.tar.gz",
     "complete": false,
     "directory": "solo-next-cpp-csv-s42",
@@ -1458,6 +1488,21 @@
     "revision": "h5.3",
     "source_result_sha256": "63ecb19fb928b3e4d773478ebeb466bb06cd1b8fec36090faa4a15e6e2dadb96",
     "stored_result_sha256": "63ecb19fb928b3e4d773478ebeb466bb06cd1b8fec36090faa4a15e6e2dadb96"
+  },
+  {
+    "artifact": "artifacts/cases/solo-next-py-csv-s42-h5.4-731afd5b7120c044af89.tar.gz",
+    "complete": true,
+    "directory": "solo-next-py-csv-s42-h5.4",
+    "id": "solo-next-py-csv-s42-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "731afd5b7120c044af89a8327b3aa23a2984bbffbebfeed0e837204c860fc299",
+    "stored_result_sha256": "731afd5b7120c044af89a8327b3aa23a2984bbffbebfeed0e837204c860fc299"
   },
   {
     "artifact": "artifacts/cases/solo-next-py-expression-s42-7585e453a095deacb3b4.tar.gz",

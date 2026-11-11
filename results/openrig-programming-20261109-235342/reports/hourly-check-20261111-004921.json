@@ -1,0 +1,185 @@
+{
+  "at": "2026-11-11T00:49:21.648987-06:00",
+  "automation_id": "check-openrig-campaign-hourly",
+  "harness_revision": "h5.4",
+  "status": {
+    "phase": "solo",
+    "at": 1794379523.4310443,
+    "pid": 3668881,
+    "harness_revision": "h5.4",
+    "dispatch_plan": "compaction-repair-rerun-then-full-campaign",
+    "current": "solo-coder30-cpp-buffer-s42-h5.4"
+  },
+  "heartbeat_age": 0.8246307373046875,
+  "production_unchanged": true,
+  "historical_records_checked": 120,
+  "changed_historical_records": [],
+  "completed_solo_results": [
+    {
+      "id": "solo-nemo-cpp-buffer-s42-h5.4",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "developer": "nemo"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794377257.7558105,
+      "complete": false,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-724f4dfaa395",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794377258.6426218,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794377272.7907503,
+          "incoming_feedback": "STAGE_FAILED: Three consecutive invalid tool operations"
+        },
+        {
+          "attempt": 3,
+          "started": 1794378175.1808708,
+          "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        }
+      ],
+      "attempts": 3,
+      "failure": "Repair budget exhausted",
+      "last_stage_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+      "finished": 1794379077.6341894,
+      "seconds": 1819.878378868103,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-py-csv-s42-h5.4",
+      "task": "py-csv",
+      "language": "python",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794379078.1072621,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-60a8973ba977",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794379079.4702585,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "c030f6808e1ca643ab9fa4b8fa626f3b16e10e217e78d49d048f05dbc0f079e6",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-py-csv-s42-h5.4/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794379333.690612,
+      "seconds": 255.583349943161,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-cpp-buffer-s42-h5.4",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794379334.0255184,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-be4f63ead5c4",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794379334.9183455,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "347c9acb514d452fe16865453172f79a924b9c4a788c2309e45a8db180f650c4",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-cpp-buffer-s42-h5.4/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794379424.8437314,
+      "seconds": 90.81821298599243,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-coder30-py-csv-s42-h5.4",
+      "task": "py-csv",
+      "language": "python",
+      "models": {
+        "developer": "coder30"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.4",
+      "started": 1794379427.119089,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-261bbcfaf2ce",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794379427.998147,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "b506707784f3f42beb60c0200b10703b482ae65da3f96dcb634cf78dc8cf0402",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-coder30-py-csv-s42-h5.4/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794379523.099209,
+      "seconds": 95.98012018203735,
+      "resource_limited": false
+    }
+  ],
+  "scores": {
+    "python": {
+      "passed": 2,
+      "finished": 2
+    },
+    "cpp": {
+      "passed": 1,
+      "finished": 2
+    }
+  },
+  "runner_health": "Active and progressing; no resource guards or monitor errors since h5.4 deployment. No recurrence of the pinned-compaction error.",
+  "failure_classification": {
+    "solo-nemo-cpp-buffer-s42-h5.4": "Not accepted after three attempts/30.3min. Latest public normal and ASan suites passed, but a saved authored C++ test failed compilation by accessing private Buffer member p. Saved tests are mandatory. One upstream XML unexpected-EOF error and two client-cancellation broken pipes are retained separately; no OOM or resource guard. Do not classify this as pure source correctness or a resource failure."
+  },
+  "upstream_parser_error": {
+    "transport": "transport/d53cfdca05aa464b89a786fd0163f850",
+    "message": "XML syntax error on line7: unexpected EOF",
+    "action": "Recorded; no runtime upgrade, response fabrication or unvalidated partial-call repair. No reproducible local harness defect established by this isolated parser error."
+  },
+  "compaction_status": "No new pin-budget errors. No automatic compaction-summary request was observed in the fresh trial; the prior exact-request replay remains the direct verification of the fix.",
+  "action": "No intervention in healthy current trial. Preserve benchmark failures; keep finite campaign and independent Git backup running.",
+  "notification": "Quiet routine progress; expected candidate failures do not require user action."
+}

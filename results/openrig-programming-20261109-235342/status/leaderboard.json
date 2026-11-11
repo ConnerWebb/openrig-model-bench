@@ -40,5 +40,41 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 255.583349943161,
+    "accepted_tasks_per_hour": 14.085424581846201,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 90.81821298599243,
+    "accepted_tasks_per_hour": 39.639626035751824,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'coder30'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 95.98012018203735,
+    "accepted_tasks_per_hour": 37.50776716232679,
+    "failures": []
   }
 ]
