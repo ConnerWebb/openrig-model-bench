@@ -1,0 +1,41 @@
+{
+  "id": "solo-nemo-cpp-buffer-s42-h5.3",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "nemo"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.3",
+  "started": 1794375155.850893,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-dccc83be7c8c",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794375156.7584267,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794375160.9074955,
+      "incoming_feedback": "STAGE_FAILED: Three consecutive invalid tool operations"
+    },
+    {
+      "attempt": 3,
+      "started": 1794375885.259863,
+      "incoming_feedback": "STAGE_FAILED: 120 tool-call limit reached"
+    }
+  ],
+  "attempts": 3,
+  "interrupted": true,
+  "failure": "Experimental runner interrupted; preserve and retry, exclude from model scores",
+  "finished": 1794376698.315683,
+  "seconds": 1542.4647898674011
+}

@@ -100,6 +100,23 @@
     "stored_result_sha256": "0bfbca4a26972584db364aa232f22a9b8e4327fd031985b24fc3bff0739bd094"
   },
   {
+    "artifact": "artifacts/cases/qualification-cpp-frozen-h5.4-be328e0640370456e162.tar.gz",
+    "complete": true,
+    "directory": "qualification-cpp-frozen-h5.4",
+    "id": "qualification-cpp-frozen-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "next",
+      "lead": "next",
+      "reviewer": "next"
+    },
+    "phase": "qualification",
+    "revision": "h5.4",
+    "source_result_sha256": "be328e0640370456e16206a03609a6292a716f0f1106760cd8f1db4228346a89",
+    "stored_result_sha256": "be328e0640370456e16206a03609a6292a716f0f1106760cd8f1db4228346a89"
+  },
+  {
     "artifact": "artifacts/cases/qualification-cpp-team-n1-2971f04d95eac48a65b7.tar.gz",
     "complete": true,
     "directory": "qualification-cpp-team-n1",
@@ -661,6 +678,23 @@
     "stored_result_sha256": "8cbf02c7c95ae63ac214ffd7899f6f1008e701f23b72fdf47f3a6b40f88e95a0"
   },
   {
+    "artifact": "artifacts/cases/qualification-python-frozen-h5.4-3f375e9ecf57cbe1683c.tar.gz",
+    "complete": true,
+    "directory": "qualification-python-frozen-h5.4",
+    "id": "qualification-python-frozen-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "next",
+      "lead": "next",
+      "reviewer": "next"
+    },
+    "phase": "qualification",
+    "revision": "h5.4",
+    "source_result_sha256": "3f375e9ecf57cbe1683ca8e4a6218fd1fdb085bde1ca3dc13faba9b9354972c5",
+    "stored_result_sha256": "3f375e9ecf57cbe1683ca8e4a6218fd1fdb085bde1ca3dc13faba9b9354972c5"
+  },
+  {
     "artifact": "artifacts/cases/solo-coder30-cpp-buffer-s42-h4-9964a05c7dfee3d67949.tar.gz",
     "complete": false,
     "directory": "solo-coder30-cpp-buffer-s42-h4",
@@ -1019,6 +1053,21 @@
     "revision": "h5.2",
     "source_result_sha256": "6f30064b395107aceaf16024af006e1806148d180305b06fc6456fa39ec9d68c",
     "stored_result_sha256": "6f30064b395107aceaf16024af006e1806148d180305b06fc6456fa39ec9d68c"
+  },
+  {
+    "artifact": "artifacts/cases/solo-nemo-cpp-buffer-s42-h5.3-b3df742368b29f7243e3.tar.gz",
+    "complete": false,
+    "directory": "solo-nemo-cpp-buffer-s42-h5.3",
+    "id": "solo-nemo-cpp-buffer-s42-h5.3",
+    "interrupted": true,
+    "language": "cpp",
+    "models": {
+      "developer": "nemo"
+    },
+    "phase": "solo",
+    "revision": "h5.3",
+    "source_result_sha256": "b3df742368b29f7243e3d06214a21d02d4f308bfe658fc2cf72987b250eab28a",
+    "stored_result_sha256": "b3df742368b29f7243e3d06214a21d02d4f308bfe658fc2cf72987b250eab28a"
   },
   {
     "artifact": "artifacts/cases/solo-nemo-py-csv-s42-h4-4f97901ae79798695ef2.tar.gz",

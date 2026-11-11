@@ -569,6 +569,29 @@
       }
     },
     {
+      "at": 1794377275.72557,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.804659340006765,
+      "first_content_seconds": 0.804659340006765,
+      "first_delivered_seconds": 0.8046667439921293,
+      "id": "01bdcb2c0b684ae18fbe62acbf686025",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.8333858610130847,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 4311,
+        "prompt_tokens_details": {
+          "cached_tokens": 3403
+        },
+        "total_tokens": 4326
+      }
+    },
+    {
       "at": 1794306203.1187284,
       "complete": false,
       "error": "[Errno 104] Connection reset by peer",
@@ -651,6 +674,19 @@
         },
         "total_tokens": 20217
       }
+    },
+    {
+      "at": 1794376698.120452,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "01f6b6e339784bd4a0246d72b79c3625",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004103984014363959,
+      "usage": null
     },
     {
       "at": 1794341852.866871,
@@ -1497,6 +1533,29 @@
       }
     },
     {
+      "at": 1794377103.5945833,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 9.382319378986722,
+      "first_content_seconds": 9.382319378986722,
+      "first_delivered_seconds": 9.382329448009841,
+      "id": "03e16d4811e841c59f0fd85ea934e390",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 9.62393356699613,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 7298,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7323
+      }
+    },
+    {
       "at": 1794365550.789853,
       "complete": true,
       "context_policy": {
@@ -1693,6 +1752,29 @@
       }
     },
     {
+      "at": 1794376909.7319326,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 16.037629651022144,
+      "first_content_seconds": 16.037629651022144,
+      "first_delivered_seconds": 16.037641023023752,
+      "id": "0472a1ea43b74940b4de89a50ce7811e",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 16.267021584004397,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 1768,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1793
+      }
+    },
+    {
       "at": 1794324822.1774387,
       "complete": false,
       "error": "[Errno 32] Broken pipe",
@@ -1766,6 +1848,29 @@
           "cached_tokens": 22730
         },
         "total_tokens": 22839
+      }
+    },
+    {
+      "at": 1794376989.2406125,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8113452439720277,
+      "first_content_seconds": 0.8113452439720277,
+      "first_delivered_seconds": 0.8113523169886321,
+      "id": "04a38620cab24bdfb422c2c262b12f9b",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.8314272139978129,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 6631,
+        "prompt_tokens_details": {
+          "cached_tokens": 6579
+        },
+        "total_tokens": 6660
       }
     },
     {
@@ -2624,6 +2729,29 @@
       }
     },
     {
+      "at": 1794377036.2479193,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.735126918007154,
+      "first_content_seconds": 1.735126918007154,
+      "first_delivered_seconds": 1.735132417990826,
+      "id": "06749fc9cb964fee8388a692dbb34af7",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 1.753282005985966,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 2921,
+        "prompt_tokens_details": {
+          "cached_tokens": 1781
+        },
+        "total_tokens": 2934
+      }
+    },
+    {
       "at": 1794370238.9426157,
       "complete": true,
       "context_policy": {
@@ -2778,6 +2906,19 @@
         },
         "total_tokens": 12616
       }
+    },
+    {
+      "at": 1794376692.1003575,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "06e7725a677d4fce899f7f2ff994d882",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.003806455002631992,
+      "usage": null
     },
     {
       "at": 1794341817.186857,
@@ -4619,6 +4760,29 @@
       }
     },
     {
+      "at": 1794377086.0725522,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.9189829030074179,
+      "first_content_seconds": 0.9189829030074179,
+      "first_delivered_seconds": 0.9189906679966953,
+      "id": "0a8faccaff544ed8beb7eb45d41441f5",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 0.9374659369932488,
+      "usage": {
+        "completion_tokens": 24,
+        "prompt_tokens": 4756,
+        "prompt_tokens_details": {
+          "cached_tokens": 4533
+        },
+        "total_tokens": 4780
+      }
+    },
+    {
       "at": 1794375671.7435112,
       "complete": true,
       "context_policy": {
@@ -4990,6 +5154,29 @@
           "cached_tokens": 18252
         },
         "total_tokens": 18813
+      }
+    },
+    {
+      "at": 1794377302.0908911,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 23.459587343997555,
+      "first_content_seconds": 23.459587343997555,
+      "first_delivered_seconds": 23.45959115200094,
+      "id": "0b7a3129b4914365908707a5d5de58d8",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 23.48851910198573,
+      "usage": {
+        "completion_tokens": 1582,
+        "prompt_tokens": 8815,
+        "prompt_tokens_details": {
+          "cached_tokens": 8787
+        },
+        "total_tokens": 10397
       }
     },
     {
@@ -5584,6 +5771,29 @@
       }
     },
     {
+      "at": 1794376930.8689501,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8266789689951111,
+      "first_content_seconds": 0.8266789689951111,
+      "first_delivered_seconds": 0.8266841389995534,
+      "id": "0c8c758d66c648b88f5c16c0279baa03",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 1.7390324879961554,
+      "usage": {
+        "completion_tokens": 72,
+        "prompt_tokens": 4187,
+        "prompt_tokens_details": {
+          "cached_tokens": 3998
+        },
+        "total_tokens": 4259
+      }
+    },
+    {
       "at": 1794343218.8411088,
       "complete": true,
       "first_any_seconds": 1.6031899850058835,
@@ -6096,6 +6306,29 @@
           "cached_tokens": 25922
         },
         "total_tokens": 26053
+      }
+    },
+    {
+      "at": 1794376994.4335284,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.5298999900114723,
+      "first_content_seconds": 0.5298999900114723,
+      "first_delivered_seconds": 0.5299036969954614,
+      "id": "0d934bf3c5f644668e883a7791743b44",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.5478673260076903,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 6943,
+        "prompt_tokens_details": {
+          "cached_tokens": 6878
+        },
+        "total_tokens": 6956
       }
     },
     {
@@ -7920,6 +8153,29 @@
       }
     },
     {
+      "at": 1794376984.218198,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.1718400859972462,
+      "first_content_seconds": 1.1718400859972462,
+      "first_delivered_seconds": 1.1718457560054958,
+      "id": "1210f9b6d42648bf93a958c8dc6531a1",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 1.1893101559835486,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 6017,
+        "prompt_tokens_details": {
+          "cached_tokens": 5587
+        },
+        "total_tokens": 6046
+      }
+    },
+    {
       "at": 1794372737.7750475,
       "complete": true,
       "context_policy": {
@@ -8095,6 +8351,29 @@
       "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
       "seconds": 0.0038554079947061837,
       "usage": null
+    },
+    {
+      "at": 1794377113.4864657,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.9087706540012732,
+      "first_content_seconds": 1.9087706540012732,
+      "first_delivered_seconds": 1.9087771759950556,
+      "id": "12a8fcd0dace4c88ba9ccb3a863b4a3b",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 1.9273319560161326,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 8433,
+        "prompt_tokens_details": {
+          "cached_tokens": 7294
+        },
+        "total_tokens": 8446
+      }
     },
     {
       "at": 1794314407.877401,
@@ -8841,6 +9120,29 @@
           "cached_tokens": 5536
         },
         "total_tokens": 8562
+      }
+    },
+    {
+      "at": 1794377269.65635,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.477919953991659,
+      "first_content_seconds": 0.477919953991659,
+      "first_delivered_seconds": 0.47792313000536524,
+      "id": "13e7767679ff4c5b97124ba12337b66a",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.5065417389851063,
+      "usage": {
+        "completion_tokens": 31,
+        "prompt_tokens": 2670,
+        "prompt_tokens_details": {
+          "cached_tokens": 2666
+        },
+        "total_tokens": 2701
       }
     },
     {
@@ -11258,6 +11560,29 @@
       }
     },
     {
+      "at": 1794377089.1418405,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.908679704007227,
+      "first_content_seconds": 0.908679704007227,
+      "first_delivered_seconds": 0.9086828700092155,
+      "id": "18e1687dd65e447489a88422c8754f53",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 0.9271300380059984,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 5530,
+        "prompt_tokens_details": {
+          "cached_tokens": 5405
+        },
+        "total_tokens": 5559
+      }
+    },
+    {
       "at": 1794351516.9437158,
       "complete": true,
       "first_any_seconds": 0.3378377720073331,
@@ -11360,6 +11685,29 @@
           "cached_tokens": 4935
         },
         "total_tokens": 5366
+      }
+    },
+    {
+      "at": 1794376942.6363864,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.843879279011162,
+      "first_content_seconds": 3.843879279011162,
+      "first_delivered_seconds": 3.8438847200013697,
+      "id": "1914fea3cbe143759d3fb9bfdd494e0b",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 3.8621768450248055,
+      "usage": {
+        "completion_tokens": 192,
+        "prompt_tokens": 8221,
+        "prompt_tokens_details": {
+          "cached_tokens": 8175
+        },
+        "total_tokens": 8413
       }
     },
     {
@@ -13448,6 +13796,29 @@
       }
     },
     {
+      "at": 1794376998.7373717,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6429846479732078,
+      "first_content_seconds": 0.6429846479732078,
+      "first_delivered_seconds": 0.6429884049866814,
+      "id": "1d940767b2be4a8b83763cd970d14aa0",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.6604103349964134,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 7281,
+        "prompt_tokens_details": {
+          "cached_tokens": 7122
+        },
+        "total_tokens": 7294
+      }
+    },
+    {
       "at": 1794295984.5705671,
       "complete": true,
       "first_any_seconds": 2.4274085899960482,
@@ -15228,6 +15599,29 @@
       }
     },
     {
+      "at": 1794376993.5632966,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8186446549952962,
+      "first_content_seconds": 0.8186446549952962,
+      "first_delivered_seconds": 0.8186485729820561,
+      "id": "20f0ef77f715416bbb8222b296e04955",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.8365254479867872,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 6882,
+        "prompt_tokens_details": {
+          "cached_tokens": 6825
+        },
+        "total_tokens": 6911
+      }
+    },
+    {
       "at": 1794328349.3923938,
       "complete": true,
       "first_any_seconds": 0.5667035090154968,
@@ -15489,6 +15883,29 @@
           "cached_tokens": 12634
         },
         "total_tokens": 12694
+      }
+    },
+    {
+      "at": 1794377016.389537,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.948168766015442,
+      "first_content_seconds": 1.948168766015442,
+      "first_delivered_seconds": 1.9481730539991986,
+      "id": "218fff62cf2646b7aa582f708ab46dfd",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 1.966636762022972,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 10241,
+        "prompt_tokens_details": {
+          "cached_tokens": 9110
+        },
+        "total_tokens": 10254
       }
     },
     {
@@ -17089,6 +17506,29 @@
           "cached_tokens": 9999
         },
         "total_tokens": 10107
+      }
+    },
+    {
+      "at": 1794377046.5546992,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.0307620860112365,
+      "first_content_seconds": 1.0307620860112365,
+      "first_delivered_seconds": 1.0307723550067749,
+      "id": "251d157511644e04ad5b863b9fe99bb2",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 1.0482661499991082,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 5492,
+        "prompt_tokens_details": {
+          "cached_tokens": 5084
+        },
+        "total_tokens": 5515
       }
     },
     {
@@ -18810,6 +19250,29 @@
       }
     },
     {
+      "at": 1794377042.4318736,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.4352537830127403,
+      "first_content_seconds": 1.4352537830127403,
+      "first_delivered_seconds": 1.435259543999564,
+      "id": "28d18e29d2ba47e9999685d6c987caf7",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 1.4526443240174558,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 4967,
+        "prompt_tokens_details": {
+          "cached_tokens": 4196
+        },
+        "total_tokens": 4990
+      }
+    },
+    {
       "at": 1794318639.040933,
       "complete": true,
       "first_any_seconds": 33.00111287998152,
@@ -19207,6 +19670,29 @@
       }
     },
     {
+      "at": 1794377043.9235613,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.902855054999236,
+      "first_content_seconds": 0.902855054999236,
+      "first_delivered_seconds": 0.9028602649923414,
+      "id": "29524e974b9346d19b457ed1bf67b5ee",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 2.5157110859872773,
+      "usage": {
+        "completion_tokens": 116,
+        "prompt_tokens": 5088,
+        "prompt_tokens_details": {
+          "cached_tokens": 4963
+        },
+        "total_tokens": 5204
+      }
+    },
+    {
       "at": 1794333167.9393113,
       "complete": true,
       "first_any_seconds": 0.5706686929916032,
@@ -19278,6 +19764,29 @@
           "cached_tokens": 9939
         },
         "total_tokens": 10047
+      }
+    },
+    {
+      "at": 1794377047.638221,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.9412834529939573,
+      "first_content_seconds": 0.9412834529939573,
+      "first_delivered_seconds": 0.9412885629863013,
+      "id": "2982c6460e814824bbb3d5b4afafc154",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 0.9589071320078801,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 5707,
+        "prompt_tokens_details": {
+          "cached_tokens": 5488
+        },
+        "total_tokens": 5732
       }
     },
     {
@@ -19598,6 +20107,29 @@
           "cached_tokens": 6254
         },
         "total_tokens": 6342
+      }
+    },
+    {
+      "at": 1794377039.8645074,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.844364072981989,
+      "first_content_seconds": 0.844364072981989,
+      "first_delivered_seconds": 0.8443711859872565,
+      "id": "2a4160ba1f9a41928b2b0e6fa87eb8d7",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 0.8624198850011453,
+      "usage": {
+        "completion_tokens": 20,
+        "prompt_tokens": 4016,
+        "prompt_tokens_details": {
+          "cached_tokens": 3785
+        },
+        "total_tokens": 4036
       }
     },
     {
@@ -20981,6 +21513,29 @@
       }
     },
     {
+      "at": 1794377038.3397243,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.4695581190171652,
+      "first_content_seconds": 1.4695581190171652,
+      "first_delivered_seconds": 1.4695644300081767,
+      "id": "2cc28902403448eba58d8899672f3e77",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 1.486708107026061,
+      "usage": {
+        "completion_tokens": 21,
+        "prompt_tokens": 3789,
+        "prompt_tokens_details": {
+          "cached_tokens": 2917
+        },
+        "total_tokens": 3810
+      }
+    },
+    {
       "at": 1794357911.1778777,
       "complete": true,
       "context_policy": {
@@ -21542,6 +22097,29 @@
       }
     },
     {
+      "at": 1794376926.2709103,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.7328121260215994,
+      "first_content_seconds": 1.7328121260215994,
+      "first_delivered_seconds": 1.7328172250126954,
+      "id": "2e55cdacc01d47a785269e51ad3d1917",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 1.749882244010223,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 2890,
+        "prompt_tokens_details": {
+          "cached_tokens": 1764
+        },
+        "total_tokens": 2903
+      }
+    },
+    {
       "at": 1794357004.841474,
       "complete": true,
       "context_policy": {
@@ -21626,6 +22204,29 @@
           "cached_tokens": 3
         },
         "total_tokens": 26674
+      }
+    },
+    {
+      "at": 1794376961.111617,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.461377799016191,
+      "first_content_seconds": 4.461377799016191,
+      "first_delivered_seconds": 4.4613812750030775,
+      "id": "2e8283d15999443a8e697901c7d29767",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/developer",
+      "seconds": 4.479745966993505,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 9201,
+        "prompt_tokens_details": {
+          "cached_tokens": 5885
+        },
+        "total_tokens": 9214
       }
     },
     {
@@ -22128,6 +22729,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 6652
+      }
+    },
+    {
+      "at": 1794377027.6125512,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.871529077005107,
+      "first_content_seconds": 1.871529077005107,
+      "first_delivered_seconds": 1.8715324930089992,
+      "id": "2fba0ed3892745358e84a8bcd44ed40e",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 1.8908480330137536,
+      "usage": {
+        "completion_tokens": 76,
+        "prompt_tokens": 11413,
+        "prompt_tokens_details": {
+          "cached_tokens": 11280
+        },
+        "total_tokens": 11489
       }
     },
     {
@@ -23852,6 +24476,29 @@
           "cached_tokens": 23598
         },
         "total_tokens": 28786
+      }
+    },
+    {
+      "at": 1794377018.6919763,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.4734632699983194,
+      "first_content_seconds": 1.4734632699983194,
+      "first_delivered_seconds": 1.4734732889919542,
+      "id": "33d6bb95c751483bb0505ab52abc046e",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 1.4923080439912155,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 11102,
+        "prompt_tokens_details": {
+          "cached_tokens": 10237
+        },
+        "total_tokens": 11115
       }
     },
     {
@@ -26862,6 +27509,29 @@
       }
     },
     {
+      "at": 1794377097.394304,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.0520106390176807,
+      "first_content_seconds": 1.0520106390176807,
+      "first_delivered_seconds": 1.0520139360160101,
+      "id": "3a9d8fefa4ed4102b0595b0968bac02f",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 1.0703972630144563,
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 6406,
+        "prompt_tokens_details": {
+          "cached_tokens": 6211
+        },
+        "total_tokens": 6438
+      }
+    },
+    {
       "at": 1794367403.88878,
       "complete": true,
       "context_policy": {
@@ -27323,6 +27993,29 @@
       }
     },
     {
+      "at": 1794376947.888341,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.040037830010988,
+      "first_content_seconds": 4.040037830010988,
+      "first_delivered_seconds": 4.040045544010354,
+      "id": "3b613714de3e48ab971d65d718cce4cf",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/developer",
+      "seconds": 4.269570937991375,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 2590,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2629
+      }
+    },
+    {
       "at": 1794311102.282828,
       "complete": true,
       "first_any_seconds": 0.380578800017247,
@@ -27617,6 +28310,29 @@
           "cached_tokens": 11478
         },
         "total_tokens": 11516
+      }
+    },
+    {
+      "at": 1794377098.591852,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.644437219016254,
+      "first_content_seconds": 0.644437219016254,
+      "first_delivered_seconds": 0.6444437410100363,
+      "id": "3be323988f87474789451edd7a062576",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 0.6628844559891149,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 6560,
+        "prompt_tokens_details": {
+          "cached_tokens": 6402
+        },
+        "total_tokens": 6573
       }
     },
     {
@@ -28927,6 +29643,37 @@
       }
     },
     {
+      "at": 1794376821.1954885,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 48000,
+        "applied": true,
+        "before_bytes": 237866,
+        "kind": "compaction-summary",
+        "maximum_bytes": 48000,
+        "policy": "Original transcript archived; retain initial quarter and recent three quarters of bounded transcript only; no tools or assignment instructions rewritten.",
+        "preserved_summary_instructions": true,
+        "retained_transcript_bytes": 44534,
+        "transcript_bytes": 226838
+      },
+      "first_any_seconds": 12.538055190001614,
+      "first_content_seconds": 12.538055190001614,
+      "first_delivered_seconds": 12.538063606014475,
+      "id": "3e5f445e2f4f4963b6157d089c4e0e2e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "diagnostic-h54-summary",
+      "seconds": 27.53146781300893,
+      "usage": {
+        "completion_tokens": 1014,
+        "prompt_tokens": 15028,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 16042
+      }
+    },
+    {
       "at": 1794362119.146718,
       "complete": true,
       "context_policy": {
@@ -30063,6 +30810,29 @@
           "cached_tokens": 10457
         },
         "total_tokens": 10715
+      }
+    },
+    {
+      "at": 1794377280.364448,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.9609072750026826,
+      "first_content_seconds": 0.9609072750026826,
+      "first_delivered_seconds": 0.9609149390016682,
+      "id": "408ea914fc0d453291ea01287f857084",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.9898418580123689,
+      "usage": {
+        "completion_tokens": 49,
+        "prompt_tokens": 6465,
+        "prompt_tokens_details": {
+          "cached_tokens": 6350
+        },
+        "total_tokens": 6514
       }
     },
     {
@@ -32122,6 +32892,29 @@
       }
     },
     {
+      "at": 1794376980.4703808,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8111239979916718,
+      "first_content_seconds": 0.8111239979916718,
+      "first_delivered_seconds": 0.811130971997045,
+      "id": "44f9bfe6123842d6a0c509a490f4c261",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.8285838099836838,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 4998,
+        "prompt_tokens_details": {
+          "cached_tokens": 4880
+        },
+        "total_tokens": 5021
+      }
+    },
+    {
       "at": 1794296150.452891,
       "complete": true,
       "first_any_seconds": 1.706207862996962,
@@ -32595,6 +33388,29 @@
           "cached_tokens": 6470
         },
         "total_tokens": 6559
+      }
+    },
+    {
+      "at": 1794376968.2220674,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7020763499895111,
+      "first_content_seconds": 0.7020763499895111,
+      "first_delivered_seconds": 0.7020799769961741,
+      "id": "45ded0eb22d6404b961977fe97cddcc3",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/developer",
+      "seconds": 0.7208299830090255,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 9384,
+        "prompt_tokens_details": {
+          "cached_tokens": 9197
+        },
+        "total_tokens": 9397
       }
     },
     {
@@ -36646,6 +37462,29 @@
       }
     },
     {
+      "at": 1794377363.9375691,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.4500952379894443,
+      "first_content_seconds": 0.4500952379894443,
+      "first_delivered_seconds": 0.4500994959962554,
+      "id": "4e0633b34b5c498e836c3d06f15113d5",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.47959997301222757,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13221,
+        "prompt_tokens_details": {
+          "cached_tokens": 13192
+        },
+        "total_tokens": 13236
+      }
+    },
+    {
       "at": 1794375226.4119287,
       "complete": true,
       "context_policy": {
@@ -38302,6 +39141,29 @@
       }
     },
     {
+      "at": 1794377090.1042213,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.89149165499839,
+      "first_content_seconds": 0.89149165499839,
+      "first_delivered_seconds": 0.891495832009241,
+      "id": "51b1e81e6788447e8d3062cea55e08ed",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 0.9089141250005923,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 5646,
+        "prompt_tokens_details": {
+          "cached_tokens": 5526
+        },
+        "total_tokens": 5675
+      }
+    },
+    {
       "at": 1794341410.1976898,
       "complete": false,
       "error": "[Errno 32] Broken pipe",
@@ -39257,6 +40119,29 @@
       }
     },
     {
+      "at": 1794377087.0408723,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.2052909569756594,
+      "first_content_seconds": 1.2052909569756594,
+      "first_delivered_seconds": 1.2052964569884352,
+      "id": "53a1a243a08245c88ea1d4dbd545ac04",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 1.2225629249878693,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 5284,
+        "prompt_tokens_details": {
+          "cached_tokens": 4752
+        },
+        "total_tokens": 5307
+      }
+    },
+    {
       "at": 1794317678.2595081,
       "complete": true,
       "first_any_seconds": 2.1905337260104716,
@@ -39464,6 +40349,29 @@
       }
     },
     {
+      "at": 1794377094.734346,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.5006755140202586,
+      "first_content_seconds": 0.5006755140202586,
+      "first_delivered_seconds": 0.500679571996443,
+      "id": "53d44a5da6364f46adae4f7acdbff229",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 0.5189929470070638,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 6215,
+        "prompt_tokens_details": {
+          "cached_tokens": 6169
+        },
+        "total_tokens": 6228
+      }
+    },
+    {
       "at": 1794300519.7439506,
       "complete": true,
       "first_any_seconds": 0.3080926830007229,
@@ -39533,6 +40441,29 @@
           "cached_tokens": 31616
         },
         "total_tokens": 31805
+      }
+    },
+    {
+      "at": 1794377277.9629102,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.722214854991762,
+      "first_content_seconds": 0.722214854991762,
+      "first_delivered_seconds": 0.7222208360035438,
+      "id": "540b198171be46fd8de3c556dd5abc80",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.7507813359843567,
+      "usage": {
+        "completion_tokens": 30,
+        "prompt_tokens": 5467,
+        "prompt_tokens_details": {
+          "cached_tokens": 5245
+        },
+        "total_tokens": 5497
       }
     },
     {
@@ -45151,6 +46082,29 @@
       }
     },
     {
+      "at": 1794377276.9000685,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.0007612850167789,
+      "first_content_seconds": 1.0007612850167789,
+      "first_delivered_seconds": 1.000764190015616,
+      "id": "5f45ace03fd74f2fa2681388a7c5f4bc",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 1.0300732570176478,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 5218,
+        "prompt_tokens_details": {
+          "cached_tokens": 4325
+        },
+        "total_tokens": 5246
+      }
+    },
+    {
       "at": 1794330762.5263264,
       "complete": true,
       "first_any_seconds": 1.0865666980098467,
@@ -45875,6 +46829,29 @@
           "cached_tokens": 11654
         },
         "total_tokens": 12416
+      }
+    },
+    {
+      "at": 1794376977.7770343,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8134318169904873,
+      "first_content_seconds": 0.8134318169904873,
+      "first_delivered_seconds": 0.8134366659796797,
+      "id": "60c6c6292d4e4c5c8fd372d5241df787",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.8310533420008142,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 4524,
+        "prompt_tokens_details": {
+          "cached_tokens": 4336
+        },
+        "total_tokens": 4547
       }
     },
     {
@@ -47595,6 +48572,29 @@
       }
     },
     {
+      "at": 1794377092.905066,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8007723990012892,
+      "first_content_seconds": 0.8007723990012892,
+      "first_delivered_seconds": 0.800776155985659,
+      "id": "64ff86a6d7f9464caea4734bd317ecf4",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 0.8215334459964652,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 5958,
+        "prompt_tokens_details": {
+          "cached_tokens": 5837
+        },
+        "total_tokens": 5981
+      }
+    },
+    {
       "at": 1794364090.8655412,
       "complete": true,
       "context_policy": {
@@ -48577,6 +49577,29 @@
           "cached_tokens": 5199
         },
         "total_tokens": 5793
+      }
+    },
+    {
+      "at": 1794377022.7028785,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7304609270067886,
+      "first_content_seconds": 0.7304609270067886,
+      "first_delivered_seconds": 0.7304652160091791,
+      "id": "66b28aaa3c684e02b847602253b48228",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 0.7494108800019603,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 11284,
+        "prompt_tokens_details": {
+          "cached_tokens": 11098
+        },
+        "total_tokens": 11297
       }
     },
     {
@@ -50051,6 +51074,29 @@
       }
     },
     {
+      "at": 1794376952.5309448,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.1088549139967654,
+      "first_content_seconds": 2.1088549139967654,
+      "first_delivered_seconds": 2.1088595729961526,
+      "id": "694a0d17d9ed4a0d88222f0b327963fb",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/developer",
+      "seconds": 2.872387620009249,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 4083,
+        "prompt_tokens_details": {
+          "cached_tokens": 2586
+        },
+        "total_tokens": 4137
+      }
+    },
+    {
       "at": 1794357645.87259,
       "complete": true,
       "context_policy": {
@@ -50540,6 +51586,29 @@
       }
     },
     {
+      "at": 1794377077.5148568,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.2592761359992437,
+      "first_content_seconds": 3.2592761359992437,
+      "first_delivered_seconds": 3.2592810760252178,
+      "id": "6a6d7d2d0d2f435eae4d7cff753f8c5e",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 3.2767675170034636,
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 2330,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2342
+      }
+    },
+    {
       "at": 1794375427.1178787,
       "complete": true,
       "context_policy": {
@@ -50730,6 +51799,29 @@
       }
     },
     {
+      "at": 1794376955.775183,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.209669687988935,
+      "first_content_seconds": 2.209669687988935,
+      "first_delivered_seconds": 2.209675619000336,
+      "id": "6ae6eeaba02a413886903cda4cec8393",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/developer",
+      "seconds": 3.5056735569960438,
+      "usage": {
+        "completion_tokens": 93,
+        "prompt_tokens": 5397,
+        "prompt_tokens_details": {
+          "cached_tokens": 4079
+        },
+        "total_tokens": 5490
+      }
+    },
+    {
       "at": 1794324233.4896061,
       "complete": true,
       "first_any_seconds": 0.5680138790048659,
@@ -50850,6 +51942,29 @@
           "cached_tokens": 13471
         },
         "total_tokens": 13995
+      }
+    },
+    {
+      "at": 1794376937.3792531,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8288362739840522,
+      "first_content_seconds": 0.8288362739840522,
+      "first_delivered_seconds": 0.8288411929970607,
+      "id": "6b469c0acbb7455a9b8c0846f8949d5a",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 0.8471134619903751,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 7655,
+        "prompt_tokens_details": {
+          "cached_tokens": 7537
+        },
+        "total_tokens": 7678
       }
     },
     {
@@ -51413,6 +52528,29 @@
       "prefix": "solo-next-py-refactor-s42/developer",
       "seconds": 36.30294228599814,
       "usage": null
+    },
+    {
+      "at": 1794376992.6992366,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8134381480049342,
+      "first_content_seconds": 0.8134381480049342,
+      "first_delivered_seconds": 0.8134438589913771,
+      "id": "6c56405dd0054cff90f396dd93dccf12",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.8315559560141992,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 6829,
+        "prompt_tokens_details": {
+          "cached_tokens": 6776
+        },
+        "total_tokens": 6858
+      }
     },
     {
       "at": 1794362441.7549763,
@@ -53642,6 +54780,29 @@
       }
     },
     {
+      "at": 1794377055.3525445,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.803818933025468,
+      "first_content_seconds": 3.803818933025468,
+      "first_delivered_seconds": 3.8038234510167968,
+      "id": "70b318515d7c438cab2f8b8f3ff072f8",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/developer",
+      "seconds": 4.034585370012792,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 2595,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2634
+      }
+    },
+    {
       "at": 1794299536.2501585,
       "complete": true,
       "first_any_seconds": 2.4087420669966377,
@@ -54575,6 +55736,29 @@
       }
     },
     {
+      "at": 1794377004.2363024,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 11.653393054002663,
+      "first_content_seconds": 11.653393054002663,
+      "first_delivered_seconds": 11.653399686008925,
+      "id": "72e9397b6c8d464886696da984f0da32",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 11.894339487014804,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 9114,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9139
+      }
+    },
+    {
       "at": 1794308393.7002761,
       "complete": true,
       "first_any_seconds": 1.2411810670018895,
@@ -55199,6 +56383,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 6558
+      }
+    },
+    {
+      "at": 1794377282.1115427,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7201312480028719,
+      "first_content_seconds": 0.7201312480028719,
+      "first_delivered_seconds": 0.720135506009683,
+      "id": "7496c8baca5a4775b3ac2c87d1fb7015",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.7511374260066077,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 6758,
+        "prompt_tokens_details": {
+          "cached_tokens": 6655
+        },
+        "total_tokens": 6792
       }
     },
     {
@@ -56285,6 +57492,29 @@
       }
     },
     {
+      "at": 1794376990.968903,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8021895530109759,
+      "first_content_seconds": 0.8021895530109759,
+      "first_delivered_seconds": 0.8021955240110401,
+      "id": "76c78920250b4691a5ef03da982bd75b",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.8199770000064746,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 6729,
+        "prompt_tokens_details": {
+          "cached_tokens": 6676
+        },
+        "total_tokens": 6758
+      }
+    },
+    {
       "at": 1794313770.877822,
       "complete": true,
       "first_any_seconds": 0.6515504159906413,
@@ -57019,6 +58249,29 @@
       }
     },
     {
+      "at": 1794376979.6100247,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8059103270061314,
+      "first_content_seconds": 0.8059103270061314,
+      "first_delivered_seconds": 0.8059155869996175,
+      "id": "7831c53e842040b6a08e685ff33a8aef",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.8236792700190563,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 4884,
+        "prompt_tokens_details": {
+          "cached_tokens": 4740
+        },
+        "total_tokens": 4907
+      }
+    },
+    {
       "at": 1794300385.031054,
       "complete": true,
       "first_any_seconds": 3.5136988420126727,
@@ -57217,6 +58470,29 @@
       }
     },
     {
+      "at": 1794376970.0697446,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.2667322029883508,
+      "first_content_seconds": 3.2667322029883508,
+      "first_delivered_seconds": 3.266737412981456,
+      "id": "78cb0bd44c6b4a499364415d8125ef00",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 3.2841798719891813,
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 2313,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2325
+      }
+    },
+    {
       "at": 1794374096.3267472,
       "complete": true,
       "context_policy": {
@@ -57260,6 +58536,29 @@
           "cached_tokens": 30680
         },
         "total_tokens": 31334
+      }
+    },
+    {
+      "at": 1794376985.4423347,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.996668656996917,
+      "first_content_seconds": 0.996668656996917,
+      "first_delivered_seconds": 0.9966739169904031,
+      "id": "78d41a6c005244bf80c49c46d916c5f8",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 1.0150674429896753,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 6254,
+        "prompt_tokens_details": {
+          "cached_tokens": 6013
+        },
+        "total_tokens": 6283
       }
     },
     {
@@ -59414,6 +60713,29 @@
       }
     },
     {
+      "at": 1794377328.9087448,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 34.86075602698838,
+      "first_content_seconds": 34.86075602698838,
+      "first_delivered_seconds": 34.86076135697658,
+      "id": "7d003fa9a2504048b3322c4e639a7cba",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 34.89593554000021,
+      "usage": {
+        "completion_tokens": 2330,
+        "prompt_tokens": 10863,
+        "prompt_tokens_details": {
+          "cached_tokens": 10658
+        },
+        "total_tokens": 13193
+      }
+    },
+    {
       "at": 1794356356.4465775,
       "complete": true,
       "context_policy": {
@@ -59662,6 +60984,29 @@
           "cached_tokens": 9153
         },
         "total_tokens": 11715
+      }
+    },
+    {
+      "at": 1794377048.6330922,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.742032605980057,
+      "first_content_seconds": 4.742032605980057,
+      "first_delivered_seconds": 4.742035951989237,
+      "id": "7d6c7762d8dc4baea8636791c4b345da",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 4.759743829985382,
+      "usage": {
+        "completion_tokens": 207,
+        "prompt_tokens": 6391,
+        "prompt_tokens_details": {
+          "cached_tokens": 5703
+        },
+        "total_tokens": 6598
       }
     },
     {
@@ -60776,6 +62121,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 2193
+      }
+    },
+    {
+      "at": 1794376928.379103,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.4687471139768604,
+      "first_content_seconds": 1.4687471139768604,
+      "first_delivered_seconds": 1.4687543869949877,
+      "id": "7fd52b1c30364d9b8bbaa692f008e970",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 1.4857491650036536,
+      "usage": {
+        "completion_tokens": 21,
+        "prompt_tokens": 3745,
+        "prompt_tokens_details": {
+          "cached_tokens": 2886
+        },
+        "total_tokens": 3766
       }
     },
     {
@@ -62797,6 +64165,29 @@
       }
     },
     {
+      "at": 1794376959.3946455,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.2173083770030644,
+      "first_content_seconds": 1.2173083770030644,
+      "first_delivered_seconds": 1.2173155409982428,
+      "id": "83bf2df6f8ff4e1a85cb255d30e0e9bd",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/developer",
+      "seconds": 1.6592316580063198,
+      "usage": {
+        "completion_tokens": 48,
+        "prompt_tokens": 5889,
+        "prompt_tokens_details": {
+          "cached_tokens": 5393
+        },
+        "total_tokens": 5937
+      }
+    },
+    {
       "at": 1794293689.1415963,
       "complete": true,
       "first_any_seconds": 1.5547502289991826,
@@ -63604,6 +64995,29 @@
       }
     },
     {
+      "at": 1794377069.4744577,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.1925866050005425,
+      "first_content_seconds": 1.1925866050005425,
+      "first_delivered_seconds": 1.192592526000226,
+      "id": "85c3022f66594f018901228180d63de3",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/developer",
+      "seconds": 2.830111068993574,
+      "usage": {
+        "completion_tokens": 116,
+        "prompt_tokens": 7183,
+        "prompt_tokens_details": {
+          "cached_tokens": 6817
+        },
+        "total_tokens": 7299
+      }
+    },
+    {
       "at": 1794304325.7285817,
       "complete": true,
       "first_any_seconds": 5.1767838779924205,
@@ -64367,6 +65781,29 @@
           "cached_tokens": 9759
         },
         "total_tokens": 9867
+      }
+    },
+    {
+      "at": 1794377282.8928213,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6230002350057475,
+      "first_content_seconds": 0.6230002350057475,
+      "first_delivered_seconds": 0.6230059259978589,
+      "id": "86f2cf27623d48c9b19d734c2a2509c4",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.6520073949941434,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 6883,
+        "prompt_tokens_details": {
+          "cached_tokens": 6791
+        },
+        "total_tokens": 6911
       }
     },
     {
@@ -65492,6 +66929,19 @@
       }
     },
     {
+      "at": 1794376681.1935034,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "8906667da55c488bb8ae4a3032527745",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.003716947016073391,
+      "usage": null
+    },
+    {
       "at": 1794298032.8418334,
       "complete": true,
       "first_any_seconds": 2.196556517999852,
@@ -66309,6 +67759,19 @@
         },
         "total_tokens": 11412
       }
+    },
+    {
+      "at": 1794376694.1086092,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "8acdb7353c474d47979768fb3a3381f4",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004375224991235882,
+      "usage": null
     },
     {
       "at": 1794374497.0072212,
@@ -67375,6 +68838,29 @@
           "cached_tokens": 10731
         },
         "total_tokens": 11180
+      }
+    },
+    {
+      "at": 1794377059.739735,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.1325979059911333,
+      "first_content_seconds": 2.1325979059911333,
+      "first_delivered_seconds": 2.1326037170074414,
+      "id": "8d3ee455f68d4b219e4ecbba17da4375",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/developer",
+      "seconds": 2.909291262010811,
+      "usage": {
+        "completion_tokens": 55,
+        "prompt_tokens": 4114,
+        "prompt_tokens_details": {
+          "cached_tokens": 2591
+        },
+        "total_tokens": 4169
       }
     },
     {
@@ -69440,6 +70926,29 @@
           "cached_tokens": 22248
         },
         "total_tokens": 22766
+      }
+    },
+    {
+      "at": 1794377284.320288,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 11.579417385015404,
+      "first_content_seconds": 11.579417385015404,
+      "first_delivered_seconds": 11.579423796996707,
+      "id": "9179537148c949f2b0e50c2e2a781568",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 11.607703980000224,
+      "usage": {
+        "completion_tokens": 754,
+        "prompt_tokens": 7617,
+        "prompt_tokens_details": {
+          "cached_tokens": 7064
+        },
+        "total_tokens": 8371
       }
     },
     {
@@ -72032,6 +73541,29 @@
       }
     },
     {
+      "at": 1794377085.2024977,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8171594740124419,
+      "first_content_seconds": 0.8171594740124419,
+      "first_delivered_seconds": 0.8171642420056742,
+      "id": "9761446f40474e218b8960a441a03002",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 0.8346797979902476,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 4537,
+        "prompt_tokens_details": {
+          "cached_tokens": 4349
+        },
+        "total_tokens": 4560
+      }
+    },
+    {
       "at": 1794368893.655467,
       "complete": true,
       "context_policy": {
@@ -72642,6 +74174,29 @@
       }
     },
     {
+      "at": 1794376983.1684592,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.00129575500614,
+      "first_content_seconds": 1.00129575500614,
+      "first_delivered_seconds": 1.0013031690032221,
+      "id": "98c0c582b6eb416d83630186368b8a5a",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 1.019152511988068,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 5591,
+        "prompt_tokens_details": {
+          "cached_tokens": 5346
+        },
+        "total_tokens": 5620
+      }
+    },
+    {
       "at": 1794300958.250376,
       "complete": true,
       "first_any_seconds": 30.39065496000694,
@@ -73166,6 +74721,29 @@
           "cached_tokens": 8181
         },
         "total_tokens": 9096
+      }
+    },
+    {
+      "at": 1794377279.6582391,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6472412350121886,
+      "first_content_seconds": 0.6472412350121886,
+      "first_delivered_seconds": 0.647244561027037,
+      "id": "99e1e365c97f49f38db4e769b99eed08",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.6758839190006256,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 6323,
+        "prompt_tokens_details": {
+          "cached_tokens": 6187
+        },
+        "total_tokens": 6351
       }
     },
     {
@@ -74032,6 +75610,29 @@
       "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
       "seconds": 0.004225151991704479,
       "usage": null
+    },
+    {
+      "at": 1794377075.472623,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7042154610098805,
+      "first_content_seconds": 0.7042154610098805,
+      "first_delivered_seconds": 0.7042192880180664,
+      "id": "9b7ea0d99135400ea3720cddfcc68cb1",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/developer",
+      "seconds": 0.7219873790163547,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 7778,
+        "prompt_tokens_details": {
+          "cached_tokens": 7583
+        },
+        "total_tokens": 7791
+      }
     },
     {
       "at": 1794300676.6983845,
@@ -74974,6 +76575,29 @@
       }
     },
     {
+      "at": 1794377082.7501054,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.5009213150187861,
+      "first_content_seconds": 1.5009213150187861,
+      "first_delivered_seconds": 1.5009280680096708,
+      "id": "9d78a745ac154cba9ba5eec5506d2f33",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 1.5201466750004329,
+      "usage": {
+        "completion_tokens": 21,
+        "prompt_tokens": 4126,
+        "prompt_tokens_details": {
+          "cached_tokens": 3232
+        },
+        "total_tokens": 4147
+      }
+    },
+    {
       "at": 1794368591.891305,
       "complete": true,
       "context_policy": {
@@ -75414,6 +77038,29 @@
       }
     },
     {
+      "at": 1794376997.551667,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.0378504210093524,
+      "first_content_seconds": 1.0378504210093524,
+      "first_delivered_seconds": 1.0378564819984604,
+      "id": "9e234b34f02c4361b6850f79c26491b6",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 1.0559180850104894,
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 7126,
+        "prompt_tokens_details": {
+          "cached_tokens": 6939
+        },
+        "total_tokens": 7158
+      }
+    },
+    {
       "at": 1794295144.3607044,
       "complete": true,
       "first_any_seconds": 0.47934377899218816,
@@ -75662,6 +77309,29 @@
           "cached_tokens": 17863
         },
         "total_tokens": 19159
+      }
+    },
+    {
+      "at": 1794377033.202203,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.544182968995301,
+      "first_content_seconds": 2.544182968995301,
+      "first_delivered_seconds": 2.5441890099900775,
+      "id": "9e9a2500551c4b37a7ee1663dd36f7ca",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 2.773327706992859,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 1785,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1810
       }
     },
     {
@@ -76950,6 +78620,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 31615
+      }
+    },
+    {
+      "at": 1794376932.696003,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.632581061014207,
+      "first_content_seconds": 4.632581061014207,
+      "first_delivered_seconds": 4.63258452701848,
+      "id": "a10ea4a6d70b4481876a1088eb1f42a0",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 4.649785782006802,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 7541,
+        "prompt_tokens_details": {
+          "cached_tokens": 4183
+        },
+        "total_tokens": 7564
       }
     },
     {
@@ -78331,6 +80024,29 @@
       }
     },
     {
+      "at": 1794377081.0319295,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.3640904900094029,
+      "first_content_seconds": 1.3640904900094029,
+      "first_delivered_seconds": 1.3640943770005833,
+      "id": "a41318311d6d42a8aea69b86d12951fe",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 1.3811698959907517,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 3236,
+        "prompt_tokens_details": {
+          "cached_tokens": 2326
+        },
+        "total_tokens": 3249
+      }
+    },
+    {
       "at": 1794296093.1978803,
       "complete": true,
       "first_any_seconds": 3.5349978860031115,
@@ -79031,6 +80747,29 @@
           "cached_tokens": 6942
         },
         "total_tokens": 8244
+      }
+    },
+    {
+      "at": 1794377270.1700528,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.5213214939867612,
+      "first_content_seconds": 0.5213214939867612,
+      "first_delivered_seconds": 0.5213248799846042,
+      "id": "a600ae5267b74d2eb48d00c75ebd6a32",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.5522617469832767,
+      "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 2726,
+        "prompt_tokens_details": {
+          "cached_tokens": 2700
+        },
+        "total_tokens": 2753
       }
     },
     {
@@ -81650,6 +83389,29 @@
           "cached_tokens": 10382
         },
         "total_tokens": 10612
+      }
+    },
+    {
+      "at": 1794377088.2948647,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7967405700183008,
+      "first_content_seconds": 0.7967405700183008,
+      "first_delivered_seconds": 0.7967441570071969,
+      "id": "aaf1d9e6213d4f63b66423dc6b687b02",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 0.8142045389977284,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 5409,
+        "prompt_tokens_details": {
+          "cached_tokens": 5280
+        },
+        "total_tokens": 5432
       }
     },
     {
@@ -84382,6 +86144,29 @@
       }
     },
     {
+      "at": 1794377115.740494,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.443426946992986,
+      "first_content_seconds": 1.443426946992986,
+      "first_delivered_seconds": 1.4434304739988875,
+      "id": "b0215be835674d558820beb1f3d67ae8",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 1.4617957369773649,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 9303,
+        "prompt_tokens_details": {
+          "cached_tokens": 8429
+        },
+        "total_tokens": 9316
+      }
+    },
+    {
       "at": 1794370376.6696913,
       "complete": true,
       "context_policy": {
@@ -85342,6 +87127,52 @@
       }
     },
     {
+      "at": 1794376981.3356562,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6645455289981328,
+      "first_content_seconds": 0.6645455289981328,
+      "first_delivered_seconds": 0.664550618006615,
+      "id": "b1c488d678ae41dfadc369fd1dab1f65",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.6822863680135924,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 5040,
+        "prompt_tokens_details": {
+          "cached_tokens": 4994
+        },
+        "total_tokens": 5063
+      }
+    },
+    {
+      "at": 1794376938.2631516,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.1034604349988513,
+      "first_content_seconds": 1.1034604349988513,
+      "first_delivered_seconds": 1.103466977016069,
+      "id": "b1cc96fd586741e095f76041867d2ebb",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 3.2916565760097,
+      "usage": {
+        "completion_tokens": 145,
+        "prompt_tokens": 7965,
+        "prompt_tokens_details": {
+          "cached_tokens": 7651
+        },
+        "total_tokens": 8110
+      }
+    },
+    {
       "at": 1794316781.5674853,
       "complete": true,
       "first_any_seconds": 1.0767845879890956,
@@ -85380,6 +87211,29 @@
           "cached_tokens": 4313
         },
         "total_tokens": 7740
+      }
+    },
+    {
+      "at": 1794377283.5748212,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6882228949980345,
+      "first_content_seconds": 0.6882228949980345,
+      "first_delivered_seconds": 0.688229096995201,
+      "id": "b1eb5043174e45f88a070a40a8a40aec",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.7171350859862287,
+      "usage": {
+        "completion_tokens": 30,
+        "prompt_tokens": 7035,
+        "prompt_tokens_details": {
+          "cached_tokens": 6910
+        },
+        "total_tokens": 7065
       }
     },
     {
@@ -85580,6 +87434,29 @@
           "cached_tokens": 2521
         },
         "total_tokens": 3481
+      }
+    },
+    {
+      "at": 1794376990.1063097,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8142154490051325,
+      "first_content_seconds": 0.8142154490051325,
+      "first_delivered_seconds": 0.8142242160101887,
+      "id": "b282d21bcaf9425a9a5009f71f104c65",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.83209925799747,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 6680,
+        "prompt_tokens_details": {
+          "cached_tokens": 6627
+        },
+        "total_tokens": 6709
       }
     },
     {
@@ -85877,6 +87754,29 @@
           "cached_tokens": 10936
         },
         "total_tokens": 11947
+      }
+    },
+    {
+      "at": 1794376991.8244724,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8217426289920695,
+      "first_content_seconds": 0.8217426289920695,
+      "first_delivered_seconds": 0.8217495619901456,
+      "id": "b34c1742aca84ab39e465d4f174732e3",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.839653056988027,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 6780,
+        "prompt_tokens_details": {
+          "cached_tokens": 6725
+        },
+        "total_tokens": 6809
       }
     },
     {
@@ -88459,6 +90359,29 @@
       "usage": null
     },
     {
+      "at": 1794377091.0436137,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8599776629998814,
+      "first_content_seconds": 0.8599776629998814,
+      "first_delivered_seconds": 0.859985127026448,
+      "id": "b91d20f1ca2f4d2e9f01195458c0cece",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 0.8775243179989047,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 5725,
+        "prompt_tokens_details": {
+          "cached_tokens": 5642
+        },
+        "total_tokens": 5754
+      }
+    },
+    {
       "at": 1794345293.434509,
       "complete": true,
       "first_any_seconds": 2.197448445018381,
@@ -89113,6 +91036,29 @@
       }
     },
     {
+      "at": 1794377120.464317,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.2301430630031973,
+      "first_content_seconds": 2.2301430630031973,
+      "first_delivered_seconds": 2.230148943985114,
+      "id": "ba99b6c8afbe4fa28b57ac52bef56a75",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 2.2491554919979535,
+      "usage": {
+        "completion_tokens": 95,
+        "prompt_tokens": 9633,
+        "prompt_tokens_details": {
+          "cached_tokens": 9489
+        },
+        "total_tokens": 9728
+      }
+    },
+    {
       "at": 1794375625.001059,
       "complete": true,
       "context_policy": {
@@ -89463,6 +91409,29 @@
           "cached_tokens": 31851
         },
         "total_tokens": 31982
+      }
+    },
+    {
+      "at": 1794377072.4226553,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8972266750060953,
+      "first_content_seconds": 0.8972266750060953,
+      "first_delivered_seconds": 0.8972326960065402,
+      "id": "bba449d3f7e74a95ba5991866c5eeb55",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/developer",
+      "seconds": 0.9156620299909264,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 7587,
+        "prompt_tokens_details": {
+          "cached_tokens": 7179
+        },
+        "total_tokens": 7600
       }
     },
     {
@@ -90278,6 +92247,29 @@
           "cached_tokens": 11594
         },
         "total_tokens": 12170
+      }
+    },
+    {
+      "at": 1794377325.7074263,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.4204044929938391,
+      "first_content_seconds": 0.4204044929938391,
+      "first_delivered_seconds": 0.4204094019951299,
+      "id": "bd2693f135f3404890d5825c07ac06f2",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.44977825199021026,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 10425,
+        "prompt_tokens_details": {
+          "cached_tokens": 10396
+        },
+        "total_tokens": 10440
       }
     },
     {
@@ -91136,6 +93128,29 @@
           "cached_tokens": 6553
         },
         "total_tokens": 6634
+      }
+    },
+    {
+      "at": 1794376986.4909208,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.9906437610043213,
+      "first_content_seconds": 0.9906437610043213,
+      "first_delivered_seconds": 0.9906502130033914,
+      "id": "becaf14d34d74532a441641e7c080996",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 1.008333384001162,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 6483,
+        "prompt_tokens_details": {
+          "cached_tokens": 6250
+        },
+        "total_tokens": 6512
       }
     },
     {
@@ -92738,6 +94753,52 @@
           "cached_tokens": 12968
         },
         "total_tokens": 13754
+      }
+    },
+    {
+      "at": 1794376975.2892003,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.50343759500538,
+      "first_content_seconds": 1.50343759500538,
+      "first_delivered_seconds": 1.5034444979974069,
+      "id": "c28a47d10de044e8942da8177f4289fe",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 1.520744249020936,
+      "usage": {
+        "completion_tokens": 21,
+        "prompt_tokens": 4083,
+        "prompt_tokens_details": {
+          "cached_tokens": 3202
+        },
+        "total_tokens": 4104
+      }
+    },
+    {
+      "at": 1794377093.7572372,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.9254992520145606,
+      "first_content_seconds": 0.9254992520145606,
+      "first_delivered_seconds": 0.925504701997852,
+      "id": "c2920267c0454eb1935ba2c99072f85f",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 0.9428555880149361,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 6173,
+        "prompt_tokens_details": {
+          "cached_tokens": 5954
+        },
+        "total_tokens": 6196
       }
     },
     {
@@ -96696,6 +98757,29 @@
       }
     },
     {
+      "at": 1794377084.3046465,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8469828359957319,
+      "first_content_seconds": 0.8469828359957319,
+      "first_delivered_seconds": 0.8469893980072811,
+      "id": "ca05f09344564d238c89e73e0e365e42",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 0.8645324660174083,
+      "usage": {
+        "completion_tokens": 20,
+        "prompt_tokens": 4353,
+        "prompt_tokens_details": {
+          "cached_tokens": 4122
+        },
+        "total_tokens": 4373
+      }
+    },
+    {
       "at": 1794373244.3839126,
       "complete": true,
       "context_policy": {
@@ -99797,6 +101881,29 @@
       }
     },
     {
+      "at": 1794377091.9515405,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8999991969903931,
+      "first_content_seconds": 0.8999991969903931,
+      "first_delivered_seconds": 0.9000062400009483,
+      "id": "cfa361afdb7d49ed9491cc117d96368a",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/reviewer",
+      "seconds": 0.9184795059845783,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 5841,
+        "prompt_tokens_details": {
+          "cached_tokens": 5721
+        },
+        "total_tokens": 5870
+      }
+    },
+    {
       "at": 1794332715.6808188,
       "complete": true,
       "first_any_seconds": 1.4443736470129807,
@@ -100541,6 +102648,29 @@
           "cached_tokens": 2535
         },
         "total_tokens": 3443
+      }
+    },
+    {
+      "at": 1794376976.843923,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8823663400253281,
+      "first_content_seconds": 0.8823663400253281,
+      "first_delivered_seconds": 0.8823708090058062,
+      "id": "d16d4b787a814f3aa9bc76904292b713",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.9003661770257168,
+      "usage": {
+        "completion_tokens": 20,
+        "prompt_tokens": 4340,
+        "prompt_tokens_details": {
+          "cached_tokens": 4079
+        },
+        "total_tokens": 4360
       }
     },
     {
@@ -102453,6 +104583,29 @@
       }
     },
     {
+      "at": 1794377296.0586042,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 5.879329037008574,
+      "first_content_seconds": 5.879329037008574,
+      "first_delivered_seconds": 5.879332643991802,
+      "id": "d52eb975a6d74f1fbfb8fa158d36de44",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 5.908325496013276,
+      "usage": {
+        "completion_tokens": 389,
+        "prompt_tokens": 8399,
+        "prompt_tokens_details": {
+          "cached_tokens": 8370
+        },
+        "total_tokens": 8788
+      }
+    },
+    {
       "at": 1794321258.1887255,
       "complete": true,
       "first_any_seconds": 1.5217512369854376,
@@ -102515,6 +104668,24 @@
         },
         "total_tokens": 12001
       }
+    },
+    {
+      "at": 1794377259.0136757,
+      "complete": false,
+      "context_policy": {
+        "applied": false
+      },
+      "error": "HTTP Error 500: Internal Server Error",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "d53cfdca05aa464b89a786fd0163f850",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 8.623743431002367,
+      "upstream_status": 500,
+      "usage": null
     },
     {
       "at": 1794331161.7726848,
@@ -103364,6 +105535,29 @@
       }
     },
     {
+      "at": 1794376982.052584,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.0655481870053336,
+      "first_content_seconds": 1.0655481870053336,
+      "first_delivered_seconds": 1.0655556110141333,
+      "id": "d6d40754fef946d8ae627cd4c1faaf51",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 1.0835553070064634,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 5350,
+        "prompt_tokens_details": {
+          "cached_tokens": 5036
+        },
+        "total_tokens": 5379
+      }
+    },
+    {
       "at": 1794363178.1656804,
       "complete": true,
       "context_policy": {
@@ -103545,6 +105739,29 @@
           "cached_tokens": 11474
         },
         "total_tokens": 11512
+      }
+    },
+    {
+      "at": 1794376978.6423419,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.9198134840116836,
+      "first_content_seconds": 0.9198134840116836,
+      "first_delivered_seconds": 0.9198178320075385,
+      "id": "d78c7ae85de748d987b68d211ef44db0",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.9375077759905253,
+      "usage": {
+        "completion_tokens": 24,
+        "prompt_tokens": 4744,
+        "prompt_tokens_details": {
+          "cached_tokens": 4520
+        },
+        "total_tokens": 4768
       }
     },
     {
@@ -105132,6 +107349,29 @@
       }
     },
     {
+      "at": 1794376988.3881154,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8008115029952023,
+      "first_content_seconds": 0.8008115029952023,
+      "first_delivered_seconds": 0.800817613984691,
+      "id": "dad74f9ed4c14ee690e0400f37499558",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.8182891269971151,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 6583,
+        "prompt_tokens_details": {
+          "cached_tokens": 6528
+        },
+        "total_tokens": 6612
+      }
+    },
+    {
       "at": 1794304760.1579604,
       "complete": true,
       "first_any_seconds": 42.635115775003214,
@@ -106171,6 +108411,29 @@
       }
     },
     {
+      "at": 1794377066.2069883,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.311403858009726,
+      "first_content_seconds": 2.311403858009726,
+      "first_delivered_seconds": 2.311407394998241,
+      "id": "dca4f8f8d9bd40e6bce00c3bd616371f",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/developer",
+      "seconds": 3.1788255450082943,
+      "usage": {
+        "completion_tokens": 69,
+        "prompt_tokens": 6821,
+        "prompt_tokens_details": {
+          "cached_tokens": 5402
+        },
+        "total_tokens": 6890
+      }
+    },
+    {
       "at": 1794376200.6079319,
       "complete": true,
       "context_policy": {
@@ -107147,6 +109410,29 @@
           "cached_tokens": 26022
         },
         "total_tokens": 27303
+      }
+    },
+    {
+      "at": 1794376973.5874057,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.3458282799983863,
+      "first_content_seconds": 1.3458282799983863,
+      "first_delivered_seconds": 1.345833789993776,
+      "id": "de969ba732694ea09c97a32f4748d2c3",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 1.3640186039847322,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 3206,
+        "prompt_tokens_details": {
+          "cached_tokens": 2309
+        },
+        "total_tokens": 3219
       }
     },
     {
@@ -111088,6 +113374,29 @@
       }
     },
     {
+      "at": 1794377278.7465918,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.851326567993965,
+      "first_content_seconds": 0.851326567993965,
+      "first_delivered_seconds": 0.8513304549851455,
+      "id": "e620f7ce3f684fc18e906283ad2d151e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.8784854330006056,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 6163,
+        "prompt_tokens_details": {
+          "cached_tokens": 5496
+        },
+        "total_tokens": 6188
+      }
+    },
+    {
       "at": 1794321143.7530987,
       "complete": true,
       "first_any_seconds": 0.773878408013843,
@@ -112386,6 +114695,52 @@
       }
     },
     {
+      "at": 1794376987.5296657,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8098829650261905,
+      "first_content_seconds": 0.8098829650261905,
+      "first_delivered_seconds": 0.8098928740073461,
+      "id": "e8ec8e1258c2476e868bddad02fb7271",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/reviewer",
+      "seconds": 0.8276091470033862,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 6532,
+        "prompt_tokens_details": {
+          "cached_tokens": 6479
+        },
+        "total_tokens": 6561
+      }
+    },
+    {
+      "at": 1794377063.0305252,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.179765192006016,
+      "first_content_seconds": 2.179765192006016,
+      "first_delivered_seconds": 2.1797699510061648,
+      "id": "e8efbeb6ef64447e8841139657c05d71",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/developer",
+      "seconds": 3.0867560019833036,
+      "usage": {
+        "completion_tokens": 72,
+        "prompt_tokens": 5406,
+        "prompt_tokens_details": {
+          "cached_tokens": 4110
+        },
+        "total_tokens": 5478
+      }
+    },
+    {
       "at": 1794368160.5524101,
       "complete": true,
       "context_policy": {
@@ -112424,6 +114779,29 @@
           "cached_tokens": 26258
         },
         "total_tokens": 27463
+      }
+    },
+    {
+      "at": 1794377040.759305,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7867197629821021,
+      "first_content_seconds": 0.7867197629821021,
+      "first_delivered_seconds": 0.7867230789852329,
+      "id": "e906f22625b342f790764682064a2ff4",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 1.5868073849997018,
+      "usage": {
+        "completion_tokens": 64,
+        "prompt_tokens": 4200,
+        "prompt_tokens_details": {
+          "cached_tokens": 4012
+        },
+        "total_tokens": 4264
       }
     },
     {
@@ -114122,6 +116500,29 @@
       }
     },
     {
+      "at": 1794377270.7271705,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.4749060879985336,
+      "first_content_seconds": 0.4749060879985336,
+      "first_delivered_seconds": 0.47491119799087755,
+      "id": "ec620036da164d0788669a834d8529cc",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.5046164300001692,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 2774,
+        "prompt_tokens_details": {
+          "cached_tokens": 2752
+        },
+        "total_tokens": 2799
+      }
+    },
+    {
       "at": 1794356756.1391366,
       "complete": false,
       "context_policy": {
@@ -115137,6 +117538,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 6774
+      }
+    },
+    {
+      "at": 1794377327.8495843,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.5674976480077021,
+      "first_content_seconds": 0.5674976480077021,
+      "first_delivered_seconds": 0.5675033490115311,
+      "id": "ee2fe1c05f6a452dac1c6b787fd21967",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.5969980949885212,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 10644,
+        "prompt_tokens_details": {
+          "cached_tokens": 10439
+        },
+        "total_tokens": 10659
       }
     },
     {
@@ -116998,6 +119422,34 @@
       }
     },
     {
+      "at": 1794376681.2069452,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46828,
+        "applied": true,
+        "before_bytes": 582716,
+        "dropped_messages": 379,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.833905061997939,
+      "first_content_seconds": 10.833905061997939,
+      "first_delivered_seconds": 10.833908658998553,
+      "id": "f237cfac7f0d4ccb87d2d7dd4f500af6",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.861772567994194,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15729,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15783
+      }
+    },
+    {
       "at": 1794300622.1717637,
       "complete": true,
       "first_any_seconds": 15.88482959799876,
@@ -118025,6 +120477,29 @@
       }
     },
     {
+      "at": 1794377281.3862863,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6616616240062285,
+      "first_content_seconds": 0.6616616240062285,
+      "first_delivered_seconds": 0.6616650200157892,
+      "id": "f48e72607656450f9f1925a92328bf81",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 0.6904761609912384,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 6628,
+        "prompt_tokens_details": {
+          "cached_tokens": 6513
+        },
+        "total_tokens": 6656
+      }
+    },
+    {
       "at": 1794311448.3915572,
       "complete": true,
       "first_any_seconds": 1.139188216009643,
@@ -118888,6 +121363,29 @@
       }
     },
     {
+      "at": 1794377119.0745668,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.723272964998614,
+      "first_content_seconds": 0.723272964998614,
+      "first_delivered_seconds": 0.7232762209896464,
+      "id": "f66633af73324dd38293f6e6f558fda4",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-cpp-frozen-h5.4/lead",
+      "seconds": 0.7416270769899711,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 9493,
+        "prompt_tokens_details": {
+          "cached_tokens": 9299
+        },
+        "total_tokens": 9506
+      }
+    },
+    {
       "at": 1794309749.0886729,
       "complete": true,
       "first_any_seconds": 1.0507156329986174,
@@ -119438,6 +121936,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 11668
+      }
+    },
+    {
+      "at": 1794377273.1399877,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.332369687006576,
+      "first_content_seconds": 2.332369687006576,
+      "first_delivered_seconds": 2.3323751369898673,
+      "id": "f73d75eac3c244f88394a59705129bb2",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.4/developer",
+      "seconds": 2.3610095659969375,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 3390,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3404
       }
     },
     {
@@ -120602,6 +123123,29 @@
           "cached_tokens": 9600
         },
         "total_tokens": 9868
+      }
+    },
+    {
+      "at": 1794376929.9006689,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.9151761969842482,
+      "first_content_seconds": 0.9151761969842482,
+      "first_delivered_seconds": 0.9151818079990335,
+      "id": "f939896273fe47aeaf717cf032693c4c",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 0.9336589809972793,
+      "usage": {
+        "completion_tokens": 21,
+        "prompt_tokens": 4002,
+        "prompt_tokens_details": {
+          "cached_tokens": 3741
+        },
+        "total_tokens": 4023
       }
     },
     {
@@ -122040,6 +124584,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 5846
+      }
+    },
+    {
+      "at": 1794376941.7003284,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8848784820002038,
+      "first_content_seconds": 0.8848784820002038,
+      "first_delivered_seconds": 0.8848845640022773,
+      "id": "fcb24bcf4ffe4a02bd8bf72bb5eb5468",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "qualification-python-frozen-h5.4/lead",
+      "seconds": 0.9030663020093925,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 8179,
+        "prompt_tokens_details": {
+          "cached_tokens": 7961
+        },
+        "total_tokens": 8202
       }
     },
     {

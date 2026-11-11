@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-11T05:58:06.319934+00:00",
+  "as_of_utc": "2026-11-11T06:09:58.982694+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 119,
+  "completed_case_records": 122,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -51,6 +51,14 @@
       "passed": true,
       "phase": "qualification",
       "revision": "h5.3"
+    },
+    {
+      "count": 1,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": true,
+      "phase": "qualification",
+      "revision": "h5.4"
     },
     {
       "count": 3,
@@ -139,6 +147,14 @@
       "passed": true,
       "phase": "qualification",
       "revision": "h5.3"
+    },
+    {
+      "count": 1,
+      "interrupted": false,
+      "language": "python",
+      "passed": true,
+      "phase": "qualification",
+      "revision": "h5.4"
     },
     {
       "count": 7,
@@ -230,6 +246,14 @@
     },
     {
       "count": 1,
+      "interrupted": true,
+      "language": "cpp",
+      "passed": false,
+      "phase": "solo",
+      "revision": "h5.3"
+    },
+    {
+      "count": 1,
       "interrupted": false,
       "language": "python",
       "passed": false,
@@ -309,16 +333,16 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 5864,
+  "finished_transport_streams": 5977,
   "in_progress_not_scored": [
-    "solo-nemo-cpp-buffer-s42-h5.3"
+    "solo-nemo-cpp-buffer-s42-h5.4"
   ],
   "status": {
-    "at": 1794375155.8480046,
-    "current": "solo-nemo-cpp-buffer-s42-h5.3",
-    "dispatch_plan": "targeted-protocol-and-sanitizer-reruns-then-full-campaign",
-    "harness_revision": "h5.3",
+    "at": 1794377257.753899,
+    "current": "solo-nemo-cpp-buffer-s42-h5.4",
+    "dispatch_plan": "compaction-repair-rerun-then-full-campaign",
+    "harness_revision": "h5.4",
     "phase": "solo",
-    "pid": 3569851
+    "pid": 3668881
   }
 }

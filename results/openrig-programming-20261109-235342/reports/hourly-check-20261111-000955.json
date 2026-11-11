@@ -1,0 +1,158 @@
+{
+  "at": "2026-11-11T00:09:55.403826-06:00",
+  "automation": "check-openrig-campaign-hourly",
+  "harness_revision": "h5.4",
+  "finding": "Repeated tool-free Pi compaction summaries exceeded pinned-context budget; genuine transport defect alongside preserved Nemotron implementation errors.",
+  "repair": "Budget transcript inside recognized compaction envelope; preserve system/summary format and ordinary pinned/tool rules; retain full input.",
+  "regression_checks": 130,
+  "repository_checks": 15,
+  "live_exact_replay": {
+    "passed": true,
+    "status": 200,
+    "seconds": 27.5502071090159,
+    "original_request": "transport/39efb925a9c04bef82c97eb05c7f8151",
+    "replay_transport": "transport/3e5f445e2f4f4963b6157d089c4e0e2e",
+    "metrics": {
+      "id": "3e5f445e2f4f4963b6157d089c4e0e2e",
+      "prefix": "diagnostic-h54-summary",
+      "at": 1794376821.1954885,
+      "first_any_seconds": 12.538055190001614,
+      "first_content_seconds": 12.538055190001614,
+      "first_delivered_seconds": 12.538063606014475,
+      "usage": {
+        "prompt_tokens": 15028,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens": 1014,
+        "total_tokens": 16042
+      },
+      "normalized_tool_call": false,
+      "context_policy": {
+        "applied": true,
+        "kind": "compaction-summary",
+        "maximum_bytes": 48000,
+        "before_bytes": 237866,
+        "after_bytes": 48000,
+        "transcript_bytes": 226838,
+        "retained_transcript_bytes": 44534,
+        "preserved_summary_instructions": true,
+        "policy": "Original transcript archived; retain initial quarter and recent three quarters of bounded transcript only; no tools or assignment instructions rewritten."
+      },
+      "model": "campaign-nemo-s42-c32768",
+      "complete": true,
+      "seconds": 27.53146781300893
+    },
+    "note": "Exact archived failed summarizer request; isolated private runtime; no tools available or executed. Excluded from coding scores."
+  },
+  "historical_h53_completed_scores": {
+    "python": {
+      "passed": 2,
+      "finished": 3
+    },
+    "cpp": {
+      "passed": 3,
+      "finished": 3
+    }
+  },
+  "current_h54_completed_solo_scores": {
+    "python": {
+      "passed": 0,
+      "finished": 0
+    },
+    "cpp": {
+      "passed": 0,
+      "finished": 0
+    }
+  },
+  "current_status": {
+    "phase": "solo",
+    "at": 1794377257.753899,
+    "pid": 3668881,
+    "harness_revision": "h5.4",
+    "dispatch_plan": "compaction-repair-rerun-then-full-campaign",
+    "current": "solo-nemo-cpp-buffer-s42-h5.4"
+  },
+  "heartbeat_age": 0.2559833526611328,
+  "current_reference_handoffs": [
+    {
+      "id": "qualification-python-frozen-h5.4",
+      "task": "py-csv",
+      "language": "python",
+      "models": {
+        "lead": "next",
+        "developer": "next",
+        "reviewer": "next"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 3,
+      "phase": "qualification",
+      "harness_revision": "h5.4",
+      "started": 1794376902.8325636,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-6c5eaba1ec33",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794376947.5225039,
+          "incoming_feedback": "None. \nADVISORY PLAN:\nReview TASK.txt and existing solution.py: current implementation matches spec (header check, CSV parsing, whitespace trimming, regex validation for amount, Decimal accumulation, sorted keys, 2-decimal formatting, ValueError on malformed input).\nVerify solution.py passes all public test cases in PUBLIC_CASES.json by running run_tests (driver-based validation).\nAdd comprehensive unit tests in test_submission.py covering edge cases: empty file after header, blank lines, leading/trailing whitespace, embedded commas/newlines in quoted fields, Unicode categories, leading + sign, integer amounts, and all error conditions (wrong header, extra columns, empty category, invalid amount formats including NaN, exponent, too many digits).\nUpdate README.md with usage instructions and test coverage summary.\nRun run_tests to confirm all public and new tests pass before closing the planning stage."
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "fc8026c4e4c462f814f0ff6f5c5a415909b43a5183cfd184da8e38e04359a9ab",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-python-frozen-h5.4/seats/developer/project",
+      "review_required": true,
+      "review_approved": true,
+      "finished": 1794377030.0413692,
+      "seconds": 127.20880556106567,
+      "resource_limited": false
+    },
+    {
+      "id": "qualification-cpp-frozen-h5.4",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "lead": "next",
+        "developer": "next",
+        "reviewer": "next"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 3,
+      "phase": "qualification",
+      "harness_revision": "h5.4",
+      "started": 1794377030.504084,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-66c48ff1a46e",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794377054.988165,
+          "incoming_feedback": "None. \nADVISORY PLAN:\n1. Analyze current solution.hpp: existing implementation already satisfies all requirements (RAII, deep copy, noexcept move, bounds-checked access via std::vector::at, resize with prefix preservation and zero-initialization, self-assignment/move safety).\n2. Verify solution.hpp compiles with Clang22 C++20 and passes the provided test_submission.py test.\n3. Compile and run the PUBLIC_DRIVER.cpp with each public-inputs case to confirm correctness against expected outputs.\n4. Add comprehensive unit tests in a new test file using unittest.TestCase/test_* methods covering edge cases (empty buffer, resize growth/shrink, moved-from reuse, self-copy, self-move).\n5. Update README.md with usage examples and API documentation for Buffer class.\n6. Run final verification with run_tests to ensure all public checks pass.\n7. Mark task as complete and await closure confirmation."
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "9e8a2783669e63f42df07dfea3bbf7ff085e31eeab8006319a995637d3cc90b6",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-cpp-frozen-h5.4/seats/developer/project",
+      "review_required": true,
+      "review_approved": true,
+      "finished": 1794377123.3906846,
+      "seconds": 92.88660049438477,
+      "resource_limited": false
+    }
+  ],
+  "production_unchanged": true,
+  "old_result_count": 120,
+  "changed_old_results": [],
+  "source_commit": "e40132c",
+  "backups_continue": true,
+  "checkpoint": "/home/cow/Documents/Codex/Backups/openrig-programming/20261109-235342/before-h54-compaction-fix-1794376697391729252",
+  "note": "h5.3 interrupted C++ case excluded; historical and current revisions never pooled. Nemotron Python has a preserved amount-limit validation failure. No model answer was patched."
+}

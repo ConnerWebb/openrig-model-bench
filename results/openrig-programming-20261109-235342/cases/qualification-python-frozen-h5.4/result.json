@@ -1,0 +1,36 @@
+{
+  "id": "qualification-python-frozen-h5.4",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 3,
+  "phase": "qualification",
+  "harness_revision": "h5.4",
+  "started": 1794376902.8325636,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-6c5eaba1ec33",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794376947.5225039,
+      "incoming_feedback": "None. \nADVISORY PLAN:\nReview TASK.txt and existing solution.py: current implementation matches spec (header check, CSV parsing, whitespace trimming, regex validation for amount, Decimal accumulation, sorted keys, 2-decimal formatting, ValueError on malformed input).\nVerify solution.py passes all public test cases in PUBLIC_CASES.json by running run_tests (driver-based validation).\nAdd comprehensive unit tests in test_submission.py covering edge cases: empty file after header, blank lines, leading/trailing whitespace, embedded commas/newlines in quoted fields, Unicode categories, leading + sign, integer amounts, and all error conditions (wrong header, extra columns, empty category, invalid amount formats including NaN, exponent, too many digits).\nUpdate README.md with usage instructions and test coverage summary.\nRun run_tests to confirm all public and new tests pass before closing the planning stage."
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "fc8026c4e4c462f814f0ff6f5c5a415909b43a5183cfd184da8e38e04359a9ab",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-python-frozen-h5.4/seats/developer/project",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794377030.0413692,
+  "seconds": 127.20880556106567,
+  "resource_limited": false
+}

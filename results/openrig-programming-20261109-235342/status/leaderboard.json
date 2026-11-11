@@ -7,8 +7,8 @@
     "agents": 3,
     "passed": 1,
     "attempted": 1,
-    "case_wall_seconds_sum": 130.9079248905182,
-    "accepted_tasks_per_hour": 27.50024494705555,
+    "case_wall_seconds_sum": 127.20880556106567,
+    "accepted_tasks_per_hour": 28.299927698573082,
     "failures": []
   },
   {
@@ -19,98 +19,8 @@
     "agents": 3,
     "passed": 1,
     "attempted": 1,
-    "case_wall_seconds_sum": 90.46424746513367,
-    "accepted_tasks_per_hour": 39.79472665582606,
+    "case_wall_seconds_sum": 92.88660049438477,
+    "accepted_tasks_per_hour": 38.75693567036754,
     "failures": []
-  },
-  {
-    "phase": "solo",
-    "language": "cpp",
-    "task": "cpp-buffer",
-    "models": "{'developer': 'coder30'}",
-    "agents": 1,
-    "passed": 1,
-    "attempted": 1,
-    "case_wall_seconds_sum": 68.776371717453,
-    "accepted_tasks_per_hour": 52.343557970599484,
-    "failures": []
-  },
-  {
-    "phase": "solo",
-    "language": "cpp",
-    "task": "cpp-buffer",
-    "models": "{'developer': 'q35'}",
-    "agents": 1,
-    "passed": 1,
-    "attempted": 1,
-    "case_wall_seconds_sum": 76.59666562080383,
-    "accepted_tasks_per_hour": 46.99943490780664,
-    "failures": []
-  },
-  {
-    "phase": "solo",
-    "language": "python",
-    "task": "py-csv",
-    "models": "{'developer': 'next'}",
-    "agents": 1,
-    "passed": 1,
-    "attempted": 1,
-    "case_wall_seconds_sum": 87.1992256641388,
-    "accepted_tasks_per_hour": 41.28477027841913,
-    "failures": []
-  },
-  {
-    "phase": "solo",
-    "language": "cpp",
-    "task": "cpp-buffer",
-    "models": "{'developer': 'next'}",
-    "agents": 1,
-    "passed": 1,
-    "attempted": 1,
-    "case_wall_seconds_sum": 104.61558842658997,
-    "accepted_tasks_per_hour": 34.411697665173136,
-    "failures": []
-  },
-  {
-    "phase": "repair-probe",
-    "language": "cpp",
-    "task": "cpp-buffer",
-    "models": "{'developer': 'q35'}",
-    "agents": 1,
-    "passed": 1,
-    "attempted": 1,
-    "case_wall_seconds_sum": 125.13196325302124,
-    "accepted_tasks_per_hour": 28.76962773069158,
-    "failures": []
-  },
-  {
-    "phase": "solo",
-    "language": "python",
-    "task": "py-csv",
-    "models": "{'developer': 'coder30'}",
-    "agents": 1,
-    "passed": 1,
-    "attempted": 1,
-    "case_wall_seconds_sum": 77.89594435691833,
-    "accepted_tasks_per_hour": 46.21549978911406,
-    "failures": []
-  },
-  {
-    "phase": "solo",
-    "language": "python",
-    "task": "py-csv",
-    "models": "{'developer': 'nemo'}",
-    "agents": 1,
-    "passed": 0,
-    "attempted": 1,
-    "case_wall_seconds_sum": 1379.7244186401367,
-    "accepted_tasks_per_hour": 0.0,
-    "failures": [
-      {
-        "id": "solo-nemo-py-csv-s42-h5.3",
-        "reason": "Repair budget exhausted",
-        "resource_limited": false
-      }
-    ]
   }
 ]
