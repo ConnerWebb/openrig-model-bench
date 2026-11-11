@@ -11,7 +11,7 @@ def suite_path(version):
  for name,digest in manifest['files'].items():
   if hashlib.sha256((path/name).read_bytes()).hexdigest()!=digest:raise ValueError('Frozen suite changed: '+name+'; create a new version instead')
  return path
-def definitions(version='h5.2'):
+def definitions(version='h5.3'):
  path=suite_path(version);return load(path/'catalog.py','benchmark_catalog').TASKS,load(path/'cases.py','benchmark_cases')
 @contextlib.contextmanager
 def grader(version,output,require_runtime=True):
@@ -33,7 +33,7 @@ def grader(version,output,require_runtime=True):
     if previous is None:sys.modules.pop(name,None)
     else:sys.modules[name]=previous
 def main(argv=None):
- p=argparse.ArgumentParser(description=__doc__);p.add_argument('--suite',default='h5.2');sub=p.add_subparsers(dest='command',required=True);sub.add_parser('list');sub.add_parser('verify')
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('--suite',default='h5.3');sub=p.add_subparsers(dest='command',required=True);sub.add_parser('list');sub.add_parser('verify')
  m=sub.add_parser('materialize');m.add_argument('task');m.add_argument('destination',type=pathlib.Path)
  c=sub.add_parser('check');c.add_argument('task');c.add_argument('project',type=pathlib.Path);c.add_argument('--output',type=pathlib.Path,required=True);c.add_argument('--private',action='store_true');c.add_argument('--seed',type=int);c.add_argument('--mode',choices=['normal','asan','tsan'],default='normal')
  a=p.parse_args(argv);tasks,cases=definitions(a.suite)

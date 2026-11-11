@@ -18,11 +18,13 @@ This repository backs up the experiment. It is **not the live campaign directory
 
 Results are preliminary while the campaign runs. Python and C++ scores stay separate. Tool compatibility, harness qualification, interrupted attempts, and different harness versions are not pooled into coding rankings. A workflow failure does not automatically establish that the implementation itself is wrong. Read each result's attempts, limits and evidence.
 
-The current isolated campaign uses revision **h5.2**, addressing confirmed harness issues. [Investigation, changes and limitations](docs/H5_INVESTIGATION.md). Historical h4 results and the h4 grader remain preserved; use `--suite h4` to reproduce those checks. Fresh h5.2 results are reported separately.
+The current isolated campaign uses revision **h5.3**, addressing confirmed harness issues. [Investigation, changes and limitations](docs/H5_INVESTIGATION.md). Historical h4 results and the h4 grader remain preserved; use `--suite h4` to reproduce those checks. Fresh h5.3 results are reported separately.
+
+The latest tool-batch and sanitizer-feedback repair is documented in [h5.3 repair notes](docs/H53_TOOL_AND_SANITIZER_REPAIR.md).
 
 ## Reusable tests
 
-The pinned `h5.2` suite contains six core task families per language plus three integration/partial-work fixtures. [Contracts, reference solutions, drivers and seeded oracles](benchmarks/suites/h5.2) are copied byte-for-byte from the deployed harness. [SHA-256 manifest](benchmarks/suites/h5.2/MANIFEST.json) detects accidental edits.
+The pinned `h5.3` suite contains six core task families per language plus three integration/partial-work fixtures. [Contracts, reference solutions, drivers and seeded oracles](benchmarks/suites/h5.3) are copied byte-for-byte from the deployed harness. [SHA-256 manifest](benchmarks/suites/h5.3/MANIFEST.json) detects accidental edits.
 
 ```sh
 python3 -m benchmarks.run verify

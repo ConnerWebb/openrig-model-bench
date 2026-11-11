@@ -1,0 +1,15 @@
+{
+  "suite": "h5.3",
+  "origin_harness": "frozen-harness-v5.3",
+  "files": {
+    "catalog.py": "6ac6c2431e92c249cb44134a0b53eb4779dc9638a0d24d657792a4510dda8ae7",
+    "cases.py": "7aa70d2cd32258c233cd07644ed1faa91a20f1e8b594950d8c076cb680e3d106",
+    "common.py": "8c3d2091952a277c0bce470e2e134d84c2d7f6201f0768865b156ffb2d9576d7"
+  },
+  "case_seeds": {
+    "public": 71,
+    "private_formula": "trial seed + 1000 + variant"
+  },
+  "immutable": true,
+  "note": "Task contracts and seeded oracles byte-identical to h4/h5.2; guarded runtime has atomic native batches, sequential tool execution and per-mode public/private verification feedback"
+}
