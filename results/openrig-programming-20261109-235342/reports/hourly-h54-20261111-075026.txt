@@ -1,0 +1,15 @@
+OpenRig hourly check — 2026-11-11T07:50:26.939643-06:00
+Active immutable harness: h5.4; 32 source hashes verified.
+Completed solo Python: 17/20; C++: 12/17. Unequal task coverage.
+Current: solo-next-cpp-binary-s43-h5.4. Pending trials are excluded.
+
+Expression, HTTP, refactor seed43, archive seed43 all passed. Expression needed three attempts after closure/deadline feedback.
+Seed43 binary-parser pending; saved public results show code emits extra newline after OGC1 and expects shifted layout, contrary to unchanged format contract. Own tests pass, fixed normal checks fail; ASan explicitly skipped after earlier mode failure. Not scored while pending.
+Two broken pipes correspond to bounded agent cancellation. No repeated compaction-budget errors, resource guard, monitor failure or cgroup OOM found.
+Leave healthy bounded trial running; no repair or private-service restart justified. Existing Qwen tool and ASan feedback repairs remain deployed.
+
+Last-hour memory telemetry: {"system_used": 81069912064, "swap_used": 8559366144, "mem_info_vram_used": 526159872, "mem_info_gtt_used": 55698681856, "pswpin_pages_delta": 932, "pswpout_pages_delta": 0, "samples": 3557, "minimum_available": 53229215744}
+Errors since previous check: {'[Errno 32] Broken pipe': 2}; resource/monitor errors: 0.
+Production unchanged: True; 120 historical result hashes verified.
+No harness source, production settings, task contract, model answer or acceptance checks changed.
+Results continue to be backed up independently to GitHub. The finite campaign is unfinished; hourly checks remain active.
