@@ -1,9 +1,17 @@
 {
-  "as_of_utc": "2026-11-11T05:07:35.129469+00:00",
+  "as_of_utc": "2026-11-11T05:12:43.916053+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 116,
+  "completed_case_records": 118,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
+    {
+      "count": 1,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": true,
+      "phase": "repair-probe",
+      "revision": "h5.3"
+    },
     {
       "count": 5,
       "interrupted": false,
@@ -173,6 +181,14 @@
       "revision": "h5.2"
     },
     {
+      "count": 2,
+      "interrupted": false,
+      "language": "python",
+      "passed": true,
+      "phase": "solo",
+      "revision": "h5.3"
+    },
+    {
       "count": 8,
       "interrupted": false,
       "language": "cpp",
@@ -270,14 +286,6 @@
     },
     {
       "count": 1,
-      "interrupted": false,
-      "language": "python",
-      "passed": true,
-      "phase": "solo",
-      "revision": "h5.3"
-    },
-    {
-      "count": 1,
       "interrupted": true,
       "language": "python",
       "passed": false,
@@ -293,16 +301,16 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 5353,
+  "finished_transport_streams": 5400,
   "in_progress_not_scored": [
-    "probe-q35-buffer-asan-feedback-h5.3"
+    "solo-nemo-py-csv-s42-h5.3"
   ],
   "status": {
-    "at": 1794373569.6534004,
-    "current": "probe-q35-buffer-asan-feedback-h5.3",
+    "at": 1794373775.7938457,
+    "current": "solo-nemo-py-csv-s42-h5.3",
     "dispatch_plan": "targeted-protocol-and-sanitizer-reruns-then-full-campaign",
     "harness_revision": "h5.3",
-    "phase": "repair-probe",
+    "phase": "solo",
     "pid": 3569851
   }
 }

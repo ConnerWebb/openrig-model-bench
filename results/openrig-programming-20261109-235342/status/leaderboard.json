@@ -70,5 +70,29 @@
     "case_wall_seconds_sum": 104.61558842658997,
     "accepted_tasks_per_hour": 34.411697665173136,
     "failures": []
+  },
+  {
+    "phase": "repair-probe",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'q35'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 125.13196325302124,
+    "accepted_tasks_per_hour": 28.76962773069158,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'coder30'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 77.89594435691833,
+    "accepted_tasks_per_hour": 46.21549978911406,
+    "failures": []
   }
 ]
