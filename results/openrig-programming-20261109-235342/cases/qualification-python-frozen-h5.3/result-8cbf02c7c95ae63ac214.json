@@ -1,0 +1,36 @@
+{
+  "id": "qualification-python-frozen-h5.3",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 3,
+  "phase": "qualification",
+  "harness_revision": "h5.3",
+  "started": 1794372879.4145103,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-0c0c6bfb8394",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794372921.7642374,
+      "incoming_feedback": "None. \nADVISORY PLAN:\nRead TASK.txt and confirmed contract: implement `aggregate(path: str)->dict[str,str]` with UTF-8 CSV parsing, header validation, exact decimal accumulation, strict amount format, and sorted keys with 2-decimal formatting.\nInspect existing solution.py: it matches the contract and passes the provided unit test, but I will verify against all public test cases.\nRun the fixed driver against all 13 public cases (case-00.csv through case-12.csv) to confirm correctness.\nAdd comprehensive unit tests covering edge cases: blank lines, whitespace trimming, plus sign, integer-only amounts, and all error conditions (wrong header, extra columns, empty category, invalid amount formats like NaN, exponent, wrong digit counts).\nUpdate README.md with a concise usage example and error behavior notes, then finalize the assignment."
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "fc8026c4e4c462f814f0ff6f5c5a415909b43a5183cfd184da8e38e04359a9ab",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-python-frozen-h5.3/seats/developer/project",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794373010.3224351,
+  "seconds": 130.9079248905182,
+  "resource_limited": false
+}

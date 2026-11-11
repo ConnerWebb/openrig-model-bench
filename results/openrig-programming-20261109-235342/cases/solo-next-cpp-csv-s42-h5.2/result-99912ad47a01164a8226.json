@@ -1,0 +1,29 @@
+{
+  "id": "solo-next-cpp-csv-s42-h5.2",
+  "task": "cpp-csv",
+  "language": "cpp",
+  "models": {
+    "developer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.2",
+  "started": 1794372679.0819843,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-d9058f12a5dc",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794372680.6830134,
+      "incoming_feedback": "None. "
+    }
+  ],
+  "attempts": 1,
+  "interrupted": true,
+  "failure": "Experimental runner interrupted; preserve and retry, exclude from model scores",
+  "finished": 1794372783.7782507,
+  "seconds": 104.69626641273499
+}

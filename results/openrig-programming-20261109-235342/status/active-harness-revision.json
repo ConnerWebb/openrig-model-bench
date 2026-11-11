@@ -1,8 +1,8 @@
 {
-  "revision": "h5.2",
-  "path": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/frozen-harness-v5.2",
-  "at": 1794357836.5770307,
-  "previous": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/frozen-harness-v5.1",
+  "revision": "h5.3",
+  "path": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/frozen-harness-v5.3",
+  "at": 1794372825.6965454,
+  "previous": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/frozen-harness-v5.2",
   "production_changes": false,
-  "reason": "h5.1 plus bounded UTF-8 broker replies, complete oversized result preservation; prevents log floods being mistaken for broken tools. Fresh scores; no old result substitution."
+  "reason": "Strict atomic multi-call Qwen normalization; sequential guarded tools; per-mode public and private normal/ASan/TSan checks and complete feedback. Fresh affected reruns and controls; historical results retained."
 }

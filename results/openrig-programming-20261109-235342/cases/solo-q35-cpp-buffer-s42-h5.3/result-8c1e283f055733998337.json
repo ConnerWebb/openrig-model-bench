@@ -1,0 +1,34 @@
+{
+  "id": "solo-q35-cpp-buffer-s42-h5.3",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "q35"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.3",
+  "started": 1794373300.259406,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-028be1f609ae",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794373301.1593509,
+      "incoming_feedback": "None. "
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "9cb5e12e40ef0f600044d9c71e8966e59956bbb53971abb25d3c60f8b60b815f",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-q35-cpp-buffer-s42-h5.3/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794373376.8560717,
+  "seconds": 76.59666562080383,
+  "resource_limited": false
+}
