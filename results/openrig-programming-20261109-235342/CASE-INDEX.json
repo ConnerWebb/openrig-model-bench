@@ -935,6 +935,21 @@
     "stored_result_sha256": "3e14070bd3bc3c01a26157ec3cf4fb7a0199745b198ec95089ad7c981ce35435"
   },
   {
+    "artifact": "artifacts/cases/solo-glm-cpp-buffer-s42-h5.4-100d942bef2999d98408.tar.gz",
+    "complete": true,
+    "directory": "solo-glm-cpp-buffer-s42-h5.4",
+    "id": "solo-glm-cpp-buffer-s42-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "glm"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "100d942bef2999d98408e621aae14aa339616dcd9d01f05359cca9fc700fb532",
+    "stored_result_sha256": "100d942bef2999d98408e621aae14aa339616dcd9d01f05359cca9fc700fb532"
+  },
+  {
     "artifact": "artifacts/cases/solo-glm-py-csv-s42-h4-373f51a2179bb8487ba9.tar.gz",
     "complete": false,
     "directory": "solo-glm-py-csv-s42-h4",
@@ -963,6 +978,21 @@
     "revision": "h5.2",
     "source_result_sha256": "04293f8c7ee15fe94cd2477ffbad9b3506252653ea21d756da2c8ed0d9f17950",
     "stored_result_sha256": "04293f8c7ee15fe94cd2477ffbad9b3506252653ea21d756da2c8ed0d9f17950"
+  },
+  {
+    "artifact": "artifacts/cases/solo-glm-py-csv-s42-h5.4-9d6d9060feaf1fd10369.tar.gz",
+    "complete": false,
+    "directory": "solo-glm-py-csv-s42-h5.4",
+    "id": "solo-glm-py-csv-s42-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "glm"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "9d6d9060feaf1fd103692d39191e011f787737c8959cfea6c1d7530a04460bdb",
+    "stored_result_sha256": "9d6d9060feaf1fd103692d39191e011f787737c8959cfea6c1d7530a04460bdb"
   },
   {
     "artifact": "artifacts/cases/solo-gpt120-cpp-buffer-s42-h4-a2062b03a6cebc37eecd.tar.gz",
@@ -1833,6 +1863,21 @@
     "revision": "h5.2",
     "source_result_sha256": "aa8477433b95de97f15a1d5eb2d2b2ff16674bd72fbd834a98075b3d20d3fa12",
     "stored_result_sha256": "aa8477433b95de97f15a1d5eb2d2b2ff16674bd72fbd834a98075b3d20d3fa12"
+  },
+  {
+    "artifact": "artifacts/cases/solo-q27q4-py-csv-s42-h5.4-034fd424ed1481ecd4bb.tar.gz",
+    "complete": true,
+    "directory": "solo-q27q4-py-csv-s42-h5.4",
+    "id": "solo-q27q4-py-csv-s42-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "q27q4"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "034fd424ed1481ecd4bbd76b50938da10bc5d463049648e89f6ac4c588b49a51",
+    "stored_result_sha256": "034fd424ed1481ecd4bbd76b50938da10bc5d463049648e89f6ac4c588b49a51"
   },
   {
     "artifact": "artifacts/cases/solo-q27q8-cpp-buffer-s42-h4-771710e10b4cbf8f9ff8.tar.gz",
