@@ -1,0 +1,20 @@
+[Unit]
+Description=Independent resource guard for isolated OpenRig campaign
+After=openrig-programming-20261109-235342.service
+ConditionPathExists=!/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/COMPLETED.json
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -u /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/repairs/monitor-m1/observer.py
+Environment=PYTHONDONTWRITEBYTECODE=1
+Restart=on-failure
+RestartSec=10
+MemoryMax=128M
+MemorySwapMax=0
+TasksMax=32
+Nice=10
+CPUQuota=10%
+NoNewPrivileges=yes
+
+[Install]
+WantedBy=default.target

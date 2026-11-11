@@ -1,0 +1,12 @@
+test_enumeration_failure_retains_sensor_error (__main__.FaultIsolation.test_enumeration_failure_retains_sensor_error) ... ok
+test_guard_signals_only_verified_campaign_command (__main__.FaultIsolation.test_guard_signals_only_verified_campaign_command) ... ok
+test_low_memory_guard_survives_optional_sensor_failure (__main__.FaultIsolation.test_low_memory_guard_survives_optional_sensor_failure) ... ok
+test_oom_is_detected_without_requiring_low_system_memory (__main__.FaultIsolation.test_oom_is_detected_without_requiring_low_system_memory) ... ok
+test_real_sensor_error_does_not_suppress_essential_sample (__main__.FaultIsolation.test_real_sensor_error_does_not_suppress_essential_sample) ... ok
+test_recovery_resets_low_memory_window (__main__.FaultIsolation.test_recovery_resets_low_memory_window) ... ok
+test_sensor_eloop_and_other_bad_sensor_are_individually_retained (__main__.FaultIsolation.test_sensor_eloop_and_other_bad_sensor_are_individually_retained) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.011s
+
+OK

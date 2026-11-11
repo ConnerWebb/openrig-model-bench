@@ -1,0 +1,29 @@
+Resource observer monitor-m1: optional thermal sensor fault isolation
+
+This observer adds a separate user service and separate append-only telemetry.
+It does not edit or restart the frozen h5.4 coding harness, Ollama, OpenRig,
+production services or defaults. All h5.4 source hashes remain unchanged.
+The original monitor and its error events remain intact as evidence.
+
+Service: openrig-programming-resource-observer-m1.service
+Source/config: observer.py, resource-observer.service, SOURCE-MANIFEST.json
+Checks: checks.json and checks.txt (7 passing checks; injected signal only)
+Full pre-install checkpoint: checkpoint.json (includes native SQLite archive).
+
+To remove only this observer, after review:
+  systemctl --user disable --now openrig-programming-resource-observer-m1.service
+Retain this entire directory, its telemetry, service link and checkpoint.
+No production restore or main campaign/inference restart is needed.
+Existing harness rollback remains repairs/h5.4/LOCAL-RESTORE.txt.
+
+Telemetry BEFORE this installation has sampling gaps caused by optional Wi-Fi
+sensor ELOOP errors. Never impute missing samples or claim exact peaks from them.
+Coding acceptance is unchanged. Performance reruns must be separately labelled;
+never replace completed scores with reruns or silently pool observer cohorts.
+
+If essential memory monitoring fails five times consecutively, system memory
+remains below16GiB for over20s, or private inference reports an OOM kill, the
+observer records RESOURCE-INTERRUPTION.json and signals only the exact owned
+private h5.4 main process through its existing preservation/interruption path.
+This produces an interruption, not a failed coding result. No model settings
+or production services are changed by the observer.
