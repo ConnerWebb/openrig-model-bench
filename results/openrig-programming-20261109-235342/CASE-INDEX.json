@@ -1,5 +1,20 @@
 [
   {
+    "artifact": "artifacts/cases/drift-control-next-h5.4-7c7deb374e73d8809f57.tar.gz",
+    "complete": true,
+    "directory": "drift-control-next-h5.4",
+    "id": "drift-control-next-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "drift-control",
+    "revision": "h5.4",
+    "source_result_sha256": "7c7deb374e73d8809f57a6d5426c8262d2f48181d6d336e2fadec1b1052e3a34",
+    "stored_result_sha256": "7c7deb374e73d8809f57a6d5426c8262d2f48181d6d336e2fadec1b1052e3a34"
+  },
+  {
     "artifact": "artifacts/cases/probe-q35-buffer-asan-feedback-h5.3-810900d1319d2d4bec78.tar.gz",
     "complete": true,
     "directory": "probe-q35-buffer-asan-feedback-h5.3",
@@ -1720,6 +1735,21 @@
     "stored_result_sha256": "dde3736c6edd34737ea07e951a264e29217b9a3364530d9bf46b1e3bb6e03ca6"
   },
   {
+    "artifact": "artifacts/cases/solo-next-cpp-csv-s44-h5.4-788e93a2414b98c4e64a.tar.gz",
+    "complete": true,
+    "directory": "solo-next-cpp-csv-s44-h5.4",
+    "id": "solo-next-cpp-csv-s44-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "788e93a2414b98c4e64abee00507e3437fa7c227bbcc8e0d53c8cfc887ccdeee",
+    "stored_result_sha256": "788e93a2414b98c4e64abee00507e3437fa7c227bbcc8e0d53c8cfc887ccdeee"
+  },
+  {
     "artifact": "artifacts/cases/solo-next-cpp-lru-s42-5b28c780d736bb40dfbf.tar.gz",
     "complete": true,
     "directory": "solo-next-cpp-lru-s42",
@@ -1945,6 +1975,21 @@
     "stored_result_sha256": "a7b8d30a6afde556b0530367ac020615524ea7c99a93ed97641feb6e5d4a3147"
   },
   {
+    "artifact": "artifacts/cases/solo-next-cpp-stats-s44-h5.4-132447bf4427c334427d.tar.gz",
+    "complete": true,
+    "directory": "solo-next-cpp-stats-s44-h5.4",
+    "id": "solo-next-cpp-stats-s44-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "132447bf4427c334427dd6b7a8250dfe763124b2a8f1971e34dfacc9a2d7934f",
+    "stored_result_sha256": "132447bf4427c334427dd6b7a8250dfe763124b2a8f1971e34dfacc9a2d7934f"
+  },
+  {
     "artifact": "artifacts/cases/solo-next-py-archive-s42-2a584d80ca21b1f2f67a.tar.gz",
     "complete": false,
     "directory": "solo-next-py-archive-s42",
@@ -2108,6 +2153,21 @@
     "revision": "h5.4",
     "source_result_sha256": "ae2e485bc8992c82355b1dc7c03b9ba0af47e9f1ef911d3994099032eb91bd05",
     "stored_result_sha256": "ae2e485bc8992c82355b1dc7c03b9ba0af47e9f1ef911d3994099032eb91bd05"
+  },
+  {
+    "artifact": "artifacts/cases/solo-next-py-csv-s44-h5.4-c43307b53116b6f8cadf.tar.gz",
+    "complete": true,
+    "directory": "solo-next-py-csv-s44-h5.4",
+    "id": "solo-next-py-csv-s44-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "c43307b53116b6f8cadfcbb3fe0311fba495f5694815caf42155ad5827c1349a",
+    "stored_result_sha256": "c43307b53116b6f8cadfcbb3fe0311fba495f5694815caf42155ad5827c1349a"
   },
   {
     "artifact": "artifacts/cases/solo-next-py-expression-s42-7585e453a095deacb3b4.tar.gz",

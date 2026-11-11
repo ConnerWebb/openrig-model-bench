@@ -1,0 +1,34 @@
+{
+  "id": "drift-control-next-h5.4",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "developer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "drift-control",
+  "harness_revision": "h5.4",
+  "started": 1794418463.679627,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-f6a892a1bd7f",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794418464.566612,
+      "incoming_feedback": "None. "
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "c2e0bda89436ea727c5a20d4f4a4bcbbe56a3f787430ec387b47f65d002d6715",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/drift-control-next-h5.4/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794418552.9758942,
+  "seconds": 89.29626727104187,
+  "resource_limited": false
+}
