@@ -382,5 +382,47 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-stats",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 352.6845064163208,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "solo-next-cpp-stats-s42-h5.4",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-refactor",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 217.12013626098633,
+    "accepted_tasks_per_hour": 16.58068229872824,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-archive",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 172.0906949043274,
+    "accepted_tasks_per_hour": 20.91920194756256,
+    "failures": []
   }
 ]

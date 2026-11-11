@@ -1580,6 +1580,21 @@
     "stored_result_sha256": "2636f9fea2c2a19188578857880807c63a58186cad8882f214803ce41f378ae9"
   },
   {
+    "artifact": "artifacts/cases/solo-next-cpp-stats-s42-h5.4-78551d0573c9077f97a9.tar.gz",
+    "complete": false,
+    "directory": "solo-next-cpp-stats-s42-h5.4",
+    "id": "solo-next-cpp-stats-s42-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "78551d0573c9077f97a95e89b057f968f9cd6643a34aa69110690bae2a67108e",
+    "stored_result_sha256": "78551d0573c9077f97a95e89b057f968f9cd6643a34aa69110690bae2a67108e"
+  },
+  {
     "artifact": "artifacts/cases/solo-next-py-archive-s42-2a584d80ca21b1f2f67a.tar.gz",
     "complete": false,
     "directory": "solo-next-py-archive-s42",
@@ -1608,6 +1623,21 @@
     "revision": "h4",
     "source_result_sha256": "607af2be2ce19421b4fd0999c089f5de45ac7e3a9dde1ca3ccb8bc84c7b65363",
     "stored_result_sha256": "607af2be2ce19421b4fd0999c089f5de45ac7e3a9dde1ca3ccb8bc84c7b65363"
+  },
+  {
+    "artifact": "artifacts/cases/solo-next-py-archive-s42-h5.4-09c43b1ef443cb8f041e.tar.gz",
+    "complete": true,
+    "directory": "solo-next-py-archive-s42-h5.4",
+    "id": "solo-next-py-archive-s42-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "09c43b1ef443cb8f041e3ba5a6de71171fa9533140470357f28609dabb79492e",
+    "stored_result_sha256": "09c43b1ef443cb8f041e3ba5a6de71171fa9533140470357f28609dabb79492e"
   },
   {
     "artifact": "artifacts/cases/solo-next-py-csv-s42-3f90b71eadaf465f86ef.tar.gz",
@@ -1833,6 +1863,21 @@
     "revision": "h4",
     "source_result_sha256": "6fe8ffa80c44107ec62142b37613a1789799ad3492bd29642572831b56e5f065",
     "stored_result_sha256": "6fe8ffa80c44107ec62142b37613a1789799ad3492bd29642572831b56e5f065"
+  },
+  {
+    "artifact": "artifacts/cases/solo-next-py-refactor-s42-h5.4-1f27a2c3ac5c03358aeb.tar.gz",
+    "complete": true,
+    "directory": "solo-next-py-refactor-s42-h5.4",
+    "id": "solo-next-py-refactor-s42-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "1f27a2c3ac5c03358aebb4a06c7e8fe927c847847565fdd7e92e57fd6569b192",
+    "stored_result_sha256": "1f27a2c3ac5c03358aebb4a06c7e8fe927c847847565fdd7e92e57fd6569b192"
   },
   {
     "artifact": "artifacts/cases/solo-next-py-refactor-s43-56fbfb5268d517beefde.tar.gz",
