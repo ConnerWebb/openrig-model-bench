@@ -1025,6 +1025,21 @@
     "stored_result_sha256": "02ce6aae2a6d56a703630eaaca372aab553cb627ff7bab9596f3bea6a30e9b54"
   },
   {
+    "artifact": "artifacts/cases/solo-gpt120-cpp-buffer-s42-h5.4-61c2fdbc863ee7fd9fe9.tar.gz",
+    "complete": true,
+    "directory": "solo-gpt120-cpp-buffer-s42-h5.4",
+    "id": "solo-gpt120-cpp-buffer-s42-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "gpt120"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "61c2fdbc863ee7fd9fe9ce8a125d90ed3c0921b9760c1b4c405f284d904385de",
+    "stored_result_sha256": "61c2fdbc863ee7fd9fe9ce8a125d90ed3c0921b9760c1b4c405f284d904385de"
+  },
+  {
     "artifact": "artifacts/cases/solo-gpt120-py-csv-s42-h4-910e0aae0df5d4513ae5.tar.gz",
     "complete": true,
     "directory": "solo-gpt120-py-csv-s42-h4",
@@ -1053,6 +1068,21 @@
     "revision": "h5.2",
     "source_result_sha256": "86a7683f08491e4297c5202050e2dbf101ac9000421d8f79f9afe8d0d048b5c8",
     "stored_result_sha256": "86a7683f08491e4297c5202050e2dbf101ac9000421d8f79f9afe8d0d048b5c8"
+  },
+  {
+    "artifact": "artifacts/cases/solo-gpt120-py-csv-s42-h5.4-74ace55488a60764aa56.tar.gz",
+    "complete": true,
+    "directory": "solo-gpt120-py-csv-s42-h5.4",
+    "id": "solo-gpt120-py-csv-s42-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "gpt120"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "74ace55488a60764aa5649451cf0aee34e7ac9098d1b7d26a234249d2ca29d79",
+    "stored_result_sha256": "74ace55488a60764aa5649451cf0aee34e7ac9098d1b7d26a234249d2ca29d79"
   },
   {
     "artifact": "artifacts/cases/solo-gpt20-cpp-buffer-s42-h4-270237843a6b542f3e07.tar.gz",
