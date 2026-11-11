@@ -66,10 +66,16 @@
     "models": "{'developer': 'next'}",
     "agents": 1,
     "passed": 2,
-    "attempted": 2,
-    "case_wall_seconds_sum": 165.7429130077362,
-    "accepted_tasks_per_hour": 43.44077142932762,
-    "failures": []
+    "attempted": 3,
+    "case_wall_seconds_sum": 599.2218582630157,
+    "accepted_tasks_per_hour": 12.015583044435125,
+    "failures": [
+      {
+        "id": "solo-next-cpp-buffer-s44-h5.4",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   },
   {
     "phase": "solo",
@@ -372,12 +378,17 @@
     "models": "{'developer': 'next'}",
     "agents": 1,
     "passed": 1,
-    "attempted": 2,
-    "case_wall_seconds_sum": 1387.1310234069824,
-    "accepted_tasks_per_hour": 2.5952847562719135,
+    "attempted": 3,
+    "case_wall_seconds_sum": 2080.6426560878754,
+    "accepted_tasks_per_hour": 1.7302346414299192,
     "failures": [
       {
         "id": "solo-next-cpp-queue-s43-h5.4",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      },
+      {
+        "id": "solo-next-cpp-queue-s44-h5.4",
         "reason": "Repair budget exhausted",
         "resource_limited": false
       }

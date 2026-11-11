@@ -1,0 +1,42 @@
+{
+  "id": "solo-next-cpp-buffer-s44-h5.4",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "next"
+  },
+  "seed": 44,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.4",
+  "started": 1794417281.864429,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-8cac7e169132",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794417282.7864807,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794417432.9735043,
+      "incoming_feedback": "STAGE_FAILED: Six unchanged repetitions of the same command and output; no progress"
+    },
+    {
+      "attempt": 3,
+      "started": 1794417493.1432023,
+      "incoming_feedback": "STAGE_FAILED: Six unchanged repetitions of the same command and output; no progress"
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "STAGE_FAILED: Six unchanged repetitions of the same command and output; no progress",
+  "finished": 1794417715.3433743,
+  "seconds": 433.47894525527954,
+  "resource_limited": false
+}
