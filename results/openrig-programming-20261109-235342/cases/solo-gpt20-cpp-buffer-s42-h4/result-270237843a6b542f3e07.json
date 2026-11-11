@@ -1,0 +1,28 @@
+{
+  "id": "solo-gpt20-cpp-buffer-s42-h4",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "gpt20"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h4",
+  "started": 1794355023.6255593,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-abbc0d1da77e",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794355024.5007207
+    }
+  ],
+  "attempts": 1,
+  "interrupted": true,
+  "failure": "Experimental runner interrupted; preserve and retry, exclude from model scores",
+  "finished": 1794355299.39724,
+  "seconds": 275.7716805934906
+}
