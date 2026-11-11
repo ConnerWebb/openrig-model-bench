@@ -1,7 +1,7 @@
 OPENRIG PYTHON / C++ CAMPAIGN — LIVE CHECKPOINT
 
 /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342
-State: {'phase': 'solo', 'at': 1794429543.3533137, 'pid': 637884, 'harness_revision': 'h5.5', 'dispatch_plan': 'heading-summary-and-thermal-repair-then-full-campaign', 'current': 'solo-next-cpp-buffer-s42-h5.5'}
+State: {'phase': 'solo', 'at': 1794431507.4611218, 'pid': 637884, 'harness_revision': 'h5.5', 'dispatch_plan': 'heading-summary-and-thermal-repair-then-full-campaign', 'current': 'solo-coder30-cpp-csv-s42-h5.5'}
 Active harness revision: h5.5
 Historical pre-repair results remain intact in runs/ and progress/; they are not mixed into this revision's rankings. All previous completed cells are rerun, including earlier passes.
 
@@ -10,7 +10,8 @@ Independent task acceptance is the success criterion. Python and C++ are scored 
 PHASE solo
 python: 1/1 accepted
   {'developer': 'next'}, 1 agents: 1/1; sum job seconds 79.1; accepted/hour 45.489
-cpp: 0/0 accepted
+cpp: 1/1 accepted
+  {'developer': 'next'}, 1 agents: 1/1; sum job seconds 1963.7; accepted/hour 1.833
 PHASE teams
 python: 0/0 accepted
 cpp: 0/0 accepted

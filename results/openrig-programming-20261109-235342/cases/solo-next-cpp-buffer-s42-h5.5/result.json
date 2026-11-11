@@ -1,0 +1,44 @@
+{
+  "id": "solo-next-cpp-buffer-s42-h5.5",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794429543.3565445,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-77418b0afd4d",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794429544.272674,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794430446.6689095,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    },
+    {
+      "attempt": 3,
+      "started": 1794431349.1358984,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    }
+  ],
+  "attempts": 3,
+  "completed_hash": "7e0e58931aad7bf402988dccbe9f08463bcffbda162007c94605bd79eb48fb3e",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-cpp-buffer-s42-h5.5/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794431507.083826,
+  "seconds": 1963.7272815704346,
+  "resource_limited": false
+}
