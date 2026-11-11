@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-11T07:19:33.265390+00:00",
+  "as_of_utc": "2026-11-11T07:34:37.978850+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 126,
+  "completed_case_records": 127,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -181,6 +181,14 @@
       "revision": "h5.3"
     },
     {
+      "count": 2,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": false,
+      "phase": "solo",
+      "revision": "h5.4"
+    },
+    {
       "count": 8,
       "interrupted": false,
       "language": "python",
@@ -259,14 +267,6 @@
       "passed": false,
       "phase": "solo",
       "revision": "h5.3"
-    },
-    {
-      "count": 1,
-      "interrupted": false,
-      "language": "cpp",
-      "passed": false,
-      "phase": "solo",
-      "revision": "h5.4"
     },
     {
       "count": 1,
@@ -357,13 +357,13 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 6132,
+  "finished_transport_streams": 6212,
   "in_progress_not_scored": [
-    "solo-coder30-cpp-buffer-s42-h5.4"
+    "solo-nemo-py-csv-s42-h5.4"
   ],
   "status": {
-    "at": 1794379523.4310443,
-    "current": "solo-coder30-cpp-buffer-s42-h5.4",
+    "at": 1794382004.2869196,
+    "current": "solo-nemo-py-csv-s42-h5.4",
     "dispatch_plan": "compaction-repair-rerun-then-full-campaign",
     "harness_revision": "h5.4",
     "phase": "solo",
