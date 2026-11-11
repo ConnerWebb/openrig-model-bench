@@ -1,0 +1,42 @@
+{
+  "id": "solo-nemo-py-csv-s42-h5.3",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "developer": "nemo"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.3",
+  "started": 1794373775.7964826,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-9e895e02e34a",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794373776.6969154,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794373786.8439896,
+      "incoming_feedback": "STAGE_FAILED: Three consecutive invalid tool operations"
+    },
+    {
+      "attempt": 3,
+      "started": 1794374481.1476622,
+      "incoming_feedback": "STAGE_FAILED: 120 tool-call limit reached"
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "STAGE_FAILED: 120 tool-call limit reached",
+  "finished": 1794375155.5209012,
+  "seconds": 1379.7244186401367,
+  "resource_limited": false
+}
