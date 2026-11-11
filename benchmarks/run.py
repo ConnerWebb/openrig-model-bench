@@ -11,14 +11,14 @@ def suite_path(version):
  for name,digest in manifest['files'].items():
   if hashlib.sha256((path/name).read_bytes()).hexdigest()!=digest:raise ValueError('Frozen suite changed: '+name+'; create a new version instead')
  return path
-def definitions(version='h4'):
+def definitions(version='h5'):
  path=suite_path(version);return load(path/'catalog.py','benchmark_catalog').TASKS,load(path/'cases.py','benchmark_cases')
 @contextlib.contextmanager
-def grader(version,output):
+def grader(version,output,require_runtime=True):
  path=suite_path(version)
- if sys.platform!='linux':raise RuntimeError('Grading requires Linux, bubblewrap, systemd user services and the documented toolchains')
+ if require_runtime and sys.platform!='linux':raise RuntimeError('Grading requires Linux, bubblewrap, systemd user services and the documented toolchains')
  for executable in ['bwrap','systemd-run']:
-  if not shutil.which(executable):raise RuntimeError('Missing prerequisite: '+executable)
+  if require_runtime and not shutil.which(executable):raise RuntimeError('Missing prerequisite: '+executable)
  with tempfile.TemporaryDirectory(prefix='openrig-grader-') as tmp:
   d=pathlib.Path(tmp)
   for name in ['common.py','catalog.py','cases.py']:shutil.copyfile(path/name,d/name)
@@ -33,7 +33,7 @@ def grader(version,output):
     if previous is None:sys.modules.pop(name,None)
     else:sys.modules[name]=previous
 def main(argv=None):
- p=argparse.ArgumentParser(description=__doc__);p.add_argument('--suite',default='h4');sub=p.add_subparsers(dest='command',required=True);sub.add_parser('list');sub.add_parser('verify')
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('--suite',default='h5');sub=p.add_subparsers(dest='command',required=True);sub.add_parser('list');sub.add_parser('verify')
  m=sub.add_parser('materialize');m.add_argument('task');m.add_argument('destination',type=pathlib.Path)
  c=sub.add_parser('check');c.add_argument('task');c.add_argument('project',type=pathlib.Path);c.add_argument('--output',type=pathlib.Path,required=True);c.add_argument('--private',action='store_true');c.add_argument('--seed',type=int);c.add_argument('--mode',choices=['normal','asan','tsan'],default='normal')
  a=p.parse_args(argv);tasks,cases=definitions(a.suite)
@@ -48,7 +48,10 @@ def main(argv=None):
   d.mkdir(parents=True,exist_ok=True)
   for name,content in task.get('starter',{}).items():f=d/name;f.parent.mkdir(parents=True,exist_ok=True);f.write_text(content)
   (d/'TASK.txt').write_text(task['contract']+'\nPython standard library only; save unittest test*.py files. C++20; save standalone test*.cpp or a unittest wrapper compiling into a temporary directory. Add README.md. Private grading stays outside this workspace.\n')
-  (d/'PUBLIC_CASES.json').write_text(json.dumps([{'driver_input':x,'expected':y} for x,y in cases.cases(a.task,71,False)],indent=2));print(d);return 0
+  with grader(a.suite,d,require_runtime=False) as g:
+   if hasattr(g,'publish_public'):g.publish_public(task,d)
+   else:(d/'PUBLIC_CASES.json').write_text(json.dumps([{'driver_input':x,'expected':y} for x,y in cases.cases(a.task,71,False)],indent=2))
+  print(d);return 0
  project=a.project.resolve();output=a.output.resolve()
  if not project.is_dir():p.error('Project directory does not exist')
  if output==project or output.is_relative_to(project):p.error('Grader output must be outside the candidate project')
