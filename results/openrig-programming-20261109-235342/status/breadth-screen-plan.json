@@ -1,18 +1,18 @@
 {
-  "harness_revision": "h4",
+  "harness_revision": "h5.1",
   "models": [
+    "next",
     "coder30",
-    "devstral",
-    "q35",
-    "q9",
-    "q27q4",
-    "q27q8",
-    "glm",
     "nemo",
+    "q35",
+    "devstral",
+    "glm",
+    "q27q4",
+    "q9",
+    "q27q8",
     "q122",
     "gpt120",
-    "gpt20",
-    "next"
+    "gpt20"
   ],
   "tasks": [
     "py-csv",

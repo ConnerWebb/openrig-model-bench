@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-11T00:30:38.912079+00:00",
+  "as_of_utc": "2026-11-11T00:45:44.403642+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 77,
+  "completed_case_records": 81,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -19,6 +19,14 @@
       "passed": true,
       "phase": "qualification",
       "revision": "h4"
+    },
+    {
+      "count": 1,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": true,
+      "phase": "qualification",
+      "revision": "h5.1"
     },
     {
       "count": 3,
@@ -85,6 +93,14 @@
       "revision": "h5"
     },
     {
+      "count": 1,
+      "interrupted": false,
+      "language": "python",
+      "passed": true,
+      "phase": "qualification",
+      "revision": "h5.1"
+    },
+    {
       "count": 7,
       "interrupted": false,
       "language": "cpp",
@@ -133,6 +149,14 @@
       "revision": "historical"
     },
     {
+      "count": 1,
+      "interrupted": true,
+      "language": "cpp",
+      "passed": false,
+      "phase": "solo",
+      "revision": "h5.1"
+    },
+    {
       "count": 3,
       "interrupted": false,
       "language": "cpp",
@@ -158,6 +182,14 @@
     },
     {
       "count": 1,
+      "interrupted": false,
+      "language": "python",
+      "passed": true,
+      "phase": "solo",
+      "revision": "h5.1"
+    },
+    {
+      "count": 1,
       "interrupted": true,
       "language": "python",
       "passed": false,
@@ -173,16 +205,16 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 3622,
+  "finished_transport_streams": 3741,
   "in_progress_not_scored": [
-    "qualification-python-frozen-h5.1"
+    "qualification-python-frozen-h5.2"
   ],
   "status": {
-    "at": 1794356931.72038,
-    "current": "qualification-python-frozen-h5.1",
+    "at": 1794357891.0885415,
+    "current": "qualification-python-frozen-h5.2",
     "dispatch_plan": "paired-language-screen-then-full-suite",
-    "harness_revision": "h5.1",
+    "harness_revision": "h5.2",
     "phase": "qualification",
-    "pid": 3205901
+    "pid": 3235388
   }
 }

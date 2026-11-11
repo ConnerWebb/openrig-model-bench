@@ -1,0 +1,29 @@
+{
+  "id": "solo-next-cpp-buffer-s42-h5.1",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.1",
+  "started": 1794357435.2169545,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-859712728fa4",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794357436.0881636,
+      "incoming_feedback": "None. "
+    }
+  ],
+  "attempts": 1,
+  "interrupted": true,
+  "failure": "Experimental runner interrupted; preserve and retry, exclude from model scores",
+  "finished": 1794357755.8507338,
+  "seconds": 320.63377928733826
+}
