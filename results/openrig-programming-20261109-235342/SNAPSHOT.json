@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-11T00:05:33.548710+00:00",
+  "as_of_utc": "2026-11-11T00:20:38.157870+00:00",
   "campaign": "openrig-programming-20261109-235342",
   "completed_case_records": 76,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
@@ -165,14 +165,16 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 3533,
-  "in_progress_not_scored": [],
+  "finished_transport_streams": 3549,
+  "in_progress_not_scored": [
+    "qualification-python-frozen-h5"
+  ],
   "status": {
-    "at": 1794355023.6236055,
-    "current": "solo-gpt20-cpp-buffer-s42-h4",
+    "at": 1794356319.9579027,
+    "current": "qualification-python-frozen-h5",
     "dispatch_plan": "paired-language-screen-then-full-suite",
-    "harness_revision": "h4",
-    "phase": "solo",
-    "pid": 2771366
+    "harness_revision": "h5",
+    "phase": "qualification",
+    "pid": 3188995
   }
 }

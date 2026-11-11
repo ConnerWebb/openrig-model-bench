@@ -1,12 +1,8 @@
 {
-  "revision": "h4",
-  "at": 1794320763.9975972,
-  "path": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/frozen-harness-v4.2",
-  "prior": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/frozen-harness-v3",
-  "comparison_policy": "Prior results remain intact and separate. All scored cells, including old passes, run under h4. No candidate answer is patched by the operator.",
-  "deployed_version": "v4.2",
-  "late_timer_fix": "A delayed deadline cannot invalidate an already verified closed task; additional regression added before any scored h4 cell",
-  "dispatch_revision": "paired-language-screen-then-full-suite",
-  "dispatch_changed_at": 1794336093.3074062,
-  "dispatch_note": "Scheduling only. Unchanged h4 task definitions, prompts, tools, seeds, 32K context, sampling, output limits and acceptance. Original full matrix is retained. Any interrupted test-owned case is preserved and rerun, not counted as a model failure."
+  "revision": "h5",
+  "path": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/frozen-harness-v5",
+  "at": 1794356267.0902648,
+  "previous": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/frozen-harness-v4.2",
+  "production_changes": false,
+  "reason": "Observed tool/interface/repair-budget faults; fresh reference-qualified reruns, unchanged task contracts/oracles and sampling; strict complete-tool wire normalization;48KB rolling model-view history, full archives preserved"
 }
