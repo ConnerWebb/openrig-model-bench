@@ -725,6 +725,19 @@
       }
     },
     {
+      "at": 1794376358.2118664,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "0233f9d9d7e04d329f5dcd7a9713b1d8",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.003853794012684375,
+      "usage": null
+    },
+    {
       "at": 1794352704.5377553,
       "complete": true,
       "first_any_seconds": 1.1733938529796433,
@@ -2035,6 +2048,34 @@
           "cached_tokens": 8365
         },
         "total_tokens": 10596
+      }
+    },
+    {
+      "at": 1794375925.3686075,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46844,
+        "applied": true,
+        "before_bytes": 377803,
+        "dropped_messages": 232,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8117605930019636,
+      "first_content_seconds": 0.8117605930019636,
+      "first_delivered_seconds": 0.8117669349885546,
+      "id": "0593dc66beb2456c8f6c20d689c46e77",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.8411853050056379,
+      "usage": {
+        "completion_tokens": 30,
+        "prompt_tokens": 13407,
+        "prompt_tokens_details": {
+          "cached_tokens": 13314
+        },
+        "total_tokens": 13437
       }
     },
     {
@@ -3680,6 +3721,19 @@
       }
     },
     {
+      "at": 1794376518.3642256,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "08a60bfeff3a4a078dec96372fe9c9fc",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.005637977999867871,
+      "usage": null
+    },
+    {
       "at": 1794331839.9630582,
       "complete": true,
       "first_any_seconds": 6.5503482010099106,
@@ -4276,6 +4330,34 @@
       }
     },
     {
+      "at": 1794375903.4853954,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45349,
+        "applied": true,
+        "before_bytes": 374785,
+        "dropped_messages": 230,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.401479724008823,
+      "first_content_seconds": 8.401479724008823,
+      "first_delivered_seconds": 8.401486415998079,
+      "id": "09ed5162cbed4817ad3ec846e8d013ec",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 8.430758652015356,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 12855,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12889
+      }
+    },
+    {
       "at": 1794358082.1744766,
       "complete": true,
       "context_policy": {
@@ -4366,6 +4448,19 @@
         },
         "total_tokens": 8739
       }
+    },
+    {
+      "at": 1794376312.32726,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "0a3a63df3aff4e92947f16f96da621ef",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004675317992223427,
+      "usage": null
     },
     {
       "at": 1794360287.0923743,
@@ -4895,6 +4990,34 @@
           "cached_tokens": 18252
         },
         "total_tokens": 18813
+      }
+    },
+    {
+      "at": 1794376164.0620828,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46139,
+        "applied": true,
+        "before_bytes": 459892,
+        "dropped_messages": 303,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.232608299993444,
+      "first_content_seconds": 10.232608299993444,
+      "first_delivered_seconds": 10.232612568011973,
+      "id": "0b80f47a90024356a31e661f4a55f2f9",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.262248648010427,
+      "usage": {
+        "completion_tokens": 38,
+        "prompt_tokens": 15290,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15328
       }
     },
     {
@@ -6672,6 +6795,34 @@
       }
     },
     {
+      "at": 1794375945.9819021,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44264,
+        "applied": true,
+        "before_bytes": 391424,
+        "dropped_messages": 242,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 13.537486947985599,
+      "first_content_seconds": 13.537486947985599,
+      "first_delivered_seconds": 13.53749308999977,
+      "id": "0ee6990fcf5a467fa39d8a4c634886c4",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 13.566852488991572,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13212,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13576
+      }
+    },
+    {
       "at": 1794369085.373398,
       "complete": true,
       "context_policy": {
@@ -7933,6 +8084,19 @@
       }
     },
     {
+      "at": 1794376623.3737152,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "12a82a2a822141cc935e9b591e5dba6b",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0038554079947061837,
+      "usage": null
+    },
+    {
       "at": 1794314407.877401,
       "complete": true,
       "first_any_seconds": 2.8085674140020274,
@@ -8218,6 +8382,19 @@
         },
         "total_tokens": 20193
       }
+    },
+    {
+      "at": 1794376656.2325504,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "133d0d31c85341ffab9ca84128ec0a66",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0036105870094615966,
+      "usage": null
     },
     {
       "at": 1794358757.137825,
@@ -9287,6 +9464,34 @@
       }
     },
     {
+      "at": 1794375916.518435,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46525,
+        "applied": true,
+        "before_bytes": 377484,
+        "dropped_messages": 232,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.777931306016399,
+      "first_content_seconds": 8.777931306016399,
+      "first_delivered_seconds": 8.777934843004914,
+      "id": "15345477be2845139bd5913a5c672d39",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 8.810926539998036,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 13281,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13315
+      }
+    },
+    {
       "at": 1794330261.796569,
       "complete": true,
       "first_any_seconds": 5.589603906002594,
@@ -9438,6 +9643,34 @@
           "cached_tokens": 9500
         },
         "total_tokens": 9787
+      }
+    },
+    {
+      "at": 1794376472.8754802,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46010,
+        "applied": true,
+        "before_bytes": 544159,
+        "dropped_messages": 361,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.314880826015724,
+      "first_content_seconds": 10.314880826015724,
+      "first_delivered_seconds": 10.314885855012108,
+      "id": "1563861b0cb24111af5a5bede255da8d",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.345389937021537,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15375,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15429
       }
     },
     {
@@ -9978,6 +10211,34 @@
           "cached_tokens": 17050
         },
         "total_tokens": 17234
+      }
+    },
+    {
+      "at": 1794376013.4112642,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46995,
+        "applied": true,
+        "before_bytes": 411722,
+        "dropped_messages": 257,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 14.177095114981057,
+      "first_content_seconds": 14.177095114981057,
+      "first_delivered_seconds": 14.177101726992987,
+      "id": "1694ed2f488145f3b360723ba140d255",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 14.206677763984771,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 14077,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14441
       }
     },
     {
@@ -10869,6 +11130,34 @@
       }
     },
     {
+      "at": 1794375842.401104,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 331489,
+        "dropped_messages": 201,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.4664056359906681,
+      "first_content_seconds": 0.4664056359906681,
+      "first_delivered_seconds": 0.4664115269843023,
+      "id": "1879ad3a3f5a4006add2fa5bebae44b1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.49620292798499577,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
+      }
+    },
+    {
       "at": 1794352631.9135497,
       "complete": true,
       "first_any_seconds": 6.3136073219939135,
@@ -11407,6 +11696,34 @@
           "cached_tokens": 27353
         },
         "total_tokens": 28878
+      }
+    },
+    {
+      "at": 1794375828.2608192,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 319673,
+        "dropped_messages": 193,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.44512283900985494,
+      "first_content_seconds": 0.44512283900985494,
+      "first_delivered_seconds": 0.4451284390233923,
+      "id": "19b4fcf04a1f4bbc825752f28dfc4fff",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.47504025700618513,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
       }
     },
     {
@@ -12542,6 +12859,34 @@
       }
     },
     {
+      "at": 1794375787.064846,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 288610,
+        "dropped_messages": 171,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.658872751984745,
+      "first_content_seconds": 5.658872751984745,
+      "first_delivered_seconds": 5.658876468980452,
+      "id": "1c7bb05c32a04a5d9a68b928fc1bf194",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.687402651994489,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
+      }
+    },
+    {
       "at": 1794296763.41584,
       "complete": true,
       "first_any_seconds": 6.7934294209990185,
@@ -12985,6 +13330,34 @@
       }
     },
     {
+      "at": 1794375864.95206,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 353598,
+        "dropped_messages": 215,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.658499570010463,
+      "first_content_seconds": 5.658499570010463,
+      "first_delivered_seconds": 5.658505411003716,
+      "id": "1d5592589aac44c896e7aa8893e2f949",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.687865540996427,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
+      }
+    },
+    {
       "at": 1794303593.6425228,
       "complete": true,
       "first_any_seconds": 0.7882586850028019,
@@ -13118,6 +13491,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 14451
+      }
+    },
+    {
+      "at": 1794376089.1235797,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45520,
+        "applied": true,
+        "before_bytes": 434581,
+        "dropped_messages": 285,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.467614532011794,
+      "first_content_seconds": 9.467614532011794,
+      "first_delivered_seconds": 9.467620823998004,
+      "id": "1da5244af7514d309a79417a5dfe7fe1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 9.49744263201137,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 13903,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13957
       }
     },
     {
@@ -14968,6 +15369,19 @@
       }
     },
     {
+      "at": 1794376592.6094112,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "215c66d9b6ba40bda3cd5b02cd9fdb01",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0048823480028659105,
+      "usage": null
+    },
+    {
       "at": 1794319878.6277502,
       "complete": true,
       "first_any_seconds": 3.8194122669810895,
@@ -16571,6 +16985,34 @@
       }
     },
     {
+      "at": 1794375870.7686749,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 355121,
+        "dropped_messages": 217,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.4529219790128991,
+      "first_content_seconds": 0.4529219790128991,
+      "first_delivered_seconds": 0.45292708900524303,
+      "id": "24dbc676c764484bbc1a98a6c816b548",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.4825410259945784,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
+      }
+    },
+    {
       "at": 1794356456.166264,
       "complete": true,
       "context_policy": {
@@ -16855,6 +17297,19 @@
         },
         "total_tokens": 1591
       }
+    },
+    {
+      "at": 1794376569.85884,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "255e5fa3b04046748210cebe4e39190f",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004395953001221642,
+      "usage": null
     },
     {
       "at": 1794301131.447011,
@@ -17223,6 +17678,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 16923
+      }
+    },
+    {
+      "at": 1794376391.0738046,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45828,
+        "applied": true,
+        "before_bytes": 510584,
+        "dropped_messages": 345,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.139061159017729,
+      "first_content_seconds": 10.139061159017729,
+      "first_delivered_seconds": 10.13906447502086,
+      "id": "26576ce81809449fb00d987c2dccfaa3",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.171260617004009,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15298,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15352
       }
     },
     {
@@ -17899,6 +18382,19 @@
       }
     },
     {
+      "at": 1794376524.3887947,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "27fb6908325144ef897515f955a8ac3b",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004254166997270659,
+      "usage": null
+    },
+    {
       "at": 1794358405.288678,
       "complete": true,
       "context_policy": {
@@ -18348,6 +18844,19 @@
         },
         "total_tokens": 27127
       }
+    },
+    {
+      "at": 1794376356.2024803,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "28e592a5d5854c7dbcfc0bac65d2517f",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004285675997380167,
+      "usage": null
     },
     {
       "at": 1794374252.3047144,
@@ -18980,6 +19489,19 @@
         },
         "total_tokens": 28953
       }
+    },
+    {
+      "at": 1794376281.4016988,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "2a1bff65882248f492805f6033efa99d",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004249307996360585,
+      "usage": null
     },
     {
       "at": 1794358783.0397844,
@@ -20075,6 +20597,47 @@
       }
     },
     {
+      "at": 1794375902.5273018,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47947,
+        "applied": true,
+        "before_bytes": 372998,
+        "dropped_messages": 228,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8922516790044028,
+      "first_content_seconds": 0.8922516790044028,
+      "first_delivered_seconds": 0.8922562069783453,
+      "id": "2c222843036542dda0907bd843f1fede",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.922750328987604,
+      "usage": {
+        "completion_tokens": 30,
+        "prompt_tokens": 13545,
+        "prompt_tokens_details": {
+          "cached_tokens": 13323
+        },
+        "total_tokens": 13575
+      }
+    },
+    {
+      "at": 1794376295.4418635,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "2c445090fa1d4d5e8fafa66801597a72",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004034704004880041,
+      "usage": null
+    },
+    {
       "at": 1794356466.497983,
       "complete": true,
       "context_policy": {
@@ -20669,6 +21232,19 @@
       }
     },
     {
+      "at": 1794376242.2175405,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "2d4bfad6774d470981585bc0fdf995a2",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004024946974823251,
+      "usage": null
+    },
+    {
       "at": 1794344325.4062078,
       "complete": true,
       "first_any_seconds": 0.5719320470234379,
@@ -20767,6 +21343,19 @@
         },
         "total_tokens": 15885
       }
+    },
+    {
+      "at": 1794376331.2783015,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "2d9fbfb9188a40d69404f7d2488ff15a",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0042375360208097845,
+      "usage": null
     },
     {
       "at": 1794323744.9642334,
@@ -22057,6 +22646,34 @@
       }
     },
     {
+      "at": 1794375934.8372462,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47823,
+        "applied": true,
+        "before_bytes": 383167,
+        "dropped_messages": 234,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.6090097289998084,
+      "first_content_seconds": 1.6090097289998084,
+      "first_delivered_seconds": 1.609015169000486,
+      "id": "3107b12433604c9e9a9034822486014b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 1.6419210250023752,
+      "usage": {
+        "completion_tokens": 53,
+        "prompt_tokens": 13951,
+        "prompt_tokens_details": {
+          "cached_tokens": 13072
+        },
+        "total_tokens": 14004
+      }
+    },
+    {
       "at": 1794365126.0810485,
       "complete": true,
       "context_policy": {
@@ -22211,6 +22828,19 @@
         },
         "total_tokens": 21430
       }
+    },
+    {
+      "at": 1794376545.0995739,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "3166c0dc0a6f411780fdbfe5b249c1c5",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004125705017941073,
+      "usage": null
     },
     {
       "at": 1794301026.6622944,
@@ -23153,6 +23783,34 @@
           "cached_tokens": 8023
         },
         "total_tokens": 8434
+      }
+    },
+    {
+      "at": 1794375849.4896348,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 337397,
+        "dropped_messages": 205,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.453580596979009,
+      "first_content_seconds": 0.453580596979009,
+      "first_delivered_seconds": 0.4535870789841283,
+      "id": "33c46f8f6b7e4af39744548f1f5cda03",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.484207489003893,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
       }
     },
     {
@@ -24603,6 +25261,34 @@
       }
     },
     {
+      "at": 1794376532.4203851,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46265,
+        "applied": true,
+        "before_bytes": 556939,
+        "dropped_messages": 367,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.605260234005982,
+      "first_content_seconds": 10.605260234005982,
+      "first_delivered_seconds": 10.605266636004671,
+      "id": "36f73f829e3e4af7a45e226d06cf44b7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.634571953996783,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15498,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15552
+      }
+    },
+    {
       "at": 1794361551.662518,
       "complete": true,
       "context_policy": {
@@ -24951,6 +25637,34 @@
       }
     },
     {
+      "at": 1794376483.2587183,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46080,
+        "applied": true,
+        "before_bytes": 548393,
+        "dropped_messages": 363,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.345618908002507,
+      "first_content_seconds": 10.345618908002507,
+      "first_delivered_seconds": 10.345624619018054,
+      "id": "37b28b84095241f7aa8369eba94ff121",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.374789652996697,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15413,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15467
+      }
+    },
+    {
       "at": 1794300605.9133186,
       "complete": true,
       "first_any_seconds": 2.6533103449910413,
@@ -25085,6 +25799,19 @@
         },
         "total_tokens": 11968
       }
+    },
+    {
+      "at": 1794376642.198744,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "384e6447a6c449498b94bc1411c14319",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.003603144024964422,
+      "usage": null
     },
     {
       "at": 1794364882.2848582,
@@ -25769,6 +26496,19 @@
       }
     },
     {
+      "at": 1794376186.5523593,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "39efb925a9c04bef82c97eb05c7f8151",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.005292539019137621,
+      "usage": null
+    },
+    {
       "at": 1794303567.0056765,
       "complete": true,
       "first_any_seconds": 20.942009421007242,
@@ -25984,6 +26724,34 @@
       }
     },
     {
+      "at": 1794375913.7071846,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47131,
+        "applied": true,
+        "before_bytes": 376567,
+        "dropped_messages": 230,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8969260650046635,
+      "first_content_seconds": 0.8969260650046635,
+      "first_delivered_seconds": 0.8969307240040507,
+      "id": "3a60aa5b9f5c443d98d4aa436b1dbba2",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.9268828369968105,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 13335,
+        "prompt_tokens_details": {
+          "cached_tokens": 13232
+        },
+        "total_tokens": 13369
+      }
+    },
+    {
       "at": 1794349881.8805017,
       "complete": true,
       "first_any_seconds": 3.226717023004312,
@@ -26156,6 +26924,19 @@
         },
         "total_tokens": 4256
       }
+    },
+    {
+      "at": 1794376499.6916907,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "3adec192509844d5898fce35530c302c",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004041778011014685,
+      "usage": null
     },
     {
       "at": 1794361633.125695,
@@ -28686,6 +29467,34 @@
       }
     },
     {
+      "at": 1794375815.3705869,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 312242,
+        "dropped_messages": 187,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.632776666985592,
+      "first_content_seconds": 5.632776666985592,
+      "first_delivered_seconds": 5.632783378998283,
+      "id": "3f65539ead8449f7a8599a907b1e2e64",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.662071314000059,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
+      }
+    },
+    {
       "at": 1794346996.3015664,
       "complete": true,
       "first_any_seconds": 0.45134984800824896,
@@ -29703,6 +30512,34 @@
       }
     },
     {
+      "at": 1794376003.5539815,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46838,
+        "applied": true,
+        "before_bytes": 407337,
+        "dropped_messages": 252,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.023144670994952,
+      "first_content_seconds": 9.023144670994952,
+      "first_delivered_seconds": 9.02315194500261,
+      "id": "4188240f6b5741f8a12ee6aab8ce6c99",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 9.055171423999127,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 14136,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14151
+      }
+    },
+    {
       "at": 1794321072.3207204,
       "complete": true,
       "first_any_seconds": 4.217989235999994,
@@ -30135,6 +30972,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 11215
+      }
+    },
+    {
+      "at": 1794376048.6305304,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47128,
+        "applied": true,
+        "before_bytes": 422024,
+        "dropped_messages": 277,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.523940973012941,
+      "first_content_seconds": 9.523940973012941,
+      "first_delivered_seconds": 9.523946392990183,
+      "id": "42af14f89f2d40639e23fb62ffbe4bb1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 9.555065560009098,
+      "usage": {
+        "completion_tokens": 55,
+        "prompt_tokens": 13835,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13890
       }
     },
     {
@@ -30979,6 +31844,19 @@
       }
     },
     {
+      "at": 1794376667.1548934,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "442ecb7f34714bf496a363239c29085d",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.003600297000957653,
+      "usage": null
+    },
+    {
       "at": 1794296228.5434947,
       "complete": true,
       "first_any_seconds": 9.16966720498749,
@@ -31149,6 +32027,34 @@
           "cached_tokens": 30008
         },
         "total_tokens": 30139
+      }
+    },
+    {
+      "at": 1794375959.6847613,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45787,
+        "applied": true,
+        "before_bytes": 392947,
+        "dropped_messages": 242,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.5263247200055048,
+      "first_content_seconds": 0.5263247200055048,
+      "first_delivered_seconds": 0.5263294890173711,
+      "id": "44aebd466a064494b8e0529c85aaccc8",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.5563420550024603,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13604,
+        "prompt_tokens_details": {
+          "cached_tokens": 13575
+        },
+        "total_tokens": 13619
       }
     },
     {
@@ -32087,6 +32993,34 @@
       }
     },
     {
+      "at": 1794376370.2514815,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45989,
+        "applied": true,
+        "before_bytes": 502256,
+        "dropped_messages": 341,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.542579967004713,
+      "first_content_seconds": 10.542579967004713,
+      "first_delivered_seconds": 10.542587261006702,
+      "id": "46dfbb0b99ad46ad80aace12d3dc94d7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.571877790993312,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15430,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15484
+      }
+    },
+    {
       "at": 1794296170.7374995,
       "complete": true,
       "first_any_seconds": 2.235214249987621,
@@ -32676,6 +33610,19 @@
         },
         "total_tokens": 11068
       }
+    },
+    {
+      "at": 1794376581.8874636,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "4806d4dd5ac542169a682a6b59dfff7a",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004391485010273755,
+      "usage": null
     },
     {
       "at": 1794374562.3992248,
@@ -34254,6 +35201,34 @@
       }
     },
     {
+      "at": 1794376163.1068206,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47631,
+        "applied": true,
+        "before_bytes": 459386,
+        "dropped_messages": 301,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8811808419995941,
+      "first_content_seconds": 0.8811808419995941,
+      "first_delivered_seconds": 0.8811867629992776,
+      "id": "4afb6db19e6a4ceeb02043af2a6d978f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.9111300509830471,
+      "usage": {
+        "completion_tokens": 31,
+        "prompt_tokens": 15788,
+        "prompt_tokens_details": {
+          "cached_tokens": 15675
+        },
+        "total_tokens": 15819
+      }
+    },
+    {
       "at": 1794321214.5005045,
       "complete": true,
       "first_any_seconds": 1.5129657099896576,
@@ -35694,6 +36669,19 @@
       }
     },
     {
+      "at": 1794376362.222858,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "4e1f0cdebb4f4c53ad1eb2156da0e055",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0045503530127462,
+      "usage": null
+    },
+    {
       "at": 1794295508.0520716,
       "complete": true,
       "first_any_seconds": 1.5036203380004736,
@@ -35847,6 +36835,34 @@
           "cached_tokens": 11515
         },
         "total_tokens": 12275
+      }
+    },
+    {
+      "at": 1794376175.7183156,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47236,
+        "applied": true,
+        "before_bytes": 464538,
+        "dropped_messages": 307,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.765307733003283,
+      "first_content_seconds": 10.765307733003283,
+      "first_delivered_seconds": 10.76531296200119,
+      "id": "4e5fdf37423241069645f6d1e36b88d3",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.795314769988181,
+      "usage": {
+        "completion_tokens": 53,
+        "prompt_tokens": 15741,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15794
       }
     },
     {
@@ -37077,6 +38093,19 @@
         },
         "total_tokens": 7923
       }
+    },
+    {
+      "at": 1794376617.3534584,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "50f897ffe67342ff81c51b070b473a43",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.003664659016067162,
+      "usage": null
     },
     {
       "at": 1794361665.4198399,
@@ -40865,6 +41894,34 @@
       }
     },
     {
+      "at": 1794376150.7662542,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46341,
+        "applied": true,
+        "before_bytes": 458096,
+        "dropped_messages": 301,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.549506054987432,
+      "first_content_seconds": 10.549506054987432,
+      "first_delivered_seconds": 10.549512756988406,
+      "id": "58c4b5622478413d89e37d2924d8772a",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.5789868029824,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15414,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15468
+      }
+    },
+    {
       "at": 1794307059.5222185,
       "complete": true,
       "first_any_seconds": 1.34439654200105,
@@ -41400,6 +42457,34 @@
       }
     },
     {
+      "at": 1794376250.2463715,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45183,
+        "applied": true,
+        "before_bytes": 477215,
+        "dropped_messages": 319,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.164847371983342,
+      "first_content_seconds": 10.164847371983342,
+      "first_delivered_seconds": 10.164853072987171,
+      "id": "5a54924f55914152a0b8b8ea6ce74279",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.193791551981121,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15023,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15077
+      }
+    },
+    {
       "at": 1794335857.1514695,
       "complete": true,
       "first_any_seconds": 0.2559182879922446,
@@ -41662,6 +42747,19 @@
         },
         "total_tokens": 11546
       }
+    },
+    {
+      "at": 1794376573.871515,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "5abfda778a8d4c39a0525162f30de35f",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004329808987677097,
+      "usage": null
     },
     {
       "at": 1794308896.6267936,
@@ -42096,6 +43194,47 @@
         },
         "total_tokens": 11939
       }
+    },
+    {
+      "at": 1794376098.662951,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46746,
+        "applied": true,
+        "before_bytes": 437330,
+        "dropped_messages": 287,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.909585390007123,
+      "first_content_seconds": 9.909585390007123,
+      "first_delivered_seconds": 9.909592584008351,
+      "id": "5bae430717e84912860dcde5e2cff4a1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 9.93932612700155,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 14493,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14547
+      }
+    },
+    {
+      "at": 1794376225.49079,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "5bb2f63d50a04eba8e8aeb545c91ed74",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0042721310164779425,
+      "usage": null
     },
     {
       "at": 1794374940.081645,
@@ -43984,6 +45123,34 @@
       }
     },
     {
+      "at": 1794375863.6872938,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 349213,
+        "dropped_messages": 213,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.4566863260115497,
+      "first_content_seconds": 0.4566863260115497,
+      "first_delivered_seconds": 0.45669112500036135,
+      "id": "5f44c84eba464394949be377584199ed",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.48663972099893726,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
+      }
+    },
+    {
       "at": 1794330762.5263264,
       "complete": true,
       "first_any_seconds": 1.0865666980098467,
@@ -44094,6 +45261,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 27741
+      }
+    },
+    {
+      "at": 1794376225.5043325,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46717,
+        "applied": true,
+        "before_bytes": 473027,
+        "dropped_messages": 315,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.620423758984543,
+      "first_content_seconds": 10.620423758984543,
+      "first_delivered_seconds": 10.620428919006372,
+      "id": "5faebb677ffb4308a6e78788d72c55a0",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.65026830098941,
+      "usage": {
+        "completion_tokens": 53,
+        "prompt_tokens": 15612,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15665
       }
     },
     {
@@ -44268,6 +45463,34 @@
           "cached_tokens": 22136
         },
         "total_tokens": 22448
+      }
+    },
+    {
+      "at": 1794375792.8860772,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 290133,
+        "dropped_messages": 173,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.43601064998074435,
+      "first_content_seconds": 0.43601064998074435,
+      "first_delivered_seconds": 0.43601567900623195,
+      "id": "602c936cb7594756a188fb2a01aebda8",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.4654654680052772,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
       }
     },
     {
@@ -46761,6 +47984,47 @@
       }
     },
     {
+      "at": 1794375829.5225294,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 324058,
+        "dropped_messages": 195,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.648842316993978,
+      "first_content_seconds": 5.648842316993978,
+      "first_delivered_seconds": 5.648849509976571,
+      "id": "65c1dbaacc174021a52612ce6f9b725c",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.677942948997952,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
+      }
+    },
+    {
+      "at": 1794376520.3758616,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "65e1c546f52945308ea9d925f8f8e06e",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004658427002141252,
+      "usage": null
+    },
+    {
       "at": 1794362472.2389503,
       "complete": true,
       "context_policy": {
@@ -46815,6 +48079,19 @@
         },
         "total_tokens": 11668
       }
+    },
+    {
+      "at": 1794376673.176891,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "65ebad5f1dee4de9ab76c58bfe13738a",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004286037001293153,
+      "usage": null
     },
     {
       "at": 1794296749.3949318,
@@ -46886,6 +48163,34 @@
           "cached_tokens": 8365
         },
         "total_tokens": 9420
+      }
+    },
+    {
+      "at": 1794376411.461254,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45817,
+        "applied": true,
+        "before_bytes": 518945,
+        "dropped_messages": 349,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.114639528997941,
+      "first_content_seconds": 10.114639528997941,
+      "first_delivered_seconds": 10.114645780995488,
+      "id": "65f8ef159976438c9ae3961f7d230a01",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.14450476001366,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15265,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15319
       }
     },
     {
@@ -48367,6 +49672,19 @@
       }
     },
     {
+      "at": 1794376283.4109623,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "68b77db08acf44e082c0c5d54f8aa197",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004445076017873362,
+      "usage": null
+    },
+    {
       "at": 1794316832.6858754,
       "complete": true,
       "first_any_seconds": 1.6011668689898215,
@@ -48551,6 +49869,34 @@
           "cached_tokens": 25640
         },
         "total_tokens": 25771
+      }
+    },
+    {
+      "at": 1794376442.093449,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45878,
+        "applied": true,
+        "before_bytes": 531532,
+        "dropped_messages": 355,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.171747182001127,
+      "first_content_seconds": 10.171747182001127,
+      "first_delivered_seconds": 10.171751449990552,
+      "id": "691365767edd4dac91e04f91c5a8a2d0",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.201021012006095,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15284,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15338
       }
     },
     {
@@ -49507,6 +50853,34 @@
       }
     },
     {
+      "at": 1794376270.9169962,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47016,
+        "applied": true,
+        "before_bytes": 485579,
+        "dropped_messages": 323,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.420130555983633,
+      "first_content_seconds": 10.420130555983633,
+      "first_delivered_seconds": 10.42013623699313,
+      "id": "6b5c27da2bef4b58aba2bb2b1e356982",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.449420004995773,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15644,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15698
+      }
+    },
+    {
       "at": 1794298965.799395,
       "complete": true,
       "first_any_seconds": 50.93604749800579,
@@ -49955,6 +51329,34 @@
       }
     },
     {
+      "at": 1794375808.31946,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 306334,
+        "dropped_messages": 183,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.626578736992087,
+      "first_content_seconds": 5.626578736992087,
+      "first_delivered_seconds": 5.626586550992215,
+      "id": "6c230a28d61740a8a54ec41661a5a66e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.6558432769961655,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
+      }
+    },
+    {
       "at": 1794321989.5348878,
       "complete": true,
       "first_any_seconds": 38.0385753440205,
@@ -50189,6 +51591,34 @@
           "cached_tokens": 17744
         },
         "total_tokens": 17875
+      }
+    },
+    {
+      "at": 1794375926.2483642,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45141,
+        "applied": true,
+        "before_bytes": 380485,
+        "dropped_messages": 234,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.522619728988502,
+      "first_content_seconds": 8.522619728988502,
+      "first_delivered_seconds": 8.52262799500022,
+      "id": "6cb62ed6b073491985d25ae838d3b371",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 8.552518922981108,
+      "usage": {
+        "completion_tokens": 30,
+        "prompt_tokens": 13043,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13073
       }
     },
     {
@@ -50960,6 +52390,19 @@
       }
     },
     {
+      "at": 1794376217.4740045,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "6dfc31b7b5ce42daba26e4e0495666ae",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.00446082599228248,
+      "usage": null
+    },
+    {
       "at": 1794364951.7185984,
       "complete": true,
       "context_policy": {
@@ -51126,6 +52569,34 @@
       }
     },
     {
+      "at": 1794375912.780667,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46622,
+        "applied": true,
+        "before_bytes": 376058,
+        "dropped_messages": 230,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8503610740008298,
+      "first_content_seconds": 0.8503610740008298,
+      "first_delivered_seconds": 0.8503667839977425,
+      "id": "6e3a05e34aeb434fbb2c485fcde47c98",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.8844374299806077,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 13205,
+        "prompt_tokens_details": {
+          "cached_tokens": 13034
+        },
+        "total_tokens": 13233
+      }
+    },
+    {
       "at": 1794293768.149629,
       "complete": true,
       "first_any_seconds": 4.018816248004441,
@@ -51187,6 +52658,34 @@
           "cached_tokens": 27654
         },
         "total_tokens": 28030
+      }
+    },
+    {
+      "at": 1794375936.5244322,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45787,
+        "applied": true,
+        "before_bytes": 387039,
+        "dropped_messages": 238,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.659145576006267,
+      "first_content_seconds": 8.659145576006267,
+      "first_delivered_seconds": 8.659153912012698,
+      "id": "6eaca447101b445d86c71388294c35d4",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 8.690551342006074,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13604,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13619
       }
     },
     {
@@ -51636,6 +53135,34 @@
       }
     },
     {
+      "at": 1794376128.0894818,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47768,
+        "applied": true,
+        "before_bytes": 446834,
+        "dropped_messages": 291,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.9456011989968829,
+      "first_content_seconds": 1.9456011989968829,
+      "first_delivered_seconds": 1.9456079520168714,
+      "id": "6f6b358eae17495e891e96a7ef5c9565",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 1.9822598200116772,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15280,
+        "prompt_tokens_details": {
+          "cached_tokens": 14153
+        },
+        "total_tokens": 15334
+      }
+    },
+    {
       "at": 1794310374.889497,
       "complete": true,
       "first_any_seconds": 3.5945067339926027,
@@ -51739,6 +53266,19 @@
         },
         "total_tokens": 11013
       }
+    },
+    {
+      "at": 1794376238.2050688,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "6fa29d91c75a47248610b3cb5b8830eb",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0040163999947253615,
+      "usage": null
     },
     {
       "at": 1794317835.7043364,
@@ -51861,6 +53401,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 1806
+      }
+    },
+    {
+      "at": 1794375801.2400877,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 300426,
+        "dropped_messages": 179,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.651927325990982,
+      "first_content_seconds": 5.651927325990982,
+      "first_delivered_seconds": 5.651931383996271,
+      "id": "702059e261484f41bf82cd45bd6f0a83",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.685468104988104,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
       }
     },
     {
@@ -52125,6 +53693,34 @@
           "cached_tokens": 10501
         },
         "total_tokens": 15843
+      }
+    },
+    {
+      "at": 1794376431.8646142,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45849,
+        "applied": true,
+        "before_bytes": 527332,
+        "dropped_messages": 353,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.162977997999405,
+      "first_content_seconds": 10.162977997999405,
+      "first_delivered_seconds": 10.16298699498293,
+      "id": "71105945e47f4c9f8b5b44b729391ef6",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.192440821992932,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15269,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15323
       }
     },
     {
@@ -52840,6 +54436,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 29471
+      }
+    },
+    {
+      "at": 1794376162.2731996,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47171,
+        "applied": true,
+        "before_bytes": 458926,
+        "dropped_messages": 301,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.7663391809910536,
+      "first_content_seconds": 0.7663391809910536,
+      "first_delivered_seconds": 0.76634522198583,
+      "id": "72a5c30c781f4ee5acf156276db11ed8",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.7965461949934252,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 15650,
+        "prompt_tokens_details": {
+          "cached_tokens": 15611
+        },
+        "total_tokens": 15676
       }
     },
     {
@@ -55544,6 +57168,19 @@
       }
     },
     {
+      "at": 1794376532.40604,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "78a0f804fd6b44dc8b54a20d8e3507ca",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004264565999619663,
+      "usage": null
+    },
+    {
       "at": 1794296012.3575923,
       "complete": true,
       "first_any_seconds": 2.2998000480001792,
@@ -55764,6 +57401,34 @@
           "cached_tokens": 16116
         },
         "total_tokens": 16304
+      }
+    },
+    {
+      "at": 1794375822.4418824,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 318150,
+        "dropped_messages": 191,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.660324020020198,
+      "first_content_seconds": 5.660324020020198,
+      "first_delivered_seconds": 5.660330792015884,
+      "id": "792c7cca658c46d38fc8311e8224ec9b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.688955721008824,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
       }
     },
     {
@@ -56525,6 +58190,19 @@
         },
         "total_tokens": 11024
       }
+    },
+    {
+      "at": 1794376287.4254217,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "7a7fb3e02b1e4105a25f46f53ccb5aab",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.003984871000284329,
+      "usage": null
     },
     {
       "at": 1794354468.0392077,
@@ -58125,6 +59803,19 @@
       }
     },
     {
+      "at": 1794376320.3434036,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "7db484d160194ce3adfd9806afcb59c4",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.003980662993853912,
+      "usage": null
+    },
+    {
       "at": 1794329994.8287787,
       "complete": true,
       "first_any_seconds": 0.7027243909833487,
@@ -58660,6 +60351,19 @@
         },
         "total_tokens": 11668
       }
+    },
+    {
+      "at": 1794376495.6784408,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "7ed9114971654e49a0308530713cd591",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004145251994486898,
+      "usage": null
     },
     {
       "at": 1794372984.5106673,
@@ -59609,6 +61313,19 @@
       }
     },
     {
+      "at": 1794376213.4614177,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "8112d76f7e4647c7ba0aa81d6de15985",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004332535027060658,
+      "usage": null
+    },
+    {
       "at": 1794329068.1804411,
       "complete": true,
       "first_any_seconds": 6.969933108979603,
@@ -60042,6 +61759,34 @@
           "cached_tokens": 17395
         },
         "total_tokens": 18133
+      }
+    },
+    {
+      "at": 1794375872.0414622,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 359506,
+        "dropped_messages": 219,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.65226280700881,
+      "first_content_seconds": 5.65226280700881,
+      "first_delivered_seconds": 5.65226904800511,
+      "id": "81f9f215fe2b443eb55c8c378a29b20b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.681380560999969,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
       }
     },
     {
@@ -60495,6 +62240,62 @@
           "cached_tokens": 20188
         },
         "total_tokens": 20319
+      }
+    },
+    {
+      "at": 1794376557.1404965,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46353,
+        "applied": true,
+        "before_bytes": 561219,
+        "dropped_messages": 369,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.642171930987388,
+      "first_content_seconds": 10.642171930987388,
+      "first_delivered_seconds": 10.642176861001644,
+      "id": "82b817a104dd4ee88ba72d18ac019df7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.671626169991214,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15539,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15593
+      }
+    },
+    {
+      "at": 1794376345.3290098,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47733,
+        "applied": true,
+        "before_bytes": 498092,
+        "dropped_messages": 331,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.80968118601595,
+      "first_content_seconds": 10.80968118601595,
+      "first_delivered_seconds": 10.809686546010198,
+      "id": "82bb8c782e38471b9139a99cc23b9031",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.839095580013236,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15963,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 16017
       }
     },
     {
@@ -61314,6 +63115,34 @@
       }
     },
     {
+      "at": 1794375814.1102889,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 307857,
+        "dropped_messages": 185,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.43909676099428907,
+      "first_content_seconds": 0.43909676099428907,
+      "first_delivered_seconds": 0.43910321398288943,
+      "id": "8499b50595d84a77b894649ceab010c2",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.4692105279827956,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
+      }
+    },
+    {
       "at": 1794358668.2290494,
       "complete": true,
       "context_policy": {
@@ -61581,6 +63410,19 @@
         },
         "total_tokens": 7387
       }
+    },
+    {
+      "at": 1794376345.3164651,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "85696cf181924ecdaceec308b0960a6e",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0041561129910405725,
+      "usage": null
     },
     {
       "at": 1794321276.2545261,
@@ -62415,6 +64257,19 @@
       }
     },
     {
+      "at": 1794376192.5799837,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "86b25c6b3b99414faaa5381801bf7f72",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004941078019328415,
+      "usage": null
+    },
+    {
       "at": 1794299513.451562,
       "complete": true,
       "first_any_seconds": 3.3103313879983034,
@@ -63233,6 +65088,34 @@
           "cached_tokens": 1519
         },
         "total_tokens": 14156
+      }
+    },
+    {
+      "at": 1794375835.3332224,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 325581,
+        "dropped_messages": 197,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.4459417579928413,
+      "first_content_seconds": 0.4459417579928413,
+      "first_delivered_seconds": 0.4459472580056172,
+      "id": "8812f5c615c84724bf05a6e767f2c6ac",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.47577089999685995,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
       }
     },
     {
@@ -65275,6 +67158,34 @@
       }
     },
     {
+      "at": 1794376045.8839316,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45659,
+        "applied": true,
+        "before_bytes": 417873,
+        "dropped_messages": 275,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.110428490996128,
+      "first_content_seconds": 1.110428490996128,
+      "first_delivered_seconds": 1.1104366460058372,
+      "id": "8cd7d1456cbc44bb874b391220563168",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 1.1416478059836663,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 13348,
+        "prompt_tokens_details": {
+          "cached_tokens": 13323
+        },
+        "total_tokens": 13402
+      }
+    },
+    {
       "at": 1794352725.415722,
       "complete": true,
       "first_any_seconds": 1.0575307619874366,
@@ -65528,6 +67439,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 10437
+      }
+    },
+    {
+      "at": 1794375857.8507273,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 347690,
+        "dropped_messages": 211,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.6747465709922835,
+      "first_content_seconds": 5.6747465709922835,
+      "first_delivered_seconds": 5.674752141989302,
+      "id": "8d74ddea4f984ad6a8ac8be7e4b96ef3",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.70388434297638,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
       }
     },
     {
@@ -66088,6 +68027,34 @@
       }
     },
     {
+      "at": 1794376161.3846433,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46875,
+        "applied": true,
+        "before_bytes": 458630,
+        "dropped_messages": 301,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8153034950082656,
+      "first_content_seconds": 0.8153034950082656,
+      "first_delivered_seconds": 0.8153101670031901,
+      "id": "8e838a70815c48db813773883eed7517",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.8445012409938499,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 15586,
+        "prompt_tokens_details": {
+          "cached_tokens": 15467
+        },
+        "total_tokens": 15612
+      }
+    },
+    {
       "at": 1794368767.2303438,
       "complete": true,
       "context_policy": {
@@ -66533,6 +68500,34 @@
       "usage": null
     },
     {
+      "at": 1794375885.6133137,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45710,
+        "applied": true,
+        "before_bytes": 369238,
+        "dropped_messages": 226,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.969099417998223,
+      "first_content_seconds": 7.969099417998223,
+      "first_delivered_seconds": 7.96910318499431,
+      "id": "8f67cc33e2bd4896b468ee3ccc42f1b5",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 7.9990088310150895,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12784,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12799
+      }
+    },
+    {
       "at": 1794331051.6806843,
       "complete": true,
       "first_any_seconds": 0.6970659070066176,
@@ -66694,6 +68689,34 @@
           "cached_tokens": 23817
         },
         "total_tokens": 24331
+      }
+    },
+    {
+      "at": 1794376452.3319821,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45916,
+        "applied": true,
+        "before_bytes": 535737,
+        "dropped_messages": 357,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.184053366014268,
+      "first_content_seconds": 10.184053366014268,
+      "first_delivered_seconds": 10.18405735300621,
+      "id": "8fa25f9c68274aba8321e53f2f215470",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.2175362270209,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15308,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15362
       }
     },
     {
@@ -66859,6 +68882,19 @@
         },
         "total_tokens": 7302
       }
+    },
+    {
+      "at": 1794376306.305042,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "901b9bebb2df4568852b0b96fb34cd2e",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.003581533004762605,
+      "usage": null
     },
     {
       "at": 1794295736.9835098,
@@ -67266,6 +69302,19 @@
       }
     },
     {
+      "at": 1794376644.207284,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "911705c7915e4d919a0f29fb4a9dcfbd",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0036784039984922856,
+      "usage": null
+    },
+    {
       "at": 1794297214.5961933,
       "complete": true,
       "first_any_seconds": 4.0054755239980295,
@@ -67581,6 +69630,19 @@
       }
     },
     {
+      "at": 1794376631.3894095,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "91dd67457bb749db8bcf86f4cf0e23ea",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0037745260051451623,
+      "usage": null
+    },
+    {
       "at": 1794357476.5485935,
       "complete": true,
       "context_policy": {
@@ -67602,6 +69664,19 @@
         },
         "total_tokens": 8758
       }
+    },
+    {
+      "at": 1794376598.6342015,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "921e79a045ba4916beab881e8e7b5b94",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0037242310063447803,
+      "usage": null
     },
     {
       "at": 1794304721.8161654,
@@ -68897,6 +70972,62 @@
           "cached_tokens": 0
         },
         "total_tokens": 5738
+      }
+    },
+    {
+      "at": 1794376027.746788,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46731,
+        "applied": true,
+        "before_bytes": 413245,
+        "dropped_messages": 259,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.84175391800818,
+      "first_content_seconds": 8.84175391800818,
+      "first_delivered_seconds": 8.841762324009323,
+      "id": "953375ffc8ef401fa7a85dd02fb56f54",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 8.872641980007757,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13887,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13902
+      }
+    },
+    {
+      "at": 1794375893.9563046,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46849,
+        "applied": true,
+        "before_bytes": 371900,
+        "dropped_messages": 228,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.50612395000644,
+      "first_content_seconds": 8.50612395000644,
+      "first_delivered_seconds": 8.506131845002528,
+      "id": "953f793ade3845008d291609ca0b2f16",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 8.536075562005863,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 13296,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13324
       }
     },
     {
@@ -70354,6 +72485,34 @@
           "cached_tokens": 5193
         },
         "total_tokens": 5404
+      }
+    },
+    {
+      "at": 1794375799.9781258,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 296041,
+        "dropped_messages": 177,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.450136693980312,
+      "first_content_seconds": 0.450136693980312,
+      "first_delivered_seconds": 0.45014280499890447,
+      "id": "98681231d4b84ff28b39a66752007d06",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.4799330940004438,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
       }
     },
     {
@@ -71862,6 +74021,19 @@
       }
     },
     {
+      "at": 1794376594.6210146,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "9b71aa944340473b8c18716eef2d06d9",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004225151991704479,
+      "usage": null
+    },
+    {
       "at": 1794300676.6983845,
       "complete": true,
       "first_any_seconds": 9.239193475994398,
@@ -73050,6 +75222,34 @@
       }
     },
     {
+      "at": 1794375843.6756573,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 335874,
+        "dropped_messages": 203,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.647626099991612,
+      "first_content_seconds": 5.647626099991612,
+      "first_delivered_seconds": 5.647640828014119,
+      "id": "9dd8b365f57f4fe2999f8bd463dcfd95",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.677611977007473,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
+      }
+    },
+    {
       "at": 1794296027.9362817,
       "complete": true,
       "first_any_seconds": 1.400767551996978,
@@ -73337,6 +75537,34 @@
           "cached_tokens": 29405
         },
         "total_tokens": 30038
+      }
+    },
+    {
+      "at": 1794376140.565709,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44865,
+        "applied": true,
+        "before_bytes": 454224,
+        "dropped_messages": 297,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.12421714499942,
+      "first_content_seconds": 10.12421714499942,
+      "first_delivered_seconds": 10.12422421798692,
+      "id": "9e73dcaa6a724478bdab23fa888c4843",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.15446528600296,
+      "usage": {
+        "completion_tokens": 53,
+        "prompt_tokens": 14886,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14939
       }
     },
     {
@@ -75377,6 +77605,34 @@
       }
     },
     {
+      "at": 1794375807.057413,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 301949,
+        "dropped_messages": 181,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.44774581998353824,
+      "first_content_seconds": 0.44774581998353824,
+      "first_delivered_seconds": 0.44775172098889016,
+      "id": "a27f3b06a3f04f7cb5a285bce890738e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.4773547980003059,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
+      }
+    },
+    {
       "at": 1794306381.0954254,
       "complete": true,
       "first_any_seconds": 1.412484389002202,
@@ -75689,6 +77945,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 11662
+      }
+    },
+    {
+      "at": 1794376581.9007375,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46445,
+        "applied": true,
+        "before_bytes": 565506,
+        "dropped_messages": 371,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.64673945697723,
+      "first_content_seconds": 10.64673945697723,
+      "first_delivered_seconds": 10.646743063989561,
+      "id": "a326f3ea1ee04a47ace022e7be4636ca",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.676213482976891,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15583,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15637
       }
     },
     {
@@ -78005,6 +80289,34 @@
       }
     },
     {
+      "at": 1794375856.581005,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 343305,
+        "dropped_messages": 209,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.4483243870199658,
+      "first_content_seconds": 0.4483243870199658,
+      "first_delivered_seconds": 0.4483290360076353,
+      "id": "a8678507d8214506a68666272f33b28c",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.47822108599939384,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
+      }
+    },
+    {
       "at": 1794360024.724763,
       "complete": true,
       "context_policy": {
@@ -79561,6 +81873,34 @@
       }
     },
     {
+      "at": 1794375879.1406584,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 365414,
+        "dropped_messages": 223,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.661779996997211,
+      "first_content_seconds": 5.661779996997211,
+      "first_delivered_seconds": 5.66178704999038,
+      "id": "ab6351780d4d4c43acce73f0a5f0da00",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.690829483006382,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
+      }
+    },
+    {
       "at": 1794296664.9801943,
       "complete": true,
       "first_any_seconds": 0.5230192360031651,
@@ -79724,6 +82064,34 @@
       }
     },
     {
+      "at": 1794375974.7306798,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45787,
+        "applied": true,
+        "before_bytes": 398855,
+        "dropped_messages": 246,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.5263058840064332,
+      "first_content_seconds": 0.5263058840064332,
+      "first_delivered_seconds": 0.5263134280103259,
+      "id": "abca80300357449f920970e39c4a34be",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.5576883559988346,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13604,
+        "prompt_tokens_details": {
+          "cached_tokens": 13575
+        },
+        "total_tokens": 13619
+      }
+    },
+    {
       "at": 1794358071.8112144,
       "complete": true,
       "context_policy": {
@@ -79836,6 +82204,34 @@
           "cached_tokens": 2104
         },
         "total_tokens": 12575
+      }
+    },
+    {
+      "at": 1794376118.414083,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44397,
+        "applied": true,
+        "before_bytes": 443463,
+        "dropped_messages": 291,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.603753732983023,
+      "first_content_seconds": 9.603753732983023,
+      "first_delivered_seconds": 9.603760184982093,
+      "id": "ac18549f869d40de85ded0e831f17cf7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 9.632980623980984,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 14100,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14154
       }
     },
     {
@@ -80033,6 +82429,34 @@
           "cached_tokens": 16868
         },
         "total_tokens": 17051
+      }
+    },
+    {
+      "at": 1794376401.2834783,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45815,
+        "applied": true,
+        "before_bytes": 514759,
+        "dropped_messages": 347,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.113685827993322,
+      "first_content_seconds": 10.113685827993322,
+      "first_delivered_seconds": 10.113689454999985,
+      "id": "ac8c6e920c30448ba4b3f58cfdd435aa",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.143513178016292,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15277,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15331
       }
     },
     {
@@ -80855,6 +83279,19 @@
       }
     },
     {
+      "at": 1794376200.5930324,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "adbde19ec09e497880e078241e9be695",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.005895041016628966,
+      "usage": null
+    },
+    {
       "at": 1794356964.7477372,
       "complete": true,
       "context_policy": {
@@ -81413,6 +83850,34 @@
       }
     },
     {
+      "at": 1794376462.588415,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45963,
+        "applied": true,
+        "before_bytes": 539948,
+        "dropped_messages": 359,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.214739871007623,
+      "first_content_seconds": 10.214739871007623,
+      "first_delivered_seconds": 10.214743677992374,
+      "id": "aee92324d7c14102bb90460c321342d0",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.244174511986785,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15341,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15395
+      }
+    },
+    {
       "at": 1794334433.634039,
       "complete": true,
       "first_any_seconds": 16.20013323900639,
@@ -81651,6 +84116,19 @@
       }
     },
     {
+      "at": 1794376619.361569,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "af800f70800b4c3196d86042cf35c5b9",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004287018004106358,
+      "usage": null
+    },
+    {
       "at": 1794374384.96429,
       "complete": true,
       "context_policy": {
@@ -81745,6 +84223,34 @@
           "cached_tokens": 9308
         },
         "total_tokens": 9831
+      }
+    },
+    {
+      "at": 1794375877.8586624,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 361029,
+        "dropped_messages": 221,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.46571757199126296,
+      "first_content_seconds": 0.46571757199126296,
+      "first_delivered_seconds": 0.4657233229954727,
+      "id": "aff47a083d204a8f9c3e8f13d81ab9f0",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.49530072198831476,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
       }
     },
     {
@@ -82247,6 +84753,34 @@
       }
     },
     {
+      "at": 1794376067.2160995,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46805,
+        "applied": true,
+        "before_bytes": 425573,
+        "dropped_messages": 279,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4672935649869032,
+      "first_content_seconds": 1.4672935649869032,
+      "first_delivered_seconds": 1.4673003779898863,
+      "id": "b106f68b3f694e3eaa5995e68d387f2b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 1.4983728670049459,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 13692,
+        "prompt_tokens_details": {
+          "cached_tokens": 13120
+        },
+        "total_tokens": 13746
+      }
+    },
+    {
       "at": 1794362197.6571035,
       "complete": true,
       "context_policy": {
@@ -82381,6 +84915,19 @@
         },
         "total_tokens": 6678
       }
+    },
+    {
+      "at": 1794376211.448792,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "b12aee43bc40445d8505412ca6cb2c35",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0057227280049119145,
+      "usage": null
     },
     {
       "at": 1794358094.55165,
@@ -84267,6 +86814,34 @@
       }
     },
     {
+      "at": 1794376130.11536,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46990,
+        "applied": true,
+        "before_bytes": 450441,
+        "dropped_messages": 293,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.379658265010221,
+      "first_content_seconds": 10.379658265010221,
+      "first_delivered_seconds": 10.379665078013204,
+      "id": "b62bf74802f04ea5a4ccc12e650edceb",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.409315034019528,
+      "usage": {
+        "completion_tokens": 53,
+        "prompt_tokens": 15255,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15308
+      }
+    },
+    {
       "at": 1794316773.4514666,
       "complete": true,
       "first_any_seconds": 1.0869517209939659,
@@ -84428,6 +87003,34 @@
           "cached_tokens": 6784
         },
         "total_tokens": 7675
+      }
+    },
+    {
+      "at": 1794376068.758838,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44380,
+        "applied": true,
+        "before_bytes": 427533,
+        "dropped_messages": 281,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.926695749018108,
+      "first_content_seconds": 8.926695749018108,
+      "first_delivered_seconds": 8.926701399002923,
+      "id": "b6783b1352e844d1a10f395eb973fa92",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 8.955871242011199,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 13089,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13143
       }
     },
     {
@@ -85066,6 +87669,19 @@
       }
     },
     {
+      "at": 1794376507.703609,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "b7a29f3c39054e57bd749f60d28063f4",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004222988995024934,
+      "usage": null
+    },
+    {
       "at": 1794293752.887081,
       "complete": true,
       "first_any_seconds": 0.7400883619993692,
@@ -85558,6 +88174,19 @@
       }
     },
     {
+      "at": 1794376557.1262968,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "b87013f0844d46cd877d69ee5388a43d",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004415080009493977,
+      "usage": null
+    },
+    {
       "at": 1794316451.4593544,
       "complete": true,
       "first_any_seconds": 8.006846206990303,
@@ -85817,6 +88446,19 @@
       }
     },
     {
+      "at": 1794376648.217609,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "b91265989e4d401a979769d5f3e4523b",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0037671620084438473,
+      "usage": null
+    },
+    {
       "at": 1794345293.434509,
       "complete": true,
       "first_any_seconds": 2.197448445018381,
@@ -85896,6 +88538,34 @@
           "cached_tokens": 29565
         },
         "total_tokens": 31791
+      }
+    },
+    {
+      "at": 1794375778.7478664,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 278317,
+        "dropped_messages": 165,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.4387543269840535,
+      "first_content_seconds": 0.4387543269840535,
+      "first_delivered_seconds": 0.43876142098451965,
+      "id": "b94c472781cd404982f2953f0ad8dba0",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.4712161679926794,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
       }
     },
     {
@@ -86034,6 +88704,34 @@
           "cached_tokens": 12600
         },
         "total_tokens": 12660
+      }
+    },
+    {
+      "at": 1794376077.750737,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46533,
+        "applied": true,
+        "before_bytes": 429686,
+        "dropped_messages": 281,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.523440077988198,
+      "first_content_seconds": 1.523440077988198,
+      "first_delivered_seconds": 1.5234475219913293,
+      "id": "b9c238ad7ac94a31ab4c7268bb0bdfa3",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 1.5544931509939488,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 13837,
+        "prompt_tokens_details": {
+          "cached_tokens": 13142
+        },
+        "total_tokens": 13891
       }
     },
     {
@@ -87281,6 +89979,34 @@
       }
     },
     {
+      "at": 1794375785.8129697,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 284225,
+        "dropped_messages": 169,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.4410117109946441,
+      "first_content_seconds": 0.4410117109946441,
+      "first_delivered_seconds": 0.4410149269970134,
+      "id": "bcc04762db0f49c588eda5762a033c37",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.4710159419919364,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
+      }
+    },
+    {
       "at": 1794292896.9649546,
       "complete": true,
       "first_any_seconds": 1.594906169004389,
@@ -87672,6 +90398,34 @@
           "cached_tokens": 11363
         },
         "total_tokens": 11937
+      }
+    },
+    {
+      "at": 1794375772.9294333,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 276794,
+        "dropped_messages": 163,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.654602914990392,
+      "first_content_seconds": 5.654602914990392,
+      "first_delivered_seconds": 5.654608195007313,
+      "id": "bd499c5a970c45c2a03da53657505d1e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.68437722400995,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
       }
     },
     {
@@ -89614,6 +92368,34 @@
       }
     },
     {
+      "at": 1794375821.1697292,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43788,
+        "applied": true,
+        "before_bytes": 313765,
+        "dropped_messages": 189,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.455392464005854,
+      "first_content_seconds": 0.455392464005854,
+      "first_delivered_seconds": 0.4554007289989386,
+      "id": "c1c1da9896be45359b0036ea293feeb3",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.48497528198640794,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12360,
+        "prompt_tokens_details": {
+          "cached_tokens": 12356
+        },
+        "total_tokens": 12375
+      }
+    },
+    {
       "at": 1794362128.194656,
       "complete": true,
       "context_policy": {
@@ -89852,6 +92634,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 6604
+      }
+    },
+    {
+      "at": 1794376606.665461,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46514,
+        "applied": true,
+        "before_bytes": 569775,
+        "dropped_messages": 373,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.625641968013952,
+      "first_content_seconds": 10.625641968013952,
+      "first_delivered_seconds": 10.625647439010208,
+      "id": "c24f3764ec0842e5b27a3759ff55a206",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.6553151680273,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15619,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15673
       }
     },
     {
@@ -90773,6 +93583,19 @@
         },
         "total_tokens": 13493
       }
+    },
+    {
+      "at": 1794376370.2396903,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "c407e7bf4dcd4e2da17ad6f35372895a",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.003931649989681318,
+      "usage": null
     },
     {
       "at": 1794325645.7299316,
@@ -92378,6 +95201,19 @@
       }
     },
     {
+      "at": 1794376567.8485582,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "c723f2f76b754fddb280e3af3fdba946",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0040852699894458055,
+      "usage": null
+    },
+    {
       "at": 1794298523.1740136,
       "complete": true,
       "first_any_seconds": 56.95399372000247,
@@ -92458,6 +95294,19 @@
         },
         "total_tokens": 12724
       }
+    },
+    {
+      "at": 1794376250.234057,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "c7683fbdafd948ff99a8787324bc9b20",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0037045039935037494,
+      "usage": null
     },
     {
       "at": 1794311627.001207,
@@ -92741,6 +95590,34 @@
           "cached_tokens": 11735
         },
         "total_tokens": 11893
+      }
+    },
+    {
+      "at": 1794375836.5817046,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 329966,
+        "dropped_messages": 199,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.650474394991761,
+      "first_content_seconds": 5.650474394991761,
+      "first_delivered_seconds": 5.650479345000349,
+      "id": "c7d028adf0474a8dafe54b8f9f1ecc90",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.682221722992836,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
       }
     },
     {
@@ -93494,6 +96371,34 @@
       }
     },
     {
+      "at": 1794376320.3557265,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47972,
+        "applied": true,
+        "before_bytes": 493925,
+        "dropped_messages": 327,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.85777716798475,
+      "first_content_seconds": 10.85777716798475,
+      "first_delivered_seconds": 10.857780964986887,
+      "id": "c983b91e6b824790b3c3a7228df8b1f1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.890000941988546,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 16006,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 16060
+      }
+    },
+    {
       "at": 1794374207.9774923,
       "complete": true,
       "context_policy": {
@@ -94180,6 +97085,34 @@
           "cached_tokens": 1519
         },
         "total_tokens": 14473
+      }
+    },
+    {
+      "at": 1794376079.3416986,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47371,
+        "applied": true,
+        "before_bytes": 432047,
+        "dropped_messages": 283,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.71351298398804,
+      "first_content_seconds": 9.71351298398804,
+      "first_delivered_seconds": 9.713519035984064,
+      "id": "cacec50fb7c043a290274ad1abb9c0d7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 9.742837226978736,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 14273,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14327
       }
     },
     {
@@ -98675,6 +101608,34 @@
       }
     },
     {
+      "at": 1794376507.7184036,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46175,
+        "applied": true,
+        "before_bytes": 552663,
+        "dropped_messages": 365,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.579620896984125,
+      "first_content_seconds": 10.579620896984125,
+      "first_delivered_seconds": 10.579624492995208,
+      "id": "d3fcd3cb27a3421fb0f0d3b3d5fe7a11",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.608825334988069,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15455,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15509
+      }
+    },
+    {
       "at": 1794355094.8397946,
       "complete": true,
       "first_any_seconds": 0.367453145008767,
@@ -98972,6 +101933,34 @@
           "cached_tokens": 8029
         },
         "total_tokens": 9035
+      }
+    },
+    {
+      "at": 1794376058.2294884,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44930,
+        "applied": true,
+        "before_bytes": 423698,
+        "dropped_messages": 279,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.909683670004597,
+      "first_content_seconds": 8.909683670004597,
+      "first_delivered_seconds": 8.9096890000219,
+      "id": "d4ab4a16ae4f4e67aee77176f4e66697",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 8.939372749009635,
+      "usage": {
+        "completion_tokens": 55,
+        "prompt_tokens": 13066,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13121
       }
     },
     {
@@ -99823,6 +102812,19 @@
         },
         "total_tokens": 6250
       }
+    },
+    {
+      "at": 1794376236.1926694,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "d5d3c75fb0704c7eab8f09dddeacf7f2",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.005654590000631288,
+      "usage": null
     },
     {
       "at": 1794330181.2843773,
@@ -100708,6 +103710,19 @@
         },
         "total_tokens": 16834
       }
+    },
+    {
+      "at": 1794376543.0907326,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "d7faa7f8e47e4bbcaba5fd8aa76a67ba",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.00427595799556002,
+      "usage": null
     },
     {
       "at": 1794368601.4571395,
@@ -102181,6 +105196,34 @@
       }
     },
     {
+      "at": 1794376656.2447836,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46637,
+        "applied": true,
+        "before_bytes": 578314,
+        "dropped_messages": 377,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.848363150988007,
+      "first_content_seconds": 10.848363150988007,
+      "first_delivered_seconds": 10.848368411010597,
+      "id": "db03cd78865a419bae2dc0a24685ef9b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.878466178983217,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15677,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15731
+      }
+    },
+    {
       "at": 1794295303.1350977,
       "complete": true,
       "first_any_seconds": 0.30473653100489173,
@@ -103128,6 +106171,34 @@
       }
     },
     {
+      "at": 1794376200.6079319,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47421,
+        "applied": true,
+        "before_bytes": 468836,
+        "dropped_messages": 311,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.774323080026079,
+      "first_content_seconds": 10.774323080026079,
+      "first_delivered_seconds": 10.774327368009835,
+      "id": "dca9bc15202a48e0839b65117f20373e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.804365675023291,
+      "usage": {
+        "completion_tokens": 53,
+        "prompt_tokens": 15872,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15925
+      }
+    },
+    {
       "at": 1794369012.2925177,
       "complete": true,
       "context_policy": {
@@ -103308,6 +106379,19 @@
         },
         "total_tokens": 12492
       }
+    },
+    {
+      "at": 1794376549.1118083,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "dcd000d4d86f426586a85cbc99def1e3",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.00414075399748981,
+      "usage": null
     },
     {
       "at": 1794334403.6532416,
@@ -103612,6 +106696,34 @@
           "cached_tokens": 13573
         },
         "total_tokens": 13619
+      }
+    },
+    {
+      "at": 1794375976.1170435,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44264,
+        "applied": true,
+        "before_bytes": 403240,
+        "dropped_messages": 250,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 27.265779706998728,
+      "first_content_seconds": 27.265779706998728,
+      "first_delivered_seconds": 27.265783504000865,
+      "id": "dd77d92b872a42518315e627043bd8fb",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 27.29513909597881,
+      "usage": {
+        "completion_tokens": 1286,
+        "prompt_tokens": 13212,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14498
       }
     },
     {
@@ -104632,6 +107744,19 @@
       }
     },
     {
+      "at": 1794376337.299745,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "df90934cda7b44f797b2268cdd0f8d29",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004230060992995277,
+      "usage": null
+    },
+    {
       "at": 1794295962.9383476,
       "complete": true,
       "first_any_seconds": 0.4303464959957637,
@@ -104665,6 +107790,34 @@
           "cached_tokens": 15722
         },
         "total_tokens": 17127
+      }
+    },
+    {
+      "at": 1794375794.1323059,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 294518,
+        "dropped_messages": 175,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.682397942990065,
+      "first_content_seconds": 5.682397942990065,
+      "first_delivered_seconds": 5.682403914979659,
+      "id": "df9c580cebda40dea9197db132775fed",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.711404989997391,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
       }
     },
     {
@@ -105068,6 +108221,34 @@
       }
     },
     {
+      "at": 1794376108.6475558,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45334,
+        "applied": true,
+        "before_bytes": 440303,
+        "dropped_messages": 289,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.700571633002255,
+      "first_content_seconds": 9.700571633002255,
+      "first_delivered_seconds": 9.700579046999337,
+      "id": "e04f64cc7014499d9b6bc4b9f4b5ef7e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 9.730273335997481,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 14295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14349
+      }
+    },
+    {
       "at": 1794374415.3958397,
       "complete": true,
       "context_policy": {
@@ -105096,6 +108277,19 @@
       }
     },
     {
+      "at": 1794376333.2876394,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "e05a716499894550a1e78f714abc4d97",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.003741594002349302,
+      "usage": null
+    },
+    {
       "at": 1794295637.2200344,
       "complete": true,
       "first_any_seconds": 0.7271855300059542,
@@ -105111,6 +108305,34 @@
           "cached_tokens": 13937
         },
         "total_tokens": 14292
+      }
+    },
+    {
+      "at": 1794376380.8621137,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45855,
+        "applied": true,
+        "before_bytes": 506420,
+        "dropped_messages": 343,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.14400749700144,
+      "first_content_seconds": 10.14400749700144,
+      "first_delivered_seconds": 10.144014129997231,
+      "id": "e0653d837e4a43838474ef8d49d58d67",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.173621346009895,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15325,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15379
       }
     },
     {
@@ -105265,6 +108487,34 @@
       }
     },
     {
+      "at": 1794375780.005521,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 282702,
+        "dropped_messages": 167,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.64977478000219,
+      "first_content_seconds": 5.64977478000219,
+      "first_delivered_seconds": 5.649780790990917,
+      "id": "e0c8014532f14c7089e2f9eda5ccf5e7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.679190023976844,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
+      }
+    },
+    {
       "at": 1794297395.0971692,
       "complete": true,
       "first_any_seconds": 2.392600699007744,
@@ -105308,6 +108558,34 @@
           "cached_tokens": 11511
         },
         "total_tokens": 12271
+      }
+    },
+    {
+      "at": 1794375911.9554691,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45855,
+        "applied": true,
+        "before_bytes": 375291,
+        "dropped_messages": 230,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.7579199750034604,
+      "first_content_seconds": 0.7579199750034604,
+      "first_delivered_seconds": 0.7579261869832408,
+      "id": "e0ee99d61ce04e23921b7b51594bfca8",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.7881829529942479,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 13010,
+        "prompt_tokens_details": {
+          "cached_tokens": 12888
+        },
+        "total_tokens": 13035
       }
     },
     {
@@ -106463,6 +109741,34 @@
       }
     },
     {
+      "at": 1794376037.4207253,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45416,
+        "applied": true,
+        "before_bytes": 417630,
+        "dropped_messages": 275,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.422521227010293,
+      "first_content_seconds": 8.422521227010293,
+      "first_delivered_seconds": 8.42252723799902,
+      "id": "e3205b0cc56b453abb088a37c350bbb3",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 8.45302292300039,
+      "usage": {
+        "completion_tokens": 17,
+        "prompt_tokens": 13307,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13324
+      }
+    },
+    {
       "at": 1794322898.007537,
       "complete": true,
       "first_any_seconds": 41.68769052400603,
@@ -107515,6 +110821,34 @@
           "cached_tokens": 4686
         },
         "total_tokens": 4866
+      }
+    },
+    {
+      "at": 1794375915.6072893,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47730,
+        "applied": true,
+        "before_bytes": 377166,
+        "dropped_messages": 230,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.845144507009536,
+      "first_content_seconds": 0.845144507009536,
+      "first_delivered_seconds": 0.8451505390112288,
+      "id": "e59f5bf9fd8d4a0b85671b33f6256042",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.8753164939989801,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 13548,
+        "prompt_tokens_details": {
+          "cached_tokens": 13493
+        },
+        "total_tokens": 13582
       }
     },
     {
@@ -109472,6 +112806,19 @@
       }
     },
     {
+      "at": 1794376308.3147821,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "e9e6ec095c644c96a62c1cf300a9a7ad",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004185657977359369,
+      "usage": null
+    },
+    {
       "at": 1794352698.6258674,
       "complete": true,
       "first_any_seconds": 0.7618668570066802,
@@ -109948,6 +113295,34 @@
           "cached_tokens": 29914
         },
         "total_tokens": 30045
+      }
+    },
+    {
+      "at": 1794376295.4550476,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47584,
+        "applied": true,
+        "before_bytes": 489754,
+        "dropped_messages": 325,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.787638390000211,
+      "first_content_seconds": 10.787638390000211,
+      "first_delivered_seconds": 10.78764482200495,
+      "id": "ea9707f56c58446286da0bd795c8da78",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.816994875000091,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15851,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15905
       }
     },
     {
@@ -110785,6 +114160,19 @@
         },
         "total_tokens": 9597
       }
+    },
+    {
+      "at": 1794376188.5664248,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "ec733e0fd5eb469bba3b853d6cce13fe",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.0040594809979666024,
+      "usage": null
     },
     {
       "at": 1794299572.132531,
@@ -112488,6 +115876,34 @@
       }
     },
     {
+      "at": 1794376047.097353,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47812,
+        "applied": true,
+        "before_bytes": 420026,
+        "dropped_messages": 275,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4662089470075443,
+      "first_content_seconds": 1.4662089470075443,
+      "first_delivered_seconds": 1.466216411005007,
+      "id": "f054bdb5e4e64645a56519d21b7eb601",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 1.496051644004183,
+      "usage": {
+        "completion_tokens": 51,
+        "prompt_tokens": 14096,
+        "prompt_tokens_details": {
+          "cached_tokens": 13401
+        },
+        "total_tokens": 14147
+      }
+    },
+    {
       "at": 1794361468.2902777,
       "complete": true,
       "context_policy": {
@@ -112892,6 +116308,34 @@
       }
     },
     {
+      "at": 1794375850.7654283,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 341782,
+        "dropped_messages": 207,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.658888712001499,
+      "first_content_seconds": 5.658888712001499,
+      "first_delivered_seconds": 5.65889558501658,
+      "id": "f12593af81d44ae5af983eb5aab1bd51",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 5.687987751007313,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13240,
+        "prompt_tokens_details": {
+          "cached_tokens": 13236
+        },
+        "total_tokens": 13604
+      }
+    },
+    {
       "at": 1794322407.7823856,
       "complete": true,
       "first_any_seconds": 1.933347253012471,
@@ -113117,6 +116561,34 @@
       }
     },
     {
+      "at": 1794376421.646432,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45829,
+        "applied": true,
+        "before_bytes": 523137,
+        "dropped_messages": 351,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.149876630021026,
+      "first_content_seconds": 10.149876630021026,
+      "first_delivered_seconds": 10.149880468001356,
+      "id": "f18a65c9c13540898831999bd7815776",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.17944886101759,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15263,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15317
+      }
+    },
+    {
       "at": 1794356491.2896345,
       "complete": true,
       "context_policy": {
@@ -113230,6 +116702,19 @@
         },
         "total_tokens": 10579
       }
+    },
+    {
+      "at": 1794376606.646528,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "f1c1f1b86ec348e590c5170cc3f3ad8c",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004316234000725672,
+      "usage": null
     },
     {
       "at": 1794369377.7992918,
@@ -115493,6 +118978,34 @@
       }
     },
     {
+      "at": 1794376174.5001335,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46503,
+        "applied": true,
+        "before_bytes": 460256,
+        "dropped_messages": 303,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.1527850260026753,
+      "first_content_seconds": 1.1527850260026753,
+      "first_delivered_seconds": 1.1527904260146897,
+      "id": "f68eee0c857e4f2c8f83e2b52fb56b99",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 1.1830027299874928,
+      "usage": {
+        "completion_tokens": 53,
+        "prompt_tokens": 15372,
+        "prompt_tokens_details": {
+          "cached_tokens": 15327
+        },
+        "total_tokens": 15425
+      }
+    },
+    {
       "at": 1794370270.9787467,
       "complete": true,
       "context_policy": {
@@ -115532,6 +119045,19 @@
         },
         "total_tokens": 6264
       }
+    },
+    {
+      "at": 1794376669.1640847,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "f6a90e16cdfa4482bad973e181c4b6d7",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004376667027827352,
+      "usage": null
     },
     {
       "at": 1794359405.0698109,
@@ -117399,6 +120925,34 @@
       }
     },
     {
+      "at": 1794375961.0194519,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44264,
+        "applied": true,
+        "before_bytes": 397332,
+        "dropped_messages": 246,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 13.543406474986114,
+      "first_content_seconds": 13.543406474986114,
+      "first_delivered_seconds": 13.543412395985797,
+      "id": "fa3d4cd8464e4ba6b388ec93f35dbafb",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 13.572694330010563,
+      "usage": {
+        "completion_tokens": 364,
+        "prompt_tokens": 13212,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13576
+      }
+    },
+    {
       "at": 1794356970.1745598,
       "complete": true,
       "context_policy": {
@@ -118153,6 +121707,34 @@
       }
     },
     {
+      "at": 1794375914.676155,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47449,
+        "applied": true,
+        "before_bytes": 376885,
+        "dropped_messages": 230,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8638652389927302,
+      "first_content_seconds": 0.8638652389927302,
+      "first_delivered_seconds": 0.8638717709982302,
+      "id": "fbd5b144ccff42d5bf50d27bdcdb7d6f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.8940031210076995,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 13460,
+        "prompt_tokens_details": {
+          "cached_tokens": 13368
+        },
+        "total_tokens": 13494
+      }
+    },
+    {
       "at": 1794364548.4616008,
       "complete": true,
       "context_policy": {
@@ -118476,6 +122058,34 @@
           "cached_tokens": 6727
         },
         "total_tokens": 7691
+      }
+    },
+    {
+      "at": 1794376260.4799902,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46207,
+        "applied": true,
+        "before_bytes": 481399,
+        "dropped_messages": 321,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.371841342013795,
+      "first_content_seconds": 10.371841342013795,
+      "first_delivered_seconds": 10.371844758017687,
+      "id": "fcc3785f45194fbaafab14db126b88e7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.401194680016488,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15365,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15419
       }
     },
     {
@@ -119373,6 +122983,34 @@
       }
     },
     {
+      "at": 1794376631.4019172,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46579,
+        "applied": true,
+        "before_bytes": 574045,
+        "dropped_messages": 375,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.736216237011831,
+      "first_content_seconds": 10.736216237011831,
+      "first_delivered_seconds": 10.736221026018029,
+      "id": "fee2a75f1c8048308052c7cd79517937",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 10.765952896006638,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 15651,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15705
+      }
+    },
+    {
       "at": 1794295947.7678952,
       "complete": true,
       "first_any_seconds": 0.45831086998805404,
@@ -119530,6 +123168,19 @@
         },
         "total_tokens": 7815
       }
+    },
+    {
+      "at": 1794376493.668235,
+      "complete": false,
+      "error": "Pinned instructions/tools exceed the experimental context budget",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "ff5415f68cff41f89a024e4162a26ca2",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
+      "seconds": 0.004074450000189245,
+      "usage": null
     },
     {
       "at": 1794330573.7299027,
