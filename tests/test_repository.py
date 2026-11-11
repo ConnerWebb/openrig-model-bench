@@ -16,6 +16,15 @@ class FrozenSuite(unittest.TestCase):
  def test_original_h4_checker_is_byte_identical(self):
   root=pathlib.Path(__file__).resolve().parents[1];source=root/'archive/harness/frozen-harness-v4.2'
   for name in ['common.py','catalog.py','cases.py']:self.assertEqual((suite_path('h4')/name).read_bytes(),(source/name).read_bytes())
+class CurrentSuite(unittest.TestCase):
+ def test_h5_checker_and_oracles_match_deployment_archive(self):
+  root=pathlib.Path(__file__).resolve().parents[1]
+  for name in ['common.py','catalog.py','cases.py']:self.assertEqual((suite_path('h5')/name).read_bytes(),(root/'archive/harness/frozen-harness-v5'/name).read_bytes())
+  for name in ['catalog.py','cases.py']:self.assertEqual((suite_path('h5')/name).read_bytes(),(suite_path('h4')/name).read_bytes())
+ def test_current_materialization_exposes_raw_public_input_and_driver_only(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   d=pathlib.Path(tmp)/'candidate';main(['--suite','h5','materialize','py-csv',str(d)])
+   tasks,cases=definitions('h5');self.assertEqual((d/'PUBLIC_DRIVER.py').read_text(),tasks['py-csv']['driver']);self.assertEqual((d/'public-inputs/case-00.csv').read_text(),cases.cases('py-csv',71,False)[0][0]['csv']);self.assertFalse((d/'cases.py').exists())
 class SnapshotSafety(unittest.TestCase):
  def test_credentials_scrubbed(self):
   token=('gho_'+'x'*40).encode();data,count=scrub(b'key='+token);self.assertNotIn(token,data);self.assertEqual(count,1)

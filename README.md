@@ -1,6 +1,6 @@
 # OpenRig model benchmark
 
-Private, versioned Python/C++ coding tests and preserved local-model results for the Framework Desktop Ryzen AI Max+ 395, 128 GB RAM, Fedora 44.
+Versioned Python/C++ coding tests and preserved local-model results for the Framework Desktop Ryzen AI Max+ 395, 128 GB RAM, Fedora 44.
 
 This repository backs up the experiment. It is **not the live campaign directory**. Its backup process reads completed artifacts without restarting inference, changing production settings, or running another model. New snapshots are committed and pushed approximately every 15 minutes while this campaign is active. Failed pushes retain local commits and retry.
 
