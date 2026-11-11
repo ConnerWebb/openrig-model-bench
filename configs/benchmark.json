@@ -1,5 +1,5 @@
 {
-  "suite": "h5.3",
+  "suite": "h5.4",
   "main_context": 32768,
   "sampling": {
     "temperature": 0.2,
@@ -74,5 +74,6 @@
     ]
   },
   "independent_feedback": "Separate verdict, count, diagnostics and redaction per required build; explicit failed/skipped modes",
-  "repair_probe": "Seed preserved faulty Qwen3.5 artifact, without operator corrections, to test model reaction to full ASan feedback; excluded from solo coding scores"
+  "repair_probe": "Seed preserved faulty Qwen3.5 artifact, without operator corrections, to test model reaction to full ASan feedback; excluded from solo coding scores",
+  "compaction_summary_policy": "For exact tool-free Pi summarization envelopes, preserve system and output-format instructions; bound transcript head/recent tail to48000 UTF-8 serialized message bytes; full original archived. Ordinary/tool-enabled pinned instructions unchanged."
 }
