@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-11T21:48:38.245892+00:00",
+  "as_of_utc": "2026-11-11T22:03:50.367588+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 203,
+  "completed_case_records": 206,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -221,6 +221,22 @@
       "revision": "h5.3"
     },
     {
+      "count": 2,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": true,
+      "phase": "solo",
+      "revision": "h5.5"
+    },
+    {
+      "count": 1,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": false,
+      "phase": "solo",
+      "revision": "h5.5"
+    },
+    {
       "count": 18,
       "interrupted": false,
       "language": "cpp",
@@ -259,6 +275,14 @@
       "passed": true,
       "phase": "solo",
       "revision": "h5.4"
+    },
+    {
+      "count": 2,
+      "interrupted": false,
+      "language": "python",
+      "passed": true,
+      "phase": "solo",
+      "revision": "h5.5"
     },
     {
       "count": 6,
@@ -341,14 +365,6 @@
       "revision": "h5.1"
     },
     {
-      "count": 1,
-      "interrupted": false,
-      "language": "cpp",
-      "passed": true,
-      "phase": "solo",
-      "revision": "h5.5"
-    },
-    {
       "count": 3,
       "interrupted": false,
       "language": "cpp",
@@ -390,14 +406,6 @@
     },
     {
       "count": 1,
-      "interrupted": false,
-      "language": "python",
-      "passed": true,
-      "phase": "solo",
-      "revision": "h5.5"
-    },
-    {
-      "count": 1,
       "interrupted": true,
       "language": "python",
       "passed": false,
@@ -413,7 +421,7 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 10421,
+  "finished_transport_streams": 10508,
   "in_progress_not_scored": [
     "plan-next-cpp-buffer-h5.4",
     "plan-next-py-queue-h5.4",
@@ -421,11 +429,11 @@
     "probe-next-cpp-binary-defective-0-h5.4",
     "probe-next-py-refactor-correct-0-h5.4",
     "probe-next-py-refactor-defective-0-h5.4",
-    "solo-coder30-cpp-csv-s42-h5.5"
+    "solo-nemo-py-csv-s42-h5.5"
   ],
   "status": {
-    "at": 1794431507.4611218,
-    "current": "solo-coder30-cpp-csv-s42-h5.5",
+    "at": 1794434392.9697585,
+    "current": "solo-nemo-py-csv-s42-h5.5",
     "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign",
     "harness_revision": "h5.5",
     "phase": "solo",
