@@ -48,10 +48,16 @@
     "models": "{'developer': 'next'}",
     "agents": 1,
     "passed": 1,
-    "attempted": 1,
-    "case_wall_seconds_sum": 255.583349943161,
-    "accepted_tasks_per_hour": 14.085424581846201,
-    "failures": []
+    "attempted": 2,
+    "case_wall_seconds_sum": 755.1780428886414,
+    "accepted_tasks_per_hour": 4.767087753544307,
+    "failures": [
+      {
+        "id": "solo-next-py-csv-s43-h5.4",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   },
   {
     "phase": "solo",
@@ -406,10 +412,10 @@
     "task": "cpp-stats",
     "models": "{'developer': 'next'}",
     "agents": 1,
-    "passed": 0,
-    "attempted": 1,
-    "case_wall_seconds_sum": 352.6845064163208,
-    "accepted_tasks_per_hour": 0.0,
+    "passed": 1,
+    "attempted": 2,
+    "case_wall_seconds_sum": 656.8757259845734,
+    "accepted_tasks_per_hour": 5.480488709799798,
     "failures": [
       {
         "id": "solo-next-cpp-stats-s42-h5.4",
@@ -424,10 +430,10 @@
     "task": "py-refactor",
     "models": "{'developer': 'next'}",
     "agents": 1,
-    "passed": 2,
-    "attempted": 2,
-    "case_wall_seconds_sum": 318.0945043563843,
-    "accepted_tasks_per_hour": 22.634782749762064,
+    "passed": 3,
+    "attempted": 3,
+    "case_wall_seconds_sum": 388.4521698951721,
+    "accepted_tasks_per_hour": 27.802650717370152,
     "failures": []
   },
   {
