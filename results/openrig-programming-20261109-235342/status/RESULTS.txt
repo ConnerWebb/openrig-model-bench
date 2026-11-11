@@ -1,16 +1,15 @@
 OPENRIG PYTHON / C++ CAMPAIGN — LIVE CHECKPOINT
 
 /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342
-State: {'phase': 'solo', 'at': 1794368600.2170293, 'pid': 3235388, 'harness_revision': 'h5.2', 'dispatch_plan': 'paired-language-screen-then-full-suite', 'current': 'solo-next-py-queue-s42-h5.2'}
+State: {'phase': 'solo', 'at': 1794370022.3123062, 'pid': 3235388, 'harness_revision': 'h5.2', 'dispatch_plan': 'paired-language-screen-then-full-suite', 'current': 'solo-next-cpp-queue-s42-h5.2'}
 Active harness revision: h5.2
 Historical pre-repair results remain intact in runs/ and progress/; they are not mixed into this revision's rankings. All previous completed cells are rerun, including earlier passes.
 
 Independent task acceptance is the success criterion. Python and C++ are scored separately. Aliases are not additional models. Qualification and probes are not included in solo/team rankings.
 
 PHASE solo
-python: 10/12 accepted
+python: 10/13 accepted
   {'developer': 'gpt20'}, 1 agents: 1/1; sum job seconds 53.9; accepted/hour 66.734
-  {'developer': 'next'}, 1 agents: 1/1; sum job seconds 89.1; accepted/hour 40.423
   {'developer': 'gpt120'}, 1 agents: 1/1; sum job seconds 149.3; accepted/hour 24.119
   {'developer': 'q9'}, 1 agents: 1/1; sum job seconds 190.0; accepted/hour 18.944
   {'developer': 'q35'}, 1 agents: 1/1; sum job seconds 195.2; accepted/hour 18.445
@@ -19,6 +18,7 @@ python: 10/12 accepted
   {'developer': 'q27q8'}, 1 agents: 1/1; sum job seconds 333.2; accepted/hour 10.804
   {'developer': 'q27q4'}, 1 agents: 1/1; sum job seconds 609.0; accepted/hour 5.911
   {'developer': 'devstral'}, 1 agents: 1/1; sum job seconds 703.5; accepted/hour 5.118
+  {'developer': 'next'}, 1 agents: 1/2; sum job seconds 1510.8; accepted/hour 2.383
   {'developer': 'nemo'}, 1 agents: 0/1; sum job seconds 1081.6; accepted/hour 0.000
   {'developer': 'coder30'}, 1 agents: 0/1; sum job seconds 2708.4; accepted/hour 0.000
 cpp: 8/12 accepted
