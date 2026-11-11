@@ -160,5 +160,41 @@
     "case_wall_seconds_sum": 1440.056386232376,
     "accepted_tasks_per_hour": 2.4999021110685056,
     "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'devstral'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 1167.9631083011627,
+    "accepted_tasks_per_hour": 3.0822891360295683,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'glm'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 144.0465383529663,
+    "accepted_tasks_per_hour": 24.991923035170018,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'glm'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 108.94449806213379,
+    "accepted_tasks_per_hour": 33.044348856853965,
+    "failures": []
   }
 ]

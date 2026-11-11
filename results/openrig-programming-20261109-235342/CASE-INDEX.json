@@ -1244,6 +1244,21 @@
     "stored_result_sha256": "45654b80efc85b7e96b1d568b0fe51e5f3dfcb380b3f29bc4b528c5edd2e6d3d"
   },
   {
+    "artifact": "artifacts/cases/solo-devstral-cpp-buffer-s42-h5.5-dd0a3e6b31ceafb9a4e6.tar.gz",
+    "complete": true,
+    "directory": "solo-devstral-cpp-buffer-s42-h5.5",
+    "id": "solo-devstral-cpp-buffer-s42-h5.5",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "devstral"
+    },
+    "phase": "solo",
+    "revision": "h5.5",
+    "source_result_sha256": "dd0a3e6b31ceafb9a4e6a654f05b28b50dedbaef43d890ac091e6197ca5cd285",
+    "stored_result_sha256": "dd0a3e6b31ceafb9a4e6a654f05b28b50dedbaef43d890ac091e6197ca5cd285"
+  },
+  {
     "artifact": "artifacts/cases/solo-devstral-py-csv-s42-h4-cf3c99daf5b2ac9962d8.tar.gz",
     "complete": false,
     "directory": "solo-devstral-py-csv-s42-h4",
@@ -1349,6 +1364,21 @@
     "stored_result_sha256": "100d942bef2999d98408e621aae14aa339616dcd9d01f05359cca9fc700fb532"
   },
   {
+    "artifact": "artifacts/cases/solo-glm-cpp-buffer-s42-h5.5-6a2ce7aa902cc99f7134.tar.gz",
+    "complete": true,
+    "directory": "solo-glm-cpp-buffer-s42-h5.5",
+    "id": "solo-glm-cpp-buffer-s42-h5.5",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "glm"
+    },
+    "phase": "solo",
+    "revision": "h5.5",
+    "source_result_sha256": "6a2ce7aa902cc99f7134be67cb4446b03044a04e0f8810160160ff36eb101f9c",
+    "stored_result_sha256": "6a2ce7aa902cc99f7134be67cb4446b03044a04e0f8810160160ff36eb101f9c"
+  },
+  {
     "artifact": "artifacts/cases/solo-glm-py-csv-s42-h4-373f51a2179bb8487ba9.tar.gz",
     "complete": false,
     "directory": "solo-glm-py-csv-s42-h4",
@@ -1392,6 +1422,21 @@
     "revision": "h5.4",
     "source_result_sha256": "9d6d9060feaf1fd103692d39191e011f787737c8959cfea6c1d7530a04460bdb",
     "stored_result_sha256": "9d6d9060feaf1fd103692d39191e011f787737c8959cfea6c1d7530a04460bdb"
+  },
+  {
+    "artifact": "artifacts/cases/solo-glm-py-csv-s42-h5.5-882ff225cb0beced3169.tar.gz",
+    "complete": true,
+    "directory": "solo-glm-py-csv-s42-h5.5",
+    "id": "solo-glm-py-csv-s42-h5.5",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "glm"
+    },
+    "phase": "solo",
+    "revision": "h5.5",
+    "source_result_sha256": "882ff225cb0beced3169a8f43f2eb44d6df5fca715ebef426ecb297b91b335c7",
+    "stored_result_sha256": "882ff225cb0beced3169a8f43f2eb44d6df5fca715ebef426ecb297b91b335c7"
   },
   {
     "artifact": "artifacts/cases/solo-gpt120-cpp-buffer-s42-h4-a2062b03a6cebc37eecd.tar.gz",

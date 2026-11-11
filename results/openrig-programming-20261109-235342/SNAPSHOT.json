@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-11T23:02:26.166590+00:00",
+  "as_of_utc": "2026-11-11T23:17:39.375924+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 211,
+  "completed_case_records": 214,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -221,7 +221,7 @@
       "revision": "h5.3"
     },
     {
-      "count": 3,
+      "count": 5,
       "interrupted": false,
       "language": "cpp",
       "passed": true,
@@ -277,7 +277,7 @@
       "revision": "h5.4"
     },
     {
-      "count": 4,
+      "count": 5,
       "interrupted": false,
       "language": "python",
       "passed": true,
@@ -429,7 +429,7 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 10869,
+  "finished_transport_streams": 10930,
   "in_progress_not_scored": [
     "plan-next-cpp-buffer-h5.4",
     "plan-next-py-queue-h5.4",
@@ -437,11 +437,11 @@
     "probe-next-cpp-binary-defective-0-h5.4",
     "probe-next-py-refactor-correct-0-h5.4",
     "probe-next-py-refactor-defective-0-h5.4",
-    "solo-devstral-cpp-buffer-s42-h5.5"
+    "solo-q27q4-py-csv-s42-h5.5"
   ],
   "status": {
-    "at": 1794437448.1217794,
-    "current": "solo-devstral-cpp-buffer-s42-h5.5",
+    "at": 1794438873.5446842,
+    "current": "solo-q27q4-py-csv-s42-h5.5",
     "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign",
     "harness_revision": "h5.5",
     "phase": "solo",
