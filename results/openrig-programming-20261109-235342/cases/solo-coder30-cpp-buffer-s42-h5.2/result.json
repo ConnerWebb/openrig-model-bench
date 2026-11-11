@@ -1,0 +1,40 @@
+{
+  "id": "solo-coder30-cpp-buffer-s42-h5.2",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "coder30"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.2",
+  "started": 1794361104.2354274,
+  "complete": false,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-1177e8f05814",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794361106.1876068,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794361112.3832228,
+      "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+    },
+    {
+      "attempt": 3,
+      "started": 1794361118.4680936,
+      "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup.",
+  "finished": 1794361124.5567822,
+  "seconds": 20.321354866027832,
+  "resource_limited": false
+}
