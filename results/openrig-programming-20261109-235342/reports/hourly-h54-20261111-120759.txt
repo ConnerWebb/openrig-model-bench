@@ -1,0 +1,35 @@
+OpenRig hourly check — 2026-11-11T12:07:59.812919-06:00
+Coding harness h5.4 unchanged; independent observer monitor-m1.
+Python 26/31 accepted; C++ 18/31 accepted.
+Only finished h5.4 solo trials. Qualifications, probes, interruptions and other revisions excluded. Unequal coverage; do not rank models from total counts. Telemetry cohorts remain explicitly separate.
+
+milestone: Coder-Next full36-cell individual sweep completed: Python15/18, C++9/18. These cover18 task/seed cells per language, unlike partial coverage of other models.
+new_passes: Coder-Next seed44 HTTP, Python CSV, C++ CSV and statistics passed. Qwen3-Coder30B seed42 refactor, LRU and HTTP passed.
+new_failures: Coder-Next seed44 C++ queue never saved official verification; own test expects nonblocking push on a full blocking queue, then unchanged-command guard repeated. Buffer passed fixed normal/ASan but authored allocation test threw std::bad_alloc, then workflow guard exhausted. Qwen30B binary failed linking because encode/decode definitions missing and had no saved tests; repeated finish_stage without fresh passing receipt correctly rejected. These are model code/test/workflow failures, not native-tool transport breakage.
+current: Qwen3-Coder30B C++ queue seed42 remains pending. Latest official normal/ASan/TSan all pass, authored-test aggregate deadline fails. Do not score pending work or silently fix its tests.
+monitor_repair: Validated immutable independent observer monitor-m1,7 checks passed. Critical memory/OOM guard executes before optional sensor I/O and captures per-sensor errors. Started a new private observer service only; no coding/inference/production restart and no frozen h5.4 source change. Existing monitor/errors remain intact. Observer is separately labelled, low overhead and automatically exits on campaign completion.
+resource_safety: On critical resource failure, observer validates exact owned h5.4 main command and signals its existing interruption-preservation path; it does not fabricate a coding failure or change production. No real resource interruption occurred.
+backup: Full CoW pre-install checkpoint and native SQLite archive preserved. Observer source/tests/service/rollback committed30ae912; existing independent backup will push source plus this report.
+action: Continue finite campaign. No coding/acceptance changes or new scoring revision. Flag previous monitoring gaps rather than inventing resource measurements.
+
+Per-model Python/C++ accepted/finished:
+coder30: {"cpp": {"finished": 3, "passed": 1}, "python": {"finished": 3, "passed": 3}}
+devstral: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+glm: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 0}}
+gpt120: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+gpt20: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+nemo: {"cpp": {"finished": 1, "passed": 0}, "python": {"finished": 1, "passed": 0}}
+next: {"cpp": {"finished": 18, "passed": 9}, "python": {"finished": 18, "passed": 15}}
+q122: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+q27q4: {"cpp": {"finished": 1, "passed": 0}, "python": {"finished": 1, "passed": 1}}
+q27q8: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+q35: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+q9: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+
+Monitor gap: {"affected_completed": ["solo-coder30-cpp-binary-s42-h5.4", "solo-coder30-py-refactor-s42-h5.4", "solo-coder30-cpp-lru-s42-h5.4", "solo-coder30-py-http-s42-h5.4"], "error_count": 1211, "first_error_at": 1794418815.4894989, "last_error_at": 1794420244.5405436, "performance_note": "Earlier h5.4 telemetry has gaps; peaks are observed lower bounds only. Do not impute samples or pool old/new observer cohorts for resource-performance claims. Coding acceptance/contract/source/sampling unchanged, so no correctness rescore or immediate model rerun justified. Independent observer logs remain separate; healthy trial not interrupted.", "source": "optional mt7925_phy0 Wi-Fi temp1_input read returns OSError ELOOP intermittently; original whole-cycle thermal comprehension aborts resource/heartbeat update"}
+Observer validation: {"checks": {"at": 1794420259.1606138, "exit": 0, "passed": true, "scope": "Injected ELOOP, malformed/read/enumeration errors, real sysfs sample, low-memory window/recovery, OOM, strict signal ownership; no real signal delivered.", "tests": 7}, "current_available_bytes": 85704286208, "inference_cgroup_events": {"high": "0", "low": "0", "max": "0", "oom": "0", "oom_group_kill": "0", "oom_kill": "0", "sock_throttled": "0"}, "latest_age_seconds": 0.07083964347839355, "maximum_gap_seconds": 1.0447828769683838, "samples": 175, "sensor_error_samples": 0}
+Verified 32 frozen source files and 120 historical results. Production unchanged: True.
+Current task: solo-coder30-cpp-queue-s42-h5.4
+Checkpoint: /home/cow/Documents/Codex/Backups/openrig-programming/20261109-235342/before-resource-observer-m1-1794420259301619130
+Rollback: /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/repairs/monitor-m1/RESTORE.txt
+Campaign and hourly checks continue.
