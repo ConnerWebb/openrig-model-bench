@@ -593,12 +593,17 @@
     "models": "{'developer': 'next'}",
     "agents": 1,
     "passed": 1,
-    "attempted": 2,
-    "case_wall_seconds_sum": 2948.0584015846252,
-    "accepted_tasks_per_hour": 1.221142701265669,
+    "attempted": 3,
+    "case_wall_seconds_sum": 5242.314047336578,
+    "accepted_tasks_per_hour": 0.6867196370711564,
     "failures": [
       {
         "id": "solo-next-cpp-binary-s43-h5.4",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      },
+      {
+        "id": "solo-next-cpp-binary-s44-h5.4",
         "reason": "Repair budget exhausted",
         "resource_limited": false
       }
@@ -610,10 +615,10 @@
     "task": "cpp-lru",
     "models": "{'developer': 'next'}",
     "agents": 1,
-    "passed": 1,
-    "attempted": 2,
-    "case_wall_seconds_sum": 704.9546809196472,
-    "accepted_tasks_per_hour": 5.106711250294313,
+    "passed": 2,
+    "attempted": 3,
+    "case_wall_seconds_sum": 868.5190231800079,
+    "accepted_tasks_per_hour": 8.28997386106503,
     "failures": [
       {
         "id": "solo-next-cpp-lru-s43-h5.4",
@@ -628,10 +633,10 @@
     "task": "py-expression",
     "models": "{'developer': 'next'}",
     "agents": 1,
-    "passed": 2,
-    "attempted": 2,
-    "case_wall_seconds_sum": 1742.5839474201202,
-    "accepted_tasks_per_hour": 4.131795205998273,
+    "passed": 3,
+    "attempted": 3,
+    "case_wall_seconds_sum": 2379.651696205139,
+    "accepted_tasks_per_hour": 4.538479314944661,
     "failures": []
   },
   {

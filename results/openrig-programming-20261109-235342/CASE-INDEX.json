@@ -1525,6 +1525,21 @@
     "stored_result_sha256": "6ad35d972b4609e5b07458ed0655a100034f4bd1017ad07b40105a20dacfb170"
   },
   {
+    "artifact": "artifacts/cases/solo-next-cpp-binary-s44-h5.4-48e917f2c9a6c975208a.tar.gz",
+    "complete": false,
+    "directory": "solo-next-cpp-binary-s44-h5.4",
+    "id": "solo-next-cpp-binary-s44-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "48e917f2c9a6c975208a9db16e0d13a24a60f8e8d7a5115127bd5c9f3e9f9362",
+    "stored_result_sha256": "48e917f2c9a6c975208a9db16e0d13a24a60f8e8d7a5115127bd5c9f3e9f9362"
+  },
+  {
     "artifact": "artifacts/cases/solo-next-cpp-buffer-s42-56377dc7f9b49f2ca2bd.tar.gz",
     "complete": true,
     "directory": "solo-next-cpp-buffer-s42",
@@ -1748,6 +1763,21 @@
     "revision": "h5.4",
     "source_result_sha256": "2350d56805f33732e36e112df3b1839c3b712ee1018bae5a75e7cb80e76b26d2",
     "stored_result_sha256": "2350d56805f33732e36e112df3b1839c3b712ee1018bae5a75e7cb80e76b26d2"
+  },
+  {
+    "artifact": "artifacts/cases/solo-next-cpp-lru-s44-h5.4-d1ed74b7655518bb76f6.tar.gz",
+    "complete": true,
+    "directory": "solo-next-cpp-lru-s44-h5.4",
+    "id": "solo-next-cpp-lru-s44-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "d1ed74b7655518bb76f6b9a1ed5840912c96354149145e6433e5fd020064f95c",
+    "stored_result_sha256": "d1ed74b7655518bb76f6b9a1ed5840912c96354149145e6433e5fd020064f95c"
   },
   {
     "artifact": "artifacts/cases/solo-next-cpp-queue-s42-b63d04de2e6b31bb88f4.tar.gz",
@@ -2093,6 +2123,21 @@
     "revision": "h5.4",
     "source_result_sha256": "8041fcc3b0f9242525dba1d77aed2c6dce9850a4e627cc3d7f0def3e3ae0af20",
     "stored_result_sha256": "8041fcc3b0f9242525dba1d77aed2c6dce9850a4e627cc3d7f0def3e3ae0af20"
+  },
+  {
+    "artifact": "artifacts/cases/solo-next-py-expression-s44-h5.4-819060e2d7d3e6dce64a.tar.gz",
+    "complete": true,
+    "directory": "solo-next-py-expression-s44-h5.4",
+    "id": "solo-next-py-expression-s44-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "819060e2d7d3e6dce64a2d752364b13f630b35e36cca7d45f1acf88512f302e7",
+    "stored_result_sha256": "819060e2d7d3e6dce64a2d752364b13f630b35e36cca7d45f1acf88512f302e7"
   },
   {
     "artifact": "artifacts/cases/solo-next-py-http-s42-387859c6b9c3f64cb30d.tar.gz",
