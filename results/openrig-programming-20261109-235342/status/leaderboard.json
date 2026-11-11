@@ -384,12 +384,17 @@
     "models": "{'developer': 'next'}",
     "agents": 1,
     "passed": 0,
-    "attempted": 1,
-    "case_wall_seconds_sum": 2288.0414559841156,
+    "attempted": 2,
+    "case_wall_seconds_sum": 3485.316287279129,
     "accepted_tasks_per_hour": 0.0,
     "failures": [
       {
         "id": "solo-next-cpp-csv-s42-h5.4",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      },
+      {
+        "id": "solo-next-cpp-csv-s43-h5.4",
         "reason": "Repair budget exhausted",
         "resource_limited": false
       }
