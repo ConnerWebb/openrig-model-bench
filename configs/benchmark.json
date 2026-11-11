@@ -1,5 +1,5 @@
 {
-  "suite": "h5.1",
+  "suite": "h5.2",
   "main_context": 32768,
   "sampling": {
     "temperature": 0.2,
@@ -55,5 +55,7 @@
     "seeded fixed and private functional acceptance"
   ],
   "qualification": "Read-only known-correct supplied references/tests for the 3-seat workflow baseline; excluded from coding scores",
-  "test_log_policy": "Readable nonduplicated fixed-vs-authored verdicts, full structured evidence archived"
+  "test_log_policy": "Readable nonduplicated fixed-vs-authored verdicts, full structured evidence archived",
+  "broker_reply_budget_utf8_bytes": 100000,
+  "oversized_reply_policy": "Preserve full original result in operator control evidence; model-facing summary retains verdicts and native receipts; normal replies unchanged"
 }

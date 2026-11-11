@@ -25,11 +25,16 @@ class PreviousRepairSuite(unittest.TestCase):
   with tempfile.TemporaryDirectory() as tmp:
    d=pathlib.Path(tmp)/'candidate';main(['--suite','h5','materialize','py-csv',str(d)])
    tasks,cases=definitions('h5');self.assertEqual((d/'PUBLIC_DRIVER.py').read_text(),tasks['py-csv']['driver']);self.assertEqual((d/'public-inputs/case-00.csv').read_text(),cases.cases('py-csv',71,False)[0][0]['csv']);self.assertFalse((d/'cases.py').exists())
-class CurrentSuite(unittest.TestCase):
+class FollowupSuite(unittest.TestCase):
  def test_h51_source_identity_and_historical_oracles(self):
   root=pathlib.Path(__file__).resolve().parents[1]
   for name in ['common.py','catalog.py','cases.py']:self.assertEqual((suite_path('h5.1')/name).read_bytes(),(root/'archive/harness/frozen-harness-v5.1'/name).read_bytes())
   for name in ['catalog.py','cases.py']:self.assertEqual((suite_path('h5.1')/name).read_bytes(),(suite_path('h4')/name).read_bytes())
+class CurrentSuite(unittest.TestCase):
+ def test_h52_current_source_identity_and_original_oracles(self):
+  root=pathlib.Path(__file__).resolve().parents[1]
+  for name in ['common.py','catalog.py','cases.py']:self.assertEqual((suite_path('h5.2')/name).read_bytes(),(root/'archive/harness/frozen-harness-v5.2'/name).read_bytes())
+  for name in ['catalog.py','cases.py']:self.assertEqual((suite_path('h5.2')/name).read_bytes(),(suite_path('h4')/name).read_bytes())
 class SnapshotSafety(unittest.TestCase):
  def test_credentials_scrubbed(self):
   token=('gho_'+'x'*40).encode();data,count=scrub(b'key='+token);self.assertNotIn(token,data);self.assertEqual(count,1)
