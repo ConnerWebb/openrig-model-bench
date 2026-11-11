@@ -1,7 +1,7 @@
 OPENRIG PYTHON / C++ CAMPAIGN — LIVE CHECKPOINT
 
 /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342
-State: {'phase': 'solo', 'at': 1794419777.299076, 'pid': 3668881, 'harness_revision': 'h5.4', 'dispatch_plan': 'compaction-repair-rerun-then-full-campaign', 'current': 'solo-coder30-cpp-queue-s42-h5.4'}
+State: {'phase': 'solo', 'at': 1794421977.5590272, 'pid': 3668881, 'harness_revision': 'h5.4', 'dispatch_plan': 'compaction-repair-rerun-then-full-campaign', 'current': 'solo-coder30-cpp-stats-s42-h5.4'}
 Active harness revision: h5.4
 Historical pre-repair results remain intact in runs/ and progress/; they are not mixed into this revision's rankings. All previous completed cells are rerun, including earlier passes.
 
@@ -21,7 +21,7 @@ python: 26/31 accepted
   {'developer': 'next'}, 1 agents: 15/18; sum job seconds 8933.3; accepted/hour 6.045
   {'developer': 'glm'}, 1 agents: 0/1; sum job seconds 865.5; accepted/hour 0.000
   {'developer': 'nemo'}, 1 agents: 0/1; sum job seconds 1285.7; accepted/hour 0.000
-cpp: 18/31 accepted
+cpp: 18/32 accepted
   {'developer': 'gpt20'}, 1 agents: 1/1; sum job seconds 58.8; accepted/hour 61.221
   {'developer': 'q35'}, 1 agents: 1/1; sum job seconds 84.8; accepted/hour 42.465
   {'developer': 'gpt120'}, 1 agents: 1/1; sum job seconds 108.7; accepted/hour 33.130
@@ -31,7 +31,7 @@ cpp: 18/31 accepted
   {'developer': 'q9'}, 1 agents: 1/1; sum job seconds 715.2; accepted/hour 5.034
   {'developer': 'devstral'}, 1 agents: 1/1; sum job seconds 1639.8; accepted/hour 2.195
   {'developer': 'next'}, 1 agents: 9/18; sum job seconds 13605.1; accepted/hour 2.381
-  {'developer': 'coder30'}, 1 agents: 1/3; sum job seconds 3224.4; accepted/hour 1.117
+  {'developer': 'coder30'}, 1 agents: 1/4; sum job seconds 5424.2; accepted/hour 0.664
   {'developer': 'q27q4'}, 1 agents: 0/1; sum job seconds 1507.7; accepted/hour 0.000
   {'developer': 'nemo'}, 1 agents: 0/1; sum job seconds 1819.9; accepted/hour 0.000
 PHASE teams
