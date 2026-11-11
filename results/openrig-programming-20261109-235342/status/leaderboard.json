@@ -443,10 +443,16 @@
     "models": "{'developer': 'next'}",
     "agents": 1,
     "passed": 2,
-    "attempted": 2,
-    "case_wall_seconds_sum": 648.1552317142487,
-    "accepted_tasks_per_hour": 11.10845002509253,
-    "failures": []
+    "attempted": 3,
+    "case_wall_seconds_sum": 2858.0502212047577,
+    "accepted_tasks_per_hour": 2.5191999589723704,
+    "failures": [
+      {
+        "id": "solo-next-py-archive-s44-h5.4",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   },
   {
     "phase": "qualification",
