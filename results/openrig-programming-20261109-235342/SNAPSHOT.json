@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-11T14:35:57.624012+00:00",
+  "as_of_utc": "2026-11-11T14:51:07.630007+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 173,
+  "completed_case_records": 175,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -189,7 +189,7 @@
       "revision": "h5.3"
     },
     {
-      "count": 7,
+      "count": 8,
       "interrupted": false,
       "language": "cpp",
       "passed": false,
@@ -237,7 +237,7 @@
       "revision": "h5.2"
     },
     {
-      "count": 12,
+      "count": 13,
       "interrupted": false,
       "language": "cpp",
       "passed": true,
@@ -373,13 +373,13 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 8333,
+  "finished_transport_streams": 8418,
   "in_progress_not_scored": [
-    "solo-next-cpp-queue-s43-h5.4"
+    "solo-next-cpp-csv-s43-h5.4"
   ],
   "status": {
-    "at": 1794406777.4683533,
-    "current": "solo-next-cpp-queue-s43-h5.4",
+    "at": 1794408054.7453508,
+    "current": "solo-next-cpp-csv-s43-h5.4",
     "dispatch_plan": "compaction-repair-rerun-then-full-campaign",
     "harness_revision": "h5.4",
     "phase": "solo",
