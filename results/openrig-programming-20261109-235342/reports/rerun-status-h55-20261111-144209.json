@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-11T14:42:09.676230-06:00",
+  "scores_by_revision": {
+    "h5.4": {
+      "python": {
+        "passed": 26,
+        "finished": 32,
+        "failed": 6
+      },
+      "cpp": {
+        "passed": 18,
+        "finished": 34,
+        "failed": 16
+      }
+    },
+    "h5.5": {
+      "python": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 0,
+        "failed": 0
+      }
+    }
+  },
+  "current": {
+    "phase": "solo",
+    "at": 1794429543.3533137,
+    "pid": 637884,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign",
+    "current": "solo-next-cpp-buffer-s42-h5.5"
+  },
+  "guarded_qualification_baselines": {
+    "at": 1794429543.6795127,
+    "harness_revision": "h5.5",
+    "passed": true,
+    "qualification_not_coding_score": true,
+    "baselines": {
+      "python": {
+        "case": "qualification-python-frozen-h5.5",
+        "passed": true,
+        "seconds": 117.48553895950317,
+        "independent_review_approved": true,
+        "result_sha256": "07012bb8d24494f8e3b97be4afe29b3b11085e62bc01d792019bf012f5359bfa"
+      },
+      "cpp": {
+        "case": "qualification-cpp-frozen-h5.5",
+        "passed": true,
+        "seconds": 88.97641444206238,
+        "independent_review_approved": true,
+        "result_sha256": "a4f6b84d7d50ee729fbb836967c38144458ec2c1e198301b3bb8a689299f52ae"
+      }
+    }
+  },
+  "repair_live_replay_passed": true,
+  "transport_confounded_h54_trial": "solo-coder30-cpp-csv-s42-h5.4",
+  "no_revision_pooling": true,
+  "full_repair_report": "hourly-h55-20261111-143755-corrected",
+  "production_unchanged": true,
+  "rollback": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/repairs/h5.5/LOCAL-RESTORE.txt",
+  "campaign_unfinished": true
+}

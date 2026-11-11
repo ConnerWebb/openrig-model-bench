@@ -1,0 +1,35 @@
+OpenRig repair/rerun checkpoint — 2026-11-11T14:42:09.676230-06:00
+
+{
+  "h5.4": {
+    "python": {
+      "passed": 26,
+      "finished": 32,
+      "failed": 6
+    },
+    "cpp": {
+      "passed": 18,
+      "finished": 34,
+      "failed": 16
+    }
+  },
+  "h5.5": {
+    "python": {
+      "passed": 1,
+      "finished": 1,
+      "failed": 0
+    },
+    "cpp": {
+      "passed": 0,
+      "finished": 0,
+      "failed": 0
+    }
+  }
+}
+
+Current: solo-next-cpp-buffer-s42-h5.5
+Both fresh guarded qualification baselines passed; these are excluded from coding scores.
+Exact failed summary request now returns200/DONE through repaired transport.
+Affected Qwen3-Coder30B C++ CSV rerun follows the two scored Coder-Next controls.
+Old h5.4 transport-confounded trial and all earlier results preserved, not pooled.
+See hourly-h55-20261111-143755-corrected for validation, checkpoint, cleanup note and rollback.
