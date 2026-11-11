@@ -807,6 +807,21 @@
     "stored_result_sha256": "a2062b03a6cebc37eecdb5dce4cbeec1e4d349cbbb0606ed6874e59efe2d06ee"
   },
   {
+    "artifact": "artifacts/cases/solo-gpt120-cpp-buffer-s42-h5.2-02ce6aae2a6d56a70363.tar.gz",
+    "complete": true,
+    "directory": "solo-gpt120-cpp-buffer-s42-h5.2",
+    "id": "solo-gpt120-cpp-buffer-s42-h5.2",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "gpt120"
+    },
+    "phase": "solo",
+    "revision": "h5.2",
+    "source_result_sha256": "02ce6aae2a6d56a703630eaaca372aab553cb627ff7bab9596f3bea6a30e9b54",
+    "stored_result_sha256": "02ce6aae2a6d56a703630eaaca372aab553cb627ff7bab9596f3bea6a30e9b54"
+  },
+  {
     "artifact": "artifacts/cases/solo-gpt120-py-csv-s42-h4-910e0aae0df5d4513ae5.tar.gz",
     "complete": true,
     "directory": "solo-gpt120-py-csv-s42-h4",
@@ -852,6 +867,21 @@
     "stored_result_sha256": "270237843a6b542f3e074ff58f0fccd9461dadc74110f969c872141652700c0e"
   },
   {
+    "artifact": "artifacts/cases/solo-gpt20-cpp-buffer-s42-h5.2-592933d77226832585b6.tar.gz",
+    "complete": true,
+    "directory": "solo-gpt20-cpp-buffer-s42-h5.2",
+    "id": "solo-gpt20-cpp-buffer-s42-h5.2",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "gpt20"
+    },
+    "phase": "solo",
+    "revision": "h5.2",
+    "source_result_sha256": "592933d77226832585b6df5be55d85cf87240592a6f3e161bd9b9b59b3eb8f5c",
+    "stored_result_sha256": "592933d77226832585b6df5be55d85cf87240592a6f3e161bd9b9b59b3eb8f5c"
+  },
+  {
     "artifact": "artifacts/cases/solo-gpt20-py-csv-s42-h4-80c702f595005d805494.tar.gz",
     "complete": true,
     "directory": "solo-gpt20-py-csv-s42-h4",
@@ -865,6 +895,21 @@
     "revision": "h4",
     "source_result_sha256": "80c702f595005d805494cefad90c9705058abefe5a67164c1e85961dfaa323e8",
     "stored_result_sha256": "80c702f595005d805494cefad90c9705058abefe5a67164c1e85961dfaa323e8"
+  },
+  {
+    "artifact": "artifacts/cases/solo-gpt20-py-csv-s42-h5.2-5c4795c252c37b56c75a.tar.gz",
+    "complete": true,
+    "directory": "solo-gpt20-py-csv-s42-h5.2",
+    "id": "solo-gpt20-py-csv-s42-h5.2",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "gpt20"
+    },
+    "phase": "solo",
+    "revision": "h5.2",
+    "source_result_sha256": "5c4795c252c37b56c75a7b7cd024d58df7590cdef2770b274655bf98bc0d23cf",
+    "stored_result_sha256": "5c4795c252c37b56c75a7b7cd024d58df7590cdef2770b274655bf98bc0d23cf"
   },
   {
     "artifact": "artifacts/cases/solo-nemo-cpp-buffer-s42-h4-eac448322e60dc948922.tar.gz",

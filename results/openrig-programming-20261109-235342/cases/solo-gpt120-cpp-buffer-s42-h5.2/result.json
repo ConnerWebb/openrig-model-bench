@@ -1,0 +1,32 @@
+{
+  "id": "solo-gpt120-cpp-buffer-s42-h5.2",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "gpt120"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.2",
+  "started": 1794368353.9848316,
+  "complete": true,
+  "operator_interventions": 0,
+  "rig": "bench-261109235342-31efcb59aa3e",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794368354.8845775,
+      "incoming_feedback": "None. "
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "eb9ea40755200b4d47a072b740d4e9de213213fd665280234060e61345eff156",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-gpt120-cpp-buffer-s42-h5.2/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794368474.8398306,
+  "seconds": 120.85499906539917,
+  "resource_limited": false
+}

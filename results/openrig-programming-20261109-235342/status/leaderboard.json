@@ -322,5 +322,29 @@
     "case_wall_seconds_sum": 120.85499906539917,
     "accepted_tasks_per_hour": 29.78776242472109,
     "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'gpt20'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 53.94589924812317,
+    "accepted_tasks_per_hour": 66.73352470114301,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'gpt20'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 69.00097060203552,
+    "accepted_tasks_per_hour": 52.17317913921924,
+    "failures": []
   }
 ]
