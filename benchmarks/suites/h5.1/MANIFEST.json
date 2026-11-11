@@ -1,0 +1,15 @@
+{
+  "suite": "h5.1",
+  "origin_harness": "frozen-harness-v5.1",
+  "files": {
+    "catalog.py": "6ac6c2431e92c249cb44134a0b53eb4779dc9638a0d24d657792a4510dda8ae7",
+    "cases.py": "7aa70d2cd32258c233cd07644ed1faa91a20f1e8b594950d8c076cb680e3d106",
+    "common.py": "2feceaf7a52697374ee436a9175327e93ece4e06179a091ece2c533ccf492bc6"
+  },
+  "case_seeds": {
+    "public": 71,
+    "private_formula": "trial seed + 1000 + variant"
+  },
+  "immutable": true,
+  "note": "h4/h5 contracts and seeded oracles byte-identical; h5.1 is the current guarded transport/log/qualification revision"
+}

@@ -1,5 +1,5 @@
 {
-  "suite": "h5",
+  "suite": "h5.1",
   "main_context": 32768,
   "sampling": {
     "temperature": 0.2,
@@ -53,5 +53,7 @@
     "32K runtime context",
     "4096 output cap",
     "seeded fixed and private functional acceptance"
-  ]
+  ],
+  "qualification": "Read-only known-correct supplied references/tests for the 3-seat workflow baseline; excluded from coding scores",
+  "test_log_policy": "Readable nonduplicated fixed-vs-authored verdicts, full structured evidence archived"
 }
