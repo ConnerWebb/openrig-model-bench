@@ -1,0 +1,30 @@
+OpenRig hourly check — 2026-11-11T12:57:30.507932-06:00
+Python 26/31; C++ 18/32 accepted.
+Finished h5.4 solo trials only. Unequal coverage; qualifiers, probes, interrupted/incomplete trials and older revisions excluded. Observer telemetry kept separate; old sensor-fault gaps are not imputed.
+
+new_result: Qwen3-Coder30B C++ queue seed42 failed after3 attempts,36.66min. Latest fixed normal/ASan/TSan all pass. Saved test_submission.py imports solution.BoundedQueue, but implementation is C++ solution.hpp, so Python discovery correctly fails ModuleNotFoundError. Earlier authored-test deadline and final agent deadline remain preserved. Model-authored test/workflow failure; not broken tool-call transport or lost sanitizer feedback.
+current: Qwen3-Coder30B C++ statistics seed42 remains pending, second assignment active at inspection. Public normal cases0-3 fail offset1e9 population variance accuracy: saved source uses sum_squares/n - mean^2, causing cancellation. ASan explicitly skipped after normal failure. Own tests pass. Tool read/run/edit operations deliver evidence; nonunique exact-edit anchors are correctly rejected. No operator edits or reminders.
+monitor: Independent monitor-m1 has now sampled live through recurring Wi-Fi ELOOP errors while retaining optional sensor-error evidence. Essential memory and cgroup OOM observations continue at about1Hz. Original h5.4 monitor still records the sensor errors and intermittent heartbeat gaps, all retained. Separate observer heartbeat is fresh; no critical observer errors or resource interruptions.
+repairs: Qwen native-tool normalization/ordering and sanitizer-feedback fixes remain deployed unchanged. No new reproducible test harness, tool, transport or orchestration defect found. No private-service restart or harness change justified.
+preservation: Source hashes, historical results and production fingerprints match. No tests weakened, answers patched, interrupted work scored, or observer cohorts silently pooled. Earlier incomplete resource telemetry remains flagged in repairs/monitor-m1/telemetry-quality-window.json.
+action: Continue the bounded current trial and finite campaign; preserve and sync this checkpoint. No user intervention needed.
+
+Per-model accepted/finished:
+coder30: {"cpp": {"finished": 4, "passed": 1}, "python": {"finished": 3, "passed": 3}}
+devstral: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+glm: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 0}}
+gpt120: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+gpt20: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+nemo: {"cpp": {"finished": 1, "passed": 0}, "python": {"finished": 1, "passed": 0}}
+next: {"cpp": {"finished": 18, "passed": 9}, "python": {"finished": 18, "passed": 15}}
+q122: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+q27q4: {"cpp": {"finished": 1, "passed": 0}, "python": {"finished": 1, "passed": 1}}
+q27q8: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+q35: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+q9: {"cpp": {"finished": 1, "passed": 1}, "python": {"finished": 1, "passed": 1}}
+
+Independent observer: {"critical_error_record_exists": false, "latest_age_seconds": 0.16743063926696777, "maximum_gap_seconds": 1.1013360023498535, "minimum_available_bytes_since_previous_check": 84891893760, "observed_peak_gpu_gtt_used_bytes": 24658145280, "observed_peak_gpu_vram_used_bytes": 472965120, "observed_peak_system_used_bytes": 49407234048, "resource_interruptions": 0, "samples_since_install": 3071, "samples_since_previous_check": 2897, "sensor_error_samples_since_install": 2375, "swap_in_pages_delta": 366, "swap_out_pages_delta": 0}
+Original monitor/transport errors: {'[Errno 40] Too many levels of symbolic links': 2389, '[Errno 32] Broken pipe': 2}; cgroup memory events: {'low': '0', 'high': '0', 'max': '0', 'oom': '0', 'oom_kill': '0', 'oom_group_kill': '0', 'sock_throttled': '0'}.
+Verified 32 harness and 4 observer source files, 120 old results. Production unchanged: True.
+Current task: solo-coder30-cpp-stats-s42-h5.4
+No runtime/service changes during this check. Independent GitHub backup and hourly check continue.
