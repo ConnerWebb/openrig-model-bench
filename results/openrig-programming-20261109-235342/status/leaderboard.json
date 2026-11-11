@@ -466,5 +466,53 @@
     "case_wall_seconds_sum": 255.14796710014343,
     "accepted_tasks_per_hour": 14.109459859372622,
     "failures": []
+  },
+  {
+    "phase": "qualification",
+    "language": "python",
+    "task": "py-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 5,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 279.62910437583923,
+    "accepted_tasks_per_hour": 12.87419636820555,
+    "failures": []
+  },
+  {
+    "phase": "qualification",
+    "language": "python",
+    "task": "py-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 6,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 276.4510691165924,
+    "accepted_tasks_per_hour": 13.02219597668371,
+    "failures": []
+  },
+  {
+    "phase": "qualification",
+    "language": "cpp",
+    "task": "cpp-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 33.94672179222107,
+    "accepted_tasks_per_hour": 106.0485316383317,
+    "failures": []
+  },
+  {
+    "phase": "qualification",
+    "language": "cpp",
+    "task": "cpp-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 2,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 102.99207878112793,
+    "accepted_tasks_per_hour": 34.95414446047337,
+    "failures": []
   }
 ]
