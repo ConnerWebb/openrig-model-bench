@@ -588,10 +588,16 @@
     "models": "{'developer': 'next'}",
     "agents": 1,
     "passed": 1,
-    "attempted": 1,
-    "case_wall_seconds_sum": 191.10449814796448,
-    "accepted_tasks_per_hour": 18.837861143449725,
-    "failures": []
+    "attempted": 2,
+    "case_wall_seconds_sum": 704.9546809196472,
+    "accepted_tasks_per_hour": 5.106711250294313,
+    "failures": [
+      {
+        "id": "solo-next-cpp-lru-s43-h5.4",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   },
   {
     "phase": "solo",
@@ -599,10 +605,10 @@
     "task": "py-expression",
     "models": "{'developer': 'next'}",
     "agents": 1,
-    "passed": 1,
-    "attempted": 1,
-    "case_wall_seconds_sum": 1541.6696813106537,
-    "accepted_tasks_per_hour": 2.3351305689163273,
+    "passed": 2,
+    "attempted": 2,
+    "case_wall_seconds_sum": 1742.5839474201202,
+    "accepted_tasks_per_hour": 4.131795205998273,
     "failures": []
   },
   {
@@ -611,10 +617,10 @@
     "task": "py-http",
     "models": "{'developer': 'next'}",
     "agents": 1,
-    "passed": 1,
-    "attempted": 1,
-    "case_wall_seconds_sum": 259.2356879711151,
-    "accepted_tasks_per_hour": 13.886976859455878,
+    "passed": 2,
+    "attempted": 2,
+    "case_wall_seconds_sum": 414.46670293807983,
+    "accepted_tasks_per_hour": 17.37172117557453,
     "failures": []
   }
 ]

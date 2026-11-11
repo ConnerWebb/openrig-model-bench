@@ -1705,6 +1705,21 @@
     "stored_result_sha256": "7bd0f2939a13d491998abaa023ab74605828e4c90362093839976762d3aa59d6"
   },
   {
+    "artifact": "artifacts/cases/solo-next-cpp-lru-s43-h5.4-2350d56805f33732e36e.tar.gz",
+    "complete": false,
+    "directory": "solo-next-cpp-lru-s43-h5.4",
+    "id": "solo-next-cpp-lru-s43-h5.4",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "2350d56805f33732e36e112df3b1839c3b712ee1018bae5a75e7cb80e76b26d2",
+    "stored_result_sha256": "2350d56805f33732e36e112df3b1839c3b712ee1018bae5a75e7cb80e76b26d2"
+  },
+  {
     "artifact": "artifacts/cases/solo-next-cpp-queue-s42-b63d04de2e6b31bb88f4.tar.gz",
     "complete": false,
     "directory": "solo-next-cpp-queue-s42",
@@ -1975,6 +1990,21 @@
     "stored_result_sha256": "b131cda579c124638b44a94b5c32a0a2039a27942caf29e6bcd32dfd94b51171"
   },
   {
+    "artifact": "artifacts/cases/solo-next-py-expression-s43-h5.4-8041fcc3b0f9242525db.tar.gz",
+    "complete": true,
+    "directory": "solo-next-py-expression-s43-h5.4",
+    "id": "solo-next-py-expression-s43-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "8041fcc3b0f9242525dba1d77aed2c6dce9850a4e627cc3d7f0def3e3ae0af20",
+    "stored_result_sha256": "8041fcc3b0f9242525dba1d77aed2c6dce9850a4e627cc3d7f0def3e3ae0af20"
+  },
+  {
     "artifact": "artifacts/cases/solo-next-py-http-s42-387859c6b9c3f64cb30d.tar.gz",
     "complete": true,
     "directory": "solo-next-py-http-s42",
@@ -2003,6 +2033,21 @@
     "revision": "h5.4",
     "source_result_sha256": "560461a8861cc5561f603c7d16be3eaf4feab4e5c8a0f73445c2ff98833e76db",
     "stored_result_sha256": "560461a8861cc5561f603c7d16be3eaf4feab4e5c8a0f73445c2ff98833e76db"
+  },
+  {
+    "artifact": "artifacts/cases/solo-next-py-http-s43-h5.4-474c0d9f2f3e371d775a.tar.gz",
+    "complete": true,
+    "directory": "solo-next-py-http-s43-h5.4",
+    "id": "solo-next-py-http-s43-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "next"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "474c0d9f2f3e371d775a801e318cc7acedd3fbde9a1f0de4f38f56692c8bc6a9",
+    "stored_result_sha256": "474c0d9f2f3e371d775a801e318cc7acedd3fbde9a1f0de4f38f56692c8bc6a9"
   },
   {
     "artifact": "artifacts/cases/solo-next-py-queue-s42-f67654b323254d85a0b8.tar.gz",
