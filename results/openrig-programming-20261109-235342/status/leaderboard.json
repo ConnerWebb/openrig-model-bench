@@ -184,5 +184,41 @@
     "case_wall_seconds_sum": 247.9323000907898,
     "accepted_tasks_per_hour": 14.520092778075805,
     "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'glm'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 97.04435873031616,
+    "accepted_tasks_per_hour": 37.096437619875566,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'q27q4'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 609.0369544029236,
+    "accepted_tasks_per_hour": 5.910971368772362,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'q27q4'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 254.94865107536316,
+    "accepted_tasks_per_hour": 14.120490478436912,
+    "failures": []
   }
 ]
