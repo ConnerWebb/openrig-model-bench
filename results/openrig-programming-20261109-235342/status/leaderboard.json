@@ -570,10 +570,16 @@
     "models": "{'developer': 'next'}",
     "agents": 1,
     "passed": 1,
-    "attempted": 1,
-    "case_wall_seconds_sum": 241.93686270713806,
-    "accepted_tasks_per_hour": 14.879915196543491,
-    "failures": []
+    "attempted": 2,
+    "case_wall_seconds_sum": 2948.0584015846252,
+    "accepted_tasks_per_hour": 1.221142701265669,
+    "failures": [
+      {
+        "id": "solo-next-cpp-binary-s43-h5.4",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   },
   {
     "phase": "solo",
