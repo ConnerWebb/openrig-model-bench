@@ -90,6 +90,34 @@
       }
     },
     {
+      "at": 1794382781.7351768,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46132,
+        "applied": true,
+        "before_bytes": 246536,
+        "dropped_messages": 227,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.6510910570214037,
+      "first_content_seconds": 0.6510910570214037,
+      "first_delivered_seconds": 0.6510970890230965,
+      "id": "005a3fff9ccc4ba087ac11872f6f090f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.6804744630062487,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 12393,
+        "prompt_tokens_details": {
+          "cached_tokens": 12141
+        },
+        "total_tokens": 12407
+      }
+    },
+    {
       "at": 1794299490.8003662,
       "complete": true,
       "first_any_seconds": 2.0622025720076635,
@@ -195,6 +223,34 @@
       }
     },
     {
+      "at": 1794383198.0302582,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41493,
+        "applied": true,
+        "before_bytes": 418119,
+        "dropped_messages": 362,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8223469989898149,
+      "first_content_seconds": 0.8223469989898149,
+      "first_delivered_seconds": 0.8223522090120241,
+      "id": "00bc163d5bbe4a69aabb34f04c45f33e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.853534847003175,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9917,
+        "prompt_tokens_details": {
+          "cached_tokens": 9890
+        },
+        "total_tokens": 9951
+      }
+    },
+    {
       "at": 1794300545.1423728,
       "complete": true,
       "first_any_seconds": 1.0405492080026306,
@@ -228,6 +284,34 @@
           "cached_tokens": 11430
         },
         "total_tokens": 13343
+      }
+    },
+    {
+      "at": 1794383066.572816,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43152,
+        "applied": true,
+        "before_bytes": 374210,
+        "dropped_messages": 320,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 18.048412700998597,
+      "first_content_seconds": 18.048412700998597,
+      "first_delivered_seconds": 18.04841883300105,
+      "id": "00d9f5bd50f34a3c85a6c2be91b15263",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 18.077358334005112,
+      "usage": {
+        "completion_tokens": 730,
+        "prompt_tokens": 11801,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12531
       }
     },
     {
@@ -1889,6 +1973,34 @@
           "cached_tokens": 9430
         },
         "total_tokens": 9653
+      }
+    },
+    {
+      "at": 1794383150.433086,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47975,
+        "applied": true,
+        "before_bytes": 405162,
+        "dropped_messages": 344,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 12.641231757006608,
+      "first_content_seconds": 12.641231757006608,
+      "first_delivered_seconds": 12.641236586001469,
+      "id": "0431050b05274f27bb4dbd13a147fb52",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 12.671134949021507,
+      "usage": {
+        "completion_tokens": 385,
+        "prompt_tokens": 11548,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11933
       }
     },
     {
@@ -4142,6 +4254,34 @@
       }
     },
     {
+      "at": 1794382727.59442,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43379,
+        "applied": true,
+        "before_bytes": 218540,
+        "dropped_messages": 216,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.244545879977522,
+      "first_content_seconds": 7.244545879977522,
+      "first_delivered_seconds": 7.244550367991906,
+      "id": "08888a3c1fde4960aef79d7c19edd8f9",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.273709551984211,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 10951,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11008
+      }
+    },
+    {
       "at": 1794366012.6780932,
       "complete": true,
       "context_policy": {
@@ -4382,6 +4522,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 4675
+      }
+    },
+    {
+      "at": 1794382581.7589054,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46107,
+        "applied": true,
+        "before_bytes": 165776,
+        "dropped_messages": 152,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.6199415820010472,
+      "first_content_seconds": 0.6199415820010472,
+      "first_delivered_seconds": 0.6199488459969871,
+      "id": "090e68b6ceca4fb081c70d70ea22b930",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.6496003450010903,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13627,
+        "prompt_tokens_details": {
+          "cached_tokens": 13414
+        },
+        "total_tokens": 13642
       }
     },
     {
@@ -5267,6 +5435,34 @@
           "cached_tokens": 20698
         },
         "total_tokens": 21011
+      }
+    },
+    {
+      "at": 1794382784.2333922,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43295,
+        "applied": true,
+        "before_bytes": 255397,
+        "dropped_messages": 235,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.985932737996336,
+      "first_content_seconds": 7.985932737996336,
+      "first_delivered_seconds": 7.9859408529882785,
+      "id": "0ac535ba22a14ff3b60803a37ddbaf28",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.01534066000022,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 12506,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12534
       }
     },
     {
@@ -7786,6 +7982,34 @@
       }
     },
     {
+      "at": 1794383202.531288,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42799,
+        "applied": true,
+        "before_bytes": 419425,
+        "dropped_messages": 362,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8302619869937189,
+      "first_content_seconds": 0.8302619869937189,
+      "first_delivered_seconds": 0.8302671670098789,
+      "id": "0f6a94bcfd704e1cb0ad3b891f5baf66",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8594779680133797,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 10210,
+        "prompt_tokens_details": {
+          "cached_tokens": 10185
+        },
+        "total_tokens": 10244
+      }
+    },
+    {
       "at": 1794347043.0737998,
       "complete": true,
       "first_any_seconds": 13.582238122005947,
@@ -8079,6 +8303,34 @@
       }
     },
     {
+      "at": 1794383053.2543962,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43379,
+        "applied": true,
+        "before_bytes": 365720,
+        "dropped_messages": 314,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8077720410074107,
+      "first_content_seconds": 0.8077720410074107,
+      "first_delivered_seconds": 0.8077776310092304,
+      "id": "1044193c759248aca92e64e48217c8cd",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8370124680222943,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 12653,
+        "prompt_tokens_details": {
+          "cached_tokens": 12627
+        },
+        "total_tokens": 12687
+      }
+    },
+    {
       "at": 1794330193.9824636,
       "complete": true,
       "first_any_seconds": 1.9792850990197621,
@@ -8337,6 +8589,34 @@
           "cached_tokens": 29153
         },
         "total_tokens": 29553
+      }
+    },
+    {
+      "at": 1794382724.1037176,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46253,
+        "applied": true,
+        "before_bytes": 213469,
+        "dropped_messages": 212,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.689338615979068,
+      "first_content_seconds": 0.689338615979068,
+      "first_delivered_seconds": 0.6893449079943821,
+      "id": "10c9b1622a214f4f89b893ed03fe0791",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.7194856069982052,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 11385,
+        "prompt_tokens_details": {
+          "cached_tokens": 10971
+        },
+        "total_tokens": 11400
       }
     },
     {
@@ -9840,6 +10120,34 @@
       }
     },
     {
+      "at": 1794382823.9341733,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43876,
+        "applied": true,
+        "before_bytes": 272395,
+        "dropped_messages": 247,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.136276532022748,
+      "first_content_seconds": 9.136276532022748,
+      "first_delivered_seconds": 9.136283746018307,
+      "id": "146aa3befcb84467a79554612023b4f8",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 9.165327924012672,
+      "usage": {
+        "completion_tokens": 124,
+        "prompt_tokens": 12073,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12197
+      }
+    },
+    {
       "at": 1794325435.6788359,
       "complete": true,
       "first_any_seconds": 45.88379324800917,
@@ -9927,6 +10235,34 @@
           "cached_tokens": 21429
         },
         "total_tokens": 21703
+      }
+    },
+    {
+      "at": 1794382644.9093688,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47453,
+        "applied": true,
+        "before_bytes": 183432,
+        "dropped_messages": 172,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.322156698995968,
+      "first_content_seconds": 8.322156698995968,
+      "first_delivered_seconds": 8.322164164012065,
+      "id": "14829264a17640838a8f8440049115ec",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.351544163015205,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13319,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13334
       }
     },
     {
@@ -10413,6 +10749,34 @@
           "cached_tokens": 6641
         },
         "total_tokens": 7387
+      }
+    },
+    {
+      "at": 1794382694.1145368,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47594,
+        "applied": true,
+        "before_bytes": 201486,
+        "dropped_messages": 196,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.166639455012046,
+      "first_content_seconds": 8.166639455012046,
+      "first_delivered_seconds": 8.166644473996712,
+      "id": "153edd49f6764ec5928cdf5fb0f585a5",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.196390952012734,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 12306,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12363
       }
     },
     {
@@ -12220,6 +12584,34 @@
       }
     },
     {
+      "at": 1794382910.1090605,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46252,
+        "applied": true,
+        "before_bytes": 306480,
+        "dropped_messages": 270,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 2.2299923349928576,
+      "first_content_seconds": 2.2299923349928576,
+      "first_delivered_seconds": 2.229996542999288,
+      "id": "18dea8f217e34c029c5e58ae99c30a81",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 2.2600116970133968,
+      "usage": {
+        "completion_tokens": 131,
+        "prompt_tokens": 10675,
+        "prompt_tokens_details": {
+          "cached_tokens": 10645
+        },
+        "total_tokens": 10806
+      }
+    },
+    {
       "at": 1794367375.9596918,
       "complete": true,
       "context_policy": {
@@ -12740,6 +13132,34 @@
       }
     },
     {
+      "at": 1794382930.799739,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46457,
+        "applied": true,
+        "before_bytes": 318608,
+        "dropped_messages": 280,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9051511360157747,
+      "first_content_seconds": 0.9051511360157747,
+      "first_delivered_seconds": 0.9051570570154581,
+      "id": "199676472ac5414d85fbe69365af0237",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.9348390840168577,
+      "usage": {
+        "completion_tokens": 42,
+        "prompt_tokens": 11545,
+        "prompt_tokens_details": {
+          "cached_tokens": 11524
+        },
+        "total_tokens": 11587
+      }
+    },
+    {
       "at": 1794344491.120681,
       "complete": true,
       "first_any_seconds": 1.1821138300001621,
@@ -12801,6 +13221,34 @@
           "cached_tokens": 12602
         },
         "total_tokens": 13264
+      }
+    },
+    {
+      "at": 1794383030.363366,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47897,
+        "applied": true,
+        "before_bytes": 358497,
+        "dropped_messages": 310,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.086687543982407,
+      "first_content_seconds": 9.086687543982407,
+      "first_delivered_seconds": 9.08669462800026,
+      "id": "19c31348d6e44cd69f40e1562559af48",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 9.11810785898706,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 14383,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14398
       }
     },
     {
@@ -13455,6 +13903,34 @@
           "cached_tokens": 12415
         },
         "total_tokens": 12670
+      }
+    },
+    {
+      "at": 1794383042.5718808,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42339,
+        "applied": true,
+        "before_bytes": 364680,
+        "dropped_messages": 314,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.003344959026435,
+      "first_content_seconds": 8.003344959026435,
+      "first_delivered_seconds": 8.003348997008288,
+      "id": "1b8b3aad320f4673989ea2726eeb704a",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.032634368020808,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 12419,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12453
       }
     },
     {
@@ -14150,6 +14626,34 @@
       }
     },
     {
+      "at": 1794382894.0751019,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42982,
+        "applied": true,
+        "before_bytes": 303210,
+        "dropped_messages": 270,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.437755014980212,
+      "first_content_seconds": 8.437755014980212,
+      "first_delivered_seconds": 8.437761115987087,
+      "id": "1ca9ed588264455a90431a2bb1337faa",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.466504117997829,
+      "usage": {
+        "completion_tokens": 164,
+        "prompt_tokens": 9989,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10153
+      }
+    },
+    {
       "at": 1794299502.5410397,
       "complete": true,
       "first_any_seconds": 4.006895516009536,
@@ -14424,6 +14928,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 6621
+      }
+    },
+    {
+      "at": 1794383050.6392248,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42596,
+        "applied": true,
+        "before_bytes": 364937,
+        "dropped_messages": 314,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.7745262240059674,
+      "first_content_seconds": 0.7745262240059674,
+      "first_delivered_seconds": 0.7745345900184475,
+      "id": "1d409b9629ba443496a5520ba1b43ce9",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8042024399910588,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 12477,
+        "prompt_tokens_details": {
+          "cached_tokens": 12452
+        },
+        "total_tokens": 12511
       }
     },
     {
@@ -16302,6 +16834,34 @@
       }
     },
     {
+      "at": 1794382766.032609,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47567,
+        "applied": true,
+        "before_bytes": 242615,
+        "dropped_messages": 223,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.716612763993908,
+      "first_content_seconds": 7.716612763993908,
+      "first_delivered_seconds": 7.716615759010892,
+      "id": "20a990a6e108443f86f80ac54f52344d",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.7462641230085865,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12546,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12561
+      }
+    },
+    {
       "at": 1794370342.523302,
       "complete": true,
       "context_policy": {
@@ -16524,6 +17084,34 @@
           "cached_tokens": 5455
         },
         "total_tokens": 5605
+      }
+    },
+    {
+      "at": 1794382792.2919126,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45586,
+        "applied": true,
+        "before_bytes": 257688,
+        "dropped_messages": 235,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9532965910038911,
+      "first_content_seconds": 0.9532965910038911,
+      "first_delivered_seconds": 0.9533015099877957,
+      "id": "212451a936d34684ab6b9462d9978773",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.9853933379927184,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 12986,
+        "prompt_tokens_details": {
+          "cached_tokens": 12533
+        },
+        "total_tokens": 13015
       }
     },
     {
@@ -16954,6 +17542,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 6674
+      }
+    },
+    {
+      "at": 1794383021.0732915,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47852,
+        "applied": true,
+        "before_bytes": 358189,
+        "dropped_messages": 308,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.097172082983889,
+      "first_content_seconds": 9.097172082983889,
+      "first_delivered_seconds": 9.097180568991462,
+      "id": "220ccd5da0004f68b23b0cec852b5cbe",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 9.128540170000633,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 14394,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14409
       }
     },
     {
@@ -17794,6 +18410,34 @@
           "cached_tokens": 11118
         },
         "total_tokens": 11619
+      }
+    },
+    {
+      "at": 1794383284.2190897,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41629,
+        "applied": true,
+        "before_bytes": 438520,
+        "dropped_messages": 386,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8786381859972607,
+      "first_content_seconds": 0.8786381859972607,
+      "first_delivered_seconds": 0.8786453499924392,
+      "id": "236c7f71994443b294d9d11b845ea7c8",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.9140336429991294,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 10569,
+        "prompt_tokens_details": {
+          "cached_tokens": 10540
+        },
+        "total_tokens": 10603
       }
     },
     {
@@ -19005,6 +19649,34 @@
       }
     },
     {
+      "at": 1794383275.250789,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47818,
+        "applied": true,
+        "before_bytes": 437733,
+        "dropped_messages": 384,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8678736409929115,
+      "first_content_seconds": 0.8678736409929115,
+      "first_delivered_seconds": 0.8678779590118211,
+      "id": "26127dffec3a4c48a85b41e596a58648",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8975385359954089,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 12080,
+        "prompt_tokens_details": {
+          "cached_tokens": 12054
+        },
+        "total_tokens": 12114
+      }
+    },
+    {
       "at": 1794316795.1121697,
       "complete": true,
       "first_any_seconds": 1.0894121369929053,
@@ -20026,6 +20698,34 @@
           "cached_tokens": 10049
         },
         "total_tokens": 11335
+      }
+    },
+    {
+      "at": 1794383054.1306782,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43641,
+        "applied": true,
+        "before_bytes": 365982,
+        "dropped_messages": 314,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8054391650075559,
+      "first_content_seconds": 0.8054391650075559,
+      "first_delivered_seconds": 0.8054438940016553,
+      "id": "28713e3789d74c26b452cfaa2fab9685",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.834737019991735,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 12712,
+        "prompt_tokens_details": {
+          "cached_tokens": 12686
+        },
+        "total_tokens": 12746
       }
     },
     {
@@ -22230,6 +22930,34 @@
       }
     },
     {
+      "at": 1794382804.9950995,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45338,
+        "applied": true,
+        "before_bytes": 268499,
+        "dropped_messages": 243,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 12.023691388021689,
+      "first_content_seconds": 12.023691388021689,
+      "first_delivered_seconds": 12.023697119002463,
+      "id": "2c372d91f51b4289af2d2c36433b1ddf",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 12.052847345999908,
+      "usage": {
+        "completion_tokens": 301,
+        "prompt_tokens": 12626,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12927
+      }
+    },
+    {
       "at": 1794376295.4418635,
       "complete": false,
       "error": "Pinned instructions/tools exceed the experimental context budget",
@@ -22586,6 +23314,34 @@
       }
     },
     {
+      "at": 1794383263.6788628,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46516,
+        "applied": true,
+        "before_bytes": 436431,
+        "dropped_messages": 384,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.760358728002757,
+      "first_content_seconds": 7.760358728002757,
+      "first_delivered_seconds": 7.760364479006967,
+      "id": "2cc271b1145440988c9df4dfee40f067",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.792796656023711,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11787,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11821
+      }
+    },
+    {
       "at": 1794377038.3397243,
       "complete": true,
       "context_policy": {
@@ -22647,6 +23403,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 6551
+      }
+    },
+    {
+      "at": 1794382557.4801435,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45785,
+        "applied": true,
+        "before_bytes": 159449,
+        "dropped_messages": 144,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.4914088830118999,
+      "first_content_seconds": 0.4914088830118999,
+      "first_delivered_seconds": 0.4914127300144173,
+      "id": "2cdcf1f8062348ff8e444bb34f7852d8",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.5211647489923052,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13440,
+        "prompt_tokens_details": {
+          "cached_tokens": 13413
+        },
+        "total_tokens": 13455
       }
     },
     {
@@ -22757,6 +23541,34 @@
           "cached_tokens": 8925
         },
         "total_tokens": 12644
+      }
+    },
+    {
+      "at": 1794383120.562289,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46531,
+        "applied": true,
+        "before_bytes": 394310,
+        "dropped_messages": 330,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8266971970151644,
+      "first_content_seconds": 0.8266971970151644,
+      "first_delivered_seconds": 0.8267034480231814,
+      "id": "2d15e80b14e84f3ba146761363eb1f3c",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8565790190186817,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11262,
+        "prompt_tokens_details": {
+          "cached_tokens": 11237
+        },
+        "total_tokens": 11296
       }
     },
     {
@@ -24536,6 +25348,62 @@
       }
     },
     {
+      "at": 1794383285.1737635,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41901,
+        "applied": true,
+        "before_bytes": 438792,
+        "dropped_messages": 386,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8974451810063329,
+      "first_content_seconds": 0.8974451810063329,
+      "first_delivered_seconds": 0.8974526140082162,
+      "id": "313d2cfb1855402d949f4c9bd9037dee",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.9264589509984944,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 10639,
+        "prompt_tokens_details": {
+          "cached_tokens": 10602
+        },
+        "total_tokens": 10673
+      }
+    },
+    {
+      "at": 1794382618.9881344,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47499,
+        "applied": true,
+        "before_bytes": 177778,
+        "dropped_messages": 166,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 25.751199422986247,
+      "first_content_seconds": 25.751199422986247,
+      "first_delivered_seconds": 25.751206736982567,
+      "id": "313d2d1a8e914e2183effa73b4cc4b87",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 25.78038035798818,
+      "usage": {
+        "completion_tokens": 1183,
+        "prompt_tokens": 13757,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14940
+      }
+    },
+    {
       "at": 1794317556.2611156,
       "complete": true,
       "first_any_seconds": 2.0668314750073478,
@@ -24611,6 +25479,34 @@
       "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
       "seconds": 0.004125705017941073,
       "usage": null
+    },
+    {
+      "at": 1794382597.6048617,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45835,
+        "applied": true,
+        "before_bytes": 171831,
+        "dropped_messages": 160,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.110990959976334,
+      "first_content_seconds": 9.110990959976334,
+      "first_delivered_seconds": 9.110994285991183,
+      "id": "317ac349d3944d3d83f88b1b2d6f20ce",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 9.140230354998494,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 13554,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13611
+      }
     },
     {
       "at": 1794301026.6622944,
@@ -24792,6 +25688,34 @@
           "cached_tokens": 31344
         },
         "total_tokens": 31768
+      }
+    },
+    {
+      "at": 1794382783.35161,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47528,
+        "applied": true,
+        "before_bytes": 247932,
+        "dropped_messages": 227,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.81739747399115,
+      "first_content_seconds": 0.81739747399115,
+      "first_delivered_seconds": 0.8174032149836421,
+      "id": "31c94170ae734d149698a88699d22f16",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8466519169742242,
+      "usage": {
+        "completion_tokens": 30,
+        "prompt_tokens": 12740,
+        "prompt_tokens_details": {
+          "cached_tokens": 12609
+        },
+        "total_tokens": 12770
       }
     },
     {
@@ -26190,6 +27114,34 @@
       }
     },
     {
+      "at": 1794382966.5433238,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46381,
+        "applied": true,
+        "before_bytes": 331736,
+        "dropped_messages": 286,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 3.4167637279897463,
+      "first_content_seconds": 3.4167637279897463,
+      "first_delivered_seconds": 3.416769318981096,
+      "id": "35229fa0593149ba9a726a109c2420c6",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 3.446260216005612,
+      "usage": {
+        "completion_tokens": 200,
+        "prompt_tokens": 12471,
+        "prompt_tokens_details": {
+          "cached_tokens": 12280
+        },
+        "total_tokens": 12671
+      }
+    },
+    {
       "at": 1794295498.7488701,
       "complete": true,
       "first_any_seconds": 7.281925226998283,
@@ -27194,6 +28146,34 @@
       }
     },
     {
+      "at": 1794382958.5948188,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45257,
+        "applied": true,
+        "before_bytes": 330612,
+        "dropped_messages": 286,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.875441073003458,
+      "first_content_seconds": 7.875441073003458,
+      "first_delivered_seconds": 7.875459608010715,
+      "id": "36f8ea3965bf45ef9f61c82218fc4ed6",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.905291806993773,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 12242,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12281
+      }
+    },
+    {
       "at": 1794361551.662518,
       "complete": true,
       "context_policy": {
@@ -27916,6 +28896,34 @@
           "cached_tokens": 21711
         },
         "total_tokens": 22137
+      }
+    },
+    {
+      "at": 1794382716.8096597,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45311,
+        "applied": true,
+        "before_bytes": 212527,
+        "dropped_messages": 212,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.225049319997197,
+      "first_content_seconds": 7.225049319997197,
+      "first_delivered_seconds": 7.225052636000328,
+      "id": "38be545d130d4c46a6904171b3cce51a",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.254384044004837,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 10915,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10972
       }
     },
     {
@@ -28682,6 +29690,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 13409
+      }
+    },
+    {
+      "at": 1794383199.8080826,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42014,
+        "applied": true,
+        "before_bytes": 418640,
+        "dropped_messages": 362,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8530901500198524,
+      "first_content_seconds": 0.8530901500198524,
+      "first_delivered_seconds": 0.8530969030107372,
+      "id": "3a550fb87c484fe99022ef6445ae3d17",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8827766560134478,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 10033,
+        "prompt_tokens_details": {
+          "cached_tokens": 10007
+        },
+        "total_tokens": 10067
       }
     },
     {
@@ -30170,6 +31206,34 @@
       }
     },
     {
+      "at": 1794383163.2523873,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46661,
+        "applied": true,
+        "before_bytes": 407198,
+        "dropped_messages": 356,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 17.518452378018992,
+      "first_content_seconds": 17.518452378018992,
+      "first_delivered_seconds": 17.518456456018612,
+      "id": "3cde4feed8be423b87359f5f7e747627",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 17.547348968015285,
+      "usage": {
+        "completion_tokens": 730,
+        "prompt_tokens": 11251,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11981
+      }
+    },
+    {
       "at": 1794295392.4309933,
       "complete": true,
       "first_any_seconds": 0.44238303700694814,
@@ -31307,6 +32371,34 @@
       }
     },
     {
+      "at": 1794382683.9835913,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45527,
+        "applied": true,
+        "before_bytes": 196415,
+        "dropped_messages": 192,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.345650619012304,
+      "first_content_seconds": 7.345650619012304,
+      "first_delivered_seconds": 7.345657943020342,
+      "id": "3ec6a439fa684387af7ab05e04ababa8",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.3758427150023635,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 11921,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11936
+      }
+    },
+    {
       "at": 1794375765.891679,
       "complete": true,
       "context_policy": {
@@ -32380,6 +33472,34 @@
       }
     },
     {
+      "at": 1794382837.71523,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46542,
+        "applied": true,
+        "before_bytes": 280422,
+        "dropped_messages": 251,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.28934139199555,
+      "first_content_seconds": 8.28934139199555,
+      "first_delivered_seconds": 8.289344749005977,
+      "id": "40e53aa30e144ba79e8243a8f513833e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.31886150498758,
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 12686,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12727
+      }
+    },
+    {
       "at": 1794293749.5732405,
       "complete": true,
       "first_any_seconds": 0.27156983499298804,
@@ -33449,6 +34569,34 @@
           "cached_tokens": 7719
         },
         "total_tokens": 7827
+      }
+    },
+    {
+      "at": 1794382560.6732938,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45495,
+        "applied": true,
+        "before_bytes": 162163,
+        "dropped_messages": 148,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.964143843011698,
+      "first_content_seconds": 8.964143843011698,
+      "first_delivered_seconds": 8.96414872200694,
+      "id": "42e09cad41a24fe5b2c8777b9ddc3051",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.993510016007349,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 13357,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13414
       }
     },
     {
@@ -35388,6 +36536,34 @@
       }
     },
     {
+      "at": 1794382889.319092,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45846,
+        "applied": true,
+        "before_bytes": 299868,
+        "dropped_messages": 266,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 4.713753432006342,
+      "first_content_seconds": 4.713753432006342,
+      "first_delivered_seconds": 4.713759514008416,
+      "id": "46a6508a693b471a8c71035fbab1440d",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 4.7450890880136285,
+      "usage": {
+        "completion_tokens": 301,
+        "prompt_tokens": 10854,
+        "prompt_tokens_details": {
+          "cached_tokens": 10824
+        },
+        "total_tokens": 11155
+      }
+    },
+    {
       "at": 1794376370.2514815,
       "complete": true,
       "context_policy": {
@@ -36923,6 +38099,34 @@
       }
     },
     {
+      "at": 1794382610.1511705,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46150,
+        "applied": true,
+        "before_bytes": 175487,
+        "dropped_messages": 164,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.77111717700609,
+      "first_content_seconds": 8.77111717700609,
+      "first_delivered_seconds": 8.771123128011823,
+      "id": "4979235cf07b48d2977fb92765108689",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.800171884009615,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 13747,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13775
+      }
+    },
+    {
       "at": 1794374726.233231,
       "complete": true,
       "context_policy": {
@@ -37598,6 +38802,34 @@
           "cached_tokens": 17809
         },
         "total_tokens": 19188
+      }
+    },
+    {
+      "at": 1794383276.1834705,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41104,
+        "applied": true,
+        "before_bytes": 437995,
+        "dropped_messages": 386,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.018087076983647,
+      "first_content_seconds": 7.018087076983647,
+      "first_delivered_seconds": 7.018095282983268,
+      "id": "4acf7cbc7aea4bbab56c94900506fcfd",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.047774674982065,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 10449,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10483
       }
     },
     {
@@ -41534,6 +42766,29 @@
       }
     },
     {
+      "at": 1794383366.0442312,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.2412378049921244,
+      "first_content_seconds": 2.2412378049921244,
+      "first_delivered_seconds": 2.241246020013932,
+      "id": "52a4746a9e6b4ab08df8d49feb7719d3",
+      "model": "campaign-q35-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q35-py-csv-s42-h5.4/developer",
+      "seconds": 10.496243000990944,
+      "usage": {
+        "completion_tokens": 542,
+        "prompt_tokens": 12856,
+        "prompt_tokens_details": {
+          "cached_tokens": 10559
+        },
+        "total_tokens": 13398
+      }
+    },
+    {
       "at": 1794298280.3968089,
       "complete": true,
       "first_any_seconds": 3.1736840170051437,
@@ -41708,6 +42963,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 10381
+      }
+    },
+    {
+      "at": 1794382854.2514067,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41266,
+        "applied": true,
+        "before_bytes": 288392,
+        "dropped_messages": 262,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 21.998923661012668,
+      "first_content_seconds": 21.998923661012668,
+      "first_delivered_seconds": 21.998928220011294,
+      "id": "5303bdf49ec243b283d3ff95b1f2cabf",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 22.02824982898892,
+      "usage": {
+        "completion_tokens": 1099,
+        "prompt_tokens": 9705,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10804
       }
     },
     {
@@ -42535,6 +43818,34 @@
           "cached_tokens": 17604
         },
         "total_tokens": 17681
+      }
+    },
+    {
+      "at": 1794383122.3731997,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47052,
+        "applied": true,
+        "before_bytes": 394831,
+        "dropped_messages": 330,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8363427580043208,
+      "first_content_seconds": 0.8363427580043208,
+      "first_delivered_seconds": 0.8363478679966647,
+      "id": "54552e66ef3e433ab5df6c4fda73a244",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8653952919994481,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11379,
+        "prompt_tokens_details": {
+          "cached_tokens": 11355
+        },
+        "total_tokens": 11413
       }
     },
     {
@@ -43496,6 +44807,34 @@
       }
     },
     {
+      "at": 1794382753.9018388,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46813,
+        "applied": true,
+        "before_bytes": 234957,
+        "dropped_messages": 220,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.176985472993692,
+      "first_content_seconds": 8.176985472993692,
+      "first_delivered_seconds": 8.176989580999361,
+      "id": "5623d4d712744642992f8bb4c830af1f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.206416066997917,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 12292,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12349
+      }
+    },
+    {
       "at": 1794357068.8989682,
       "complete": true,
       "context_policy": {
@@ -43928,6 +45267,34 @@
       }
     },
     {
+      "at": 1794383062.8915813,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46467,
+        "applied": true,
+        "before_bytes": 368808,
+        "dropped_messages": 314,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.5412982560228556,
+      "first_content_seconds": 0.5412982560228556,
+      "first_delivered_seconds": 0.5413042470172513,
+      "id": "57426c96d9964338914a93e2f2053aab",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.5708328360051382,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13304,
+        "prompt_tokens_details": {
+          "cached_tokens": 13275
+        },
+        "total_tokens": 13319
+      }
+    },
+    {
       "at": 1794317457.718273,
       "complete": true,
       "first_any_seconds": 1.944924831012031,
@@ -44069,6 +45436,34 @@
       }
     },
     {
+      "at": 1794382836.3574488,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47284,
+        "applied": true,
+        "before_bytes": 275803,
+        "dropped_messages": 247,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.2876219140016474,
+      "first_content_seconds": 1.2876219140016474,
+      "first_delivered_seconds": 1.28762778500095,
+      "id": "579bc8d4a6484f52bfdb1bfdd8217c82",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 1.3202185000118334,
+      "usage": {
+        "completion_tokens": 40,
+        "prompt_tokens": 13011,
+        "prompt_tokens_details": {
+          "cached_tokens": 12240
+        },
+        "total_tokens": 13051
+      }
+    },
+    {
       "at": 1794371847.626265,
       "complete": true,
       "context_policy": {
@@ -44159,6 +45554,29 @@
         },
         "total_tokens": 15399
       }
+    },
+    {
+      "at": 1794382655.888816,
+      "complete": false,
+      "context_policy": {
+        "after_bytes": 45814,
+        "applied": true,
+        "before_bytes": 190748,
+        "dropped_messages": 184,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "error": "HTTP Error 500: Internal Server Error",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "id": "57a7dc13ef774d7d86bb5126b826de6e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.21899903198937,
+      "upstream_status": 500,
+      "usage": null
     },
     {
       "at": 1794375089.7676198,
@@ -44498,6 +45916,34 @@
           "cached_tokens": 9625
         },
         "total_tokens": 9812
+      }
+    },
+    {
+      "at": 1794383056.781759,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44436,
+        "applied": true,
+        "before_bytes": 366777,
+        "dropped_messages": 314,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.9477848959795665,
+      "first_content_seconds": 5.9477848959795665,
+      "first_delivered_seconds": 5.947790866979631,
+      "id": "582110c1d6ad42008cf1c2a8acedb99e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 5.976656980987173,
+      "usage": {
+        "completion_tokens": 376,
+        "prompt_tokens": 12900,
+        "prompt_tokens_details": {
+          "cached_tokens": 12863
+        },
+        "total_tokens": 13276
       }
     },
     {
@@ -45461,6 +46907,34 @@
       }
     },
     {
+      "at": 1794383125.0975676,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47838,
+        "applied": true,
+        "before_bytes": 395617,
+        "dropped_messages": 330,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8359476950136013,
+      "first_content_seconds": 0.8359476950136013,
+      "first_delivered_seconds": 0.8359547790023498,
+      "id": "5a21dd4cbc6c40be8159deae25aa7768",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8658418910054024,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11557,
+        "prompt_tokens_details": {
+          "cached_tokens": 11530
+        },
+        "total_tokens": 11591
+      }
+    },
+    {
       "at": 1794330407.8071337,
       "complete": true,
       "first_any_seconds": 1.0293122969742399,
@@ -45568,6 +47042,34 @@
           "cached_tokens": 12425
         },
         "total_tokens": 12484
+      }
+    },
+    {
+      "at": 1794383102.2499497,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47540,
+        "applied": true,
+        "before_bytes": 387077,
+        "dropped_messages": 326,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.977628967986675,
+      "first_content_seconds": 7.977628967986675,
+      "first_delivered_seconds": 7.977636702999007,
+      "id": "5a6bfd89f94644f58d8593c1b3aba174",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.00794489699183,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12735,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12750
       }
     },
     {
@@ -46062,6 +47564,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 13831
+      }
+    },
+    {
+      "at": 1794383301.9782343,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6603859910101164,
+      "first_content_seconds": 0.6603859910101164,
+      "first_delivered_seconds": 0.6603901780035812,
+      "id": "5b13537aa0b7477b9ff1c5054ad170ba",
+      "model": "campaign-q35-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q35-py-csv-s42-h5.4/developer",
+      "seconds": 0.6741129950096365,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 3113,
+        "prompt_tokens_details": {
+          "cached_tokens": 2592
+        },
+        "total_tokens": 3127
       }
     },
     {
@@ -47277,6 +48802,34 @@
           "cached_tokens": 9410
         },
         "total_tokens": 9431
+      }
+    },
+    {
+      "at": 1794383121.46293,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46793,
+        "applied": true,
+        "before_bytes": 394572,
+        "dropped_messages": 330,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8423715719836764,
+      "first_content_seconds": 0.8423715719836764,
+      "first_delivered_seconds": 0.8423771519737784,
+      "id": "5d7a2739e0ed465f867aef23d662f19b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8720494309964124,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11322,
+        "prompt_tokens_details": {
+          "cached_tokens": 11295
+        },
+        "total_tokens": 11356
       }
     },
     {
@@ -49212,6 +50765,34 @@
       }
     },
     {
+      "at": 1794382606.7822077,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46777,
+        "applied": true,
+        "before_bytes": 172773,
+        "dropped_messages": 160,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.7231732290238142,
+      "first_content_seconds": 0.7231732290238142,
+      "first_delivered_seconds": 0.7231779880239628,
+      "id": "613b825f0b64443bae0a06e8911e2d71",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.7532794030266814,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 14024,
+        "prompt_tokens_details": {
+          "cached_tokens": 13610
+        },
+        "total_tokens": 14039
+      }
+    },
+    {
       "at": 1794359495.5396194,
       "complete": true,
       "context_policy": {
@@ -49503,6 +51084,34 @@
       }
     },
     {
+      "at": 1794382745.5838504,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42051,
+        "applied": true,
+        "before_bytes": 224528,
+        "dropped_messages": 218,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.44705640798201784,
+      "first_content_seconds": 0.44705640798201784,
+      "first_delivered_seconds": 0.4470624690002296,
+      "id": "618e70d7332a4299bc320ef0e233919d",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.4759953479806427,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 10911,
+        "prompt_tokens_details": {
+          "cached_tokens": 10884
+        },
+        "total_tokens": 10926
+      }
+    },
+    {
       "at": 1794374058.1505704,
       "complete": true,
       "context_policy": {
@@ -49720,6 +51329,62 @@
           "cached_tokens": 0
         },
         "total_tokens": 6466
+      }
+    },
+    {
+      "at": 1794383055.9018068,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44164,
+        "applied": true,
+        "before_bytes": 366505,
+        "dropped_messages": 314,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8121907669992652,
+      "first_content_seconds": 0.8121907669992652,
+      "first_delivered_seconds": 0.8121956659888383,
+      "id": "6229da334313493bbb5a2085d6c4d345",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8416714759950992,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 12830,
+        "prompt_tokens_details": {
+          "cached_tokens": 12805
+        },
+        "total_tokens": 12864
+      }
+    },
+    {
+      "at": 1794382522.0778143,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45757,
+        "applied": true,
+        "before_bytes": 150491,
+        "dropped_messages": 132,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.47977990200161,
+      "first_content_seconds": 0.47977990200161,
+      "first_delivered_seconds": 0.47978449100628495,
+      "id": "622fd060a9284e94ab343a117d837f20",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.5092906969948672,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13416,
+        "prompt_tokens_details": {
+          "cached_tokens": 13389
+        },
+        "total_tokens": 13431
       }
     },
     {
@@ -51839,6 +53504,34 @@
       }
     },
     {
+      "at": 1794382569.7023976,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45780,
+        "applied": true,
+        "before_bytes": 162448,
+        "dropped_messages": 148,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.47444164799526334,
+      "first_content_seconds": 0.47444164799526334,
+      "first_delivered_seconds": 0.4744477689964697,
+      "id": "6692bc4cf11c4695ab7037acf8cfaef6",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.5038761799805798,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13438,
+        "prompt_tokens_details": {
+          "cached_tokens": 13413
+        },
+        "total_tokens": 13453
+      }
+    },
+    {
       "at": 1794370444.0390723,
       "complete": true,
       "context_policy": {
@@ -52923,6 +54616,34 @@
       }
     },
     {
+      "at": 1794383201.6195984,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42538,
+        "applied": true,
+        "before_bytes": 419164,
+        "dropped_messages": 362,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8454773990088142,
+      "first_content_seconds": 0.8454773990088142,
+      "first_delivered_seconds": 0.845481076015858,
+      "id": "68736a4d923f4556bbbbac273f2f31f5",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.874692829005653,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 10152,
+        "prompt_tokens_details": {
+          "cached_tokens": 10125
+        },
+        "total_tokens": 10186
+      }
+    },
+    {
       "at": 1794335895.1433754,
       "complete": true,
       "first_any_seconds": 1.6139236959861591,
@@ -53811,6 +55532,34 @@
       }
     },
     {
+      "at": 1794382584.9726272,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45822,
+        "applied": true,
+        "before_bytes": 168490,
+        "dropped_messages": 156,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.119475136016263,
+      "first_content_seconds": 9.119475136016263,
+      "first_delivered_seconds": 9.119479695014888,
+      "id": "6a330d6f9cbe43c89eedea18a6481b3b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 9.147656112007098,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 13546,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13603
+      }
+    },
+    {
       "at": 1794330792.1663294,
       "complete": true,
       "first_any_seconds": 0.8375947030144744,
@@ -54267,6 +56016,34 @@
           "cached_tokens": 5942
         },
         "total_tokens": 6833
+      }
+    },
+    {
+      "at": 1794383052.3828304,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43117,
+        "applied": true,
+        "before_bytes": 365458,
+        "dropped_messages": 314,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.7987020500004292,
+      "first_content_seconds": 0.7987020500004292,
+      "first_delivered_seconds": 0.7987076810095459,
+      "id": "6b1272d2940a42668e7b427e24a7dec9",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8275664300017525,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 12594,
+        "prompt_tokens_details": {
+          "cached_tokens": 12570
+        },
+        "total_tokens": 12628
       }
     },
     {
@@ -55036,6 +56813,34 @@
           "cached_tokens": 9328
         },
         "total_tokens": 10966
+      }
+    },
+    {
+      "at": 1794383084.786663,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46578,
+        "applied": true,
+        "before_bytes": 377636,
+        "dropped_messages": 320,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.5403146669850685,
+      "first_content_seconds": 0.5403146669850685,
+      "first_delivered_seconds": 0.5403201479930431,
+      "id": "6ca153cc1f1b4dc49222fd27879a5e59",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.5701222410134505,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12560,
+        "prompt_tokens_details": {
+          "cached_tokens": 12530
+        },
+        "total_tokens": 12575
       }
     },
     {
@@ -56198,6 +58003,34 @@
       }
     },
     {
+      "at": 1794382948.5125303,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47343,
+        "applied": true,
+        "before_bytes": 324113,
+        "dropped_messages": 282,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.409352026996203,
+      "first_content_seconds": 7.409352026996203,
+      "first_delivered_seconds": 7.409360872989055,
+      "id": "6e421029f6f84957be7e5f14ee154e63",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.44039288800559,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 11722,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11737
+      }
+    },
+    {
       "at": 1794370648.188054,
       "complete": true,
       "context_policy": {
@@ -56915,6 +58748,34 @@
           "cached_tokens": 8764
         },
         "total_tokens": 9674
+      }
+    },
+    {
+      "at": 1794382762.145875,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47103,
+        "applied": true,
+        "before_bytes": 235247,
+        "dropped_messages": 220,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.46331128498422913,
+      "first_content_seconds": 0.46331128498422913,
+      "first_delivered_seconds": 0.4633260219998192,
+      "id": "6fe020a842f14a71b0b4f34f6c795447",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.4929577249858994,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12374,
+        "prompt_tokens_details": {
+          "cached_tokens": 12348
+        },
+        "total_tokens": 12389
       }
     },
     {
@@ -57950,6 +59811,34 @@
       }
     },
     {
+      "at": 1794383198.9219728,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41752,
+        "applied": true,
+        "before_bytes": 418378,
+        "dropped_messages": 362,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8210763400129508,
+      "first_content_seconds": 0.8210763400129508,
+      "first_delivered_seconds": 0.8210817100189161,
+      "id": "72745df36ea343008bd59fb2caa83bab",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8502485490171239,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9974,
+        "prompt_tokens_details": {
+          "cached_tokens": 9950
+        },
+        "total_tokens": 10008
+      }
+    },
+    {
       "at": 1794378751.6144438,
       "complete": true,
       "context_policy": {
@@ -58448,6 +60337,34 @@
       }
     },
     {
+      "at": 1794382748.7716777,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47122,
+        "applied": true,
+        "before_bytes": 229599,
+        "dropped_messages": 218,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.85183088798658,
+      "first_content_seconds": 1.85183088798658,
+      "first_delivered_seconds": 1.8518342949973885,
+      "id": "7339db7e79b84d2c8bd5747577e4b21b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 1.8817796070070472,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 12169,
+        "prompt_tokens_details": {
+          "cached_tokens": 10925
+        },
+        "total_tokens": 12226
+      }
+    },
+    {
       "at": 1794310944.4258988,
       "complete": true,
       "first_any_seconds": 1.8950117339845747,
@@ -58499,6 +60416,34 @@
           "cached_tokens": 20566
         },
         "total_tokens": 21081
+      }
+    },
+    {
+      "at": 1794383054.9995577,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43903,
+        "applied": true,
+        "before_bytes": 366244,
+        "dropped_messages": 314,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8117204129812308,
+      "first_content_seconds": 0.8117204129812308,
+      "first_delivered_seconds": 0.8117259729770012,
+      "id": "735354a6f71b4d688a5616d497d8ba04",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8413319370010868,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 12772,
+        "prompt_tokens_details": {
+          "cached_tokens": 12745
+        },
+        "total_tokens": 12806
       }
     },
     {
@@ -59574,6 +61519,34 @@
       }
     },
     {
+      "at": 1794383124.1868665,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47576,
+        "applied": true,
+        "before_bytes": 395355,
+        "dropped_messages": 330,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8444591659936123,
+      "first_content_seconds": 0.8444591659936123,
+      "first_delivered_seconds": 0.8444648970034905,
+      "id": "757412530b594fe6b72d8f0b0f8ee5ec",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8758062230190262,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11497,
+        "prompt_tokens_details": {
+          "cached_tokens": 11471
+        },
+        "total_tokens": 11531
+      }
+    },
+    {
       "at": 1794296696.8898711,
       "complete": true,
       "first_any_seconds": 3.3439694510016125,
@@ -60272,6 +62245,34 @@
           "cached_tokens": 17065
         },
         "total_tokens": 17467
+      }
+    },
+    {
+      "at": 1794382801.59934,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45628,
+        "applied": true,
+        "before_bytes": 263428,
+        "dropped_messages": 239,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.6380342530028429,
+      "first_content_seconds": 0.6380342530028429,
+      "first_delivered_seconds": 0.6380397230095696,
+      "id": "76eb312f4ab9484eb1998b48c70574fa",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.6698900360206608,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12709,
+        "prompt_tokens_details": {
+          "cached_tokens": 12495
+        },
+        "total_tokens": 12724
       }
     },
     {
@@ -61270,6 +63271,34 @@
           "cached_tokens": 11261
         },
         "total_tokens": 11483
+      }
+    },
+    {
+      "at": 1794383133.68276,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47734,
+        "applied": true,
+        "before_bytes": 396150,
+        "dropped_messages": 332,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 6.097575124993455,
+      "first_content_seconds": 6.097575124993455,
+      "first_delivered_seconds": 6.097581576992525,
+      "id": "78c20b92e0f84b1285f0102e9227c2e7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 6.126852932997281,
+      "usage": {
+        "completion_tokens": 385,
+        "prompt_tokens": 11525,
+        "prompt_tokens_details": {
+          "cached_tokens": 11488
+        },
+        "total_tokens": 11910
       }
     },
     {
@@ -62724,6 +64753,34 @@
           "cached_tokens": 27392
         },
         "total_tokens": 27875
+      }
+    },
+    {
+      "at": 1794382486.3358705,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46381,
+        "applied": true,
+        "before_bytes": 141536,
+        "dropped_messages": 120,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.5061531290120911,
+      "first_content_seconds": 0.5061531290120911,
+      "first_delivered_seconds": 0.5061575779982377,
+      "id": "7b330f84ae9f427e9b1803c49c59c0db",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.5360749270184897,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13781,
+        "prompt_tokens_details": {
+          "cached_tokens": 13744
+        },
+        "total_tokens": 13796
       }
     },
     {
@@ -64209,6 +66266,34 @@
       }
     },
     {
+      "at": 1794382782.4585493,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46891,
+        "applied": true,
+        "before_bytes": 247295,
+        "dropped_messages": 227,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.821572822984308,
+      "first_content_seconds": 0.821572822984308,
+      "first_delivered_seconds": 0.8215798769961111,
+      "id": "7e243f78b9994a5594e2f29c572bd8ca",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8537774729775265,
+      "usage": {
+        "completion_tokens": 30,
+        "prompt_tokens": 12580,
+        "prompt_tokens_details": {
+          "cached_tokens": 12406
+        },
+        "total_tokens": 12610
+      }
+    },
+    {
       "at": 1794299626.0603647,
       "complete": true,
       "first_any_seconds": 2.597841718001291,
@@ -65093,6 +67178,34 @@
           "cached_tokens": 8875
         },
         "total_tokens": 11652
+      }
+    },
+    {
+      "at": 1794382548.4608498,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45495,
+        "applied": true,
+        "before_bytes": 159159,
+        "dropped_messages": 144,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.953093019983498,
+      "first_content_seconds": 8.953093019983498,
+      "first_delivered_seconds": 8.95309740799712,
+      "id": "7ff38ab6f8fa46abbb709023cc538489",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.982678694999777,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 13357,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13414
       }
     },
     {
@@ -66160,6 +68273,34 @@
       }
     },
     {
+      "at": 1794382931.7752018,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46720,
+        "applied": true,
+        "before_bytes": 318871,
+        "dropped_messages": 280,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 16.5675265439786,
+      "first_content_seconds": 16.5675265439786,
+      "first_delivered_seconds": 16.567531102977227,
+      "id": "8227439e8ddb4d768ba9b8bc8d5c03e4",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 16.596527841989882,
+      "usage": {
+        "completion_tokens": 1102,
+        "prompt_tokens": 11607,
+        "prompt_tokens_details": {
+          "cached_tokens": 11586
+        },
+        "total_tokens": 12709
+      }
+    },
+    {
       "at": 1794321255.3497226,
       "complete": true,
       "first_any_seconds": 0.8065825390222017,
@@ -66331,6 +68472,34 @@
           "cached_tokens": 23408
         },
         "total_tokens": 23595
+      }
+    },
+    {
+      "at": 1794383220.9940042,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46353,
+        "applied": true,
+        "before_bytes": 425159,
+        "dropped_messages": 364,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.143371519021457,
+      "first_content_seconds": 7.143371519021457,
+      "first_delivered_seconds": 7.143377260013949,
+      "id": "825cb6d95baa44eda95c163cb6abb57d",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.173971222015098,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 11013,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11028
       }
     },
     {
@@ -67851,6 +70020,34 @@
           "cached_tokens": 10823
         },
         "total_tokens": 11710
+      }
+    },
+    {
+      "at": 1794382705.5481772,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46623,
+        "applied": true,
+        "before_bytes": 206842,
+        "dropped_messages": 204,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.785040935996221,
+      "first_content_seconds": 7.785040935996221,
+      "first_delivered_seconds": 7.78504671700648,
+      "id": "856b57fdae1e4260a817a57820b42da6",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.814287173998309,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 11715,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11772
       }
     },
     {
@@ -70612,6 +72809,34 @@
       }
     },
     {
+      "at": 1794383139.9538217,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47960,
+        "applied": true,
+        "before_bytes": 398186,
+        "dropped_messages": 336,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.314697933004936,
+      "first_content_seconds": 7.314697933004936,
+      "first_delivered_seconds": 7.314703815005487,
+      "id": "8a77953f877044f19ec36c2729a347b0",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.346023730991874,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 11578,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11593
+      }
+    },
+    {
       "at": 1794293669.1732786,
       "complete": true,
       "first_any_seconds": 0.5096064600074897,
@@ -70975,6 +73200,34 @@
           "cached_tokens": 12459
         },
         "total_tokens": 12518
+      }
+    },
+    {
+      "at": 1794382489.4458134,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46120,
+        "applied": true,
+        "before_bytes": 144250,
+        "dropped_messages": 124,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.836842159013031,
+      "first_content_seconds": 8.836842159013031,
+      "first_delivered_seconds": 8.836848781007575,
+      "id": "8b2265cdceba4a7eb9adc96d888da2ad",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.866041849018075,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 13723,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13757
       }
     },
     {
@@ -71387,6 +73640,34 @@
           "cached_tokens": 9460
         },
         "total_tokens": 9696
+      }
+    },
+    {
+      "at": 1794383005.4947965,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42361,
+        "applied": true,
+        "before_bytes": 347808,
+        "dropped_messages": 304,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.7574927840032615,
+      "first_content_seconds": 0.7574927840032615,
+      "first_delivered_seconds": 0.7575064590200782,
+      "id": "8c154cab1a2144efb5446cf01e5c6338",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.7896137149946298,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 11786,
+        "prompt_tokens_details": {
+          "cached_tokens": 11669
+        },
+        "total_tokens": 11811
       }
     },
     {
@@ -72160,6 +74441,34 @@
       }
     },
     {
+      "at": 1794383088.4818702,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45850,
+        "applied": true,
+        "before_bytes": 384897,
+        "dropped_messages": 324,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 13.597633192985086,
+      "first_content_seconds": 13.597633192985086,
+      "first_delivered_seconds": 13.597636769991368,
+      "id": "8da323524dbc4d26a747be2eeb0d7498",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 13.626784041989595,
+      "usage": {
+        "completion_tokens": 411,
+        "prompt_tokens": 12441,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12852
+      }
+    },
+    {
       "at": 1794351216.4592204,
       "complete": false,
       "error": "HTTP Error 500: Internal Server Error",
@@ -72873,6 +75182,34 @@
       }
     },
     {
+      "at": 1794382915.495394,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46186,
+        "applied": true,
+        "before_bytes": 313718,
+        "dropped_messages": 278,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.592272053996567,
+      "first_content_seconds": 7.592272053996567,
+      "first_delivered_seconds": 7.592278647003695,
+      "id": "8f187850f75c47d2a4072bb030904d1d",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.621505838993471,
+      "usage": {
+        "completion_tokens": 40,
+        "prompt_tokens": 11480,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11520
+      }
+    },
+    {
       "at": 1794308290.5176384,
       "complete": true,
       "first_any_seconds": 3.0161011120071635,
@@ -72988,6 +75325,34 @@
           "cached_tokens": 20053
         },
         "total_tokens": 20567
+      }
+    },
+    {
+      "at": 1794382905.1033514,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44746,
+        "applied": true,
+        "before_bytes": 304974,
+        "dropped_messages": 270,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 2.217376571003115,
+      "first_content_seconds": 2.217376571003115,
+      "first_delivered_seconds": 2.2173809290106874,
+      "id": "8f47061b88274b07900331e2ca08b373",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 2.2467470620176755,
+      "usage": {
+        "completion_tokens": 131,
+        "prompt_tokens": 10343,
+        "prompt_tokens_details": {
+          "cached_tokens": 10313
+        },
+        "total_tokens": 10474
       }
     },
     {
@@ -73710,6 +76075,34 @@
       }
     },
     {
+      "at": 1794382876.4164681,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46500,
+        "applied": true,
+        "before_bytes": 293626,
+        "dropped_messages": 262,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.48379010101780295,
+      "first_content_seconds": 0.48379010101780295,
+      "first_delivered_seconds": 0.48379525099880993,
+      "id": "9071b67cf9cf43ff81c938bf98b4cef2",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.513925189996371,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 10833,
+        "prompt_tokens_details": {
+          "cached_tokens": 10803
+        },
+        "total_tokens": 10848
+      }
+    },
+    {
       "at": 1794292913.0726085,
       "complete": true,
       "first_any_seconds": 1.5468791530001909,
@@ -73992,6 +76385,34 @@
       }
     },
     {
+      "at": 1794383200.7241833,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42276,
+        "applied": true,
+        "before_bytes": 418902,
+        "dropped_messages": 362,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8263402549782768,
+      "first_content_seconds": 0.8263402549782768,
+      "first_delivered_seconds": 0.8263455650012475,
+      "id": "9147e41f49d74b929993e00e0dfb63dc",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8560758229868952,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 10092,
+        "prompt_tokens_details": {
+          "cached_tokens": 10066
+        },
+        "total_tokens": 10126
+      }
+    },
+    {
       "at": 1794296101.643921,
       "complete": true,
       "first_any_seconds": 3.7544731559901265,
@@ -74253,6 +76674,34 @@
           "cached_tokens": 24230
         },
         "total_tokens": 24361
+      }
+    },
+    {
+      "at": 1794383287.181654,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42913,
+        "applied": true,
+        "before_bytes": 439804,
+        "dropped_messages": 386,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9814329329819884,
+      "first_content_seconds": 0.9814329329819884,
+      "first_delivered_seconds": 0.9814387130027171,
+      "id": "91c96d58e00247e790e9c40e3efd063c",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 1.0109370549907908,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 10949,
+        "prompt_tokens_details": {
+          "cached_tokens": 10827
+        },
+        "total_tokens": 10983
       }
     },
     {
@@ -75178,6 +77627,34 @@
           "cached_tokens": 9623
         },
         "total_tokens": 9886
+      }
+    },
+    {
+      "at": 1794382702.347996,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47879,
+        "applied": true,
+        "before_bytes": 201771,
+        "dropped_messages": 196,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.46396224800264463,
+      "first_content_seconds": 0.46396224800264463,
+      "first_delivered_seconds": 0.4639686300070025,
+      "id": "93a472fb8d4c47a28cdae79643df6552",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.49334817900671624,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12387,
+        "prompt_tokens_details": {
+          "cached_tokens": 12362
+        },
+        "total_tokens": 12402
       }
     },
     {
@@ -77208,6 +79685,34 @@
       }
     },
     {
+      "at": 1794383203.423709,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43071,
+        "applied": true,
+        "before_bytes": 419697,
+        "dropped_messages": 362,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 6.073328055004822,
+      "first_content_seconds": 6.073328055004822,
+      "first_delivered_seconds": 6.073332172993105,
+      "id": "9813afc298cc42209d739918dbb34881",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 6.102101684984518,
+      "usage": {
+        "completion_tokens": 385,
+        "prompt_tokens": 10280,
+        "prompt_tokens_details": {
+          "cached_tokens": 10243
+        },
+        "total_tokens": 10665
+      }
+    },
+    {
       "at": 1794366518.5984225,
       "complete": true,
       "context_policy": {
@@ -78835,6 +81340,29 @@
       }
     },
     {
+      "at": 1794383302.8777425,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.0258219460083637,
+      "first_content_seconds": 1.0258219460083637,
+      "first_delivered_seconds": 1.0258277470129542,
+      "id": "9b0233398846401790373033e5f3be86",
+      "model": "campaign-q35-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q35-py-csv-s42-h5.4/developer",
+      "seconds": 1.0395712020108476,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 4071,
+        "prompt_tokens_details": {
+          "cached_tokens": 3109
+        },
+        "total_tokens": 4086
+      }
+    },
+    {
       "at": 1794299563.3351305,
       "complete": true,
       "first_any_seconds": 0.9585839069914073,
@@ -79035,6 +81563,34 @@
       }
     },
     {
+      "at": 1794383180.930247,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44685,
+        "applied": true,
+        "before_bytes": 410624,
+        "dropped_messages": 358,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 6.710091259010369,
+      "first_content_seconds": 6.710091259010369,
+      "first_delivered_seconds": 6.710098562994972,
+      "id": "9b90fcaa447e414789e995c6f705dd07",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 6.740416163986083,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 10656,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10671
+      }
+    },
+    {
       "at": 1794303734.1791263,
       "complete": true,
       "first_any_seconds": 1.7669265329896007,
@@ -79078,6 +81634,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 11427
+      }
+    },
+    {
+      "at": 1794382793.31743,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44493,
+        "applied": true,
+        "before_bytes": 262293,
+        "dropped_messages": 239,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.214917749981396,
+      "first_content_seconds": 8.214917749981396,
+      "first_delivered_seconds": 8.214924672996858,
+      "id": "9bb4a369758d40e8b1e3f470e072bd3f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.244554310978856,
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 12455,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12496
       }
     },
     {
@@ -79347,6 +81931,34 @@
           "cached_tokens": 7923
         },
         "total_tokens": 9228
+      }
+    },
+    {
+      "at": 1794382713.4028592,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47237,
+        "applied": true,
+        "before_bytes": 207456,
+        "dropped_messages": 204,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.5951517210050952,
+      "first_content_seconds": 0.5951517210050952,
+      "first_delivered_seconds": 0.59515941501013,
+      "id": "9c38c9dd148644b0afc0313df3e0573a",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.6248652570066042,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 11984,
+        "prompt_tokens_details": {
+          "cached_tokens": 11771
+        },
+        "total_tokens": 11999
       }
     },
     {
@@ -80033,6 +82645,34 @@
           "cached_tokens": 3232
         },
         "total_tokens": 4147
+      }
+    },
+    {
+      "at": 1794383123.2801707,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47314,
+        "applied": true,
+        "before_bytes": 395093,
+        "dropped_messages": 330,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8336177750024945,
+      "first_content_seconds": 0.8336177750024945,
+      "first_delivered_seconds": 0.8336233359877951,
+      "id": "9d7a9472ce76465f8645ced19cd5c1cf",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8632211849908344,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11438,
+        "prompt_tokens_details": {
+          "cached_tokens": 11412
+        },
+        "total_tokens": 11472
       }
     },
     {
@@ -81305,6 +83945,34 @@
           "cached_tokens": 1519
         },
         "total_tokens": 14389
+      }
+    },
+    {
+      "at": 1794382998.04292,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41871,
+        "applied": true,
+        "before_bytes": 347318,
+        "dropped_messages": 304,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.380142096983036,
+      "first_content_seconds": 7.380142096983036,
+      "first_delivered_seconds": 7.3801476569788065,
+      "id": "9f917837ed0943d6bc39eca7cb62d069",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.410424511996098,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 11641,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11670
       }
     },
     {
@@ -83209,6 +85877,62 @@
       }
     },
     {
+      "at": 1794382923.1568923,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46194,
+        "applied": true,
+        "before_bytes": 318345,
+        "dropped_messages": 280,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.5748629290028475,
+      "first_content_seconds": 7.5748629290028475,
+      "first_delivered_seconds": 7.574867547024041,
+      "id": "a2f3f74f555346ef965b5cf24f494f5f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.604258075996768,
+      "usage": {
+        "completion_tokens": 42,
+        "prompt_tokens": 11483,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11525
+      }
+    },
+    {
+      "at": 1794383248.0215583,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47900,
+        "applied": true,
+        "before_bytes": 435246,
+        "dropped_messages": 378,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.72993513700203,
+      "first_content_seconds": 7.72993513700203,
+      "first_delivered_seconds": 7.729940947989235,
+      "id": "a2f43cd0830a43c29cab59885c77fe99",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.759054325986654,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11828,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11862
+      }
+    },
+    {
       "at": 1794293740.5636654,
       "complete": true,
       "first_any_seconds": 1.5578029730095295,
@@ -83242,6 +85966,34 @@
           "cached_tokens": 11164
         },
         "total_tokens": 14282
+      }
+    },
+    {
+      "at": 1794382536.796728,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45495,
+        "applied": true,
+        "before_bytes": 156181,
+        "dropped_messages": 140,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.633769197011134,
+      "first_content_seconds": 8.633769197011134,
+      "first_delivered_seconds": 8.633773145003943,
+      "id": "a30963ad8e034a829f6f7f25ca45368d",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.664520563994301,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 13357,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13391
       }
     },
     {
@@ -83589,6 +86341,29 @@
       }
     },
     {
+      "at": 1794383330.3497124,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.2294874919753056,
+      "first_content_seconds": 1.2294874919753056,
+      "first_delivered_seconds": 1.2294951359799597,
+      "id": "a3888c26a4b94a46bdcc93fa9dde5146",
+      "model": "campaign-q35-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q35-py-csv-s42-h5.4/developer",
+      "seconds": 35.562012477981625,
+      "usage": {
+        "completion_tokens": 2267,
+        "prompt_tokens": 10563,
+        "prompt_tokens_details": {
+          "cached_tokens": 9320
+        },
+        "total_tokens": 12830
+      }
+    },
+    {
       "at": 1794300811.6273775,
       "complete": true,
       "first_any_seconds": 32.368024836003315,
@@ -83732,6 +86507,34 @@
           "cached_tokens": 8888
         },
         "total_tokens": 9278
+      }
+    },
+    {
+      "at": 1794382594.1558666,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46449,
+        "applied": true,
+        "before_bytes": 169117,
+        "dropped_messages": 156,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.635066924005514,
+      "first_content_seconds": 0.635066924005514,
+      "first_delivered_seconds": 0.6350723649957217,
+      "id": "a4080691b4264797acc93bb4731671d1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.6650935790094081,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13823,
+        "prompt_tokens_details": {
+          "cached_tokens": 13602
+        },
+        "total_tokens": 13838
       }
     },
     {
@@ -84489,6 +87292,34 @@
       }
     },
     {
+      "at": 1794382734.9054751,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44006,
+        "applied": true,
+        "before_bytes": 219167,
+        "dropped_messages": 216,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.5773120450030547,
+      "first_content_seconds": 0.5773120450030547,
+      "first_delivered_seconds": 0.577317975985352,
+      "id": "a5dde13680244ca6a5a17b2f07f68c78",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.6070018769823946,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 11228,
+        "prompt_tokens_details": {
+          "cached_tokens": 11007
+        },
+        "total_tokens": 11243
+      }
+    },
+    {
       "at": 1794362228.000788,
       "complete": true,
       "context_policy": {
@@ -84619,6 +87450,34 @@
           "cached_tokens": 13230
         },
         "total_tokens": 14021
+      }
+    },
+    {
+      "at": 1794383286.1377118,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42407,
+        "applied": true,
+        "before_bytes": 439298,
+        "dropped_messages": 386,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.978031768987421,
+      "first_content_seconds": 0.978031768987421,
+      "first_delivered_seconds": 0.978035395994084,
+      "id": "a65025571a8e401b874ad05b4c552534",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 1.0071553960151505,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 10794,
+        "prompt_tokens_details": {
+          "cached_tokens": 10672
+        },
+        "total_tokens": 10828
       }
     },
     {
@@ -85298,6 +88157,34 @@
       }
     },
     {
+      "at": 1794382774.1350975,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44870,
+        "applied": true,
+        "before_bytes": 245274,
+        "dropped_messages": 227,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.531661857996369,
+      "first_content_seconds": 7.531661857996369,
+      "first_delivered_seconds": 7.531668229989009,
+      "id": "a77249eb895d4fa7aaeb472b8196f3e7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.561082823987817,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 12114,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12142
+      }
+    },
+    {
       "at": 1794329987.7540398,
       "complete": true,
       "first_any_seconds": 1.581469470023876,
@@ -85480,6 +88367,34 @@
       }
     },
     {
+      "at": 1794383113.341599,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46274,
+        "applied": true,
+        "before_bytes": 394053,
+        "dropped_messages": 330,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.149465886992402,
+      "first_content_seconds": 7.149465886992402,
+      "first_delivered_seconds": 7.149469393014442,
+      "id": "a7eb27d9727c4571af8d3e8eac12d445",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.178539279004326,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11204,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11238
+      }
+    },
+    {
       "at": 1794334583.0139022,
       "complete": true,
       "first_any_seconds": 0.625900178012671,
@@ -85646,6 +88561,34 @@
           "cached_tokens": 21349
         },
         "total_tokens": 21517
+      }
+    },
+    {
+      "at": 1794382738.341439,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41761,
+        "applied": true,
+        "before_bytes": 224238,
+        "dropped_messages": 218,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.177094602986472,
+      "first_content_seconds": 7.177094602986472,
+      "first_delivered_seconds": 7.177097318985034,
+      "id": "a8169fb297104040a0f6ac9b567e5617",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.2061267489916645,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 10828,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10885
       }
     },
     {
@@ -86068,6 +89011,34 @@
       }
     },
     {
+      "at": 1794383272.4504948,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47035,
+        "applied": true,
+        "before_bytes": 436950,
+        "dropped_messages": 384,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8630072130181361,
+      "first_content_seconds": 0.8630072130181361,
+      "first_delivered_seconds": 0.8630141059984453,
+      "id": "a889962d020746ebbf9536348bf086f5",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8920772290148307,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11905,
+        "prompt_tokens_details": {
+          "cached_tokens": 11878
+        },
+        "total_tokens": 11939
+      }
+    },
+    {
       "at": 1794345229.168142,
       "complete": true,
       "first_any_seconds": 0.9722703529987484,
@@ -86265,6 +89236,34 @@
           "cached_tokens": 11858
         },
         "total_tokens": 11993
+      }
+    },
+    {
+      "at": 1794382973.2043824,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47732,
+        "applied": true,
+        "before_bytes": 339329,
+        "dropped_messages": 290,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 13.195395025977632,
+      "first_content_seconds": 13.195395025977632,
+      "first_delivered_seconds": 13.19540086699999,
+      "id": "a902ca935c5a4690a3eeabde9e79d4ba",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 13.223816223005997,
+      "usage": {
+        "completion_tokens": 334,
+        "prompt_tokens": 13594,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13928
       }
     },
     {
@@ -86638,6 +89637,34 @@
           "cached_tokens": 11375
         },
         "total_tokens": 12135
+      }
+    },
+    {
+      "at": 1794382510.3902822,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45757,
+        "applied": true,
+        "before_bytes": 147515,
+        "dropped_messages": 128,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.4768737699778285,
+      "first_content_seconds": 0.4768737699778285,
+      "first_delivered_seconds": 0.4768781579914503,
+      "id": "a9c71ca1f6144c19a736d81f4d84ad2c",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.5069460499798879,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13416,
+        "prompt_tokens_details": {
+          "cached_tokens": 13390
+        },
+        "total_tokens": 13431
       }
     },
     {
@@ -87748,6 +90775,29 @@
       }
     },
     {
+      "at": 1794383304.2492955,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.1746355789946392,
+      "first_content_seconds": 1.1746355789946392,
+      "first_delivered_seconds": 1.1746396670059767,
+      "id": "ab9e5a29e6e34af4aa862e22095c0a9a",
+      "model": "campaign-q35-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q35-py-csv-s42-h5.4/developer",
+      "seconds": 1.5501597989932634,
+      "usage": {
+        "completion_tokens": 50,
+        "prompt_tokens": 5011,
+        "prompt_tokens_details": {
+          "cached_tokens": 4067
+        },
+        "total_tokens": 5061
+      }
+    },
+    {
       "at": 1794361555.1360443,
       "complete": true,
       "context_policy": {
@@ -88803,6 +91853,34 @@
           "cached_tokens": 16670
         },
         "total_tokens": 18158
+      }
+    },
+    {
+      "at": 1794383238.3316507,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46825,
+        "applied": true,
+        "before_bytes": 432607,
+        "dropped_messages": 366,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.867847591987811,
+      "first_content_seconds": 0.867847591987811,
+      "first_delivered_seconds": 0.8678537129890174,
+      "id": "ad60caa9f0594920a6d2958dc2bbdefc",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8971253189956769,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 11158,
+        "prompt_tokens_details": {
+          "cached_tokens": 11043
+        },
+        "total_tokens": 11186
       }
     },
     {
@@ -90081,6 +93159,34 @@
       }
     },
     {
+      "at": 1794382750.6943722,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47409,
+        "applied": true,
+        "before_bytes": 229886,
+        "dropped_messages": 218,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.4638574509881437,
+      "first_content_seconds": 0.4638574509881437,
+      "first_delivered_seconds": 0.4638639129989315,
+      "id": "afab142fe7a0497e845916a6669693df",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.4932726559927687,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12249,
+        "prompt_tokens_details": {
+          "cached_tokens": 12225
+        },
+        "total_tokens": 12264
+      }
+    },
+    {
       "at": 1794319450.3329072,
       "complete": true,
       "first_any_seconds": 1.234169088973431,
@@ -90096,6 +93202,34 @@
           "cached_tokens": 17546
         },
         "total_tokens": 17890
+      }
+    },
+    {
+      "at": 1794383209.6641865,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45107,
+        "applied": true,
+        "before_bytes": 421733,
+        "dropped_messages": 362,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 11.152496082999278,
+      "first_content_seconds": 11.152496082999278,
+      "first_delivered_seconds": 11.152501102013048,
+      "id": "afd85a962f494a13afe7edd502dcc569",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 11.181515383999795,
+      "usage": {
+        "completion_tokens": 730,
+        "prompt_tokens": 10693,
+        "prompt_tokens_details": {
+          "cached_tokens": 10664
+        },
+        "total_tokens": 11423
       }
     },
     {
@@ -90229,6 +93363,34 @@
           "cached_tokens": 7876
         },
         "total_tokens": 8128
+      }
+    },
+    {
+      "at": 1794383231.2563615,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46353,
+        "applied": true,
+        "before_bytes": 432135,
+        "dropped_messages": 366,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.005886953003937,
+      "first_content_seconds": 7.005886953003937,
+      "first_delivered_seconds": 7.0058923329925165,
+      "id": "b00da9543b7a4a14a1d4007d78d5c957",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.035399371001404,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 11016,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11044
       }
     },
     {
@@ -91678,6 +94840,34 @@
       }
     },
     {
+      "at": 1794383006.3219476,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43138,
+        "applied": true,
+        "before_bytes": 348585,
+        "dropped_messages": 304,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.858525377989281,
+      "first_content_seconds": 0.858525377989281,
+      "first_delivered_seconds": 0.8585332429793198,
+      "id": "b289232ad25d4b37b2448e8c690bea55",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8882174839964136,
+      "usage": {
+        "completion_tokens": 30,
+        "prompt_tokens": 11984,
+        "prompt_tokens_details": {
+          "cached_tokens": 11810
+        },
+        "total_tokens": 12014
+      }
+    },
+    {
       "at": 1794368230.981332,
       "complete": true,
       "context_policy": {
@@ -91798,6 +94988,34 @@
           "cached_tokens": 7076
         },
         "total_tokens": 7207
+      }
+    },
+    {
+      "at": 1794382464.9244647,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45766,
+        "applied": true,
+        "before_bytes": 137608,
+        "dropped_messages": 116,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.061842169001466,
+      "first_content_seconds": 9.061842169001466,
+      "first_delivered_seconds": 9.061846847995184,
+      "id": "b2cd7cd1dbd24e998bc81b893c4109f1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 9.091424298007041,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 13495,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13552
       }
     },
     {
@@ -92187,6 +95405,34 @@
       }
     },
     {
+      "at": 1794382533.7749312,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45757,
+        "applied": true,
+        "before_bytes": 153467,
+        "dropped_messages": 136,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.4837601640028879,
+      "first_content_seconds": 0.4837601640028879,
+      "first_delivered_seconds": 0.48376383099821396,
+      "id": "b3a69ebc80444e0eb6f4663a49be8bfd",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.5132661809911951,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13416,
+        "prompt_tokens_details": {
+          "cached_tokens": 13390
+        },
+        "total_tokens": 13431
+      }
+    },
+    {
       "at": 1794311322.236856,
       "complete": true,
       "first_any_seconds": 1.2339251640078146,
@@ -92377,6 +95623,34 @@
       }
     },
     {
+      "at": 1794382498.3489356,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46381,
+        "applied": true,
+        "before_bytes": 144511,
+        "dropped_messages": 124,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.46439747599652037,
+      "first_content_seconds": 0.46439747599652037,
+      "first_delivered_seconds": 0.46440373800578527,
+      "id": "b431df9bb56d49d689072689403e3073",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.4930934099829756,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13781,
+        "prompt_tokens_details": {
+          "cached_tokens": 13756
+        },
+        "total_tokens": 13796
+      }
+    },
+    {
       "at": 1794372432.3946767,
       "complete": true,
       "context_policy": {
@@ -92459,6 +95733,62 @@
       }
     },
     {
+      "at": 1794383126.00655,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47462,
+        "applied": true,
+        "before_bytes": 395878,
+        "dropped_messages": 332,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.598285178013612,
+      "first_content_seconds": 7.598285178013612,
+      "first_delivered_seconds": 7.598290869005723,
+      "id": "b471807394a94e43b4744e265cefd7f2",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.627505216019927,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11455,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11489
+      }
+    },
+    {
+      "at": 1794382572.7167206,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45493,
+        "applied": true,
+        "before_bytes": 165162,
+        "dropped_messages": 152,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.977229982992867,
+      "first_content_seconds": 8.977229982992867,
+      "first_delivered_seconds": 8.977233840007102,
+      "id": "b479beafff2744d5879890db5a5c23e1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 9.006512349005789,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 13358,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13415
+      }
+    },
+    {
       "at": 1794301353.1434655,
       "complete": true,
       "first_any_seconds": 0.8494725429918617,
@@ -92474,6 +95804,34 @@
           "cached_tokens": 14157
         },
         "total_tokens": 14272
+      }
+    },
+    {
+      "at": 1794383271.5247467,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46773,
+        "applied": true,
+        "before_bytes": 436688,
+        "dropped_messages": 384,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8508295510255266,
+      "first_content_seconds": 0.8508295510255266,
+      "first_delivered_seconds": 0.8508370950003155,
+      "id": "b490ca4ae60a4feab612571f7503a4c2",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8808047790080309,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11845,
+        "prompt_tokens_details": {
+          "cached_tokens": 11820
+        },
+        "total_tokens": 11879
       }
     },
     {
@@ -92805,6 +96163,34 @@
           "cached_tokens": 13202
         },
         "total_tokens": 13221
+      }
+    },
+    {
+      "at": 1794383051.482931,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42858,
+        "applied": true,
+        "before_bytes": 365199,
+        "dropped_messages": 314,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8056896959897131,
+      "first_content_seconds": 0.8056896959897131,
+      "first_delivered_seconds": 0.8056950260070153,
+      "id": "b54ab4e269b04e66af6a3e7e87675814",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8357430910109542,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 12537,
+        "prompt_tokens_details": {
+          "cached_tokens": 12510
+        },
+        "total_tokens": 12571
       }
     },
     {
@@ -93353,6 +96739,34 @@
           "cached_tokens": 6533
         },
         "total_tokens": 7040
+      }
+    },
+    {
+      "at": 1794382525.0988011,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45495,
+        "applied": true,
+        "before_bytes": 153205,
+        "dropped_messages": 136,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.61183600599179,
+      "first_content_seconds": 8.61183600599179,
+      "first_delivered_seconds": 8.611839822988259,
+      "id": "b683157cab31447b87302520105a8d03",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.640864794986555,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 13357,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13391
       }
     },
     {
@@ -96151,6 +99565,29 @@
       }
     },
     {
+      "at": 1794383292.613093,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 9.213100488996133,
+      "first_content_seconds": 9.213100488996133,
+      "first_delivered_seconds": 9.213106440001866,
+      "id": "bc0b2d5ef25d472eb6272de8d4876872",
+      "model": "campaign-q35-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q35-py-csv-s42-h5.4/developer",
+      "seconds": 9.226612177997595,
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 2596,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2628
+      }
+    },
+    {
       "at": 1794358520.0758872,
       "complete": true,
       "context_policy": {
@@ -97057,6 +100494,34 @@
           "cached_tokens": 5422
         },
         "total_tokens": 6306
+      }
+    },
+    {
+      "at": 1794382501.4039025,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45467,
+        "applied": true,
+        "before_bytes": 147225,
+        "dropped_messages": 128,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.922100179013796,
+      "first_content_seconds": 8.922100179013796,
+      "first_delivered_seconds": 8.922105789009947,
+      "id": "bd88884973f9469f9d9b629383d59ca5",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.952134407998528,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 13334,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13391
       }
     },
     {
@@ -98015,6 +101480,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 30221
+      }
+    },
+    {
+      "at": 1794383007.2513342,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45976,
+        "applied": true,
+        "before_bytes": 356050,
+        "dropped_messages": 306,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.98356234599487,
+      "first_content_seconds": 8.98356234599487,
+      "first_delivered_seconds": 8.983566102979239,
+      "id": "bf95d72b6a5440d9936b3becdba3cd0f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 9.01263486800599,
+      "usage": {
+        "completion_tokens": 30,
+        "prompt_tokens": 13987,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14017
       }
     },
     {
@@ -100586,6 +104079,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 6758
+      }
+    },
+    {
+      "at": 1794383016.305479,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46613,
+        "applied": true,
+        "before_bytes": 356687,
+        "dropped_messages": 306,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 4.598985178017756,
+      "first_content_seconds": 4.598985178017756,
+      "first_delivered_seconds": 4.59899131002021,
+      "id": "c45a5db13fde41f9b5ccf54bd2e026b0",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 4.629318899998907,
+      "usage": {
+        "completion_tokens": 282,
+        "prompt_tokens": 14147,
+        "prompt_tokens_details": {
+          "cached_tokens": 14016
+        },
+        "total_tokens": 14429
       }
     },
     {
@@ -104833,6 +108354,34 @@
       "usage": null
     },
     {
+      "at": 1794382513.4104502,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45495,
+        "applied": true,
+        "before_bytes": 150229,
+        "dropped_messages": 132,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.601328724995255,
+      "first_content_seconds": 8.601328724995255,
+      "first_delivered_seconds": 8.601332952996017,
+      "id": "cbfbe24f41804233aad0d096b0106fb7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.630593798006885,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 13356,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13390
+      }
+    },
+    {
       "at": 1794362984.710197,
       "complete": true,
       "context_policy": {
@@ -106051,6 +109600,34 @@
       }
     },
     {
+      "at": 1794382986.5619142,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46196,
+        "applied": true,
+        "before_bytes": 341135,
+        "dropped_messages": 292,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.31920505099697,
+      "first_content_seconds": 8.31920505099697,
+      "first_delivered_seconds": 8.319210742018186,
+      "id": "cdfcfebd3dee4399a754d727ef9ea394",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.349967059009941,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13309,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13324
+      }
+    },
+    {
       "at": 1794362661.891877,
       "complete": true,
       "context_policy": {
@@ -107083,6 +110660,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 14202
+      }
+    },
+    {
+      "at": 1794382879.5015905,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44674,
+        "applied": true,
+        "before_bytes": 298696,
+        "dropped_messages": 266,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.641396269988036,
+      "first_content_seconds": 9.641396269988036,
+      "first_delivered_seconds": 9.64140245199087,
+      "id": "cff36be95b8246539752ada55397ae00",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 9.670502524997573,
+      "usage": {
+        "completion_tokens": 223,
+        "prompt_tokens": 10602,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10825
       }
     },
     {
@@ -109470,6 +113075,34 @@
       }
     },
     {
+      "at": 1794382545.4941053,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45759,
+        "applied": true,
+        "before_bytes": 156445,
+        "dropped_messages": 140,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.4747088300064206,
+      "first_content_seconds": 0.4747088300064206,
+      "first_delivered_seconds": 0.47471305800718255,
+      "id": "d4efaff4bd0f48b58410cedb914570e3",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.5044468819978647,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13419,
+        "prompt_tokens_details": {
+          "cached_tokens": 13390
+        },
+        "total_tokens": 13434
+      }
+    },
+    {
       "at": 1794313576.208031,
       "complete": true,
       "first_any_seconds": 0.9092297590104863,
@@ -110833,6 +114466,34 @@
           "cached_tokens": 20077
         },
         "total_tokens": 20591
+      }
+    },
+    {
+      "at": 1794382846.0694377,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46776,
+        "applied": true,
+        "before_bytes": 285041,
+        "dropped_messages": 256,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.109336774999974,
+      "first_content_seconds": 8.109336774999974,
+      "first_delivered_seconds": 8.109341853996739,
+      "id": "d70dd8697a0f4bf5bff94814fa715506",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.140178150992142,
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 12342,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12383
       }
     },
     {
@@ -112412,6 +116073,34 @@
       }
     },
     {
+      "at": 1794383197.1491013,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41231,
+        "applied": true,
+        "before_bytes": 417857,
+        "dropped_messages": 362,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8116034529812168,
+      "first_content_seconds": 0.8116034529812168,
+      "first_delivered_seconds": 0.8116077809827402,
+      "id": "da5cc2343a1344bf892651ff881bf423",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8408427579852287,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9857,
+        "prompt_tokens_details": {
+          "cached_tokens": 9832
+        },
+        "total_tokens": 9891
+      }
+    },
+    {
       "at": 1794358062.0682817,
       "complete": true,
       "context_policy": {
@@ -113655,6 +117344,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 12545
+      }
+    },
+    {
+      "at": 1794383376.6755612,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6425325559976045,
+      "first_content_seconds": 0.6425325559976045,
+      "first_delivered_seconds": 0.6425401399901602,
+      "id": "dc76884f9858496e99eb62d5ec3c0900",
+      "model": "campaign-q35-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q35-py-csv-s42-h5.4/developer",
+      "seconds": 1.0426253309997264,
+      "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 13423,
+        "prompt_tokens_details": {
+          "cached_tokens": 12852
+        },
+        "total_tokens": 13450
       }
     },
     {
@@ -116204,6 +119916,34 @@
       }
     },
     {
+      "at": 1794382902.6756835,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43995,
+        "applied": true,
+        "before_bytes": 304223,
+        "dropped_messages": 270,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 2.249495828989893,
+      "first_content_seconds": 2.249495828989893,
+      "first_delivered_seconds": 2.2494999259943143,
+      "id": "e0d9237b6b284d84ab7cf399ff526484",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 2.2787768019770738,
+      "usage": {
+        "completion_tokens": 133,
+        "prompt_tokens": 10181,
+        "prompt_tokens_details": {
+          "cached_tokens": 10152
+        },
+        "total_tokens": 10314
+      }
+    },
+    {
       "at": 1794374924.881585,
       "complete": true,
       "context_policy": {
@@ -116303,6 +120043,29 @@
           "cached_tokens": 17484
         },
         "total_tokens": 17582
+      }
+    },
+    {
+      "at": 1794383307.5261436,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.571353360021021,
+      "first_content_seconds": 3.571353360021021,
+      "first_delivered_seconds": 3.571358159009833,
+      "id": "e10f96edbe8f4887a4e940cf2a186e75",
+      "model": "campaign-q35-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q35-py-csv-s42-h5.4/developer",
+      "seconds": 4.05673924999428,
+      "usage": {
+        "completion_tokens": 64,
+        "prompt_tokens": 9036,
+        "prompt_tokens_details": {
+          "cached_tokens": 5413
+        },
+        "total_tokens": 9100
       }
     },
     {
@@ -117347,6 +121110,34 @@
       }
     },
     {
+      "at": 1794382970.1290503,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47421,
+        "applied": true,
+        "before_bytes": 332776,
+        "dropped_messages": 286,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.5212077489995863,
+      "first_content_seconds": 0.5212077489995863,
+      "first_delivered_seconds": 0.5212137609778438,
+      "id": "e2ca627b60f841feb636077edb984f05",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.5508991739770863,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12699,
+        "prompt_tokens_details": {
+          "cached_tokens": 12670
+        },
+        "total_tokens": 12714
+      }
+    },
+    {
       "at": 1794301139.2619436,
       "complete": true,
       "first_any_seconds": 3.705362927998067,
@@ -117480,6 +121271,34 @@
           "cached_tokens": 26998
         },
         "total_tokens": 27583
+      }
+    },
+    {
+      "at": 1794382912.5108752,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47002,
+        "applied": true,
+        "before_bytes": 307230,
+        "dropped_messages": 270,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.49614837201079354,
+      "first_content_seconds": 0.49614837201079354,
+      "first_delivered_seconds": 0.49615319099393673,
+      "id": "e2fa09c7a8384adba33a6bbb37e2ad83",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.5259189660137054,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 10835,
+        "prompt_tokens_details": {
+          "cached_tokens": 10805
+        },
+        "total_tokens": 10850
       }
     },
     {
@@ -117713,6 +121532,29 @@
           "cached_tokens": 9223
         },
         "total_tokens": 9491
+      }
+    },
+    {
+      "at": 1794383305.857777,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7900114039948676,
+      "first_content_seconds": 0.7900114039948676,
+      "first_delivered_seconds": 0.7900141790159978,
+      "id": "e36e252831d04d079247ae7927108adf",
+      "model": "campaign-q35-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q35-py-csv-s42-h5.4/developer",
+      "seconds": 1.5740993420185987,
+      "usage": {
+        "completion_tokens": 79,
+        "prompt_tokens": 5417,
+        "prompt_tokens_details": {
+          "cached_tokens": 5007
+        },
+        "total_tokens": 5496
       }
     },
     {
@@ -119459,6 +123301,34 @@
       }
     },
     {
+      "at": 1794383190.729069,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40974,
+        "applied": true,
+        "before_bytes": 417600,
+        "dropped_messages": 362,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 6.349686911009485,
+      "first_content_seconds": 6.349686911009485,
+      "first_delivered_seconds": 6.349691840005107,
+      "id": "e77941fe0ec84799936ba6b0fddebcfe",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 6.378902321011992,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9799,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9833
+      }
+    },
+    {
       "at": 1794330419.00454,
       "complete": true,
       "first_any_seconds": 0.5870145130029414,
@@ -120701,6 +124571,34 @@
       }
     },
     {
+      "at": 1794383240.3647606,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47772,
+        "applied": true,
+        "before_bytes": 434332,
+        "dropped_messages": 372,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.580673289980041,
+      "first_content_seconds": 7.580673289980041,
+      "first_delivered_seconds": 7.580680282990215,
+      "id": "e979d88c8b35491ea9fae49c7251195e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.611635543988086,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11559,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11593
+      }
+    },
+    {
       "at": 1794361950.0323176,
       "complete": true,
       "context_policy": {
@@ -120908,6 +124806,34 @@
           "cached_tokens": 9676
         },
         "total_tokens": 9833
+      }
+    },
+    {
+      "at": 1794382666.130504,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45814,
+        "applied": true,
+        "before_bytes": 190748,
+        "dropped_messages": 184,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 17.691751881007804,
+      "first_content_seconds": 17.691751881007804,
+      "first_delivered_seconds": 17.69175651000114,
+      "id": "ea0ba1d38a234256814105c6c4ca039b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 17.720623784989584,
+      "usage": {
+        "completion_tokens": 1186,
+        "prompt_tokens": 12407,
+        "prompt_tokens_details": {
+          "cached_tokens": 12403
+        },
+        "total_tokens": 13593
       }
     },
     {
@@ -121382,6 +125308,34 @@
       }
     },
     {
+      "at": 1794382474.0512118,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46708,
+        "applied": true,
+        "before_bytes": 138550,
+        "dropped_messages": 116,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.7208339519856963,
+      "first_content_seconds": 0.7208339519856963,
+      "first_delivered_seconds": 0.7208381299860775,
+      "id": "eaa17b1400ea441588be48e1712f3a5f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.7503955730062444,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13965,
+        "prompt_tokens_details": {
+          "cached_tokens": 13551
+        },
+        "total_tokens": 13980
+      }
+    },
+    {
       "at": 1794371646.1445386,
       "complete": true,
       "context_policy": {
@@ -121448,6 +125402,34 @@
           "cached_tokens": 41
         },
         "total_tokens": 2600
+      }
+    },
+    {
+      "at": 1794382833.2317617,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44598,
+        "applied": true,
+        "before_bytes": 273117,
+        "dropped_messages": 247,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.4795838739955798,
+      "first_content_seconds": 0.4795838739955798,
+      "first_delivered_seconds": 0.4795895040151663,
+      "id": "eab096bcb3f04d7f98d023881853e329",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.5101152170100249,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12226,
+        "prompt_tokens_details": {
+          "cached_tokens": 12196
+        },
+        "total_tokens": 12241
       }
     },
     {
@@ -122261,6 +126243,34 @@
           "cached_tokens": 8695
         },
         "total_tokens": 9597
+      }
+    },
+    {
+      "at": 1794383273.3835437,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47294,
+        "applied": true,
+        "before_bytes": 437209,
+        "dropped_messages": 384,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8648367820132989,
+      "first_content_seconds": 0.8648367820132989,
+      "first_delivered_seconds": 0.8648424730054103,
+      "id": "ec6cc0b50a3c4cb6a77763465a2355be",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8944565420097206,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11962,
+        "prompt_tokens_details": {
+          "cached_tokens": 11938
+        },
+        "total_tokens": 11996
       }
     },
     {
@@ -125296,6 +129306,34 @@
       }
     },
     {
+      "at": 1794382907.4898913,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45494,
+        "applied": true,
+        "before_bytes": 305722,
+        "dropped_messages": 270,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 2.420572904025903,
+      "first_content_seconds": 2.420572904025903,
+      "first_delivered_seconds": 2.420580168021843,
+      "id": "f23365dbab144970b08b1fa21d520683",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 2.45138777102693,
+      "usage": {
+        "completion_tokens": 143,
+        "prompt_tokens": 10503,
+        "prompt_tokens_details": {
+          "cached_tokens": 10473
+        },
+        "total_tokens": 10646
+      }
+    },
+    {
       "at": 1794325936.9202812,
       "complete": true,
       "first_any_seconds": 0.9337393220048398,
@@ -127129,6 +131167,34 @@
       }
     },
     {
+      "at": 1794383255.8229315,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47966,
+        "applied": true,
+        "before_bytes": 435845,
+        "dropped_messages": 382,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.777132890012581,
+      "first_content_seconds": 7.777132890012581,
+      "first_delivered_seconds": 7.777141767001012,
+      "id": "f5e5737e326e47c5bc07037d554845c6",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 7.806194260017946,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11954,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11988
+      }
+    },
+    {
       "at": 1794368868.1331944,
       "complete": true,
       "context_policy": {
@@ -128427,6 +132493,34 @@
       }
     },
     {
+      "at": 1794383274.3197248,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47556,
+        "applied": true,
+        "before_bytes": 437471,
+        "dropped_messages": 384,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8687182790017687,
+      "first_content_seconds": 0.8687182790017687,
+      "first_delivered_seconds": 0.8687240700237453,
+      "id": "f81d4cc386bc40038ec87581913dc5ca",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8982664240174927,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 12021,
+        "prompt_tokens_details": {
+          "cached_tokens": 11995
+        },
+        "total_tokens": 12055
+      }
+    },
+    {
       "at": 1794362450.7867603,
       "complete": true,
       "context_policy": {
@@ -128526,6 +132620,34 @@
           "cached_tokens": 10275
         },
         "total_tokens": 10448
+      }
+    },
+    {
+      "at": 1794383283.2768106,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41365,
+        "applied": true,
+        "before_bytes": 438256,
+        "dropped_messages": 386,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.865533581993077,
+      "first_content_seconds": 0.865533581993077,
+      "first_delivered_seconds": 0.8655370589985978,
+      "id": "f83e0f8a14884cfc88b6514e30f6d448",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 0.8952627179969568,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 10507,
+        "prompt_tokens_details": {
+          "cached_tokens": 10482
+        },
+        "total_tokens": 10541
       }
     },
     {
@@ -129501,6 +133623,29 @@
       }
     },
     {
+      "at": 1794383311.6437564,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.3845745929866098,
+      "first_content_seconds": 0.3845745929866098,
+      "first_delivered_seconds": 0.38458156600245275,
+      "id": "f9f2787dcf334511a55697ff2a16e5d0",
+      "model": "campaign-q35-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q35-py-csv-s42-h5.4/developer",
+      "seconds": 18.58002608199604,
+      "usage": {
+        "completion_tokens": 1214,
+        "prompt_tokens": 9324,
+        "prompt_tokens_details": {
+          "cached_tokens": 9032
+        },
+        "total_tokens": 10538
+      }
+    },
+    {
       "at": 1794375032.4080932,
       "complete": true,
       "context_policy": {
@@ -129889,6 +134034,34 @@
           "cached_tokens": 14514
         },
         "total_tokens": 14854
+      }
+    },
+    {
+      "at": 1794383239.270611,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47951,
+        "applied": true,
+        "before_bytes": 433733,
+        "dropped_messages": 366,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.0250108210020699,
+      "first_content_seconds": 1.0250108210020699,
+      "first_delivered_seconds": 1.0250140269927215,
+      "id": "faa3f351454a4724b80ce4c26eef8c59",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 1.0544880630041007,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 11477,
+        "prompt_tokens_details": {
+          "cached_tokens": 11185
+        },
+        "total_tokens": 11511
       }
     },
     {
@@ -131313,6 +135486,34 @@
       }
     },
     {
+      "at": 1794382477.431825,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46109,
+        "applied": true,
+        "before_bytes": 141264,
+        "dropped_messages": 120,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.839756647008471,
+      "first_content_seconds": 8.839756647008471,
+      "first_delivered_seconds": 8.83976320902002,
+      "id": "fddb6d3e805f442b8161ac87666100a4",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 8.86903192900354,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 13711,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13745
+      }
+    },
+    {
       "at": 1794336033.2641335,
       "complete": true,
       "first_any_seconds": 1.1087832259945571,
@@ -131676,6 +135877,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 13296
+      }
+    },
+    {
+      "at": 1794382817.1926088,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47094,
+        "applied": true,
+        "before_bytes": 270255,
+        "dropped_messages": 243,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 6.586814099980984,
+      "first_content_seconds": 6.586814099980984,
+      "first_delivered_seconds": 6.586821312987013,
+      "id": "fec81d03c2144d24913359f0296da3e1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-csv-s42-h5.4/developer",
+      "seconds": 6.616207012993982,
+      "usage": {
+        "completion_tokens": 427,
+        "prompt_tokens": 12955,
+        "prompt_tokens_details": {
+          "cached_tokens": 12926
+        },
+        "total_tokens": 13382
       }
     },
     {
