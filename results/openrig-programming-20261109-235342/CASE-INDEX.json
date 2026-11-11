@@ -132,6 +132,23 @@
     "stored_result_sha256": "be328e0640370456e16206a03609a6292a716f0f1106760cd8f1db4228346a89"
   },
   {
+    "artifact": "artifacts/cases/qualification-cpp-frozen-h5.5-a4f6b84d7d50ee729fbb.tar.gz",
+    "complete": true,
+    "directory": "qualification-cpp-frozen-h5.5",
+    "id": "qualification-cpp-frozen-h5.5",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "next",
+      "lead": "next",
+      "reviewer": "next"
+    },
+    "phase": "qualification",
+    "revision": "h5.5",
+    "source_result_sha256": "a4f6b84d7d50ee729fbb836967c38144458ec2c1e198301b3bb8a689299f52ae",
+    "stored_result_sha256": "a4f6b84d7d50ee729fbb836967c38144458ec2c1e198301b3bb8a689299f52ae"
+  },
+  {
     "artifact": "artifacts/cases/qualification-cpp-team-n1-2971f04d95eac48a65b7.tar.gz",
     "complete": true,
     "directory": "qualification-cpp-team-n1",
@@ -880,6 +897,23 @@
     "stored_result_sha256": "3f375e9ecf57cbe1683ca8e4a6218fd1fdb085bde1ca3dc13faba9b9354972c5"
   },
   {
+    "artifact": "artifacts/cases/qualification-python-frozen-h5.5-07012bb8d24494f8e3b9.tar.gz",
+    "complete": true,
+    "directory": "qualification-python-frozen-h5.5",
+    "id": "qualification-python-frozen-h5.5",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "next",
+      "lead": "next",
+      "reviewer": "next"
+    },
+    "phase": "qualification",
+    "revision": "h5.5",
+    "source_result_sha256": "07012bb8d24494f8e3b97be4afe29b3b11085e62bc01d792019bf012f5359bfa",
+    "stored_result_sha256": "07012bb8d24494f8e3b97be4afe29b3b11085e62bc01d792019bf012f5359bfa"
+  },
+  {
     "artifact": "artifacts/cases/solo-coder30-cpp-binary-s42-h5.4-0bee1e15d95d24956f78.tar.gz",
     "complete": false,
     "directory": "solo-coder30-cpp-binary-s42-h5.4",
@@ -1088,6 +1122,21 @@
     "revision": "h5.4",
     "source_result_sha256": "c3eb4da69a8e8a6e54c6e6422af4bc4f7f9c56273f04b922e09c7de0ffff5231",
     "stored_result_sha256": "c3eb4da69a8e8a6e54c6e6422af4bc4f7f9c56273f04b922e09c7de0ffff5231"
+  },
+  {
+    "artifact": "artifacts/cases/solo-coder30-py-queue-s42-h5.4-b6ed2f1a30089764ab4c.tar.gz",
+    "complete": false,
+    "directory": "solo-coder30-py-queue-s42-h5.4",
+    "id": "solo-coder30-py-queue-s42-h5.4",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "coder30"
+    },
+    "phase": "solo",
+    "revision": "h5.4",
+    "source_result_sha256": "b6ed2f1a30089764ab4c60a7a18e1e093ac78a30f15b83a86eacdefb0ad5c643",
+    "stored_result_sha256": "b6ed2f1a30089764ab4c60a7a18e1e093ac78a30f15b83a86eacdefb0ad5c643"
   },
   {
     "artifact": "artifacts/cases/solo-coder30-py-refactor-s42-h5.4-9ed2535d04f07289fe3c.tar.gz",

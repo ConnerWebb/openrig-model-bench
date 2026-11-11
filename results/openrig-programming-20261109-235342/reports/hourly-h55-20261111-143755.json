@@ -1,0 +1,327 @@
+{
+  "at": "2026-11-11T14:37:56.335871-06:00",
+  "active_harness_revision": "h5.5",
+  "historical_h54_coding_scores": {
+    "python": {
+      "passed": 26,
+      "finished": 32
+    },
+    "cpp": {
+      "passed": 18,
+      "finished": 34
+    }
+  },
+  "active_h55_coding_scores": {
+    "python": {
+      "passed": 0,
+      "finished": 0
+    },
+    "cpp": {
+      "passed": 0,
+      "finished": 0
+    }
+  },
+  "historical_h54_per_model": {
+    "coder30": {
+      "python": {
+        "passed": 3,
+        "finished": 4
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 6
+      }
+    },
+    "devstral": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "glm": {
+      "python": {
+        "passed": 0,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "gpt120": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "gpt20": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "nemo": {
+      "python": {
+        "passed": 0,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1
+      }
+    },
+    "next": {
+      "python": {
+        "passed": 15,
+        "finished": 18
+      },
+      "cpp": {
+        "passed": 9,
+        "finished": 18
+      }
+    },
+    "q122": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "q27q4": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1
+      }
+    },
+    "q27q8": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "q35": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    },
+    "q9": {
+      "python": {
+        "passed": 1,
+        "finished": 1
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1
+      }
+    }
+  },
+  "baseline_qualification_results": {
+    "python": {
+      "id": "qualification-python-frozen-h5.5",
+      "task": "py-csv",
+      "language": "python",
+      "models": {
+        "lead": "next",
+        "developer": "next",
+        "reviewer": "next"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 3,
+      "phase": "qualification",
+      "harness_revision": "h5.5",
+      "started": 1794429122.344768,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-9eb7a39e69a2",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794429165.371178,
+          "incoming_feedback": "None. \nADVISORY PLAN:\nImplement solution.py aggregate(path) with UTF-8 CSV streaming, exact decimal arithmetic, and strict validation per TASK.txt\nCreate tests/test_solution.py using unittest.TestCase with test cases covering valid CSVs, blank lines, malformed rows, invalid amounts, and edge cases\nCreate README.md with usage and validation rules summary\nRun run_tests to verify correctness\nFinish stage after passing all checks"
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "fc8026c4e4c462f814f0ff6f5c5a415909b43a5183cfd184da8e38e04359a9ab",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-python-frozen-h5.5/seats/developer/project",
+      "review_required": true,
+      "review_approved": true,
+      "finished": 1794429239.830307,
+      "seconds": 117.48553895950317,
+      "resource_limited": false
+    },
+    "cpp": {
+      "id": "qualification-cpp-frozen-h5.5",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "lead": "next",
+        "developer": "next",
+        "reviewer": "next"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 3,
+      "phase": "qualification",
+      "harness_revision": "h5.5",
+      "started": 1794429240.2537377,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-903e22dab0dd",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794429266.526898,
+          "incoming_feedback": "None. \nADVISORY PLAN:\n1. Analyze current solution.hpp: existing implementation already satisfies all contract requirements (RAII, deep copy, noexcept move, bounds-checked access via std::vector::at, resize with zero-initialization, self-assignment/move safety).\n2. Verify contract compliance: Buffer(size_t), size(), operator[] (mutable/const with out_of_range), resize(), copy/move constructors/assignment, moved-from state (size 0, reusable), no leaks/UB.\n3. Confirm PUBLIC_DRIVER.cpp and PUBLIC_CASES.json match contract; driver tests bounds-check, move semantics, copy semantics, resize, and self-assignment/move.\n4. Validate test_submission.py uses stdlib unittest.TestCase/test_* methods and compiles/runs with Clang22 C++20 (-fuse-ld=bfd).\n5. Prepare final plan: no code changes needed; solution.hpp is correct; focus on README.md update and ensuring run_tests passes with public-inputs.\n6. Document README.md with usage and contract summary.\n7. Run run_tests to verify correctness with all public-inputs cases.\n8. Finish stage upon successful test run."
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "9e8a2783669e63f42df07dfea3bbf7ff085e31eeab8006319a995637d3cc90b6",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-cpp-frozen-h5.5/seats/developer/project",
+      "review_required": true,
+      "review_approved": true,
+      "finished": 1794429329.2301521,
+      "seconds": 88.97641444206238,
+      "resource_limited": false
+    }
+  },
+  "diagnosis": {
+    "historical_scores": "h5.4 Python26/32, C++18/34. Unequal coverage. The completed Qwen30B C++ CSV trial has a transport confound as well as undefined-reference compilation and authored-test failures; do not interpret all its failure as coding inability.",
+    "new_h54_failures": "Qwen30B statistics failed numerical accuracy and turn deadlines. Qwen30B C++ CSV failed linking/test/closure checks and hit8 rejected summary requests. Final Python queue exhausted3 attempts with public expiration/max-attempt logic and authored-test failures; no new pinned-budget errors occurred in that trial.",
+    "transport_repair": "Exact archived8x rejected heading-style checkpoint request reproduced; adapter now recognizes only that known tool-free two-message summary envelope, preserving the system and entire summary-format footer. Actual replay through the candidate returned200/DONE in20.04s;70099 serialized bytes reduced to48000;14286 prompt tokens,270 output tokens. No tool executed or model answer patched.",
+    "monitor_repair": "Essential memory/OOM guards now precede thermal sampling; per-sensor ELOOP errors retained without dropping the sample. The zero-clock low-memory-window edge case was repaired after an injected test caught it. Prior m1 observer disabled only after the new integrated monitor became fresh; all its source/unit/state/telemetry preserved.",
+    "validation": "140 regression checks, installed Pi sequential-batch integration and17 repository tests passed. All15 unchanged task reference oracles passed. Fresh guarded3-seat Coder-Next Python and C++ baselines both passed first attempt with independent review/finalization and0 operator interventions; qualifiers excluded from coding scores.",
+    "deployment": "Stopped only private campaign/inference services after the current trial recorded its bounded failure; checkpointed before restart. Deployed immutable h5.5; all199 earlier result hashes and production fingerprints unchanged. Source frozen matches34 Git archive file hashes.",
+    "cleanup_note": "Operator boundary pause caught final result before controller cleanup completed. The trial itself had finished and its result remains unchanged; final metadata lacks resource_limited. Complete histories and native DB are in the idle checkpoint plus boundary-final-case-supplement; the leftover old idle agent had no assigned work and was cleanly stopped after archival. Future boundary checks must wait for main.execute final resource_limited marker.",
+    "continuation": "Fresh h5.5 results are a separate cohort. Same tasks, acceptance, scopes, task weights,32K context,4096 output cap and sampling. Scored Coder-Next controls and affected Qwen30B C++ CSV rerun are prioritized, then the full fixed matrix, teams and parallel phases. Current phase/model below. No coding results from h5.4 pooled into h5.5."
+  },
+  "current": {
+    "phase": "solo",
+    "at": 1794429463.8226109,
+    "pid": 637884,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign",
+    "current": "solo-next-py-csv-s42-h5.5"
+  },
+  "heartbeat_age_seconds": -0.5241448879241943,
+  "post_deployment_observed_memory": {
+    "samples": 400,
+    "latest_age_seconds": -0.5179967880249023,
+    "sensor_error_samples": 295,
+    "minimum_available_bytes": 33861705728,
+    "observed_peak_system_used_bytes": 100437422080,
+    "observed_peak_gpu_gtt_used_bytes": 83918147584,
+    "swap_in_pages_delta": 3383,
+    "swap_out_pages_delta": 27131
+  },
+  "post_deployment_error_events": {},
+  "production_unchanged": true,
+  "historical_results_verified": 199,
+  "source_files_verified": 34,
+  "live_replay": {
+    "at": 1794429065.8471384,
+    "passed": true,
+    "status": 200,
+    "seconds": 20.0373460050032,
+    "original_request": "transport/b3139a5f554744b3a1e3e47a83a88d55/request.json",
+    "replay_transport": "transport/8a66be653a8b44a3a153ff907992951a",
+    "metrics": {
+      "id": "8a66be653a8b44a3a153ff907992951a",
+      "prefix": "diagnostic-h55-heading-summary",
+      "at": 1794429045.8114643,
+      "first_any_seconds": 15.0082853139902,
+      "first_content_seconds": 15.0082853139902,
+      "first_delivered_seconds": 15.008300852990942,
+      "usage": {
+        "prompt_tokens": 14286,
+        "prompt_tokens_details": {
+          "cached_tokens": 3
+        },
+        "completion_tokens": 270,
+        "total_tokens": 14556
+      },
+      "normalized_tool_call": false,
+      "context_policy": {
+        "applied": true,
+        "kind": "compaction-summary",
+        "summary_envelope": "heading-checkpoint",
+        "maximum_bytes": 48000,
+        "before_bytes": 70099,
+        "after_bytes": 48000,
+        "transcript_bytes": 64884,
+        "retained_transcript_bytes": 43905,
+        "preserved_summary_instructions": true,
+        "policy": "Original transcript archived; retain initial quarter and recent three quarters of bounded transcript only; no tools or assignment instructions rewritten."
+      },
+      "model": "campaign-coder30-s42-c32768",
+      "complete": true,
+      "seconds": 19.89836537098745
+    },
+    "diagnostic_only": true,
+    "notes": "Exact archived request through candidate proxy, same existing private model alias and sampling. No tools or model answer edits. Idle-boundary pause only; not scored as a coding task."
+  },
+  "deployment": {
+    "at": 1794429069.8665364,
+    "harness_revision": "h5.5",
+    "new_main_pid": 637884,
+    "old_main_pid": 3668881,
+    "no_active_trial_interrupted": true,
+    "regression_checks": 140,
+    "repository_checks": 17,
+    "installed_pi_batch_check": true,
+    "live_replay_passed": true,
+    "historical_results_verified": 199,
+    "boundary_checkpoint": "/home/cow/Documents/Codex/Backups/openrig-programming/20261109-235342/idle-before-h55-1794429044282875595",
+    "production_unchanged": true,
+    "prior_observer": "monitor-m1 disabled after integrated h5.5 monitor became fresh; source/unit/telemetry/state preserved",
+    "source_candidate_commit": "1a065f9"
+  },
+  "checkpoint": {
+    "at": 1794429045.7751334,
+    "backup": "/home/cow/Documents/Codex/Backups/openrig-programming/20261109-235342/idle-before-h55-1794429044282875595",
+    "boundary": {
+      "at": 1794429044.1943953,
+      "pid": 3668881,
+      "after_completed_case": "solo-coder30-py-queue-s42-h5.4",
+      "result_sha256": "b6ed2f1a30089764ab4c60a7a18e1e093ac78a30f15b83a86eacdefb0ad5c643",
+      "state": "paused-between-finished-trials",
+      "no_active_case_interrupted": true
+    },
+    "no_active_trial_interrupted": true
+  },
+  "rollback": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/repairs/h5.5/LOCAL-RESTORE.txt",
+  "campaign_unfinished": true,
+  "scope": "Qualification/probes/live replay and incomplete/interrupted work are excluded from coding scores. Keep all revisions separate. Old thermal sampling gaps remain flagged; do not impute peaks."
+}

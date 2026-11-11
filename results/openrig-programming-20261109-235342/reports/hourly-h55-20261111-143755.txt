@@ -1,0 +1,22 @@
+OpenRig hourly check — 2026-11-11T14:37:56.335871-06:00
+Active immutable revision h5.5. Historical h5.4 scores kept separate.
+h5.4 Python {'passed': 26, 'finished': 32}; C++ {'passed': 18, 'finished': 34}.
+h5.5 Python {'passed': 0, 'finished': 0}; C++ {'passed': 0, 'finished': 0}.
+Qualification/probes/live replay and incomplete/interrupted work are excluded from coding scores. Keep all revisions separate. Old thermal sampling gaps remain flagged; do not impute peaks.
+
+historical_scores: h5.4 Python26/32, C++18/34. Unequal coverage. The completed Qwen30B C++ CSV trial has a transport confound as well as undefined-reference compilation and authored-test failures; do not interpret all its failure as coding inability.
+new_h54_failures: Qwen30B statistics failed numerical accuracy and turn deadlines. Qwen30B C++ CSV failed linking/test/closure checks and hit8 rejected summary requests. Final Python queue exhausted3 attempts with public expiration/max-attempt logic and authored-test failures; no new pinned-budget errors occurred in that trial.
+transport_repair: Exact archived8x rejected heading-style checkpoint request reproduced; adapter now recognizes only that known tool-free two-message summary envelope, preserving the system and entire summary-format footer. Actual replay through the candidate returned200/DONE in20.04s;70099 serialized bytes reduced to48000;14286 prompt tokens,270 output tokens. No tool executed or model answer patched.
+monitor_repair: Essential memory/OOM guards now precede thermal sampling; per-sensor ELOOP errors retained without dropping the sample. The zero-clock low-memory-window edge case was repaired after an injected test caught it. Prior m1 observer disabled only after the new integrated monitor became fresh; all its source/unit/state/telemetry preserved.
+validation: 140 regression checks, installed Pi sequential-batch integration and17 repository tests passed. All15 unchanged task reference oracles passed. Fresh guarded3-seat Coder-Next Python and C++ baselines both passed first attempt with independent review/finalization and0 operator interventions; qualifiers excluded from coding scores.
+deployment: Stopped only private campaign/inference services after the current trial recorded its bounded failure; checkpointed before restart. Deployed immutable h5.5; all199 earlier result hashes and production fingerprints unchanged. Source frozen matches34 Git archive file hashes.
+cleanup_note: Operator boundary pause caught final result before controller cleanup completed. The trial itself had finished and its result remains unchanged; final metadata lacks resource_limited. Complete histories and native DB are in the idle checkpoint plus boundary-final-case-supplement; the leftover old idle agent had no assigned work and was cleanly stopped after archival. Future boundary checks must wait for main.execute final resource_limited marker.
+continuation: Fresh h5.5 results are a separate cohort. Same tasks, acceptance, scopes, task weights,32K context,4096 output cap and sampling. Scored Coder-Next controls and affected Qwen30B C++ CSV rerun are prioritized, then the full fixed matrix, teams and parallel phases. Current phase/model below. No coding results from h5.4 pooled into h5.5.
+
+Current: {"phase": "solo", "at": 1794429463.8226109, "pid": 637884, "harness_revision": "h5.5", "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign", "current": "solo-next-py-csv-s42-h5.5"}
+Post-deployment telemetry: {"latest_age_seconds": -0.5179967880249023, "minimum_available_bytes": 33861705728, "observed_peak_gpu_gtt_used_bytes": 83918147584, "observed_peak_system_used_bytes": 100437422080, "samples": 400, "sensor_error_samples": 295, "swap_in_pages_delta": 3383, "swap_out_pages_delta": 27131}
+Post-deployment error events: {}
+Production unchanged: True; all199 historical results and34 frozen source hashes verified.
+Idle checkpoint: /home/cow/Documents/Codex/Backups/openrig-programming/20261109-235342/idle-before-h55-1794429044282875595
+Rollback: /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/repairs/h5.5/LOCAL-RESTORE.txt
+Campaign and independent GitHub backup continue; hourly check stays active.

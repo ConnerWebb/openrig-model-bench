@@ -1,0 +1,36 @@
+{
+  "id": "qualification-python-frozen-h5.5",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 3,
+  "phase": "qualification",
+  "harness_revision": "h5.5",
+  "started": 1794429122.344768,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-9eb7a39e69a2",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794429165.371178,
+      "incoming_feedback": "None. \nADVISORY PLAN:\nImplement solution.py aggregate(path) with UTF-8 CSV streaming, exact decimal arithmetic, and strict validation per TASK.txt\nCreate tests/test_solution.py using unittest.TestCase with test cases covering valid CSVs, blank lines, malformed rows, invalid amounts, and edge cases\nCreate README.md with usage and validation rules summary\nRun run_tests to verify correctness\nFinish stage after passing all checks"
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "fc8026c4e4c462f814f0ff6f5c5a415909b43a5183cfd184da8e38e04359a9ab",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-python-frozen-h5.5/seats/developer/project",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794429239.830307,
+  "seconds": 117.48553895950317,
+  "resource_limited": false
+}

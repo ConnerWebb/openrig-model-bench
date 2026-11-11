@@ -1,0 +1,36 @@
+{
+  "id": "qualification-cpp-frozen-h5.5",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 3,
+  "phase": "qualification",
+  "harness_revision": "h5.5",
+  "started": 1794429240.2537377,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-903e22dab0dd",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794429266.526898,
+      "incoming_feedback": "None. \nADVISORY PLAN:\n1. Analyze current solution.hpp: existing implementation already satisfies all contract requirements (RAII, deep copy, noexcept move, bounds-checked access via std::vector::at, resize with zero-initialization, self-assignment/move safety).\n2. Verify contract compliance: Buffer(size_t), size(), operator[] (mutable/const with out_of_range), resize(), copy/move constructors/assignment, moved-from state (size 0, reusable), no leaks/UB.\n3. Confirm PUBLIC_DRIVER.cpp and PUBLIC_CASES.json match contract; driver tests bounds-check, move semantics, copy semantics, resize, and self-assignment/move.\n4. Validate test_submission.py uses stdlib unittest.TestCase/test_* methods and compiles/runs with Clang22 C++20 (-fuse-ld=bfd).\n5. Prepare final plan: no code changes needed; solution.hpp is correct; focus on README.md update and ensuring run_tests passes with public-inputs.\n6. Document README.md with usage and contract summary.\n7. Run run_tests to verify correctness with all public-inputs cases.\n8. Finish stage upon successful test run."
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "9e8a2783669e63f42df07dfea3bbf7ff085e31eeab8006319a995637d3cc90b6",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-cpp-frozen-h5.5/seats/developer/project",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794429329.2301521,
+  "seconds": 88.97641444206238,
+  "resource_limited": false
+}
