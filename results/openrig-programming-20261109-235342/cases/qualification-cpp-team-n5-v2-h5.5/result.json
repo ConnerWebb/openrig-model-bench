@@ -1,0 +1,41 @@
+{
+  "id": "qualification-cpp-team-n5-v2-h5.5",
+  "task": "cpp-team",
+  "language": "cpp",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 5,
+  "phase": "qualification",
+  "harness_revision": "h5.5",
+  "started": 1794454261.4829698,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-24a3484735ec",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794454335.0209982,
+      "incoming_feedback": "None. \nADVISORY PLAN:\nReview existing header-only implementations in parser.hpp, cache.hpp, stats.hpp and solution.hpp to confirm compliance with the contract.\nVerify parser.hpp handles CSV parsing with quoted fields, escaped quotes, embedded newlines, trimming, header validation, field count, empty fields, and int64 overflow detection.\nVerify cache.hpp LruCache provides O(1) get/put/erase, correct MRU ordering, snapshot without side effects, and capacity-0 behavior.\nVerify stats.hpp RunningStats uses stable online formulas, rejects NaN/infinity, throws domain_error on empty, and merges correctly (including self-merge).\nCompile PUBLIC_DRIVER.cpp with clang++ -std=c++20 -fuse-ld=bfd to confirm no compilation errors.\nRun driver against all 37 public-inputs JSON cases and compare outputs to expected values in PUBLIC_CASES.json.\nImplement unit tests using unittest.TestCase/test_* methods in test_submission.py covering parser, cache, and stats in isolation.\nUpdate README.md with build instructions, API documentation, and usage examples for each module.\nEnsure all modules are header-only, use only standard C++20 facilities, and follow the exact API signatures in the contract.\nConfirm no external dependencies, no network access, and no hardcoded test data beyond public inputs.\nRun full test suite via run_tests to validate correctness before marking planning complete.\nClose planning phase and await implementation assignment."
+    },
+    {
+      "attempt": 2,
+      "started": 1794454623.4335554,
+      "incoming_feedback": "Test author failed"
+    }
+  ],
+  "attempts": 2,
+  "completed_hash": "f3437c53290e4abf498fe08bda6bb95b0278b2914578312e75634fb245522a8c",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-cpp-team-n5-v2-h5.5/merge-1",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794454889.7269645,
+  "seconds": 628.2439947128296,
+  "resource_limited": false
+}
