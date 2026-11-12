@@ -531,5 +531,17 @@
     "case_wall_seconds_sum": 54.50922894477844,
     "accepted_tasks_per_hour": 66.04386210722308,
     "failures": []
+  },
+  {
+    "phase": "qualification",
+    "language": "cpp",
+    "task": "cpp-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 4,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 1999.6124668121338,
+    "accepted_tasks_per_hour": 1.8003488474640645,
+    "failures": []
   }
 ]
