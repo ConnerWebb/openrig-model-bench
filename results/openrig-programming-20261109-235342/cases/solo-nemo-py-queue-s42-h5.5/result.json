@@ -1,0 +1,42 @@
+{
+  "id": "solo-nemo-py-queue-s42-h5.5",
+  "task": "py-queue",
+  "language": "python",
+  "models": {
+    "developer": "nemo"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794458082.7455359,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-65a1ba6780b7",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794458083.8043666,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794458095.9594078,
+      "incoming_feedback": "STAGE_FAILED: Three consecutive invalid tool operations"
+    },
+    {
+      "attempt": 3,
+      "started": 1794458998.3351336,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "Bounded stage/job deadline exceeded: developer",
+  "finished": 1794460198.7996457,
+  "seconds": 2116.054109811783,
+  "resource_limited": false
+}

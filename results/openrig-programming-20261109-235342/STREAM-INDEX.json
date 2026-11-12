@@ -3273,6 +3273,62 @@
       }
     },
     {
+      "at": 1794460631.42434,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47974,
+        "applied": true,
+        "before_bytes": 168422,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.0050119779771194,
+      "first_content_seconds": 1.0050119779771194,
+      "first_delivered_seconds": 1.0050161859835498,
+      "id": "031bd8d3c8114328b4472d2a06ea6a6d",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0344563619582914,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 12027,
+        "prompt_tokens_details": {
+          "cached_tokens": 11952
+        },
+        "total_tokens": 12066
+      }
+    },
+    {
+      "at": 1794460128.0495567,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 598871,
+        "dropped_messages": 340,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.79037306801183,
+      "first_content_seconds": 23.79037306801183,
+      "first_delivered_seconds": 23.790380140999332,
+      "id": "0320ad5ae6f340cfa7fa682e7432d788",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.818894818017725,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
+      }
+    },
+    {
       "at": 1794402642.9369428,
       "complete": true,
       "context_policy": {
@@ -5270,6 +5326,34 @@
           "cached_tokens": 12451
         },
         "total_tokens": 12703
+      }
+    },
+    {
+      "at": 1794459819.1182315,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 499640,
+        "dropped_messages": 292,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4063862159964629,
+      "first_content_seconds": 1.4063862159964629,
+      "first_delivered_seconds": 1.4063928790274076,
+      "id": "04d26f8be2e648c8bd39ba0440fc7c5b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.4357003479963169,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
       }
     },
     {
@@ -8174,6 +8258,29 @@
       }
     },
     {
+      "at": 1794460225.6171792,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6142284810193814,
+      "first_content_seconds": 0.6142284810193814,
+      "first_delivered_seconds": 0.6142339110374451,
+      "id": "0790a1cd88ff4df2b44ecae16eb326a5",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.6441512040328234,
+      "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 9875,
+        "prompt_tokens_details": {
+          "cached_tokens": 9828
+        },
+        "total_tokens": 9902
+      }
+    },
+    {
       "at": 1794395751.1998684,
       "complete": true,
       "context_policy": {
@@ -9645,6 +9752,34 @@
           "cached_tokens": 4612
         },
         "total_tokens": 7638
+      }
+    },
+    {
+      "at": 1794460532.954628,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43184,
+        "applied": true,
+        "before_bytes": 134572,
+        "dropped_messages": 78,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.312354196968954,
+      "first_content_seconds": 10.312354196968954,
+      "first_delivered_seconds": 10.312360668962356,
+      "id": "089dc56c80cf4cbb9f7814892e6bb0a8",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 10.34012117801467,
+      "usage": {
+        "completion_tokens": 212,
+        "prompt_tokens": 11922,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12134
       }
     },
     {
@@ -12017,6 +12152,29 @@
       }
     },
     {
+      "at": 1794460218.7444053,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7896191570325755,
+      "first_content_seconds": 0.7896191570325755,
+      "first_delivered_seconds": 0.7896249580080621,
+      "id": "0a54d269a78e46f383d3f88f0dc3ca8f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.8197878620121628,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9286,
+        "prompt_tokens_details": {
+          "cached_tokens": 9090
+        },
+        "total_tokens": 9320
+      }
+    },
+    {
       "at": 1794408810.763407,
       "complete": true,
       "context_policy": {
@@ -12180,6 +12338,29 @@
           "cached_tokens": 2174
         },
         "total_tokens": 10998
+      }
+    },
+    {
+      "at": 1794460217.894128,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7793364630197175,
+      "first_content_seconds": 0.7793364630197175,
+      "first_delivered_seconds": 0.7793406710261479,
+      "id": "0a79d270d22f419ba94a04b4d1a21a7d",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.8086890639970079,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9057,
+        "prompt_tokens_details": {
+          "cached_tokens": 8852
+        },
+        "total_tokens": 9091
       }
     },
     {
@@ -14524,6 +14705,34 @@
       }
     },
     {
+      "at": 1794460675.8770494,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47698,
+        "applied": true,
+        "before_bytes": 176619,
+        "dropped_messages": 94,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.178606923029292,
+      "first_content_seconds": 7.178606923029292,
+      "first_delivered_seconds": 7.178614667034708,
+      "id": "0c704a6285714a9d8cd11177a84c56d6",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 7.207739069999661,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10931,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10970
+      }
+    },
+    {
       "at": 1794434294.3223968,
       "complete": true,
       "context_policy": {
@@ -15916,6 +16125,34 @@
           "cached_tokens": 6878
         },
         "total_tokens": 6956
+      }
+    },
+    {
+      "at": 1794459948.4704292,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 541625,
+        "dropped_messages": 312,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.691213720012456,
+      "first_content_seconds": 23.691213720012456,
+      "first_delivered_seconds": 23.691221454995684,
+      "id": "0d96eabd8b204e1797de3023971b6ccb",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.720467244973406,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
       }
     },
     {
@@ -18687,6 +18924,34 @@
       }
     },
     {
+      "at": 1794460616.9400604,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41962,
+        "applied": true,
+        "before_bytes": 162410,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9633949580020271,
+      "first_content_seconds": 0.9633949580020271,
+      "first_delivered_seconds": 0.9633981439983472,
+      "id": "0fff12ffb5094a6b9df844df51d6a45e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9932667950051837,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10784,
+        "prompt_tokens_details": {
+          "cached_tokens": 10709
+        },
+        "total_tokens": 10823
+      }
+    },
+    {
       "at": 1794379137.4128187,
       "complete": true,
       "context_policy": {
@@ -18842,6 +19107,34 @@
           "cached_tokens": 14328
         },
         "total_tokens": 15005
+      }
+    },
+    {
+      "at": 1794459820.758879,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 500735,
+        "dropped_messages": 292,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.638641770987306,
+      "first_content_seconds": 23.638641770987306,
+      "first_delivered_seconds": 23.638647161016706,
+      "id": "1039070961104115805dd69772b4b7ea",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.66677199798869,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
       }
     },
     {
@@ -22945,6 +23238,34 @@
       }
     },
     {
+      "at": 1794460559.4199216,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42962,
+        "applied": true,
+        "before_bytes": 141326,
+        "dropped_messages": 80,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8683292040368542,
+      "first_content_seconds": 0.8683292040368542,
+      "first_delivered_seconds": 0.8683336730464362,
+      "id": "1407759ac3cd49c489c2e1c613446c5f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.8982056100503542,
+      "usage": {
+        "completion_tokens": 40,
+        "prompt_tokens": 12170,
+        "prompt_tokens_details": {
+          "cached_tokens": 12095
+        },
+        "total_tokens": 12210
+      }
+    },
+    {
       "at": 1794424467.344378,
       "complete": true,
       "context_policy": {
@@ -23625,6 +23946,34 @@
           "cached_tokens": 11026
         },
         "total_tokens": 12727
+      }
+    },
+    {
+      "at": 1794460152.038242,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 605954,
+        "dropped_messages": 344,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4569241619901732,
+      "first_content_seconds": 1.4569241619901732,
+      "first_delivered_seconds": 1.456931536027696,
+      "id": "14b1901d11824d9181d296f009b3727d",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.4881104290252551,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
       }
     },
     {
@@ -26367,6 +26716,34 @@
           "cached_tokens": 10230
         },
         "total_tokens": 10506
+      }
+    },
+    {
+      "at": 1794460585.967452,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46996,
+        "applied": true,
+        "before_bytes": 151213,
+        "dropped_messages": 82,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8799796680104919,
+      "first_content_seconds": 0.8799796680104919,
+      "first_delivered_seconds": 0.8799834250239655,
+      "id": "16f62b05a866442298ff01870c417898",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9092460569809191,
+      "usage": {
+        "completion_tokens": 40,
+        "prompt_tokens": 12181,
+        "prompt_tokens_details": {
+          "cached_tokens": 12134
+        },
+        "total_tokens": 12221
       }
     },
     {
@@ -29569,6 +29946,34 @@
       }
     },
     {
+      "at": 1794460461.639248,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44734,
+        "applied": true,
+        "before_bytes": 112488,
+        "dropped_messages": 70,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 63.073303605022375,
+      "first_content_seconds": 63.073303605022375,
+      "first_delivered_seconds": 63.073309215018526,
+      "id": "19ddd16be5544a5990976c52314b453d",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 63.099612596968655,
+      "usage": {
+        "completion_tokens": 3782,
+        "prompt_tokens": 11890,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15672
+      }
+    },
+    {
       "at": 1794330244.3758113,
       "complete": true,
       "first_any_seconds": 7.7821413569909055,
@@ -30489,6 +30894,34 @@
       }
     },
     {
+      "at": 1794460576.7596993,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42933,
+        "applied": true,
+        "before_bytes": 147150,
+        "dropped_messages": 82,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.880336478992831,
+      "first_content_seconds": 0.880336478992831,
+      "first_delivered_seconds": 0.8803428710089065,
+      "id": "1ac52e2905bb42e0aa215b50b38b253a",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9094591489993036,
+      "usage": {
+        "completion_tokens": 40,
+        "prompt_tokens": 11326,
+        "prompt_tokens_details": {
+          "cached_tokens": 11251
+        },
+        "total_tokens": 11366
+      }
+    },
+    {
       "at": 1794344591.4384391,
       "complete": true,
       "first_any_seconds": 1.1762184010003693,
@@ -31398,6 +31831,29 @@
       }
     },
     {
+      "at": 1794460214.4860985,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6476821990218014,
+      "first_content_seconds": 0.6476821990218014,
+      "first_delivered_seconds": 0.6476900239940733,
+      "id": "1bf8d3efc73d44e4835f1261151be0f5",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.6781111939926632,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 7856,
+        "prompt_tokens_details": {
+          "cached_tokens": 7740
+        },
+        "total_tokens": 7884
+      }
+    },
+    {
       "at": 1794360419.1190364,
       "complete": true,
       "context_policy": {
@@ -32132,6 +32588,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 5973
+      }
+    },
+    {
+      "at": 1794460567.6235154,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47191,
+        "applied": true,
+        "before_bytes": 145555,
+        "dropped_messages": 80,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9504488889942877,
+      "first_content_seconds": 0.9504488889942877,
+      "first_delivered_seconds": 0.9504529969999567,
+      "id": "1c9280175ffb418fb19dca323c34655b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9809015580103733,
+      "usage": {
+        "completion_tokens": 44,
+        "prompt_tokens": 13130,
+        "prompt_tokens_details": {
+          "cached_tokens": 13055
+        },
+        "total_tokens": 13174
       }
     },
     {
@@ -35594,6 +36078,34 @@
       }
     },
     {
+      "at": 1794460583.5295293,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46033,
+        "applied": true,
+        "before_bytes": 150250,
+        "dropped_messages": 82,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8884349379804917,
+      "first_content_seconds": 0.8884349379804917,
+      "first_delivered_seconds": 0.8884409089805558,
+      "id": "1f432633510546eb8b2356ac7e75b009",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9177620409755036,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 11974,
+        "prompt_tokens_details": {
+          "cached_tokens": 11899
+        },
+        "total_tokens": 12013
+      }
+    },
+    {
       "at": 1794410132.8759613,
       "complete": true,
       "context_policy": {
@@ -36039,6 +36551,34 @@
           "cached_tokens": 24693
         },
         "total_tokens": 24757
+      }
+    },
+    {
+      "at": 1794459921.2175004,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 532352,
+        "dropped_messages": 308,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.415167385013774,
+      "first_content_seconds": 1.415167385013774,
+      "first_delivered_seconds": 1.415174447989557,
+      "id": "1fbcf32cf3044dcda88067d37ad7753c",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.4434346469934098,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
       }
     },
     {
@@ -37499,6 +38039,29 @@
           "cached_tokens": 11937
         },
         "total_tokens": 12168
+      }
+    },
+    {
+      "at": 1794460211.2527964,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7713698209845461,
+      "first_content_seconds": 0.7713698209845461,
+      "first_delivered_seconds": 0.7713780659832992,
+      "id": "20faeab4f5e24204bebd65c3e3f49edb",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.8005517619894817,
+      "usage": {
+        "completion_tokens": 30,
+        "prompt_tokens": 4604,
+        "prompt_tokens_details": {
+          "cached_tokens": 4343
+        },
+        "total_tokens": 4634
       }
     },
     {
@@ -44631,6 +45194,34 @@
       }
     },
     {
+      "at": 1794460310.979067,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47946,
+        "applied": true,
+        "before_bytes": 66201,
+        "dropped_messages": 20,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 21.570502804999705,
+      "first_content_seconds": 21.570502804999705,
+      "first_delivered_seconds": 21.57050710299518,
+      "id": "26ee6a6f914140d0836d1ceed7f4a449",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 21.60151785000926,
+      "usage": {
+        "completion_tokens": 883,
+        "prompt_tokens": 13510,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14393
+      }
+    },
+    {
       "at": 1794335866.3597112,
       "complete": true,
       "first_any_seconds": 1.1291306850034744,
@@ -45707,6 +46298,34 @@
           "cached_tokens": 10561
         },
         "total_tokens": 13889
+      }
+    },
+    {
+      "at": 1794460579.8703492,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44394,
+        "applied": true,
+        "before_bytes": 148611,
+        "dropped_messages": 82,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8876837170100771,
+      "first_content_seconds": 0.8876837170100771,
+      "first_delivered_seconds": 0.8876876040012576,
+      "id": "281576d999ed43559cd1d53c77a62ba1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9174091689637862,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 11635,
+        "prompt_tokens_details": {
+          "cached_tokens": 11546
+        },
+        "total_tokens": 11674
       }
     },
     {
@@ -48097,6 +48716,34 @@
           "cached_tokens": 9809
         },
         "total_tokens": 10316
+      }
+    },
+    {
+      "at": 1794460550.2057252,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47688,
+        "applied": true,
+        "before_bytes": 139076,
+        "dropped_messages": 78,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.6704216329962946,
+      "first_content_seconds": 0.6704216329962946,
+      "first_delivered_seconds": 0.670426402008161,
+      "id": "299a36bfc83040e5ba43e9e2a37b971f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.7009389729937539,
+      "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 12925,
+        "prompt_tokens_details": {
+          "cached_tokens": 12850
+        },
+        "total_tokens": 12952
       }
     },
     {
@@ -52370,6 +53017,34 @@
       }
     },
     {
+      "at": 1794460611.7916667,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 39776,
+        "applied": true,
+        "before_bytes": 160224,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.962538919004146,
+      "first_content_seconds": 0.962538919004146,
+      "first_delivered_seconds": 0.9625479960232042,
+      "id": "2d0e2a1025cd4deaab5beb5675aab578",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9912054710439406,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10332,
+        "prompt_tokens_details": {
+          "cached_tokens": 10257
+        },
+        "total_tokens": 10371
+      }
+    },
+    {
       "at": 1794383120.562289,
       "complete": true,
       "context_policy": {
@@ -54388,6 +55063,29 @@
       }
     },
     {
+      "at": 1794460228.7439823,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 12.668885275023058,
+      "first_content_seconds": 12.668885275023058,
+      "first_delivered_seconds": 12.668891977984458,
+      "id": "2edd61fbc97a43849fee7ac78e9f05cd",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 12.697759517992381,
+      "usage": {
+        "completion_tokens": 773,
+        "prompt_tokens": 11921,
+        "prompt_tokens_details": {
+          "cached_tokens": 10575
+        },
+        "total_tokens": 12694
+      }
+    },
+    {
       "at": 1794447200.1971736,
       "complete": true,
       "context_policy": {
@@ -55818,6 +56516,34 @@
           "cached_tokens": 4215
         },
         "total_tokens": 4479
+      }
+    },
+    {
+      "at": 1794460646.6338875,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45946,
+        "applied": true,
+        "before_bytes": 172247,
+        "dropped_messages": 86,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.0040931609692052,
+      "first_content_seconds": 1.0040931609692052,
+      "first_delivered_seconds": 1.0040979799814522,
+      "id": "3079263c0dbf4c9c858f301b48568326",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0340873280074447,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10618,
+        "prompt_tokens_details": {
+          "cached_tokens": 10543
+        },
+        "total_tokens": 10657
       }
     },
     {
@@ -58439,6 +59165,34 @@
       }
     },
     {
+      "at": 1794460618.2371686,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42509,
+        "applied": true,
+        "before_bytes": 162957,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9449382630409673,
+      "first_content_seconds": 0.9449382630409673,
+      "first_delivered_seconds": 0.9449458270100877,
+      "id": "32e166b9dbdb419484bb7ffd3d91bfd6",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9749133239965886,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10897,
+        "prompt_tokens_details": {
+          "cached_tokens": 10822
+        },
+        "total_tokens": 10936
+      }
+    },
+    {
       "at": 1794438299.973526,
       "complete": true,
       "context_policy": {
@@ -58958,6 +59712,34 @@
           "cached_tokens": 2101
         },
         "total_tokens": 12421
+      }
+    },
+    {
+      "at": 1794460650.6625578,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47586,
+        "applied": true,
+        "before_bytes": 173887,
+        "dropped_messages": 86,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.0087959279771894,
+      "first_content_seconds": 1.0087959279771894,
+      "first_delivered_seconds": 1.008802009979263,
+      "id": "33725a9b6ae441589acdecd6e990417a",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0384977560024709,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10957,
+        "prompt_tokens_details": {
+          "cached_tokens": 10882
+        },
+        "total_tokens": 10996
       }
     },
     {
@@ -59724,6 +60506,34 @@
       }
     },
     {
+      "at": 1794460606.756791,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 37590,
+        "applied": true,
+        "before_bytes": 158038,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9116445149993524,
+      "first_content_seconds": 0.9116445149993524,
+      "first_delivered_seconds": 0.9116500650416128,
+      "id": "340a2b7ac66348b6b2e1ce5fd103a6e3",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9409724400029518,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 9880,
+        "prompt_tokens_details": {
+          "cached_tokens": 9805
+        },
+        "total_tokens": 9919
+      }
+    },
+    {
       "at": 1794420819.9059446,
       "complete": true,
       "context_policy": {
@@ -60392,6 +61202,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 32544
+      }
+    },
+    {
+      "at": 1794460645.2972398,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45400,
+        "applied": true,
+        "before_bytes": 171701,
+        "dropped_messages": 86,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9938097950071096,
+      "first_content_seconds": 0.9938097950071096,
+      "first_delivered_seconds": 0.9938148450455628,
+      "id": "349b5018fd23492db55393a3a5f0d9b1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0235205499920994,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10505,
+        "prompt_tokens_details": {
+          "cached_tokens": 10430
+        },
+        "total_tokens": 10544
       }
     },
     {
@@ -62076,6 +62914,34 @@
           "cached_tokens": 32060
         },
         "total_tokens": 32191
+      }
+    },
+    {
+      "at": 1794460615.6554654,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41416,
+        "applied": true,
+        "before_bytes": 161864,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9485957259894349,
+      "first_content_seconds": 0.9485957259894349,
+      "first_delivered_seconds": 0.9486035010195337,
+      "id": "3639224b63ee4acebcf9760bbd3f55fb",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9776868859771639,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10671,
+        "prompt_tokens_details": {
+          "cached_tokens": 10596
+        },
+        "total_tokens": 10710
       }
     },
     {
@@ -65070,6 +65936,29 @@
           "cached_tokens": 13852
         },
         "total_tokens": 14185
+      }
+    },
+    {
+      "at": 1794460224.8309927,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7177821560180746,
+      "first_content_seconds": 0.7177821560180746,
+      "first_delivered_seconds": 0.7177892689942382,
+      "id": "38be2fe9de77401d93bfa9e1ca20a110",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.7470747040351853,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9795,
+        "prompt_tokens_details": {
+          "cached_tokens": 9748
+        },
+        "total_tokens": 9829
       }
     },
     {
@@ -71225,6 +72114,29 @@
       }
     },
     {
+      "at": 1794460205.860436,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.48866595403524116,
+      "first_content_seconds": 0.48866595403524116,
+      "first_delivered_seconds": 0.48867291799979284,
+      "id": "3e25481ac3dc4ff8a0adeba5cb943fba",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.517487308010459,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 2787,
+        "prompt_tokens_details": {
+          "cached_tokens": 2765
+        },
+        "total_tokens": 2812
+      }
+    },
+    {
       "at": 1794454998.5378933,
       "complete": true,
       "context_policy": {
@@ -74917,6 +75829,29 @@
       }
     },
     {
+      "at": 1794460201.3810253,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.8778421079623513,
+      "first_content_seconds": 3.8778421079623513,
+      "first_delivered_seconds": 3.877848649979569,
+      "id": "41358f62b6c14f049f161dd81b2e6f89",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 3.907040368998423,
+      "usage": {
+        "completion_tokens": 31,
+        "prompt_tokens": 2683,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2714
+      }
+    },
+    {
       "at": 1794368732.31144,
       "complete": true,
       "context_policy": {
@@ -77888,6 +78823,34 @@
       }
     },
     {
+      "at": 1794459972.3994727,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 548708,
+        "dropped_messages": 316,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4237449889769778,
+      "first_content_seconds": 1.4237449889769778,
+      "first_delivered_seconds": 1.4237509800004773,
+      "id": "43aa2ea03a3145e29d847963c5e6e7f7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.453617518011015,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
+      }
+    },
+    {
       "at": 1794411370.4204493,
       "complete": true,
       "context_policy": {
@@ -80358,6 +81321,34 @@
           "cached_tokens": 6470
         },
         "total_tokens": 6559
+      }
+    },
+    {
+      "at": 1794459922.917214,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 533447,
+        "dropped_messages": 308,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.670488312025554,
+      "first_content_seconds": 23.670488312025554,
+      "first_delivered_seconds": 23.670492789999116,
+      "id": "45c373bff30840b684da31a56577222b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.69881831103703,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
       }
     },
     {
@@ -83279,6 +84270,34 @@
       }
     },
     {
+      "at": 1794460643.9608796,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44853,
+        "applied": true,
+        "before_bytes": 171154,
+        "dropped_messages": 86,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9916903430130333,
+      "first_content_seconds": 0.9916903430130333,
+      "first_delivered_seconds": 0.9916938499663956,
+      "id": "484cab2d8ac54df8a110d7c1d4d7965f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0215557990013622,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10392,
+        "prompt_tokens_details": {
+          "cached_tokens": 10317
+        },
+        "total_tokens": 10431
+      }
+    },
+    {
       "at": 1794450089.405154,
       "complete": true,
       "context_policy": {
@@ -85600,6 +86619,34 @@
       }
     },
     {
+      "at": 1794460599.0574808,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 34319,
+        "applied": true,
+        "before_bytes": 154767,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9920292000169866,
+      "first_content_seconds": 0.9920292000169866,
+      "first_delivered_seconds": 0.9920340689714067,
+      "id": "4a4f0135cd6741a994486d5b87997aec",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0210088000167161,
+      "usage": {
+        "completion_tokens": 44,
+        "prompt_tokens": 9131,
+        "prompt_tokens_details": {
+          "cached_tokens": 9043
+        },
+        "total_tokens": 9175
+      }
+    },
+    {
       "at": 1794418664.4480958,
       "complete": true,
       "context_policy": {
@@ -87037,6 +88084,29 @@
           "cached_tokens": 8653
         },
         "total_tokens": 9789
+      }
+    },
+    {
+      "at": 1794460205.3002572,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.523014003993012,
+      "first_content_seconds": 0.523014003993012,
+      "first_delivered_seconds": 0.523020857013762,
+      "id": "4b772f097ad84e1e9470c1624d582487",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.55196018202696,
+      "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 2739,
+        "prompt_tokens_details": {
+          "cached_tokens": 2713
+        },
+        "total_tokens": 2766
       }
     },
     {
@@ -89996,6 +91066,34 @@
       }
     },
     {
+      "at": 1794460076.7566905,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 582515,
+        "dropped_messages": 332,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.766500343976077,
+      "first_content_seconds": 23.766500343976077,
+      "first_delivered_seconds": 23.766507476975676,
+      "id": "4e42439ad8ae4c788c4107d2062bdb75",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.795642459997907,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
+      }
+    },
+    {
       "at": 1794300232.5191493,
       "complete": true,
       "first_any_seconds": 1.368858772009844,
@@ -90164,6 +91262,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 1305
+      }
+    },
+    {
+      "at": 1794459999.6764507,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 557981,
+        "dropped_messages": 320,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.740104650030844,
+      "first_content_seconds": 23.740104650030844,
+      "first_delivered_seconds": 23.74011077202158,
+      "id": "4e76e0d41f8f49dd8baab083bdc75209",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.768733831995632,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
       }
     },
     {
@@ -94759,6 +95885,34 @@
       }
     },
     {
+      "at": 1794460453.0557148,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44734,
+        "applied": true,
+        "before_bytes": 106635,
+        "dropped_messages": 68,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.4307165640057065,
+      "first_content_seconds": 7.4307165640057065,
+      "first_delivered_seconds": 7.430724369012751,
+      "id": "529c9150838d436b90000e0db7a06579",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 7.462117214978207,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 11891,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11906
+      }
+    },
+    {
       "at": 1794383366.0442312,
       "complete": true,
       "context_policy": {
@@ -95308,6 +96462,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 902
+      }
+    },
+    {
+      "at": 1794460302.6837265,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43692,
+        "applied": true,
+        "before_bytes": 60348,
+        "dropped_messages": 16,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.428787709970493,
+      "first_content_seconds": 7.428787709970493,
+      "first_delivered_seconds": 7.428796966967639,
+      "id": "530d5ff22b2d4c2fb58c960819873383",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 7.459778569987975,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 11772,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11787
       }
     },
     {
@@ -96724,6 +97906,29 @@
       }
     },
     {
+      "at": 1794460221.7940009,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6698231479967944,
+      "first_content_seconds": 0.6698231479967944,
+      "first_delivered_seconds": 0.6698282270226628,
+      "id": "540ae4b16cde4343817a726cc2d438f7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.6992442579939961,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9520,
+        "prompt_tokens_details": {
+          "cached_tokens": 9494
+        },
+        "total_tokens": 9554
+      }
+    },
+    {
       "at": 1794377277.9629102,
       "complete": true,
       "context_policy": {
@@ -97808,6 +99013,34 @@
           "cached_tokens": 3574
         },
         "total_tokens": 4556
+      }
+    },
+    {
+      "at": 1794460025.3374996,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 566159,
+        "dropped_messages": 324,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.810640375013463,
+      "first_content_seconds": 23.810640375013463,
+      "first_delivered_seconds": 23.81064508401323,
+      "id": "550fa9f7a1ad4fb79faaf37e7d3159e9",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.84133914700942,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
       }
     },
     {
@@ -101224,6 +102457,34 @@
       }
     },
     {
+      "at": 1794459974.0644119,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 549803,
+        "dropped_messages": 316,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.742075813992415,
+      "first_content_seconds": 23.742075813992415,
+      "first_delivered_seconds": 23.742080543015618,
+      "id": "57f788ad6f974a2daa2c9a3f77df5b93",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.771020699001383,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
+      }
+    },
+    {
       "at": 1794396036.3645303,
       "complete": true,
       "context_policy": {
@@ -101474,6 +102735,34 @@
           "cached_tokens": 9625
         },
         "total_tokens": 9812
+      }
+    },
+    {
+      "at": 1794460628.7645698,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46881,
+        "applied": true,
+        "before_bytes": 167329,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.986299702024553,
+      "first_content_seconds": 0.986299702024553,
+      "first_delivered_seconds": 0.9863053630106151,
+      "id": "581fcd59c6e04dbcad2ca253e2553a30",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.016075098013971,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 11801,
+        "prompt_tokens_details": {
+          "cached_tokens": 11726
+        },
+        "total_tokens": 11840
       }
     },
     {
@@ -102087,6 +103376,34 @@
           "cached_tokens": 1280
         },
         "total_tokens": 2347
+      }
+    },
+    {
+      "at": 1794459795.2360291,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 492557,
+        "dropped_messages": 288,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.651376539026387,
+      "first_content_seconds": 23.651376539026387,
+      "first_delivered_seconds": 23.651380456984043,
+      "id": "588ea768e8a44548bf13a442a5f2e94e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.67977534100646,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
       }
     },
     {
@@ -102963,6 +104280,34 @@
           "cached_tokens": 10703
         },
         "total_tokens": 12472
+      }
+    },
+    {
+      "at": 1794460547.6569347,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46598,
+        "applied": true,
+        "before_bytes": 137986,
+        "dropped_messages": 78,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9016291339648888,
+      "first_content_seconds": 0.9016291339648888,
+      "first_delivered_seconds": 0.9016357659711502,
+      "id": "594fcb7479a24cb38b8f01eba3d41e58",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9314867939683609,
+      "usage": {
+        "completion_tokens": 40,
+        "prompt_tokens": 12700,
+        "prompt_tokens_details": {
+          "cached_tokens": 12569
+        },
+        "total_tokens": 12740
       }
     },
     {
@@ -106445,6 +107790,34 @@
       }
     },
     {
+      "at": 1794460627.4151146,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46334,
+        "applied": true,
+        "before_bytes": 166782,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.007724405033514,
+      "first_content_seconds": 1.007724405033514,
+      "first_delivered_seconds": 1.0077286430168897,
+      "id": "5c5f0bc0a03a420e8db78577a62fbe85",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0379623700282536,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 11688,
+        "prompt_tokens_details": {
+          "cached_tokens": 11613
+        },
+        "total_tokens": 11727
+      }
+    },
+    {
       "at": 1794348704.0587802,
       "complete": true,
       "first_any_seconds": 25.179452751006465,
@@ -108266,6 +109639,34 @@
           "cached_tokens": 6593
         },
         "total_tokens": 8059
+      }
+    },
+    {
+      "at": 1794460563.9032254,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45466,
+        "applied": true,
+        "before_bytes": 143830,
+        "dropped_messages": 80,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8660997439874336,
+      "first_content_seconds": 0.8660997439874336,
+      "first_delivered_seconds": 0.8661038919817656,
+      "id": "5e1bfd6faecc42abbe7bd13e57d7dca2",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.8968369369977154,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 12770,
+        "prompt_tokens_details": {
+          "cached_tokens": 12695
+        },
+        "total_tokens": 12809
       }
     },
     {
@@ -112961,6 +114362,34 @@
       }
     },
     {
+      "at": 1794460609.24124,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 38683,
+        "applied": true,
+        "before_bytes": 159131,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9388374980189838,
+      "first_content_seconds": 0.9388374980189838,
+      "first_delivered_seconds": 0.9388436499866657,
+      "id": "61eaf84a200a4b93b7dce2c13566df8b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.968327398004476,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10106,
+        "prompt_tokens_details": {
+          "cached_tokens": 10031
+        },
+        "total_tokens": 10145
+      }
+    },
+    {
       "at": 1794449721.4656866,
       "complete": true,
       "context_policy": {
@@ -113073,6 +114502,34 @@
           "cached_tokens": 13075
         },
         "total_tokens": 13320
+      }
+    },
+    {
+      "at": 1794460577.83201,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43484,
+        "applied": true,
+        "before_bytes": 147701,
+        "dropped_messages": 82,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9361552569898777,
+      "first_content_seconds": 0.9361552569898777,
+      "first_delivered_seconds": 0.9361603769939393,
+      "id": "6208216eb5504e359222a4f3c839c99e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9654100249754265,
+      "usage": {
+        "completion_tokens": 44,
+        "prompt_tokens": 11440,
+        "prompt_tokens_details": {
+          "cached_tokens": 11365
+        },
+        "total_tokens": 11484
       }
     },
     {
@@ -116813,6 +118270,29 @@
       }
     },
     {
+      "at": 1794460227.0388594,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7211576789850369,
+      "first_content_seconds": 0.7211576789850369,
+      "first_delivered_seconds": 0.7211638709995896,
+      "id": "65ac0eaa915b40c4a7e546339285d77b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.7505660449969582,
+      "usage": {
+        "completion_tokens": 30,
+        "prompt_tokens": 10159,
+        "prompt_tokens_details": {
+          "cached_tokens": 10041
+        },
+        "total_tokens": 10189
+      }
+    },
+    {
       "at": 1794347742.7261024,
       "complete": true,
       "first_any_seconds": 3.716842927999096,
@@ -119465,6 +120945,34 @@
       }
     },
     {
+      "at": 1794460600.3280966,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 35018,
+        "applied": true,
+        "before_bytes": 155466,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.0310481160413474,
+      "first_content_seconds": 1.0310481160413474,
+      "first_delivered_seconds": 1.0310527750407346,
+      "id": "684618424f894c39a6bd6fbc0f872561",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0609230890404433,
+      "usage": {
+        "completion_tokens": 45,
+        "prompt_tokens": 9335,
+        "prompt_tokens_details": {
+          "cached_tokens": 9174
+        },
+        "total_tokens": 9380
+      }
+    },
+    {
       "at": 1794428282.0796688,
       "complete": true,
       "context_policy": {
@@ -121550,6 +123058,34 @@
       }
     },
     {
+      "at": 1794460126.3611639,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 597776,
+        "dropped_messages": 340,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4486845580395311,
+      "first_content_seconds": 1.4486845580395311,
+      "first_delivered_seconds": 1.4486907999962568,
+      "id": "6a69600750ee41baa9f536575122119f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.4781209270004183,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
+      }
+    },
+    {
       "at": 1794396718.405623,
       "complete": true,
       "context_policy": {
@@ -121892,6 +123428,29 @@
           "cached_tokens": 17632
         },
         "total_tokens": 17902
+      }
+    },
+    {
+      "at": 1794460224.0175185,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7380380419781432,
+      "first_content_seconds": 0.7380380419781432,
+      "first_delivered_seconds": 0.738044815021567,
+      "id": "6ab17685701a4b7f8c72c50e26af5710",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.7670554330106825,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9715,
+        "prompt_tokens_details": {
+          "cached_tokens": 9672
+        },
+        "total_tokens": 9749
       }
     },
     {
@@ -122908,6 +124467,34 @@
           "cached_tokens": 29251
         },
         "total_tokens": 29430
+      }
+    },
+    {
+      "at": 1794460620.8386338,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43602,
+        "applied": true,
+        "before_bytes": 164050,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9665203610202298,
+      "first_content_seconds": 0.9665203610202298,
+      "first_delivered_seconds": 0.9665243890485726,
+      "id": "6b93ed0b885d447ca5923849b18b443c",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.996317238023039,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 11123,
+        "prompt_tokens_details": {
+          "cached_tokens": 11048
+        },
+        "total_tokens": 11162
       }
     },
     {
@@ -124557,6 +126144,34 @@
       }
     },
     {
+      "at": 1794460582.3156712,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45486,
+        "applied": true,
+        "before_bytes": 149703,
+        "dropped_messages": 82,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8900017630076036,
+      "first_content_seconds": 0.8900017630076036,
+      "first_delivered_seconds": 0.8900088759837672,
+      "id": "6cde4693b87143108112085cf249fcff",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9192782710306346,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 11861,
+        "prompt_tokens_details": {
+          "cached_tokens": 11786
+        },
+        "total_tokens": 11900
+      }
+    },
+    {
       "at": 1794409158.6443737,
       "complete": true,
       "context_policy": {
@@ -126031,6 +127646,34 @@
       }
     },
     {
+      "at": 1794460561.5406828,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44374,
+        "applied": true,
+        "before_bytes": 142738,
+        "dropped_messages": 80,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9507908110390417,
+      "first_content_seconds": 0.9507908110390417,
+      "first_delivered_seconds": 0.9507946890080348,
+      "id": "6de4ee0bd91d4ddba3b1d45c5701d115",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9802112400066108,
+      "usage": {
+        "completion_tokens": 38,
+        "prompt_tokens": 12546,
+        "prompt_tokens_details": {
+          "cached_tokens": 12310
+        },
+        "total_tokens": 12584
+      }
+    },
+    {
       "at": 1794427484.9145656,
       "complete": true,
       "context_policy": {
@@ -127154,6 +128797,34 @@
       }
     },
     {
+      "at": 1794460524.8733864,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44306,
+        "applied": true,
+        "before_bytes": 128719,
+        "dropped_messages": 76,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 6.96224483998958,
+      "first_content_seconds": 6.96224483998958,
+      "first_delivered_seconds": 6.962250660988502,
+      "id": "6f12e257f6544d088b51215b734dd02c",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 6.992730871017557,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 11210,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11225
+      }
+    },
+    {
       "at": 1794345362.459382,
       "complete": true,
       "first_any_seconds": 1.0248100820172112,
@@ -127647,6 +129318,34 @@
           "cached_tokens": 11474
         },
         "total_tokens": 11512
+      }
+    },
+    {
+      "at": 1794460153.7351491,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 607049,
+        "dropped_messages": 344,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.693858330021612,
+      "first_content_seconds": 23.693858330021612,
+      "first_delivered_seconds": 23.693864562024828,
+      "id": "6f674399ede947bc8ee7b3e9cb2b8e1b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.72259966301499,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
       }
     },
     {
@@ -128732,6 +130431,34 @@
           "cached_tokens": 12823
         },
         "total_tokens": 13733
+      }
+    },
+    {
+      "at": 1794460622.1493235,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44148,
+        "applied": true,
+        "before_bytes": 164596,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9717388990102336,
+      "first_content_seconds": 0.9717388990102336,
+      "first_delivered_seconds": 0.9717425660346635,
+      "id": "70354602fac544e2a7ab5eab6aaa4961",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0010546609992161,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 11236,
+        "prompt_tokens_details": {
+          "cached_tokens": 11161
+        },
+        "total_tokens": 11275
       }
     },
     {
@@ -131069,6 +132796,34 @@
       }
     },
     {
+      "at": 1794460607.9974475,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 38137,
+        "applied": true,
+        "before_bytes": 158585,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9112946780514903,
+      "first_content_seconds": 0.9112946780514903,
+      "first_delivered_seconds": 0.9113013210007921,
+      "id": "72827ae064c04c7d8ce374cc9e61d040",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9413934420445003,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 9993,
+        "prompt_tokens_details": {
+          "cached_tokens": 9918
+        },
+        "total_tokens": 10032
+      }
+    },
+    {
       "at": 1794352703.5957417,
       "complete": true,
       "first_any_seconds": 0.7478327639983036,
@@ -132873,6 +134628,34 @@
       }
     },
     {
+      "at": 1794460361.201188,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47866,
+        "applied": true,
+        "before_bytes": 79856,
+        "dropped_messages": 54,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.41314283601241186,
+      "first_content_seconds": 0.41314283601241186,
+      "first_delivered_seconds": 0.4131493790191598,
+      "id": "73d226cc789a495aa09020f48063caea",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.44291105901356786,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13683,
+        "prompt_tokens_details": {
+          "cached_tokens": 13654
+        },
+        "total_tokens": 13698
+      }
+    },
+    {
       "at": 1794406308.4404385,
       "complete": true,
       "context_policy": {
@@ -134114,6 +135897,34 @@
       }
     },
     {
+      "at": 1794460549.0468767,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47147,
+        "applied": true,
+        "before_bytes": 138535,
+        "dropped_messages": 78,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8175439640181139,
+      "first_content_seconds": 0.8175439640181139,
+      "first_delivered_seconds": 0.8175515890470706,
+      "id": "74f529306f6e4aa0a92e143eec3d9d2f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.8472662710119039,
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 12814,
+        "prompt_tokens_details": {
+          "cached_tokens": 12739
+        },
+        "total_tokens": 12851
+      }
+    },
+    {
       "at": 1794414695.7615323,
       "complete": true,
       "context_policy": {
@@ -135024,6 +136835,34 @@
       }
     },
     {
+      "at": 1794459769.6537805,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 484379,
+        "dropped_messages": 284,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.716032313997857,
+      "first_content_seconds": 23.716032313997857,
+      "first_delivered_seconds": 23.716037764039356,
+      "id": "7596cbfc6fd04d5a8b71ae0eb2857341",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.74486609303858,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
+      }
+    },
+    {
       "at": 1794399997.9319458,
       "complete": true,
       "context_policy": {
@@ -135596,6 +137435,34 @@
       }
     },
     {
+      "at": 1794460100.7598238,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 589598,
+        "dropped_messages": 336,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4437211900367402,
+      "first_content_seconds": 1.4437211900367402,
+      "first_delivered_seconds": 1.4437260490376502,
+      "id": "763c47f483ba414f97907dd4b8dcb5e1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.4759870860143565,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
+      }
+    },
+    {
       "at": 1794451661.1563296,
       "complete": true,
       "context_policy": {
@@ -135870,6 +137737,28 @@
         },
         "total_tokens": 14020
       }
+    },
+    {
+      "at": 1794460179.3535404,
+      "complete": false,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 615227,
+        "dropped_messages": 348,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "error": "[Errno 32] Broken pipe",
+      "first_any_seconds": 23.798524796962738,
+      "first_content_seconds": 23.798524796962738,
+      "first_delivered_seconds": 23.798531078966334,
+      "id": "768d309bf7864809bc3273077735f4bb",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.798655421996955,
+      "usage": null
     },
     {
       "at": 1794448233.8034065,
@@ -140706,6 +142595,34 @@
       }
     },
     {
+      "at": 1794459846.293588,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 508913,
+        "dropped_messages": 296,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.644752227002755,
+      "first_content_seconds": 23.644752227002755,
+      "first_delivered_seconds": 23.644757255970035,
+      "id": "7af58c80453344c1aadca7a7c5427441",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.67342430196004,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
+      }
+    },
+    {
       "at": 1794351191.3910103,
       "complete": true,
       "first_any_seconds": 7.508923073008191,
@@ -144623,6 +146540,34 @@
       }
     },
     {
+      "at": 1794460632.7805529,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42667,
+        "applied": true,
+        "before_bytes": 168968,
+        "dropped_messages": 86,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 6.844837679993361,
+      "first_content_seconds": 6.844837679993361,
+      "first_delivered_seconds": 6.844842560007237,
+      "id": "7e317df9ff184dbbbcc786ae9f45cb60",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 6.873990606982261,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 9940,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9979
+      }
+    },
+    {
       "at": 1794320906.6620889,
       "complete": true,
       "first_any_seconds": 2.2500180380011443,
@@ -145714,6 +147659,29 @@
       }
     },
     {
+      "at": 1794460222.53826,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6726837640162557,
+      "first_content_seconds": 0.6726837640162557,
+      "first_delivered_seconds": 0.6726905360119417,
+      "id": "7f2f84482a4641e7bc16fb71711cdfce",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.7017814160208218,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9579,
+        "prompt_tokens_details": {
+          "cached_tokens": 9553
+        },
+        "total_tokens": 9613
+      }
+    },
+    {
       "at": 1794306283.5888066,
       "complete": true,
       "first_any_seconds": 0.9674624319886789,
@@ -146702,6 +148670,34 @@
           "cached_tokens": 11893
         },
         "total_tokens": 11995
+      }
+    },
+    {
+      "at": 1794460543.4264226,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44140,
+        "applied": true,
+        "before_bytes": 135528,
+        "dropped_messages": 78,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.6776146100019105,
+      "first_content_seconds": 0.6776146100019105,
+      "first_delivered_seconds": 0.6776228150120005,
+      "id": "8039b8c635fe4d4eb23ebd7707ee0682",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.7085191780352034,
+      "usage": {
+        "completion_tokens": 33,
+        "prompt_tokens": 12162,
+        "prompt_tokens_details": {
+          "cached_tokens": 12133
+        },
+        "total_tokens": 12195
       }
     },
     {
@@ -148374,6 +150370,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 3591
+      }
+    },
+    {
+      "at": 1794460649.3168216,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47039,
+        "applied": true,
+        "before_bytes": 173340,
+        "dropped_messages": 86,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.008147480955813,
+      "first_content_seconds": 1.008147480955813,
+      "first_delivered_seconds": 1.0081535619683564,
+      "id": "81a5dad6000543f28cda822d05c41b27",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0379510689526796,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10844,
+        "prompt_tokens_details": {
+          "cached_tokens": 10769
+        },
+        "total_tokens": 10883
       }
     },
     {
@@ -155633,6 +157657,34 @@
       }
     },
     {
+      "at": 1794460602.914356,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 35924,
+        "applied": true,
+        "before_bytes": 156372,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9949973169714212,
+      "first_content_seconds": 0.9949973169714212,
+      "first_delivered_seconds": 0.9950067750178277,
+      "id": "874d59d4b15b462ab9a514812b1f0dc1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0243300009751692,
+      "usage": {
+        "completion_tokens": 46,
+        "prompt_tokens": 9532,
+        "prompt_tokens_details": {
+          "cached_tokens": 9457
+        },
+        "total_tokens": 9578
+      }
+    },
+    {
       "at": 1794334551.9805539,
       "complete": true,
       "first_any_seconds": 0.25622980800108053,
@@ -158283,6 +160335,29 @@
       }
     },
     {
+      "at": 1794460241.5783567,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 13.42777870601276,
+      "first_content_seconds": 13.42777870601276,
+      "first_delivered_seconds": 13.427785117994063,
+      "id": "89ae2738decf4a24b70b22a0a94fd9ab",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 13.45727671100758,
+      "usage": {
+        "completion_tokens": 883,
+        "prompt_tokens": 12722,
+        "prompt_tokens_details": {
+          "cached_tokens": 12693
+        },
+        "total_tokens": 13605
+      }
+    },
+    {
       "at": 1794443388.8943386,
       "complete": true,
       "context_policy": {
@@ -160075,6 +162150,34 @@
           "cached_tokens": 16599
         },
         "total_tokens": 16740
+      }
+    },
+    {
+      "at": 1794460578.9962132,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43832,
+        "applied": true,
+        "before_bytes": 148049,
+        "dropped_messages": 82,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.6452007150510326,
+      "first_content_seconds": 0.6452007150510326,
+      "first_delivered_seconds": 0.6452054940164089,
+      "id": "8b319ddd01704801a039d2a6491114ad",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.6747089190175757,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 11521,
+        "prompt_tokens_details": {
+          "cached_tokens": 11483
+        },
+        "total_tokens": 11547
       }
     },
     {
@@ -166358,6 +168461,34 @@
       }
     },
     {
+      "at": 1794460587.0377402,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47545,
+        "applied": true,
+        "before_bytes": 151762,
+        "dropped_messages": 82,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9565963610075414,
+      "first_content_seconds": 0.9565963610075414,
+      "first_delivered_seconds": 0.9566003989893943,
+      "id": "90c6aa7155de4c0fbc46fca36a18746f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9855860309908167,
+      "usage": {
+        "completion_tokens": 44,
+        "prompt_tokens": 12295,
+        "prompt_tokens_details": {
+          "cached_tokens": 12220
+        },
+        "total_tokens": 12339
+      }
+    },
+    {
       "at": 1794435476.897351,
       "complete": true,
       "context_policy": {
@@ -168973,6 +171104,34 @@
       }
     },
     {
+      "at": 1794460614.3624704,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40869,
+        "applied": true,
+        "before_bytes": 161317,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9581630960456096,
+      "first_content_seconds": 0.9581630960456096,
+      "first_delivered_seconds": 0.9581686170422472,
+      "id": "9339c9da86dc4c99bee0995b279ab7e2",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9878735700040124,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10558,
+        "prompt_tokens_details": {
+          "cached_tokens": 10483
+        },
+        "total_tokens": 10597
+      }
+    },
+    {
       "at": 1794297555.8596437,
       "complete": false,
       "error": "[Errno 32] Broken pipe",
@@ -169913,6 +172072,34 @@
           "cached_tokens": 12179
         },
         "total_tokens": 12426
+      }
+    },
+    {
+      "at": 1794460647.9717305,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46493,
+        "applied": true,
+        "before_bytes": 172794,
+        "dropped_messages": 86,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.0056632419582456,
+      "first_content_seconds": 1.0056632419582456,
+      "first_delivered_seconds": 1.0056690030032769,
+      "id": "93fc07c1d355471a97750694607621b5",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0354935809737071,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10731,
+        "prompt_tokens_details": {
+          "cached_tokens": 10656
+        },
+        "total_tokens": 10770
       }
     },
     {
@@ -174471,6 +176658,62 @@
       }
     },
     {
+      "at": 1794460565.0966623,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46014,
+        "applied": true,
+        "before_bytes": 144378,
+        "dropped_messages": 80,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9676713349763304,
+      "first_content_seconds": 0.9676713349763304,
+      "first_delivered_seconds": 0.9676756429835223,
+      "id": "98377f3a3fa24aef8b3697ba515b802f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9977294519776478,
+      "usage": {
+        "completion_tokens": 45,
+        "prompt_tokens": 12883,
+        "prompt_tokens_details": {
+          "cached_tokens": 12808
+        },
+        "total_tokens": 12928
+      }
+    },
+    {
+      "at": 1794460393.3494382,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44578,
+        "applied": true,
+        "before_bytes": 92684,
+        "dropped_messages": 62,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 29.46421366999857,
+      "first_content_seconds": 29.46421366999857,
+      "first_delivered_seconds": 29.46422102401266,
+      "id": "98381163af8a400d8d5fddd4742c1dc4",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 29.493245898978785,
+      "usage": {
+        "completion_tokens": 1459,
+        "prompt_tokens": 12944,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14403
+      }
+    },
+    {
       "at": 1794360341.7829049,
       "complete": true,
       "context_policy": {
@@ -176305,6 +178548,34 @@
       }
     },
     {
+      "at": 1794460546.3414302,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45804,
+        "applied": true,
+        "before_bytes": 137192,
+        "dropped_messages": 78,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.0784350099856965,
+      "first_content_seconds": 1.0784350099856965,
+      "first_delivered_seconds": 1.0784400890115649,
+      "id": "9a0f19f8113a4c7db26eeff0756d8100",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.108390434004832,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 12513,
+        "prompt_tokens_details": {
+          "cached_tokens": 12470
+        },
+        "total_tokens": 12570
+      }
+    },
+    {
       "at": 1794299886.211769,
       "complete": true,
       "first_any_seconds": 0.7296986319997814,
@@ -176941,6 +179212,34 @@
       }
     },
     {
+      "at": 1794460177.6707685,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 614132,
+        "dropped_messages": 348,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.442993251956068,
+      "first_content_seconds": 1.442993251956068,
+      "first_delivered_seconds": 1.4429995839600451,
+      "id": "9a877513bdbe4569829a2f2a19821aca",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.4718160879565403,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
+      }
+    },
+    {
       "at": 1794450669.5348706,
       "complete": true,
       "context_policy": {
@@ -177216,6 +179515,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 5001
+      }
+    },
+    {
+      "at": 1794460422.9738243,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47582,
+        "applied": true,
+        "before_bytes": 99659,
+        "dropped_messages": 64,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 29.916898476018105,
+      "first_content_seconds": 29.916898476018105,
+      "first_delivered_seconds": 29.916903265053406,
+      "id": "9ad4c0c8d0ff47fbb20d888261c73056",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 29.945927570050117,
+      "usage": {
+        "completion_tokens": 1457,
+        "prompt_tokens": 13519,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14976
       }
     },
     {
@@ -178033,6 +180360,29 @@
           "cached_tokens": 9634
         },
         "total_tokens": 9999
+      }
+    },
+    {
+      "at": 1794460221.0610924,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6653189429780468,
+      "first_content_seconds": 0.6653189429780468,
+      "first_delivered_seconds": 0.6653229109942913,
+      "id": "9ba4d287ee1146208655143eca961cd1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.6946381920133717,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9461,
+        "prompt_tokens_details": {
+          "cached_tokens": 9437
+        },
+        "total_tokens": 9495
       }
     },
     {
@@ -179245,6 +181595,29 @@
       }
     },
     {
+      "at": 1794460223.275441,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6817597699700855,
+      "first_content_seconds": 0.6817597699700855,
+      "first_delivered_seconds": 0.6817660719971173,
+      "id": "9cce4885c22948639781c14043f444d7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.7122175580007024,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9639,
+        "prompt_tokens_details": {
+          "cached_tokens": 9612
+        },
+        "total_tokens": 9673
+      }
+    },
+    {
       "at": 1794434063.796971,
       "complete": true,
       "context_policy": {
@@ -179620,6 +181993,34 @@
           "cached_tokens": 13500
         },
         "total_tokens": 13696
+      }
+    },
+    {
+      "at": 1794460049.3918884,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 573242,
+        "dropped_messages": 328,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.443619759986177,
+      "first_content_seconds": 1.443619759986177,
+      "first_delivered_seconds": 1.4436237479676493,
+      "id": "9d48640b53ae49dfbdc7254821e2e878",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.4732982440036722,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
       }
     },
     {
@@ -181400,6 +183801,34 @@
       }
     },
     {
+      "at": 1794460642.650533,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44307,
+        "applied": true,
+        "before_bytes": 170608,
+        "dropped_messages": 86,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9805104829720221,
+      "first_content_seconds": 0.9805104829720221,
+      "first_delivered_seconds": 0.9805137089570053,
+      "id": "9ea3eca054ce494594590d93f44c4b74",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.010383423010353,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10279,
+        "prompt_tokens_details": {
+          "cached_tokens": 10204
+        },
+        "total_tokens": 10318
+      }
+    },
+    {
       "at": 1794369582.836289,
       "complete": true,
       "context_policy": {
@@ -182937,6 +185366,34 @@
       }
     },
     {
+      "at": 1794460341.5171697,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44035,
+        "applied": true,
+        "before_bytes": 76025,
+        "dropped_messages": 54,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 19.51489731896436,
+      "first_content_seconds": 19.51489731896436,
+      "first_delivered_seconds": 19.514901557005942,
+      "id": "9fd6713affd14528bf55f59b21d62625",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 19.543481025961228,
+      "usage": {
+        "completion_tokens": 778,
+        "prompt_tokens": 12877,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13655
+      }
+    },
+    {
       "at": 1794373677.201114,
       "complete": true,
       "context_policy": {
@@ -183396,6 +185853,34 @@
           "cached_tokens": 14376
         },
         "total_tokens": 14814
+      }
+    },
+    {
+      "at": 1794460624.7778685,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45241,
+        "applied": true,
+        "before_bytes": 165689,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9914583869976923,
+      "first_content_seconds": 0.9914583869976923,
+      "first_delivered_seconds": 0.9914657709887251,
+      "id": "a04e2bd562be4a78ae6e2b9f4b6c1cf8",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0222503129625693,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 11462,
+        "prompt_tokens_details": {
+          "cached_tokens": 11387
+        },
+        "total_tokens": 11501
       }
     },
     {
@@ -184304,6 +186789,34 @@
       }
     },
     {
+      "at": 1794460362.7851079,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45938,
+        "applied": true,
+        "before_bytes": 85709,
+        "dropped_messages": 58,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 30.39430144400103,
+      "first_content_seconds": 30.39430144400103,
+      "first_delivered_seconds": 30.394308176997583,
+      "id": "a11b52bf9e8e41d4a0dfc132bce2c3f1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 30.423437429009937,
+      "usage": {
+        "completion_tokens": 1459,
+        "prompt_tokens": 14167,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15626
+      }
+    },
+    {
       "at": 1794295488.1461647,
       "complete": true,
       "first_any_seconds": 2.4956848219881067,
@@ -184871,6 +187384,29 @@
       }
     },
     {
+      "at": 1794460216.960872,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8647961039678194,
+      "first_content_seconds": 0.8647961039678194,
+      "first_delivered_seconds": 0.864804649958387,
+      "id": "a1944fce6f994abbbf72f9394cfea6e6",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.8931702770059928,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 8819,
+        "prompt_tokens_details": {
+          "cached_tokens": 8446
+        },
+        "total_tokens": 8853
+      }
+    },
+    {
       "at": 1794387221.2901666,
       "complete": true,
       "context_policy": {
@@ -184909,6 +187445,34 @@
           "cached_tokens": 19547
         },
         "total_tokens": 19927
+      }
+    },
+    {
+      "at": 1794460280.7793446,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47952,
+        "applied": true,
+        "before_bytes": 56377,
+        "dropped_messages": 14,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 21.73569454398239,
+      "first_content_seconds": 21.73569454398239,
+      "first_delivered_seconds": 21.735698741977103,
+      "id": "a19950e899854179aef6711551acc21b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 21.76848368399078,
+      "usage": {
+        "completion_tokens": 883,
+        "prompt_tokens": 13968,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14851
       }
     },
     {
@@ -186389,6 +188953,34 @@
       }
     },
     {
+      "at": 1794460639.9741607,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43214,
+        "applied": true,
+        "before_bytes": 169515,
+        "dropped_messages": 86,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9897703750175424,
+      "first_content_seconds": 0.9897703750175424,
+      "first_delivered_seconds": 0.9897755639976822,
+      "id": "a2f6911c361044749840b71efebae48c",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0217269700369798,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10053,
+        "prompt_tokens_details": {
+          "cached_tokens": 9978
+        },
+        "total_tokens": 10092
+      }
+    },
+    {
       "at": 1794293740.5636654,
       "complete": true,
       "first_any_seconds": 1.5578029730095295,
@@ -187843,6 +190435,34 @@
       }
     },
     {
+      "at": 1794460271.181608,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47257,
+        "applied": true,
+        "before_bytes": 50524,
+        "dropped_messages": 3,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.383415561984293,
+      "first_content_seconds": 8.383415561984293,
+      "first_delivered_seconds": 8.383421232982073,
+      "id": "a45a3994ac2841169517aeb94388979e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 8.419418931996915,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13300,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13315
+      }
+    },
+    {
       "at": 1794433449.8851473,
       "complete": true,
       "context_policy": {
@@ -187886,6 +190506,34 @@
           "cached_tokens": 11416
         },
         "total_tokens": 11623
+      }
+    },
+    {
+      "at": 1794460668.4229455,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47465,
+        "applied": true,
+        "before_bytes": 176073,
+        "dropped_messages": 92,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.113101130002178,
+      "first_content_seconds": 7.113101130002178,
+      "first_delivered_seconds": 7.113104556046892,
+      "id": "a46b57ea3e694e2f9401860a32badaf7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 7.142131344997324,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10885,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10924
       }
     },
     {
@@ -187988,6 +190636,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 12213
+      }
+    },
+    {
+      "at": 1794460604.238981,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 36490,
+        "applied": true,
+        "before_bytes": 156938,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.927946932031773,
+      "first_content_seconds": 0.927946932031773,
+      "first_delivered_seconds": 0.9279525619931519,
+      "id": "a48331b535194de4affaa4aa07861831",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9574194080196321,
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 9652,
+        "prompt_tokens_details": {
+          "cached_tokens": 9577
+        },
+        "total_tokens": 9693
       }
     },
     {
@@ -188616,6 +191292,34 @@
       }
     },
     {
+      "at": 1794460652.008874,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47176,
+        "applied": true,
+        "before_bytes": 174433,
+        "dropped_messages": 88,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.252863259986043,
+      "first_content_seconds": 7.252863259986043,
+      "first_delivered_seconds": 7.252869180985726,
+      "id": "a518ae570f664cd2bdb12cf5aab76d87",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 7.282600223959889,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10830,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10869
+      }
+    },
+    {
       "at": 1794361550.6677494,
       "complete": true,
       "context_policy": {
@@ -188766,6 +191470,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 9561
+      }
+    },
+    {
+      "at": 1794460562.7262104,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44921,
+        "applied": true,
+        "before_bytes": 143285,
+        "dropped_messages": 80,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8540322059998289,
+      "first_content_seconds": 0.8540322059998289,
+      "first_delivered_seconds": 0.8540384380030446,
+      "id": "a5436f8e55a14998a4edb7d7bff54ce0",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.8834140030085109,
+      "usage": {
+        "completion_tokens": 38,
+        "prompt_tokens": 12658,
+        "prompt_tokens_details": {
+          "cached_tokens": 12583
+        },
+        "total_tokens": 12696
       }
     },
     {
@@ -190486,6 +193218,29 @@
       }
     },
     {
+      "at": 1794460219.6003458,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6553668609703891,
+      "first_content_seconds": 0.6553668609703891,
+      "first_delivered_seconds": 0.6553731329622678,
+      "id": "a6ca7c7e1e9649e48120f86a6ff95cfc",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.6849499759846367,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9344,
+        "prompt_tokens_details": {
+          "cached_tokens": 9319
+        },
+        "total_tokens": 9378
+      }
+    },
+    {
       "at": 1794374519.8238058,
       "complete": true,
       "context_policy": {
@@ -190534,6 +193289,29 @@
           "cached_tokens": 5255
         },
         "total_tokens": 5537
+      }
+    },
+    {
+      "at": 1794460212.0863392,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.3372635770356283,
+      "first_content_seconds": 2.3372635770356283,
+      "first_delivered_seconds": 2.337270490010269,
+      "id": "a6dc7a34500d4e848d92a6ac510a186b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 2.366465535014868,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 7713,
+        "prompt_tokens_details": {
+          "cached_tokens": 4633
+        },
+        "total_tokens": 7741
       }
     },
     {
@@ -192465,6 +195243,34 @@
       }
     },
     {
+      "at": 1794460255.172186,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47073,
+        "applied": true,
+        "before_bytes": 48042,
+        "dropped_messages": 1,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 15.843430956010707,
+      "first_content_seconds": 15.843430956010707,
+      "first_delivered_seconds": 15.843436727009248,
+      "id": "a812aa50516f470a9340e80d273c8668",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 15.873273739009164,
+      "usage": {
+        "completion_tokens": 484,
+        "prompt_tokens": 13365,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13849
+      }
+    },
+    {
       "at": 1794295883.663233,
       "complete": true,
       "first_any_seconds": 0.2916471799981082,
@@ -193322,6 +196128,62 @@
           "cached_tokens": 0
         },
         "total_tokens": 11330
+      }
+    },
+    {
+      "at": 1794460589.304303,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 32211,
+        "applied": true,
+        "before_bytes": 152659,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 5.95744529197691,
+      "first_content_seconds": 5.95744529197691,
+      "first_delivered_seconds": 5.957450541027356,
+      "id": "a89c4df8627d42b4852402c2198177a5",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 5.988204116001725,
+      "usage": {
+        "completion_tokens": 40,
+        "prompt_tokens": 8678,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8718
+      }
+    },
+    {
+      "at": 1794459871.7985897,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 517091,
+        "dropped_messages": 300,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.645417246967554,
+      "first_content_seconds": 23.645417246967554,
+      "first_delivered_seconds": 23.645423127978574,
+      "id": "a8a577fd8bae4bbc94ad105df867c76a",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.674173981009517,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
       }
     },
     {
@@ -194190,6 +197052,34 @@
           "cached_tokens": 2106
         },
         "total_tokens": 12164
+      }
+    },
+    {
+      "at": 1794460641.295536,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43760,
+        "applied": true,
+        "before_bytes": 170061,
+        "dropped_messages": 86,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.007121622969862,
+      "first_content_seconds": 1.007121622969862,
+      "first_delivered_seconds": 1.0071263309800997,
+      "id": "a943f990329f41e6a0929c51e42bbf91",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0395576590090059,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10166,
+        "prompt_tokens_details": {
+          "cached_tokens": 10091
+        },
+        "total_tokens": 10205
       }
     },
     {
@@ -198406,6 +201296,34 @@
       }
     },
     {
+      "at": 1794460551.07837,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42413,
+        "applied": true,
+        "before_bytes": 140777,
+        "dropped_messages": 80,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.009345724014565,
+      "first_content_seconds": 8.009345724014565,
+      "first_delivered_seconds": 8.009349821018986,
+      "id": "acd987d8bfb645c5998e40b90f5a5e6b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 8.039732509001624,
+      "usage": {
+        "completion_tokens": 40,
+        "prompt_tokens": 12056,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12096
+      }
+    },
+    {
       "at": 1794352472.2161245,
       "complete": true,
       "first_any_seconds": 3.337722352996934,
@@ -199793,6 +202711,34 @@
           "cached_tokens": 7975
         },
         "total_tokens": 8882
+      }
+    },
+    {
+      "at": 1794459895.6792974,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 524174,
+        "dropped_messages": 304,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.420075176982209,
+      "first_content_seconds": 1.420075176982209,
+      "first_delivered_seconds": 1.4200810180045664,
+      "id": "adb3a3cb2a59425b969cc00bb081a7e2",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.449455052963458,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
       }
     },
     {
@@ -201662,6 +204608,34 @@
       }
     },
     {
+      "at": 1794459897.3345602,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 525269,
+        "dropped_messages": 304,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.638041763973888,
+      "first_content_seconds": 23.638041763973888,
+      "first_delivered_seconds": 23.638047404005192,
+      "id": "af3b60c2be934e94a064efa543037207",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.666303286969196,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
+      }
+    },
+    {
       "at": 1794459021.6171684,
       "complete": false,
       "context_policy": {
@@ -203050,6 +206024,34 @@
           "cached_tokens": 4382
         },
         "total_tokens": 5492
+      }
+    },
+    {
+      "at": 1794459870.1392727,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 515996,
+        "dropped_messages": 300,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.418268772016745,
+      "first_content_seconds": 1.418268772016745,
+      "first_delivered_seconds": 1.4182744619902223,
+      "id": "b0653bfd08a54b27bb40022897a74ccb",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.449966675019823,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
       }
     },
     {
@@ -205037,6 +208039,34 @@
           "cached_tokens": 13220
         },
         "total_tokens": 15982
+      }
+    },
+    {
+      "at": 1794460613.0889065,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40323,
+        "applied": true,
+        "before_bytes": 160771,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9354624859988689,
+      "first_content_seconds": 0.9354624859988689,
+      "first_delivered_seconds": 0.9354687979794107,
+      "id": "b1e7e5c1be1c4fa1817cae4dd6eefa14",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9648206279962324,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10445,
+        "prompt_tokens_details": {
+          "cached_tokens": 10370
+        },
+        "total_tokens": 10484
       }
     },
     {
@@ -207414,6 +210444,29 @@
           "cached_tokens": 13756
         },
         "total_tokens": 13796
+      }
+    },
+    {
+      "at": 1794460215.2022843,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8338045729906298,
+      "first_content_seconds": 0.8338045729906298,
+      "first_delivered_seconds": 0.8338112159981392,
+      "id": "b432b96ffdfe4469a0c8d85c0e8c57b4",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.8632863779785112,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 8175,
+        "prompt_tokens_details": {
+          "cached_tokens": 7883
+        },
+        "total_tokens": 8209
       }
     },
     {
@@ -210511,6 +213564,34 @@
           "cached_tokens": 9548
         },
         "total_tokens": 9839
+      }
+    },
+    {
+      "at": 1794460596.8037622,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 33145,
+        "applied": true,
+        "before_bytes": 153593,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9256701430422254,
+      "first_content_seconds": 0.9256701430422254,
+      "first_delivered_seconds": 0.9256751920329407,
+      "id": "b704d755ac1a416e99105d7378d5ca3e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9545957820373587,
+      "usage": {
+        "completion_tokens": 47,
+        "prompt_tokens": 8882,
+        "prompt_tokens_details": {
+          "cached_tokens": 8844
+        },
+        "total_tokens": 8929
       }
     },
     {
@@ -216849,6 +219930,29 @@
       }
     },
     {
+      "at": 1794460226.3030372,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6628207180183381,
+      "first_content_seconds": 0.6628207180183381,
+      "first_delivered_seconds": 0.6628277010167949,
+      "id": "bc26b2e6baeb40dba23d31ed1718cb87",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.6930387759930454,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 10017,
+        "prompt_tokens_details": {
+          "cached_tokens": 9901
+        },
+        "total_tokens": 10042
+      }
+    },
+    {
       "at": 1794432968.7510424,
       "complete": true,
       "context_policy": {
@@ -219566,6 +222670,34 @@
           "cached_tokens": 11067
         },
         "total_tokens": 11329
+      }
+    },
+    {
+      "at": 1794460023.6514263,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 565064,
+        "dropped_messages": 324,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4435617710114457,
+      "first_content_seconds": 1.4435617710114457,
+      "first_delivered_seconds": 1.4435683130286634,
+      "id": "be5aa904e9fc44b58e0947d3d05183b2",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.4728068000404164,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
       }
     },
     {
@@ -228748,6 +231880,34 @@
       }
     },
     {
+      "at": 1794460626.0988457,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45788,
+        "applied": true,
+        "before_bytes": 166236,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9797017929959111,
+      "first_content_seconds": 0.9797017929959111,
+      "first_delivered_seconds": 0.9797084649908356,
+      "id": "c585ad6704a74872802c3d0a02965fe1",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0099133779876865,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 11575,
+        "prompt_tokens_details": {
+          "cached_tokens": 11500
+        },
+        "total_tokens": 11614
+      }
+    },
+    {
       "at": 1794435041.9400265,
       "complete": true,
       "context_policy": {
@@ -230435,6 +233595,34 @@
       }
     },
     {
+      "at": 1794459793.599111,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 491462,
+        "dropped_messages": 288,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4023768700426444,
+      "first_content_seconds": 1.4023768700426444,
+      "first_delivered_seconds": 1.4023828509962186,
+      "id": "c721089da54344fd895cfae2a767e68e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.4334720200276934,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
+      }
+    },
+    {
       "at": 1794376567.8485582,
       "complete": false,
       "error": "Pinned instructions/tools exceed the experimental context budget",
@@ -231190,6 +234378,29 @@
       }
     },
     {
+      "at": 1794460227.8335533,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8354735000175424,
+      "first_content_seconds": 0.8354735000175424,
+      "first_delivered_seconds": 0.8354807230061851,
+      "id": "c7b8248e36854a488819873d1a9c048d",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.8661963060148992,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 10547,
+        "prompt_tokens_details": {
+          "cached_tokens": 10188
+        },
+        "total_tokens": 10576
+      }
+    },
+    {
       "at": 1794357723.784236,
       "complete": true,
       "context_policy": {
@@ -231678,6 +234889,29 @@
       }
     },
     {
+      "at": 1794460210.194833,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.9902224650140852,
+      "first_content_seconds": 0.9902224650140852,
+      "first_delivered_seconds": 0.990227374015376,
+      "id": "c8412eba4be444e0918bc5c70988c64b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0189258260070346,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 4316,
+        "prompt_tokens_details": {
+          "cached_tokens": 3415
+        },
+        "total_tokens": 4344
+      }
+    },
+    {
       "at": 1794372485.472638,
       "complete": true,
       "context_policy": {
@@ -231907,6 +235141,34 @@
           "cached_tokens": 1519
         },
         "total_tokens": 12174
+      }
+    },
+    {
+      "at": 1794460545.4795213,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45491,
+        "applied": true,
+        "before_bytes": 136879,
+        "dropped_messages": 78,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.6560606940183789,
+      "first_content_seconds": 0.6560606940183789,
+      "first_delivered_seconds": 0.656069780990947,
+      "id": "c8672cc3fa794240a8a58e9b4ba3d086",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.6861386389937252,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 12446,
+        "prompt_tokens_details": {
+          "cached_tokens": 12355
+        },
+        "total_tokens": 12471
       }
     },
     {
@@ -236008,6 +239270,34 @@
       }
     },
     {
+      "at": 1794460332.724506,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47999,
+        "applied": true,
+        "before_bytes": 70172,
+        "dropped_messages": 38,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 8.158004362951033,
+      "first_content_seconds": 8.158004362951033,
+      "first_delivered_seconds": 8.158011155959684,
+      "id": "cbd6ce85908c44f9b5e17e5b67a355f5",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 8.189121400995646,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 13019,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13034
+      }
+    },
+    {
       "at": 1794352553.2732031,
       "complete": true,
       "first_any_seconds": 0.9940187469765078,
@@ -236767,6 +240057,34 @@
       }
     },
     {
+      "at": 1794460584.75177,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46581,
+        "applied": true,
+        "before_bytes": 150798,
+        "dropped_messages": 82,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.017739346018061,
+      "first_content_seconds": 1.017739346018061,
+      "first_delivered_seconds": 1.0177441550185904,
+      "id": "cc8159aa17e34501b0f03df729e43818",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0469730240292847,
+      "usage": {
+        "completion_tokens": 48,
+        "prompt_tokens": 12087,
+        "prompt_tokens_details": {
+          "cached_tokens": 12012
+        },
+        "total_tokens": 12135
+      }
+    },
+    {
       "at": 1794299636.930944,
       "complete": true,
       "first_any_seconds": 0.689345468999818,
@@ -237017,6 +240335,29 @@
           "cached_tokens": 6338
         },
         "total_tokens": 6487
+      }
+    },
+    {
+      "at": 1794460220.330901,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6708328460226767,
+      "first_content_seconds": 0.6708328460226767,
+      "first_delivered_seconds": 0.6708416719920933,
+      "id": "ccb955005b0c4d7280c787cf8e68b563",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.7004347550100647,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 9404,
+        "prompt_tokens_details": {
+          "cached_tokens": 9377
+        },
+        "total_tokens": 9438
       }
     },
     {
@@ -238259,6 +241600,34 @@
       }
     },
     {
+      "at": 1794460568.80816,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42347,
+        "applied": true,
+        "before_bytes": 146564,
+        "dropped_messages": 82,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.609747049980797,
+      "first_content_seconds": 7.609747049980797,
+      "first_delivered_seconds": 7.609753703000024,
+      "id": "cd997d3592154db79cf7ead58f07db36",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 7.639556400012225,
+      "usage": {
+        "completion_tokens": 49,
+        "prompt_tokens": 11203,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11252
+      }
+    },
+    {
       "at": 1794435570.4603882,
       "complete": true,
       "context_policy": {
@@ -238532,6 +241901,34 @@
           "cached_tokens": 6048
         },
         "total_tokens": 6880
+      }
+    },
+    {
+      "at": 1794459946.8169134,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 540530,
+        "dropped_messages": 312,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4187280419864692,
+      "first_content_seconds": 1.4187280419864692,
+      "first_delivered_seconds": 1.4187348149716854,
+      "id": "cdc6166886a44cdcb4e764d026bc6ad8",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.4489056039601564,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
       }
     },
     {
@@ -240739,6 +244136,34 @@
       }
     },
     {
+      "at": 1794460581.0964596,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44940,
+        "applied": true,
+        "before_bytes": 149157,
+        "dropped_messages": 82,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8888813070370816,
+      "first_content_seconds": 0.8888813070370816,
+      "first_delivered_seconds": 0.888886918022763,
+      "id": "cf90e2208da54069ae49269aa96d6f8e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9189665050362237,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 11748,
+        "prompt_tokens_details": {
+          "cached_tokens": 11673
+        },
+        "total_tokens": 11787
+      }
+    },
+    {
       "at": 1794373037.2912173,
       "complete": true,
       "context_policy": {
@@ -241002,6 +244427,34 @@
           "cached_tokens": 17494
         },
         "total_tokens": 18502
+      }
+    },
+    {
+      "at": 1794460601.6960452,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 35371,
+        "applied": true,
+        "before_bytes": 155819,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8870953710284084,
+      "first_content_seconds": 0.8870953710284084,
+      "first_delivered_seconds": 0.8870989480055869,
+      "id": "cfd9327801664f56bfd6c2296a61ee4b",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9163361220271327,
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 9417,
+        "prompt_tokens_details": {
+          "cached_tokens": 9379
+        },
+        "total_tokens": 9458
       }
     },
     {
@@ -242286,6 +245739,34 @@
       }
     },
     {
+      "at": 1794460619.5243447,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43055,
+        "applied": true,
+        "before_bytes": 163503,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9864914430072531,
+      "first_content_seconds": 0.9864914430072531,
+      "first_delivered_seconds": 0.9864945579902269,
+      "id": "d1136e699e0e48a5b6d2e871b41b3510",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0161161149735563,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 11010,
+        "prompt_tokens_details": {
+          "cached_tokens": 10935
+        },
+        "total_tokens": 11049
+      }
+    },
+    {
       "at": 1794454339.1758978,
       "complete": true,
       "context_policy": {
@@ -242324,6 +245805,34 @@
           "cached_tokens": 20697
         },
         "total_tokens": 20967
+      }
+    },
+    {
+      "at": 1794459998.0039985,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 556886,
+        "dropped_messages": 320,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4294881820096634,
+      "first_content_seconds": 1.4294881820096634,
+      "first_delivered_seconds": 1.4294919890235178,
+      "id": "d11f50d077da449f9071b25a47daa1a7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.4589983600308187,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
       }
     },
     {
@@ -243184,6 +246693,29 @@
           "cached_tokens": 28305
         },
         "total_tokens": 28819
+      }
+    },
+    {
+      "at": 1794460207.4775326,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.3136288399691693,
+      "first_content_seconds": 2.3136288399691693,
+      "first_delivered_seconds": 2.3136361739598215,
+      "id": "d1cc35f0d84f422f8caab10c1fa81bd2",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 2.342825808969792,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 3401,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3416
       }
     },
     {
@@ -245901,6 +249433,34 @@
       }
     },
     {
+      "at": 1794460659.607012,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47723,
+        "applied": true,
+        "before_bytes": 174980,
+        "dropped_messages": 88,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.0041951920138672,
+      "first_content_seconds": 1.0041951920138672,
+      "first_delivered_seconds": 1.004202296026051,
+      "id": "d467044ef85b418ba0426a20f2472564",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0335462910006754,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10943,
+        "prompt_tokens_details": {
+          "cached_tokens": 10868
+        },
+        "total_tokens": 10982
+      }
+    },
+    {
       "at": 1794433811.9830282,
       "complete": true,
       "context_policy": {
@@ -246005,6 +249565,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 14900
+      }
+    },
+    {
+      "at": 1794460102.4491441,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 590693,
+        "dropped_messages": 336,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.711347247008234,
+      "first_content_seconds": 23.711347247008234,
+      "first_delivered_seconds": 23.711353738966864,
+      "id": "d47acfcf6bf449fe854653311c94689e",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.739719235978555,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
       }
     },
     {
@@ -246212,6 +249800,34 @@
           "cached_tokens": 8029
         },
         "total_tokens": 9035
+      }
+    },
+    {
+      "at": 1794460605.500091,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 37044,
+        "applied": true,
+        "before_bytes": 157492,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9217798119643703,
+      "first_content_seconds": 0.9217798119643703,
+      "first_delivered_seconds": 0.9217886190162972,
+      "id": "d493f25cca5847a5acb9b6578e3b8269",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9511989990132861,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 9767,
+        "prompt_tokens_details": {
+          "cached_tokens": 9692
+        },
+        "total_tokens": 9806
       }
     },
     {
@@ -249328,6 +252944,34 @@
       }
     },
     {
+      "at": 1794460595.5026677,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 32760,
+        "applied": true,
+        "before_bytes": 153208,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.070360264973715,
+      "first_content_seconds": 1.070360264973715,
+      "first_delivered_seconds": 1.0703651339863427,
+      "id": "d6e706365298458f9543030fa79d1131",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.0996538359904662,
+      "usage": {
+        "completion_tokens": 53,
+        "prompt_tokens": 8792,
+        "prompt_tokens_details": {
+          "cached_tokens": 8717
+        },
+        "total_tokens": 8845
+      }
+    },
+    {
       "at": 1794414249.1508362,
       "complete": true,
       "context_policy": {
@@ -250842,6 +254486,34 @@
           "cached_tokens": 10257
         },
         "total_tokens": 11261
+      }
+    },
+    {
+      "at": 1794460610.5124931,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 39230,
+        "applied": true,
+        "before_bytes": 159678,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9340073710191064,
+      "first_content_seconds": 0.9340073710191064,
+      "first_delivered_seconds": 0.9340139530249871,
+      "id": "d88304e237ad412181c561ab78321527",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9711985029862262,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10219,
+        "prompt_tokens_details": {
+          "cached_tokens": 10144
+        },
+        "total_tokens": 10258
       }
     },
     {
@@ -259966,6 +263638,34 @@
       }
     },
     {
+      "at": 1794460560.6185875,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43513,
+        "applied": true,
+        "before_bytes": 141877,
+        "dropped_messages": 80,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.6832825220189989,
+      "first_content_seconds": 0.6832825220189989,
+      "first_delivered_seconds": 0.683286428975407,
+      "id": "e015ec4fe7394c6c872475dbb5805b07",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.713459251972381,
+      "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 12284,
+        "prompt_tokens_details": {
+          "cached_tokens": 12209
+        },
+        "total_tokens": 12311
+      }
+    },
+    {
       "at": 1794296250.2768278,
       "complete": true,
       "first_any_seconds": 2.258042393994401,
@@ -262128,6 +265828,34 @@
       }
     },
     {
+      "at": 1794460597.9252334,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 33725,
+        "applied": true,
+        "before_bytes": 154173,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9338545439532027,
+      "first_content_seconds": 0.9338545439532027,
+      "first_delivered_seconds": 0.9338599040056579,
+      "id": "e1d0617ba5ec4ad69996868ba6989206",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.963169113965705,
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 9003,
+        "prompt_tokens_details": {
+          "cached_tokens": 8928
+        },
+        "total_tokens": 9044
+      }
+    },
+    {
       "at": 1794295978.2444687,
       "complete": true,
       "first_any_seconds": 1.6130924790049903,
@@ -263162,6 +266890,34 @@
       }
     },
     {
+      "at": 1794459844.5969582,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 507818,
+        "dropped_messages": 296,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4120262269861996,
+      "first_content_seconds": 1.4120262269861996,
+      "first_delivered_seconds": 1.4120298839989118,
+      "id": "e2a91de02c9d4531b07ce73a6d6a77c7",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.4416794069693424,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
+      }
+    },
+    {
       "at": 1794293693.2372217,
       "complete": true,
       "first_any_seconds": 5.022092669998528,
@@ -263869,6 +267625,34 @@
           "cached_tokens": 12483
         },
         "total_tokens": 12544
+      }
+    },
+    {
+      "at": 1794460660.9478455,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47527,
+        "applied": true,
+        "before_bytes": 175526,
+        "dropped_messages": 90,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 7.1202952089952305,
+      "first_content_seconds": 7.1202952089952305,
+      "first_delivered_seconds": 7.120300479000434,
+      "id": "e33fcbbbea544ea39904f1fc99b0e57f",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 7.151083979988471,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10900,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10939
       }
     },
     {
@@ -266651,6 +270435,34 @@
       }
     },
     {
+      "at": 1794460544.3896408,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44882,
+        "applied": true,
+        "before_bytes": 136270,
+        "dropped_messages": 78,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8721707730437629,
+      "first_content_seconds": 0.8721707730437629,
+      "first_delivered_seconds": 0.8721806820249185,
+      "id": "e63413a0f6b847fa8b03ffeeea6297cc",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9016453540534712,
+      "usage": {
+        "completion_tokens": 38,
+        "prompt_tokens": 12318,
+        "prompt_tokens_details": {
+          "cached_tokens": 12194
+        },
+        "total_tokens": 12356
+      }
+    },
+    {
       "at": 1794444040.7104065,
       "complete": true,
       "context_policy": {
@@ -266740,6 +270552,34 @@
           "cached_tokens": 1575
         },
         "total_tokens": 14221
+      }
+    },
+    {
+      "at": 1794460623.4604788,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44695,
+        "applied": true,
+        "before_bytes": 165143,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.973776236991398,
+      "first_content_seconds": 0.973776236991398,
+      "first_delivered_seconds": 0.9737814569962211,
+      "id": "e6451f79642e46a3b13e7821041eac5a",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.003947947989218,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 11349,
+        "prompt_tokens_details": {
+          "cached_tokens": 11274
+        },
+        "total_tokens": 11388
       }
     },
     {
@@ -269023,6 +272863,34 @@
       }
     },
     {
+      "at": 1794460051.0749497,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42078,
+        "applied": true,
+        "before_bytes": 574337,
+        "dropped_messages": 328,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 23.808626059035305,
+      "first_content_seconds": 23.808626059035305,
+      "first_delivered_seconds": 23.808631880034227,
+      "id": "e8170ad0ca6c474d887ad9b9dca7b233",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 23.836503177997656,
+      "usage": {
+        "completion_tokens": 1578,
+        "prompt_tokens": 9987,
+        "prompt_tokens_details": {
+          "cached_tokens": 9809
+        },
+        "total_tokens": 11565
+      }
+    },
+    {
       "at": 1794456242.9505446,
       "complete": true,
       "context_policy": {
@@ -269768,6 +273636,34 @@
           "cached_tokens": 15004
         },
         "total_tokens": 15048
+      }
+    },
+    {
+      "at": 1794460630.0934649,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47427,
+        "applied": true,
+        "before_bytes": 167875,
+        "dropped_messages": 84,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.9894325900240801,
+      "first_content_seconds": 0.9894325900240801,
+      "first_delivered_seconds": 0.9894377500168048,
+      "id": "e8a681de689743e29a0d0db4f47b1b26",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 1.019677649019286,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 11914,
+        "prompt_tokens_details": {
+          "cached_tokens": 11839
+        },
+        "total_tokens": 11953
       }
     },
     {
@@ -274442,6 +278338,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 3518
+      }
+    },
+    {
+      "at": 1794460216.111712,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7794190369895659,
+      "first_content_seconds": 0.7794190369895659,
+      "first_delivered_seconds": 0.7794247879646719,
+      "id": "ec8394f0aa8045cfba76bd3b3c975e95",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.8078749539563432,
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 8413,
+        "prompt_tokens_details": {
+          "cached_tokens": 8208
+        },
+        "total_tokens": 8447
       }
     },
     {
@@ -286250,6 +290169,34 @@
       }
     },
     {
+      "at": 1794460075.082008,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40983,
+        "applied": true,
+        "before_bytes": 581420,
+        "dropped_messages": 332,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4397739630076103,
+      "first_content_seconds": 1.4397739630076103,
+      "first_delivered_seconds": 1.4397801049635746,
+      "id": "f674dd13931a4d3280b158e8917f4a38",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "seconds": 1.468246920965612,
+      "usage": {
+        "completion_tokens": 82,
+        "prompt_tokens": 9728,
+        "prompt_tokens_details": {
+          "cached_tokens": 9724
+        },
+        "total_tokens": 9810
+      }
+    },
+    {
       "at": 1794299470.3110847,
       "complete": true,
       "first_any_seconds": 16.60558114798914,
@@ -292201,6 +296148,34 @@
       }
     },
     {
+      "at": 1794460566.4015393,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46640,
+        "applied": true,
+        "before_bytes": 145004,
+        "dropped_messages": 80,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8927569499937817,
+      "first_content_seconds": 0.8927569499937817,
+      "first_delivered_seconds": 0.8927643839851953,
+      "id": "fb2aeffb20bc43219ab139d763e8f6be",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9226952529861592,
+      "usage": {
+        "completion_tokens": 40,
+        "prompt_tokens": 13016,
+        "prompt_tokens_details": {
+          "cached_tokens": 12927
+        },
+        "total_tokens": 13056
+      }
+    },
+    {
       "at": 1794361981.7003505,
       "complete": true,
       "context_policy": {
@@ -294316,6 +298291,34 @@
           "cached_tokens": 31897
         },
         "total_tokens": 32050
+      }
+    },
+    {
+      "at": 1794460588.2194245,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47892,
+        "applied": true,
+        "before_bytes": 152109,
+        "dropped_messages": 82,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.8875671870191582,
+      "first_content_seconds": 0.8875671870191582,
+      "first_delivered_seconds": 0.8875737090129405,
+      "id": "fd398b25836d4273881b90eedb542701",
+      "model": "campaign-nemo-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-nemo-cpp-csv-s42-h5.5/developer",
+      "seconds": 0.9177320949966088,
+      "usage": {
+        "completion_tokens": 40,
+        "prompt_tokens": 12376,
+        "prompt_tokens_details": {
+          "cached_tokens": 12338
+        },
+        "total_tokens": 12416
       }
     },
     {

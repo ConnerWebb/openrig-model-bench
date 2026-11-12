@@ -1,0 +1,267 @@
+{
+  "at": 1794460131.9565089,
+  "dispatch": "decision-v1",
+  "harness_revision": "h5.5",
+  "status": {
+    "phase": "solo",
+    "at": 1794458082.7409244,
+    "pid": 1242258,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "shortened-decision-campaign-v1",
+    "current": "solo-nemo-py-queue-s42-h5.5",
+    "dispatch": "decision-v1"
+  },
+  "heartbeat": {
+    "at": 1794460131.6770408,
+    "pid": 1242258,
+    "active_jobs": [
+      "solo-nemo-py-queue-s42-h5.5"
+    ],
+    "available": 80739991552
+  },
+  "balanced_finished": 28,
+  "balanced_target": 48,
+  "all_h55_solo_scores": {
+    "python": {
+      "accepted": 13,
+      "finished": 17
+    },
+    "cpp": {
+      "accepted": 11,
+      "finished": 16
+    }
+  },
+  "latest_finished": [
+    {
+      "id": "solo-next-py-queue-s43-h5.5",
+      "complete": false,
+      "resource_limited": false,
+      "seconds": 1535.9115512371063,
+      "feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+    },
+    {
+      "id": "solo-coder30-py-queue-s42-h5.5",
+      "complete": false,
+      "resource_limited": false,
+      "seconds": 2710.8313710689545,
+      "feedback": "Fifteen-minute agent-turn deadline reached"
+    }
+  ],
+  "active_fixed_checks": {
+    "normal": false
+  },
+  "active_saved_tests": false,
+  "active_outcome": "Not scored until finalized; current code/test failures are model-visible and preserved.",
+  "resource_window": {
+    "samples": 591,
+    "minimum_available_gib": 75.09456253051758,
+    "swapin_pages": 36,
+    "swapout_pages": 0,
+    "oom_kills": 0,
+    "optional_thermal_error_samples": 381
+  },
+  "errors": [
+    {
+      "at": 1794456268.4375489,
+      "kind": "inference_request",
+      "id": "3e0102425edf496d9c54ff176577584c",
+      "prefix": "solo-coder30-py-queue-s42-h5.5/developer",
+      "first_any_seconds": 8.807379232021049,
+      "first_content_seconds": 8.807379232021049,
+      "first_delivered_seconds": 8.807392287009861,
+      "usage": null,
+      "normalized_tool_call": false,
+      "context_policy": {
+        "applied": true,
+        "before_bytes": 374996,
+        "after_bytes": 45013,
+        "maximum_bytes": 48000,
+        "dropped_messages": 117,
+        "shortened_history_fields": 1
+      },
+      "model": "campaign-coder30-s42-c32768",
+      "complete": false,
+      "error": "[Errno 32] Broken pipe",
+      "seconds": 9.30266817100346
+    },
+    {
+      "at": 1794457177.0972726,
+      "kind": "inference_request",
+      "id": "3b12221e33574da48fb7646ce6595bb7",
+      "prefix": "solo-coder30-py-queue-s42-h5.5/developer",
+      "first_any_seconds": 0.5820643900078721,
+      "first_content_seconds": 0.5820643900078721,
+      "first_delivered_seconds": 0.5820769040146843,
+      "usage": null,
+      "normalized_tool_call": false,
+      "context_policy": {
+        "applied": true,
+        "before_bytes": 718514,
+        "after_bytes": 46464,
+        "maximum_bytes": 48000,
+        "dropped_messages": 241,
+        "shortened_history_fields": 0
+      },
+      "model": "campaign-coder30-s42-c32768",
+      "complete": false,
+      "error": "[Errno 104] Connection reset by peer",
+      "seconds": 2.8637017770088278
+    },
+    {
+      "at": 1794458077.519794,
+      "kind": "inference_request",
+      "id": "b5e9d0d9b66040e7b0ff4a78d917fdaa",
+      "prefix": "solo-coder30-py-queue-s42-h5.5/developer",
+      "first_any_seconds": 1.0351998609839939,
+      "first_content_seconds": 1.0351998609839939,
+      "first_delivered_seconds": 1.035214428033214,
+      "usage": null,
+      "normalized_tool_call": false,
+      "context_policy": {
+        "applied": true,
+        "before_bytes": 1024043,
+        "after_bytes": 47567,
+        "maximum_bytes": 48000,
+        "dropped_messages": 417,
+        "shortened_history_fields": 0
+      },
+      "model": "campaign-coder30-s42-c32768",
+      "complete": false,
+      "error": "[Errno 32] Broken pipe",
+      "seconds": 4.8628753470256925
+    },
+    {
+      "at": 1794458994.677688,
+      "kind": "inference_request",
+      "id": "09dc1b3e11c84c8f987485852f7f883d",
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "first_any_seconds": 2.3459952140110545,
+      "first_content_seconds": 2.3459952140110545,
+      "first_delivered_seconds": 2.346000774006825,
+      "usage": null,
+      "normalized_tool_call": false,
+      "context_policy": {
+        "applied": true,
+        "before_bytes": 269943,
+        "after_bytes": 47334,
+        "maximum_bytes": 48000,
+        "dropped_messages": 150,
+        "shortened_history_fields": 0
+      },
+      "model": "campaign-nemo-s42-c32768",
+      "complete": false,
+      "error": "[Errno 32] Broken pipe",
+      "seconds": 2.3461440340033732
+    },
+    {
+      "at": 1794459021.6171684,
+      "kind": "inference_request",
+      "id": "af40551c444f4560b1bfa192d38bf033",
+      "prefix": "solo-nemo-py-queue-s42-h5.5/developer",
+      "first_any_seconds": null,
+      "first_content_seconds": null,
+      "first_delivered_seconds": null,
+      "usage": null,
+      "normalized_tool_call": false,
+      "context_policy": {
+        "applied": true,
+        "before_bytes": 275756,
+        "after_bytes": 47975,
+        "maximum_bytes": 48000,
+        "dropped_messages": 157,
+        "shortened_history_fields": 0
+      },
+      "model": "campaign-nemo-s42-c32768",
+      "complete": false,
+      "error": "HTTP Error 500: Internal Server Error",
+      "upstream_status": 500,
+      "seconds": 4.048128950002138
+    }
+  ],
+  "error_classifications": [
+    {
+      "id": "3e0102425edf496d9c54ff176577584c",
+      "classification": "Bounded deadline cancellation",
+      "deadline_evidence": [
+        {
+          "at": 1794456277.7245958,
+          "path": "outputs/openrig-programming-20261109-235342/runs/solo-coder30-py-queue-s42-h5.5/seats/developer/control/failed-stage-qitem-1794455376-717656cac86747b0.json",
+          "source": "native closure"
+        }
+      ]
+    },
+    {
+      "id": "3b12221e33574da48fb7646ce6595bb7",
+      "classification": "Bounded deadline cancellation",
+      "deadline_evidence": [
+        {
+          "at": 1794457179.9354,
+          "path": "outputs/openrig-programming-20261109-235342/runs/solo-coder30-py-queue-s42-h5.5/seats/developer/control/failed-stage-qitem-1794456279-8ef24e95a8eb443e.json",
+          "source": "native closure"
+        }
+      ]
+    },
+    {
+      "id": "b5e9d0d9b66040e7b0ff4a78d917fdaa",
+      "classification": "Bounded deadline cancellation",
+      "deadline_evidence": [
+        {
+          "at": 1794458082.2419593,
+          "path": "outputs/openrig-programming-20261109-235342/runs/solo-coder30-py-queue-s42-h5.5/seats/developer/control/failed-stage-qitem-1794457181-849c56b4d4ea4e60.json",
+          "source": "archived failed-stage deadline"
+        }
+      ]
+    },
+    {
+      "id": "09dc1b3e11c84c8f987485852f7f883d",
+      "classification": "Bounded deadline cancellation",
+      "deadline_evidence": [
+        {
+          "at": 1794458996.7074924,
+          "path": "outputs/openrig-programming-20261109-235342/runs/solo-nemo-py-queue-s42-h5.5/seats/developer/control/failed-stage-qitem-1794458095-cbf979b55afe41c4.json",
+          "source": "native closure"
+        }
+      ]
+    },
+    {
+      "id": "af40551c444f4560b1bfa192d38bf033",
+      "classification": "Provider tool-output parser incident, separate from code/test quality",
+      "provider_error": "{\"error\":{\"message\":\"XML syntax error on line 28: unexpected EOF\",\"type\":\"api_error\",\"param\":null,\"code\":null}}\n",
+      "recovered": true,
+      "action": "Saved exact input/error. Following unchanged calls recovered. No active-timing replay injected; no source or driver changes. One malformed-output parser failure does not establish a deterministic harness defect."
+    }
+  ],
+  "previous_results_verified": 242,
+  "immutable_sources_verified": true,
+  "production_preserved": true,
+  "github_head_verified": "ee5c8c4ed7a71400f19506aeaeba08d4a0f1cddd",
+  "backup_status": {
+    "at_utc": "2026-11-12T05:03:10.850509+00:00",
+    "export_errors": [],
+    "finished_case_records": 244,
+    "finished_transport_streams": 12546,
+    "head": "ee5c8c4ed7a71400f19506aeaeba08d4a0f1cddd",
+    "success": true
+  },
+  "live_chart": {
+    "checked_at": 1794460129.699962,
+    "error": null,
+    "campaign_pid": 1242258,
+    "heartbeat_at": 1794460129.6579196,
+    "active_jobs": [
+      "solo-nemo-py-queue-s42-h5.5"
+    ],
+    "phase": "solo",
+    "current": "solo-nemo-py-queue-s42-h5.5",
+    "revision": "h5.5",
+    "captured_at": 1794458087.5306337,
+    "captured_label": "Nov 11, 2026 \u00b7 10:34:47 PM CST",
+    "result_identity": "aa107aa93889bae22d656140508a1457440fb514658176a1a2bfb786588efac7",
+    "finished_solo_trials": 174
+  },
+  "admission_window": {
+    "started": 1794455369.5040553,
+    "deadline": 1794584969.5040553
+  },
+  "action": "Continue unchanged shortened dispatch. No restart, active-trial interruption or source change. No user action required."
+}
