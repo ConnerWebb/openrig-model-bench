@@ -402,6 +402,51 @@
     "stored_result_sha256": "743408b45b01840c9f59efb652f0a95a18d8e17c676db74bb18aa3892ba33eb9"
   },
   {
+    "artifact": "artifacts/cases/decision-v1-stability-0-a1794511668626342677-0-h5.5-78955721e4c091df07e4.tar.gz",
+    "complete": true,
+    "directory": "decision-v1-stability-0-a1794511668626342677-0-h5.5",
+    "id": "decision-v1-stability-0-a1794511668626342677-0-h5.5",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "q122"
+    },
+    "phase": "soak",
+    "revision": "h5.5",
+    "source_result_sha256": "78955721e4c091df07e457648a758ce0361307b8bd948d7e04ee70211f461e36",
+    "stored_result_sha256": "78955721e4c091df07e457648a758ce0361307b8bd948d7e04ee70211f461e36"
+  },
+  {
+    "artifact": "artifacts/cases/decision-v1-stability-0-a1794511668626342677-1-h5.5-be047aded39196d7726e.tar.gz",
+    "complete": true,
+    "directory": "decision-v1-stability-0-a1794511668626342677-1-h5.5",
+    "id": "decision-v1-stability-0-a1794511668626342677-1-h5.5",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "q122"
+    },
+    "phase": "soak",
+    "revision": "h5.5",
+    "source_result_sha256": "be047aded39196d7726e4827c6978be3947d77b8c7e45cee4f9494421740bcdc",
+    "stored_result_sha256": "be047aded39196d7726e4827c6978be3947d77b8c7e45cee4f9494421740bcdc"
+  },
+  {
+    "artifact": "artifacts/cases/decision-v1-stability-1-a1794512108948038204-1-h5.5-99175e2b3a0b8c6faa76.tar.gz",
+    "complete": true,
+    "directory": "decision-v1-stability-1-a1794512108948038204-1-h5.5",
+    "id": "decision-v1-stability-1-a1794512108948038204-1-h5.5",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "q122"
+    },
+    "phase": "soak",
+    "revision": "h5.5",
+    "source_result_sha256": "99175e2b3a0b8c6faa76ca6f379a4fa05ef2477490df3098882b805c7320f3e8",
+    "stored_result_sha256": "99175e2b3a0b8c6faa76ca6f379a4fa05ef2477490df3098882b805c7320f3e8"
+  },
+  {
     "artifact": "artifacts/cases/drift-control-next-h5.4-7c7deb374e73d8809f57.tar.gz",
     "complete": true,
     "directory": "drift-control-next-h5.4",

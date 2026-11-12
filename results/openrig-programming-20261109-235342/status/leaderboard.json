@@ -1005,5 +1005,29 @@
     "case_wall_seconds_sum": 7004.880050897598,
     "accepted_tasks_per_hour": 4.625346867409713,
     "failures": []
+  },
+  {
+    "phase": "soak",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'q122'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 439.8461265563965,
+    "accepted_tasks_per_hour": 8.184680465836529,
+    "failures": []
+  },
+  {
+    "phase": "soak",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'q122'}",
+    "agents": 1,
+    "passed": 2,
+    "attempted": 2,
+    "case_wall_seconds_sum": 857.2498483657837,
+    "accepted_tasks_per_hour": 8.398951616877744,
+    "failures": []
   }
 ]
