@@ -208,5 +208,23 @@
     "case_wall_seconds_sum": 261.28220868110657,
     "accepted_tasks_per_hour": 13.778205635094654,
     "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'q27q4'}",
+    "agents": 1,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 2708.3287069797516,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "solo-q27q4-cpp-buffer-s42-h5.5",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   }
 ]

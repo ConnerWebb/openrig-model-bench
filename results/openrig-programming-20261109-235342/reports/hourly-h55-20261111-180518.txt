@@ -1,0 +1,33 @@
+OpenRig hourly check — 2026-11-11T18:05:19.385913-06:00
+Scores by revision: {"h5.4": {"cpp": {"failed": 16, "finished": 34, "passed": 18}, "python": {"failed": 6, "finished": 32, "passed": 26}}, "h5.5": {"cpp": {"failed": 3, "finished": 8, "passed": 5}, "python": {"failed": 1, "finished": 7, "passed": 6}}}
+Unequal task coverage; no model ranking or revision pooling. Qualifications/probes/unfinished/interrupted work excluded; old thermal sampling gaps not imputed.
+
+new_passes: DevstralSmall2 C++ Buffer passed second attempt19.47min. GLM4.7Flash Python CSV passed first attempt2.40min and C++ Buffer first attempt1.82min. Qwen27B Q4 Python CSV passed first attempt4.35min. All independently accepted, not just public tests.
+q27_cpp: At inspection, Qwen27B Q4 C++ Buffer was on its third bounded assignment. Latest official receipt is from an earlier artifact: normal cases0-3 fail content retention (driver includes required self-copy/self-move); authored test_move assertion fails; ASan explicitly skipped after normal failure. Current assignment had no fresh receipt, despite ongoing native run calls. Do not claim current edited code is verified or silently fix its tests. Completion status and raw result are recorded separately below.
+workflow_and_transport: Three broken-pipe streams since prior check align with bounded agent cancellation. No context-budget rejection, unknown proxy defect or missing per-mode sanitizer feedback. Native tools continue carrying source/test evidence; no new harness revision or private-service restart justified.
+resource_monitor: Integrated monitor continues retaining essential memory/GPU samples alongside optional Wi-Fi sensor errors. No whole-monitor errors, resource guards or private inference OOMs. Observed memory is shared whole-system/UMA usage, not exclusive process attribution.
+continuation: Keep finite common-pair screen and full campaign moving. Pending trials excluded from scores; h5.4 and h5.5 remain separate. No production/default/network/driver/Unity changes, no manual agent reminders or answer patches.
+preservation: Verified34 frozen source hashes and199 pre-h5.5 result hashes; production fingerprint unchanged. Existing independent GitHub backup is healthy; preserve this new report and sync it.
+action: No user intervention required. Keep healthy bounded trial running and retain completed model failures as evidence.
+
+New completed cells:
+solo-devstral-cpp-buffer-s42-h5.5 PASS 19.47min
+solo-glm-py-csv-s42-h5.5 PASS 2.40min
+solo-glm-cpp-buffer-s42-h5.5 PASS 1.82min
+solo-q27q4-py-csv-s42-h5.5 PASS 4.35min
+solo-q27q4-cpp-buffer-s42-h5.5 FAIL 45.14min
+
+h5.5 per-model accepted/finished:
+coder30: {"cpp": {"failed": 1, "finished": 2, "passed": 1}, "python": {"failed": 0, "finished": 1, "passed": 1}}
+devstral: {"cpp": {"failed": 0, "finished": 1, "passed": 1}, "python": {"failed": 0, "finished": 1, "passed": 1}}
+glm: {"cpp": {"failed": 0, "finished": 1, "passed": 1}, "python": {"failed": 0, "finished": 1, "passed": 1}}
+nemo: {"cpp": {"failed": 1, "finished": 1, "passed": 0}, "python": {"failed": 1, "finished": 1, "passed": 0}}
+next: {"cpp": {"failed": 0, "finished": 1, "passed": 1}, "python": {"failed": 0, "finished": 1, "passed": 1}}
+q27q4: {"cpp": {"failed": 1, "finished": 1, "passed": 0}, "python": {"failed": 0, "finished": 1, "passed": 1}}
+q35: {"cpp": {"failed": 0, "finished": 1, "passed": 1}, "python": {"failed": 0, "finished": 1, "passed": 1}}
+
+Current: {"phase": "solo", "at": 1794441848.6767523, "pid": 637884, "harness_revision": "h5.5", "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign", "current": "solo-q9-py-csv-s42-h5.5"}
+Memory: {"latest_age_seconds": 0.40259408950805664, "minimum_available_bytes": 84106694656, "observed_peak_gpu_gtt_used_bytes": 24054349824, "observed_peak_gpu_vram_used_bytes": 492515328, "observed_peak_system_used_bytes": 50192433152, "samples": 3772, "sensor_error_samples": 3018, "swap_in_pages_delta": 369, "swap_out_pages_delta": 0}
+Errors: {'[Errno 32] Broken pipe': 4}; resource/monitor events: 0; cgroup memory events: {'low': '0', 'high': '0', 'max': '0', 'oom': '0', 'oom_kill': '0', 'oom_group_kill': '0', 'sock_throttled': '0'}.
+No code, test, harness, inference service or production setting changed this check.
+Campaign and independent GitHub backup continue; hourly check remains active.

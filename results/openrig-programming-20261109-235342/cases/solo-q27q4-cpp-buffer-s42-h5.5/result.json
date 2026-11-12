@@ -1,0 +1,42 @@
+{
+  "id": "solo-q27q4-cpp-buffer-s42-h5.5",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "q27q4"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794439135.2234254,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-6b8030561091",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794439136.1135678,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794440038.5657296,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    },
+    {
+      "attempt": 3,
+      "started": 1794440941.0651515,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+  "finished": 1794441843.5521324,
+  "seconds": 2708.3287069797516,
+  "resource_limited": false
+}

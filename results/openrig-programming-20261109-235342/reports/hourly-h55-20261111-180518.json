@@ -1,0 +1,404 @@
+{
+  "at": "2026-11-11T18:05:19.385913-06:00",
+  "active_revision": "h5.5",
+  "scores_by_revision": {
+    "h5.4": {
+      "python": {
+        "passed": 26,
+        "finished": 32,
+        "failed": 6
+      },
+      "cpp": {
+        "passed": 18,
+        "finished": 34,
+        "failed": 16
+      }
+    },
+    "h5.5": {
+      "python": {
+        "passed": 6,
+        "finished": 7,
+        "failed": 1
+      },
+      "cpp": {
+        "passed": 5,
+        "finished": 8,
+        "failed": 3
+      }
+    }
+  },
+  "h55_per_model": {
+    "coder30": {
+      "python": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 2,
+        "failed": 1
+      }
+    },
+    "devstral": {
+      "python": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0
+      }
+    },
+    "glm": {
+      "python": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0
+      }
+    },
+    "nemo": {
+      "python": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1
+      }
+    },
+    "next": {
+      "python": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0
+      }
+    },
+    "q27q4": {
+      "python": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0
+      },
+      "cpp": {
+        "passed": 0,
+        "finished": 1,
+        "failed": 1
+      }
+    },
+    "q35": {
+      "python": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0
+      },
+      "cpp": {
+        "passed": 1,
+        "finished": 1,
+        "failed": 0
+      }
+    }
+  },
+  "new_completed": [
+    {
+      "id": "solo-devstral-cpp-buffer-s42-h5.5",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "developer": "devstral"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794437448.1252434,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-9d3d115b1a41",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794437449.0524569,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794438351.502927,
+          "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        }
+      ],
+      "attempts": 2,
+      "completed_hash": "fe0b73cbf97400dde986b95d5c4370d47bf045b6c1379931cf39e16474427b5d",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-devstral-cpp-buffer-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794438616.0883517,
+      "seconds": 1167.9631083011627,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-glm-py-csv-s42-h5.5",
+      "task": "py-csv",
+      "language": "python",
+      "models": {
+        "developer": "glm"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794438618.143191,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-409c1d3fd7ec",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794438619.0671165,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "275f6efc9db3bba47852ce471141a50299921c5fa7764d0aa5571a2f13b4800e",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-glm-py-csv-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794438762.1897295,
+      "seconds": 144.0465383529663,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-glm-cpp-buffer-s42-h5.5",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "developer": "glm"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794438762.5899422,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-737ca62c360b",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794438763.4894874,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "4579c3894a50e8c028583a4a7c5621a0cf8b1fc3d98124190c24d1148b3c138b",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-glm-cpp-buffer-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794438871.5344403,
+      "seconds": 108.94449806213379,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-q27q4-py-csv-s42-h5.5",
+      "task": "py-csv",
+      "language": "python",
+      "models": {
+        "developer": "q27q4"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794438873.5492525,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-da6dc9e87714",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794438874.4721382,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "4eab6577c9a7a4a26d373f8c902c6719cf288cf9d4432b1fb0a16c7f212e1cad",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-q27q4-py-csv-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794439134.8314612,
+      "seconds": 261.28220868110657,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-q27q4-cpp-buffer-s42-h5.5",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "developer": "q27q4"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794439135.2234254,
+      "complete": false,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-6b8030561091",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794439136.1135678,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794440038.5657296,
+          "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        },
+        {
+          "attempt": 3,
+          "started": 1794440941.0651515,
+          "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        }
+      ],
+      "attempts": 3,
+      "failure": "Repair budget exhausted",
+      "last_stage_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+      "finished": 1794441843.5521324,
+      "seconds": 2708.3287069797516,
+      "resource_limited": false
+    }
+  ],
+  "current": {
+    "phase": "solo",
+    "at": 1794441848.6767523,
+    "pid": 637884,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign",
+    "current": "solo-q9-py-csv-s42-h5.5"
+  },
+  "q27_cpp": {
+    "completed": true,
+    "result": {
+      "id": "solo-q27q4-cpp-buffer-s42-h5.5",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "developer": "q27q4"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794439135.2234254,
+      "complete": false,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-6b8030561091",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794439136.1135678,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794440038.5657296,
+          "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        },
+        {
+          "attempt": 3,
+          "started": 1794440941.0651515,
+          "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        }
+      ],
+      "attempts": 3,
+      "failure": "Repair budget exhausted",
+      "last_stage_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+      "finished": 1794441843.5521324,
+      "seconds": 2708.3287069797516,
+      "resource_limited": false
+    },
+    "assignment_at_inspection": "qitem-1794440941-ea800c0c847a428b",
+    "current_receipt": {},
+    "latest_recorded_public_receipt": "runs/solo-q27q4-cpp-buffer-s42-h5.5/seats/developer/control/public-1794439362876858616.json",
+    "latest_recorded_modes": {
+      "normal": false
+    },
+    "latest_not_run": {
+      "asan": "Earlier required mode failed"
+    },
+    "latest_authored_test_passed": false
+  },
+  "diagnosis": {
+    "new_passes": "DevstralSmall2 C++ Buffer passed second attempt19.47min. GLM4.7Flash Python CSV passed first attempt2.40min and C++ Buffer first attempt1.82min. Qwen27B Q4 Python CSV passed first attempt4.35min. All independently accepted, not just public tests.",
+    "q27_cpp": "At inspection, Qwen27B Q4 C++ Buffer was on its third bounded assignment. Latest official receipt is from an earlier artifact: normal cases0-3 fail content retention (driver includes required self-copy/self-move); authored test_move assertion fails; ASan explicitly skipped after normal failure. Current assignment had no fresh receipt, despite ongoing native run calls. Do not claim current edited code is verified or silently fix its tests. Completion status and raw result are recorded separately below.",
+    "workflow_and_transport": "Three broken-pipe streams since prior check align with bounded agent cancellation. No context-budget rejection, unknown proxy defect or missing per-mode sanitizer feedback. Native tools continue carrying source/test evidence; no new harness revision or private-service restart justified.",
+    "resource_monitor": "Integrated monitor continues retaining essential memory/GPU samples alongside optional Wi-Fi sensor errors. No whole-monitor errors, resource guards or private inference OOMs. Observed memory is shared whole-system/UMA usage, not exclusive process attribution.",
+    "continuation": "Keep finite common-pair screen and full campaign moving. Pending trials excluded from scores; h5.4 and h5.5 remain separate. No production/default/network/driver/Unity changes, no manual agent reminders or answer patches.",
+    "preservation": "Verified34 frozen source hashes and199 pre-h5.5 result hashes; production fingerprint unchanged. Existing independent GitHub backup is healthy; preserve this new report and sync it.",
+    "action": "No user intervention required. Keep healthy bounded trial running and retain completed model failures as evidence."
+  },
+  "observed_memory_since_previous_check": {
+    "samples": 3772,
+    "latest_age_seconds": 0.40259408950805664,
+    "sensor_error_samples": 3018,
+    "minimum_available_bytes": 84106694656,
+    "observed_peak_system_used_bytes": 50192433152,
+    "observed_peak_gpu_gtt_used_bytes": 24054349824,
+    "observed_peak_gpu_vram_used_bytes": 492515328,
+    "swap_in_pages_delta": 369,
+    "swap_out_pages_delta": 0
+  },
+  "error_counts": {
+    "[Errno 32] Broken pipe": 4
+  },
+  "resource_or_monitor_events": [],
+  "inference_cgroup_memory_events": {
+    "low": "0",
+    "high": "0",
+    "max": "0",
+    "oom": "0",
+    "oom_kill": "0",
+    "oom_group_kill": "0",
+    "sock_throttled": "0"
+  },
+  "heartbeat_age_seconds": 0.4283711910247803,
+  "source_files_verified": 34,
+  "historical_results_verified": 199,
+  "production_unchanged": true,
+  "campaign_unfinished": true,
+  "scope": "Unequal task coverage; no model ranking or revision pooling. Qualifications/probes/unfinished/interrupted work excluded; old thermal sampling gaps not imputed.",
+  "rollback": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/repairs/h5.5/LOCAL-RESTORE.txt"
+}
