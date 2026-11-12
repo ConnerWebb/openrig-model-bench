@@ -1,0 +1,186 @@
+{
+  "at": 1794474722.2254305,
+  "dispatch": "decision-v1",
+  "harness_revision": "h5.5",
+  "status": {
+    "phase": "solo",
+    "at": 1794473843.273157,
+    "pid": 1242258,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "shortened-decision-campaign-v1",
+    "current": "solo-q9-py-queue-s42-h5.5",
+    "dispatch": "decision-v1"
+  },
+  "heartbeat": {
+    "at": 1794474721.585859,
+    "pid": 1242258,
+    "active_jobs": [
+      "solo-q9-py-queue-s42-h5.5"
+    ],
+    "available": 97276387328
+  },
+  "heartbeat_age": 0.6395714282989502,
+  "balanced_finished": 38,
+  "balanced_target": 48,
+  "scores": {
+    "python": {
+      "balanced_accepted": 13,
+      "balanced_finished": 19,
+      "all_h55_accepted": 15,
+      "all_h55_finished": 22
+    },
+    "cpp": {
+      "balanced_accepted": 11,
+      "balanced_finished": 19,
+      "all_h55_accepted": 11,
+      "all_h55_finished": 21
+    }
+  },
+  "latest_finished": [
+    {
+      "id": "solo-glm-py-queue-s42-h5.5",
+      "complete": false,
+      "resource_limited": false,
+      "seconds": 978.7113847732544,
+      "feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup.",
+      "last_fixed_checks": {
+        "normal": false
+      },
+      "last_saved_tests": false
+    },
+    {
+      "id": "solo-glm-cpp-csv-s42-h5.5",
+      "complete": false,
+      "resource_limited": false,
+      "seconds": 1201.9165332317352,
+      "feedback": "STAGE_FAILED: Three consecutive invalid tool operations",
+      "last_fixed_checks": {},
+      "last_saved_tests": null
+    },
+    {
+      "id": "solo-q27q4-py-queue-s42-h5.5",
+      "complete": true,
+      "resource_limited": false,
+      "seconds": 433.5322263240814,
+      "feedback": null,
+      "last_fixed_checks": {
+        "normal": true
+      },
+      "last_saved_tests": true
+    },
+    {
+      "id": "solo-q27q4-cpp-csv-s42-h5.5",
+      "complete": false,
+      "resource_limited": false,
+      "seconds": 2708.3737308979034,
+      "feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+      "last_fixed_checks": {
+        "normal": false
+      },
+      "last_saved_tests": false
+    }
+  ],
+  "current_jobs": {
+    "developer": {
+      "phase": "implementing",
+      "state": "active",
+      "failure": null,
+      "tests": {},
+      "closed": {}
+    }
+  },
+  "current_fixed_checks": {
+    "normal": false
+  },
+  "current_saved_tests": true,
+  "resource_window": {
+    "samples": 589,
+    "minimum_available_gib": 90.2126579284668,
+    "swapin_pages": 74,
+    "swapout_pages": 0,
+    "private_oom_kills": 0,
+    "optional_thermal_error_samples": 459
+  },
+  "error_classification": [
+    {
+      "request": "d68456caa77c4e0caa78e6cc25c65fbc",
+      "kind": "inference_request",
+      "error": "[Errno 32] Broken pipe",
+      "classification": "Bounded stage cancellation",
+      "evidence": [
+        {
+          "path": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-q27q4-cpp-csv-s42-h5.5/seats/developer/control/failed-stage-qitem-1794471135-67c2564db8354181.json",
+          "at": 1794472035.7771432,
+          "reason": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        }
+      ]
+    },
+    {
+      "request": "4cdb4c1f980f4800b7469c58daee216d",
+      "kind": "inference_request",
+      "error": "[Errno 32] Broken pipe",
+      "classification": "Bounded stage cancellation",
+      "evidence": [
+        {
+          "path": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-q27q4-cpp-csv-s42-h5.5/seats/developer/control/failed-stage-qitem-1794472037-55296f3d3d534362.json",
+          "at": 1794472938.344058,
+          "reason": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        }
+      ]
+    },
+    {
+      "request": "09ef37bdb3aa4e8a9250f4fa5047721b",
+      "kind": "inference_request",
+      "error": "[Errno 32] Broken pipe",
+      "classification": "Bounded stage cancellation",
+      "evidence": [
+        {
+          "path": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-q27q4-cpp-csv-s42-h5.5/seats/developer/control/failed-stage-qitem-1794472939-a7198b5d75a74257.json",
+          "at": 1794473841.0289629,
+          "reason": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        }
+      ]
+    }
+  ],
+  "unexplained_errors": [],
+  "sources_verified": {
+    "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/progress/decision-campaign-v1/source": 7,
+    "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/frozen-harness-v5.5": 35
+  },
+  "previous_result_hashes_verified": 242,
+  "production_preserved": true,
+  "github_local_head": "6040dd2457425b7edd98d8b57c35dc1d05150ed4",
+  "github_remote_head": "6040dd2457425b7edd98d8b57c35dc1d05150ed4",
+  "github_heads_match": true,
+  "backup_status": {
+    "at_utc": "2026-11-12T09:07:07.440983+00:00",
+    "export_errors": [],
+    "finished_case_records": 254,
+    "finished_transport_streams": 13248,
+    "head": "6040dd2457425b7edd98d8b57c35dc1d05150ed4",
+    "success": true
+  },
+  "live_chart": {
+    "checked_at": 1794474712.7821126,
+    "error": null,
+    "campaign_pid": 1242258,
+    "heartbeat_at": 1794474712.4844148,
+    "active_jobs": [
+      "solo-q9-py-queue-s42-h5.5"
+    ],
+    "phase": "solo",
+    "current": "solo-q9-py-queue-s42-h5.5",
+    "revision": "h5.5",
+    "captured_at": 1794473850.3020883,
+    "captured_label": "Nov 12, 2026 \u00b7 02:57:30 AM CST",
+    "result_identity": "234c25b82a8d226c8caae2baf3ec2eb85d47e878d168c152fdfcceec3e008cc8",
+    "finished_solo_trials": 184
+  },
+  "admission_window": {
+    "started": 1794455369.5040553,
+    "deadline": 1794584969.5040553
+  },
+  "attention": null,
+  "completion": null,
+  "note": "This observer does not restart services, infer, alter models, execute tests, modify trials or assign agents. Source is not part of the immutable scoring/dispatch runtime."
+}
