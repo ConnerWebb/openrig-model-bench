@@ -1,0 +1,36 @@
+{
+  "id": "decision-v1-cpp-uniform-three-s44-h5.5",
+  "task": "cpp-csv",
+  "language": "cpp",
+  "models": {
+    "lead": "q122",
+    "developer": "q122",
+    "reviewer": "q122"
+  },
+  "seed": 44,
+  "variant": 0,
+  "topology": 3,
+  "phase": "teams",
+  "harness_revision": "h5.5",
+  "started": 1794499584.0484235,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-b51f555963bc",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794499638.4506054,
+      "incoming_feedback": "None. \nADVISORY PLAN:\nCreate solution.hpp: implement CSV parser with proper quoting handling (escaped double quotes, newlines in quoted fields), field trimming, header validation (exactly 'category,amount'), int64_t parsing with overflow detection, and aggregation into std::map<std::string,std::int64_t>.\nImplement streaming CSV parsing that processes input character-by-character without loading entire input into memory, handling quoted fields, escaped quotes, and multi-line quoted values.\nAdd validation for: wrong field count, empty category, malformed quoting, non-integer amounts, exponents, decimals, and overflow in both parsing and accumulation.\nCreate test_solution.cpp with unit tests covering: basic parsing, quoted fields with commas/newlines/escaped quotes, negative numbers, overflow cases, malformed input rejection, and aggregation correctness.\nCreate test_solution.py using unittest.TestCase to test the C++ solution via subprocess, loading public-inputs/*.csv files directly and comparing against expected values from PUBLIC_CASES.json.\nAdd README.md documenting the API, CSV format, error conditions, and build/test instructions.\nBuild solution with Clang22 C++20 and run tests against all public cases to verify correctness.\nVerify all public cases pass, then mark task complete."
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "d1738c940d71d1b8b2c9a4fe93cf85c57a8a0eeda8886a659bb84b0b90be0bf4",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/decision-v1-cpp-uniform-three-s44-h5.5/seats/developer/project",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794500291.85904,
+  "seconds": 707.8106164932251,
+  "resource_limited": false
+}
