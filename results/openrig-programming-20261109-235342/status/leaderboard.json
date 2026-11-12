@@ -250,5 +250,29 @@
     "case_wall_seconds_sum": 299.1456186771393,
     "accepted_tasks_per_hour": 12.034272859885654,
     "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'q27q8'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 647.2295365333557,
+    "accepted_tasks_per_hour": 5.562168901132141,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'q27q8'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 358.9841339588165,
+    "accepted_tasks_per_hour": 10.028298354859883,
+    "failures": []
   }
 ]
