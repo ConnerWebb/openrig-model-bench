@@ -988,10 +988,22 @@
     "task": "cpp-buffer",
     "models": "{'developer': 'q122'}",
     "agents": 1,
+    "passed": 2,
+    "attempted": 2,
+    "case_wall_seconds_sum": 952.0203158855438,
+    "accepted_tasks_per_hour": 7.562863816937302,
+    "failures": []
+  },
+  {
+    "phase": "parallel-jobs",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'q122'}",
+    "agents": 1,
     "passed": 1,
     "attempted": 1,
-    "case_wall_seconds_sum": 550.0649266242981,
-    "accepted_tasks_per_hour": 6.544681956169966,
+    "case_wall_seconds_sum": 860.461972951889,
+    "accepted_tasks_per_hour": 4.183799067435705,
     "failures": []
   }
 ]
