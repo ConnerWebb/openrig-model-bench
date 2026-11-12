@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OpenRig live performance</title>
+  <link rel="stylesheet" href="/visualize.css">
+  <link rel="stylesheet" href="/theme.css">
+</head>
+<body>
+<main id="openrig-performance-live">
+  <div>
+    <h2 id="perf-title">OpenRig live performance</h2>
+    <div class="text-small text-muted" id="perf-snapshot">Loading preserved results…</div>
+  </div>
+  <div class="viz-controls" aria-label="Performance comparison">
+    <label class="form-label" for="perf-revision">Harness revision
+      <select class="form-select" id="perf-revision" disabled></select>
+    </label>
+    <label class="form-label" for="perf-scope">Test coverage
+      <select class="form-select" id="perf-scope" disabled></select>
+    </label>
+    <label class="form-label" for="perf-metric">Measure
+      <select class="form-select" id="perf-metric" disabled></select>
+    </label>
+  </div>
+  <div id="perf-readout" class="text-small tabular-nums" aria-live="polite"></div>
+  <section data-viz-composition aria-labelledby="perf-title"><div data-viz-container></div></section>
+  <div id="perf-note" class="text-small text-muted"></div>
+  <details>
+    <summary id="perf-failure-count">Failed trials</summary>
+    <div class="text-small text-muted">Last recorded check evidence; final edited source may be unverified.</div>
+    <ul id="perf-failures" class="text-small"></ul>
+  </details>
+  <div id="perf-status" class="text-small" aria-live="polite">Connecting…</div>
+  <div class="text-small text-muted">Finished solo trials only · Python and C++ scored separately · Harness revisions kept separate · Interrupted trials excluded</div>
+</main>
+<script type="module" src="/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "at": 1794448949.2999294,
+  "previous_snapshot_rows_preserved": 167,
+  "current_rows": 168,
+  "old_inline_fragment_unchanged": true,
+  "live_status": {
+    "checked_at": 1794448941.1117122,
+    "error": null,
+    "campaign_pid": 637884,
+    "heartbeat_at": 1794448940.7251108,
+    "active_jobs": [
+      "solo-next-cpp-csv-s42-h5.5"
+    ],
+    "phase": "solo",
+    "current": "solo-next-cpp-csv-s42-h5.5",
+    "revision": "h5.5",
+    "captured_at": 1794448750.1065502,
+    "captured_label": "Nov 11, 2026 \u00b7 07:59:10 PM CST",
+    "result_identity": "0b5a6e754beb53439746faa35dc0497ca8f12d27ce75cfd612a404991c720add",
+    "finished_solo_trials": 168
+  },
+  "campaign_pid": 637884,
+  "inference_pid": 637903,
+  "production_preservation_matched": true,
+  "backend_test_count": 6,
+  "frontend_checks": {
+    "passed": true,
+    "checks": [
+      "automatic changed-result refresh",
+      "single mount",
+      "preserved filters",
+      "persistent user changes only",
+      "offline last-good retention",
+      "stale observer warning"
+    ],
+    "at": "2026-11-12T01:59:37.421Z"
+  },
+  "listener": "127.0.0.1:18765"
+}

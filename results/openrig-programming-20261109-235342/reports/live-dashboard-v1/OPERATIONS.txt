@@ -1,0 +1,68 @@
+OpenRig automatic performance graph — installed 2026-11-11
+
+Open on the Framework Desktop: http://127.0.0.1:18765/
+The live tab updates independently of Codex turns. The earlier inline chat
+graph remains a fixed snapshot. The tab remembers its revision, coverage
+and measure in this browser's local storage.
+
+Operation
+  Separate user service: openrig-performance-dashboard.service
+  Observer checks result files every 10 seconds; open tabs check every 15
+  seconds. Finalized results normally appear within about 30 seconds.
+  This is a solo-task graph. Team and parallel-inference results are not
+  combined into solo scores. Harness revisions remain separate. Coverage
+  and Python/C++ sample counts remain visible. No in-progress or interrupted
+  trial is counted. h5.5 requires the final resource_limited field after
+  cleanup, plus a two-second file-age delay.
+  Only result changes produce a new snapshot. A failed read retains the
+  last good data and produces a visible error or stale-check warning.
+
+Preservation and resources
+  The previous graph and its 20261111-193524 snapshot are untouched.
+  This folder contains the new source; state/snapshots contains immutable
+  data snapshots plus result-file SHA256 provenance. state/data.json is an
+  atomic latest pointer, and state/status.json tracks observer health.
+  The service is bound only to 127.0.0.1. No firewall, SSH, production model,
+  fleet, campaign setting, or existing service was changed or restarted.
+  The service runs at nice 19, idle disk priority, a 20% one-core CPU cap,
+  256 MiB memory limit and no swap. Its filesystem is read-only except its
+  own state folder. No inference requests, agent actions or campaign writes
+  exist in this observer. Browser requests are read-only and route-limited;
+  there is no directory listing, CORS permission, or public listener.
+
+Verification
+  Open the live tab and watch Last checked advance. Change a filter; the
+  choice survives polling and reload. New results update the timestamp and
+  total finalized solo count. Matched two-task screen intentionally does not
+  change when a different task finishes: select All finished solo tasks to
+  see those trials, with unequal coverage clearly labeled.
+  systemctl --user status openrig-performance-dashboard.service
+  curl --fail http://127.0.0.1:18765/status.json
+  Source checks: python3 -B -m unittest -v test_observer.py
+  Front-end checks: node test_dashboard.mjs (requires Node on PATH)
+  Six backend tests cover completed-result discovery, source immutability,
+  finality/interruption exclusions, age-delay retry, partial-write retention,
+  event-window isolation, read-only routes and hostile origin/host rejection.
+  Front-end checks cover new-result refresh, a single chart mount, retained
+  filters, user-only state writes, offline retention and stale-read warnings.
+  The live browser showed the actual graph and changing controls correctly.
+  A fixture campaign tested new completions; no synthetic result was added
+  to the real campaign. No claim is made that a new real trial completed
+  during the short installation window.
+
+Disable / rollback
+  systemctl --user disable --now openrig-performance-dashboard.service
+  This stops only the new reporting service; the campaign and inference
+  continue. No production rollback is needed. Keep all files and snapshots.
+  The previous inline graph remains available at:
+  /home/cow/.codex/visualizations/2026/11/06/01a1ae52-bfb5-7da3-8f43-d93af96c4eeb/openrig-performance.html
+  Start again with:
+  systemctl --user enable --now openrig-performance-dashboard.service
+
+Backup
+  Source, service copy, tests, initial data/provenance and verification are
+  copied to results/openrig-programming-20261109-235342/reports/live-dashboard-v1
+  in /home/cow/Documents/Programming/openrig-model-bench. Its existing
+  independent backup commits and pushes results on its normal 15-minute
+  cycle. No backup restart was requested. This progress folder is also
+  retained by that backup's content-addressed progress exports.

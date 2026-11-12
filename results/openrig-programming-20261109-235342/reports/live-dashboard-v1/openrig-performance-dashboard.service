@@ -1,0 +1,25 @@
+[Unit]
+Description=Read-only OpenRig performance dashboard (localhost only)
+
+[Service]
+Type=simple
+WorkingDirectory=/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/progress/performance-visuals/live-v1
+ExecStart=/usr/bin/python3 -B server.py
+Environment=PYTHONDONTWRITEBYTECODE=1
+Restart=on-failure
+RestartSec=10
+Nice=19
+CPUQuota=20%
+MemoryMax=256M
+MemorySwapMax=0
+IOSchedulingClass=idle
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/progress/performance-visuals/live-v1/state
+PrivateTmp=yes
+RestrictAddressFamilies=AF_INET AF_UNIX
+UMask=0077
+
+[Install]
+WantedBy=default.target
