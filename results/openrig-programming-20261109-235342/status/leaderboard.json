@@ -687,5 +687,23 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-queue",
+    "models": "{'developer': 'glm'}",
+    "agents": 1,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 978.7113847732544,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "solo-glm-py-queue-s42-h5.5",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   }
 ]
