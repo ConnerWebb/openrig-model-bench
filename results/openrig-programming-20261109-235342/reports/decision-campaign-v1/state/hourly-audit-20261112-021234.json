@@ -1,0 +1,156 @@
+{
+  "at": 1794471154.7150657,
+  "dispatch": "decision-v1",
+  "harness_revision": "h5.5",
+  "status": {
+    "phase": "solo",
+    "at": 1794471134.1249144,
+    "pid": 1242258,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "shortened-decision-campaign-v1",
+    "current": "solo-q27q4-cpp-csv-s42-h5.5",
+    "dispatch": "decision-v1"
+  },
+  "heartbeat": {
+    "at": 1794471154.8973463,
+    "pid": 1242258,
+    "active_jobs": [
+      "solo-q27q4-cpp-csv-s42-h5.5"
+    ],
+    "available": 87599820800
+  },
+  "balanced_finished": 37,
+  "balanced_target": 48,
+  "scores": {
+    "python": {
+      "balanced_accepted": 13,
+      "balanced_finished": 19,
+      "all_h55_accepted": 15,
+      "all_h55_finished": 22
+    },
+    "cpp": {
+      "balanced_accepted": 11,
+      "balanced_finished": 18,
+      "all_h55_accepted": 11,
+      "all_h55_finished": 20
+    }
+  },
+  "latest_finished": [
+    {
+      "id": "solo-glm-py-queue-s42-h5.5",
+      "complete": false,
+      "resource_limited": false,
+      "seconds": 978.7113847732544,
+      "feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup.",
+      "last_fixed_checks": {
+        "normal": false
+      },
+      "last_saved_tests": false
+    },
+    {
+      "id": "solo-glm-cpp-csv-s42-h5.5",
+      "complete": false,
+      "resource_limited": false,
+      "seconds": 1201.9165332317352,
+      "feedback": "STAGE_FAILED: Three consecutive invalid tool operations",
+      "last_fixed_checks": {},
+      "last_saved_tests": null
+    },
+    {
+      "id": "solo-q27q4-py-queue-s42-h5.5",
+      "complete": true,
+      "resource_limited": false,
+      "seconds": 433.5322263240814,
+      "feedback": null,
+      "last_fixed_checks": {
+        "normal": true
+      },
+      "last_saved_tests": true
+    }
+  ],
+  "notes": [
+    "Devstral C++ CSV failed bounded retries with failing fixed checks despite passing saved tests.",
+    "GLM Python queue failed fixed and saved checks then lacked verified closure.",
+    "GLM C++ CSV stopped after three invalid reads of guessed case-13.csv/case-14.csv/case-15.csv. Public fixtures are JSON; this is a model tool/workflow error, not a missing CSV fixture or compilation verdict.",
+    "Qwen27B Q4 Python queue finished during this audit: accepted=True, seconds=433.5322263240814, resource_limited=False. The controller advanced normally to its C++ CSV task; that current trial is unscored until finalized.",
+    "Sanitizer/tool-feedback code is unchanged and previous per-mode evidence remains preserved. No new reproducible harness defect found."
+  ],
+  "current_fixed_checks": {},
+  "current_saved_tests": null,
+  "resource_window": {
+    "samples": 589,
+    "minimum_available_gib": 78.9262580871582,
+    "swapin_pages": 32,
+    "swapout_pages": 0,
+    "oom_kills": 0,
+    "optional_thermal_error_samples": 442
+  },
+  "stream_error_classification": [
+    {
+      "request": "44c405dafa3440548e5eee55f9890a91",
+      "classification": "Bounded stage cancellation",
+      "evidence": [
+        {
+          "at": 1794467613.564902,
+          "reason": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+          "path": "outputs/openrig-programming-20261109-235342/runs/solo-devstral-cpp-csv-s42-h5.5/seats/developer/control/failed-stage-qitem-1794466712-5e9d21e9d7974240.json"
+        }
+      ]
+    },
+    {
+      "request": "b57afdbe9d5a49329d2cb1c746518c64",
+      "classification": "Bounded stage cancellation",
+      "evidence": [
+        {
+          "at": 1794468516.1411467,
+          "reason": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+          "path": "outputs/openrig-programming-20261109-235342/runs/solo-devstral-cpp-csv-s42-h5.5/seats/developer/control/failed-stage-qitem-1794467615-5af77376d624455e.json"
+        }
+      ]
+    },
+    {
+      "request": "9d858c6528184f70a1210770db356aba",
+      "classification": "Bounded stage cancellation",
+      "evidence": [
+        {
+          "at": 1794470399.6750112,
+          "reason": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+          "path": "outputs/openrig-programming-20261109-235342/runs/solo-glm-cpp-csv-s42-h5.5/seats/developer/control/failed-stage-qitem-1794469498-3424b4ef381c48ab.json"
+        }
+      ]
+    }
+  ],
+  "immutable_sources_verified": true,
+  "previous_results_verified": 242,
+  "production_preserved": true,
+  "github_head_verified": "9f77fba58a1a37ca949e1a53cfbe75ffff1325da",
+  "backup_status": {
+    "at_utc": "2026-11-12T08:06:14.690372+00:00",
+    "export_errors": [],
+    "finished_case_records": 252,
+    "finished_transport_streams": 13150,
+    "head": "9f77fba58a1a37ca949e1a53cfbe75ffff1325da",
+    "success": true
+  },
+  "live_chart": {
+    "checked_at": 1794471148.1438534,
+    "error": null,
+    "campaign_pid": 1242258,
+    "heartbeat_at": 1794471147.7989821,
+    "active_jobs": [
+      "solo-q27q4-cpp-csv-s42-h5.5"
+    ],
+    "phase": "solo",
+    "current": "solo-q27q4-cpp-csv-s42-h5.5",
+    "revision": "h5.5",
+    "captured_at": 1794471137.3375096,
+    "captured_label": "Nov 12, 2026 \u00b7 02:12:17 AM CST",
+    "result_identity": "0234d8afd0aebe948c7adb3029a4c7e2658760a060dd4062b805bbeb67b8693a",
+    "finished_solo_trials": 183
+  },
+  "admission_window": {
+    "started": 1794455369.5040553,
+    "deadline": 1794584969.5040553
+  },
+  "action": "Continue shortened dispatch; no restart, source change, active-trial interruption or user action required."
+}
