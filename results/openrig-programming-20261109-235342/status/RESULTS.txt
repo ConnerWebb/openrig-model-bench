@@ -1,26 +1,32 @@
 OPENRIG PYTHON / C++ CAMPAIGN — LIVE CHECKPOINT
 
 /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342
-State: {'phase': 'solo', 'at': 1794443400.2508173, 'pid': 637884, 'harness_revision': 'h5.5', 'dispatch_plan': 'heading-summary-and-thermal-repair-then-full-campaign', 'current': 'solo-q122-py-csv-s42-h5.5'}
+State: {'phase': 'solo', 'at': 1794444454.400022, 'pid': 637884, 'harness_revision': 'h5.5', 'dispatch_plan': 'heading-summary-and-thermal-repair-then-full-campaign', 'current': 'solo-next-py-queue-s42-h5.5'}
 Active harness revision: h5.5
 Historical pre-repair results remain intact in runs/ and progress/; they are not mixed into this revision's rankings. All previous completed cells are rerun, including earlier passes.
 
 Independent task acceptance is the success criterion. Python and C++ are scored separately. Aliases are not additional models. Qualification and probes are not included in solo/team rankings.
 
 PHASE solo
-python: 8/9 accepted
+python: 11/12 accepted
   {'developer': 'next'}, 1 agents: 1/1; sum job seconds 79.1; accepted/hour 45.489
   {'developer': 'coder30'}, 1 agents: 1/1; sum job seconds 114.0; accepted/hour 31.590
+  {'developer': 'gpt120'}, 1 agents: 1/1; sum job seconds 116.1; accepted/hour 30.999
+  {'developer': 'gpt20'}, 1 agents: 1/1; sum job seconds 134.0; accepted/hour 26.863
   {'developer': 'glm'}, 1 agents: 1/1; sum job seconds 144.0; accepted/hour 24.992
   {'developer': 'q9'}, 1 agents: 1/1; sum job seconds 241.2; accepted/hour 14.925
   {'developer': 'q27q4'}, 1 agents: 1/1; sum job seconds 261.3; accepted/hour 13.778
   {'developer': 'q35'}, 1 agents: 1/1; sum job seconds 276.0; accepted/hour 13.041
+  {'developer': 'q122'}, 1 agents: 1/1; sum job seconds 451.4; accepted/hour 7.975
   {'developer': 'q27q8'}, 1 agents: 1/1; sum job seconds 647.2; accepted/hour 5.562
   {'developer': 'devstral'}, 1 agents: 1/1; sum job seconds 1440.1; accepted/hour 2.500
   {'developer': 'nemo'}, 1 agents: 0/1; sum job seconds 1171.7; accepted/hour 0.000
-cpp: 7/10 accepted
+cpp: 10/13 accepted
   {'developer': 'q35'}, 1 agents: 1/1; sum job seconds 56.7; accepted/hour 63.510
+  {'developer': 'gpt20'}, 1 agents: 1/1; sum job seconds 56.8; accepted/hour 63.385
+  {'developer': 'gpt120'}, 1 agents: 1/1; sum job seconds 103.0; accepted/hour 34.940
   {'developer': 'glm'}, 1 agents: 1/1; sum job seconds 108.9; accepted/hour 33.044
+  {'developer': 'q122'}, 1 agents: 1/1; sum job seconds 185.1; accepted/hour 19.445
   {'developer': 'q9'}, 1 agents: 1/1; sum job seconds 299.1; accepted/hour 12.034
   {'developer': 'q27q8'}, 1 agents: 1/1; sum job seconds 359.0; accepted/hour 10.028
   {'developer': 'devstral'}, 1 agents: 1/1; sum job seconds 1168.0; accepted/hour 3.082

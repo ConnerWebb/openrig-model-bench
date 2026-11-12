@@ -7943,6 +7943,29 @@
       }
     },
     {
+      "at": 1794444476.8283825,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.5859896710026078,
+      "first_content_seconds": 1.5859896710026078,
+      "first_delivered_seconds": 1.5859931779559702,
+      "id": "0800e67ceed440479f5d10bfe121863f",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 2.0177094329847023,
+      "usage": {
+        "completion_tokens": 45,
+        "prompt_tokens": 5258,
+        "prompt_tokens_details": {
+          "cached_tokens": 4351
+        },
+        "total_tokens": 5303
+      }
+    },
+    {
       "at": 1794299388.3978941,
       "complete": true,
       "first_any_seconds": 0.9879457899951376,
@@ -8272,6 +8295,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 5087
+      }
+    },
+    {
+      "at": 1794444061.9833837,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.7224005709867924,
+      "first_content_seconds": 1.7224005709867924,
+      "first_delivered_seconds": 1.7224063619505614,
+      "id": "082dc0317fb945f59014468e549e164a",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 1.7226310139521956,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 2284,
+        "prompt_tokens_details": {
+          "cached_tokens": 1531
+        },
+        "total_tokens": 2307
       }
     },
     {
@@ -14086,6 +14132,29 @@
       }
     },
     {
+      "at": 1794444366.646753,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 5.035367870994378,
+      "first_content_seconds": 5.035367870994378,
+      "first_delivered_seconds": 5.0353750649956055,
+      "id": "0dd1f35b371a47b188d9de496a256065",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 5.035755479999352,
+      "usage": {
+        "completion_tokens": 225,
+        "prompt_tokens": 8613,
+        "prompt_tokens_details": {
+          "cached_tokens": 8198
+        },
+        "total_tokens": 8838
+      }
+    },
+    {
       "at": 1794379274.5948253,
       "complete": true,
       "context_policy": {
@@ -16295,6 +16364,29 @@
           "cached_tokens": 8211
         },
         "total_tokens": 9499
+      }
+    },
+    {
+      "at": 1794444226.5532794,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.404205037979409,
+      "first_content_seconds": 1.404205037979409,
+      "first_delivered_seconds": 1.4042127429856919,
+      "id": "101827c8ea824975a00050b938b40455",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-cpp-buffer-s42-h5.5/developer",
+      "seconds": 1.4044974980060942,
+      "usage": {
+        "completion_tokens": 24,
+        "prompt_tokens": 5887,
+        "prompt_tokens_details": {
+          "cached_tokens": 5559
+        },
+        "total_tokens": 5911
       }
     },
     {
@@ -18655,6 +18747,29 @@
       }
     },
     {
+      "at": 1794444105.8657343,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.3529579360038042,
+      "first_content_seconds": 1.3529579360038042,
+      "first_delivered_seconds": 1.3529662609798834,
+      "id": "1301b28a53ad40db9c0a7aceca7d639f",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 1.3532236350001767,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 7478,
+        "prompt_tokens_details": {
+          "cached_tokens": 7161
+        },
+        "total_tokens": 7501
+      }
+    },
+    {
       "at": 1794393720.4498518,
       "complete": true,
       "context_policy": {
@@ -20987,6 +21102,29 @@
       }
     },
     {
+      "at": 1794444030.2657418,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.1617598450393416,
+      "first_content_seconds": 1.1617598450393416,
+      "first_delivered_seconds": 1.1617728490382433,
+      "id": "1547570e810f4b8bb26a384411bc2d37",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-cpp-buffer-s42-h5.5/developer",
+      "seconds": 2.7554571280488744,
+      "usage": {
+        "completion_tokens": 45,
+        "prompt_tokens": 11055,
+        "prompt_tokens_details": {
+          "cached_tokens": 10793
+        },
+        "total_tokens": 11100
+      }
+    },
+    {
       "at": 1794299882.5180328,
       "complete": true,
       "first_any_seconds": 1.8554712120094337,
@@ -22588,6 +22726,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 11648
+      }
+    },
+    {
+      "at": 1794443817.2690487,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44428,
+        "applied": true,
+        "before_bytes": 66424,
+        "dropped_messages": 14,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 27.207592277030926,
+      "first_content_seconds": 27.207592277030926,
+      "first_delivered_seconds": 27.207604339986574,
+      "id": "16c8536734ed46c1a4dfe1ab7526af24",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-csv-s42-h5.5/developer",
+      "seconds": 28.149303362995852,
+      "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 10603,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10630
       }
     },
     {
@@ -24298,6 +24464,29 @@
           "cached_tokens": 1634
         },
         "total_tokens": 12263
+      }
+    },
+    {
+      "at": 1794444215.357613,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 11.04115180199733,
+      "first_content_seconds": 11.04115180199733,
+      "first_delivered_seconds": 11.041159746993799,
+      "id": "18c227b039e14befac2dc55da79054b9",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-cpp-buffer-s42-h5.5/developer",
+      "seconds": 11.041408214019611,
+      "usage": {
+        "completion_tokens": 363,
+        "prompt_tokens": 5494,
+        "prompt_tokens_details": {
+          "cached_tokens": 4605
+        },
+        "total_tokens": 5857
       }
     },
     {
@@ -26207,6 +26396,29 @@
           "cached_tokens": 7233
         },
         "total_tokens": 8062
+      }
+    },
+    {
+      "at": 1794444349.2425497,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 13.797828220995143,
+      "first_content_seconds": 13.797828220995143,
+      "first_delivered_seconds": 13.797835786012001,
+      "id": "1a8a80c5bd774cff95d36da39a2e8db3",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 13.798171998001635,
+      "usage": {
+        "completion_tokens": 680,
+        "prompt_tokens": 7484,
+        "prompt_tokens_details": {
+          "cached_tokens": 7355
+        },
+        "total_tokens": 8164
       }
     },
     {
@@ -29288,6 +29500,29 @@
       }
     },
     {
+      "at": 1794443884.849629,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.2826334160054103,
+      "first_content_seconds": 1.2826334160054103,
+      "first_delivered_seconds": 1.28264594002394,
+      "id": "1dc6030aca7c4ead881d0745bde1236d",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-cpp-buffer-s42-h5.5/developer",
+      "seconds": 34.387438366014976,
+      "usage": {
+        "completion_tokens": 936,
+        "prompt_tokens": 6993,
+        "prompt_tokens_details": {
+          "cached_tokens": 6569
+        },
+        "total_tokens": 7929
+      }
+    },
+    {
       "at": 1794415920.056448,
       "complete": true,
       "context_policy": {
@@ -31736,6 +31971,29 @@
           "cached_tokens": 22315
         },
         "total_tokens": 22754
+      }
+    },
+    {
+      "at": 1794444163.5272512,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.5088042599963956,
+      "first_content_seconds": 1.5088042599963956,
+      "first_delivered_seconds": 1.5088119549909607,
+      "id": "20311edcbef94b038e7b9f4d315f68b1",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-cpp-buffer-s42-h5.5/developer",
+      "seconds": 1.5090454539749771,
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 3216,
+        "prompt_tokens_details": {
+          "cached_tokens": 3087
+        },
+        "total_tokens": 3253
       }
     },
     {
@@ -35418,6 +35676,29 @@
       }
     },
     {
+      "at": 1794443997.1562588,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 23.959618195949588,
+      "first_content_seconds": 23.959618195949588,
+      "first_delivered_seconds": 23.959625289950054,
+      "id": "23a82187dbc24e969f5cc59e1dbe7ab2",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-cpp-buffer-s42-h5.5/developer",
+      "seconds": 23.994958460971247,
+      "usage": {
+        "completion_tokens": 501,
+        "prompt_tokens": 10091,
+        "prompt_tokens_details": {
+          "cached_tokens": 7950
+        },
+        "total_tokens": 10592
+      }
+    },
+    {
       "at": 1794396351.4298987,
       "complete": true,
       "context_policy": {
@@ -36023,6 +36304,29 @@
           "cached_tokens": 8333
         },
         "total_tokens": 8744
+      }
+    },
+    {
+      "at": 1794444021.2869601,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.8093845049734227,
+      "first_content_seconds": 1.8093845049734227,
+      "first_delivered_seconds": 1.809396646975074,
+      "id": "2473dc579c8f44749b94203c482fc3a4",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-cpp-buffer-s42-h5.5/developer",
+      "seconds": 4.098109564976767,
+      "usage": {
+        "completion_tokens": 64,
+        "prompt_tokens": 10617,
+        "prompt_tokens_details": {
+          "cached_tokens": 10087
+        },
+        "total_tokens": 10681
       }
     },
     {
@@ -37353,6 +37657,34 @@
       }
     },
     {
+      "at": 1794444719.2310143,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 36947,
+        "applied": true,
+        "before_bytes": 132960,
+        "dropped_messages": 42,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.6680195429944433,
+      "first_content_seconds": 0.6680195429944433,
+      "first_delivered_seconds": 0.6680318560102023,
+      "id": "25a44528f123431194a2864b07c84aca",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 8.789822990016546,
+      "usage": {
+        "completion_tokens": 436,
+        "prompt_tokens": 8887,
+        "prompt_tokens_details": {
+          "cached_tokens": 8532
+        },
+        "total_tokens": 9323
+      }
+    },
+    {
       "at": 1794299590.0356905,
       "complete": true,
       "first_any_seconds": 4.49531783699058,
@@ -37711,6 +38043,29 @@
       }
     },
     {
+      "at": 1794444159.6306512,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.7040650070412084,
+      "first_content_seconds": 1.7040650070412084,
+      "first_delivered_seconds": 1.7040729420259595,
+      "id": "260a87837a954afebffca5c74f28646e",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-cpp-buffer-s42-h5.5/developer",
+      "seconds": 1.70431791304145,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 2298,
+        "prompt_tokens_details": {
+          "cached_tokens": 1538
+        },
+        "total_tokens": 2321
+      }
+    },
+    {
       "at": 1794361427.6484601,
       "complete": true,
       "context_policy": {
@@ -38009,6 +38364,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 11203
+      }
+    },
+    {
+      "at": 1794444229.7010105,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 21.995500529999845,
+      "first_content_seconds": 21.995500529999845,
+      "first_delivered_seconds": 21.995507743034977,
+      "id": "265480c686dc4e8d81cec3fadc8873a9",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-cpp-buffer-s42-h5.5/developer",
+      "seconds": 21.995876386004966,
+      "usage": {
+        "completion_tokens": 792,
+        "prompt_tokens": 6081,
+        "prompt_tokens_details": {
+          "cached_tokens": 5910
+        },
+        "total_tokens": 6873
       }
     },
     {
@@ -41915,6 +42293,29 @@
       }
     },
     {
+      "at": 1794444484.1197758,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 20.9626780449762,
+      "first_content_seconds": 20.9626780449762,
+      "first_delivered_seconds": 20.96268435701495,
+      "id": "29a82bc097b24038ade34f89c3143bed",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 20.980360906978603,
+      "usage": {
+        "completion_tokens": 1054,
+        "prompt_tokens": 6864,
+        "prompt_tokens_details": {
+          "cached_tokens": 5733
+        },
+        "total_tokens": 7918
+      }
+    },
+    {
       "at": 1794415197.831576,
       "complete": true,
       "context_policy": {
@@ -44765,6 +45166,29 @@
           "cached_tokens": 9264
         },
         "total_tokens": 10495
+      }
+    },
+    {
+      "at": 1794444064.0418847,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.819456875033211,
+      "first_content_seconds": 1.819456875033211,
+      "first_delivered_seconds": 1.8194643500028178,
+      "id": "2c5227dbaf07400cae8e07744810988a",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 1.819707497023046,
+      "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 3042,
+        "prompt_tokens_details": {
+          "cached_tokens": 2306
+        },
+        "total_tokens": 3069
       }
     },
     {
@@ -54041,6 +54465,34 @@
       }
     },
     {
+      "at": 1794444605.1803787,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47661,
+        "applied": true,
+        "before_bytes": 80464,
+        "dropped_messages": 28,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 12.822985464998055,
+      "first_content_seconds": 12.822985464998055,
+      "first_delivered_seconds": 12.822989501990378,
+      "id": "3667130c563d41f9892ea5f75fbd0eae",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 12.841061918006744,
+      "usage": {
+        "completion_tokens": 51,
+        "prompt_tokens": 11282,
+        "prompt_tokens_details": {
+          "cached_tokens": 1575
+        },
+        "total_tokens": 11333
+      }
+    },
+    {
       "at": 1794396323.3182466,
       "complete": true,
       "context_policy": {
@@ -58599,6 +59051,34 @@
       }
     },
     {
+      "at": 1794444728.1580195,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 39260,
+        "applied": true,
+        "before_bytes": 135273,
+        "dropped_messages": 42,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 2.8966984609724022,
+      "first_content_seconds": 2.8966984609724022,
+      "first_delivered_seconds": 2.8967017569812015,
+      "id": "3b1955165bd44d03b72e5046a11e848b",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 2.915448960964568,
+      "usage": {
+        "completion_tokens": 143,
+        "prompt_tokens": 9347,
+        "prompt_tokens_details": {
+          "cached_tokens": 9322
+        },
+        "total_tokens": 9490
+      }
+    },
+    {
       "at": 1794300227.6023998,
       "complete": true,
       "first_any_seconds": 1.1355161909887102,
@@ -60729,6 +61209,29 @@
           "cached_tokens": 3
         },
         "total_tokens": 7128
+      }
+    },
+    {
+      "at": 1794444288.8111544,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 14.1198721069959,
+      "first_content_seconds": 14.1198721069959,
+      "first_delivered_seconds": 14.119880322017707,
+      "id": "3d061b31a6104d60ad081f9512dea6d8",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 14.120140340994112,
+      "usage": {
+        "completion_tokens": 695,
+        "prompt_tokens": 3538,
+        "prompt_tokens_details": {
+          "cached_tokens": 2574
+        },
+        "total_tokens": 4233
       }
     },
     {
@@ -65035,6 +65538,34 @@
       }
     },
     {
+      "at": 1794444594.0564823,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43620,
+        "applied": true,
+        "before_bytes": 75235,
+        "dropped_messages": 26,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 11.069895897002425,
+      "first_content_seconds": 11.069895897002425,
+      "first_delivered_seconds": 11.069901568000205,
+      "id": "413fc06cf5694ce39f44724fa8c6655f",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 11.088338567991741,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 10348,
+        "prompt_tokens_details": {
+          "cached_tokens": 1575
+        },
+        "total_tokens": 10371
+      }
+    },
+    {
       "at": 1794433853.6097534,
       "complete": true,
       "context_policy": {
@@ -68735,6 +69266,29 @@
       }
     },
     {
+      "at": 1794444363.165113,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.5143943930161186,
+      "first_content_seconds": 0.5143943930161186,
+      "first_delivered_seconds": 0.5143981300061569,
+      "id": "44c6ac3239d24495be1008957e77473c",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 0.5145464289817028,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 8185,
+        "prompt_tokens_details": {
+          "cached_tokens": 8163
+        },
+        "total_tokens": 8199
+      }
+    },
+    {
       "at": 1794313529.9957063,
       "complete": true,
       "first_any_seconds": 0.24161375599214807,
@@ -69381,6 +69935,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 30294
+      }
+    },
+    {
+      "at": 1794444340.3372324,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.520685731957201,
+      "first_content_seconds": 1.520685731957201,
+      "first_delivered_seconds": 1.520688998978585,
+      "id": "457ead1adffb46cc82a264e7ea9eac17",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 1.5208358149975538,
+      "usage": {
+        "completion_tokens": 67,
+        "prompt_tokens": 6778,
+        "prompt_tokens_details": {
+          "cached_tokens": 6716
+        },
+        "total_tokens": 6845
       }
     },
     {
@@ -75151,6 +75728,29 @@
       }
     },
     {
+      "at": 1794444408.5440912,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 17.448694740014616,
+      "first_content_seconds": 17.448694740014616,
+      "first_delivered_seconds": 17.448701793968212,
+      "id": "4ae4fe73ccff4579b7ad1547a74862de",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-cpp-buffer-s42-h5.5/developer",
+      "seconds": 17.448999723012093,
+      "usage": {
+        "completion_tokens": 880,
+        "prompt_tokens": 3046,
+        "prompt_tokens_details": {
+          "cached_tokens": 2567
+        },
+        "total_tokens": 3926
+      }
+    },
+    {
       "at": 1794352743.861605,
       "complete": true,
       "first_any_seconds": 1.3148257490247488,
@@ -77961,6 +78561,29 @@
           "cached_tokens": 10238
         },
         "total_tokens": 10381
+      }
+    },
+    {
+      "at": 1794444093.7576578,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 11.966804684954695,
+      "first_content_seconds": 11.966804684954695,
+      "first_delivered_seconds": 11.966812288970686,
+      "id": "4da665a4a1c04ad79f4f11b4bb50459b",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 11.967029737948906,
+      "usage": {
+        "completion_tokens": 395,
+        "prompt_tokens": 7056,
+        "prompt_tokens_details": {
+          "cached_tokens": 6330
+        },
+        "total_tokens": 7451
       }
     },
     {
@@ -84137,6 +84760,29 @@
       }
     },
     {
+      "at": 1794444070.7463877,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 22.869169766956475,
+      "first_content_seconds": 22.869169766956475,
+      "first_delivered_seconds": 22.869177441985812,
+      "id": "53e5a83cca4a492d884d6faa881da158",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 22.8694588309736,
+      "usage": {
+        "completion_tokens": 719,
+        "prompt_tokens": 6296,
+        "prompt_tokens_details": {
+          "cached_tokens": 3640
+        },
+        "total_tokens": 7015
+      }
+    },
+    {
       "at": 1794302570.9149938,
       "complete": true,
       "first_any_seconds": 43.8261607799941,
@@ -88199,6 +88845,34 @@
       }
     },
     {
+      "at": 1794444618.053078,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 37151,
+        "applied": true,
+        "before_bytes": 84429,
+        "dropped_messages": 30,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 29.43515433301218,
+      "first_content_seconds": 29.43515433301218,
+      "first_delivered_seconds": 29.435158260981552,
+      "id": "57e35c8b88b5413fa621944132d4c2c3",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 29.452772665012162,
+      "usage": {
+        "completion_tokens": 1118,
+        "prompt_tokens": 8745,
+        "prompt_tokens_details": {
+          "cached_tokens": 1575
+        },
+        "total_tokens": 9863
+      }
+    },
+    {
       "at": 1794359891.5618489,
       "complete": true,
       "context_policy": {
@@ -89239,6 +89913,29 @@
       }
     },
     {
+      "at": 1794444546.9905405,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.8179979110136628,
+      "first_content_seconds": 0.8179979110136628,
+      "first_delivered_seconds": 0.8180048940121196,
+      "id": "58bf204ac2934591a9bd9198e39f0114",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 0.8369592870003544,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 10012,
+        "prompt_tokens_details": {
+          "cached_tokens": 9737
+        },
+        "total_tokens": 10025
+      }
+    },
+    {
       "at": 1794376150.7662542,
       "complete": true,
       "context_policy": {
@@ -89264,6 +89961,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 15468
+      }
+    },
+    {
+      "at": 1794444117.1338224,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.9418158840271644,
+      "first_content_seconds": 0.9418158840271644,
+      "first_delivered_seconds": 0.9418211639858782,
+      "id": "58c64d0bac284bffb730a32e572947bc",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 0.9420954490196891,
+      "usage": {
+        "completion_tokens": 24,
+        "prompt_tokens": 8067,
+        "prompt_tokens_details": {
+          "cached_tokens": 8045
+        },
+        "total_tokens": 8091
       }
     },
     {
@@ -97661,6 +98381,29 @@
       }
     },
     {
+      "at": 1794444455.731935,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 16.778547177964356,
+      "first_content_seconds": 16.778547177964356,
+      "first_delivered_seconds": 16.77855385100702,
+      "id": "60d22ec9bf5549bbb9fa57fc132c61c2",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 16.79571512399707,
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 2599,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2611
+      }
+    },
+    {
       "at": 1794300186.5522885,
       "complete": true,
       "first_any_seconds": 0.6985949910013005,
@@ -98946,6 +99689,29 @@
           "cached_tokens": 12805
         },
         "total_tokens": 12864
+      }
+    },
+    {
+      "at": 1794444269.955256,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 18.71755923400633,
+      "first_content_seconds": 18.71755923400633,
+      "first_delivered_seconds": 18.717565416009165,
+      "id": "622f5cf9deee465db5d2d291f88457cb",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 18.717766434012447,
+      "usage": {
+        "completion_tokens": 959,
+        "prompt_tokens": 2544,
+        "prompt_tokens_details": {
+          "cached_tokens": 2298
+        },
+        "total_tokens": 3503
       }
     },
     {
@@ -100869,6 +101635,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 5755
+      }
+    },
+    {
+      "at": 1794443874.0301752,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.8455818190122955,
+      "first_content_seconds": 3.8455818190122955,
+      "first_delivered_seconds": 3.845590175013058,
+      "id": "645e9b9f0b4f42489d4dadf462a0ed23",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-cpp-buffer-s42-h5.5/developer",
+      "seconds": 5.311729273002129,
+      "usage": {
+        "completion_tokens": 42,
+        "prompt_tokens": 6419,
+        "prompt_tokens_details": {
+          "cached_tokens": 4916
+        },
+        "total_tokens": 6461
       }
     },
     {
@@ -107287,6 +108076,29 @@
       }
     },
     {
+      "at": 1794444307.5163367,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.723705108044669,
+      "first_content_seconds": 0.723705108044669,
+      "first_delivered_seconds": 0.7237129830173217,
+      "id": "6b379af977dd4aaa8b7b29a1c53340f9",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 0.7239693049923517,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 4496,
+        "prompt_tokens_details": {
+          "cached_tokens": 4309
+        },
+        "total_tokens": 4519
+      }
+    },
+    {
       "at": 1794385751.9128187,
       "complete": true,
       "context_policy": {
@@ -110329,6 +111141,29 @@
       "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
       "seconds": 0.00446082599228248,
       "usage": null
+    },
+    {
+      "at": 1794444449.1130574,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.5594760859967209,
+      "first_content_seconds": 0.5594760859967209,
+      "first_delivered_seconds": 0.5594805449945852,
+      "id": "6e0e8ddbddf847879439bae29ef07ba4",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-cpp-buffer-s42-h5.5/developer",
+      "seconds": 0.559670811984688,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 5231,
+        "prompt_tokens_details": {
+          "cached_tokens": 5113
+        },
+        "total_tokens": 5245
+      }
     },
     {
       "at": 1794364951.7185984,
@@ -116720,6 +117555,52 @@
       }
     },
     {
+      "at": 1794443861.6217961,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.841772624000441,
+      "first_content_seconds": 4.841772624000441,
+      "first_delivered_seconds": 4.841780337970704,
+      "id": "747a0d14fcd3471e8068e9da40441778",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-cpp-buffer-s42-h5.5/developer",
+      "seconds": 7.460116697999183,
+      "usage": {
+        "completion_tokens": 75,
+        "prompt_tokens": 4498,
+        "prompt_tokens_details": {
+          "cached_tokens": 2596
+        },
+        "total_tokens": 4573
+      }
+    },
+    {
+      "at": 1794444399.7814882,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 8.640010623028502,
+      "first_content_seconds": 8.640010623028502,
+      "first_delivered_seconds": 8.640018017031252,
+      "id": "747fd018283349b2958ce5bd9938741e",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-cpp-buffer-s42-h5.5/developer",
+      "seconds": 8.640292983036488,
+      "usage": {
+        "completion_tokens": 437,
+        "prompt_tokens": 2527,
+        "prompt_tokens_details": {
+          "cached_tokens": 2310
+        },
+        "total_tokens": 2964
+      }
+    },
+    {
       "at": 1794396684.7021875,
       "complete": true,
       "context_policy": {
@@ -117113,6 +117994,29 @@
           "cached_tokens": 11622
         },
         "total_tokens": 12128
+      }
+    },
+    {
+      "at": 1794444434.380423,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 10.612362020008732,
+      "first_content_seconds": 10.612362020008732,
+      "first_delivered_seconds": 10.612369324022438,
+      "id": "74d892d4ccdb4fd495a9fbd9117cef40",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-cpp-buffer-s42-h5.5/developer",
+      "seconds": 10.612682022037916,
+      "usage": {
+        "completion_tokens": 531,
+        "prompt_tokens": 4447,
+        "prompt_tokens_details": {
+          "cached_tokens": 4271
+        },
+        "total_tokens": 4978
       }
     },
     {
@@ -124824,6 +125728,29 @@
       }
     },
     {
+      "at": 1794444065.8959477,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.4688879449968226,
+      "first_content_seconds": 1.4688879449968226,
+      "first_delivered_seconds": 1.4688955600140616,
+      "id": "7c96dae8207f4a27834867198fc5cd3c",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 1.4691320239799097,
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 3177,
+        "prompt_tokens_details": {
+          "cached_tokens": 3066
+        },
+        "total_tokens": 3214
+      }
+    },
+    {
       "at": 1794319131.5660386,
       "complete": true,
       "first_any_seconds": 37.28389079798944,
@@ -126539,6 +127466,34 @@
           "cached_tokens": 2241
         },
         "total_tokens": 3082
+      }
+    },
+    {
+      "at": 1794444581.43406,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44053,
+        "applied": true,
+        "before_bytes": 61311,
+        "dropped_messages": 22,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 10.410777784010861,
+      "first_content_seconds": 10.410777784010861,
+      "first_delivered_seconds": 10.410785418003798,
+      "id": "7e4fbe658701447e932212e744744727",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 10.429385114985052,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 9843,
+        "prompt_tokens_details": {
+          "cached_tokens": 1575
+        },
+        "total_tokens": 9856
       }
     },
     {
@@ -133712,6 +134667,29 @@
       }
     },
     {
+      "at": 1794444251.8284185,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.012455450021662,
+      "first_content_seconds": 2.012455450021662,
+      "first_delivered_seconds": 2.0124636060209014,
+      "id": "8541381455d04240ad74c2512517f4bd",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-cpp-buffer-s42-h5.5/developer",
+      "seconds": 2.012786982988473,
+      "usage": {
+        "completion_tokens": 24,
+        "prompt_tokens": 7030,
+        "prompt_tokens_details": {
+          "cached_tokens": 6141
+        },
+        "total_tokens": 7054
+      }
+    },
+    {
       "at": 1794332622.817497,
       "complete": true,
       "first_any_seconds": 7.436993765993975,
@@ -140741,6 +141719,29 @@
       }
     },
     {
+      "at": 1794443879.3729682,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.9242794269812293,
+      "first_content_seconds": 1.9242794269812293,
+      "first_delivered_seconds": 1.9242858089855872,
+      "id": "8c381ded82604b1e9c9ac7339622d8bc",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-cpp-buffer-s42-h5.5/developer",
+      "seconds": 5.3538321779924445,
+      "usage": {
+        "completion_tokens": 128,
+        "prompt_tokens": 6573,
+        "prompt_tokens_details": {
+          "cached_tokens": 6415
+        },
+        "total_tokens": 6701
+      }
+    },
+    {
       "at": 1794359622.253075,
       "complete": true,
       "context_policy": {
@@ -142038,6 +143039,29 @@
       }
     },
     {
+      "at": 1794444384.7469773,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.5459179229801521,
+      "first_content_seconds": 0.5459179229801521,
+      "first_delivered_seconds": 0.5459228130057454,
+      "id": "8d94648be14e45ac8d08bef3fa3e44de",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 0.5460836850106716,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 9508,
+        "prompt_tokens_details": {
+          "cached_tokens": 9486
+        },
+        "total_tokens": 9522
+      }
+    },
+    {
       "at": 1794393535.0330782,
       "complete": true,
       "context_policy": {
@@ -142998,6 +144022,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 32292
+      }
+    },
+    {
+      "at": 1794444110.1401272,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.666163273039274,
+      "first_content_seconds": 4.666163273039274,
+      "first_delivered_seconds": 4.666171118034981,
+      "id": "8e4d0ad6e91540d78278d41be375bc1a",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 4.666447988012806,
+      "usage": {
+        "completion_tokens": 143,
+        "prompt_tokens": 7821,
+        "prompt_tokens_details": {
+          "cached_tokens": 7500
+        },
+        "total_tokens": 7964
       }
     },
     {
@@ -144152,6 +145199,29 @@
           "cached_tokens": 28334
         },
         "total_tokens": 29234
+      }
+    },
+    {
+      "at": 1794444432.037358,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.5866219140007161,
+      "first_content_seconds": 0.5866219140007161,
+      "first_delivered_seconds": 0.5866296589956619,
+      "id": "8f521217f30940efa4ebbef64f9cc673",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-cpp-buffer-s42-h5.5/developer",
+      "seconds": 0.5869120599818416,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 4249,
+        "prompt_tokens_details": {
+          "cached_tokens": 4228
+        },
+        "total_tokens": 4272
       }
     },
     {
@@ -151213,6 +152283,29 @@
       }
     },
     {
+      "at": 1794444121.135529,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.1697049229987897,
+      "first_content_seconds": 2.1697049229987897,
+      "first_delivered_seconds": 2.169711205002386,
+      "id": "96de96e50ea8430895106b8cf39dd4ea",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 2.1699356470489874,
+      "usage": {
+        "completion_tokens": 50,
+        "prompt_tokens": 8424,
+        "prompt_tokens_details": {
+          "cached_tokens": 8090
+        },
+        "total_tokens": 8474
+      }
+    },
+    {
       "at": 1794336037.4965599,
       "complete": true,
       "first_any_seconds": 1.3219201329920907,
@@ -152578,6 +153671,29 @@
       }
     },
     {
+      "at": 1794444505.2319255,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 34.43811219895724,
+      "first_content_seconds": 34.43811219895724,
+      "first_delivered_seconds": 34.4381162970094,
+      "id": "981e20b3b01d4f56aa6d802909320566",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 34.456531666975934,
+      "usage": {
+        "completion_tokens": 1778,
+        "prompt_tokens": 7940,
+        "prompt_tokens_details": {
+          "cached_tokens": 6860
+        },
+        "total_tokens": 9718
+      }
+    },
+    {
       "at": 1794423690.040555,
       "complete": false,
       "context_policy": {
@@ -153519,6 +154635,34 @@
           "cached_tokens": 17476
         },
         "total_tokens": 17524
+      }
+    },
+    {
+      "at": 1794444731.2053077,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40193,
+        "applied": true,
+        "before_bytes": 136206,
+        "dropped_messages": 42,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.7139973629964516,
+      "first_content_seconds": 0.7139973629964516,
+      "first_delivered_seconds": 0.7140073119662702,
+      "id": "9922513ed13e42c495acb6829603dae3",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 0.7324391519650817,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 9514,
+        "prompt_tokens_details": {
+          "cached_tokens": 9343
+        },
+        "total_tokens": 9527
       }
     },
     {
@@ -156307,6 +157451,29 @@
       }
     },
     {
+      "at": 1794444166.7202716,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 23.64882994699292,
+      "first_content_seconds": 23.64882994699292,
+      "first_delivered_seconds": 23.64883841300616,
+      "id": "9c298634d8c04579aa42220dc6c2de72",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-cpp-buffer-s42-h5.5/developer",
+      "seconds": 23.649208408023696,
+      "usage": {
+        "completion_tokens": 871,
+        "prompt_tokens": 3605,
+        "prompt_tokens_details": {
+          "cached_tokens": 3492
+        },
+        "total_tokens": 4476
+      }
+    },
+    {
       "at": 1794405000.9028392,
       "complete": true,
       "context_policy": {
@@ -157972,6 +159139,29 @@
           "cached_tokens": 5891
         },
         "total_tokens": 6778
+      }
+    },
+    {
+      "at": 1794444190.5094032,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 24.71427852701163,
+      "first_content_seconds": 24.71427852701163,
+      "first_delivered_seconds": 24.714284809015226,
+      "id": "9ddb35268ad84dc9a1ef6d38bbe0d585",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-cpp-buffer-s42-h5.5/developer",
+      "seconds": 24.714545177994296,
+      "usage": {
+        "completion_tokens": 874,
+        "prompt_tokens": 4579,
+        "prompt_tokens_details": {
+          "cached_tokens": 3659
+        },
+        "total_tokens": 5453
       }
     },
     {
@@ -159770,6 +160960,29 @@
           "cached_tokens": 2101
         },
         "total_tokens": 13027
+      }
+    },
+    {
+      "at": 1794444303.0630448,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.315631452016532,
+      "first_content_seconds": 4.315631452016532,
+      "first_delivered_seconds": 4.3156389959622175,
+      "id": "9f6c78713a7f4a0c91446db0a9e437ec",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 4.3159018399892375,
+      "usage": {
+        "completion_tokens": 216,
+        "prompt_tokens": 4254,
+        "prompt_tokens_details": {
+          "cached_tokens": 4232
+        },
+        "total_tokens": 4470
       }
     },
     {
@@ -163570,6 +164783,29 @@
       }
     },
     {
+      "at": 1794444067.397384,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.6640831289696507,
+      "first_content_seconds": 1.6640831289696507,
+      "first_delivered_seconds": 1.6640909839770757,
+      "id": "a2f9052b067c40cc90c82db775a24fa0",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 1.6643465739907697,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 3446,
+        "prompt_tokens_details": {
+          "cached_tokens": 3199
+        },
+        "total_tokens": 3485
+      }
+    },
+    {
       "at": 1794426280.7116065,
       "complete": true,
       "context_policy": {
@@ -167110,6 +168346,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 11171
+      }
+    },
+    {
+      "at": 1794444133.0957386,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 10.986998396052513,
+      "first_content_seconds": 10.986998396052513,
+      "first_delivered_seconds": 10.987005630042404,
+      "id": "a6af1e7594f241a8abc3cdbbb21f7f48",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 10.98722875904059,
+      "usage": {
+        "completion_tokens": 375,
+        "prompt_tokens": 9118,
+        "prompt_tokens_details": {
+          "cached_tokens": 8963
+        },
+        "total_tokens": 9493
       }
     },
     {
@@ -170701,6 +171960,29 @@
       }
     },
     {
+      "at": 1794444426.1259854,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 5.780998479982372,
+      "first_content_seconds": 5.780998479982372,
+      "first_delivered_seconds": 5.781004571996164,
+      "id": "a978d76480c440b2aa0b6508f45ef38a",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-cpp-buffer-s42-h5.5/developer",
+      "seconds": 5.7812768329749815,
+      "usage": {
+        "completion_tokens": 262,
+        "prompt_tokens": 3967,
+        "prompt_tokens_details": {
+          "cached_tokens": 3078
+        },
+        "total_tokens": 4229
+      }
+    },
+    {
       "at": 1794361278.234854,
       "complete": true,
       "context_policy": {
@@ -173377,6 +174659,29 @@
       }
     },
     {
+      "at": 1794444025.8837776,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.9873983089928515,
+      "first_content_seconds": 0.9873983089928515,
+      "first_delivered_seconds": 0.9874105119961314,
+      "id": "ac1455877a574d1aa4994ba83a57526d",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-cpp-buffer-s42-h5.5/developer",
+      "seconds": 2.3938628739560954,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 10797,
+        "prompt_tokens_details": {
+          "cached_tokens": 10613
+        },
+        "total_tokens": 10836
+      }
+    },
+    {
       "at": 1794413109.217594,
       "complete": true,
       "context_policy": {
@@ -174303,6 +175608,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 14630
+      }
+    },
+    {
+      "at": 1794444388.3616176,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.7257254659780301,
+      "first_content_seconds": 0.7257254659780301,
+      "first_delivered_seconds": 0.7257282710052095,
+      "id": "acfb43263c464397a48faa43aed6120e",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 0.7258429669891484,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 9776,
+        "prompt_tokens_details": {
+          "cached_tokens": 9521
+        },
+        "total_tokens": 9790
       }
     },
     {
@@ -175332,6 +176660,29 @@
       }
     },
     {
+      "at": 1794444165.0716343,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.6063880870351568,
+      "first_content_seconds": 1.6063880870351568,
+      "first_delivered_seconds": 1.6063967930385843,
+      "id": "adc70b5ea9bb477fa18f537402bb431e",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-cpp-buffer-s42-h5.5/developer",
+      "seconds": 1.6066395600209944,
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 3456,
+        "prompt_tokens_details": {
+          "cached_tokens": 3238
+        },
+        "total_tokens": 3493
+      }
+    },
+    {
       "at": 1794415317.6206303,
       "complete": true,
       "context_policy": {
@@ -175674,6 +177025,29 @@
           "cached_tokens": 7373
         },
         "total_tokens": 8106
+      }
+    },
+    {
+      "at": 1794444474.471516,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.4845164630096406,
+      "first_content_seconds": 1.4845164630096406,
+      "first_delivered_seconds": 1.4845241880393587,
+      "id": "ae2ebe8416bc4055ac7c2ea40bf0406a",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 2.2729071410140023,
+      "usage": {
+        "completion_tokens": 64,
+        "prompt_tokens": 4355,
+        "prompt_tokens_details": {
+          "cached_tokens": 3481
+        },
+        "total_tokens": 4419
       }
     },
     {
@@ -180615,6 +181989,29 @@
       }
     },
     {
+      "at": 1794444144.2055523,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.7158622709685005,
+      "first_content_seconds": 1.7158622709685005,
+      "first_delivered_seconds": 1.715870457002893,
+      "id": "b30390ad3fec41edb5d93b09468a6120",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 1.7161618240061216,
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 9517,
+        "prompt_tokens_details": {
+          "cached_tokens": 9160
+        },
+        "total_tokens": 9545
+      }
+    },
+    {
       "at": 1794368755.8251586,
       "complete": true,
       "context_policy": {
@@ -184587,6 +185984,29 @@
       }
     },
     {
+      "at": 1794444128.962598,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.0274066679994576,
+      "first_content_seconds": 1.0274066679994576,
+      "first_delivered_seconds": 1.0274137909873389,
+      "id": "b70c91dabea34c31a3ea3f878bb07e44",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 1.0277287529897876,
+      "usage": {
+        "completion_tokens": 24,
+        "prompt_tokens": 8940,
+        "prompt_tokens_details": {
+          "cached_tokens": 8918
+        },
+        "total_tokens": 8964
+      }
+    },
+    {
       "at": 1794406727.9067154,
       "complete": true,
       "context_policy": {
@@ -184640,6 +186060,34 @@
           "cached_tokens": 14079
         },
         "total_tokens": 14176
+      }
+    },
+    {
+      "at": 1794444680.5505424,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42978,
+        "applied": true,
+        "before_bytes": 109942,
+        "dropped_messages": 34,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.8210549619980156,
+      "first_content_seconds": 1.8210549619980156,
+      "first_delivered_seconds": 1.821061413967982,
+      "id": "b71f5b2ca6de48508b5b31658d46335e",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 1.8402821269701235,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 9867,
+        "prompt_tokens_details": {
+          "cached_tokens": 8778
+        },
+        "total_tokens": 9880
       }
     },
     {
@@ -190289,6 +191737,29 @@
       }
     },
     {
+      "at": 1794444332.4881067,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.371724028023891,
+      "first_content_seconds": 3.371724028023891,
+      "first_delivered_seconds": 3.3717309510102496,
+      "id": "bc6e6176bbad4894b70963082051c9a0",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 3.3719582780031487,
+      "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 5583,
+        "prompt_tokens_details": {
+          "cached_tokens": 1504
+        },
+        "total_tokens": 5610
+      }
+    },
+    {
       "at": 1794382348.6677003,
       "complete": true,
       "context_policy": {
@@ -191898,6 +193369,29 @@
       }
     },
     {
+      "at": 1794444157.238115,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.152272648003418,
+      "first_content_seconds": 2.152272648003418,
+      "first_delivered_seconds": 2.152280974027235,
+      "id": "bde1a356970d48d8bb7fd9cb18b8e3f1",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-cpp-buffer-s42-h5.5/developer",
+      "seconds": 2.1525910859927535,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 1513,
+        "prompt_tokens_details": {
+          "cached_tokens": 481
+        },
+        "total_tokens": 1539
+      }
+    },
+    {
       "at": 1794319515.5795014,
       "complete": true,
       "first_any_seconds": 7.973476059996756,
@@ -192061,6 +193555,29 @@
           "cached_tokens": 4042
         },
         "total_tokens": 4963
+      }
+    },
+    {
+      "at": 1794444336.201411,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.1544562469935045,
+      "first_content_seconds": 1.1544562469935045,
+      "first_delivered_seconds": 1.1544610959826969,
+      "id": "be092e853f3f4a4484c1bfe44354b776",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 1.1546523749711923,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 6373,
+        "prompt_tokens_details": {
+          "cached_tokens": 5609
+        },
+        "total_tokens": 6399
       }
     },
     {
@@ -197620,6 +199137,29 @@
           "cached_tokens": 2346
         },
         "total_tokens": 4620
+      }
+    },
+    {
+      "at": 1794444262.4022639,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 5.918464719958138,
+      "first_content_seconds": 5.918464719958138,
+      "first_delivered_seconds": 5.918472193996422,
+      "id": "c3225a870e2c4af6a3e6ec420ee3c73c",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 5.918751809978858,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 1509,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1538
       }
     },
     {
@@ -204699,6 +206239,29 @@
       }
     },
     {
+      "at": 1794443853.3972664,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 7.1307580030406825,
+      "first_content_seconds": 7.1307580030406825,
+      "first_delivered_seconds": 7.130766418995336,
+      "id": "ca065ba7219b40669d8b0ec8a2f7d3a7",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-cpp-buffer-s42-h5.5/developer",
+      "seconds": 7.6582188259926625,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 2600,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2629
+      }
+    },
+    {
       "at": 1794373244.3839126,
       "complete": true,
       "context_policy": {
@@ -205179,6 +206742,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 27149
+      }
+    },
+    {
+      "at": 1794444445.1318882,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.380374618980568,
+      "first_content_seconds": 1.380374618980568,
+      "first_delivered_seconds": 1.380383055016864,
+      "id": "ca94d6e276e84c9a9b72241e34227512",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-cpp-buffer-s42-h5.5/developer",
+      "seconds": 1.3806737510021776,
+      "usage": {
+        "completion_tokens": 46,
+        "prompt_tokens": 5017,
+        "prompt_tokens_details": {
+          "cached_tokens": 4502
+        },
+        "total_tokens": 5063
       }
     },
     {
@@ -206391,6 +207977,29 @@
           "cached_tokens": 13052
         },
         "total_tokens": 13096
+      }
+    },
+    {
+      "at": 1794444539.8161447,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 7.014558797003701,
+      "first_content_seconds": 7.014558797003701,
+      "first_delivered_seconds": 7.014562723983545,
+      "id": "cbbc1ce26f664c23b8024ed45fd7ee97",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 7.032743863994256,
+      "usage": {
+        "completion_tokens": 249,
+        "prompt_tokens": 9741,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 9990
       }
     },
     {
@@ -211961,6 +213570,29 @@
       }
     },
     {
+      "at": 1794444161.6735163,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.8178634010255337,
+      "first_content_seconds": 1.8178634010255337,
+      "first_delivered_seconds": 1.8178711149957962,
+      "id": "d0fd187427394e12af53082d95b0c86b",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-cpp-buffer-s42-h5.5/developer",
+      "seconds": 1.818113129993435,
+      "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 3063,
+        "prompt_tokens_details": {
+          "cached_tokens": 2320
+        },
+        "total_tokens": 3090
+      }
+    },
+    {
       "at": 1794375203.4352124,
       "complete": true,
       "context_policy": {
@@ -214399,6 +216031,29 @@
       }
     },
     {
+      "at": 1794444123.432338,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.386194105958566,
+      "first_content_seconds": 1.386194105958566,
+      "first_delivered_seconds": 1.3862024009576999,
+      "id": "d3ab0a0d9bbc43eb874ada00af8079e4",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 1.386475975974463,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 8498,
+        "prompt_tokens_details": {
+          "cached_tokens": 8473
+        },
+        "total_tokens": 8537
+      }
+    },
+    {
       "at": 1794435423.3355887,
       "complete": true,
       "context_policy": {
@@ -214552,6 +216207,29 @@
           "cached_tokens": 9572
         },
         "total_tokens": 9749
+      }
+    },
+    {
+      "at": 1794444311.2658167,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 13.830240503011737,
+      "first_content_seconds": 13.830240503011737,
+      "first_delivered_seconds": 13.830258837027941,
+      "id": "d3e3fcb487614c6daab1d40a44c95b28",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 18.199593678989913,
+      "usage": {
+        "completion_tokens": 915,
+        "prompt_tokens": 4933,
+        "prompt_tokens_details": {
+          "cached_tokens": 4518
+        },
+        "total_tokens": 5848
       }
     },
     {
@@ -214741,6 +216419,29 @@
           "cached_tokens": 11452
         },
         "total_tokens": 11884
+      }
+    },
+    {
+      "at": 1794444478.9147518,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.2730911310063675,
+      "first_content_seconds": 1.2730911310063675,
+      "first_delivered_seconds": 1.2730973330326378,
+      "id": "d42403123a424cb5b34befaa3b1e2514",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 4.981992301007267,
+      "usage": {
+        "completion_tokens": 232,
+        "prompt_tokens": 5737,
+        "prompt_tokens_details": {
+          "cached_tokens": 5254
+        },
+        "total_tokens": 5969
       }
     },
     {
@@ -217588,6 +219289,29 @@
       }
     },
     {
+      "at": 1794444371.8208177,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 12.79199597396655,
+      "first_content_seconds": 12.79199597396655,
+      "first_delivered_seconds": 12.792003718961496,
+      "id": "d68a6d0adafd4d27988980fda12ac83b",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 12.792272493999917,
+      "usage": {
+        "completion_tokens": 628,
+        "prompt_tokens": 8859,
+        "prompt_tokens_details": {
+          "cached_tokens": 8837
+        },
+        "total_tokens": 9487
+      }
+    },
+    {
       "at": 1794321238.8092794,
       "complete": true,
       "first_any_seconds": 0.7647975560103077,
@@ -218228,6 +219952,34 @@
           "cached_tokens": 12382
         },
         "total_tokens": 12639
+      }
+    },
+    {
+      "at": 1794444684.5795815,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47352,
+        "applied": true,
+        "before_bytes": 123510,
+        "dropped_messages": 38,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 12.355912110011559,
+      "first_content_seconds": 12.355912110011559,
+      "first_delivered_seconds": 12.355916028027423,
+      "id": "d75a42f460ae40238e1b9893d093a25b",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 12.375277455023024,
+      "usage": {
+        "completion_tokens": 23,
+        "prompt_tokens": 11274,
+        "prompt_tokens_details": {
+          "cached_tokens": 1575
+        },
+        "total_tokens": 11297
       }
     },
     {
@@ -224817,6 +226569,34 @@
       }
     },
     {
+      "at": 1794444647.6412,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43082,
+        "applied": true,
+        "before_bytes": 90360,
+        "dropped_messages": 30,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.925617495959159,
+      "first_content_seconds": 1.925617495959159,
+      "first_delivered_seconds": 1.9256256009684876,
+      "id": "ddc7175349fc42c887de28c71376654b",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 1.9440017369925044,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 9885,
+        "prompt_tokens_details": {
+          "cached_tokens": 8741
+        },
+        "total_tokens": 9898
+      }
+    },
+    {
       "at": 1794314138.3492565,
       "complete": true,
       "first_any_seconds": 1.1563918230240233,
@@ -225634,6 +227414,29 @@
           "cached_tokens": 40
         },
         "total_tokens": 12808
+      }
+    },
+    {
+      "at": 1794444255.5975463,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.9768796190037392,
+      "first_content_seconds": 0.9768796190037392,
+      "first_delivered_seconds": 0.9768840969773009,
+      "id": "deb9fd862d14472fa18a7f5c3cb09938",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-cpp-buffer-s42-h5.5/developer",
+      "seconds": 0.9770763579872437,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 7178,
+        "prompt_tokens_details": {
+          "cached_tokens": 7053
+        },
+        "total_tokens": 7192
       }
     },
     {
@@ -228011,6 +229814,29 @@
           "cached_tokens": 32376
         },
         "total_tokens": 32768
+      }
+    },
+    {
+      "at": 1794444344.4517133,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.4571212939918041,
+      "first_content_seconds": 0.4571212939918041,
+      "first_delivered_seconds": 0.45712549198651686,
+      "id": "e0c08f15d72d4a06abc2dd5ca2e53163",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 0.4572871259879321,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 6996,
+        "prompt_tokens_details": {
+          "cached_tokens": 6974
+        },
+        "total_tokens": 7010
       }
     },
     {
@@ -231045,6 +232871,29 @@
       }
     },
     {
+      "at": 1794444268.6620038,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.2594206050271168,
+      "first_content_seconds": 1.2594206050271168,
+      "first_delivered_seconds": 1.2594282900099643,
+      "id": "e383a433149149f1874b0fa09e111da8",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 1.259696334018372,
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 2275,
+        "prompt_tokens_details": {
+          "cached_tokens": 1537
+        },
+        "total_tokens": 2312
+      }
+    },
+    {
       "at": 1794316717.4048417,
       "complete": true,
       "first_any_seconds": 1.0542477199924178,
@@ -232455,6 +234304,29 @@
       }
     },
     {
+      "at": 1794444114.9525237,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.0458512809709646,
+      "first_content_seconds": 2.0458512809709646,
+      "first_delivered_seconds": 2.0458588249748573,
+      "id": "e58e3c26fe124c63ad22c66cebd76212",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 2.046122370986268,
+      "usage": {
+        "completion_tokens": 55,
+        "prompt_tokens": 7991,
+        "prompt_tokens_details": {
+          "cached_tokens": 7851
+        },
+        "total_tokens": 8046
+      }
+    },
+    {
       "at": 1794296684.082411,
       "complete": true,
       "first_any_seconds": 2.973571134993108,
@@ -233007,6 +234879,29 @@
       }
     },
     {
+      "at": 1794444148.9805114,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.0696298300172202,
+      "first_content_seconds": 1.0696298300172202,
+      "first_delivered_seconds": 1.0696341479779221,
+      "id": "e610e37536d14cb68b0b53da6c497d95",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 1.0698427199968137,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 9686,
+        "prompt_tokens_details": {
+          "cached_tokens": 9544
+        },
+        "total_tokens": 9700
+      }
+    },
+    {
       "at": 1794300705.1286855,
       "complete": true,
       "first_any_seconds": 3.500549432996195,
@@ -233063,6 +234958,29 @@
           "cached_tokens": 17404
         },
         "total_tokens": 17620
+      }
+    },
+    {
+      "at": 1794444040.7104065,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 21.02245371596655,
+      "first_content_seconds": 21.02245371596655,
+      "first_delivered_seconds": 21.022462302003987,
+      "id": "e6369f05191b4918a601f38e8a207e16",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 21.022710758959875,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 1506,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1532
       }
     },
     {
@@ -233298,6 +235216,34 @@
           "cached_tokens": 4130
         },
         "total_tokens": 4445
+      }
+    },
+    {
+      "at": 1794444651.7837331,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 37320,
+        "applied": true,
+        "before_bytes": 104284,
+        "dropped_messages": 34,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 28.61538857902633,
+      "first_content_seconds": 28.61538857902633,
+      "first_delivered_seconds": 28.615394060034305,
+      "id": "e67fd9e164ed4ec488b11338d5cba067",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 28.632657944981474,
+      "usage": {
+        "completion_tokens": 1063,
+        "prompt_tokens": 8782,
+        "prompt_tokens_details": {
+          "cached_tokens": 1575
+        },
+        "total_tokens": 9845
       }
     },
     {
@@ -233977,6 +235923,29 @@
       }
     },
     {
+      "at": 1794444069.0996537,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.608558697043918,
+      "first_content_seconds": 1.608558697043918,
+      "first_delivered_seconds": 1.6085667720180936,
+      "id": "e725664b691245cebd2d01881092ce04",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 1.608823154005222,
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 3600,
+        "prompt_tokens_details": {
+          "cached_tokens": 3484
+        },
+        "total_tokens": 3641
+      }
+    },
+    {
       "at": 1794375059.1620586,
       "complete": true,
       "context_policy": {
@@ -234370,6 +236339,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 2694
+      }
+    },
+    {
+      "at": 1794444337.3895628,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.813696263008751,
+      "first_content_seconds": 2.813696263008751,
+      "first_delivered_seconds": 2.813701603037771,
+      "id": "e7911888d03948c6a3fbc63ef74b04dc",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 2.8140585840446874,
+      "usage": {
+        "completion_tokens": 127,
+        "prompt_tokens": 6631,
+        "prompt_tokens_details": {
+          "cached_tokens": 6398
+        },
+        "total_tokens": 6758
       }
     },
     {
@@ -235801,6 +237793,34 @@
       }
     },
     {
+      "at": 1794444709.939272,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 35217,
+        "applied": true,
+        "before_bytes": 131230,
+        "dropped_messages": 42,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 9.240218220977113,
+      "first_content_seconds": 9.240218220977113,
+      "first_delivered_seconds": 9.240223379980307,
+      "id": "e8cb54d61050483598cc0bdce5fac703",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 9.258578225970268,
+      "usage": {
+        "completion_tokens": 46,
+        "prompt_tokens": 8536,
+        "prompt_tokens_details": {
+          "cached_tokens": 1575
+        },
+        "total_tokens": 8582
+      }
+    },
+    {
       "at": 1794347592.217663,
       "complete": true,
       "first_any_seconds": 11.060193704994163,
@@ -236903,6 +238923,34 @@
       }
     },
     {
+      "at": 1794444696.99181,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46650,
+        "applied": true,
+        "before_bytes": 128739,
+        "dropped_messages": 40,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 12.896633619035129,
+      "first_content_seconds": 12.896633619035129,
+      "first_delivered_seconds": 12.896640021004714,
+      "id": "e9c55e16d7b84d2b9ae791a1d5f2b623",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 12.916108640027232,
+      "usage": {
+        "completion_tokens": 50,
+        "prompt_tokens": 11339,
+        "prompt_tokens_details": {
+          "cached_tokens": 1575
+        },
+        "total_tokens": 11389
+      }
+    },
+    {
       "at": 1794352970.8806124,
       "complete": true,
       "first_any_seconds": 1.6107591410109308,
@@ -237291,6 +239339,29 @@
           "cached_tokens": 12863
         },
         "total_tokens": 13087
+      }
+    },
+    {
+      "at": 1794443919.374684,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.6984531749621965,
+      "first_content_seconds": 2.6984531749621965,
+      "first_delivered_seconds": 2.6984622219461016,
+      "id": "ea2aebaff0a14cf0b2931bd4e0cde754",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-cpp-buffer-s42-h5.5/developer",
+      "seconds": 77.64020517899189,
+      "usage": {
+        "completion_tokens": 2111,
+        "prompt_tokens": 7954,
+        "prompt_tokens_details": {
+          "cached_tokens": 6989
+        },
+        "total_tokens": 10065
       }
     },
     {
@@ -237894,6 +239965,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 13119
+      }
+    },
+    {
+      "at": 1794444472.7684026,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.3434215689776465,
+      "first_content_seconds": 1.3434215689776465,
+      "first_delivered_seconds": 1.3434265090036206,
+      "id": "eaa47594b498463d94b7f24e8d652183",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 1.3606447280035354,
+      "usage": {
+        "completion_tokens": 13,
+        "prompt_tokens": 3485,
+        "prompt_tokens_details": {
+          "cached_tokens": 2595
+        },
+        "total_tokens": 3498
       }
     },
     {
@@ -239197,6 +241291,29 @@
       }
     },
     {
+      "at": 1794444342.0032957,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.314696145011112,
+      "first_content_seconds": 2.314696145011112,
+      "first_delivered_seconds": 2.314699581009336,
+      "id": "ebc3bb6a076f48d997013dd0777e639c",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 2.3148410670110025,
+      "usage": {
+        "completion_tokens": 109,
+        "prompt_tokens": 6866,
+        "prompt_tokens_details": {
+          "cached_tokens": 6844
+        },
+        "total_tokens": 6975
+      }
+    },
+    {
       "at": 1794313130.9883742,
       "complete": true,
       "first_any_seconds": 1.8310140609974042,
@@ -239646,6 +241763,29 @@
           "cached_tokens": 2752
         },
         "total_tokens": 2799
+      }
+    },
+    {
+      "at": 1794444347.8376968,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.3737877369858325,
+      "first_content_seconds": 1.3737877369858325,
+      "first_delivered_seconds": 1.3737917749676853,
+      "id": "ec63d53bdcdc471fb4353d7998180075",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-py-csv-s42-h5.5/developer",
+      "seconds": 1.374003964010626,
+      "usage": {
+        "completion_tokens": 50,
+        "prompt_tokens": 7306,
+        "prompt_tokens_details": {
+          "cached_tokens": 7009
+        },
+        "total_tokens": 7356
       }
     },
     {
@@ -246476,6 +248616,29 @@
       }
     },
     {
+      "at": 1794444126.930812,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.8898970629670657,
+      "first_content_seconds": 1.8898970629670657,
+      "first_delivered_seconds": 1.889904856972862,
+      "id": "f2bf86b2868f46459e2d3cf4969287ac",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 1.8902019059751183,
+      "usage": {
+        "completion_tokens": 57,
+        "prompt_tokens": 8862,
+        "prompt_tokens_details": {
+          "cached_tokens": 8837
+        },
+        "total_tokens": 8919
+      }
+    },
+    {
       "at": 1794418594.3667428,
       "complete": true,
       "context_policy": {
@@ -247475,6 +249638,29 @@
       }
     },
     {
+      "at": 1794444446.909953,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.476311277016066,
+      "first_content_seconds": 0.476311277016066,
+      "first_delivered_seconds": 0.47631588601507246,
+      "id": "f3a349319e144c13b72a8f6f679eec37",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-cpp-buffer-s42-h5.5/developer",
+      "seconds": 0.4764871470397338,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 5100,
+        "prompt_tokens_details": {
+          "cached_tokens": 5057
+        },
+        "total_tokens": 5114
+      }
+    },
+    {
       "at": 1794387576.8409443,
       "complete": true,
       "context_policy": {
@@ -247939,6 +250125,34 @@
           "cached_tokens": 11934
         },
         "total_tokens": 12028
+      }
+    },
+    {
+      "at": 1794444550.025842,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44641,
+        "applied": true,
+        "before_bytes": 55549,
+        "dropped_messages": 10,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 31.24873179104179,
+      "first_content_seconds": 31.24873179104179,
+      "first_delivered_seconds": 31.248736731009558,
+      "id": "f42aed42c2414e9e952e703f76b4cb63",
+      "model": "campaign-next-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-next-py-queue-s42-h5.5/developer",
+      "seconds": 31.267135669011623,
+      "usage": {
+        "completion_tokens": 1089,
+        "prompt_tokens": 10338,
+        "prompt_tokens_details": {
+          "cached_tokens": 1575
+        },
+        "total_tokens": 11427
       }
     },
     {
@@ -252606,6 +254820,29 @@
       }
     },
     {
+      "at": 1794444398.4896684,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.2568021080223843,
+      "first_content_seconds": 1.2568021080223843,
+      "first_delivered_seconds": 1.2568094719899818,
+      "id": "f87c0b96620044ad923d1bc6d33e9b46",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-cpp-buffer-s42-h5.5/developer",
+      "seconds": 1.2570427100290544,
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 2287,
+        "prompt_tokens_details": {
+          "cached_tokens": 1542
+        },
+        "total_tokens": 2324
+      }
+    },
+    {
       "at": 1794326206.9479642,
       "complete": true,
       "first_any_seconds": 35.91883318100008,
@@ -255624,6 +257861,29 @@
       }
     },
     {
+      "at": 1794443869.1450012,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.272737685998436,
+      "first_content_seconds": 1.272737685998436,
+      "first_delivered_seconds": 1.2727490669931285,
+      "id": "fb98cb3b3bcb4f1993550559dfb944a1",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-cpp-buffer-s42-h5.5/developer",
+      "seconds": 4.796184637991246,
+      "usage": {
+        "completion_tokens": 100,
+        "prompt_tokens": 4920,
+        "prompt_tokens_details": {
+          "cached_tokens": 4494
+        },
+        "total_tokens": 5020
+      }
+    },
+    {
       "at": 1794402631.0864017,
       "complete": true,
       "context_policy": {
@@ -257766,6 +260026,29 @@
       }
     },
     {
+      "at": 1794444396.8105452,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.3436676519922912,
+      "first_content_seconds": 1.3436676519922912,
+      "first_delivered_seconds": 1.3436711989925243,
+      "id": "fde01e5c88fb4c9abf23d45a317148c2",
+      "model": "campaign-gpt20-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt20-cpp-buffer-s42-h5.5/developer",
+      "seconds": 1.3439035859773867,
+      "usage": {
+        "completion_tokens": 29,
+        "prompt_tokens": 1514,
+        "prompt_tokens_details": {
+          "cached_tokens": 484
+        },
+        "total_tokens": 1543
+      }
+    },
+    {
       "at": 1794419649.703574,
       "complete": true,
       "context_policy": {
@@ -259413,6 +261696,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 29013
+      }
+    },
+    {
+      "at": 1794444124.851742,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.9014702760032378,
+      "first_content_seconds": 1.9014702760032378,
+      "first_delivered_seconds": 1.901478321000468,
+      "id": "ffa008eb5deb428892c96999e4e7eaae",
+      "model": "campaign-gpt120-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-gpt120-py-csv-s42-h5.5/developer",
+      "seconds": 1.901770711003337,
+      "usage": {
+        "completion_tokens": 43,
+        "prompt_tokens": 8795,
+        "prompt_tokens_details": {
+          "cached_tokens": 8536
+        },
+        "total_tokens": 8838
       }
     },
     {

@@ -1,0 +1,39 @@
+{
+  "id": "solo-gpt20-py-csv-s42-h5.5",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "developer": "gpt20"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794444261.1111658,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-5e89375ca60b",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794444262.027046,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794444332.1254144,
+      "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+    }
+  ],
+  "attempts": 2,
+  "completed_hash": "d8068d9f58a850f3152ec99cc1e97c6ee3b4af6880eae520c2d80f35bb2f28da",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-gpt20-py-csv-s42-h5.5/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794444395.1264615,
+  "seconds": 134.01529574394226,
+  "resource_limited": false
+}

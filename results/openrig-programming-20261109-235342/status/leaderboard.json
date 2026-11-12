@@ -274,5 +274,77 @@
     "case_wall_seconds_sum": 358.9841339588165,
     "accepted_tasks_per_hour": 10.028298354859883,
     "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'q122'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 451.431725025177,
+    "accepted_tasks_per_hour": 7.974627835026931,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'q122'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 185.14136052131653,
+    "accepted_tasks_per_hour": 19.44460162690394,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'gpt120'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 116.13156652450562,
+    "accepted_tasks_per_hour": 30.999323506415823,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'gpt120'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 103.0342390537262,
+    "accepted_tasks_per_hour": 34.939841678481415,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-csv",
+    "models": "{'developer': 'gpt20'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 134.01529574394226,
+    "accepted_tasks_per_hour": 26.86260534676861,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'gpt20'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 56.79542875289917,
+    "accepted_tasks_per_hour": 63.38538292690035,
+    "failures": []
   }
 ]
