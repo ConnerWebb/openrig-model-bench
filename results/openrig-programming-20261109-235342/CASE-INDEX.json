@@ -1804,6 +1804,21 @@
     "stored_result_sha256": "49b10701181457eb45a32f16b1666003e9ee50c3fbd934c43a9ee161cd6a2f54"
   },
   {
+    "artifact": "artifacts/cases/solo-gpt120-py-queue-s42-h5.5-9cea1dbe02b6af27b96e.tar.gz",
+    "complete": false,
+    "directory": "solo-gpt120-py-queue-s42-h5.5",
+    "id": "solo-gpt120-py-queue-s42-h5.5",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "gpt120"
+    },
+    "phase": "solo",
+    "revision": "h5.5",
+    "source_result_sha256": "9cea1dbe02b6af27b96edd767d19d7ea003ee0465d4a74e66752f37db646844f",
+    "stored_result_sha256": "9cea1dbe02b6af27b96edd767d19d7ea003ee0465d4a74e66752f37db646844f"
+  },
+  {
     "artifact": "artifacts/cases/solo-gpt20-cpp-buffer-s42-h4-270237843a6b542f3e07.tar.gz",
     "complete": false,
     "directory": "solo-gpt20-cpp-buffer-s42-h4",
