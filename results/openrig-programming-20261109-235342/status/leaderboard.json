@@ -963,5 +963,23 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "teams",
+    "language": "cpp",
+    "task": "cpp-csv",
+    "models": "{'lead': 'q122', 'developer': 'q122', 'reviewer': 'q122'}",
+    "agents": 3,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 2781.918792247772,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "decision-v1-cpp-uniform-three-s43-h5.5",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 OPENRIG PYTHON / C++ CAMPAIGN — LIVE CHECKPOINT
 
 /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342
-State: {'phase': 'teams', 'at': 1794496800.9117036, 'pid': 1242258, 'harness_revision': 'h5.5', 'dispatch_plan': 'shortened-decision-campaign-v1', 'current': 'decision-v1-cpp-uniform-three-s43-h5.5', 'dispatch': 'decision-v1'}
+State: {'phase': 'teams', 'at': 1794499584.0322275, 'pid': 1242258, 'harness_revision': 'h5.5', 'dispatch_plan': 'shortened-decision-campaign-v1', 'current': 'decision-v1-cpp-uniform-three-s44-h5.5', 'dispatch': 'decision-v1'}
 Active harness revision: h5.5
 Historical pre-repair results remain intact in runs/ and progress/; they are not mixed into this revision's rankings. All previous completed cells are rerun, including earlier passes.
 
@@ -38,8 +38,9 @@ PHASE teams
 python: 3/4 accepted
   {'developer': 'q122', 'reviewer': 'q122'}, 2 agents: 2/2; sum job seconds 1498.9; accepted/hour 4.803
   {'lead': 'q122', 'developer': 'q122', 'reviewer': 'q122'}, 3 agents: 1/2; sum job seconds 1354.2; accepted/hour 2.658
-cpp: 1/2 accepted
+cpp: 1/3 accepted
   {'developer': 'q122', 'reviewer': 'q122'}, 2 agents: 1/2; sum job seconds 3792.5; accepted/hour 0.949
+  {'lead': 'q122', 'developer': 'q122', 'reviewer': 'q122'}, 3 agents: 0/1; sum job seconds 2781.9; accepted/hour 0.000
 PHASE topology
 python: 0/0 accepted
 cpp: 0/0 accepted

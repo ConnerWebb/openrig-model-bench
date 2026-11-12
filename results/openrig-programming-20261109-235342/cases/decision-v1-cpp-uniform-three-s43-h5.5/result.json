@@ -1,0 +1,44 @@
+{
+  "id": "decision-v1-cpp-uniform-three-s43-h5.5",
+  "task": "cpp-csv",
+  "language": "cpp",
+  "models": {
+    "lead": "q122",
+    "developer": "q122",
+    "reviewer": "q122"
+  },
+  "seed": 43,
+  "variant": 0,
+  "topology": 3,
+  "phase": "teams",
+  "harness_revision": "h5.5",
+  "started": 1794496800.9168208,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-91db34ddb7a6",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794496869.327876,
+      "incoming_feedback": "None. \nADVISORY PLAN:\nCreate solution.hpp with streaming CSV parser implementing aggregate(std::istream&) function\nImplement CSV parsing with proper handling of quoted fields, escaped quotes, and newlines within quotes\nAdd field validation: header must be exactly 'category,amount', strip outer whitespace, reject empty fields\nImplement int64 parsing with overflow detection for both individual values and accumulated sums\nCreate test_solution.cpp with comprehensive unit tests covering valid cases, edge cases, and error conditions\nCreate README.md documenting the solution API and usage\nCompile and run tests against public cases to verify correctness\nFix any issues found during testing and re-run until all public cases pass"
+    },
+    {
+      "attempt": 2,
+      "started": 1794497771.8293664,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    },
+    {
+      "attempt": 3,
+      "started": 1794498680.3323362,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+  "finished": 1794499582.835613,
+  "seconds": 2781.918792247772,
+  "resource_limited": false
+}

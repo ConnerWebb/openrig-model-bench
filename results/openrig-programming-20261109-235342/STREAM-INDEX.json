@@ -4242,6 +4242,29 @@
       }
     },
     {
+      "at": 1794499603.8860857,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.7078628210001625,
+      "first_content_seconds": 1.7078628210001625,
+      "first_delivered_seconds": 1.7078692730283365,
+      "id": "0357598d02764b27b1e400ba323e5c7e",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s44-h5.5/lead",
+      "seconds": 3.7194091550190933,
+      "usage": {
+        "completion_tokens": 79,
+        "prompt_tokens": 4113,
+        "prompt_tokens_details": {
+          "cached_tokens": 3959
+        },
+        "total_tokens": 4192
+      }
+    },
+    {
       "at": 1794358045.4216685,
       "complete": true,
       "context_policy": {
@@ -9922,6 +9945,29 @@
           "cached_tokens": 12882
         },
         "total_tokens": 13497
+      }
+    },
+    {
+      "at": 1794499607.7000077,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 12.12815431598574,
+      "first_content_seconds": 12.12815431598574,
+      "first_delivered_seconds": 12.128161650034599,
+      "id": "07ba2177946e4397954b40d19e3c043c",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s44-h5.5/lead",
+      "seconds": 16.963441136002075,
+      "usage": {
+        "completion_tokens": 160,
+        "prompt_tokens": 8028,
+        "prompt_tokens_details": {
+          "cached_tokens": 4109
+        },
+        "total_tokens": 8188
       }
     },
     {
@@ -23978,6 +24024,34 @@
           "cached_tokens": 6626
         },
         "total_tokens": 8448
+      }
+    },
+    {
+      "at": 1794499320.4752266,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46872,
+        "applied": true,
+        "before_bytes": 114417,
+        "dropped_messages": 58,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 0.995993374963291,
+      "first_content_seconds": 0.995993374963291,
+      "first_delivered_seconds": 0.9960051869857125,
+      "id": "11d94d3ecaff43eea2a7656a841bb625",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 32.044273464009166,
+      "usage": {
+        "completion_tokens": 820,
+        "prompt_tokens": 12425,
+        "prompt_tokens_details": {
+          "cached_tokens": 12261
+        },
+        "total_tokens": 13245
       }
     },
     {
@@ -48430,6 +48504,29 @@
           "cached_tokens": 24853
         },
         "total_tokens": 25410
+      }
+    },
+    {
+      "at": 1794499601.880291,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.930453725042753,
+      "first_content_seconds": 1.930453725042753,
+      "first_delivered_seconds": 1.9304601370240562,
+      "id": "242e75f4991b40798dfab58df68daf0b",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s44-h5.5/lead",
+      "seconds": 1.9668080660048872,
+      "usage": {
+        "completion_tokens": 24,
+        "prompt_tokens": 3963,
+        "prompt_tokens_details": {
+          "cached_tokens": 3685
+        },
+        "total_tokens": 3987
       }
     },
     {
@@ -117182,6 +117279,29 @@
       }
     },
     {
+      "at": 1794499659.3959734,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 12.193071532004979,
+      "first_content_seconds": 12.193071532004979,
+      "first_delivered_seconds": 12.193075610033702,
+      "id": "576a045919274d7bbe696f07204dce50",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s44-h5.5/developer",
+      "seconds": 12.231657016032841,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 8974,
+        "prompt_tokens_details": {
+          "cached_tokens": 4992
+        },
+        "total_tokens": 9000
+      }
+    },
+    {
       "at": 1794419482.9871984,
       "complete": true,
       "context_policy": {
@@ -121914,6 +122034,34 @@
           "cached_tokens": 11033
         },
         "total_tokens": 11277
+      }
+    },
+    {
+      "at": 1794498990.9530041,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47974,
+        "applied": true,
+        "before_bytes": 202350,
+        "dropped_messages": 114,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.4091864279471338,
+      "first_content_seconds": 1.4091864279471338,
+      "first_delivered_seconds": 1.4091933609452099,
+      "id": "5a952d9839fc4592b0342538ba12596d",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 45.19526207499439,
+      "usage": {
+        "completion_tokens": 1154,
+        "prompt_tokens": 13766,
+        "prompt_tokens_details": {
+          "cached_tokens": 13442
+        },
+        "total_tokens": 14920
       }
     },
     {
@@ -141253,6 +141401,34 @@
       }
     },
     {
+      "at": 1794499159.7819278,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 39739,
+        "applied": true,
+        "before_bytes": 102678,
+        "dropped_messages": 55,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 30.58532330201706,
+      "first_content_seconds": 30.58532330201706,
+      "first_delivered_seconds": 30.58533513400471,
+      "id": "6a0692fdf99844d3be6fbf099273c753",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 118.71066472202074,
+      "usage": {
+        "completion_tokens": 2341,
+        "prompt_tokens": 10984,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13325
+      }
+    },
+    {
       "at": 1794449775.7227497,
       "complete": true,
       "context_policy": {
@@ -149536,6 +149712,29 @@
       }
     },
     {
+      "at": 1794499810.1113458,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 11.280172607977875,
+      "first_content_seconds": 11.280172607977875,
+      "first_delivered_seconds": 11.280183999973815,
+      "id": "6fd8a2c1613e4cfbb1e3072213ce7ddd",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s44-h5.5/developer",
+      "seconds": 83.4293829969829,
+      "usage": {
+        "completion_tokens": 1907,
+        "prompt_tokens": 13004,
+        "prompt_tokens_details": {
+          "cached_tokens": 9324
+        },
+        "total_tokens": 14911
+      }
+    },
+    {
       "at": 1794443488.4507878,
       "complete": true,
       "context_policy": {
@@ -157430,6 +157629,29 @@
       }
     },
     {
+      "at": 1794499594.6689742,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.1781580279930495,
+      "first_content_seconds": 3.1781580279930495,
+      "first_delivered_seconds": 3.1781649609911256,
+      "id": "756e15f0d9df4248b0c2ba383ea1661d",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s44-h5.5/lead",
+      "seconds": 3.213050421036314,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 2758,
+        "prompt_tokens_details": {
+          "cached_tokens": 1805
+        },
+        "total_tokens": 2773
+      }
+    },
+    {
       "at": 1794383124.1868665,
       "complete": true,
       "context_policy": {
@@ -163258,6 +163480,34 @@
       }
     },
     {
+      "at": 1794499427.6187997,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46880,
+        "applied": true,
+        "before_bytes": 124195,
+        "dropped_messages": 66,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 34.1552015740308,
+      "first_content_seconds": 34.1552015740308,
+      "first_delivered_seconds": 34.155211862991564,
+      "id": "79f781a1d1e14a6e860cd4ce1c0d8ea4",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 35.54323364101583,
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 12263,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12300
+      }
+    },
+    {
       "at": 1794411670.405841,
       "complete": true,
       "context_policy": {
@@ -164673,6 +164923,28 @@
         },
         "total_tokens": 7943
       }
+    },
+    {
+      "at": 1794499557.812814,
+      "complete": false,
+      "context_policy": {
+        "after_bytes": 38355,
+        "applied": true,
+        "before_bytes": 143066,
+        "dropped_messages": 72,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "error": "[Errno 32] Broken pipe",
+      "first_any_seconds": 30.505924287019297,
+      "first_content_seconds": 30.505924287019297,
+      "first_delivered_seconds": 30.50593679002486,
+      "id": "7b0864628f2b4aa38eacdb07fb33cbe5",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 30.506087383022532,
+      "usage": null
     },
     {
       "at": 1794292921.3792982,
@@ -168350,6 +168622,29 @@
           "cached_tokens": 2700
         },
         "total_tokens": 2753
+      }
+    },
+    {
+      "at": 1794499651.731555,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.5827022710000165,
+      "first_content_seconds": 4.5827022710000165,
+      "first_delivered_seconds": 4.5827105270000175,
+      "id": "7da9fceb3e124783852f4b8e0bd63d2e",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s44-h5.5/developer",
+      "seconds": 7.538833465019707,
+      "usage": {
+        "completion_tokens": 103,
+        "prompt_tokens": 4996,
+        "prompt_tokens_details": {
+          "cached_tokens": 3797
+        },
+        "total_tokens": 5099
       }
     },
     {
@@ -175793,6 +176088,34 @@
       }
     },
     {
+      "at": 1794499521.734544,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 44643,
+        "applied": true,
+        "before_bytes": 139050,
+        "dropped_messages": 70,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 3.0428999210125767,
+      "first_content_seconds": 3.0428999210125767,
+      "first_delivered_seconds": 3.042910711024888,
+      "id": "830fdb01630a44929b2b1bb49c2710e3",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 14.093893201032188,
+      "usage": {
+        "completion_tokens": 293,
+        "prompt_tokens": 12148,
+        "prompt_tokens_details": {
+          "cached_tokens": 11228
+        },
+        "total_tokens": 12441
+      }
+    },
+    {
       "at": 1794424885.1199682,
       "complete": true,
       "context_policy": {
@@ -176611,6 +176934,34 @@
           "cached_tokens": 0
         },
         "total_tokens": 6567
+      }
+    },
+    {
+      "at": 1794499474.115691,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 40858,
+        "applied": true,
+        "before_bytes": 135265,
+        "dropped_messages": 70,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 29.741466207022313,
+      "first_content_seconds": 29.741466207022313,
+      "first_delivered_seconds": 29.741492867004126,
+      "id": "83b7fb7efcae44bf8832d0294f77b852",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 32.620724713022355,
+      "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 10823,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10901
       }
     },
     {
@@ -178234,6 +178585,29 @@
           "cached_tokens": 5052
         },
         "total_tokens": 9766
+      }
+    },
+    {
+      "at": 1794499624.817878,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 11.899572451016866,
+      "first_content_seconds": 11.899572451016866,
+      "first_delivered_seconds": 11.89958030602429,
+      "id": "84f058dad54b4bdfbd452a74438cb943",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s44-h5.5/lead",
+      "seconds": 11.935729550023098,
+      "usage": {
+        "completion_tokens": 279,
+        "prompt_tokens": 8486,
+        "prompt_tokens_details": {
+          "cached_tokens": 8024
+        },
+        "total_tokens": 8765
       }
     },
     {
@@ -183115,6 +183489,34 @@
       }
     },
     {
+      "at": 1794499542.240796,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47063,
+        "applied": true,
+        "before_bytes": 141470,
+        "dropped_messages": 70,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.5099874410079792,
+      "first_content_seconds": 1.5099874410079792,
+      "first_delivered_seconds": 1.5099949960131198,
+      "id": "88ac25027d334d92bb58abe24d75d6e0",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 15.429346184013411,
+      "usage": {
+        "completion_tokens": 370,
+        "prompt_tokens": 12845,
+        "prompt_tokens_details": {
+          "cached_tokens": 12463
+        },
+        "total_tokens": 13215
+      }
+    },
+    {
       "at": 1794362395.8206737,
       "complete": true,
       "context_policy": {
@@ -186433,6 +186835,34 @@
           "cached_tokens": 10058
         },
         "total_tokens": 10898
+      }
+    },
+    {
+      "at": 1794499516.5920036,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 42560,
+        "applied": true,
+        "before_bytes": 136967,
+        "dropped_messages": 70,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.2198614199878648,
+      "first_content_seconds": 1.2198614199878648,
+      "first_delivered_seconds": 1.2198734930134378,
+      "id": "8b27fa45ea7d4aa4bc7e741d10f2c1ed",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 4.9752209360012785,
+      "usage": {
+        "completion_tokens": 100,
+        "prompt_tokens": 11232,
+        "prompt_tokens_details": {
+          "cached_tokens": 10974
+        },
+        "total_tokens": 11332
       }
     },
     {
@@ -224160,6 +224590,34 @@
       }
     },
     {
+      "at": 1794499278.6672468,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45437,
+        "applied": true,
+        "before_bytes": 112982,
+        "dropped_messages": 58,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 33.688703970983624,
+      "first_content_seconds": 33.688703970983624,
+      "first_delivered_seconds": 33.688713128038216,
+      "id": "a7cd1b9f2b0d442880f4596882ca94a3",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 38.87011625699233,
+      "usage": {
+        "completion_tokens": 138,
+        "prompt_tokens": 12057,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12195
+      }
+    },
+    {
       "at": 1794402045.1304207,
       "complete": true,
       "context_policy": {
@@ -225083,6 +225541,29 @@
           "cached_tokens": 6683
         },
         "total_tokens": 6804
+      }
+    },
+    {
+      "at": 1794499125.87404,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 16.44830264901975,
+      "first_content_seconds": 16.44830264901975,
+      "first_delivered_seconds": 16.44831275800243,
+      "id": "a8428b9aed0e4edb8c4068536cc84260",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 33.90227668400621,
+      "usage": {
+        "completion_tokens": 473,
+        "prompt_tokens": 6084,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6557
       }
     },
     {
@@ -231916,6 +232397,29 @@
           "cached_tokens": 12398
         },
         "total_tokens": 12660
+      }
+    },
+    {
+      "at": 1794499647.2245536,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.132565348991193,
+      "first_content_seconds": 4.132565348991193,
+      "first_delivered_seconds": 4.1325725330389105,
+      "id": "ad1228cd258c45c981d3f6096c18c371",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s44-h5.5/developer",
+      "seconds": 4.16855778999161,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 3801,
+        "prompt_tokens_details": {
+          "cached_tokens": 2584
+        },
+        "total_tokens": 3816
       }
     },
     {
@@ -251993,6 +252497,34 @@
       }
     },
     {
+      "at": 1794499535.97157,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45960,
+        "applied": true,
+        "before_bytes": 140367,
+        "dropped_messages": 70,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.3672483929549344,
+      "first_content_seconds": 1.3672483929549344,
+      "first_delivered_seconds": 1.3672565089655109,
+      "id": "bbaaa655e674417c9c2b79c33572af71",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 6.057357862999197,
+      "usage": {
+        "completion_tokens": 124,
+        "prompt_tokens": 12467,
+        "prompt_tokens_details": {
+          "cached_tokens": 12144
+        },
+        "total_tokens": 12591
+      }
+    },
+    {
       "at": 1794434120.3341055,
       "complete": true,
       "context_policy": {
@@ -254591,6 +255123,34 @@
           "cached_tokens": 12881
         },
         "total_tokens": 12925
+      }
+    },
+    {
+      "at": 1794499352.5550382,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45357,
+        "applied": true,
+        "before_bytes": 119453,
+        "dropped_messages": 62,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 33.806317863985896,
+      "first_content_seconds": 33.806317863985896,
+      "first_delivered_seconds": 33.806332069972996,
+      "id": "bd794f41d1fc488db2b6b059374f9ff7",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 74.93207510595676,
+      "usage": {
+        "completion_tokens": 1088,
+        "prompt_tokens": 12110,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13198
       }
     },
     {
@@ -261586,6 +262146,38 @@
       }
     },
     {
+      "at": 1794499047.0144813,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 48000,
+        "applied": true,
+        "before_bytes": 83015,
+        "kind": "compaction-summary",
+        "maximum_bytes": 48000,
+        "policy": "Original transcript archived; retain initial quarter and recent three quarters of bounded transcript only; no tools or assignment instructions rewritten.",
+        "preserved_summary_instructions": true,
+        "retained_transcript_bytes": 43922,
+        "summary_envelope": "xml-conversation",
+        "transcript_bytes": 76862
+      },
+      "first_any_seconds": 37.52461705298629,
+      "first_content_seconds": 37.52461705298629,
+      "first_delivered_seconds": 37.52462600899162,
+      "id": "c21ee2f69d944d7cb59a41bb990e1ed8",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 78.8562571760267,
+      "usage": {
+        "completion_tokens": 1095,
+        "prompt_tokens": 13426,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14521
+      }
+    },
+    {
       "at": 1794402787.4099598,
       "complete": true,
       "context_policy": {
@@ -267673,6 +268265,29 @@
           "cached_tokens": 2606
         },
         "total_tokens": 4057
+      }
+    },
+    {
+      "at": 1794499638.8327546,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 8.105897619039752,
+      "first_content_seconds": 8.105897619039752,
+      "first_delivered_seconds": 8.105905854026787,
+      "id": "c6b7bed7007947d4a3e142a0b6ed882c",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s44-h5.5/developer",
+      "seconds": 8.142831008008216,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 2588,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2602
       }
     },
     {
@@ -305724,6 +306339,29 @@
       "usage": null
     },
     {
+      "at": 1794499671.665023,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.2830603260081261,
+      "first_content_seconds": 1.2830603260081261,
+      "first_delivered_seconds": 1.2830723989754915,
+      "id": "e222d65280a949499064674955d15589",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s44-h5.5/developer",
+      "seconds": 138.30311868095305,
+      "usage": {
+        "completion_tokens": 3651,
+        "prompt_tokens": 9328,
+        "prompt_tokens_details": {
+          "cached_tokens": 8970
+        },
+        "total_tokens": 12979
+      }
+    },
+    {
       "at": 1794445389.5274785,
       "complete": true,
       "context_policy": {
@@ -317419,6 +318057,34 @@
       }
     },
     {
+      "at": 1794499317.7288067,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46320,
+        "applied": true,
+        "before_bytes": 113865,
+        "dropped_messages": 58,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 2.5360463370452635,
+      "first_content_seconds": 2.5360463370452635,
+      "first_delivered_seconds": 2.5360500140232034,
+      "id": "eab865d6b10746e9850a4628312b0fac",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 2.5745587130077183,
+      "usage": {
+        "completion_tokens": 38,
+        "prompt_tokens": 12265,
+        "prompt_tokens_details": {
+          "cached_tokens": 12053
+        },
+        "total_tokens": 12303
+      }
+    },
+    {
       "at": 1794362630.8462408,
       "complete": true,
       "context_policy": {
@@ -325367,6 +326033,29 @@
       }
     },
     {
+      "at": 1794499588.7051086,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 5.678025903995149,
+      "first_content_seconds": 5.678025903995149,
+      "first_delivered_seconds": 5.678031985997222,
+      "id": "f0af4baf635647e885f47e599ff43046",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s44-h5.5/lead",
+      "seconds": 5.7158771679969504,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 1809,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1823
+      }
+    },
+    {
       "at": 1794372779.2728543,
       "complete": true,
       "context_policy": {
@@ -332753,6 +333442,34 @@
       }
     },
     {
+      "at": 1794499506.9417288,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41502,
+        "applied": true,
+        "before_bytes": 135909,
+        "dropped_messages": 70,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 1.0012128349626437,
+      "first_content_seconds": 1.0012128349626437,
+      "first_delivered_seconds": 1.0012203789665364,
+      "id": "f5ef0a8a5fa542a1b60476bd75b6659c",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s43-h5.5/developer",
+      "seconds": 9.520567364001181,
+      "usage": {
+        "completion_tokens": 228,
+        "prompt_tokens": 10978,
+        "prompt_tokens_details": {
+          "cached_tokens": 10819
+        },
+        "total_tokens": 11206
+      }
+    },
+    {
       "at": 1794487991.464723,
       "complete": true,
       "context_policy": {
@@ -333220,6 +333937,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 2031
+      }
+    },
+    {
+      "at": 1794499598.2346861,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.575765257002786,
+      "first_content_seconds": 3.575765257002786,
+      "first_delivered_seconds": 3.5757708569872193,
+      "id": "f658be919a6c4a7e8e3c0026143c74a2",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-cpp-uniform-three-s44-h5.5/lead",
+      "seconds": 3.612072467978578,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 3689,
+        "prompt_tokens_details": {
+          "cached_tokens": 2754
+        },
+        "total_tokens": 3714
       }
     },
     {
