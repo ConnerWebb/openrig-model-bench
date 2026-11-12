@@ -1,0 +1,752 @@
+{
+  "at": "2026-11-11T19:13:10.266895-06:00",
+  "active_revision": "h5.5",
+  "common_screen_scores": {
+    "python": {
+      "passed": 11,
+      "finished": 12
+    },
+    "cpp": {
+      "passed": 10,
+      "finished": 12
+    }
+  },
+  "common_screen_results": [
+    {
+      "key": "next",
+      "model": "Qwen3-Coder-Next80B",
+      "python": {
+        "id": "solo-next-py-csv-s42-h5.5",
+        "accepted": true,
+        "seconds": 79.13915634155273,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "bee7bc67b5daa78b46e9986156b7e835d0162b97a53981b684d8318cbc5077e1"
+      },
+      "cpp": {
+        "id": "solo-next-cpp-buffer-s42-h5.5",
+        "accepted": true,
+        "seconds": 1963.7272815704346,
+        "attempts": 3,
+        "resource_limited": false,
+        "result_sha256": "cc69369e3ac277c95b448645ad2642510dc283665412a27ffdb27ff9430dc13a"
+      }
+    },
+    {
+      "key": "coder30",
+      "model": "Qwen3-Coder30B",
+      "python": {
+        "id": "solo-coder30-py-csv-s42-h5.5",
+        "accepted": true,
+        "seconds": 113.96105408668518,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "c9ec2ea528095fd269fa70de261eb5ac4c4075d893eb17c85d4e322739b06cac"
+      },
+      "cpp": {
+        "id": "solo-coder30-cpp-buffer-s42-h5.5",
+        "accepted": true,
+        "seconds": 57.21029329299927,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "c8eeecf1f16531a58bf4e6d37dbb56e29ec5ba4a555a6928ee67baf8f1670b2a"
+      }
+    },
+    {
+      "key": "nemo",
+      "model": "Nemotron3Nano30B",
+      "python": {
+        "id": "solo-nemo-py-csv-s42-h5.5",
+        "accepted": false,
+        "seconds": 1171.6794545650482,
+        "attempts": 3,
+        "resource_limited": false,
+        "result_sha256": "9c8134273ef0cd6351c13bafdc27c03572c6c9bd27d9511317f47ed1cbb9da4b"
+      },
+      "cpp": {
+        "id": "solo-nemo-cpp-buffer-s42-h5.5",
+        "accepted": false,
+        "seconds": 105.39992809295654,
+        "attempts": 3,
+        "resource_limited": false,
+        "result_sha256": "6c9fbd58582490bc725a8bb7e9fd9ff829a37acdbb28a46d70a002514aeb577e"
+      }
+    },
+    {
+      "key": "q35",
+      "model": "Qwen3.5-35B",
+      "python": {
+        "id": "solo-q35-py-csv-s42-h5.5",
+        "accepted": true,
+        "seconds": 276.04236364364624,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "b9afaab9c5d5a8f300ac0da7ac6a065f99d884a9ddd317feddd3c3337b77c728"
+      },
+      "cpp": {
+        "id": "solo-q35-cpp-buffer-s42-h5.5",
+        "accepted": true,
+        "seconds": 56.68429946899414,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "341ef573b71f2d053b0a301f96310a049f1de05b05416d6b7fcbe869611107b4"
+      }
+    },
+    {
+      "key": "devstral",
+      "model": "DevstralSmall2",
+      "python": {
+        "id": "solo-devstral-py-csv-s42-h5.5",
+        "accepted": true,
+        "seconds": 1440.056386232376,
+        "attempts": 2,
+        "resource_limited": false,
+        "result_sha256": "16fbdb126edf30bca6ee7a886404b88069a5164930f78da4a0f82c76b0a515ef"
+      },
+      "cpp": {
+        "id": "solo-devstral-cpp-buffer-s42-h5.5",
+        "accepted": true,
+        "seconds": 1167.9631083011627,
+        "attempts": 2,
+        "resource_limited": false,
+        "result_sha256": "dd0a3e6b31ceafb9a4e6a654f05b28b50dedbaef43d890ac091e6197ca5cd285"
+      }
+    },
+    {
+      "key": "glm",
+      "model": "GLM4.7Flash",
+      "python": {
+        "id": "solo-glm-py-csv-s42-h5.5",
+        "accepted": true,
+        "seconds": 144.0465383529663,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "882ff225cb0beced3169a8f43f2eb44d6df5fca715ebef426ecb297b91b335c7"
+      },
+      "cpp": {
+        "id": "solo-glm-cpp-buffer-s42-h5.5",
+        "accepted": true,
+        "seconds": 108.94449806213379,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "6a2ce7aa902cc99f7134be67cb4446b03044a04e0f8810160160ff36eb101f9c"
+      }
+    },
+    {
+      "key": "q27q4",
+      "model": "Qwen27B Q4",
+      "python": {
+        "id": "solo-q27q4-py-csv-s42-h5.5",
+        "accepted": true,
+        "seconds": 261.28220868110657,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "9e0475d529e3add07b4805698004356f3fe35db30354f9553c04d731fc3cc879"
+      },
+      "cpp": {
+        "id": "solo-q27q4-cpp-buffer-s42-h5.5",
+        "accepted": false,
+        "seconds": 2708.3287069797516,
+        "attempts": 3,
+        "resource_limited": false,
+        "result_sha256": "bb5101b3dc0115e28655268cff359f276fd5ce819cc62ef01014479e2a43bfab"
+      }
+    },
+    {
+      "key": "q9",
+      "model": "Qwen3.5-9B",
+      "python": {
+        "id": "solo-q9-py-csv-s42-h5.5",
+        "accepted": true,
+        "seconds": 241.2035641670227,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "7c8b81240b87ea48164cb4675f66f7fcd2583a9188d7fa700d5ac0c624166e06"
+      },
+      "cpp": {
+        "id": "solo-q9-cpp-buffer-s42-h5.5",
+        "accepted": true,
+        "seconds": 299.1456186771393,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "0f0f2aca8e383bfe8a71a3971ac3918279cb7bd4c4f4d819396fd78c25012984"
+      }
+    },
+    {
+      "key": "q27q8",
+      "model": "Qwen27B Q8",
+      "python": {
+        "id": "solo-q27q8-py-csv-s42-h5.5",
+        "accepted": true,
+        "seconds": 647.2295365333557,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "c3e9876b8541c7fb1e02335a7e5c16ce256b1579ff2b4cafd459cd9ba9906d41"
+      },
+      "cpp": {
+        "id": "solo-q27q8-cpp-buffer-s42-h5.5",
+        "accepted": true,
+        "seconds": 358.9841339588165,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "a4c05cee77a88e090e3e4a00c4cbb2c3728437bf89d6dce8e5662d5d7a5f3c4d"
+      }
+    },
+    {
+      "key": "q122",
+      "model": "Qwen3.5-122B",
+      "python": {
+        "id": "solo-q122-py-csv-s42-h5.5",
+        "accepted": true,
+        "seconds": 451.431725025177,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "9cfe9271f2d9cda668c14fce6ee017730d8ae071f154c7a1e1049298988b7eff"
+      },
+      "cpp": {
+        "id": "solo-q122-cpp-buffer-s42-h5.5",
+        "accepted": true,
+        "seconds": 185.14136052131653,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "07f0f607d07a741df0a5e28f4b5a53b318480c48b5b1dee623ebaee195aa5d4c"
+      }
+    },
+    {
+      "key": "gpt120",
+      "model": "GPT-OSS120B",
+      "python": {
+        "id": "solo-gpt120-py-csv-s42-h5.5",
+        "accepted": true,
+        "seconds": 116.13156652450562,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "49b10701181457eb45a32f16b1666003e9ee50c3fbd934c43a9ee161cd6a2f54"
+      },
+      "cpp": {
+        "id": "solo-gpt120-cpp-buffer-s42-h5.5",
+        "accepted": true,
+        "seconds": 103.0342390537262,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "bcd1b8fcc050b4205cd537684e0546f697a7a08c8fb449977754eb86f422cb53"
+      }
+    },
+    {
+      "key": "gpt20",
+      "model": "GPT-OSS20B",
+      "python": {
+        "id": "solo-gpt20-py-csv-s42-h5.5",
+        "accepted": true,
+        "seconds": 134.01529574394226,
+        "attempts": 2,
+        "resource_limited": false,
+        "result_sha256": "5a0173e88194c2a68d0c1c01f8b00218aa649bef85eeee8ada0b66aba8f7067b"
+      },
+      "cpp": {
+        "id": "solo-gpt20-cpp-buffer-s42-h5.5",
+        "accepted": true,
+        "seconds": 56.79542875289917,
+        "attempts": 1,
+        "resource_limited": false,
+        "result_sha256": "cee6650b6e5c38c4a3a9d264d1e9c037df210385227933fb4fde8c5f7d3241d2"
+      }
+    }
+  ],
+  "overall_scores_by_revision": {
+    "h5.4": {
+      "python": {
+        "passed": 26,
+        "finished": 32,
+        "failed": 6
+      },
+      "cpp": {
+        "passed": 18,
+        "finished": 34,
+        "failed": 16
+      }
+    },
+    "h5.5": {
+      "python": {
+        "passed": 11,
+        "finished": 13,
+        "failed": 2
+      },
+      "cpp": {
+        "passed": 10,
+        "finished": 13,
+        "failed": 3
+      }
+    }
+  },
+  "new_completed": [
+    {
+      "id": "solo-q9-py-csv-s42-h5.5",
+      "task": "py-csv",
+      "language": "python",
+      "models": {
+        "developer": "q9"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794441848.6864,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-249a966b8804",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794441850.7306683,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "acc359e217705de8b743ecdd4fc56681f377009e542d0473ec401049b4431a49",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-q9-py-csv-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794442089.889964,
+      "seconds": 241.2035641670227,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-q9-cpp-buffer-s42-h5.5",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "developer": "q9"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794442090.2807257,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-66449144239e",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794442091.2113762,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "80bc60306ebc77041d680af340f23631dbd93524180dc80e165aa468e2104817",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-q9-cpp-buffer-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794442389.4263444,
+      "seconds": 299.1456186771393,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-q27q8-py-csv-s42-h5.5",
+      "task": "py-csv",
+      "language": "python",
+      "models": {
+        "developer": "q27q8"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794442391.5450811,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-13c8b5027183",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794442392.4835427,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "21384b04b117e736256ce861f5208422e416ea038cf528fedc088b93f6fe71ff",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-q27q8-py-csv-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794443038.7746177,
+      "seconds": 647.2295365333557,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-q27q8-cpp-buffer-s42-h5.5",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "developer": "q27q8"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794443039.1656117,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-0565058d6fee",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794443040.0943718,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "2d72d02420783342689f6b5c5aa4932952c237c14884952b43a16f1b4eb26d18",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-q27q8-cpp-buffer-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794443398.1497457,
+      "seconds": 358.9841339588165,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-q122-py-csv-s42-h5.5",
+      "task": "py-csv",
+      "language": "python",
+      "models": {
+        "developer": "q122"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794443400.2557662,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-296ea2ae528a",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794443401.1951036,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "a7f50baf728e5b3d981d524573d0cdf1193983fc9676c85902e9140d483fa961",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-q122-py-csv-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794443851.6874912,
+      "seconds": 451.431725025177,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-q122-cpp-buffer-s42-h5.5",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "developer": "q122"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794443852.078972,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-87f5983d7cc7",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794443853.025219,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "4b58ad046d747e95ef5d42eec27ea7cb5fec6830466d6df3d7abea6d8f571b23",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-q122-cpp-buffer-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794444037.2203326,
+      "seconds": 185.14136052131653,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-gpt120-py-csv-s42-h5.5",
+      "task": "py-csv",
+      "language": "python",
+      "models": {
+        "developer": "gpt120"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794444039.4118629,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-f1be7d686fa4",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794444040.336504,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "7c56d9ff23937dabbc8660294aa582ef43c304c9881f6fab5f9ae7a89385cac9",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-gpt120-py-csv-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794444155.5434294,
+      "seconds": 116.13156652450562,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-gpt120-cpp-buffer-s42-h5.5",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "developer": "gpt120"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794444155.946781,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-7dcf8a8de04e",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794444156.857094,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "a871ae392e320d04b8b3a48a27d0337437bbd664f5a7b734e25e1ca05069dbb2",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-gpt120-cpp-buffer-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794444258.98102,
+      "seconds": 103.0342390537262,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-gpt20-py-csv-s42-h5.5",
+      "task": "py-csv",
+      "language": "python",
+      "models": {
+        "developer": "gpt20"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794444261.1111658,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-5e89375ca60b",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794444262.027046,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794444332.1254144,
+          "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+        }
+      ],
+      "attempts": 2,
+      "completed_hash": "d8068d9f58a850f3152ec99cc1e97c6ee3b4af6880eae520c2d80f35bb2f28da",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-gpt20-py-csv-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794444395.1264615,
+      "seconds": 134.01529574394226,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-gpt20-cpp-buffer-s42-h5.5",
+      "task": "cpp-buffer",
+      "language": "cpp",
+      "models": {
+        "developer": "gpt20"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794444395.509483,
+      "complete": true,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-4f1b67e81e2a",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794444396.4346108,
+          "incoming_feedback": "None. "
+        }
+      ],
+      "attempts": 1,
+      "completed_hash": "7dfbbb96e391afe30d9fc9c52b659d13d339509c9900e0aafd7ee206a099f051",
+      "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-gpt20-cpp-buffer-s42-h5.5/seats/developer/project",
+      "review_required": false,
+      "review_approved": null,
+      "finished": 1794444452.3049119,
+      "seconds": 56.79542875289917,
+      "resource_limited": false
+    },
+    {
+      "id": "solo-next-py-queue-s42-h5.5",
+      "task": "py-queue",
+      "language": "python",
+      "models": {
+        "developer": "next"
+      },
+      "seed": 42,
+      "variant": 0,
+      "topology": 1,
+      "phase": "solo",
+      "harness_revision": "h5.5",
+      "started": 1794444454.4044008,
+      "complete": false,
+      "operator_interventions": 0,
+      "seed_fixture": null,
+      "seed_fixture_hash": null,
+      "rig": "bench-261109235342-5ba46a7017fb",
+      "stage_attempts": [
+        {
+          "attempt": 1,
+          "started": 1794444455.3668544,
+          "incoming_feedback": "None. "
+        },
+        {
+          "attempt": 2,
+          "started": 1794444861.5373518,
+          "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+        },
+        {
+          "attempt": 3,
+          "started": 1794444993.6477718,
+          "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+        }
+      ],
+      "attempts": 3,
+      "failure": "Repair budget exhausted",
+      "last_stage_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup.",
+      "finished": 1794445113.7564726,
+      "seconds": 659.352071762085,
+      "resource_limited": false
+    }
+  ],
+  "current": {
+    "phase": "solo",
+    "at": 1794445114.1350543,
+    "pid": 637884,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign",
+    "current": "solo-next-cpp-queue-s42-h5.5"
+  },
+  "diagnosis": {
+    "common_screen": "All24 same-revision common seed42 cells finished. Python11/12, C++10/12. Nemotron failed both; Qwen27B Q4 failed C++. The other10 model configurations passed both. These are two task families; broader task/seed matrix remains unfinished. Task times include orchestration/model load/tool/compiler/test overhead.",
+    "new_passes": "Qwen9B, Qwen27B Q8, Qwen122B, GPT-OSS120B and GPT-OSS20B all passed both common tasks. All first attempt except GPT20 Python on second attempt.",
+    "python_queue_failure": "Additional Coder-Next Python queue seed42 failed after3 attempts10.99min. Latest fixed checks fail lease-expiry/max-attempt and concurrency cases4/5. Own17-test suite fails expiry and compares sorted string IDs with numeric string order (0,1,2,...,10), a contradictory expectation. Later model turns repeat this reasoning in plain text rather than editing/rechecking/closing; native turn_settled recorded and unverified-closure budget exhausted. Model code/test/workflow failure, not lost tool calls. Archived job.json state remains historical active, but native rig is intentionallyStopped/exited; no stale live agent running.",
+    "current_cpp_queue": "Coder-Next C++ queue seed42 remains active. Latest recorded fixed normal/ASan/TSan checks pass; own solution_test.cpp times out after124.1s. It expects push(3) on a full capacity2 blocking queue to return false without close/consumer, contradicting the task. Other own close-wakeup logic also waits for both producers to complete on capacity1 before closing. Do not change its tests or weaken blocking semantics. Pending work excluded from scores.",
+    "infrastructure": "No new reproducible harness, transport or orchestration fault. No resource/monitor events, context-budget rejections or private inference OOM. Integrated monitor continues through optional sensor errors. Native lifecycle, sanitizer mode feedback and heartbeat remain healthy.",
+    "preservation": "34 frozen source hashes and199 old result hashes verified; production unchanged. No source answers, tests, contracts, weights, sampling, services or production settings changed. Qualification/probes/interrupted/unfinished work excluded; revisions never pooled.",
+    "continuation": "Shared screen complete; authorized repair reruns and full task/seed/team/parallel phases continue automatically under original budgets. No user intervention required."
+  },
+  "failed_python_queue_native_state": [
+    {
+      "rigId": "01M76KJTQRSGRKT71Y4N6NH51T",
+      "rigName": "bench-261109235342-5ba46a7017fb",
+      "logicalId": "team.developer",
+      "canonicalSessionName": "team-developer@bench-261109235342-5ba46a7017fb",
+      "hostSelfId": "host-4e474bc9",
+      "runtime": "pi",
+      "model": "ollama/campaign-next-s42-c32768",
+      "modelObservation": {
+        "status": "unknown",
+        "reason": "seat-not-running"
+      },
+      "needsAttention": false,
+      "sessionStatus": "exited",
+      "startupStatus": "ready",
+      "oriented": "n-a",
+      "lifecycleState": "recoverable",
+      "agentActivity": {
+        "state": "unknown"
+      },
+      "hasAssignedWork": true,
+      "assignedWorkCount": 4,
+      "pendingWorkCount": 3,
+      "resumeType": "pi_session_file",
+      "resumeTokenPresent": true,
+      "lastActivity": "2026-11-12T01:13:10.231Z",
+      "intentionallyStopped": true,
+      "storedSessionStatus": "exited"
+    }
+  ],
+  "observed_memory_since_previous_check": {
+    "samples": 4001,
+    "latest_age_seconds": 0.2538325786590576,
+    "sensor_error_samples": 2927,
+    "minimum_available_bytes": 23778877440,
+    "observed_peak_system_used_bytes": 110520250368,
+    "observed_peak_gpu_gtt_used_bytes": 84139450368,
+    "observed_peak_gpu_vram_used_bytes": 527499264,
+    "swap_in_pages_delta": 1112,
+    "swap_out_pages_delta": 2908
+  },
+  "error_counts": {},
+  "resource_or_monitor_events": [],
+  "inference_cgroup_memory_events": {
+    "low": "0",
+    "high": "0",
+    "max": "0",
+    "oom": "0",
+    "oom_kill": "0",
+    "oom_group_kill": "0",
+    "sock_throttled": "0"
+  },
+  "heartbeat_age_seconds": 0.48305392265319824,
+  "source_files_verified": 34,
+  "historical_results_verified": 199,
+  "production_unchanged": true,
+  "campaign_unfinished": true,
+  "limits": [
+    "Common pair uses seed42,32K context,4096 output limit, same public/private checks, mandatory authored tests and native guarded closure.",
+    "Results are for these two task families and fixed sampling; three-seed wider suite is still running.",
+    "Memory is observed whole-system/shared UMA use, not exclusive attribution. Old thermal gaps are not imputed."
+  ],
+  "rollback": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/repairs/h5.5/LOCAL-RESTORE.txt"
+}

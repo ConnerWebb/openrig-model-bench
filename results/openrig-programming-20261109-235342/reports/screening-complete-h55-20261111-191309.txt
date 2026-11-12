@@ -1,0 +1,34 @@
+OpenRig h5.5 common-screen milestone — 2026-11-11T19:13:10.266895-06:00
+Common pair: {"python": {"passed": 11, "finished": 12}, "cpp": {"passed": 10, "finished": 12}}
+Overall scores by revision: {"h5.4": {"cpp": {"failed": 16, "finished": 34, "passed": 18}, "python": {"failed": 6, "finished": 32, "passed": 26}}, "h5.5": {"cpp": {"failed": 3, "finished": 13, "passed": 10}, "python": {"failed": 2, "finished": 13, "passed": 11}}}
+
+Model | Python CSV result/minutes/attempts | C++ Buffer result/minutes/attempts
+Qwen3-Coder-Next80B | PASS / 1.32 / 1 | PASS / 32.73 / 3
+Qwen3-Coder30B | PASS / 1.90 / 1 | PASS / 0.95 / 1
+Nemotron3Nano30B | FAIL / 19.53 / 3 | FAIL / 1.76 / 3
+Qwen3.5-35B | PASS / 4.60 / 1 | PASS / 0.94 / 1
+DevstralSmall2 | PASS / 24.00 / 2 | PASS / 19.47 / 2
+GLM4.7Flash | PASS / 2.40 / 1 | PASS / 1.82 / 1
+Qwen27B Q4 | PASS / 4.35 / 1 | FAIL / 45.14 / 3
+Qwen3.5-9B | PASS / 4.02 / 1 | PASS / 4.99 / 1
+Qwen27B Q8 | PASS / 10.79 / 1 | PASS / 5.98 / 1
+Qwen3.5-122B | PASS / 7.52 / 1 | PASS / 3.09 / 1
+GPT-OSS120B | PASS / 1.94 / 1 | PASS / 1.72 / 1
+GPT-OSS20B | PASS / 2.23 / 2 | PASS / 0.95 / 1
+
+common_screen: All24 same-revision common seed42 cells finished. Python11/12, C++10/12. Nemotron failed both; Qwen27B Q4 failed C++. The other10 model configurations passed both. These are two task families; broader task/seed matrix remains unfinished. Task times include orchestration/model load/tool/compiler/test overhead.
+new_passes: Qwen9B, Qwen27B Q8, Qwen122B, GPT-OSS120B and GPT-OSS20B all passed both common tasks. All first attempt except GPT20 Python on second attempt.
+python_queue_failure: Additional Coder-Next Python queue seed42 failed after3 attempts10.99min. Latest fixed checks fail lease-expiry/max-attempt and concurrency cases4/5. Own17-test suite fails expiry and compares sorted string IDs with numeric string order (0,1,2,...,10), a contradictory expectation. Later model turns repeat this reasoning in plain text rather than editing/rechecking/closing; native turn_settled recorded and unverified-closure budget exhausted. Model code/test/workflow failure, not lost tool calls. Archived job.json state remains historical active, but native rig is intentionallyStopped/exited; no stale live agent running.
+current_cpp_queue: Coder-Next C++ queue seed42 remains active. Latest recorded fixed normal/ASan/TSan checks pass; own solution_test.cpp times out after124.1s. It expects push(3) on a full capacity2 blocking queue to return false without close/consumer, contradicting the task. Other own close-wakeup logic also waits for both producers to complete on capacity1 before closing. Do not change its tests or weaken blocking semantics. Pending work excluded from scores.
+infrastructure: No new reproducible harness, transport or orchestration fault. No resource/monitor events, context-budget rejections or private inference OOM. Integrated monitor continues through optional sensor errors. Native lifecycle, sanitizer mode feedback and heartbeat remain healthy.
+preservation: 34 frozen source hashes and199 old result hashes verified; production unchanged. No source answers, tests, contracts, weights, sampling, services or production settings changed. Qualification/probes/interrupted/unfinished work excluded; revisions never pooled.
+continuation: Shared screen complete; authorized repair reruns and full task/seed/team/parallel phases continue automatically under original budgets. No user intervention required.
+
+Current: {"phase": "solo", "at": 1794445114.1350543, "pid": 637884, "harness_revision": "h5.5", "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign", "current": "solo-next-cpp-queue-s42-h5.5"}
+Memory: {"latest_age_seconds": 0.2538325786590576, "minimum_available_bytes": 23778877440, "observed_peak_gpu_gtt_used_bytes": 84139450368, "observed_peak_gpu_vram_used_bytes": 527499264, "observed_peak_system_used_bytes": 110520250368, "samples": 4001, "sensor_error_samples": 2927, "swap_in_pages_delta": 1112, "swap_out_pages_delta": 2908}
+Errors: {}; resource/monitor events: 0; cgroup events: {'low': '0', 'high': '0', 'max': '0', 'oom': '0', 'oom_kill': '0', 'oom_group_kill': '0', 'sock_throttled': '0'}.
+Common pair uses seed42,32K context,4096 output limit, same public/private checks, mandatory authored tests and native guarded closure.
+Results are for these two task families and fixed sampling; three-seed wider suite is still running.
+Memory is observed whole-system/shared UMA use, not exclusive attribution. Old thermal gaps are not imputed.
+
+Campaign and independent GitHub backup continue; hourly check remains active.
