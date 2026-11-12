@@ -1,0 +1,35 @@
+{
+  "id": "decision-v1-python-review-pair-s43-h5.5",
+  "task": "py-queue",
+  "language": "python",
+  "models": {
+    "developer": "q122",
+    "reviewer": "q122"
+  },
+  "seed": 43,
+  "variant": 0,
+  "topology": 2,
+  "phase": "teams",
+  "harness_revision": "h5.5",
+  "started": 1794488879.8362415,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-ac30f938db08",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794488881.411781,
+      "incoming_feedback": "None. "
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "23112cd03e0f84495bfeb6c45e9801963d9aa59d453b0c884ea80204d0b7735c",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/decision-v1-python-review-pair-s43-h5.5/seats/developer/project",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794489324.1763139,
+  "seconds": 444.34007239341736,
+  "resource_limited": false
+}

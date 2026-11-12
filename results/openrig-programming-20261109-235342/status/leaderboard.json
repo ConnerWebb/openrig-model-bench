@@ -915,5 +915,17 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "teams",
+    "language": "python",
+    "task": "py-queue",
+    "models": "{'developer': 'q122', 'reviewer': 'q122'}",
+    "agents": 2,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 444.34007239341736,
+    "accepted_tasks_per_hour": 8.101902627437507,
+    "failures": []
   }
 ]
