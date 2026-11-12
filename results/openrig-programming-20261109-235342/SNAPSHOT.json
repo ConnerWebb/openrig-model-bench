@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-12T03:47:00.242666+00:00",
+  "as_of_utc": "2026-11-12T04:02:12.941511+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 242,
+  "completed_case_records": 243,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -69,7 +69,7 @@
       "revision": "h5.4"
     },
     {
-      "count": 5,
+      "count": 6,
       "interrupted": false,
       "language": "cpp",
       "passed": true,
@@ -437,7 +437,7 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 12151,
+  "finished_transport_streams": 12231,
   "in_progress_not_scored": [
     "plan-next-cpp-buffer-h5.4",
     "plan-next-py-queue-h5.4",
@@ -445,14 +445,15 @@
     "probe-next-cpp-binary-defective-0-h5.4",
     "probe-next-py-refactor-correct-0-h5.4",
     "probe-next-py-refactor-defective-0-h5.4",
-    "qualification-cpp-team-n6-v2-h5.5"
+    "solo-coder30-py-queue-s42-h5.5"
   ],
   "status": {
-    "at": 1794454890.2592487,
-    "current": "qualification-cpp-team-n6-v2-h5.5",
-    "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign",
+    "at": 1794455371.4059217,
+    "current": "solo-coder30-py-queue-s42-h5.5",
+    "dispatch": "decision-v1",
+    "dispatch_plan": "shortened-decision-campaign-v1",
     "harness_revision": "h5.5",
-    "phase": "qualification",
-    "pid": 637884
+    "phase": "solo",
+    "pid": 1242258
   }
 }

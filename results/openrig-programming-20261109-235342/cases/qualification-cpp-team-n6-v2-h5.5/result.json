@@ -1,0 +1,36 @@
+{
+  "id": "qualification-cpp-team-n6-v2-h5.5",
+  "task": "cpp-team",
+  "language": "cpp",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 6,
+  "phase": "qualification",
+  "harness_revision": "h5.5",
+  "started": 1794454890.2637923,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-1f096dd45540",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794454920.397464,
+      "incoming_feedback": "None. \nADVISORY PLAN:\nVerify existing header-only implementations (parser.hpp, cache.hpp, stats.hpp) meet the contract exactly\nRun the provided test_submission.py to confirm compilation and basic linkage\nReview PUBLIC_CASES.json and driver logic to ensure all edge cases are covered\nCompile and test the driver with all public-inputs case files to validate correctness\nIf any discrepancies are found, fix the relevant header file(s) to match the contract\nConfirm all tests pass and submit for closure"
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "acbe390ec347df9fa880ca1e05723c08835847a2523935b3e550a6680527c5ba",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-cpp-team-n6-v2-h5.5/seats/integrator/project",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794455357.9453437,
+  "seconds": 467.6815514564514,
+  "resource_limited": false
+}
