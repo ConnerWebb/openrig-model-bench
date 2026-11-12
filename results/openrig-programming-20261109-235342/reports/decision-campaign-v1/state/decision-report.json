@@ -1,0 +1,91 @@
+{
+  "at": 1794455357.536551,
+  "dispatch": "decision-v1",
+  "harness_revision": "h5.5",
+  "final": false,
+  "full_original_matrix_complete": false,
+  "scope": {
+    "id": "decision-v1",
+    "harness_revision": "h5.5",
+    "harness_path": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/frozen-harness-v5.5",
+    "output": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342",
+    "models": [
+      "next",
+      "coder30",
+      "nemo",
+      "q35",
+      "devstral",
+      "glm",
+      "q27q4",
+      "q9",
+      "q27q8",
+      "q122",
+      "gpt120",
+      "gpt20"
+    ],
+    "balanced_tasks": [
+      "py-csv",
+      "cpp-buffer",
+      "py-queue",
+      "cpp-csv"
+    ],
+    "balanced_seed": 42,
+    "shortlist_count": 3,
+    "retain_baseline": "next",
+    "comparison_tasks": {
+      "python": "py-queue",
+      "cpp": "cpp-csv"
+    },
+    "comparison_seeds": [
+      43,
+      44
+    ],
+    "direct_slots": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "direct_seeds": [
+      42,
+      43,
+      44
+    ],
+    "guarded_slots": [
+      1,
+      2,
+      3
+    ],
+    "guarded_seeds": [
+      42,
+      43,
+      44
+    ],
+    "context": 32768,
+    "admission_hours": 36,
+    "stability_seconds": 3600,
+    "scope_note": "Shortened by user approval. Dispatch changes only: same h5.5 cases, scopes, private acceptance, sampling, budgets and tool/runtime source. Existing identical cells are reused; revisions are never pooled. Single seed balanced screening supports a practical shortlist, not a general ranking. Full original matrix deferred, not failed or completed."
+  },
+  "progress": {},
+  "selection": null,
+  "score_note": "Only the four balanced tasks at seed42 determine the shortlist. Extra historical tasks are retained and reported separately, never silently pooled into that ranking.",
+  "all_h55_solo_scores": {
+    "python": {
+      "accepted": 13,
+      "finished": 16
+    },
+    "cpp": {
+      "accepted": 11,
+      "finished": 16
+    }
+  },
+  "limits": [
+    "Small, fixed task sample; practical local selection, not a broad capability ranking.",
+    "Qualification uses supplied reference implementations and is excluded from coding scores.",
+    "Planner probes measure protocol compliance, not objective plan quality.",
+    "Direct API inference is separate from guarded agent work.",
+    "Guarded parallel throughput uses batch wall time, never summed overlapping task time.",
+    "Missing, deferred, interrupted and resource-limited evidence is explicitly labeled.",
+    "Production defaults are not promoted or changed."
+  ]
+}

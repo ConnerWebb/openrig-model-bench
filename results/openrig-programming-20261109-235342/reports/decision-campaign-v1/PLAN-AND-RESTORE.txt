@@ -1,0 +1,97 @@
+Shortened OpenRig decision campaign — user approved 2026-11-11
+
+Purpose: choose a practical local coding setup, then improve it through real
+work. The former exhaustive matrix is deferred. Its source and results are
+preserved; unrun cells are neither failures nor completed tests.
+
+Scoring runtime: unchanged frozen-harness-v5.5. The source/ folder contains a
+separately hashed immutable dispatch and selection policy, not a replacement
+test harness. Task contracts, public and private checks, tool scopes, test
+budgets, 32K agent context, 4096-token agent output cap, weights and sampling
+are unchanged. Source/plan.json is the complete finite schedule.
+
+1. Balanced four-task screen, all 12 models, seed42
+   Python CSV and durable queue; C++ buffer ownership and CSV parser.
+   The 24 original common-screen cells and three existing matching harder
+   cells are reused, leaving 21 new cases at preparation time. Extra cases
+   outside this balanced sample stay in history and do not affect its ranking.
+   Each task has equal weight. Accepted count first, total trial time including
+   failures/retries second; resource-limited candidates cannot qualify as an
+   operational choice. Keep the top three plus Coder-Next as a baseline (up
+   to four models). This one-seed shortlist is provisional, not a general
+   programming capability ranking.
+
+2. Focused roles and matched team comparisons
+   At most four reviewer probes per shortlisted model: Python refactoring and
+   C++ binary parsing, each with correct and defective fixtures. Both verdicts
+   must be correct to qualify a specialist reviewer. Two developer planner
+   probes measure protocol compliance only. Compare the selected Python/C++
+   developer alone, with a reviewer (two agents), uniform three agents, and
+   mixed three agents. Same harder task and held-out seeds43/44 per profile;
+   at most16 new cases. Identical profile configurations share evidence and
+   are not counted as independent results. All private acceptance remains.
+
+3. Focused parallel processing
+   One selected overall developer, 32K context, same fixed direct workloads:
+   requested GPU slots1/2/3/4, seeds42/43/44:12 direct batches. Reuse the exact
+   h5.5 direct inference function and its 2048-token direct-output contract.
+   Separately measure actual two-job solo guarded workflow batches, one
+   Python CSV and one C++ buffer job, slots1/2/3, seeds42/43/44:9 batches.
+   Same task/seed/variant per slot count, fixed resident-model count1. Score
+   actual batch wall time. Interrupted partial batches retain all evidence;
+   fresh attempts rerun both jobs so cached work cannot inflate throughput.
+   A higher slot count needs every job accepted in all three repetitions and
+   at least15% more accepted work/hour than the one-slot control. Saved runner
+   evidence is required before claiming actual overlapping GPU inference.
+   These solo concurrency results do not establish mixed-team throughput.
+
+4. One hour of completed stability-batch work
+   Exercise the selected guarded profile; exclude downtime from measured work.
+   This replaces the original six-hour soak and recovery experiment. It is
+   explicitly not a full six-hour reliability/restart certification.
+
+Time and stopping
+   Target roughly24–48 hours. Stop admitting new work after36 hours from the
+   replacement runner's first start. Admitted trials/batches finish naturally;
+   the existing per-trial limits remain. Resume never resets this window.
+   Resource/other GPU work can cause waits; elapsed time is not guaranteed.
+   The final report states which stages remain incomplete if the cap is hit.
+   COMPLETED.json identifies only this shortened scope, with an explicit
+   full_original_matrix_complete=false field. There is no automatic production
+   promotion. The independent backup syncs final evidence before the hourly
+   check is stopped.
+
+Deployment and preservation
+   Existing private controller: openrig-programming-20261109-235342.service.
+   One-time helper: openrig-decision-switch-v1.service. It waits for the final
+   resource_limited field, native-final and every archived seat transcript.
+   It then pauses only the controller and rechecks that no new assignment was
+   admitted. A race resumes the controller and waits for another boundary.
+   A consistent native SQLite backup and full CoW checkpoint precede restart.
+   Only the private runner, inference and private native daemon restart.
+   Production services/defaults, credentials, exposure and Unity are unchanged.
+   state/boundary-checkpoint.json and state/DEPLOYMENT.json record proof.
+   previous-campaign.service and previous-active-harness-revision.json preserve
+   the original schedule; pre-change-result-sha256.json covers all prior trials.
+   source/SOURCE-MANIFEST.json covers the tested dispatch. Twelve tests passed,
+   including a full fake-runtime campaign with no real inference or services.
+
+Rollback (operator action at another verified idle boundary)
+   Preserve the current result/source/SQLite state in another checkpoint.
+   Stop only the private campaign at that boundary. Restore this folder's
+   previous-campaign.service to:
+   /home/cow/.config/systemd/user/openrig-programming-20261109-235342.service
+   Restore previous-active-harness-revision.json to the campaign root only if
+   intentionally returning to the old full schedule. Keep all shortened-plan
+   evidence, state and results. Do not delete or rewrite COMPLETED.json: if a
+   future full-scope continuation is desired, archive the finished scope marker
+   and declare a new explicit scope/continuation first. Reload the user service
+   manager and start the private unit. The old scheduler reuses same-harness
+   finished cells and preserves interrupted trials. Recheck production hashes.
+   No model, fleet or production rollback is needed because none was changed.
+
+Evidence and backup
+   The progress/decision-campaign-v1 subtree is included in the existing
+   independent GitHub backup's evidence bundles. Source, the plan and rollback
+   instructions are also directly preserved under the repository's results
+   reports. Later state and final comparisons remain in the normal backup.
