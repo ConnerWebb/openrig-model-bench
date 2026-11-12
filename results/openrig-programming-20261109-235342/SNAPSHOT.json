@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-12T19:44:39.938059+00:00",
+  "as_of_utc": "2026-11-12T19:59:49.228068+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 297,
+  "completed_case_records": 300,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -53,7 +53,7 @@
       "revision": "h5.5"
     },
     {
-      "count": 1,
+      "count": 3,
       "interrupted": false,
       "language": "python",
       "passed": true,
@@ -61,7 +61,7 @@
       "revision": "h5.5"
     },
     {
-      "count": 2,
+      "count": 3,
       "interrupted": false,
       "language": "cpp",
       "passed": true,
@@ -501,9 +501,10 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 14858,
+  "finished_transport_streams": 14906,
   "in_progress_not_scored": [
-    "decision-v1-stability-1-a1794512108948038204-0-h5.5",
+    "decision-v1-stability-3-a1794513427652780487-0-h5.5",
+    "decision-v1-stability-3-a1794513427652780487-1-h5.5",
     "plan-next-cpp-buffer-h5.4",
     "plan-next-py-queue-h5.4",
     "plan-q122-cpp-csv-h5.5",
@@ -526,8 +527,8 @@
     "probe-q27q8-py-refactor-defective-0-h5.5"
   ],
   "status": {
-    "at": 1794512108.9511912,
-    "current": "decision-v1-stability-1-a1794512108948038204-1-h5.5",
+    "at": 1794513427.6558826,
+    "current": "decision-v1-stability-3-a1794513427652780487-1-h5.5",
     "dispatch": "decision-v1",
     "dispatch_plan": "shortened-decision-campaign-v1",
     "harness_revision": "h5.5",

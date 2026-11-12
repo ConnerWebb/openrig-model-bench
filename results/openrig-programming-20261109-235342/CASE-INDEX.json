@@ -432,6 +432,21 @@
     "stored_result_sha256": "be047aded39196d7726e4827c6978be3947d77b8c7e45cee4f9494421740bcdc"
   },
   {
+    "artifact": "artifacts/cases/decision-v1-stability-1-a1794512108948038204-0-h5.5-46f459e57e7b6f74efda.tar.gz",
+    "complete": true,
+    "directory": "decision-v1-stability-1-a1794512108948038204-0-h5.5",
+    "id": "decision-v1-stability-1-a1794512108948038204-0-h5.5",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "q122"
+    },
+    "phase": "soak",
+    "revision": "h5.5",
+    "source_result_sha256": "46f459e57e7b6f74efda634d0bfa41ba84cde2cc1e2b97afc5083f6f9e0653c7",
+    "stored_result_sha256": "46f459e57e7b6f74efda634d0bfa41ba84cde2cc1e2b97afc5083f6f9e0653c7"
+  },
+  {
     "artifact": "artifacts/cases/decision-v1-stability-1-a1794512108948038204-1-h5.5-99175e2b3a0b8c6faa76.tar.gz",
     "complete": true,
     "directory": "decision-v1-stability-1-a1794512108948038204-1-h5.5",
@@ -445,6 +460,36 @@
     "revision": "h5.5",
     "source_result_sha256": "99175e2b3a0b8c6faa76ca6f379a4fa05ef2477490df3098882b805c7320f3e8",
     "stored_result_sha256": "99175e2b3a0b8c6faa76ca6f379a4fa05ef2477490df3098882b805c7320f3e8"
+  },
+  {
+    "artifact": "artifacts/cases/decision-v1-stability-2-a1794512971106295934-0-h5.5-1753d70c5f6693601fff.tar.gz",
+    "complete": true,
+    "directory": "decision-v1-stability-2-a1794512971106295934-0-h5.5",
+    "id": "decision-v1-stability-2-a1794512971106295934-0-h5.5",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "q122"
+    },
+    "phase": "soak",
+    "revision": "h5.5",
+    "source_result_sha256": "1753d70c5f6693601fff3c94ad5b772bb7f1a6f6de13157dd11c1f39d5f285d4",
+    "stored_result_sha256": "1753d70c5f6693601fff3c94ad5b772bb7f1a6f6de13157dd11c1f39d5f285d4"
+  },
+  {
+    "artifact": "artifacts/cases/decision-v1-stability-2-a1794512971106295934-1-h5.5-7368ec1f8d57dcd19c42.tar.gz",
+    "complete": true,
+    "directory": "decision-v1-stability-2-a1794512971106295934-1-h5.5",
+    "id": "decision-v1-stability-2-a1794512971106295934-1-h5.5",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "q122"
+    },
+    "phase": "soak",
+    "revision": "h5.5",
+    "source_result_sha256": "7368ec1f8d57dcd19c42d74da69da2be6a56534cb288ba8af86895be2b3ed4f7",
+    "stored_result_sha256": "7368ec1f8d57dcd19c42d74da69da2be6a56534cb288ba8af86895be2b3ed4f7"
   },
   {
     "artifact": "artifacts/cases/drift-control-next-h5.4-7c7deb374e73d8809f57.tar.gz",

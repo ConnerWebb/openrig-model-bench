@@ -1,7 +1,7 @@
 OPENRIG PYTHON / C++ CAMPAIGN — LIVE CHECKPOINT
 
 /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342
-State: {'phase': 'soak', 'at': 1794512108.9511912, 'pid': 1242258, 'harness_revision': 'h5.5', 'dispatch_plan': 'shortened-decision-campaign-v1', 'current': 'decision-v1-stability-1-a1794512108948038204-1-h5.5', 'dispatch': 'decision-v1'}
+State: {'phase': 'soak', 'at': 1794513427.6558826, 'pid': 1242258, 'harness_revision': 'h5.5', 'dispatch_plan': 'shortened-decision-campaign-v1', 'current': 'decision-v1-stability-3-a1794513427652780487-1-h5.5', 'dispatch': 'decision-v1'}
 Active harness revision: h5.5
 Historical pre-repair results remain intact in runs/ and progress/; they are not mixed into this revision's rankings. All previous completed cells are rerun, including earlier passes.
 
@@ -50,10 +50,10 @@ python: 9/9 accepted
 cpp: 9/9 accepted
   {'developer': 'q122'}, 1 agents: 9/9; sum job seconds 4460.1; accepted/hour 7.264
 PHASE soak
-python: 1/1 accepted
-  {'developer': 'q122'}, 1 agents: 1/1; sum job seconds 439.8; accepted/hour 8.185
-cpp: 2/2 accepted
-  {'developer': 'q122'}, 1 agents: 2/2; sum job seconds 857.2; accepted/hour 8.399
+python: 3/3 accepted
+  {'developer': 'q122'}, 1 agents: 3/3; sum job seconds 1757.6; accepted/hour 6.145
+cpp: 3/3 accepted
+  {'developer': 'q122'}, 1 agents: 3/3; sum job seconds 1275.0; accepted/hour 8.471
 
 Parallel job throughput uses batch wall time in parallel-jobs/*/result.json; summing overlapping job durations is NOT machine throughput. Direct inference results live in parallel-inference and must not be equated with guarded OpenRig teamwork.
 Failures and bounded timeouts remain recorded; resource failures are labelled. Reviewer probes report false approvals/rejections in role-probes, separate from developer correctness. Maintainability has no automatic numeric score masquerading as an objective test.
