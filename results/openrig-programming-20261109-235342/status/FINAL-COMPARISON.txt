@@ -1,0 +1,87 @@
+OPENRIG — SHORTENED DECISION CAMPAIGN
+Status: FINISHED DECISION SCOPE
+Original exhaustive schedule is deferred, not completed.
+Same immutable h5.5 harness, tasks, acceptance and sampling.
+
+Progress: {"at": 1794515619.2537582, "balanced_finished": 48, "deadline": 1794584969.5040553, "dispatch": "decision-v1", "full_original_matrix_complete": false, "harness_revision": "h5.5", "last_finished": "decision-v1-stability-5-a1794514470684479415-0-h5.5", "model": "q122", "outcome": "completed_shortened_scope", "phase": "complete", "shortlist": ["q122", "next", "q27q8"]}
+All h5.5 solo outcomes (coverage differs; not a ranking): {"python": {"accepted": 19, "finished": 29}, "cpp": {"accepted": 14, "finished": 28}}
+
+MATCHED FOUR-TASK SCREEN — seed42, equal task weights
+Model | accepted | resource-limited | total recorded minutes
+q122 | 4/4 | 0 | 46.23
+next | 3/4 | 0 | 66.17
+q27q8 | 3/4 | 0 | 76.47
+devstral | 3/4 | 0 | 126.02
+gpt20 | 2/4 | 0 | 19.53
+gpt120 | 2/4 | 0 | 35.40
+glm | 2/4 | 0 | 40.56
+q35 | 2/4 | 0 | 49.73
+q9 | 2/4 | 0 | 76.72
+coder30 | 2/4 | 0 | 93.17
+q27q4 | 2/4 | 0 | 101.86
+nemo | 0/4 | 0 | 68.42
+Provisional shortlist: q122, next, q27q8
+Developer by language: {"python": "q122", "cpp": "q122"}
+
+WORKFLOW_RESULTS
+{
+  "python": {
+    "label": "solo",
+    "accepted": 2,
+    "total": 2,
+    "seconds": 1316.9803183078766,
+    "reliable": true,
+    "case_ids": [
+      "solo-q122-py-queue-s43-h5.5",
+      "solo-q122-py-queue-s44-h5.5"
+    ]
+  },
+  "cpp": {
+    "label": "solo",
+    "accepted": 2,
+    "total": 2,
+    "seconds": 1271.6513872146606,
+    "reliable": true,
+    "case_ids": [
+      "solo-q122-cpp-csv-s43-h5.5",
+      "solo-q122-cpp-csv-s44-h5.5"
+    ]
+  }
+}
+
+PARALLEL_CHOICE
+{
+  "slots": 3,
+  "accepted": 6,
+  "total": 6,
+  "seconds": 2051.0904636383057,
+  "accepted_per_machine_hour": 10.530983583086366,
+  "qualified": true,
+  "minimum_meaningful_gain": 0.15,
+  "reason": "All requests accepted in three repetitions; higher concurrency requires at least 15% higher accepted-work throughput than one slot.",
+  "model": "q122",
+  "note": "This is actual two-job solo workflow throughput. Team comparisons remain separate. Requested slot counts require the saved runtime runner evidence to claim GPU overlap."
+}
+
+STABILITY
+{
+  "requested_seconds": 3600,
+  "exercised_seconds": 3950.612067461014,
+  "started": 1794511668.6236687,
+  "last_at": 1794515619.2536254,
+  "batches": 6,
+  "accepted": 12,
+  "attempted": 12,
+  "resource_limited": false,
+  "complete": true,
+  "note": "One hour of completed batch work, excluding downtime. Focused stability check; not the original six-hour soak or restart-recovery certification."
+}
+
+LIMITS
+Small, fixed task sample; practical local selection, not a broad capability ranking.
+Qualification uses supplied reference implementations and is excluded from coding scores.
+Planner probes measure protocol compliance, not objective plan quality.
+Direct API inference is separate from guarded agent work.
+Guarded parallel throughput uses batch wall time, never summed overlapping task time.
+Missing, deferred, interrupted and resource-limited evidence is explicitly labeled.
+Production defaults are not promoted or changed.

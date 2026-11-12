@@ -1,66 +1,87 @@
-OPENRIG PYTHON / C++ CAMPAIGN — LIVE CHECKPOINT
+OPENRIG — SHORTENED DECISION CAMPAIGN
+Status: FINISHED DECISION SCOPE
+Original exhaustive schedule is deferred, not completed.
+Same immutable h5.5 harness, tasks, acceptance and sampling.
 
-/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342
-State: {'phase': 'soak', 'at': 1794514470.6871762, 'pid': 1242258, 'harness_revision': 'h5.5', 'dispatch_plan': 'shortened-decision-campaign-v1', 'current': 'decision-v1-stability-5-a1794514470684479415-1-h5.5', 'dispatch': 'decision-v1'}
-Active harness revision: h5.5
-Historical pre-repair results remain intact in runs/ and progress/; they are not mixed into this revision's rankings. All previous completed cells are rerun, including earlier passes.
+Progress: {"at": 1794515619.2537582, "balanced_finished": 48, "deadline": 1794584969.5040553, "dispatch": "decision-v1", "full_original_matrix_complete": false, "harness_revision": "h5.5", "last_finished": "decision-v1-stability-5-a1794514470684479415-0-h5.5", "model": "q122", "outcome": "completed_shortened_scope", "phase": "complete", "shortlist": ["q122", "next", "q27q8"]}
+All h5.5 solo outcomes (coverage differs; not a ranking): {"python": {"accepted": 19, "finished": 29}, "cpp": {"accepted": 14, "finished": 28}}
 
-Independent task acceptance is the success criterion. Python and C++ are scored separately. Aliases are not additional models. Qualification and probes are not included in solo/team rankings.
+MATCHED FOUR-TASK SCREEN — seed42, equal task weights
+Model | accepted | resource-limited | total recorded minutes
+q122 | 4/4 | 0 | 46.23
+next | 3/4 | 0 | 66.17
+q27q8 | 3/4 | 0 | 76.47
+devstral | 3/4 | 0 | 126.02
+gpt20 | 2/4 | 0 | 19.53
+gpt120 | 2/4 | 0 | 35.40
+glm | 2/4 | 0 | 40.56
+q35 | 2/4 | 0 | 49.73
+q9 | 2/4 | 0 | 76.72
+coder30 | 2/4 | 0 | 93.17
+q27q4 | 2/4 | 0 | 101.86
+nemo | 0/4 | 0 | 68.42
+Provisional shortlist: q122, next, q27q8
+Developer by language: {"python": "q122", "cpp": "q122"}
 
-PHASE solo
-python: 19/29 accepted
-  {'developer': 'q27q4'}, 1 agents: 2/2; sum job seconds 694.8; accepted/hour 10.362
-  {'developer': 'q122'}, 1 agents: 4/4; sum job seconds 2319.3; accepted/hour 6.209
-  {'developer': 'q27q8'}, 1 agents: 2/2; sum job seconds 1520.6; accepted/hour 4.735
-  {'developer': 'devstral'}, 1 agents: 2/2; sum job seconds 3685.0; accepted/hour 1.954
-  {'developer': 'next'}, 1 agents: 3/5; sum job seconds 2613.5; accepted/hour 4.132
-  {'developer': 'q35'}, 1 agents: 1/2; sum job seconds 579.1; accepted/hour 6.216
-  {'developer': 'gpt20'}, 1 agents: 1/2; sum job seconds 731.6; accepted/hour 4.921
-  {'developer': 'glm'}, 1 agents: 1/2; sum job seconds 1122.8; accepted/hour 3.206
-  {'developer': 'gpt120'}, 1 agents: 1/2; sum job seconds 1363.8; accepted/hour 2.640
-  {'developer': 'q9'}, 1 agents: 1/2; sum job seconds 1809.7; accepted/hour 1.989
-  {'developer': 'coder30'}, 1 agents: 1/2; sum job seconds 2824.8; accepted/hour 1.274
-  {'developer': 'nemo'}, 1 agents: 0/2; sum job seconds 3287.7; accepted/hour 0.000
-cpp: 14/28 accepted
-  {'developer': 'q122'}, 1 agents: 4/4; sum job seconds 3043.2; accepted/hour 4.732
-  {'developer': 'gpt20'}, 1 agents: 1/2; sum job seconds 440.1; accepted/hour 8.180
-  {'developer': 'gpt120'}, 1 agents: 1/2; sum job seconds 760.4; accepted/hour 4.734
-  {'developer': 'glm'}, 1 agents: 1/2; sum job seconds 1310.9; accepted/hour 2.746
-  {'developer': 'q35'}, 1 agents: 1/2; sum job seconds 2404.6; accepted/hour 1.497
-  {'developer': 'coder30'}, 1 agents: 1/2; sum job seconds 2765.6; accepted/hour 1.302
-  {'developer': 'q9'}, 1 agents: 1/2; sum job seconds 2793.3; accepted/hour 1.289
-  {'developer': 'q27q8'}, 1 agents: 1/2; sum job seconds 3067.3; accepted/hour 1.174
-  {'developer': 'next'}, 1 agents: 2/4; sum job seconds 6495.4; accepted/hour 1.108
-  {'developer': 'devstral'}, 1 agents: 1/2; sum job seconds 3876.5; accepted/hour 0.929
-  {'developer': 'nemo'}, 1 agents: 0/2; sum job seconds 817.5; accepted/hour 0.000
-  {'developer': 'q27q4'}, 1 agents: 0/2; sum job seconds 5416.7; accepted/hour 0.000
-PHASE teams
-python: 3/4 accepted
-  {'developer': 'q122', 'reviewer': 'q122'}, 2 agents: 2/2; sum job seconds 1498.9; accepted/hour 4.803
-  {'lead': 'q122', 'developer': 'q122', 'reviewer': 'q122'}, 3 agents: 1/2; sum job seconds 1354.2; accepted/hour 2.658
-cpp: 2/4 accepted
-  {'lead': 'q122', 'developer': 'q122', 'reviewer': 'q122'}, 3 agents: 1/2; sum job seconds 3489.7; accepted/hour 1.032
-  {'developer': 'q122', 'reviewer': 'q122'}, 2 agents: 1/2; sum job seconds 3792.5; accepted/hour 0.949
-PHASE topology
-python: 0/0 accepted
-cpp: 0/0 accepted
-PHASE parallel-jobs
-python: 9/9 accepted
-  {'developer': 'q122'}, 1 agents: 9/9; sum job seconds 7004.9; accepted/hour 4.625
-cpp: 9/9 accepted
-  {'developer': 'q122'}, 1 agents: 9/9; sum job seconds 4460.1; accepted/hour 7.264
-PHASE soak
-python: 5/5 accepted
-  {'developer': 'q122'}, 1 agents: 5/5; sum job seconds 2799.6; accepted/hour 6.430
-cpp: 6/6 accepted
-  {'developer': 'q122'}, 1 agents: 6/6; sum job seconds 2550.8; accepted/hour 8.468
+WORKFLOW_RESULTS
+{
+  "python": {
+    "label": "solo",
+    "accepted": 2,
+    "total": 2,
+    "seconds": 1316.9803183078766,
+    "reliable": true,
+    "case_ids": [
+      "solo-q122-py-queue-s43-h5.5",
+      "solo-q122-py-queue-s44-h5.5"
+    ]
+  },
+  "cpp": {
+    "label": "solo",
+    "accepted": 2,
+    "total": 2,
+    "seconds": 1271.6513872146606,
+    "reliable": true,
+    "case_ids": [
+      "solo-q122-cpp-csv-s43-h5.5",
+      "solo-q122-cpp-csv-s44-h5.5"
+    ]
+  }
+}
 
-Parallel job throughput uses batch wall time in parallel-jobs/*/result.json; summing overlapping job durations is NOT machine throughput. Direct inference results live in parallel-inference and must not be equated with guarded OpenRig teamwork.
-Failures and bounded timeouts remain recorded; resource failures are labelled. Reviewer probes report false approvals/rejections in role-probes, separate from developer correctness. Maintainability has no automatic numeric score masquerading as an objective test.
-The case manifests, native task rows, exact-source hashes, request streams, model settings, test output and transcripts remain preserved.
-Production services, selected fleet pointers and Gremlin Garden are not modified.
-This is a finite local study with repeated task families; held-out team cases use new input seeds and composition tasks, not a claim of broad unseen-domain capability.
-Python/C++ main campaign only; C#/Unity are not scheduled here.
-Snapshots: /home/cow/Documents/Codex/Backups/openrig-programming/20261109-235342
+PARALLEL_CHOICE
+{
+  "slots": 3,
+  "accepted": 6,
+  "total": 6,
+  "seconds": 2051.0904636383057,
+  "accepted_per_machine_hour": 10.530983583086366,
+  "qualified": true,
+  "minimum_meaningful_gain": 0.15,
+  "reason": "All requests accepted in three repetitions; higher concurrency requires at least 15% higher accepted-work throughput than one slot.",
+  "model": "q122",
+  "note": "This is actual two-job solo workflow throughput. Team comparisons remain separate. Requested slot counts require the saved runtime runner evidence to claim GPU overlap."
+}
 
-Previous qualification failures are not candidate coding results. Native qualification-v2 failed due missing session-bus environment; it is an infrastructure trial. All corrected tests, ASan/UBSan and TSan probes are preserved.
+STABILITY
+{
+  "requested_seconds": 3600,
+  "exercised_seconds": 3950.612067461014,
+  "started": 1794511668.6236687,
+  "last_at": 1794515619.2536254,
+  "batches": 6,
+  "accepted": 12,
+  "attempted": 12,
+  "resource_limited": false,
+  "complete": true,
+  "note": "One hour of completed batch work, excluding downtime. Focused stability check; not the original six-hour soak or restart-recovery certification."
+}
+
+LIMITS
+Small, fixed task sample; practical local selection, not a broad capability ranking.
+Qualification uses supplied reference implementations and is excluded from coding scores.
+Planner probes measure protocol compliance, not objective plan quality.
+Direct API inference is separate from guarded agent work.
+Guarded parallel throughput uses batch wall time, never summed overlapping task time.
+Missing, deferred, interrupted and resource-limited evidence is explicitly labeled.
+Production defaults are not promoted or changed.

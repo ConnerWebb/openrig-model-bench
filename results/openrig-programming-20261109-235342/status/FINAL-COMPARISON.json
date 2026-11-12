@@ -1,0 +1,608 @@
+{
+  "at": 1794515619.2676268,
+  "dispatch": "decision-v1",
+  "harness_revision": "h5.5",
+  "final": true,
+  "full_original_matrix_complete": false,
+  "scope": {
+    "id": "decision-v1",
+    "harness_revision": "h5.5",
+    "harness_path": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/frozen-harness-v5.5",
+    "output": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342",
+    "models": [
+      "next",
+      "coder30",
+      "nemo",
+      "q35",
+      "devstral",
+      "glm",
+      "q27q4",
+      "q9",
+      "q27q8",
+      "q122",
+      "gpt120",
+      "gpt20"
+    ],
+    "balanced_tasks": [
+      "py-csv",
+      "cpp-buffer",
+      "py-queue",
+      "cpp-csv"
+    ],
+    "balanced_seed": 42,
+    "shortlist_count": 3,
+    "retain_baseline": "next",
+    "comparison_tasks": {
+      "python": "py-queue",
+      "cpp": "cpp-csv"
+    },
+    "comparison_seeds": [
+      43,
+      44
+    ],
+    "direct_slots": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "direct_seeds": [
+      42,
+      43,
+      44
+    ],
+    "guarded_slots": [
+      1,
+      2,
+      3
+    ],
+    "guarded_seeds": [
+      42,
+      43,
+      44
+    ],
+    "context": 32768,
+    "admission_hours": 36,
+    "stability_seconds": 3600,
+    "scope_note": "Shortened by user approval. Dispatch changes only: same h5.5 cases, scopes, private acceptance, sampling, budgets and tool/runtime source. Existing identical cells are reused; revisions are never pooled. Single seed balanced screening supports a practical shortlist, not a general ranking. Full original matrix deferred, not failed or completed."
+  },
+  "progress": {
+    "phase": "complete",
+    "at": 1794515619.2537582,
+    "dispatch": "decision-v1",
+    "harness_revision": "h5.5",
+    "deadline": 1794584969.5040553,
+    "last_finished": "decision-v1-stability-5-a1794514470684479415-0-h5.5",
+    "balanced_finished": 48,
+    "shortlist": [
+      "q122",
+      "next",
+      "q27q8"
+    ],
+    "model": "q122",
+    "outcome": "completed_shortened_scope",
+    "full_original_matrix_complete": false
+  },
+  "selection": {
+    "rankings": [
+      {
+        "model": "next",
+        "accepted": 3,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 3970.442668199539,
+        "case_ids": [
+          "solo-next-py-csv-s42-h5.5",
+          "solo-next-cpp-buffer-s42-h5.5",
+          "solo-next-py-queue-s42-h5.5",
+          "solo-next-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "coder30",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 5590.3754506111145,
+        "case_ids": [
+          "solo-coder30-py-csv-s42-h5.5",
+          "solo-coder30-cpp-buffer-s42-h5.5",
+          "solo-coder30-py-queue-s42-h5.5",
+          "solo-coder30-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "nemo",
+        "accepted": 0,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 4105.265514373779,
+        "case_ids": [
+          "solo-nemo-py-csv-s42-h5.5",
+          "solo-nemo-cpp-buffer-s42-h5.5",
+          "solo-nemo-py-queue-s42-h5.5",
+          "solo-nemo-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "q35",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 2983.691507101059,
+        "case_ids": [
+          "solo-q35-py-csv-s42-h5.5",
+          "solo-q35-cpp-buffer-s42-h5.5",
+          "solo-q35-py-queue-s42-h5.5",
+          "solo-q35-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "devstral",
+        "accepted": 3,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 7561.483148813248,
+        "case_ids": [
+          "solo-devstral-py-csv-s42-h5.5",
+          "solo-devstral-cpp-buffer-s42-h5.5",
+          "solo-devstral-py-queue-s42-h5.5",
+          "solo-devstral-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "glm",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 2433.6189544200897,
+        "case_ids": [
+          "solo-glm-py-csv-s42-h5.5",
+          "solo-glm-cpp-buffer-s42-h5.5",
+          "solo-glm-py-queue-s42-h5.5",
+          "solo-glm-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "q27q4",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 6111.516872882843,
+        "case_ids": [
+          "solo-q27q4-py-csv-s42-h5.5",
+          "solo-q27q4-cpp-buffer-s42-h5.5",
+          "solo-q27q4-py-queue-s42-h5.5",
+          "solo-q27q4-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "q9",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 4602.992034912109,
+        "case_ids": [
+          "solo-q9-py-csv-s42-h5.5",
+          "solo-q9-cpp-buffer-s42-h5.5",
+          "solo-q9-py-queue-s42-h5.5",
+          "solo-q9-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "q27q8",
+        "accepted": 3,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 4587.953368425369,
+        "case_ids": [
+          "solo-q27q8-py-csv-s42-h5.5",
+          "solo-q27q8-cpp-buffer-s42-h5.5",
+          "solo-q27q8-py-queue-s42-h5.5",
+          "solo-q27q8-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "q122",
+        "accepted": 4,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 2773.8360874652863,
+        "case_ids": [
+          "solo-q122-py-csv-s42-h5.5",
+          "solo-q122-cpp-buffer-s42-h5.5",
+          "solo-q122-py-queue-s42-h5.5",
+          "solo-q122-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "gpt120",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 2124.2232909202576,
+        "case_ids": [
+          "solo-gpt120-py-csv-s42-h5.5",
+          "solo-gpt120-cpp-buffer-s42-h5.5",
+          "solo-gpt120-py-queue-s42-h5.5",
+          "solo-gpt120-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "gpt20",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 1171.6285407543182,
+        "case_ids": [
+          "solo-gpt20-py-csv-s42-h5.5",
+          "solo-gpt20-cpp-buffer-s42-h5.5",
+          "solo-gpt20-py-queue-s42-h5.5",
+          "solo-gpt20-cpp-csv-s42-h5.5"
+        ]
+      }
+    ],
+    "ranked_eligible": [
+      {
+        "model": "q122",
+        "accepted": 4,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 2773.8360874652863,
+        "case_ids": [
+          "solo-q122-py-csv-s42-h5.5",
+          "solo-q122-cpp-buffer-s42-h5.5",
+          "solo-q122-py-queue-s42-h5.5",
+          "solo-q122-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "next",
+        "accepted": 3,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 3970.442668199539,
+        "case_ids": [
+          "solo-next-py-csv-s42-h5.5",
+          "solo-next-cpp-buffer-s42-h5.5",
+          "solo-next-py-queue-s42-h5.5",
+          "solo-next-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "q27q8",
+        "accepted": 3,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 4587.953368425369,
+        "case_ids": [
+          "solo-q27q8-py-csv-s42-h5.5",
+          "solo-q27q8-cpp-buffer-s42-h5.5",
+          "solo-q27q8-py-queue-s42-h5.5",
+          "solo-q27q8-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "devstral",
+        "accepted": 3,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 7561.483148813248,
+        "case_ids": [
+          "solo-devstral-py-csv-s42-h5.5",
+          "solo-devstral-cpp-buffer-s42-h5.5",
+          "solo-devstral-py-queue-s42-h5.5",
+          "solo-devstral-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "gpt20",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 1171.6285407543182,
+        "case_ids": [
+          "solo-gpt20-py-csv-s42-h5.5",
+          "solo-gpt20-cpp-buffer-s42-h5.5",
+          "solo-gpt20-py-queue-s42-h5.5",
+          "solo-gpt20-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "gpt120",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 2124.2232909202576,
+        "case_ids": [
+          "solo-gpt120-py-csv-s42-h5.5",
+          "solo-gpt120-cpp-buffer-s42-h5.5",
+          "solo-gpt120-py-queue-s42-h5.5",
+          "solo-gpt120-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "glm",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 2433.6189544200897,
+        "case_ids": [
+          "solo-glm-py-csv-s42-h5.5",
+          "solo-glm-cpp-buffer-s42-h5.5",
+          "solo-glm-py-queue-s42-h5.5",
+          "solo-glm-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "q35",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 2983.691507101059,
+        "case_ids": [
+          "solo-q35-py-csv-s42-h5.5",
+          "solo-q35-cpp-buffer-s42-h5.5",
+          "solo-q35-py-queue-s42-h5.5",
+          "solo-q35-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "q9",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 4602.992034912109,
+        "case_ids": [
+          "solo-q9-py-csv-s42-h5.5",
+          "solo-q9-cpp-buffer-s42-h5.5",
+          "solo-q9-py-queue-s42-h5.5",
+          "solo-q9-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "coder30",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 5590.3754506111145,
+        "case_ids": [
+          "solo-coder30-py-csv-s42-h5.5",
+          "solo-coder30-cpp-buffer-s42-h5.5",
+          "solo-coder30-py-queue-s42-h5.5",
+          "solo-coder30-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "q27q4",
+        "accepted": 2,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 6111.516872882843,
+        "case_ids": [
+          "solo-q27q4-py-csv-s42-h5.5",
+          "solo-q27q4-cpp-buffer-s42-h5.5",
+          "solo-q27q4-py-queue-s42-h5.5",
+          "solo-q27q4-cpp-csv-s42-h5.5"
+        ]
+      },
+      {
+        "model": "nemo",
+        "accepted": 0,
+        "total": 4,
+        "resource_limited": 0,
+        "seconds": 4105.265514373779,
+        "case_ids": [
+          "solo-nemo-py-csv-s42-h5.5",
+          "solo-nemo-cpp-buffer-s42-h5.5",
+          "solo-nemo-py-queue-s42-h5.5",
+          "solo-nemo-cpp-csv-s42-h5.5"
+        ]
+      }
+    ],
+    "shortlist": [
+      "q122",
+      "next",
+      "q27q8"
+    ],
+    "developer_by_language": {
+      "python": "q122",
+      "cpp": "q122"
+    },
+    "balanced_complete": true,
+    "selection_rule": "Equal weight per balanced task; accepted count first, total recorded time including failures/retries second. Resource-limited candidates do not qualify. One seed only; provisional practical shortlist."
+  },
+  "score_note": "Only the four balanced tasks at seed42 determine the shortlist. Extra historical tasks are retained and reported separately, never silently pooled into that ranking.",
+  "all_h55_solo_scores": {
+    "python": {
+      "accepted": 19,
+      "finished": 29
+    },
+    "cpp": {
+      "accepted": 14,
+      "finished": 28
+    }
+  },
+  "limits": [
+    "Small, fixed task sample; practical local selection, not a broad capability ranking.",
+    "Qualification uses supplied reference implementations and is excluded from coding scores.",
+    "Planner probes measure protocol compliance, not objective plan quality.",
+    "Direct API inference is separate from guarded agent work.",
+    "Guarded parallel throughput uses batch wall time, never summed overlapping task time.",
+    "Missing, deferred, interrupted and resource-limited evidence is explicitly labeled.",
+    "Production defaults are not promoted or changed."
+  ],
+  "workflow_results": {
+    "python": {
+      "label": "solo",
+      "accepted": 2,
+      "total": 2,
+      "seconds": 1316.9803183078766,
+      "reliable": true,
+      "case_ids": [
+        "solo-q122-py-queue-s43-h5.5",
+        "solo-q122-py-queue-s44-h5.5"
+      ]
+    },
+    "cpp": {
+      "label": "solo",
+      "accepted": 2,
+      "total": 2,
+      "seconds": 1271.6513872146606,
+      "reliable": true,
+      "case_ids": [
+        "solo-q122-cpp-csv-s43-h5.5",
+        "solo-q122-cpp-csv-s44-h5.5"
+      ]
+    }
+  },
+  "parallel_choice": {
+    "slots": 3,
+    "accepted": 6,
+    "total": 6,
+    "seconds": 2051.0904636383057,
+    "accepted_per_machine_hour": 10.530983583086366,
+    "qualified": true,
+    "minimum_meaningful_gain": 0.15,
+    "reason": "All requests accepted in three repetitions; higher concurrency requires at least 15% higher accepted-work throughput than one slot.",
+    "model": "q122",
+    "note": "This is actual two-job solo workflow throughput. Team comparisons remain separate. Requested slot counts require the saved runtime runner evidence to claim GPU overlap."
+  },
+  "stability": {
+    "requested_seconds": 3600,
+    "exercised_seconds": 3950.612067461014,
+    "started": 1794511668.6236687,
+    "last_at": 1794515619.2536254,
+    "batches": 6,
+    "accepted": 12,
+    "attempted": 12,
+    "resource_limited": false,
+    "complete": true,
+    "note": "One hour of completed batch work, excluding downtime. Focused stability check; not the original six-hour soak or restart-recovery certification."
+  },
+  "comparison_plan": {
+    "profiles": {
+      "python": {
+        "solo": {
+          "topology": 1,
+          "models": {
+            "developer": "q122"
+          }
+        },
+        "review-pair": {
+          "topology": 2,
+          "models": {
+            "developer": "q122",
+            "reviewer": "q122"
+          }
+        },
+        "uniform-three": {
+          "topology": 3,
+          "models": {
+            "lead": "q122",
+            "developer": "q122",
+            "reviewer": "q122"
+          }
+        },
+        "mixed-three": {
+          "topology": 3,
+          "models": {
+            "lead": "q122",
+            "developer": "q122",
+            "reviewer": "q122"
+          }
+        }
+      },
+      "cpp": {
+        "solo": {
+          "topology": 1,
+          "models": {
+            "developer": "q122"
+          }
+        },
+        "review-pair": {
+          "topology": 2,
+          "models": {
+            "developer": "q122",
+            "reviewer": "q122"
+          }
+        },
+        "uniform-three": {
+          "topology": 3,
+          "models": {
+            "lead": "q122",
+            "developer": "q122",
+            "reviewer": "q122"
+          }
+        },
+        "mixed-three": {
+          "topology": 3,
+          "models": {
+            "lead": "q122",
+            "developer": "q122",
+            "reviewer": "q122"
+          }
+        }
+      }
+    },
+    "case_ids": {
+      "python": {
+        "solo": [
+          "solo-q122-py-queue-s43-h5.5",
+          "solo-q122-py-queue-s44-h5.5"
+        ],
+        "review-pair": [
+          "decision-v1-python-review-pair-s43-h5.5",
+          "decision-v1-python-review-pair-s44-h5.5"
+        ],
+        "uniform-three": [
+          "decision-v1-python-uniform-three-s43-h5.5",
+          "decision-v1-python-uniform-three-s44-h5.5"
+        ],
+        "mixed-three": [
+          "decision-v1-python-uniform-three-s43-h5.5",
+          "decision-v1-python-uniform-three-s44-h5.5"
+        ]
+      },
+      "cpp": {
+        "solo": [
+          "solo-q122-cpp-csv-s43-h5.5",
+          "solo-q122-cpp-csv-s44-h5.5"
+        ],
+        "review-pair": [
+          "decision-v1-cpp-review-pair-s43-h5.5",
+          "decision-v1-cpp-review-pair-s44-h5.5"
+        ],
+        "uniform-three": [
+          "decision-v1-cpp-uniform-three-s43-h5.5",
+          "decision-v1-cpp-uniform-three-s44-h5.5"
+        ],
+        "mixed-three": [
+          "decision-v1-cpp-uniform-three-s43-h5.5",
+          "decision-v1-cpp-uniform-three-s44-h5.5"
+        ]
+      }
+    },
+    "identical_profile_aliases": {
+      "python/mixed-three": "uniform-three",
+      "cpp/mixed-three": "uniform-three"
+    },
+    "seeds": [
+      43,
+      44
+    ],
+    "variant": 0,
+    "notes": "Same task/seed/variant per profile. Solo control has no reviewer; all final acceptance remains private and unchanged. Duplicated identical profiles reuse the same evidence, never count as independent repetitions."
+  },
+  "role_selection": {
+    "reviewers": {
+      "python": "q122",
+      "cpp": "q122"
+    },
+    "leaders": {
+      "python": "q122",
+      "cpp": "q122"
+    },
+    "note": "Reviewers must correctly judge both correct and defective fixtures; different qualified reviewer preferred for the mixed comparison. If none qualifies, developer is the unqualified fallback and no specialist quality claim is made. Planning is protocol-only; Coder-Next is fallback."
+  }
+}

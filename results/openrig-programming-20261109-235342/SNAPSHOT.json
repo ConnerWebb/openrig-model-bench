@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-12T20:30:13.832568+00:00",
+  "as_of_utc": "2026-11-12T20:45:20.630146+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 305,
+  "completed_case_records": 306,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -53,7 +53,7 @@
       "revision": "h5.5"
     },
     {
-      "count": 5,
+      "count": 6,
       "interrupted": false,
       "language": "python",
       "passed": true,
@@ -501,9 +501,8 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 14991,
+  "finished_transport_streams": 14995,
   "in_progress_not_scored": [
-    "decision-v1-stability-5-a1794514470684479415-0-h5.5",
     "plan-next-cpp-buffer-h5.4",
     "plan-next-py-queue-h5.4",
     "plan-q122-cpp-csv-h5.5",
@@ -526,12 +525,12 @@
     "probe-q27q8-py-refactor-defective-0-h5.5"
   ],
   "status": {
-    "at": 1794514470.6871762,
-    "current": "decision-v1-stability-5-a1794514470684479415-1-h5.5",
+    "at": 1794515619.2590666,
     "dispatch": "decision-v1",
     "dispatch_plan": "shortened-decision-campaign-v1",
     "harness_revision": "h5.5",
-    "phase": "soak",
+    "outcome": "completed_shortened_scope",
+    "phase": "complete",
     "pid": 1242258
   }
 }

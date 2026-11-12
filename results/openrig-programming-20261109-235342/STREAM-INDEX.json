@@ -146715,6 +146715,34 @@
       }
     },
     {
+      "at": 1794515553.682994,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45935,
+        "applied": true,
+        "before_bytes": 98263,
+        "dropped_messages": 38,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 30.19543047301704,
+      "first_content_seconds": 30.19543047301704,
+      "first_delivered_seconds": 30.19543970003724,
+      "id": "69a09a961db5416a9dcba17ca75d8c81",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-stability-5-a1794514470684479415-0-h5.5/developer",
+      "seconds": 30.231204683019314,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 11089,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11104
+      }
+    },
+    {
       "at": 1794319721.204843,
       "complete": true,
       "first_any_seconds": 2.3149472159857396,
@@ -167622,6 +167650,28 @@
       }
     },
     {
+      "at": 1794515317.885039,
+      "complete": false,
+      "context_policy": {
+        "after_bytes": 46449,
+        "applied": true,
+        "before_bytes": 86674,
+        "dropped_messages": 27,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "error": "[Errno 32] Broken pipe",
+      "first_any_seconds": 29.420576984004583,
+      "first_content_seconds": 29.420576984004583,
+      "first_delivered_seconds": 29.4205853700405,
+      "id": "781fe3c6fd994ee783c38b178971001d",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-stability-5-a1794514470684479415-0-h5.5/developer",
+      "seconds": 126.87212464003824,
+      "usage": null
+    },
+    {
       "at": 1794489053.429724,
       "complete": true,
       "context_policy": {
@@ -176912,6 +176962,34 @@
       "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
       "seconds": 0.004145251994486898,
       "usage": null
+    },
+    {
+      "at": 1794515374.5693026,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46775,
+        "applied": true,
+        "before_bytes": 88997,
+        "dropped_messages": 30,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 99.72068736399524,
+      "first_content_seconds": 99.72068736399524,
+      "first_delivered_seconds": 99.7206994870212,
+      "id": "7edf587794224247be5d283f3ff95931",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-stability-5-a1794514470684479415-0-h5.5/developer",
+      "seconds": 178.97279258200433,
+      "usage": {
+        "completion_tokens": 2115,
+        "prompt_tokens": 11072,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13187
+      }
     },
     {
       "at": 1794410185.4624038,
@@ -352852,6 +352930,34 @@
           "cached_tokens": 2171
         },
         "total_tokens": 14638
+      }
+    },
+    {
+      "at": 1794515586.7318268,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 39527,
+        "applied": true,
+        "before_bytes": 101710,
+        "dropped_messages": 42,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 24.906476915988605,
+      "first_content_seconds": 24.906476915988605,
+      "first_delivered_seconds": 24.906486854015384,
+      "id": "fa5da06bd13b43bf905c11538fec8f7a",
+      "model": "campaign-q122-s44-c32768",
+      "normalized_tool_call": false,
+      "prefix": "decision-v1-stability-5-a1794514470684479415-0-h5.5/developer",
+      "seconds": 25.88145996100502,
+      "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 9447,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9474
       }
     },
     {
