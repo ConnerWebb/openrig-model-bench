@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-12T17:27:46.937992+00:00",
+  "as_of_utc": "2026-11-12T17:42:55.640477+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 276,
+  "completed_case_records": 277,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -34,6 +34,14 @@
       "language": "python",
       "passed": false,
       "phase": "teams",
+      "revision": "h5.5"
+    },
+    {
+      "count": 1,
+      "interrupted": false,
+      "language": "cpp",
+      "passed": true,
+      "phase": "parallel-jobs",
       "revision": "h5.5"
     },
     {
@@ -469,8 +477,9 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 14447,
+  "finished_transport_streams": 14483,
   "in_progress_not_scored": [
+    "decision-v1-solo-q122-p1-s42-a1794504576345979433-0-h5.5",
     "plan-next-cpp-buffer-h5.4",
     "plan-next-py-queue-h5.4",
     "plan-q122-cpp-csv-h5.5",
@@ -493,12 +502,12 @@
     "probe-q27q8-py-refactor-defective-0-h5.5"
   ],
   "status": {
-    "at": 1794500292.413497,
+    "at": 1794504576.3492355,
+    "current": "decision-v1-solo-q122-p1-s42-a1794504576345979433-0-h5.5",
     "dispatch": "decision-v1",
     "dispatch_plan": "shortened-decision-campaign-v1",
     "harness_revision": "h5.5",
-    "model": "q122",
-    "phase": "decision-direct-concurrency",
+    "phase": "parallel-jobs",
     "pid": 1242258
   }
 }

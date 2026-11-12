@@ -1,0 +1,34 @@
+{
+  "id": "decision-v1-solo-q122-p1-s42-a1794504576345979433-1-h5.5",
+  "task": "cpp-buffer",
+  "language": "cpp",
+  "models": {
+    "developer": "q122"
+  },
+  "seed": 42,
+  "variant": 301,
+  "topology": 1,
+  "phase": "parallel-jobs",
+  "harness_revision": "h5.5",
+  "started": 1794504576.3552613,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-5005ef51f4a5",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794504577.490966,
+      "incoming_feedback": "None. "
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "f25968b112e71ca8985c40881451ef3e37ebfadbaa99e33e528059235130619e",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/decision-v1-solo-q122-p1-s42-a1794504576345979433-1-h5.5/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794505126.420188,
+  "seconds": 550.0649266242981,
+  "resource_limited": false
+}

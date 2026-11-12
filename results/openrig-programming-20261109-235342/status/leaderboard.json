@@ -981,5 +981,17 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "parallel-jobs",
+    "language": "cpp",
+    "task": "cpp-buffer",
+    "models": "{'developer': 'q122'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 550.0649266242981,
+    "accepted_tasks_per_hour": 6.544681956169966,
+    "failures": []
   }
 ]
