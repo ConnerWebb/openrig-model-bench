@@ -1,0 +1,42 @@
+{
+  "id": "solo-coder30-py-queue-s42-h5.5",
+  "task": "py-queue",
+  "language": "python",
+  "models": {
+    "developer": "coder30"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794455371.411034,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-cf1e1ecaace0",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794455376.9099855,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794456279.2807097,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    },
+    {
+      "attempt": 3,
+      "started": 1794457181.6794915,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "Fifteen-minute agent-turn deadline reached",
+  "finished": 1794458082.2424052,
+  "seconds": 2710.8313710689545,
+  "resource_limited": false
+}
