@@ -312,6 +312,36 @@
     "stored_result_sha256": "832853f01c222b7c2d06f7622f6f86593c23a679b5987e74646347fdb88319a7"
   },
   {
+    "artifact": "artifacts/cases/decision-v1-solo-q122-p3-s42-a1794509617283749381-0-h5.5-61183e7335eea46c70d3.tar.gz",
+    "complete": true,
+    "directory": "decision-v1-solo-q122-p3-s42-a1794509617283749381-0-h5.5",
+    "id": "decision-v1-solo-q122-p3-s42-a1794509617283749381-0-h5.5",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "q122"
+    },
+    "phase": "parallel-jobs",
+    "revision": "h5.5",
+    "source_result_sha256": "61183e7335eea46c70d35649ab676c4295c838981a4c76c170311cc0a53c7907",
+    "stored_result_sha256": "61183e7335eea46c70d35649ab676c4295c838981a4c76c170311cc0a53c7907"
+  },
+  {
+    "artifact": "artifacts/cases/decision-v1-solo-q122-p3-s42-a1794509617283749381-1-h5.5-e54459b12fb2b30b3694.tar.gz",
+    "complete": true,
+    "directory": "decision-v1-solo-q122-p3-s42-a1794509617283749381-1-h5.5",
+    "id": "decision-v1-solo-q122-p3-s42-a1794509617283749381-1-h5.5",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "q122"
+    },
+    "phase": "parallel-jobs",
+    "revision": "h5.5",
+    "source_result_sha256": "e54459b12fb2b30b369492974f5ca2f5ddbd00c94c841abd09e971397a6d9762",
+    "stored_result_sha256": "e54459b12fb2b30b369492974f5ca2f5ddbd00c94c841abd09e971397a6d9762"
+  },
+  {
     "artifact": "artifacts/cases/drift-control-next-h5.4-7c7deb374e73d8809f57.tar.gz",
     "complete": true,
     "directory": "drift-control-next-h5.4",
