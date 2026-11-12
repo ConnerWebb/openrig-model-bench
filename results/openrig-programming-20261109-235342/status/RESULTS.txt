@@ -52,8 +52,8 @@ cpp: 9/9 accepted
 PHASE soak
 python: 5/5 accepted
   {'developer': 'q122'}, 1 agents: 5/5; sum job seconds 2799.6; accepted/hour 6.430
-cpp: 5/5 accepted
-  {'developer': 'q122'}, 1 agents: 5/5; sum job seconds 2153.2; accepted/hour 8.359
+cpp: 6/6 accepted
+  {'developer': 'q122'}, 1 agents: 6/6; sum job seconds 2550.8; accepted/hour 8.468
 
 Parallel job throughput uses batch wall time in parallel-jobs/*/result.json; summing overlapping job durations is NOT machine throughput. Direct inference results live in parallel-inference and must not be equated with guarded OpenRig teamwork.
 Failures and bounded timeouts remain recorded; resource failures are labelled. Reviewer probes report false approvals/rejections in role-probes, separate from developer correctness. Maintainability has no automatic numeric score masquerading as an objective test.
