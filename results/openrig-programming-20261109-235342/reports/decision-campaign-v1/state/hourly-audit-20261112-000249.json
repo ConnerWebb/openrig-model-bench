@@ -1,0 +1,142 @@
+{
+  "at": 1794463369.3551998,
+  "dispatch": "decision-v1",
+  "harness_revision": "h5.5",
+  "status": {
+    "phase": "solo",
+    "at": 1794461215.4899726,
+    "pid": 1242258,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "shortened-decision-campaign-v1",
+    "current": "solo-q35-cpp-csv-s42-h5.5",
+    "dispatch": "decision-v1"
+  },
+  "heartbeat": {
+    "at": 1794463369.7389774,
+    "pid": 1242258,
+    "active_jobs": [
+      "solo-q35-cpp-csv-s42-h5.5"
+    ],
+    "available": 82296258560
+  },
+  "balanced_finished": 31,
+  "balanced_target": 48,
+  "scores": {
+    "python": {
+      "balanced_accepted": 11,
+      "balanced_finished": 16,
+      "all_h55_accepted": 13,
+      "all_h55_finished": 19
+    },
+    "cpp": {
+      "balanced_accepted": 11,
+      "balanced_finished": 15,
+      "all_h55_accepted": 11,
+      "all_h55_finished": 17
+    }
+  },
+  "latest_finished": [
+    {
+      "id": "solo-coder30-py-queue-s42-h5.5",
+      "complete": false,
+      "resource_limited": false,
+      "seconds": 2710.8313710689545,
+      "feedback": "Fifteen-minute agent-turn deadline reached"
+    },
+    {
+      "id": "solo-nemo-py-queue-s42-h5.5",
+      "complete": false,
+      "resource_limited": false,
+      "seconds": 2116.054109811783,
+      "feedback": "Bounded stage/job deadline exceeded: developer"
+    },
+    {
+      "id": "solo-nemo-cpp-csv-s42-h5.5",
+      "complete": false,
+      "resource_limited": false,
+      "seconds": 712.1320219039917,
+      "feedback": "Six unchanged repetitions of the same command and output; no progress"
+    },
+    {
+      "id": "solo-q35-py-queue-s42-h5.5",
+      "complete": false,
+      "resource_limited": false,
+      "seconds": 303.09202671051025,
+      "feedback": "Independent acceptance found contract failures: {\"passed\": false, \"count\": 20, \"hash\": \"08ebf4c8f747344f75b6dd3b952523e6794edea9d5259ba9acbb14e367b83bba\", \"mode\": \"verification-suite\", \"checks\": {\"normal\": {\"passed\": false, \"count\": 20, \"hash\": \"08ebf4c8f747344f75b6dd3b952523e6794edea9d5259ba9acbb14e367b83bba\", \"mode\": \"normal\", \"compile\": null, \"failures\": [{\"case\": 16, \"exit\": 0, \"actual\": {\"value\": [[\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"10\", \"11\", \"12\", \"13\", \"14\", \"15\", \"16\", \"17\", \"18\", \"19\", \"20\", \"21\", \"22\", \"23\", \"24\", \"25\", \"26\", \"27\", \"28\", \"29\", \"30\", \"31\", \"32\", \"33\", \"34\", \"35\", \"36\", \"37\", \"38\", \"39\", \"40\", \"41\", \"42\", \"43\", \"44\", \"45\", \"46\", \"47\", \"48\", \"49\", \"50\", \"51\", \"52\", \"53\", \"54\", \"55\", \"56\", \"57\", \"58\", \"59\", \"60\"]]}, \"expected\": \"independent contract check failed\", \"stderr\": \"\"}, {\"case\": 17, \"exit\": 0, \"actual\": {\"value\": [[\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"10\", \"11\", \"12\", \"13\", \"14\", \"15\", \"16\", \"17\", \"18\", \"19\", \"20\", \"21\", \"22\", \"23\", \"24\", \"25\", \"26\", \"27\", \"28\", \"29\", \"30\", \"31\", \"32\", \"33\", \"34\", \"35\", \"36\", \"37\", \"38\", \"39\", \"40\", \"41\", \"42\", \"43\", \"44\", \"45\", \"46\", \"47\", \"48\", \"49\", \"50\", \"51\", \"52\", \"53\", \"54\", \"55\", \"56\", \"57\", \"58\", \"59\", \"60\", \"61\", \"62\", \"63\", \"64\", \"65\", \"66\", \"67\", \"68\", \"69\", \"70\", \"71\", \"72\", \"73\", \"74\", \"75\", \"76\", \"77\", \"78\", \"79\", \"80\", \"81\", \"82\", \"83\", \"84\", \"85\", \"86\", \"87\"]]}, \"expected\": \"independent contract check failed\", \"stderr\": \"\"}]}}, \"failed_modes\": [\"normal\"], \"not_run\": {}, \"source_changed\": false}"
+    }
+  ],
+  "active_fixed_checks": {
+    "normal": false
+  },
+  "active_saved_tests": false,
+  "notes": [
+    "Current Qwen3.5 C++ CSV trial remains active on its third bounded attempt. Failed fixed and saved tests are preserved; no final score assigned.",
+    "Latest finished Qwen3.5 Python queue trial failed private concurrency acceptance. Nemo failures include code/test and tool/workflow limits. These are separate from resource failures.",
+    "All stream errors in this window overlap recorded native or controller deadlines; no new reproducible harness or sanitizer-feedback defect. No C++ sanitizer mode is requested for the CSV task; earlier per-mode ASan/TSan evidence remains preserved."
+  ],
+  "resource_window": {
+    "samples": 591,
+    "minimum_available_gib": 76.12638473510742,
+    "swapin_pages": 25,
+    "swapout_pages": 0,
+    "oom_kills": 0,
+    "optional_thermal_error_samples": 216
+  },
+  "error_correlations": [
+    {
+      "request": "768d309bf7864809bc3273077735f4bb",
+      "classification": "Recorded bounded deadline cancellation",
+      "evidence": [
+        {
+          "path": "outputs/openrig-programming-20261109-235342/runs/solo-nemo-py-queue-s42-h5.5/seats/developer/control/failed-stage-qitem-1794458998-6c904660c18f4a2e.json",
+          "at": 1794460198.7990832,
+          "reason": "Bounded stage/job deadline exceeded: developer"
+        }
+      ]
+    },
+    {
+      "request": "0a9dedaccc964d2e8fd74ee31c1722e4",
+      "classification": "Recorded bounded deadline cancellation",
+      "evidence": [
+        {
+          "path": "outputs/openrig-programming-20261109-235342/runs/solo-q35-cpp-csv-s42-h5.5/seats/developer/control/failed-stage-qitem-1794462068-ff499542fd074de5.json",
+          "at": 1794462969.3589325,
+          "reason": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+        }
+      ]
+    }
+  ],
+  "immutable_source_and_previous_results_verified": true,
+  "previous_result_count": 242,
+  "production_preserved": true,
+  "github_head_verified": "19445b0db6cdae99000e6466b756e2c49edfaa4a",
+  "backup_status": {
+    "at_utc": "2026-11-12T05:48:59.320839+00:00",
+    "export_errors": [],
+    "finished_case_records": 247,
+    "finished_transport_streams": 12843,
+    "head": "19445b0db6cdae99000e6466b756e2c49edfaa4a",
+    "success": true
+  },
+  "live_chart": {
+    "checked_at": 1794463365.8532221,
+    "error": null,
+    "campaign_pid": 1242258,
+    "heartbeat_at": 1794463365.6951861,
+    "active_jobs": [
+      "solo-q35-cpp-csv-s42-h5.5"
+    ],
+    "phase": "solo",
+    "current": "solo-q35-cpp-csv-s42-h5.5",
+    "revision": "h5.5",
+    "captured_at": 1794461223.7939804,
+    "captured_label": "Nov 11, 2026 \u00b7 11:27:03 PM CST",
+    "result_identity": "233f3e54f2cf6e94ce99d5a54ca4b251a42ba65716853efdf26f09d4849683c8",
+    "finished_solo_trials": 177
+  },
+  "admission_window": {
+    "started": 1794455369.5040553,
+    "deadline": 1794584969.5040553
+  },
+  "action": "Continue shortened dispatch unchanged. No service restart, agent interruption, production change or user action required."
+}
