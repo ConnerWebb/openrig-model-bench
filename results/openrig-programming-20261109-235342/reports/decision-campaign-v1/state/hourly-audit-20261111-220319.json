@@ -1,0 +1,81 @@
+{
+  "at": 1794456199.760411,
+  "dispatch": "decision-v1",
+  "harness_revision": "h5.5",
+  "status": {
+    "phase": "solo",
+    "at": 1794455371.4059217,
+    "pid": 1242258,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "shortened-decision-campaign-v1",
+    "current": "solo-coder30-py-queue-s42-h5.5",
+    "dispatch": "decision-v1"
+  },
+  "heartbeat": {
+    "at": 1794456200.0043397,
+    "pid": 1242258,
+    "active_jobs": [
+      "solo-coder30-py-queue-s42-h5.5"
+    ],
+    "available": 83585105920
+  },
+  "balanced_finished": 27,
+  "balanced_target": 48,
+  "all_h55_solo_scores": {
+    "python": {
+      "accepted": 13,
+      "finished": 16
+    },
+    "cpp": {
+      "accepted": 11,
+      "finished": 16
+    }
+  },
+  "current_public_checks": {
+    "normal": false
+  },
+  "current_authored_tests": false,
+  "classification": "Current Python trial is actively debugging failed fixed and/or authored checks. It is not a finalized failure. No protocol/context/monitor/resource error observed in this window.",
+  "resource_window": {
+    "samples": 593,
+    "minimum_available_gib": 77.73613739013672,
+    "swapin_pages": 49,
+    "swapout_pages": 0,
+    "private_oom_kills": 0,
+    "optional_thermal_error_samples": 0
+  },
+  "errors": [],
+  "previous_results_hash_verified": 242,
+  "immutable_sources_verified": true,
+  "production_preserved": true,
+  "github_head_verified": "f62f63012bcebbe296ad723a459ea86411e74bb0",
+  "backup_status": {
+    "at_utc": "2026-11-12T04:02:20.817088+00:00",
+    "export_errors": [],
+    "finished_case_records": 243,
+    "finished_transport_streams": 12231,
+    "head": "f62f63012bcebbe296ad723a459ea86411e74bb0",
+    "success": true
+  },
+  "live_chart": {
+    "checked_at": 1794456196.2037613,
+    "error": null,
+    "campaign_pid": 1242258,
+    "heartbeat_at": 1794456195.94954,
+    "active_jobs": [
+      "solo-coder30-py-queue-s42-h5.5"
+    ],
+    "phase": "solo",
+    "current": "solo-coder30-py-queue-s42-h5.5",
+    "revision": "h5.5",
+    "captured_at": 1794451525.7558038,
+    "captured_label": "Nov 11, 2026 \u00b7 08:45:25 PM CST",
+    "result_identity": "c61434cf82f151fbd7b1f516da468529d6cf833eb3e31086d41db876446ff61a",
+    "finished_solo_trials": 173
+  },
+  "admission_window": {
+    "started": 1794455369.5040553,
+    "deadline": 1794584969.5040553
+  },
+  "action": "No runtime changes, restarts or agent interruptions. Continue shorter dispatch; no user action needed."
+}
