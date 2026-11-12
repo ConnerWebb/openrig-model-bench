@@ -1,0 +1,36 @@
+{
+  "id": "qualification-cpp-team-n1-h5.5",
+  "task": "cpp-team",
+  "language": "cpp",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "qualification",
+  "harness_revision": "h5.5",
+  "started": 1794452171.8798814,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-2ed2d7e85b44",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794452172.8089573,
+      "incoming_feedback": "None. "
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "55bca5130a0408f3b42671c158e83d2b779edf5ba8d7397713c9ddd1e9ea0842",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-cpp-team-n1-h5.5/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794452206.0328639,
+  "seconds": 34.15298247337341,
+  "resource_limited": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": "qualification-py-team-n5-v2-h5.5",
+  "task": "py-team",
+  "language": "python",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 5,
+  "phase": "qualification",
+  "harness_revision": "h5.5",
+  "started": 1794451814.973086,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-f8cbae695dee",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794451840.4833822,
+      "incoming_feedback": "None. \nADVISORY PLAN:\nRead existing modules (ledger.py, validation.py, storage.py) and confirm they meet the contract: validation.py normalizes and validates all records, storage.py deduplicates by first-occurrence id, ledger.py composes both and applies minimum_cents filter with sorted totals.\nVerify that validation.py rejects invalid records (non-dict, wrong keys, non-string/non-stripped id/category, non-int/negative cents, boolean cents).\nVerify that storage.py deduplicates by first-occurrence id and returns fresh copies without mutating input.\nVerify that ledger.py composes normalize and deduplicate, applies minimum_cents filter (rejects non-int/negative/boolean), returns fresh events list and sorted totals dict, and does not mutate input.\nAdd comprehensive unit tests in test_submission.py covering: empty input, basic normalization, deduplication, minimum_cents filtering, input immutability, and error cases for all validation rules.\nUpdate README.md with module descriptions and usage examples.\nRun run_tests to confirm correctness before closing."
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "0cd77e4223e1fb18e2c917b38ecd317663ca6a0aba9497cd0846f3c9ba8cb0bf",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/qualification-py-team-n5-v2-h5.5/merge-0",
+  "review_required": true,
+  "review_approved": true,
+  "finished": 1794452096.763596,
+  "seconds": 281.7905099391937,
+  "resource_limited": false
+}

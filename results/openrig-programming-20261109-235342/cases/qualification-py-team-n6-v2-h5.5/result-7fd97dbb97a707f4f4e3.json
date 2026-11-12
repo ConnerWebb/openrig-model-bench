@@ -1,0 +1,27 @@
+{
+  "id": "qualification-py-team-n6-v2-h5.5",
+  "task": "py-team",
+  "language": "python",
+  "models": {
+    "lead": "next",
+    "developer": "next",
+    "reviewer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 6,
+  "phase": "qualification",
+  "harness_revision": "h5.5",
+  "started": 1794452097.2578955,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-9457a3228e9e",
+  "stage_attempts": [],
+  "failure": "Planner failed: 120 tool-call limit reached",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/frozen-harness-v5.5/orchestrator.py\", line 186, in run\n    if j.get('_stage_failure'):raise RuntimeError('Planner failed: '+j['_stage_failure'])\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Planner failed: 120 tool-call limit reached\n",
+  "finished": 1794452171.3062398,
+  "seconds": 74.048344373703,
+  "resource_limited": false
+}

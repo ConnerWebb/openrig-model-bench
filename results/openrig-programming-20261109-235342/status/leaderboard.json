@@ -453,5 +453,83 @@
     "case_wall_seconds_sum": 22.270729541778564,
     "accepted_tasks_per_hour": 161.6471518477477,
     "failures": []
+  },
+  {
+    "phase": "qualification",
+    "language": "python",
+    "task": "py-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 2,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 45.082929849624634,
+    "accepted_tasks_per_hour": 79.8528403546065,
+    "failures": []
+  },
+  {
+    "phase": "qualification",
+    "language": "python",
+    "task": "py-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 4,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 221.21459197998047,
+    "accepted_tasks_per_hour": 16.273790837115275,
+    "failures": []
+  },
+  {
+    "phase": "qualification",
+    "language": "python",
+    "task": "py-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 5,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 281.7905099391937,
+    "accepted_tasks_per_hour": 12.775447976501505,
+    "failures": []
+  },
+  {
+    "phase": "qualification",
+    "language": "python",
+    "task": "py-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 6,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 74.048344373703,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "qualification-py-team-n6-v2-h5.5",
+        "reason": "Planner failed: 120 tool-call limit reached",
+        "resource_limited": false
+      }
+    ]
+  },
+  {
+    "phase": "qualification",
+    "language": "cpp",
+    "task": "cpp-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 34.15298247337341,
+    "accepted_tasks_per_hour": 105.40807095856583,
+    "failures": []
+  },
+  {
+    "phase": "qualification",
+    "language": "cpp",
+    "task": "cpp-team",
+    "models": "{'lead': 'next', 'developer': 'next', 'reviewer': 'next'}",
+    "agents": 2,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 54.50922894477844,
+    "accepted_tasks_per_hour": 66.04386210722308,
+    "failures": []
   }
 ]

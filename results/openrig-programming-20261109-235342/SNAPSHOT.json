@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-12T02:46:08.137870+00:00",
+  "as_of_utc": "2026-11-12T03:01:21.230871+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 233,
+  "completed_case_records": 240,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -69,7 +69,7 @@
       "revision": "h5.4"
     },
     {
-      "count": 1,
+      "count": 3,
       "interrupted": false,
       "language": "cpp",
       "passed": true,
@@ -133,12 +133,28 @@
       "revision": "h5.4"
     },
     {
+      "count": 5,
+      "interrupted": false,
+      "language": "python",
+      "passed": true,
+      "phase": "qualification",
+      "revision": "h5.5"
+    },
+    {
       "count": 2,
       "interrupted": true,
       "language": "python",
       "passed": false,
       "phase": "qualification",
       "revision": "historical"
+    },
+    {
+      "count": 1,
+      "interrupted": false,
+      "language": "python",
+      "passed": false,
+      "phase": "qualification",
+      "revision": "h5.5"
     },
     {
       "count": 1,
@@ -179,14 +195,6 @@
       "passed": true,
       "phase": "qualification",
       "revision": "h5.3"
-    },
-    {
-      "count": 1,
-      "interrupted": false,
-      "language": "python",
-      "passed": true,
-      "phase": "qualification",
-      "revision": "h5.5"
     },
     {
       "count": 16,
@@ -429,7 +437,7 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 11530,
+  "finished_transport_streams": 11829,
   "in_progress_not_scored": [
     "plan-next-cpp-buffer-h5.4",
     "plan-next-py-queue-h5.4",
@@ -437,12 +445,11 @@
     "probe-next-cpp-binary-defective-0-h5.4",
     "probe-next-py-refactor-correct-0-h5.4",
     "probe-next-py-refactor-defective-0-h5.4",
-    "qualification-py-team-n1-h5.5",
-    "qualification-py-team-n2-h5.5"
+    "qualification-cpp-team-n4-h5.5"
   ],
   "status": {
-    "at": 1794451547.7699594,
-    "current": "qualification-py-team-n2-h5.5",
+    "at": 1794452261.3634274,
+    "current": "qualification-cpp-team-n4-h5.5",
     "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign",
     "harness_revision": "h5.5",
     "phase": "qualification",
