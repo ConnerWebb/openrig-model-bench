@@ -1835,6 +1835,34 @@
       }
     },
     {
+      "at": 1794487996.7622318,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 43330,
+        "applied": true,
+        "before_bytes": 70838,
+        "dropped_messages": 23,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 26.569878768990748,
+      "first_content_seconds": 26.569878768990748,
+      "first_delivered_seconds": 26.569888006022666,
+      "id": "01880e2f56c14b849cdc08e1400a3419",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 29.75385618401924,
+      "usage": {
+        "completion_tokens": 90,
+        "prompt_tokens": 10048,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10138
+      }
+    },
+    {
       "at": 1794373404.6712785,
       "complete": true,
       "context_policy": {
@@ -14174,6 +14202,29 @@
       }
     },
     {
+      "at": 1794487537.1149805,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 0.6338052589562722,
+      "first_content_seconds": 0.6338052589562722,
+      "first_delivered_seconds": 0.6338163999607787,
+      "id": "0aad368c28b84c37a7db603b3a2d5ac8",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-cpp-csv-h5.5/lead",
+      "seconds": 22.5888523979811,
+      "usage": {
+        "completion_tokens": 610,
+        "prompt_tokens": 9575,
+        "prompt_tokens_details": {
+          "cached_tokens": 9512
+        },
+        "total_tokens": 10185
+      }
+    },
+    {
       "at": 1794421480.8235927,
       "complete": true,
       "context_policy": {
@@ -17993,6 +18044,29 @@
           "cached_tokens": 11048
         },
         "total_tokens": 11268
+      }
+    },
+    {
+      "at": 1794487445.369897,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.3663532530190423,
+      "first_content_seconds": 3.3663532530190423,
+      "first_delivered_seconds": 3.366359885025304,
+      "id": "0d8dd6beaf84466bbf99948a54333ca8",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-py-queue-h5.5/lead",
+      "seconds": 3.4012764529907145,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 3679,
+        "prompt_tokens_details": {
+          "cached_tokens": 2746
+        },
+        "total_tokens": 3704
       }
     },
     {
@@ -27947,6 +28021,29 @@
       }
     },
     {
+      "at": 1794487571.5368638,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.043709071003832,
+      "first_content_seconds": 3.043709071003832,
+      "first_delivered_seconds": 3.043715933978092,
+      "id": "158e597c76b442f7b1b325e9c97e6a8b",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 3.0774169379728846,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 3556,
+        "prompt_tokens_details": {
+          "cached_tokens": 2593
+        },
+        "total_tokens": 3571
+      }
+    },
+    {
       "at": 1794344248.390145,
       "complete": true,
       "first_any_seconds": 0.5462642209895421,
@@ -31384,6 +31481,29 @@
       }
     },
     {
+      "at": 1794487511.3561115,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.134571670030709,
+      "first_content_seconds": 4.134571670030709,
+      "first_delivered_seconds": 4.1345794050139375,
+      "id": "186f1f58d1fa400a8af451a75e746092",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-cpp-csv-h5.5/lead",
+      "seconds": 8.69157676200848,
+      "usage": {
+        "completion_tokens": 160,
+        "prompt_tokens": 5879,
+        "prompt_tokens_details": {
+          "cached_tokens": 4818
+        },
+        "total_tokens": 6039
+      }
+    },
+    {
       "at": 1794293583.5422597,
       "complete": true,
       "first_any_seconds": 2.5905888580018654,
@@ -33876,6 +33996,29 @@
       }
     },
     {
+      "at": 1794487231.1845422,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 5.445147052989341,
+      "first_content_seconds": 5.445147052989341,
+      "first_delivered_seconds": 5.445153464970645,
+      "id": "1a5558ee2c0b4e36b80bfea5b05d4d09",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-py-refactor-defective-0-h5.5/reviewer",
+      "seconds": 5.579061424010433,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 6724,
+        "prompt_tokens_details": {
+          "cached_tokens": 6604
+        },
+        "total_tokens": 6763
+      }
+    },
+    {
       "at": 1794343253.9137776,
       "complete": true,
       "first_any_seconds": 0.5182557929947507,
@@ -34929,6 +35072,29 @@
       }
     },
     {
+      "at": 1794487504.4292645,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.207563911040779,
+      "first_content_seconds": 2.207563911040779,
+      "first_delivered_seconds": 2.2075687310425565,
+      "id": "1b847126949f4554be3ca66162509e19",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-cpp-csv-h5.5/lead",
+      "seconds": 6.787129706994165,
+      "usage": {
+        "completion_tokens": 160,
+        "prompt_tokens": 4822,
+        "prompt_tokens_details": {
+          "cached_tokens": 4464
+        },
+        "total_tokens": 4982
+      }
+    },
+    {
       "at": 1794472264.0953732,
       "complete": true,
       "context_policy": {
@@ -35923,6 +36089,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 15958
+      }
+    },
+    {
+      "at": 1794487714.866899,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.303876356978435,
+      "first_content_seconds": 2.303876356978435,
+      "first_delivered_seconds": 2.303883810993284,
+      "id": "1c416133932047d09dd75dc097a0a2e3",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 2.34007646801183,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 9708,
+        "prompt_tokens_details": {
+          "cached_tokens": 9181
+        },
+        "total_tokens": 9723
       }
     },
     {
@@ -51420,6 +51609,29 @@
       }
     },
     {
+      "at": 1794487441.9254804,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.0707590040401556,
+      "first_content_seconds": 3.0707590040401556,
+      "first_delivered_seconds": 3.070765927026514,
+      "id": "27f9f3536177410a9b629325bfdeaced",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-py-queue-h5.5/lead",
+      "seconds": 3.104717581998557,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 2750,
+        "prompt_tokens_details": {
+          "cached_tokens": 1799
+        },
+        "total_tokens": 2765
+      }
+    },
+    {
       "at": 1794339535.2344785,
       "complete": true,
       "first_any_seconds": 51.72918398201,
@@ -51472,6 +51684,29 @@
       "prefix": "solo-nemo-cpp-buffer-s42-h5.3/developer",
       "seconds": 0.004254166997270659,
       "usage": null
+    },
+    {
+      "at": 1794487325.2148862,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 10.538287085015327,
+      "first_content_seconds": 10.538287085015327,
+      "first_delivered_seconds": 10.538292875979096,
+      "id": "27fdf81a59fe41a6bc0c287b29663005",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-defective-0-h5.5/reviewer",
+      "seconds": 14.439411205006763,
+      "usage": {
+        "completion_tokens": 61,
+        "prompt_tokens": 2353,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2414
+      }
     },
     {
       "at": 1794358405.288678,
@@ -54654,6 +54889,29 @@
       }
     },
     {
+      "at": 1794487589.1326287,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.0695930210058577,
+      "first_content_seconds": 1.0695930210058577,
+      "first_delivered_seconds": 1.0696017569862306,
+      "id": "2a0b5981e3f24f8fbb47217feae9ac95",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 53.13521961600054,
+      "usage": {
+        "completion_tokens": 1464,
+        "prompt_tokens": 6359,
+        "prompt_tokens_details": {
+          "cached_tokens": 6086
+        },
+        "total_tokens": 7823
+      }
+    },
+    {
       "at": 1794469792.545191,
       "complete": true,
       "context_policy": {
@@ -57626,6 +57884,29 @@
           "cached_tokens": 21234
         },
         "total_tokens": 21651
+      }
+    },
+    {
+      "at": 1794487158.5423298,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 5.488557094999123,
+      "first_content_seconds": 5.488557094999123,
+      "first_delivered_seconds": 5.488562804996036,
+      "id": "2c0d27e068df4537a62ef841cde7b2cd",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-py-refactor-correct-0-h5.5/reviewer",
+      "seconds": 5.6204698229557835,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 6720,
+        "prompt_tokens_details": {
+          "cached_tokens": 6600
+        },
+        "total_tokens": 6759
       }
     },
     {
@@ -63760,6 +64041,29 @@
       }
     },
     {
+      "at": 1794487491.9686408,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.9767415219685063,
+      "first_content_seconds": 2.9767415219685063,
+      "first_delivered_seconds": 2.976745910011232,
+      "id": "314d4d400cf7494b82afe9ebefc835c5",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-cpp-csv-h5.5/lead",
+      "seconds": 3.011412197025493,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 2746,
+        "prompt_tokens_details": {
+          "cached_tokens": 1799
+        },
+        "total_tokens": 2761
+      }
+    },
+    {
       "at": 1794317556.2611156,
       "complete": true,
       "first_any_seconds": 2.0668314750073478,
@@ -63936,6 +64240,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 10082
+      }
+    },
+    {
+      "at": 1794487526.530534,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 10.51828426902648,
+      "first_content_seconds": 10.51828426902648,
+      "first_delivered_seconds": 10.518291142012458,
+      "id": "3184d0c1d82b4862bd5abe57f2ec120d",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-cpp-csv-h5.5/lead",
+      "seconds": 10.553444114048034,
+      "usage": {
+        "completion_tokens": 42,
+        "prompt_tokens": 9516,
+        "prompt_tokens_details": {
+          "cached_tokens": 6308
+        },
+        "total_tokens": 9558
       }
     },
     {
@@ -71413,6 +71740,29 @@
       }
     },
     {
+      "at": 1794487486.0316746,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 5.655801281973254,
+      "first_content_seconds": 5.655801281973254,
+      "first_delivered_seconds": 5.655804747948423,
+      "id": "373dad7aba0b44069494a7019b0bad34",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-cpp-csv-h5.5/lead",
+      "seconds": 5.690948934003245,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 1803,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1817
+      }
+    },
+    {
       "at": 1794364763.570641,
       "complete": true,
       "context_policy": {
@@ -72253,6 +72603,34 @@
           "cached_tokens": 11200
         },
         "total_tokens": 11762
+      }
+    },
+    {
+      "at": 1794488026.5480862,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45737,
+        "applied": true,
+        "before_bytes": 73245,
+        "dropped_messages": 23,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 2.391505231964402,
+      "first_content_seconds": 2.391505231964402,
+      "first_delivered_seconds": 2.391518586955499,
+      "id": "37ed32971c38401a8928bc15cacf98ba",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 22.076782768999692,
+      "usage": {
+        "completion_tokens": 552,
+        "prompt_tokens": 10726,
+        "prompt_tokens_details": {
+          "cached_tokens": 10044
+        },
+        "total_tokens": 11278
       }
     },
     {
@@ -73548,6 +73926,29 @@
           "cached_tokens": 23529
         },
         "total_tokens": 23614
+      }
+    },
+    {
+      "at": 1794487311.1137295,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 5.637069865013473,
+      "first_content_seconds": 5.637069865013473,
+      "first_delivered_seconds": 5.637076617975254,
+      "id": "390b799796a7429588f8f00de52722e1",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-correct-0-h5.5/reviewer",
+      "seconds": 5.769001488981303,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 9278,
+        "prompt_tokens_details": {
+          "cached_tokens": 9145
+        },
+        "total_tokens": 9317
       }
     },
     {
@@ -77064,6 +77465,29 @@
       }
     },
     {
+      "at": 1794487387.6422813,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 9.684966352011543,
+      "first_content_seconds": 9.684966352011543,
+      "first_delivered_seconds": 9.684974648000207,
+      "id": "3ba1871e65814367bc52afb705d9c729",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-defective-0-h5.5/reviewer",
+      "seconds": 9.817264515033457,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 9729,
+        "prompt_tokens_details": {
+          "cached_tokens": 6929
+        },
+        "total_tokens": 9744
+      }
+    },
+    {
       "at": 1794370057.9124503,
       "complete": true,
       "context_policy": {
@@ -77802,6 +78226,29 @@
           "cached_tokens": 1590
         },
         "total_tokens": 15949
+      }
+    },
+    {
+      "at": 1794487244.0944479,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 8.167769351042807,
+      "first_content_seconds": 8.167769351042807,
+      "first_delivered_seconds": 8.167776134039741,
+      "id": "3c3848e562b44b858903d10b7d26e3ac",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-correct-0-h5.5/reviewer",
+      "seconds": 12.21930242399685,
+      "usage": {
+        "completion_tokens": 44,
+        "prompt_tokens": 2365,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2409
       }
     },
     {
@@ -79573,6 +80020,29 @@
           "cached_tokens": 2325
         },
         "total_tokens": 3250
+      }
+    },
+    {
+      "at": 1794487225.089046,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.495278351998422,
+      "first_content_seconds": 4.495278351998422,
+      "first_delivered_seconds": 4.495285996003076,
+      "id": "3d8b01eb1be741eb83a139d2333b182e",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-py-refactor-defective-0-h5.5/reviewer",
+      "seconds": 4.626244040962774,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 6590,
+        "prompt_tokens_details": {
+          "cached_tokens": 5630
+        },
+        "total_tokens": 6605
       }
     },
     {
@@ -83010,6 +83480,29 @@
       }
     },
     {
+      "at": 1794487719.9753852,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.84811121301027,
+      "first_content_seconds": 2.84811121301027,
+      "first_delivered_seconds": 2.8481221530237235,
+      "id": "3fffbecd27cd4523a60780c3ee1ea1d0",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 39.282804171030875,
+      "usage": {
+        "completion_tokens": 1022,
+        "prompt_tokens": 10641,
+        "prompt_tokens_details": {
+          "cached_tokens": 9704
+        },
+        "total_tokens": 11663
+      }
+    },
+    {
       "at": 1794368825.9545314,
       "complete": true,
       "context_policy": {
@@ -83502,6 +83995,34 @@
           "cached_tokens": 4821
         },
         "total_tokens": 4998
+      }
+    },
+    {
+      "at": 1794487802.7517,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47697,
+        "applied": true,
+        "before_bytes": 50965,
+        "dropped_messages": 3,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 33.76848789898213,
+      "first_content_seconds": 33.76848789898213,
+      "first_delivered_seconds": 33.768494671967346,
+      "id": "4064975ddeff440b91476a0a34eb76cd",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 33.80381149199093,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 12145,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12160
       }
     },
     {
@@ -88062,6 +88583,29 @@
       }
     },
     {
+      "at": 1794487152.4151433,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.428789312019944,
+      "first_content_seconds": 4.428789312019944,
+      "first_delivered_seconds": 4.428793830040377,
+      "id": "440b9eac34fb454a86778c659f561f3e",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-py-refactor-correct-0-h5.5/reviewer",
+      "seconds": 4.560642298019957,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 6586,
+        "prompt_tokens_details": {
+          "cached_tokens": 5638
+        },
+        "total_tokens": 6601
+      }
+    },
+    {
       "at": 1794339913.76856,
       "complete": true,
       "first_any_seconds": 147.32335166298435,
@@ -89293,6 +89837,29 @@
           "cached_tokens": 5401
         },
         "total_tokens": 6563
+      }
+    },
+    {
+      "at": 1794487277.1079547,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 6.289520418969914,
+      "first_content_seconds": 6.289520418969914,
+      "first_delivered_seconds": 6.28952648001723,
+      "id": "452261d7e3c24760acc223f92b6e530a",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-correct-0-h5.5/reviewer",
+      "seconds": 13.27724164101528,
+      "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 6147,
+        "prompt_tokens_details": {
+          "cached_tokens": 5094
+        },
+        "total_tokens": 6225
       }
     },
     {
@@ -103212,6 +103779,29 @@
       }
     },
     {
+      "at": 1794487563.4647431,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 7.801644544990268,
+      "first_content_seconds": 7.801644544990268,
+      "first_delivered_seconds": 7.801652490044944,
+      "id": "4fed7c1c48404d89ab5343e0a38e6cac",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 7.836204513034318,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 2597,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2611
+      }
+    },
+    {
       "at": 1794459515.0802698,
       "complete": true,
       "context_policy": {
@@ -107168,6 +107758,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 13201
+      }
+    },
+    {
+      "at": 1794487582.1067493,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.9659741580253467,
+      "first_content_seconds": 1.9659741580253467,
+      "first_delivered_seconds": 1.9659799390356056,
+      "id": "53215302aac3457ab5fbdc5d610fac9d",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 2.0010637610103004,
+      "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 5261,
+        "prompt_tokens_details": {
+          "cached_tokens": 4956
+        },
+        "total_tokens": 5288
       }
     },
     {
@@ -134453,6 +135066,29 @@
       }
     },
     {
+      "at": 1794487290.470273,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.6366937620332465,
+      "first_content_seconds": 4.6366937620332465,
+      "first_delivered_seconds": 4.636699423019309,
+      "id": "68b054d14f0f484da3ee36489ea3f934",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-correct-0-h5.5/reviewer",
+      "seconds": 8.993866205040831,
+      "usage": {
+        "completion_tokens": 59,
+        "prompt_tokens": 6624,
+        "prompt_tokens_details": {
+          "cached_tokens": 6224
+        },
+        "total_tokens": 6683
+      }
+    },
+    {
       "at": 1794296122.8102217,
       "complete": true,
       "first_any_seconds": 1.0019861119944835,
@@ -150128,6 +150764,34 @@
       }
     },
     {
+      "at": 1794487838.7385838,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 46446,
+        "applied": true,
+        "before_bytes": 55021,
+        "dropped_messages": 7,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 29.62775631097611,
+      "first_content_seconds": 29.62775631097611,
+      "first_delivered_seconds": 29.62776672100881,
+      "id": "748aacacac1749a794bc1e7f398ce7cd",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 57.14888571400661,
+      "usage": {
+        "completion_tokens": 772,
+        "prompt_tokens": 11251,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12023
+      }
+    },
+    {
       "at": 1794299642.7800477,
       "complete": true,
       "first_any_seconds": 12.09206032101065,
@@ -150194,6 +150858,29 @@
           "cached_tokens": 1584
         },
         "total_tokens": 10970
+      }
+    },
+    {
+      "at": 1794487299.525802,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 8.778037120006047,
+      "first_content_seconds": 8.778037120006047,
+      "first_delivered_seconds": 8.778044042992406,
+      "id": "74946d169de1499b9394cba49ba82336",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-correct-0-h5.5/reviewer",
+      "seconds": 8.910534586990252,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 9131,
+        "prompt_tokens_details": {
+          "cached_tokens": 6682
+        },
+        "total_tokens": 9146
       }
     },
     {
@@ -150937,6 +151624,29 @@
           "cached_tokens": 9188
         },
         "total_tokens": 10787
+      }
+    },
+    {
+      "at": 1794487317.0174296,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.452767508046236,
+      "first_content_seconds": 2.452767508046236,
+      "first_delivered_seconds": 2.4527756230090745,
+      "id": "75044fa79a9f4d528b2e4b55f9e16436",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-correct-0-h5.5/reviewer",
+      "seconds": 2.58618662803201,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 9451,
+        "prompt_tokens_details": {
+          "cached_tokens": 9316
+        },
+        "total_tokens": 9466
       }
     },
     {
@@ -154611,6 +155321,29 @@
       }
     },
     {
+      "at": 1794487206.3300843,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.1523776479880325,
+      "first_content_seconds": 4.1523776479880325,
+      "first_delivered_seconds": 4.152383399021346,
+      "id": "77e8476e031249e7b182b5738887de61",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-py-refactor-defective-0-h5.5/reviewer",
+      "seconds": 7.6846676300046965,
+      "usage": {
+        "completion_tokens": 52,
+        "prompt_tokens": 5357,
+        "prompt_tokens_details": {
+          "cached_tokens": 5081
+        },
+        "total_tokens": 5409
+      }
+    },
+    {
       "at": 1794374268.0852523,
       "complete": true,
       "context_policy": {
@@ -157401,6 +158134,29 @@
           "cached_tokens": 9224
         },
         "total_tokens": 10206
+      }
+    },
+    {
+      "at": 1794487174.9056644,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 8.320640092017129,
+      "first_content_seconds": 8.320640092017129,
+      "first_delivered_seconds": 8.320646073028911,
+      "id": "7a1e6debc7a84026af490de8851ed28a",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-py-refactor-defective-0-h5.5/reviewer",
+      "seconds": 12.360695212031715,
+      "usage": {
+        "completion_tokens": 44,
+        "prompt_tokens": 2354,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2398
       }
     },
     {
@@ -160586,6 +161342,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 13265
+      }
+    },
+    {
+      "at": 1794487450.7434888,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.6217567879939452,
+      "first_content_seconds": 1.6217567879939452,
+      "first_delivered_seconds": 1.621763169998303,
+      "id": "7ca7f3c72b944189b89dce168d313188",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-py-queue-h5.5/lead",
+      "seconds": 3.5186719649937004,
+      "usage": {
+        "completion_tokens": 79,
+        "prompt_tokens": 4142,
+        "prompt_tokens_details": {
+          "cached_tokens": 3988
+        },
+        "total_tokens": 4221
       }
     },
     {
@@ -164446,6 +165225,29 @@
       }
     },
     {
+      "at": 1794487642.4064138,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 50.51917251601117,
+      "first_content_seconds": 50.51917251601117,
+      "first_delivered_seconds": 50.51917748502456,
+      "id": "7fa9cd5de51f47749ba8bdb740d76696",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 50.553514593979344,
+      "usage": {
+        "completion_tokens": 1311,
+        "prompt_tokens": 7848,
+        "prompt_tokens_details": {
+          "cached_tokens": 6355
+        },
+        "total_tokens": 9159
+      }
+    },
+    {
       "at": 1794317430.1391509,
       "complete": true,
       "first_any_seconds": 1.9072837159910705,
@@ -164699,6 +165501,29 @@
           "cached_tokens": 16037
         },
         "total_tokens": 16466
+      }
+    },
+    {
+      "at": 1794487269.0938065,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.394442964985501,
+      "first_content_seconds": 4.394442964985501,
+      "first_delivered_seconds": 4.394449597981293,
+      "id": "7fe437140b3541a3a3dd596c38923895",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-correct-0-h5.5/reviewer",
+      "seconds": 7.949131486995611,
+      "usage": {
+        "completion_tokens": 51,
+        "prompt_tokens": 5044,
+        "prompt_tokens_details": {
+          "cached_tokens": 4602
+        },
+        "total_tokens": 5095
       }
     },
     {
@@ -169704,6 +170529,29 @@
       }
     },
     {
+      "at": 1794487256.9144063,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 8.712516419007443,
+      "first_content_seconds": 8.712516419007443,
+      "first_delivered_seconds": 8.712523802998476,
+      "id": "8379a2a08175405aa381b49c65c39bc6",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-correct-0-h5.5/reviewer",
+      "seconds": 12.117912654997781,
+      "usage": {
+        "completion_tokens": 50,
+        "prompt_tokens": 4553,
+        "prompt_tokens_details": {
+          "cached_tokens": 2408
+        },
+        "total_tokens": 4603
+      }
+    },
+    {
       "at": 1794435488.5037143,
       "complete": true,
       "context_policy": {
@@ -170536,6 +171384,29 @@
           "cached_tokens": 24729
         },
         "total_tokens": 25945
+      }
+    },
+    {
+      "at": 1794487454.3534138,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.283154200995341,
+      "first_content_seconds": 4.283154200995341,
+      "first_delivered_seconds": 4.283157707017381,
+      "id": "8437daad0048479fa0684bb5fc3d36cf",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-py-queue-h5.5/lead",
+      "seconds": 7.699867258023005,
+      "usage": {
+        "completion_tokens": 128,
+        "prompt_tokens": 5256,
+        "prompt_tokens_details": {
+          "cached_tokens": 4138
+        },
+        "total_tokens": 5384
       }
     },
     {
@@ -174472,6 +175343,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 5365
+      }
+    },
+    {
+      "at": 1794487353.083131,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.373536289960612,
+      "first_content_seconds": 4.373536289960612,
+      "first_delivered_seconds": 4.3735430630040355,
+      "id": "86fcde36e68d4bc090bce9329eb14d81",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-defective-0-h5.5/reviewer",
+      "seconds": 7.901198774983641,
+      "usage": {
+        "completion_tokens": 51,
+        "prompt_tokens": 5259,
+        "prompt_tokens_details": {
+          "cached_tokens": 4817
+        },
+        "total_tokens": 5310
       }
     },
     {
@@ -194323,6 +195217,29 @@
       }
     },
     {
+      "at": 1794487462.1688998,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.1759414480184205,
+      "first_content_seconds": 4.1759414480184205,
+      "first_delivered_seconds": 4.175948160002008,
+      "id": "96f2d35ada2148be969e9fc3f162e26f",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-py-queue-h5.5/lead",
+      "seconds": 7.596783595974557,
+      "usage": {
+        "completion_tokens": 128,
+        "prompt_tokens": 6307,
+        "prompt_tokens_details": {
+          "cached_tokens": 5252
+        },
+        "total_tokens": 6435
+      }
+    },
+    {
       "at": 1794419954.7135365,
       "complete": true,
       "context_policy": {
@@ -196552,6 +197469,29 @@
       }
     },
     {
+      "at": 1794487236.8936555,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.4277837889967486,
+      "first_content_seconds": 2.4277837889967486,
+      "first_delivered_seconds": 2.4277906219940633,
+      "id": "98baf9164da2488990a6c7b0e851bd40",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-py-refactor-defective-0-h5.5/reviewer",
+      "seconds": 2.5596322669880465,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 6896,
+        "prompt_tokens_details": {
+          "cached_tokens": 6762
+        },
+        "total_tokens": 6911
+      }
+    },
+    {
       "at": 1794376983.1684592,
       "complete": true,
       "context_policy": {
@@ -197518,6 +198458,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 7910
+      }
+    },
+    {
+      "at": 1794487587.0399091,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.0242758999811485,
+      "first_content_seconds": 2.0242758999811485,
+      "first_delivered_seconds": 2.024283773964271,
+      "id": "9973ee643b0a43e29c3af6c63adce17e",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 2.0594330199528486,
+      "usage": {
+        "completion_tokens": 32,
+        "prompt_tokens": 6090,
+        "prompt_tokens_details": {
+          "cached_tokens": 5852
+        },
+        "total_tokens": 6122
       }
     },
     {
@@ -201686,6 +202649,29 @@
       }
     },
     {
+      "at": 1794487578.4362721,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.884355489979498,
+      "first_content_seconds": 1.884355489979498,
+      "first_delivered_seconds": 1.884364787954837,
+      "id": "9d0d80baa7a84a65883a08c6f664776d",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 1.9199092559865676,
+      "usage": {
+        "completion_tokens": 24,
+        "prompt_tokens": 4810,
+        "prompt_tokens_details": {
+          "cached_tokens": 4493
+        },
+        "total_tokens": 4834
+      }
+    },
+    {
       "at": 1794442000.299915,
       "complete": true,
       "context_policy": {
@@ -203809,6 +204795,29 @@
       }
     },
     {
+      "at": 1794487187.8596158,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 8.588349650031887,
+      "first_content_seconds": 8.588349650031887,
+      "first_delivered_seconds": 8.588356032036245,
+      "id": "9e8d37ce68a64eabb89054b60b6dafbd",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-py-refactor-defective-0-h5.5/reviewer",
+      "seconds": 10.541577521013096,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 4526,
+        "prompt_tokens_details": {
+          "cached_tokens": 2397
+        },
+        "total_tokens": 4565
+      }
+    },
+    {
       "at": 1794377033.202203,
       "complete": true,
       "context_policy": {
@@ -204089,6 +205098,29 @@
           "cached_tokens": 12823
         },
         "total_tokens": 13338
+      }
+    },
+    {
+      "at": 1794487412.7955937,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 28.85105159401428,
+      "first_content_seconds": 28.85105159401428,
+      "first_delivered_seconds": 28.851057083986234,
+      "id": "9edbcbd83a044cb6857bb0a7cd9bc1c5",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-py-queue-h5.5/lead",
+      "seconds": 28.884988920995966,
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 1803,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1817
       }
     },
     {
@@ -230786,6 +231818,29 @@
       }
     },
     {
+      "at": 1794487693.0831914,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 21.61440598097397,
+      "first_content_seconds": 21.61440598097397,
+      "first_delivered_seconds": 21.61441374599235,
+      "id": "b20c66d614a5456fb1577b18d1e0ad79",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 21.649842826998793,
+      "usage": {
+        "completion_tokens": 498,
+        "prompt_tokens": 9185,
+        "prompt_tokens_details": {
+          "cached_tokens": 7844
+        },
+        "total_tokens": 9683
+      }
+    },
+    {
       "at": 1794472581.3691008,
       "complete": true,
       "context_policy": {
@@ -231715,6 +232770,29 @@
           "cached_tokens": 8411
         },
         "total_tokens": 10616
+      }
+    },
+    {
+      "at": 1794487406.13391,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.461131689022295,
+      "first_content_seconds": 2.461131689022295,
+      "first_delivered_seconds": 2.46113836200675,
+      "id": "b2e4cd8bf20c4f16aed76686bad7db36",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-defective-0-h5.5/reviewer",
+      "seconds": 2.5944881210452877,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 10053,
+        "prompt_tokens_details": {
+          "cached_tokens": 9918
+        },
+        "total_tokens": 10068
       }
     },
     {
@@ -235569,6 +236647,29 @@
       }
     },
     {
+      "at": 1794487469.8820443,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.1787295899703167,
+      "first_content_seconds": 1.1787295899703167,
+      "first_delivered_seconds": 1.178737383976113,
+      "id": "b6419063f17d480d8fef72cdb57d767d",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-py-queue-h5.5/lead",
+      "seconds": 13.354834010999184,
+      "usage": {
+        "completion_tokens": 345,
+        "prompt_tokens": 6654,
+        "prompt_tokens_details": {
+          "cached_tokens": 6303
+        },
+        "total_tokens": 6999
+      }
+    },
+    {
       "at": 1794449683.8506768,
       "complete": true,
       "context_policy": {
@@ -236179,6 +237280,29 @@
           "cached_tokens": 17723
         },
         "total_tokens": 18584
+      }
+    },
+    {
+      "at": 1794487214.0767362,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.713356919004582,
+      "first_content_seconds": 3.713356919004582,
+      "first_delivered_seconds": 3.713363691989798,
+      "id": "b6b01137bca24dbd8649d6310e5422d4",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-py-refactor-defective-0-h5.5/reviewer",
+      "seconds": 10.92560749000404,
+      "usage": {
+        "completion_tokens": 79,
+        "prompt_tokens": 5552,
+        "prompt_tokens_details": {
+          "cached_tokens": 5408
+        },
+        "total_tokens": 5631
       }
     },
     {
@@ -243428,6 +244552,29 @@
       }
     },
     {
+      "at": 1794487400.1950426,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 5.665337525017094,
+      "first_content_seconds": 5.665337525017094,
+      "first_delivered_seconds": 5.665344127977733,
+      "id": "bc1d05d9881d42f6a5f158b1ec7095ca",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-defective-0-h5.5/reviewer",
+      "seconds": 5.795100693998393,
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 9880,
+        "prompt_tokens_details": {
+          "cached_tokens": 9743
+        },
+        "total_tokens": 9919
+      }
+    },
+    {
       "at": 1794375279.5161645,
       "complete": true,
       "context_policy": {
@@ -248341,6 +249488,29 @@
       }
     },
     {
+      "at": 1794487502.3203094,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.0409399909549393,
+      "first_content_seconds": 2.0409399909549393,
+      "first_delivered_seconds": 2.0409437679918483,
+      "id": "bfbbc38fc1844cf8a71e4a2d46316a50",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-cpp-csv-h5.5/lead",
+      "seconds": 2.076757832954172,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 4468,
+        "prompt_tokens_details": {
+          "cached_tokens": 4091
+        },
+        "total_tokens": 4494
+      }
+    },
+    {
       "at": 1794325483.9402952,
       "complete": true,
       "first_any_seconds": 5.180196255008923,
@@ -248606,6 +249776,29 @@
           "cached_tokens": 489
         },
         "total_tokens": 11191
+      }
+    },
+    {
+      "at": 1794487495.3274882,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.337254819984082,
+      "first_content_seconds": 3.337254819984082,
+      "first_delivered_seconds": 3.337261322012637,
+      "id": "bfea75fe64104ed3acdb0f13263ef5ff",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-cpp-csv-h5.5/lead",
+      "seconds": 3.373366284009535,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 3671,
+        "prompt_tokens_details": {
+          "cached_tokens": 2742
+        },
+        "total_tokens": 3696
       }
     },
     {
@@ -260441,6 +261634,29 @@
       }
     },
     {
+      "at": 1794487144.6741345,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.982774097006768,
+      "first_content_seconds": 3.982774097006768,
+      "first_delivered_seconds": 3.9827788160182536,
+      "id": "c88ee4ad6f054970bc884d5372129122",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-py-refactor-correct-0-h5.5/reviewer",
+      "seconds": 7.678034630022012,
+      "usage": {
+        "completion_tokens": 54,
+        "prompt_tokens": 5585,
+        "prompt_tokens_details": {
+          "cached_tokens": 5429
+        },
+        "total_tokens": 5639
+      }
+    },
+    {
       "at": 1794296156.2206185,
       "complete": true,
       "first_any_seconds": 1.9598731209989637,
@@ -269124,6 +270340,29 @@
       }
     },
     {
+      "at": 1794487584.14768,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.822909684968181,
+      "first_content_seconds": 2.822909684968181,
+      "first_delivered_seconds": 2.82291481399443,
+      "id": "cec52f1e12dc4ba3946bc9e246de1cc7",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 2.858475692977663,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 5856,
+        "prompt_tokens_details": {
+          "cached_tokens": 5257
+        },
+        "total_tokens": 5882
+      }
+    },
+    {
       "at": 1794371515.3741665,
       "complete": true,
       "context_policy": {
@@ -277632,6 +278871,34 @@
       }
     },
     {
+      "at": 1794487937.0510695,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 41400,
+        "applied": true,
+        "before_bytes": 64029,
+        "dropped_messages": 21,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 26.28340360004222,
+      "first_content_seconds": 26.28340360004222,
+      "first_delivered_seconds": 26.28341424005339,
+      "id": "d51b9a5f259b40bf9b3dad5eedfc13d6",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 54.28359886305407,
+      "usage": {
+        "completion_tokens": 788,
+        "prompt_tokens": 9878,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10666
+      }
+    },
+    {
       "at": 1794361685.9532642,
       "complete": true,
       "context_policy": {
@@ -279307,6 +280574,29 @@
           "cached_tokens": 29150
         },
         "total_tokens": 29834
+      }
+    },
+    {
+      "at": 1794487500.6227562,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.6304347399855033,
+      "first_content_seconds": 1.6304347399855033,
+      "first_delivered_seconds": 1.6304402299574576,
+      "id": "d65c3028e64e4030a57c39d1a5c4a97a",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-cpp-csv-h5.5/lead",
+      "seconds": 1.6650952569907531,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 4095,
+        "prompt_tokens_details": {
+          "cached_tokens": 3941
+        },
+        "total_tokens": 4121
       }
     },
     {
@@ -285468,6 +286758,29 @@
       }
     },
     {
+      "at": 1794487574.954996,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.4119370009866543,
+      "first_content_seconds": 3.4119370009866543,
+      "first_delivered_seconds": 3.4119424509699456,
+      "id": "db5c7782852b4de0bae2f77ecc6a9771",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 3.446472912968602,
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 4497,
+        "prompt_tokens_details": {
+          "cached_tokens": 3552
+        },
+        "total_tokens": 4522
+      }
+    },
+    {
       "at": 1794397361.6771579,
       "complete": true,
       "context_policy": {
@@ -285557,6 +286870,29 @@
           "cached_tokens": 11209
         },
         "total_tokens": 11969
+      }
+    },
+    {
+      "at": 1794487524.6282585,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.8285328990314156,
+      "first_content_seconds": 1.8285328990314156,
+      "first_delivered_seconds": 1.8285368060460314,
+      "id": "db6a966eb12c4089922baa701637dc57",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-cpp-csv-h5.5/lead",
+      "seconds": 1.8636648410465568,
+      "usage": {
+        "completion_tokens": 27,
+        "prompt_tokens": 6312,
+        "prompt_tokens_details": {
+          "cached_tokens": 6106
+        },
+        "total_tokens": 6339
       }
     },
     {
@@ -296610,6 +297946,29 @@
       }
     },
     {
+      "at": 1794487448.806262,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.8689820249564946,
+      "first_content_seconds": 1.8689820249564946,
+      "first_delivered_seconds": 1.8689859819714911,
+      "id": "e34fb06ce40d435d82909ea411753b9d",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-py-queue-h5.5/lead",
+      "seconds": 1.9039357929723337,
+      "usage": {
+        "completion_tokens": 24,
+        "prompt_tokens": 3992,
+        "prompt_tokens_details": {
+          "cached_tokens": 3675
+        },
+        "total_tokens": 4016
+      }
+    },
+    {
       "at": 1794410139.0142856,
       "complete": true,
       "context_policy": {
@@ -296768,6 +298127,29 @@
           "cached_tokens": 5007
         },
         "total_tokens": 5496
+      }
+    },
+    {
+      "at": 1794487198.461585,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.398885715985671,
+      "first_content_seconds": 4.398885715985671,
+      "first_delivered_seconds": 4.398891847988125,
+      "id": "e36f985fbf314d2399182baf26a9468b",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-py-refactor-defective-0-h5.5/reviewer",
+      "seconds": 7.804784808016848,
+      "usage": {
+        "completion_tokens": 50,
+        "prompt_tokens": 5032,
+        "prompt_tokens_details": {
+          "cached_tokens": 4564
+        },
+        "total_tokens": 5082
       }
     },
     {
@@ -298318,6 +299700,29 @@
           "cached_tokens": 0
         },
         "total_tokens": 9553
+      }
+    },
+    {
+      "at": 1794487340.326642,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 9.300720838014968,
+      "first_content_seconds": 9.300720838014968,
+      "first_delivered_seconds": 9.300726609013509,
+      "id": "e4e56e95475e42e59be044967afeeb03",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-defective-0-h5.5/reviewer",
+      "seconds": 12.692900794034358,
+      "usage": {
+        "completion_tokens": 50,
+        "prompt_tokens": 4768,
+        "prompt_tokens_details": {
+          "cached_tokens": 2349
+        },
+        "total_tokens": 4818
       }
     },
     {
@@ -300330,6 +301735,29 @@
       }
     },
     {
+      "at": 1794487164.296859,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.4097160099772736,
+      "first_content_seconds": 2.4097160099772736,
+      "first_delivered_seconds": 2.409722883021459,
+      "id": "e6bb76b01c5f444297c7460832b43bc0",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-py-refactor-correct-0-h5.5/reviewer",
+      "seconds": 2.540786495024804,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 6892,
+        "prompt_tokens_details": {
+          "cached_tokens": 6758
+        },
+        "total_tokens": 6907
+      }
+    },
+    {
       "at": 1794370288.1964846,
       "complete": true,
       "context_policy": {
@@ -300605,6 +302033,29 @@
           "cached_tokens": 11785
         },
         "total_tokens": 11918
+      }
+    },
+    {
+      "at": 1794487374.3399265,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 4.634386004006956,
+      "first_content_seconds": 4.634386004006956,
+      "first_delivered_seconds": 4.634392054984346,
+      "id": "e6e345d5eaeb488e823fe9f62f5f2b2d",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-defective-0-h5.5/reviewer",
+      "seconds": 13.21245256596012,
+      "usage": {
+        "completion_tokens": 91,
+        "prompt_tokens": 6839,
+        "prompt_tokens_details": {
+          "cached_tokens": 6439
+        },
+        "total_tokens": 6930
       }
     },
     {
@@ -302856,6 +304307,29 @@
           "cached_tokens": 8892
         },
         "total_tokens": 9240
+      }
+    },
+    {
+      "at": 1794487759.3909626,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 3.4642902319901623,
+      "first_content_seconds": 3.4642902319901623,
+      "first_delivered_seconds": 3.464303326967638,
+      "id": "e86e895e1e3747ef892d3e211ddff505",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 43.227025003987364,
+      "usage": {
+        "completion_tokens": 1106,
+        "prompt_tokens": 11688,
+        "prompt_tokens_details": {
+          "cached_tokens": 10637
+        },
+        "total_tokens": 12794
       }
     },
     {
@@ -306936,6 +308410,29 @@
           "cached_tokens": 10504
         },
         "total_tokens": 11508
+      }
+    },
+    {
+      "at": 1794487498.7343485,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.8211247739964165,
+      "first_content_seconds": 1.8211247739964165,
+      "first_delivered_seconds": 1.8211282009724528,
+      "id": "eb3fd04fd4814a098eda435299a02410",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-cpp-csv-h5.5/lead",
+      "seconds": 1.8562069640029222,
+      "usage": {
+        "completion_tokens": 24,
+        "prompt_tokens": 3945,
+        "prompt_tokens_details": {
+          "cached_tokens": 3667
+        },
+        "total_tokens": 3969
       }
     },
     {
@@ -317929,6 +319426,29 @@
       }
     },
     {
+      "at": 1794487520.189164,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 2.0293943809811026,
+      "first_content_seconds": 2.0293943809811026,
+      "first_delivered_seconds": 2.029399299994111,
+      "id": "f35cf06172044aba9b49a1c0d92825e3",
+      "model": "campaign-q122-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "plan-q122-cpp-csv-h5.5/lead",
+      "seconds": 4.351224493992049,
+      "usage": {
+        "completion_tokens": 96,
+        "prompt_tokens": 6110,
+        "prompt_tokens_details": {
+          "cached_tokens": 5875
+        },
+        "total_tokens": 6206
+      }
+    },
+    {
       "at": 1794299747.8046854,
       "complete": true,
       "first_any_seconds": 3.856283782995888,
@@ -318559,6 +320079,29 @@
           "cached_tokens": 6014
         },
         "total_tokens": 6084
+      }
+    },
+    {
+      "at": 1794487361.0455022,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 6.243119625025429,
+      "first_content_seconds": 6.243119625025429,
+      "first_delivered_seconds": 6.243125125009101,
+      "id": "f3e9cb6e4abb419f9a71227c5c53033d",
+      "model": "campaign-q27q8-s42-c32768",
+      "normalized_tool_call": false,
+      "prefix": "probe-q27q8-cpp-binary-defective-0-h5.5/reviewer",
+      "seconds": 13.203067966038361,
+      "usage": {
+        "completion_tokens": 78,
+        "prompt_tokens": 6362,
+        "prompt_tokens_details": {
+          "cached_tokens": 5309
+        },
+        "total_tokens": 6440
       }
     },
     {
@@ -319823,6 +321366,29 @@
       }
     },
     {
+      "at": 1794487580.38942,
+      "complete": true,
+      "context_policy": {
+        "applied": false
+      },
+      "first_any_seconds": 1.6498409350169823,
+      "first_content_seconds": 1.6498409350169823,
+      "first_delivered_seconds": 1.6498453739914112,
+      "id": "f5058e14a17f488c98faa22a80646ac5",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 1.684177101997193,
+      "usage": {
+        "completion_tokens": 26,
+        "prompt_tokens": 4960,
+        "prompt_tokens_details": {
+          "cached_tokens": 4806
+        },
+        "total_tokens": 4986
+      }
+    },
+    {
       "at": 1794331037.3455672,
       "complete": true,
       "first_any_seconds": 1.445152378990315,
@@ -321046,6 +322612,34 @@
           "cached_tokens": 1591
         },
         "total_tokens": 12403
+      }
+    },
+    {
+      "at": 1794487991.464723,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 45116,
+        "applied": true,
+        "before_bytes": 67745,
+        "dropped_messages": 21,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 3.108296157035511,
+      "first_content_seconds": 3.108296157035511,
+      "first_delivered_seconds": 3.108300946012605,
+      "id": "f5f5a2a978464ace9eac35520ec4c1dd",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 3.1442513780202717,
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 10691,
+        "prompt_tokens_details": {
+          "cached_tokens": 9874
+        },
+        "total_tokens": 10706
       }
     },
     {
@@ -332178,6 +333772,34 @@
           "cached_tokens": 13038
         },
         "total_tokens": 13222
+      }
+    },
+    {
+      "at": 1794487896.037747,
+      "complete": true,
+      "context_policy": {
+        "after_bytes": 47906,
+        "applied": true,
+        "before_bytes": 58516,
+        "dropped_messages": 11,
+        "maximum_bytes": 48000,
+        "shortened_history_fields": 0
+      },
+      "first_any_seconds": 31.077991393976845,
+      "first_content_seconds": 31.077991393976845,
+      "first_delivered_seconds": 31.07800204399973,
+      "id": "fea3b3cf160c49b98c99bf672e02e814",
+      "model": "campaign-q122-s43-c32768",
+      "normalized_tool_call": false,
+      "prefix": "solo-q122-py-queue-s43-h5.5/developer",
+      "seconds": 40.98045823298162,
+      "usage": {
+        "completion_tokens": 278,
+        "prompt_tokens": 11585,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11863
       }
     },
     {
