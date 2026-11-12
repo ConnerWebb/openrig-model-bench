@@ -1,0 +1,34 @@
+{
+  "id": "solo-q27q8-py-queue-s42-h5.5",
+  "task": "py-queue",
+  "language": "python",
+  "models": {
+    "developer": "q27q8"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794477906.7825565,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-310731952e79",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794477907.8682346,
+      "incoming_feedback": "None. "
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "897796af3baf76fa7b1ec511859f387bed0a52e875d68b4296336aa8190a6945",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-q27q8-py-queue-s42-h5.5/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794478780.1736054,
+  "seconds": 873.3910489082336,
+  "resource_limited": false
+}

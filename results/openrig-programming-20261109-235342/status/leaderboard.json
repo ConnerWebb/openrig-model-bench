@@ -789,5 +789,17 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-queue",
+    "models": "{'developer': 'q27q8'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 873.3910489082336,
+    "accepted_tasks_per_hour": 4.121865004799527,
+    "failures": []
   }
 ]
