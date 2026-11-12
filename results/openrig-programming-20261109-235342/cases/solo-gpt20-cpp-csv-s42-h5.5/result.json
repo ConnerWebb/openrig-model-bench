@@ -1,0 +1,42 @@
+{
+  "id": "solo-gpt20-cpp-csv-s42-h5.5",
+  "task": "cpp-csv",
+  "language": "cpp",
+  "models": {
+    "developer": "gpt20"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794486132.0722973,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-41ecaf3e4a54",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794486133.0075295,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794486211.1084948,
+      "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+    },
+    {
+      "attempt": 3,
+      "started": 1794486367.2327669,
+      "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup.",
+  "finished": 1794486515.354863,
+  "seconds": 383.2825655937195,
+  "resource_limited": false
+}
