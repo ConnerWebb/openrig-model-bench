@@ -922,10 +922,22 @@
     "task": "py-queue",
     "models": "{'developer': 'q122', 'reviewer': 'q122'}",
     "agents": 2,
+    "passed": 2,
+    "attempted": 2,
+    "case_wall_seconds_sum": 1498.946189403534,
+    "accepted_tasks_per_hour": 4.803374564676702,
+    "failures": []
+  },
+  {
+    "phase": "teams",
+    "language": "python",
+    "task": "py-queue",
+    "models": "{'lead': 'q122', 'developer': 'q122', 'reviewer': 'q122'}",
+    "agents": 3,
     "passed": 1,
     "attempted": 1,
-    "case_wall_seconds_sum": 444.34007239341736,
-    "accepted_tasks_per_hour": 8.101902627437507,
+    "case_wall_seconds_sum": 415.41187500953674,
+    "accepted_tasks_per_hour": 8.666097953789485,
     "failures": []
   }
 ]
