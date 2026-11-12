@@ -1,0 +1,42 @@
+{
+  "id": "solo-glm-cpp-csv-s42-h5.5",
+  "task": "cpp-csv",
+  "language": "cpp",
+  "models": {
+    "developer": "glm"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794469497.8219366,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-e5791699014b",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794469498.745089,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794470401.2157834,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    },
+    {
+      "attempt": 3,
+      "started": 1794470533.5264437,
+      "incoming_feedback": "STAGE_FAILED: Three consecutive invalid tool operations"
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "STAGE_FAILED: Three consecutive invalid tool operations",
+  "finished": 1794470699.7384698,
+  "seconds": 1201.9165332317352,
+  "resource_limited": false
+}
