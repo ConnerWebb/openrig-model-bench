@@ -1,7 +1,7 @@
 OPENRIG PYTHON / C++ CAMPAIGN — LIVE CHECKPOINT
 
 /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342
-State: {'phase': 'solo', 'at': 1794448078.588564, 'pid': 637884, 'harness_revision': 'h5.5', 'dispatch_plan': 'heading-summary-and-thermal-repair-then-full-campaign', 'current': 'solo-next-cpp-csv-s42-h5.5'}
+State: {'phase': 'solo', 'at': 1794449647.0754828, 'pid': 637884, 'harness_revision': 'h5.5', 'dispatch_plan': 'heading-summary-and-thermal-repair-then-full-campaign', 'current': 'solo-next-py-refactor-s42-h5.5'}
 Active harness revision: h5.5
 Historical pre-repair results remain intact in runs/ and progress/; they are not mixed into this revision's rankings. All previous completed cells are rerun, including earlier passes.
 
@@ -21,7 +21,7 @@ python: 11/13 accepted
   {'developer': 'devstral'}, 1 agents: 1/1; sum job seconds 1440.1; accepted/hour 2.500
   {'developer': 'next'}, 1 agents: 1/2; sum job seconds 738.5; accepted/hour 4.875
   {'developer': 'nemo'}, 1 agents: 0/1; sum job seconds 1171.7; accepted/hour 0.000
-cpp: 10/14 accepted
+cpp: 11/16 accepted
   {'developer': 'q35'}, 1 agents: 1/1; sum job seconds 56.7; accepted/hour 63.510
   {'developer': 'gpt20'}, 1 agents: 1/1; sum job seconds 56.8; accepted/hour 63.385
   {'developer': 'gpt120'}, 1 agents: 1/1; sum job seconds 103.0; accepted/hour 34.940
@@ -31,7 +31,7 @@ cpp: 10/14 accepted
   {'developer': 'q27q8'}, 1 agents: 1/1; sum job seconds 359.0; accepted/hour 10.028
   {'developer': 'devstral'}, 1 agents: 1/1; sum job seconds 1168.0; accepted/hour 3.082
   {'developer': 'coder30'}, 1 agents: 1/2; sum job seconds 2765.6; accepted/hour 1.302
-  {'developer': 'next'}, 1 agents: 1/2; sum job seconds 4927.8; accepted/hour 0.731
+  {'developer': 'next'}, 1 agents: 2/4; sum job seconds 6495.4; accepted/hour 1.108
   {'developer': 'nemo'}, 1 agents: 0/1; sum job seconds 105.4; accepted/hour 0.000
   {'developer': 'q27q4'}, 1 agents: 0/1; sum job seconds 2708.3; accepted/hour 0.000
 PHASE teams

@@ -1,0 +1,39 @@
+{
+  "id": "solo-next-cpp-csv-s42-h5.5",
+  "task": "cpp-csv",
+  "language": "cpp",
+  "models": {
+    "developer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794448078.5929835,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-e8217fbb4f6a",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794448079.5555475,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794448981.9436398,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    }
+  ],
+  "attempts": 2,
+  "completed_hash": "3b173572353edcfdce4595f17c95983ab082a7f4b0e1b92b456fe01868586a4a",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-next-cpp-csv-s42-h5.5/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794449346.817142,
+  "seconds": 1268.224158525467,
+  "resource_limited": false
+}

@@ -382,5 +382,35 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-csv",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 1268.224158525467,
+    "accepted_tasks_per_hour": 2.8386149055744463,
+    "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-stats",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 299.4500906467438,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "solo-next-cpp-stats-s42-h5.5",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   }
 ]

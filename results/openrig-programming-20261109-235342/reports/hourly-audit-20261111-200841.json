@@ -1,0 +1,516 @@
+{
+  "at": 1794449321.125993,
+  "active_revision": "h5.5",
+  "heartbeat": {
+    "at": 1794449321.080198,
+    "pid": 637884,
+    "active_jobs": [
+      "solo-next-cpp-csv-s42-h5.5"
+    ],
+    "available": 52546691072
+  },
+  "status": {
+    "phase": "solo",
+    "at": 1794448078.588564,
+    "pid": 637884,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign",
+    "current": "solo-next-cpp-csv-s42-h5.5"
+  },
+  "scores_by_revision": [
+    {
+      "revision": "h4",
+      "language": "cpp",
+      "passed": 7,
+      "completed": 14
+    },
+    {
+      "revision": "h4",
+      "language": "python",
+      "passed": 7,
+      "completed": 15
+    },
+    {
+      "revision": "h5.1",
+      "language": "python",
+      "passed": 1,
+      "completed": 1
+    },
+    {
+      "revision": "h5.2",
+      "language": "cpp",
+      "passed": 8,
+      "completed": 13
+    },
+    {
+      "revision": "h5.2",
+      "language": "python",
+      "passed": 10,
+      "completed": 13
+    },
+    {
+      "revision": "h5.3",
+      "language": "cpp",
+      "passed": 3,
+      "completed": 3
+    },
+    {
+      "revision": "h5.3",
+      "language": "python",
+      "passed": 2,
+      "completed": 3
+    },
+    {
+      "revision": "h5.4",
+      "language": "cpp",
+      "passed": 18,
+      "completed": 34
+    },
+    {
+      "revision": "h5.4",
+      "language": "python",
+      "passed": 26,
+      "completed": 32
+    },
+    {
+      "revision": "h5.5",
+      "language": "cpp",
+      "passed": 10,
+      "completed": 14
+    },
+    {
+      "revision": "h5.5",
+      "language": "python",
+      "passed": 11,
+      "completed": 13
+    },
+    {
+      "revision": "legacy",
+      "language": "cpp",
+      "passed": 3,
+      "completed": 6
+    },
+    {
+      "revision": "legacy",
+      "language": "python",
+      "passed": 4,
+      "completed": 7
+    }
+  ],
+  "h55_by_model": [
+    {
+      "model": "coder30",
+      "language": "cpp",
+      "passed": 1,
+      "completed": 2,
+      "failures": [
+        {
+          "id": "solo-coder30-cpp-csv-s42-h5.5",
+          "resource_limited": false,
+          "feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+          "fixed_checks": {
+            "normal": false
+          },
+          "saved_tests": false,
+          "seconds": 2708.3727321624756,
+          "classification_note": "Failed public/saved checks reflect model code/tests. Missing verified closure or deadline reflects workflow. Resource attribution uses recorded flag; these categories may overlap."
+        }
+      ]
+    },
+    {
+      "model": "coder30",
+      "language": "python",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "devstral",
+      "language": "cpp",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "devstral",
+      "language": "python",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "glm",
+      "language": "cpp",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "glm",
+      "language": "python",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "gpt120",
+      "language": "cpp",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "gpt120",
+      "language": "python",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "gpt20",
+      "language": "cpp",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "gpt20",
+      "language": "python",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "nemo",
+      "language": "cpp",
+      "passed": 0,
+      "completed": 1,
+      "failures": [
+        {
+          "id": "solo-nemo-cpp-buffer-s42-h5.5",
+          "resource_limited": false,
+          "feedback": "STAGE_FAILED: Three consecutive invalid tool operations",
+          "fixed_checks": {
+            "normal": false
+          },
+          "saved_tests": false,
+          "seconds": 105.39992809295654,
+          "classification_note": "Failed public/saved checks reflect model code/tests. Missing verified closure or deadline reflects workflow. Resource attribution uses recorded flag; these categories may overlap."
+        }
+      ]
+    },
+    {
+      "model": "nemo",
+      "language": "python",
+      "passed": 0,
+      "completed": 1,
+      "failures": [
+        {
+          "id": "solo-nemo-py-csv-s42-h5.5",
+          "resource_limited": false,
+          "feedback": "STAGE_FAILED: 120 tool-call limit reached",
+          "fixed_checks": {
+            "normal": false
+          },
+          "saved_tests": true,
+          "seconds": 1171.6794545650482,
+          "classification_note": "Failed public/saved checks reflect model code/tests. Missing verified closure or deadline reflects workflow. Resource attribution uses recorded flag; these categories may overlap."
+        }
+      ]
+    },
+    {
+      "model": "next",
+      "language": "cpp",
+      "passed": 1,
+      "completed": 2,
+      "failures": [
+        {
+          "id": "solo-next-cpp-queue-s42-h5.5",
+          "resource_limited": false,
+          "feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+          "fixed_checks": {
+            "normal": true,
+            "asan": true,
+            "tsan": true
+          },
+          "saved_tests": false,
+          "seconds": 2964.0290851593018,
+          "classification_note": "Failed public/saved checks reflect model code/tests. Missing verified closure or deadline reflects workflow. Resource attribution uses recorded flag; these categories may overlap."
+        }
+      ]
+    },
+    {
+      "model": "next",
+      "language": "python",
+      "passed": 1,
+      "completed": 2,
+      "failures": [
+        {
+          "id": "solo-next-py-queue-s42-h5.5",
+          "resource_limited": false,
+          "feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup.",
+          "fixed_checks": {
+            "normal": false
+          },
+          "saved_tests": false,
+          "seconds": 659.352071762085,
+          "classification_note": "Failed public/saved checks reflect model code/tests. Missing verified closure or deadline reflects workflow. Resource attribution uses recorded flag; these categories may overlap."
+        }
+      ]
+    },
+    {
+      "model": "q122",
+      "language": "cpp",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "q122",
+      "language": "python",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "q27q4",
+      "language": "cpp",
+      "passed": 0,
+      "completed": 1,
+      "failures": [
+        {
+          "id": "solo-q27q4-cpp-buffer-s42-h5.5",
+          "resource_limited": false,
+          "feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+          "fixed_checks": {
+            "normal": false
+          },
+          "saved_tests": false,
+          "seconds": 2708.3287069797516,
+          "classification_note": "Failed public/saved checks reflect model code/tests. Missing verified closure or deadline reflects workflow. Resource attribution uses recorded flag; these categories may overlap."
+        }
+      ]
+    },
+    {
+      "model": "q27q4",
+      "language": "python",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "q27q8",
+      "language": "cpp",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "q27q8",
+      "language": "python",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "q35",
+      "language": "cpp",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "q35",
+      "language": "python",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "q9",
+      "language": "cpp",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    },
+    {
+      "model": "q9",
+      "language": "python",
+      "passed": 1,
+      "completed": 1,
+      "failures": []
+    }
+  ],
+  "recent_resource_window": {
+    "samples": 592,
+    "first_at": 1794448721.2030897,
+    "last_at": 1794449321.0686429,
+    "minimum_available_gib": 48.45851135253906,
+    "swap_used_gib": 7.966529846191406,
+    "swapin_delta_pages": 2059,
+    "swapout_delta_pages": 0,
+    "private_oom_kills": 0,
+    "optional_thermal_error_samples": 222,
+    "note": "Existing swap occupancy is not evidence of active thrashing; deltas shown separately. Optional thermal errors remain isolated from essential memory guards."
+  },
+  "last_hour_error_events": [
+    {
+      "at": 1794446127.4457324,
+      "kind": "inference_request",
+      "id": "8b505a4bfbcc475e8538002dc2ac7382",
+      "prefix": "solo-next-cpp-queue-s42-h5.5/developer",
+      "first_any_seconds": 14.737334677018225,
+      "first_content_seconds": 14.737334677018225,
+      "first_delivered_seconds": 14.737339286017232,
+      "usage": null,
+      "normalized_tool_call": false,
+      "context_policy": {
+        "applied": true,
+        "before_bytes": 66615,
+        "after_bytes": 44750,
+        "maximum_bytes": 48000,
+        "dropped_messages": 26,
+        "shortened_history_fields": 0
+      },
+      "model": "campaign-next-s42-c32768",
+      "complete": false,
+      "error": "[Errno 32] Broken pipe",
+      "seconds": 14.73747692501638
+    },
+    {
+      "at": 1794447102.9286025,
+      "kind": "inference_request",
+      "id": "08ead9b5edd74a1eb1c2b104ad10068d",
+      "prefix": "solo-next-cpp-queue-s42-h5.5/developer",
+      "first_any_seconds": 1.8518466399982572,
+      "first_content_seconds": 1.8518466399982572,
+      "first_delivered_seconds": 1.851851749990601,
+      "usage": null,
+      "normalized_tool_call": false,
+      "context_policy": {
+        "applied": true,
+        "before_bytes": 102891,
+        "after_bytes": 46438,
+        "maximum_bytes": 48000,
+        "dropped_messages": 64,
+        "shortened_history_fields": 0
+      },
+      "model": "campaign-next-s42-c32768",
+      "complete": false,
+      "error": "[Errno 32] Broken pipe",
+      "seconds": 1.851972576987464
+    },
+    {
+      "at": 1794448076.4427748,
+      "kind": "inference_request",
+      "id": "db297180b59541b5aa49ec3754cc83e4",
+      "prefix": "solo-next-cpp-queue-s42-h5.5/developer",
+      "first_any_seconds": 17.602041625010315,
+      "first_content_seconds": 17.602041625010315,
+      "first_delivered_seconds": 17.60204500099644,
+      "usage": null,
+      "normalized_tool_call": false,
+      "context_policy": {
+        "applied": true,
+        "before_bytes": 122327,
+        "after_bytes": 47564,
+        "maximum_bytes": 48000,
+        "dropped_messages": 103,
+        "shortened_history_fields": 0
+      },
+      "model": "campaign-next-s42-c32768",
+      "complete": false,
+      "error": "[Errno 32] Broken pipe",
+      "seconds": 17.602148225007113
+    },
+    {
+      "at": 1794448967.4311132,
+      "kind": "inference_request",
+      "id": "f1f1ee10858b4535ba9656f73389256e",
+      "prefix": "solo-next-cpp-csv-s42-h5.5/developer",
+      "first_any_seconds": 10.28142607799964,
+      "first_content_seconds": 10.28142607799964,
+      "first_delivered_seconds": 10.281437239027582,
+      "usage": null,
+      "normalized_tool_call": false,
+      "context_policy": {
+        "applied": true,
+        "before_bytes": 179116,
+        "after_bytes": 39128,
+        "maximum_bytes": 48000,
+        "dropped_messages": 102,
+        "shortened_history_fields": 0
+      },
+      "model": "campaign-next-s42-c32768",
+      "complete": false,
+      "error": "[Errno 32] Broken pipe",
+      "seconds": 15.058861970028374
+    }
+  ],
+  "frozen_manifest_verified": 35,
+  "historical_result_hashes_verified": 199,
+  "backup_status": {
+    "at_utc": "2026-11-12T02:00:33.616495+00:00",
+    "export_errors": [],
+    "finished_case_records": 228,
+    "finished_transport_streams": 11307,
+    "head": "145c5a86322bd4804375b435a48228cf38cd6dba",
+    "success": true
+  },
+  "github_head_verified": "c83e02eda0c58f8688110f63ac00751c8c5320d2",
+  "chart_observer": {
+    "checked_at": 1794449321.3591692,
+    "error": null,
+    "campaign_pid": 637884,
+    "heartbeat_at": 1794449321.080198,
+    "active_jobs": [
+      "solo-next-cpp-csv-s42-h5.5"
+    ],
+    "phase": "solo",
+    "current": "solo-next-cpp-csv-s42-h5.5",
+    "revision": "h5.5",
+    "captured_at": 1794448750.1065502,
+    "captured_label": "Nov 11, 2026 \u00b7 07:59:10 PM CST",
+    "result_identity": "0b5a6e754beb53439746faa35dc0497ca8f12d27ce75cfd612a404991c720add",
+    "finished_solo_trials": 168
+  },
+  "actions": [
+    "Read-only audit; current Coder-Next C++ CSV trial is actively executing tools on its second bounded attempt. No public test verdict yet in this trial.",
+    "No source change, inference call, restart or trial interruption.",
+    "Previously repaired tool normalization, heading summary clipping and full sanitizer feedback remain in the unchanged h5.5 harness. No new reproducible harness defect found.",
+    "Current debug trace correctly throws for INT64_MIN plus -1; model is investigating its own overflow test. No model code was patched."
+  ],
+  "production_preservation_matched": true,
+  "new_completed_solo_since_graph_install": 0,
+  "requires_user_action": false,
+  "stream_error_deadline_correlations": [
+    {
+      "request": "8b505a4bfbcc475e8538002dc2ac7382",
+      "request_started": 1794446127.4457324,
+      "request_seconds": 14.73747692501638,
+      "native_deadline_at": 1794446127.6372309,
+      "classification": "The recorded native deadline falls inside this request interval; Broken pipe is consistent with bounded client cancellation, not a separate transport defect."
+    },
+    {
+      "request": "08ead9b5edd74a1eb1c2b104ad10068d",
+      "request_started": 1794447102.9286025,
+      "request_seconds": 1.851972576987464,
+      "native_deadline_at": 1794447103.137544,
+      "classification": "The recorded native deadline falls inside this request interval; Broken pipe is consistent with bounded client cancellation, not a separate transport defect."
+    },
+    {
+      "request": "db297180b59541b5aa49ec3754cc83e4",
+      "request_started": 1794448076.4427748,
+      "request_seconds": 17.602148225007113,
+      "native_deadline_at": 1794448076.6438258,
+      "classification": "The recorded native deadline falls inside this request interval; Broken pipe is consistent with bounded client cancellation, not a separate transport defect."
+    },
+    {
+      "request": "f1f1ee10858b4535ba9656f73389256e",
+      "request_started": 1794448967.4311132,
+      "request_seconds": 15.058861970028374,
+      "native_deadline_at": 1794448980.1863546,
+      "classification": "The recorded native deadline falls inside this request interval; Broken pipe is consistent with bounded client cancellation, not a separate transport defect."
+    }
+  ]
+}
