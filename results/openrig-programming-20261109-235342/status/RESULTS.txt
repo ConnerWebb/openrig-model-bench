@@ -1,7 +1,7 @@
 OPENRIG PYTHON / C++ CAMPAIGN — LIVE CHECKPOINT
 
 /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342
-State: {'phase': 'solo', 'at': 1794475412.2403805, 'pid': 1242258, 'harness_revision': 'h5.5', 'dispatch_plan': 'shortened-decision-campaign-v1', 'current': 'solo-q9-cpp-csv-s42-h5.5', 'dispatch': 'decision-v1'}
+State: {'phase': 'solo', 'at': 1794477906.7782602, 'pid': 1242258, 'harness_revision': 'h5.5', 'dispatch_plan': 'shortened-decision-campaign-v1', 'current': 'solo-q27q8-py-queue-s42-h5.5', 'dispatch': 'decision-v1'}
 Active harness revision: h5.5
 Historical pre-repair results remain intact in runs/ and progress/; they are not mixed into this revision's rankings. All previous completed cells are rerun, including earlier passes.
 
@@ -21,15 +21,15 @@ python: 15/23 accepted
   {'developer': 'q9'}, 1 agents: 1/2; sum job seconds 1809.7; accepted/hour 1.989
   {'developer': 'coder30'}, 1 agents: 1/2; sum job seconds 2824.8; accepted/hour 1.274
   {'developer': 'nemo'}, 1 agents: 0/2; sum job seconds 3287.7; accepted/hour 0.000
-cpp: 11/21 accepted
+cpp: 11/22 accepted
   {'developer': 'gpt20'}, 1 agents: 1/1; sum job seconds 56.8; accepted/hour 63.385
   {'developer': 'gpt120'}, 1 agents: 1/1; sum job seconds 103.0; accepted/hour 34.940
   {'developer': 'q122'}, 1 agents: 1/1; sum job seconds 185.1; accepted/hour 19.445
-  {'developer': 'q9'}, 1 agents: 1/1; sum job seconds 299.1; accepted/hour 12.034
   {'developer': 'q27q8'}, 1 agents: 1/1; sum job seconds 359.0; accepted/hour 10.028
   {'developer': 'glm'}, 1 agents: 1/2; sum job seconds 1310.9; accepted/hour 2.746
   {'developer': 'q35'}, 1 agents: 1/2; sum job seconds 2404.6; accepted/hour 1.497
   {'developer': 'coder30'}, 1 agents: 1/2; sum job seconds 2765.6; accepted/hour 1.302
+  {'developer': 'q9'}, 1 agents: 1/2; sum job seconds 2793.3; accepted/hour 1.289
   {'developer': 'next'}, 1 agents: 2/4; sum job seconds 6495.4; accepted/hour 1.108
   {'developer': 'devstral'}, 1 agents: 1/2; sum job seconds 3876.5; accepted/hour 0.929
   {'developer': 'nemo'}, 1 agents: 0/2; sum job seconds 817.5; accepted/hour 0.000

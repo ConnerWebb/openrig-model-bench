@@ -1,0 +1,42 @@
+{
+  "id": "solo-q9-cpp-csv-s42-h5.5",
+  "task": "cpp-csv",
+  "language": "cpp",
+  "models": {
+    "developer": "q9"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794475412.2448335,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-05ab48d480b6",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794475413.1917074,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794476315.6029482,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    },
+    {
+      "attempt": 3,
+      "started": 1794477218.0179427,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "STAGE_FAILED: Six unchanged repetitions of the same command and output; no progress",
+  "finished": 1794477906.3533776,
+  "seconds": 2494.108544111252,
+  "resource_limited": false
+}
