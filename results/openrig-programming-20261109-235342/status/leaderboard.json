@@ -346,5 +346,23 @@
     "case_wall_seconds_sum": 56.79542875289917,
     "accepted_tasks_per_hour": 63.38538292690035,
     "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-queue",
+    "models": "{'developer': 'next'}",
+    "agents": 1,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 659.352071762085,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "solo-next-py-queue-s42-h5.5",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   }
 ]

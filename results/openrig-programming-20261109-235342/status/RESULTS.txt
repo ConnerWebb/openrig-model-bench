@@ -1,15 +1,14 @@
 OPENRIG PYTHON / C++ CAMPAIGN — LIVE CHECKPOINT
 
 /home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342
-State: {'phase': 'solo', 'at': 1794444454.400022, 'pid': 637884, 'harness_revision': 'h5.5', 'dispatch_plan': 'heading-summary-and-thermal-repair-then-full-campaign', 'current': 'solo-next-py-queue-s42-h5.5'}
+State: {'phase': 'solo', 'at': 1794445114.1350543, 'pid': 637884, 'harness_revision': 'h5.5', 'dispatch_plan': 'heading-summary-and-thermal-repair-then-full-campaign', 'current': 'solo-next-cpp-queue-s42-h5.5'}
 Active harness revision: h5.5
 Historical pre-repair results remain intact in runs/ and progress/; they are not mixed into this revision's rankings. All previous completed cells are rerun, including earlier passes.
 
 Independent task acceptance is the success criterion. Python and C++ are scored separately. Aliases are not additional models. Qualification and probes are not included in solo/team rankings.
 
 PHASE solo
-python: 11/12 accepted
-  {'developer': 'next'}, 1 agents: 1/1; sum job seconds 79.1; accepted/hour 45.489
+python: 11/13 accepted
   {'developer': 'coder30'}, 1 agents: 1/1; sum job seconds 114.0; accepted/hour 31.590
   {'developer': 'gpt120'}, 1 agents: 1/1; sum job seconds 116.1; accepted/hour 30.999
   {'developer': 'gpt20'}, 1 agents: 1/1; sum job seconds 134.0; accepted/hour 26.863
@@ -20,6 +19,7 @@ python: 11/12 accepted
   {'developer': 'q122'}, 1 agents: 1/1; sum job seconds 451.4; accepted/hour 7.975
   {'developer': 'q27q8'}, 1 agents: 1/1; sum job seconds 647.2; accepted/hour 5.562
   {'developer': 'devstral'}, 1 agents: 1/1; sum job seconds 1440.1; accepted/hour 2.500
+  {'developer': 'next'}, 1 agents: 1/2; sum job seconds 738.5; accepted/hour 4.875
   {'developer': 'nemo'}, 1 agents: 0/1; sum job seconds 1171.7; accepted/hour 0.000
 cpp: 10/13 accepted
   {'developer': 'q35'}, 1 agents: 1/1; sum job seconds 56.7; accepted/hour 63.510

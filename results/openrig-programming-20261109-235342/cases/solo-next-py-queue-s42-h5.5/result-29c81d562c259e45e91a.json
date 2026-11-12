@@ -1,0 +1,42 @@
+{
+  "id": "solo-next-py-queue-s42-h5.5",
+  "task": "py-queue",
+  "language": "python",
+  "models": {
+    "developer": "next"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794444454.4044008,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-5ba46a7017fb",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794444455.3668544,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794444861.5373518,
+      "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+    },
+    {
+      "attempt": 3,
+      "started": 1794444993.6477718,
+      "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup.",
+  "finished": 1794445113.7564726,
+  "seconds": 659.352071762085,
+  "resource_limited": false
+}
