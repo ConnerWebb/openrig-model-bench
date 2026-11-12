@@ -657,5 +657,17 @@
         "resource_limited": false
       }
     ]
+  },
+  {
+    "phase": "solo",
+    "language": "python",
+    "task": "py-queue",
+    "models": "{'developer': 'devstral'}",
+    "agents": 1,
+    "passed": 1,
+    "attempted": 1,
+    "case_wall_seconds_sum": 2244.975594997406,
+    "accepted_tasks_per_hour": 1.6035809066352722,
+    "failures": []
   }
 ]

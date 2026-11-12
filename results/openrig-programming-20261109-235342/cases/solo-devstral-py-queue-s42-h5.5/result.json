@@ -1,0 +1,44 @@
+{
+  "id": "solo-devstral-py-queue-s42-h5.5",
+  "task": "py-queue",
+  "language": "python",
+  "models": {
+    "developer": "devstral"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "solo",
+  "harness_revision": "h5.5",
+  "started": 1794463563.7998927,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-f8d4b4206a27",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794463564.8270497,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794464467.2677057,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    },
+    {
+      "attempt": 3,
+      "started": 1794465369.819519,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    }
+  ],
+  "attempts": 3,
+  "completed_hash": "24a82a5a0794e38b53b4b4b07eaaf01c34842c5e9f433f879eb0697186181fe5",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/solo-devstral-py-queue-s42-h5.5/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794465808.7754877,
+  "seconds": 2244.975594997406,
+  "resource_limited": false
+}
