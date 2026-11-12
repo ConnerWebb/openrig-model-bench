@@ -1,0 +1,47 @@
+{
+  "at": 1794455424.6935928,
+  "deployment": {
+    "at": 1794455371.4695778,
+    "harness_revision": "h5.5",
+    "dispatch": "decision-v1",
+    "previous_main_pid": 637884,
+    "new_main_pid": 1242258,
+    "boundary": {
+      "at": 1794455358.4617255,
+      "pid": 637884,
+      "case": "qualification-cpp-team-n6-v2-h5.5",
+      "result_sha256": "9f69536598d1c68cd464e0be6249ec2cbca1b0f0322081aced9dcc27f26b3bc9",
+      "cleanup_complete": true,
+      "active_trial_interrupted": false
+    },
+    "checkpoint": "/home/cow/Documents/Codex/Backups/openrig-programming/20261109-235342/decision-idle-boundary-1794455358752402340",
+    "previous_results_verified": 242,
+    "source_manifest_verified": true,
+    "production_unchanged": true,
+    "active_trial_interrupted": false
+  },
+  "status": {
+    "phase": "solo",
+    "at": 1794455371.4059217,
+    "pid": 1242258,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "shortened-decision-campaign-v1",
+    "current": "solo-coder30-py-queue-s42-h5.5",
+    "dispatch": "decision-v1"
+  },
+  "heartbeat": {
+    "at": 1794455423.97185,
+    "pid": 1242258,
+    "active_jobs": [
+      "solo-coder30-py-queue-s42-h5.5"
+    ],
+    "available": 92242231296
+  },
+  "admission_window": {
+    "started": 1794455369.5040553,
+    "deadline": 1794584969.5040553
+  },
+  "source_files_verified": 7,
+  "harness_files_verified": 35,
+  "production_preservation_matched": true
+}
