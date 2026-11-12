@@ -1,0 +1,39 @@
+{
+  "id": "decision-v1-solo-q122-p1-s43-a1794505437316958208-0-h5.5",
+  "task": "py-csv",
+  "language": "python",
+  "models": {
+    "developer": "q122"
+  },
+  "seed": 43,
+  "variant": 300,
+  "topology": 1,
+  "phase": "parallel-jobs",
+  "harness_revision": "h5.5",
+  "started": 1794505437.3350968,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-9cf44df27228",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794505438.4420414,
+      "incoming_feedback": "None. "
+    },
+    {
+      "attempt": 2,
+      "started": 1794506340.9301138,
+      "incoming_feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached"
+    }
+  ],
+  "attempts": 2,
+  "completed_hash": "6d69e8a2a97c0c5742dccdc61e24b613d84fca8e1947f8bce2eeaeb602f56e7a",
+  "final_project": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/runs/decision-v1-solo-q122-p1-s43-a1794505437316958208-0-h5.5/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794506413.7351332,
+  "seconds": 976.4000363349915,
+  "resource_limited": false
+}
