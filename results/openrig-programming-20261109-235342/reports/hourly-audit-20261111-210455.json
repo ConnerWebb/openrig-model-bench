@@ -1,0 +1,390 @@
+{
+  "at": 1794452695.8327703,
+  "harness_revision": "h5.5",
+  "status": {
+    "phase": "qualification",
+    "at": 1794452261.3634274,
+    "pid": 637884,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "heading-summary-and-thermal-repair-then-full-campaign",
+    "current": "qualification-cpp-team-n4-h5.5"
+  },
+  "heartbeat": {
+    "at": 1794452696.4487228,
+    "pid": 637884,
+    "active_jobs": [
+      "qualification-cpp-team-n4-h5.5"
+    ],
+    "available": 53075861504
+  },
+  "solo_scores": {
+    "python": {
+      "accepted": 13,
+      "finished": 16
+    },
+    "cpp": {
+      "accepted": 11,
+      "finished": 16
+    }
+  },
+  "solo_by_model": [
+    {
+      "model": "coder30",
+      "language": "cpp",
+      "accepted": 1,
+      "finished": 2,
+      "failures": [
+        {
+          "id": "solo-coder30-cpp-csv-s42-h5.5",
+          "feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+          "resource_limited": false,
+          "last_fixed_checks": {
+            "normal": false
+          },
+          "last_saved_tests": false
+        }
+      ]
+    },
+    {
+      "model": "coder30",
+      "language": "python",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "devstral",
+      "language": "cpp",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "devstral",
+      "language": "python",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "glm",
+      "language": "cpp",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "glm",
+      "language": "python",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "gpt120",
+      "language": "cpp",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "gpt120",
+      "language": "python",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "gpt20",
+      "language": "cpp",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "gpt20",
+      "language": "python",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "nemo",
+      "language": "cpp",
+      "accepted": 0,
+      "finished": 1,
+      "failures": [
+        {
+          "id": "solo-nemo-cpp-buffer-s42-h5.5",
+          "feedback": "STAGE_FAILED: Three consecutive invalid tool operations",
+          "resource_limited": false,
+          "last_fixed_checks": {
+            "normal": false
+          },
+          "last_saved_tests": false
+        }
+      ]
+    },
+    {
+      "model": "nemo",
+      "language": "python",
+      "accepted": 0,
+      "finished": 1,
+      "failures": [
+        {
+          "id": "solo-nemo-py-csv-s42-h5.5",
+          "feedback": "STAGE_FAILED: 120 tool-call limit reached",
+          "resource_limited": false,
+          "last_fixed_checks": {
+            "normal": false
+          },
+          "last_saved_tests": true
+        }
+      ]
+    },
+    {
+      "model": "next",
+      "language": "cpp",
+      "accepted": 2,
+      "finished": 4,
+      "failures": [
+        {
+          "id": "solo-next-cpp-queue-s42-h5.5",
+          "feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+          "resource_limited": false,
+          "last_fixed_checks": {
+            "normal": true,
+            "asan": true,
+            "tsan": true
+          },
+          "last_saved_tests": false
+        },
+        {
+          "id": "solo-next-cpp-stats-s42-h5.5",
+          "feedback": "STAGE_FAILED: Six unchanged repetitions of the same command and output; no progress",
+          "resource_limited": false,
+          "last_fixed_checks": {},
+          "last_saved_tests": null
+        }
+      ]
+    },
+    {
+      "model": "next",
+      "language": "python",
+      "accepted": 3,
+      "finished": 5,
+      "failures": [
+        {
+          "id": "solo-next-py-queue-s42-h5.5",
+          "feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup.",
+          "resource_limited": false,
+          "last_fixed_checks": {
+            "normal": false
+          },
+          "last_saved_tests": false
+        },
+        {
+          "id": "solo-next-py-queue-s43-h5.5",
+          "feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup.",
+          "resource_limited": false,
+          "last_fixed_checks": {
+            "normal": false
+          },
+          "last_saved_tests": false
+        }
+      ]
+    },
+    {
+      "model": "q122",
+      "language": "cpp",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "q122",
+      "language": "python",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "q27q4",
+      "language": "cpp",
+      "accepted": 0,
+      "finished": 1,
+      "failures": [
+        {
+          "id": "solo-q27q4-cpp-buffer-s42-h5.5",
+          "feedback": "STAGE_FAILED: Fifteen-minute agent-turn deadline reached",
+          "resource_limited": false,
+          "last_fixed_checks": {
+            "normal": false
+          },
+          "last_saved_tests": false
+        }
+      ]
+    },
+    {
+      "model": "q27q4",
+      "language": "python",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "q27q8",
+      "language": "cpp",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "q27q8",
+      "language": "python",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "q35",
+      "language": "cpp",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "q35",
+      "language": "python",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "q9",
+      "language": "cpp",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    },
+    {
+      "model": "q9",
+      "language": "python",
+      "accepted": 1,
+      "finished": 1,
+      "failures": []
+    }
+  ],
+  "topology_qualification": [
+    {
+      "id": "qualification-cpp-team-n1-h5.5",
+      "complete": true,
+      "feedback": null
+    },
+    {
+      "id": "qualification-cpp-team-n2-h5.5",
+      "complete": true,
+      "feedback": null
+    },
+    {
+      "id": "qualification-py-team-n1-h5.5",
+      "complete": true,
+      "feedback": null
+    },
+    {
+      "id": "qualification-py-team-n2-h5.5",
+      "complete": true,
+      "feedback": null
+    },
+    {
+      "id": "qualification-py-team-n4-h5.5",
+      "complete": true,
+      "feedback": null
+    },
+    {
+      "id": "qualification-py-team-n5-v2-h5.5",
+      "complete": true,
+      "feedback": null
+    },
+    {
+      "id": "qualification-py-team-n6-v2-h5.5",
+      "complete": false,
+      "feedback": "Planner failed: 120 tool-call limit reached"
+    }
+  ],
+  "qualification_notes": [
+    "Qualification is not a coding score. Six-seat Python planning failed because the model repeatedly selected unadvertised run_tests instead of advertised submit_plan; full request tool list and native planner-only assignment were checked. This is a bounded model workflow failure, not evidence that run_tests was missing from an implementing role.",
+    "The latest Python queue seed43 trial failed fixed checks and its own saved tests, then ended without verified closure. No model solution/test was patched.",
+    "Current C++ four-seat qualification has passed developer checks and advanced to tester; healthy active work is left running."
+  ],
+  "recent_resource_window": {
+    "samples": 590,
+    "minimum_available_gib": 47.13026809692383,
+    "swap_occupied_gib": 7.962364196777344,
+    "swapin_pages": 399,
+    "swapout_pages": 0,
+    "inference_oom_kills": 0,
+    "optional_temperature_error_samples": 406
+  },
+  "recent_errors": [
+    {
+      "at": 1794451304.2498128,
+      "kind": "inference_request",
+      "id": "c529c855040e49faa9712e7ae7e79d72",
+      "prefix": "solo-next-py-queue-s43-h5.5/developer",
+      "first_any_seconds": 12.103632557031233,
+      "first_content_seconds": 12.103632557031233,
+      "first_delivered_seconds": 12.10364461899735,
+      "usage": null,
+      "normalized_tool_call": false,
+      "context_policy": {
+        "applied": true,
+        "before_bytes": 433066,
+        "after_bytes": 45245,
+        "maximum_bytes": 48000,
+        "dropped_messages": 158,
+        "shortened_history_fields": 0
+      },
+      "model": "campaign-next-s43-c32768",
+      "complete": false,
+      "error": "[Errno 32] Broken pipe",
+      "seconds": 12.103786275023594
+    }
+  ],
+  "deadline_correlations": [
+    {
+      "request": "c529c855040e49faa9712e7ae7e79d72",
+      "matches_native_deadline": true,
+      "classification": "Bounded deadline cancellation"
+    }
+  ],
+  "frozen_files_verified": 35,
+  "historical_results_verified": 199,
+  "production_preservation_matched": true,
+  "backup_status": {
+    "at_utc": "2026-11-12T03:01:31.677967+00:00",
+    "export_errors": [],
+    "finished_case_records": 240,
+    "finished_transport_streams": 11829,
+    "head": "ddc7f5a7c9d1929152caee5c46dfca825857b8f1",
+    "success": true
+  },
+  "github_head_verified": "ddc7f5a7c9d1929152caee5c46dfca825857b8f1",
+  "live_chart_status": {
+    "checked_at": 1794452691.3860729,
+    "error": null,
+    "campaign_pid": 637884,
+    "heartbeat_at": 1794452691.3773396,
+    "active_jobs": [
+      "qualification-cpp-team-n4-h5.5"
+    ],
+    "phase": "qualification",
+    "current": "qualification-cpp-team-n4-h5.5",
+    "revision": "h5.5",
+    "captured_at": 1794451525.7558038,
+    "captured_label": "Nov 11, 2026 \u00b7 08:45:25 PM CST",
+    "result_identity": "c61434cf82f151fbd7b1f516da468529d6cf833eb3e31086d41db876446ff61a",
+    "finished_solo_trials": 173
+  },
+  "action": "Preserved audit; no runtime/config changes, service restarts or agent interruptions. Continue existing finite dispatch. No user action required."
+}
