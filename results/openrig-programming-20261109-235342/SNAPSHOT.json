@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2026-11-12T18:28:34.029013+00:00",
+  "as_of_utc": "2026-11-12T18:43:52.138183+00:00",
   "campaign": "openrig-programming-20261109-235342",
-  "completed_case_records": 284,
+  "completed_case_records": 285,
   "consistency": "Completed result records older than30 seconds and finished transport streams. Append-only telemetry ends at full newline boundaries. Live work is not stopped, locked, or rewritten.",
   "counts": [
     {
@@ -45,7 +45,7 @@
       "revision": "h5.5"
     },
     {
-      "count": 4,
+      "count": 5,
       "interrupted": false,
       "language": "cpp",
       "passed": true,
@@ -485,10 +485,9 @@
     "external compiler caches"
   ],
   "export_errors": [],
-  "finished_transport_streams": 14622,
+  "finished_transport_streams": 14652,
   "in_progress_not_scored": [
     "decision-v1-solo-q122-p2-s43-a1794508033424944006-0-h5.5",
-    "decision-v1-solo-q122-p2-s43-a1794508033424944006-1-h5.5",
     "plan-next-cpp-buffer-h5.4",
     "plan-next-py-queue-h5.4",
     "plan-q122-cpp-csv-h5.5",
