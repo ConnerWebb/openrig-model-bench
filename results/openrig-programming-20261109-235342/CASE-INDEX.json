@@ -49,6 +49,23 @@
     "stored_result_sha256": "0a4c4364fd44ff6ae48d5c1606adb618e060f28b8d2627aecdede4e74a60ad9f"
   },
   {
+    "artifact": "artifacts/cases/decision-v1-python-uniform-three-s44-h5.5-a68f04ced25a3c8a2e10.tar.gz",
+    "complete": false,
+    "directory": "decision-v1-python-uniform-three-s44-h5.5",
+    "id": "decision-v1-python-uniform-three-s44-h5.5",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "q122",
+      "lead": "q122",
+      "reviewer": "q122"
+    },
+    "phase": "teams",
+    "revision": "h5.5",
+    "source_result_sha256": "a68f04ced25a3c8a2e10b5ceaca85ed0120fe20762eb665047cbb8b07bb8a51f",
+    "stored_result_sha256": "a68f04ced25a3c8a2e10b5ceaca85ed0120fe20762eb665047cbb8b07bb8a51f"
+  },
+  {
     "artifact": "artifacts/cases/drift-control-next-h5.4-7c7deb374e73d8809f57.tar.gz",
     "complete": true,
     "directory": "drift-control-next-h5.4",
@@ -3441,6 +3458,21 @@
     "revision": "h5.5",
     "source_result_sha256": "9f8b34112e6cbe5d4c4fffd66294e1e81755f0df277ffef68f2690da58644d61",
     "stored_result_sha256": "9f8b34112e6cbe5d4c4fffd66294e1e81755f0df277ffef68f2690da58644d61"
+  },
+  {
+    "artifact": "artifacts/cases/solo-q122-cpp-csv-s43-h5.5-a8d32d76fb934a011d87.tar.gz",
+    "complete": true,
+    "directory": "solo-q122-cpp-csv-s43-h5.5",
+    "id": "solo-q122-cpp-csv-s43-h5.5",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "q122"
+    },
+    "phase": "solo",
+    "revision": "h5.5",
+    "source_result_sha256": "a8d32d76fb934a011d870e230cc1e1837a8e95fb6ac0a502232d161fa7cb9206",
+    "stored_result_sha256": "a8d32d76fb934a011d870e230cc1e1837a8e95fb6ac0a502232d161fa7cb9206"
   },
   {
     "artifact": "artifacts/cases/solo-q122-py-csv-s42-h4-53e85561b0e44b14b1da.tar.gz",

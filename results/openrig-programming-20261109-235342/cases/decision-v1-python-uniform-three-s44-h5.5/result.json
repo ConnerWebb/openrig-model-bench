@@ -1,0 +1,44 @@
+{
+  "id": "decision-v1-python-uniform-three-s44-h5.5",
+  "task": "py-queue",
+  "language": "python",
+  "models": {
+    "lead": "q122",
+    "developer": "q122",
+    "reviewer": "q122"
+  },
+  "seed": 44,
+  "variant": 0,
+  "topology": 3,
+  "phase": "teams",
+  "harness_revision": "h5.5",
+  "started": 1794490795.618964,
+  "complete": false,
+  "operator_interventions": 0,
+  "seed_fixture": null,
+  "seed_fixture_hash": null,
+  "rig": "bench-261109235342-009bdda062a4",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794490843.927875,
+      "incoming_feedback": "None. \nADVISORY PLAN:\nCreate solution.py with JobQueue class using SQLite: implement __init__ to create DB table with columns for key, payload, state, attempts, owner, lease_until, inserted_at\nImplement enqueue(key, payload): INSERT with ON CONFLICT DO NOTHING, return True if inserted, False if key exists\nImplement claim(worker, now, lease): atomically select oldest queued/leased job with lease_until<=now and attempts<max_attempts, update attempts/owner/lease_until, return {key,payload,attempts} or None\nImplement complete(key, worker): verify owner matches, set state='done', return True/False\nImplement fail(key, worker): verify owner matches, if attempts<max_attempts set state='queued' and clear owner, else set state='failed', return True/False\nImplement status(key): return {state, attempts} or None if key not found\nAdd validation in each method: lease>0, nonempty worker/key, max_attempts>0, raise ValueError on invalid args\nCreate test_solution.py with unittest.TestCase covering: enqueue uniqueness, claim selection order, complete/fail ownership checks, max_attempts exhaustion, status queries, ValueError on invalid args\nAdd README.md with usage examples and API documentation\nRun tests to verify implementation against public cases"
+    },
+    {
+      "attempt": 2,
+      "started": 1794491212.097191,
+      "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+    },
+    {
+      "attempt": 3,
+      "started": 1794491394.2294068,
+      "incoming_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup."
+    }
+  ],
+  "attempts": 3,
+  "failure": "Repair budget exhausted",
+  "last_stage_feedback": "Agent turn ended without verified closure. If checks passed, rerun them then finish_stage. Use native tool calls and small write/append chunks, not text markup.",
+  "finished": 1794491734.3972795,
+  "seconds": 938.7783155441284,
+  "resource_limited": false
+}
