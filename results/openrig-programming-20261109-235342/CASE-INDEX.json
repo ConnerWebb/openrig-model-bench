@@ -1939,6 +1939,21 @@
     "stored_result_sha256": "6c9fbd58582490bc725a8bb7e9fd9ff829a37acdbb28a46d70a002514aeb577e"
   },
   {
+    "artifact": "artifacts/cases/solo-nemo-cpp-csv-s42-h5.5-ff34cf2f7b4864d41299.tar.gz",
+    "complete": false,
+    "directory": "solo-nemo-cpp-csv-s42-h5.5",
+    "id": "solo-nemo-cpp-csv-s42-h5.5",
+    "interrupted": false,
+    "language": "cpp",
+    "models": {
+      "developer": "nemo"
+    },
+    "phase": "solo",
+    "revision": "h5.5",
+    "source_result_sha256": "ff34cf2f7b4864d412998812b846130b0330d754446da3d0e6e23cd96e280424",
+    "stored_result_sha256": "ff34cf2f7b4864d412998812b846130b0330d754446da3d0e6e23cd96e280424"
+  },
+  {
     "artifact": "artifacts/cases/solo-nemo-py-csv-s42-h4-4f97901ae79798695ef2.tar.gz",
     "complete": false,
     "directory": "solo-nemo-py-csv-s42-h4",
@@ -3677,6 +3692,21 @@
     "revision": "h5.5",
     "source_result_sha256": "b9afaab9c5d5a8f300ac0da7ac6a065f99d884a9ddd317feddd3c3337b77c728",
     "stored_result_sha256": "b9afaab9c5d5a8f300ac0da7ac6a065f99d884a9ddd317feddd3c3337b77c728"
+  },
+  {
+    "artifact": "artifacts/cases/solo-q35-py-queue-s42-h5.5-004b5ea24e07ed3ec60c.tar.gz",
+    "complete": false,
+    "directory": "solo-q35-py-queue-s42-h5.5",
+    "id": "solo-q35-py-queue-s42-h5.5",
+    "interrupted": false,
+    "language": "python",
+    "models": {
+      "developer": "q35"
+    },
+    "phase": "solo",
+    "revision": "h5.5",
+    "source_result_sha256": "004b5ea24e07ed3ec60c9415990b0c2e3ab75f87d9c7442d1a35b28876c37049",
+    "stored_result_sha256": "004b5ea24e07ed3ec60c9415990b0c2e3ab75f87d9c7442d1a35b28876c37049"
   },
   {
     "artifact": "artifacts/cases/solo-q9-cpp-buffer-s42-h4-aea6a7d59d9b8e56c486.tar.gz",
