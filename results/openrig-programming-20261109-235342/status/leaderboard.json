@@ -801,5 +801,23 @@
     "case_wall_seconds_sum": 873.3910489082336,
     "accepted_tasks_per_hour": 4.121865004799527,
     "failures": []
+  },
+  {
+    "phase": "solo",
+    "language": "cpp",
+    "task": "cpp-csv",
+    "models": "{'developer': 'q27q8'}",
+    "agents": 1,
+    "passed": 0,
+    "attempted": 1,
+    "case_wall_seconds_sum": 2708.3486490249634,
+    "accepted_tasks_per_hour": 0.0,
+    "failures": [
+      {
+        "id": "solo-q27q8-cpp-csv-s42-h5.5",
+        "reason": "Repair budget exhausted",
+        "resource_limited": false
+      }
+    ]
   }
 ]
