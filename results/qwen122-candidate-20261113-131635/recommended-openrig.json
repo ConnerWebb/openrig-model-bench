@@ -39,5 +39,7 @@
     "no public listener"
   ],
   "promotion_requires_user_approval": true,
-  "rollback_backup": "/home/cow/Documents/Codex/Backups/qwen122-candidate-20261113-131635"
+  "rollback_backup": "/home/cow/Documents/Codex/Backups/qwen122-candidate-20261113-131635",
+  "proposed_production_alias": "framework-qwen122",
+  "alias_installation": "Pending approval; Modelfile.proposed pins 32K per model without changing the global Ollama context default."
 }
