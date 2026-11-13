@@ -1,6 +1,6 @@
 import importlib.util,pathlib,tempfile,json,sys
 P=pathlib.Path
-spec=importlib.util.spec_from_file_location('launcher',P(__file__).parent/'fleet_programming.py');l=importlib.util.module_from_spec(spec);spec.loader.exec_module(l)
+spec=importlib.util.spec_from_file_location('launcher',(P(__file__).parent/'fleet_programming.py' if (P(__file__).parent/'fleet_programming.py').exists() else P(__file__).parent/'launcher.py'));l=importlib.util.module_from_spec(spec);spec.loader.exec_module(l)
 checks=[]
 with tempfile.TemporaryDirectory() as d:
  root=P(d);(root/'safe.py').write_text('x=1');(root/'.env').write_text('secret');(root/'.git').mkdir();(root/'.git/key').write_text('secret')
