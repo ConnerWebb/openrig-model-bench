@@ -1,0 +1,12 @@
+{
+  "model": "qwen3.5:122b",
+  "roles": {
+    "developer": "q122",
+    "planner": "q122",
+    "reviewer": "q122"
+  },
+  "context": 32768,
+  "parallel": 1,
+  "resident_models": 1,
+  "production_defaults_changed": false
+}

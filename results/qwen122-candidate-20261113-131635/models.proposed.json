@@ -1,0 +1,64 @@
+{
+  "providers": {
+    "ollama": {
+      "baseUrl": "http://127.0.0.1:11434/v1",
+      "api": "openai-completions",
+      "apiKey": "ollama-local",
+      "models": [
+        {
+          "id": "framework-coder",
+          "name": "Local Qwen3-Coder 30B",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 32768,
+          "maxTokens": 4096,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          }
+        },
+        {
+          "id": "lab-coder-next",
+          "name": "Local Qwen3-Coder-Next 80B",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 32768,
+          "maxTokens": 4096,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          }
+        },
+        {
+          "id": "qwen3.5:122b",
+          "name": "Qwen3.5 122B \u2014 general coding candidate",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 32768,
+          "maxTokens": 4096,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "samplingParams": {
+            "temperature": 0.2,
+            "top_p": 0.95,
+            "reasoning_effort": "none"
+          }
+        }
+      ]
+    }
+  }
+}

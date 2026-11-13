@@ -1,0 +1,6 @@
+PRODUCTION HAS NOT BEEN CHANGED. Disabling this candidate requires stopping only its private qwen122-candidate-20261113-131635 service and its same-prefix inference service. Preserve candidate artifacts; no production restore is currently necessary.
+
+Original backup: /home/cow/Documents/Codex/Backups/qwen122-candidate-20261113-131635
+Fleet state: fleet-state/ (original /home/cow/.local/state/openrig-fleet). Consistent native database: consistent-before.sqlite, verified integrity_check=ok. Exact baseline launchers/pointers: configs/ contains original absolute paths beneath it. Additional mapping: additional-config-0 -> /home/cow/.config/framework-ai; additional-config-1 -> /home/cow/.config/systemd/user; additional-config-2 -> /home/cow/.local/opt/framework-ai/openrig-fleet/v2; additional-config-3 -> /home/cow/.local/opt/framework-ai/openrig-fleet/models.json.
+
+Any later rollback after approved promotion must first back up the then-current state and stop only affected services at an idle boundary. Restore only files changed by that promotion using these originals. Do not replace newer task histories or unrelated settings wholesale. A database restore requires stopping the owning daemon and preserving its current SQLite/WAL files first. Never restore a live database by overwriting it. No rollback action is executed automatically.

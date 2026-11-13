@@ -1,0 +1,12 @@
+{
+  "ready_for_approval": true,
+  "production_defaults_changed": false,
+  "tests_passed": 3,
+  "configuration_files_verified": 21120,
+  "backup": "/home/cow/Documents/Codex/Backups/qwen122-candidate-20261113-131635",
+  "model": "qwen3.5:122b",
+  "recommended_default": "single agent,32K context,4096 max output,one resident model,one inference slot",
+  "optional_roles": "same model, explicit opt-in planner/reviewer passes",
+  "gpu": "Radeon8060S Vulkan;50/50 layers offloaded",
+  "validation": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/qwen122-candidate-20261113-131635/VALIDATION.json"
+}

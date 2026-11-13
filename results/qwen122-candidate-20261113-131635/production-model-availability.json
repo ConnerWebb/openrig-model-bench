@@ -1,0 +1,19 @@
+{
+  "available": true,
+  "details": {
+    "parent_model": "",
+    "format": "gguf",
+    "family": "qwen35moe",
+    "families": [
+      "qwen35moe"
+    ],
+    "parameter_size": "125.1B",
+    "quantization_level": "Q4_K_M"
+  },
+  "capabilities": [
+    "completion",
+    "vision",
+    "tools",
+    "thinking"
+  ]
+}

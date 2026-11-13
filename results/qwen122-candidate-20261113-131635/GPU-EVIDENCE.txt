@@ -1,0 +1,6 @@
+Nov 13 13:16:42 fedora ollama[3841557]: time=2026-11-13T13:16:42.148-06:00 level=INFO source=types.go:32 msg="inference compute" id=0 filter_id=0 library=Vulkan compute=0.0 name=Vulkan0 description="Radeon 8060S Graphics (RADV STRIX_HALO)" libdirs=ollama,vulkan driver=0.0 pci_id=0000:c2:00.0 type=iGPU total="96.5 GiB" available="94.3 GiB"
+Nov 13 13:16:47 fedora ollama[3841557]: cmn  common_param:   - CPU     : AMD RYZEN AI MAX+ 395 w/ Radeon 8060S (128077 MiB, 128077 MiB free)
+Nov 13 13:16:47 fedora ollama[3841557]: cmn  common_param:   - Vulkan0 : Radeon 8060S Graphics (RADV STRIX_HALO) (98816 MiB, 96583 MiB free)
+Nov 13 13:16:48 fedora ollama[3841557]: llama_prepare_model_devices: using device Vulkan0 (Radeon 8060S Graphics (RADV STRIX_HALO)) (0000:c2:00.0) - 96583 MiB free
+Nov 13 13:16:51 fedora ollama[3841557]: load_tensors: offloaded 50/50 layers to GPU
+Nov 13 13:17:10 fedora ollama[3841557]: llama_context: n_seq_max             = 1
