@@ -1,0 +1,139 @@
+{
+  "at": 1794586379.0992122,
+  "dispatch": "decision-v1",
+  "harness_revision": "h5.5",
+  "status": {
+    "phase": "complete",
+    "at": 1794515619.2590666,
+    "pid": 1242258,
+    "harness_revision": "h5.5",
+    "dispatch_plan": "shortened-decision-campaign-v1",
+    "dispatch": "decision-v1",
+    "outcome": "completed_shortened_scope"
+  },
+  "heartbeat": {
+    "at": 1794515622.5132935,
+    "pid": 1242258,
+    "active_jobs": [],
+    "available": 25133756416
+  },
+  "heartbeat_age": 70756.58591866493,
+  "balanced_finished": 48,
+  "balanced_target": 48,
+  "scores": {
+    "python": {
+      "balanced_accepted": 15,
+      "balanced_finished": 24,
+      "all_h55_accepted": 19,
+      "all_h55_finished": 29
+    },
+    "cpp": {
+      "balanced_accepted": 12,
+      "balanced_finished": 24,
+      "all_h55_accepted": 14,
+      "all_h55_finished": 28
+    }
+  },
+  "latest_finished": [
+    {
+      "id": "solo-q122-py-queue-s43-h5.5",
+      "complete": true,
+      "resource_limited": false,
+      "seconds": 639.8876709938049,
+      "feedback": null,
+      "last_fixed_checks": {
+        "normal": true
+      },
+      "last_saved_tests": true
+    },
+    {
+      "id": "solo-q122-py-queue-s44-h5.5",
+      "complete": true,
+      "resource_limited": false,
+      "seconds": 677.0926473140717,
+      "feedback": null,
+      "last_fixed_checks": {
+        "normal": true
+      },
+      "last_saved_tests": true
+    },
+    {
+      "id": "solo-q122-cpp-csv-s43-h5.5",
+      "complete": true,
+      "resource_limited": false,
+      "seconds": 683.9817690849304,
+      "feedback": null,
+      "last_fixed_checks": {
+        "normal": true,
+        "asan": true
+      },
+      "last_saved_tests": true
+    },
+    {
+      "id": "solo-q122-cpp-csv-s44-h5.5",
+      "complete": true,
+      "resource_limited": false,
+      "seconds": 587.6696181297302,
+      "feedback": null,
+      "last_fixed_checks": {
+        "normal": true,
+        "asan": true
+      },
+      "last_saved_tests": true
+    }
+  ],
+  "current_jobs": {},
+  "current_fixed_checks": {},
+  "current_saved_tests": null,
+  "resource_window": {
+    "samples": 0
+  },
+  "error_classification": [],
+  "unexplained_errors": [],
+  "sources_verified": {
+    "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/progress/decision-campaign-v1/source": 7,
+    "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/frozen-harness-v5.5": 35
+  },
+  "previous_result_hashes_verified": 242,
+  "production_preserved": true,
+  "github_local_head": "ebbee36a64b2d3c503c99e068a7de053762bf64f",
+  "github_remote_head": "d0cbd4364c5a3231a704cf075abbb6c1e91385ab",
+  "github_heads_match": false,
+  "backup_status": {
+    "at_utc": "2026-11-13T16:06:04.348716+00:00",
+    "error": "GitHub push failed; local commits retained for retry: fatal: unable to access 'https://github.com/ConnerWebb/openrig-model-bench.git/': Could not resolve host: github.com\n",
+    "local_commits_retained": true,
+    "success": false
+  },
+  "live_chart": {
+    "checked_at": 1794586372.9127162,
+    "error": null,
+    "campaign_pid": 1242258,
+    "heartbeat_at": 1794515622.5132935,
+    "active_jobs": [],
+    "phase": "complete",
+    "current": null,
+    "revision": "h5.5",
+    "captured_at": 1794493015.9227962,
+    "captured_label": "Nov 12, 2026 \u00b7 08:16:55 AM CST",
+    "result_identity": "0204c6e272926e478cc9bda5f4ca903953d66229006249e7d425979b82c0bf22",
+    "finished_solo_trials": 198
+  },
+  "admission_window": {
+    "started": 1794455369.5040553,
+    "deadline": 1794584969.5040553
+  },
+  "attention": null,
+  "completion": {
+    "at": 1794515622.5620103,
+    "harness_revision": "h5.5",
+    "dispatch": "decision-v1",
+    "scope": "shortened decision campaign",
+    "outcome": "completed_shortened_scope",
+    "full_original_matrix_complete": false,
+    "final_checkpoint": "/home/cow/Documents/Codex/Backups/openrig-programming/20261109-235342/decision-v1-final-1794515619388592109",
+    "report": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/openrig-programming-20261109-235342/FINAL-COMPARISON.txt",
+    "no_production_promotion": true
+  },
+  "note": "This observer does not restart services, infer, alter models, execute tests, modify trials or assign agents. Source is not part of the immutable scoring/dispatch runtime."
+}
