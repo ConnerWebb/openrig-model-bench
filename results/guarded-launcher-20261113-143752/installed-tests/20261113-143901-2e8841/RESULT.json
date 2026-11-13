@@ -1,0 +1,34 @@
+{
+  "id": "work-h5.5",
+  "task": "general",
+  "language": "python",
+  "models": {
+    "developer": "q122"
+  },
+  "seed": 42,
+  "variant": 0,
+  "topology": 1,
+  "phase": "general-coding",
+  "harness_revision": "h5.5",
+  "started": 1794602344.0963838,
+  "complete": true,
+  "operator_interventions": 0,
+  "seed_fixture": "/home/cow/.local/state/openrig-fleet/v2/programming/jobs/20261113-143901-2e8841/input",
+  "seed_fixture_hash": "e034183aaec566e1244cf1f2b6e73714543779619e1c9710f09e9720eddc0af9",
+  "rig": "bench-1439012e8841-c42c797ded94",
+  "stage_attempts": [
+    {
+      "attempt": 1,
+      "started": 1794602347.8909757,
+      "incoming_feedback": "None. "
+    }
+  ],
+  "attempts": 1,
+  "completed_hash": "09ea701e724c48f6a9df4165b4f578719cbaaafe9d8392ee6de893c996faa56b",
+  "final_project": "/home/cow/.local/state/openrig-fleet/v2/programming/jobs/20261113-143901-2e8841/runs/work-h5.5/seats/developer/project",
+  "review_required": false,
+  "review_approved": null,
+  "finished": 1794602406.1087272,
+  "seconds": 62.012343406677246,
+  "source_original_unchanged": true
+}

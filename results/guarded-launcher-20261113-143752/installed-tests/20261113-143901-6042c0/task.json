@@ -1,0 +1,66 @@
+{
+  "id": "20261113-143901-6042c0",
+  "source": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/work/guarded-launcher/fixtures/cpp",
+  "language": "cpp",
+  "task": "Fix add(int,int) in solution.hpp to return a+b. Preserve the API. Add a standalone test_add.cpp with main and assertions, and README.md describing the fix. Use clang++ -fuse-ld=bfd -std=c++20.\n",
+  "profile": {
+    "name": "qwen122-general-coding",
+    "status": "approved-production-profile",
+    "model": "framework-qwen122",
+    "default_workflow": {
+      "agents": 1,
+      "developer": "framework-qwen122"
+    },
+    "optional_roles": {
+      "planner": "framework-qwen122",
+      "reviewer": "framework-qwen122"
+    },
+    "inference": {
+      "host": "127.0.0.1",
+      "port": 11434,
+      "context_length": 32768,
+      "max_output_tokens": 4096,
+      "num_parallel": 1,
+      "max_loaded_models": 1,
+      "temperature": 0.2,
+      "top_p": 0.95,
+      "top_k": 40
+    },
+    "admission": {
+      "maximum_independent_tasks": 2,
+      "default_active_tasks": 1
+    },
+    "experimental_parallel": {
+      "requested_slots": 3,
+      "production_default": false,
+      "note": "Measured throughput improvement but runner reported n_seq_max=1; do not claim GPU concurrency."
+    },
+    "guardrails": [
+      "isolated workspaces",
+      "explicit task contracts",
+      "independent private checks",
+      "exact-source completion receipts",
+      "bounded retries",
+      "no public listener"
+    ],
+    "promotion_requires_user_approval": false,
+    "rollback_backup": "/home/cow/Documents/Codex/Backups/qwen122-promotion-20261113-134913",
+    "proposed_production_alias": "framework-qwen122",
+    "alias_installation": "Installed after explicit user approval",
+    "languages": [
+      "python",
+      "cpp"
+    ],
+    "source_validation": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/qwen122-candidate-20261113-131635/VALIDATION.json"
+  },
+  "source_before": {
+    "check.py": "e1850d68532f0e4e4dbbb296da009ccb7547a3a8afa3019ca407dc835f562046",
+    "solution.hpp": "bde93f902d9c53fd1fc046f52ba04f002266ddf36093159bf9344a75de1d886d",
+    "task.txt": "77a0f4eb0da4c9729de99eb51806ea0fd8a2aa0a25ab85a6801f4d250228756e"
+  },
+  "trusted_check_sha256": "e1850d68532f0e4e4dbbb296da009ccb7547a3a8afa3019ca407dc835f562046",
+  "acceptance_note": "Same frozen operator check rerun independently; not hidden coverage",
+  "state": "complete",
+  "project_tests_only": true,
+  "result": "/home/cow/.local/state/openrig-fleet/v2/programming/jobs/20261113-143901-6042c0/RESULT.json"
+}

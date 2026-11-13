@@ -1,0 +1,55 @@
+Guarded OpenRig coding from Windows VS Code
+
+Connect using Microsoft Remote-SSH to cow@192.168.1.202 and open the Linux
+project folder. Run these commands in that remote VS Code terminal, not in
+Windows PowerShell. No model-port forwarding or public endpoint is needed.
+
+Write the requested change in task.txt. For a Python unittest project:
+  fleet-programming new --language python --project . --task-file task.txt
+
+The launcher prints a task ID and disposable workspace. Check it with:
+  fleet-programming status TASK_ID
+  fleet-programming result TASK_ID
+Open the printed workspace in VS Code to review code and README. Original
+source is never edited or automatically merged. Task processes survive closing
+the terminal. They are serialized through one local model runtime.
+
+For C++ or a custom project build/test policy, provide a Python check script:
+  fleet-programming new --language cpp --project . --task-file task.txt --check-file checks/openrig_check.py --project-tests-only
+The script runs in /work, exits nonzero on failure, and should assert actual
+behavior. Build temporary outputs under tempfile.TemporaryDirectory(). It can
+invoke installed clang++, CMake and ctest. Use ctest --no-tests=error when
+applicable. --project-tests-only means this frozen script defines the entire
+project test/build policy; no additional standalone-test discovery is claimed.
+Without this flag, saved unittest tests and standalone *test*.cpp files are
+also executed. Do not use the flag without --check-file.
+
+You can use --check-file for Python too. Optionally supply --acceptance-file
+with a separate operator-authored Python verification script. Without it,
+acceptance independently reruns the SAME frozen checker; this is explicitly
+not extra hidden coverage. Default Python verification snapshots existing
+unittest tests outside the agent's writable workspace. If those tests do not
+cover a new feature, provide acceptance checks that do. Passing means the
+specified checks passed, not that untested requirements were proved.
+
+Current environment: Python stdlib and installed system C++ toolchain. No
+network or host-home access inside tools, no automatic dependency downloads.
+Projects needing other dependencies require a prepared test environment.
+Hidden files (including .env and .git), dependency caches and build directories
+are excluded from snapshots. Symlinks are refused. Select a source/subproject
+of at most64MiB, with no individual file larger than16MiB. Unity projects are
+refused; their existing commands/profiles remain unchanged.
+
+All history/check evidence is retained under:
+ /home/cow/.local/state/openrig-fleet/v2/programming/jobs/TASK_ID
+Inspect service logs with:
+ journalctl --user -u fleet-programming-TASK_ID.service
+To cancel a task, stop only that task service:
+ systemctl --user stop fleet-programming-TASK_ID.service
+An interrupted task is not a completed result; keep its workspace and evidence.
+
+Rollback: archive the new /home/cow/.local/bin/fleet-programming launcher and
+/home/cow/.local/opt/framework-ai/openrig-fleet/v2/general-coding/launcher.py
+and template/ if disabling this feature. Do not delete programming/jobs or
+restore old Unity/model defaults: this installation did not change them.
+Preserved prior profile/settings and Unity fingerprints are in /home/cow/Documents/Codex/Backups/guarded-launcher-20261113-143752.

@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "end_to_end": [
+    {
+      "id": "20261113-143110-40aded",
+      "language": "python",
+      "passed": true,
+      "original_unchanged": true,
+      "seconds": 98.12592506408691
+    },
+    {
+      "id": "20261113-143110-512cca",
+      "language": "cpp",
+      "passed": true,
+      "original_unchanged": true,
+      "seconds": 76.07805609703064
+    }
+  ],
+  "guard_checks": [
+    "hidden/credential files excluded",
+    "symlinks denied",
+    "wrong implementation rejected",
+    "correct implementation accepted",
+    "early exit0 rejected"
+  ],
+  "unity_unchanged": true,
+  "backup": "/home/cow/Documents/Codex/Backups/guarded-launcher-20261113-143752",
+  "installed_command_tests": [
+    {
+      "id": "20261113-143901-2e8841",
+      "language": "python",
+      "passed": true,
+      "original_unchanged": true,
+      "project_tests_only": false,
+      "seconds": 62.012343406677246
+    },
+    {
+      "id": "20261113-143901-6042c0",
+      "language": "cpp",
+      "passed": true,
+      "original_unchanged": true,
+      "project_tests_only": true,
+      "seconds": 70.26237154006958
+    }
+  ],
+  "unity_refusal_test": true,
+  "installed_launcher": "/home/cow/.local/bin/fleet-programming"
+}

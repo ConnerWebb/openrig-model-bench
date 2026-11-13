@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "count": 1,
+  "hash": "09ea701e724c48f6a9df4165b4f578719cbaaafe9d8392ee6de893c996faa56b",
+  "mode": "normal",
+  "compile": null,
+  "failures": [],
+  "rows": [
+    {
+      "case": "operator-check",
+      "passed": true,
+      "input": "trusted operator verification",
+      "exit": 0,
+      "stderr": "test_negative (test_calc.Addition.test_negative) ... ok\ntest_sum (test_calc.Addition.test_sum) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n",
+      "actual": "CHECK_COMPLETED_1794602406370220035\n",
+      "expected": "successful check and completion marker"
+    }
+  ]
+}
