@@ -1,0 +1,50 @@
+{
+  "name": "qwen122-general-coding",
+  "status": "approved-production-profile",
+  "model": "framework-qwen122",
+  "default_workflow": {
+    "agents": 1,
+    "developer": "framework-qwen122"
+  },
+  "optional_roles": {
+    "planner": "framework-qwen122",
+    "reviewer": "framework-qwen122"
+  },
+  "inference": {
+    "host": "127.0.0.1",
+    "port": 11434,
+    "context_length": 32768,
+    "max_output_tokens": 4096,
+    "num_parallel": 1,
+    "max_loaded_models": 1,
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "top_k": 40
+  },
+  "admission": {
+    "maximum_independent_tasks": 2,
+    "default_active_tasks": 1
+  },
+  "experimental_parallel": {
+    "requested_slots": 3,
+    "production_default": false,
+    "note": "Measured throughput improvement but runner reported n_seq_max=1; do not claim GPU concurrency."
+  },
+  "guardrails": [
+    "isolated workspaces",
+    "explicit task contracts",
+    "independent private checks",
+    "exact-source completion receipts",
+    "bounded retries",
+    "no public listener"
+  ],
+  "promotion_requires_user_approval": false,
+  "rollback_backup": "/home/cow/Documents/Codex/Backups/qwen122-promotion-20261113-134913",
+  "proposed_production_alias": "framework-qwen122",
+  "alias_installation": "Installed after explicit user approval",
+  "languages": [
+    "python",
+    "cpp"
+  ],
+  "source_validation": "/home/cow/Documents/Codex/2026-11-05/referenced-chatgpt-conversation-this-is-an/outputs/qwen122-candidate-20261113-131635/VALIDATION.json"
+}

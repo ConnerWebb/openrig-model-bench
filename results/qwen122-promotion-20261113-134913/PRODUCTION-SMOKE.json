@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "structured_tool_call": [
+    {
+      "id": "call_bdntzin2",
+      "function": {
+        "index": 0,
+        "name": "add",
+        "arguments": {
+          "a": 17,
+          "b": 25
+        }
+      }
+    }
+  ],
+  "loaded_model": {
+    "name": "framework-qwen122:latest",
+    "model": "framework-qwen122:latest",
+    "size": 79983059925,
+    "digest": "315df285a438e2ee893f6409108baf22a43e95a59f184f86bf8adf93e872d2f5",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen35moe",
+      "families": [
+        "qwen35moe"
+      ],
+      "parameter_size": "125.1B",
+      "quantization_level": "Q4_K_M"
+    },
+    "expires_at": "2026-11-13T13:55:44.390225726-06:00",
+    "size_vram": 79983059925,
+    "context_length": 32768,
+    "runner": "llamacpp"
+  }
+}

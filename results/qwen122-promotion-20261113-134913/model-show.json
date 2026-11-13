@@ -1,0 +1,14 @@
+{
+  "details": {
+    "parent_model": "qwen3.5:122b",
+    "format": "gguf",
+    "family": "qwen35moe",
+    "families": [
+      "qwen35moe"
+    ],
+    "parameter_size": "125.1B",
+    "quantization_level": "Q4_K_M",
+    "runner": "ggml"
+  },
+  "parameters": "num_predict                    4096\npresence_penalty               0\nrepeat_penalty                 1\ntemperature                    0.2\ntop_k                          40\ntop_p                          0.95\nfrequency_penalty              0\nnum_ctx                        32768"
+}
